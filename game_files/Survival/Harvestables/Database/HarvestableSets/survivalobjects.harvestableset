@@ -1,0 +1,164 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Survivalobjects/hvs_survivalobjects_latchleverbase_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "hvs_survivalobjects_latchleverbase",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Survivalobjects/hvs_survivalobjects_latchleverbase.rend",
+			"script" : 
+			{
+				"class" : "RailDoorLatch",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/RailDoorLatch.lua"
+			},
+			"uuid" : "cbf64d72-4574-48f8-8d81-5e071657ec7a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Survivalobjects/hvs_survivalobjects_warehouseconsolebase_col.fbx",
+			"color" : "566466ff",
+			"mass" : 1000.0,
+			"material" : "Electronics",
+			"name" : "hvs_survivalobjects_warehouseconsolebase",
+			"params" : 
+			[
+				{
+					"default" : false,
+					"name" : "isQuestConsole",
+					"type" : "bool"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Survivalobjects/hvs_survivalobjects_warehouseconsolebase.rend",
+			"script" : 
+			{
+				"class" : "WarehouseConsoleBase",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/WarehouseConsoleBase.lua"
+			},
+			"uuid" : "ce087eb1-47bc-4b2d-8408-8780f771965a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Survivalobjects/hvs_survivalobjects_warehouseconsolebase_breakstate01_col.fbx",
+			"color" : "566466ff",
+			"mass" : 1000.0,
+			"material" : "Electronics",
+			"name" : "hvs_survivalobjects_warehouseconsolebase_breakstate01",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Survivalobjects/hvs_survivalobjects_warehouseconsolebase_breakstate01.rend",
+			"script" : 
+			{
+				"class" : "WarehouseConsoleDestroyed",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/WarehouseConsoleDestroyed.lua"
+			},
+			"uuid" : "f811de38-5b13-49a8-8d33-ee4e05e7eb52"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Objects/Mesh/survivalobject/obj_survivalobject_infopanel.fbx",
+			"color" : "ffffffff",
+			"mass" : 1000.0,
+			"material" : "Electronics",
+			"name" : "hvs_survivalobjects_builderguide_infopanel",
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/survivalobject/obj_survivalobject_infopanel.rend",
+			"script" : 
+			{
+				"class" : "BuilderGuideInfoPanel",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BuilderGuideInfoPanel.lua"
+			},
+			"uuid" : "11ffeef5-42d2-4cd6-b242-b981cc904d0e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/survivalobjects/hvs_survivalobjects_builderquestbutton_col.fbx",
+			"color" : "ec7900ff",
+			"mass" : 1000.0,
+			"material" : "Electronics",
+			"name" : "hvs_survivalobjects_builderquestbutton_queststarter",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/survivalobjects/hvs_survivalobjects_builderquestbutton.rend",
+			"script" : 
+			{
+				"class" : "BuilderGuideQuestStarter",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BuilderGuideQuestStarter.lua"
+			},
+			"uuid" : "fc584dff-f102-4a5f-bfdc-7a17da6c3763"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Powerladder/env_powerladder_powerladderbase_col.obj",
+			"color" : "e3800dff",
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "powerladderbase",
+			"params" : 
+			[
+				{
+					"name" : "backwards",
+					"type" : "bool"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Powerladder/env_powerladder_powerladderbase.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderSpawner",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderSpawner.lua"
+			},
+			"uuid" : "857e51e5-82ac-4624-a069-0c5ea61bdd23"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerstation/hvs_powerstation_activationslot_col.fbx",
+			"color" : "00afecff",
+			"mass" : 10000.0,
+			"material" : "Electronics",
+			"name" : "hvs_powerstation_activationslot",
+			"params" : 
+			[
+				{
+					"name" : "activatorStorageFlag",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerstation/hvs_powerstation_activationslot.rend",
+			"script" : 
+			{
+				"class" : "MininghubPowerActivator",
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/MininghubPowerActivator.lua"
+			},
+			"uuid" : "895f5d04-c29a-46fd-bff5-742fc310940b"
+		},
+		{
+			"col_sphere" : 
+			{
+				"diameter" : 2
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Stone",
+			"name" : "hvs_voxelspawncontainer",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "CrudeOre",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/CrudeOre.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "6905ab4d-1349-4ca2-bd8f-5eb69abb11a0"
+		}
+	]
+}

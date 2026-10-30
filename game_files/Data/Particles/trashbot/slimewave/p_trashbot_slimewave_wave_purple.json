@@ -1,0 +1,1322 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_asg.tga",
+				"circle_angle" : 0.0,
+				"color" : 
+				[
+					0.96078,
+					0.19607,
+					0.91372,
+					1.0
+				],
+				"depth" : 
+				[
+					0.5,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.04379
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 6.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.16527
+							],
+							[
+								1.0,
+								1.01865
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.06374,
+								2.0
+							],
+							[
+								0.10159,
+								-0.4107
+							],
+							[
+								0.16334,
+								0.00533
+							],
+							[
+								0.29282,
+								-0.19739
+							],
+							[
+								0.71976,
+								-0.14402
+							],
+							[
+								0.90785,
+								0.0
+							],
+							[
+								1.0,
+								1.5413
+							]
+						],
+						"enabled" : false,
+						"guid" : 3,
+						"max" : 2.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.05,
+								0.5
+							],
+							[
+								0.94998,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 4,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 0,
+				"height" : 
+				[
+					0.5,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"name" : "SlimeWave4",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10853
+				],
+				"radius" : 0.0,
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave01_purple.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					45.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					0.5
+				],
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.300000012
+			},
+			{
+				"box" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"category" : "3",
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.632
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 6.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27199
+							],
+							[
+								1.0,
+								1.1
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 96,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 8,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								35.0
+							],
+							[
+								1.0,
+								140.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 9,
+						"max" : 140.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 5,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 01 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash01_purple.rend",
+				"rotation" : -25.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"box" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"category" : "3",
+				"delay" : 0.1,
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.632
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 6.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27199
+							],
+							[
+								1.0,
+								1.1
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 96,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 13,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								35.0
+							],
+							[
+								1.0,
+								140.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 14,
+						"max" : 140.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 10,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 02 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash01_purple.rend",
+				"rotation" : -25.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"box" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"category" : "3",
+				"delay" : 0.2,
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.632
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 6.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27199
+							],
+							[
+								1.0,
+								1.1
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 96,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 18,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								35.0
+							],
+							[
+								1.0,
+								140.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 19,
+						"max" : 140.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 15,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 03 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash01_purple.rend",
+				"rotation" : -25.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"box" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"category" : "3",
+				"delay" : 0.3,
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.632
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 6.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27199
+							],
+							[
+								1.0,
+								1.1
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 96,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 23,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								35.0
+							],
+							[
+								1.0,
+								140.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 24,
+						"max" : 140.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 20,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 04 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash01_purple.rend",
+				"rotation" : -25.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"box" : 
+				[
+					0.1,
+					0.0,
+					0.0
+				],
+				"category" : "4",
+				"depth" : 
+				[
+					0.5,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.54934
+							],
+							[
+								1.0,
+								2.91118
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 48,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 27,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								22.5
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 28,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5,
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.816
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.01312
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 30,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 25,
+				"height" : 
+				[
+					0.5,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 01 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash02_purple.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.1
+				]
+			},
+			{
+				"box" : 
+				[
+					0.1,
+					0.0,
+					0.0
+				],
+				"category" : "4",
+				"delay" : 0.75,
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.632
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 32,
+						"max_scale" : 6.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 48,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 33,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								22.5
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 34,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 31,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 02 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash03_purple.rend",
+				"rotation" : -45.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"box" : 
+				[
+					0.1,
+					0.0,
+					0.0
+				],
+				"category" : "4",
+				"delay" : 1.5,
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.632
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 36,
+						"max_scale" : 6.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 48,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 37,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								22.5
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 38,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 35,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 03 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash04_purple.rend",
+				"rotation" : -45.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"box" : 
+				[
+					0.1,
+					0.0,
+					0.0
+				],
+				"category" : "4",
+				"delay" : 2.25,
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.632
+							],
+							[
+								1.0,
+								3.74394
+							]
+						],
+						"guid" : 40,
+						"max_scale" : 6.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 48,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 41,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								22.5
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 42,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.5
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"guid" : 39,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"inherit_velocity" : true,
+				"keep_local" : true,
+				"material_name" : "GlassAnimAlpha",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Splash plane 04 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_splash05_purple.rend",
+				"rotation" : -45.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

@@ -1,0 +1,196 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_asg.tga",
+				"box" : 
+				[
+					8.0,
+					1.0,
+					1.0
+				],
+				"category" : "7 - ",
+				"delay" : 1.0,
+				"depth" : 
+				[
+					5.0,
+					1.5
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 10
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.26247
+							],
+							[
+								1.0,
+								2.12789
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.73921
+							],
+							[
+								0.1639,
+								1.07184
+							],
+							[
+								0.53591,
+								1.33879
+							],
+							[
+								1.0,
+								1.50308
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.30704,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.59211
+							],
+							[
+								1.0,
+								-2.36844
+							]
+						],
+						"guid" : 5,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 2,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-20.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					8.0,
+					3.0
+				],
+				"keep_local" : false,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/chemicaltower/p_chemicaltower_splashplane01.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_chemical_fbrdf.tga",
+				"mesh_size" : 
+				[
+					3.0,
+					3.0,
+					3.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "water  billboard mesh",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 90.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					1.1
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					20.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					1.5
+				]
+			}
+		],
+		"scale_time" : 2.0
+	}
+}

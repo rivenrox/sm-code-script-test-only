@@ -1,0 +1,159 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/powerstation/env_powerstation_activationslot03_col.fbx",
+			"color" : "c11009ff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "kin_powerstation_activationslot03",
+			"params" : 
+			[
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/powerstation/kin_powerstation_activationslot03.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : {
+					"kinematic" : 
+					{
+						"movementEffect" : "Poweractivationstation - Close"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "e47e8c54-e365-49c1-a4ca-dfa31f102159"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/powerstation/kin_powerstation_generatortrigger_col.fbx",
+			"color" : "c11009ff",
+			"mass" : 10000.0,
+			"material" : "Mechanical",
+			"name" : "powerstation generatortrigger",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				},
+				{
+					"name" : "connectedNodeName",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/powerstation/kin_powerstation_generatortrigger.rend",
+			"script" : 
+			{
+				"class" : "CombatRoomButton",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/CombatRoomButton.lua"
+			},
+			"uuid" : "b686be1e-acbb-4f1f-b98d-cf79b45830b5"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/powerstation/kin_powerstation_generatortriggerknob_col.fbx",
+			"color" : "c11009ff",
+			"mass" : 10000.0,
+			"material" : "Mechanical",
+			"name" : "powerstation generatortriggerknob",
+			"params" : 
+			[
+				{
+					"name" : "preset",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/powerstation/kin_powerstation_generatortriggerknob.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematic.lua"
+			},
+			"uuid" : "5ebec021-92d8-48a7-8403-06500d10e20e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/powerstation/kin_powerstation_generatortriggerhatch_col.fbx",
+			"color" : "c11009ff",
+			"mass" : 10000.0,
+			"material" : "Mechanical",
+			"name" : "powerstation generatortriggerhatch",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/powerstation/kin_powerstation_generatortriggerhatch.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "7bcff8db-c328-41d8-b993-9c3eb32283ed"
+		}
+	]
+}

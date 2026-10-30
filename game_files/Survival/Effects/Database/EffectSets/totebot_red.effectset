@@ -1,0 +1,313 @@
+{
+	"ToteBotRed - Alerted" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_red_noticeplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 3
+		}
+	},
+	"ToteBotRed - ChasePlayer" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_walk_chaseplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 3
+		}
+	},
+	"Totebotred - Canisterimpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_totebot_red_aggresive_canisterimpact",
+				"offset" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Totebotred - Destroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_red_destroy_parts",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Totebotred - Explosion" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_totebot_red_explosion",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_red_explode"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 1.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"duration" : 0.5,
+				"shakeAmplitude" : 
+				[
+					0.25,
+					0.25,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.5,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 27,
+				"shakeRotational" : false,
+				"shakeStrength" : 1.0,
+				"type" : "cameraShake"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.100000001,
+						"value" : 15.0
+					},
+					{
+						"time" : 0.600000024,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffd8b0",
+			"intensity" : 5.0,
+			"radius" : 16.0,
+			"size" : 0.0
+		}
+	},
+	"Totebotred - Gasleak" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_red_aggresive_ignite_gasleak",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.25
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.25,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_red_aggresive_canisterimpact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-1.5
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.425,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_red_aggresive_canisterimpact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.8
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_red_sprint"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Totebotred - Ignite" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_red_aggresive_ignite",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Totebotred - Prexplode" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_red_aggresive_prexplode",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_red_preexplode"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	}
+}

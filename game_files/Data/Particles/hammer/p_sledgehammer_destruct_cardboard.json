@@ -1,0 +1,972 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"bounce" : 0.5,
+				"category" : "Backwards",
+				"collision" : "die",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"diffuse" : "Textures/Glow/glow_smokeglow01.tga",
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"height" : 0.5,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"min_quality" : "high",
+				"name" : "Col Checker 1 (High)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					0.125
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 51211,
+				"sub" : 
+				[
+					{
+						"angle" : 
+						[
+							0.0,
+							22.0
+						],
+						"color_fraction" : 1.0,
+						"cone_angle" : 45.0,
+						"cone_radius" : 0.1,
+						"default_particle" : 
+						[
+							0.33,
+							0.33
+						],
+						"delay" : 0.05,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_cardboard04.tga",
+						"direction_type" : "shape",
+						"duration" : 0.03999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.94335,
+										1.0
+									],
+									[
+										1.0,
+										0.51999
+									]
+								],
+								"guid" : 2,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 25,
+								"fps" : 24,
+								"guid" : 3,
+								"mode" : "over_time",
+								"name" : "TextureAnimator",
+								"repeat" : true
+							},
+							{
+								"axis" : "y",
+								"base" : -2.0,
+								"control_point" : 
+								[
+									[
+										0.0,
+										-2.0
+									],
+									[
+										0.20047,
+										-0.52
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 4,
+								"max" : 2.0,
+								"name" : "Velocity"
+							},
+							{
+								"axis" : "y",
+								"base" : -3.0,
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.5,
+										-0.90004
+									],
+									[
+										1.0,
+										-3.0
+									]
+								],
+								"guid" : 5,
+								"local" : false,
+								"max" : 3.0,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										0.85351,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									]
+								],
+								"guid" : 6,
+								"name" : "Color"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1500,
+						"guid" : 1,
+						"height" : 
+						[
+							0.5,
+							0.125
+						],
+						"keep_local" : false,
+						"max_particles" : 1,
+						"min_quality" : "high",
+						"name" : "Cardboard Billboard 2",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"params" : 2,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							0.3
+						],
+						"random_flip" : 
+						[
+							0.5,
+							0.5
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							-1.0,
+							1.0
+						],
+						"rotation_speed" : 25.0,
+						"scene_blend" : "alpha_blend",
+						"soft_particles_bias" : 5000,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							5,
+							5
+						],
+						"time_to_live" : 
+						[
+							2.0,
+							0.25
+						],
+						"translucency" : 1.0,
+						"type" : "cone",
+						"velocity" : 
+						[
+							1.0,
+							0.5
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.125
+						],
+						"z_offset" : 1.0
+					},
+					{
+						"billboard_type" : "axial_self",
+						"box" : 
+						[
+							0.025,
+							0.025,
+							0.025
+						],
+						"color" : 
+						[
+							0.93357,
+							0.93357,
+							0.93357,
+							1.0
+						],
+						"delay" : 0.05,
+						"diffuse" : "Textures/Flash/flash_flash02.tga",
+						"direction" : 
+						[
+							0.0,
+							0.0,
+							-1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.99607,
+											0.87449,
+											0.66666,
+											1.0
+										]
+									],
+									[
+										0.61124,
+										[
+											0.7656,
+											0.70823,
+											0.61009,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.54685,
+											0.52322,
+											0.48278,
+											0.0
+										]
+									]
+								],
+								"guid" : 8,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										0.74032,
+										0.69414
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"fade" : 0.5,
+								"guid" : 9,
+								"length" : 1.0,
+								"name" : "Cutoff"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"friction" : 1.0,
+						"guid" : 7,
+						"height" : 0.75,
+						"keep_local" : false,
+						"max_particles" : 1,
+						"name" : "Impact",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							0.2
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"soft_particles_bias" : 1200,
+						"sort_offset" : -0.20003,
+						"sub_emit" : "birth",
+						"time_to_live" : 0.25,
+						"translucency" : 0.5,
+						"type" : "box",
+						"velocity" : 2.0,
+						"water_mask" : "none",
+						"width" : 0.300000012,
+						"z_offset" : 25.0
+					}
+				],
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 0.100000001,
+				"velocity" : -5.0,
+				"water_mask" : "none",
+				"width" : 0.5
+			},
+			{
+				"bounce" : 0.5,
+				"category" : "Forward",
+				"collision" : "die",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.0,
+					0.0
+				],
+				"diffuse" : "Textures/Glow/glow_smokeglow01.tga",
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 10,
+				"height" : 0.5,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"min_quality" : "high",
+				"name" : "Col Checker 1 (High)",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 51211,
+				"sub" : 
+				[
+					{
+						"angle" : 
+						[
+							0.0,
+							22.0
+						],
+						"color_fraction" : 1.0,
+						"cone_angle" : 45.0,
+						"cone_radius" : 0.1,
+						"default_particle" : 
+						[
+							0.33,
+							0.33
+						],
+						"delay" : 0.05,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_cardboard04.tga",
+						"direction_type" : "shape",
+						"duration" : 0.03999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.93922,
+										1.0
+									],
+									[
+										1.0,
+										0.51999
+									]
+								],
+								"guid" : 12,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 25,
+								"fps" : 24,
+								"guid" : 13,
+								"mode" : "over_time",
+								"name" : "TextureAnimator",
+								"repeat" : true
+							},
+							{
+								"axis" : "y",
+								"base" : -2.0,
+								"control_point" : 
+								[
+									[
+										0.0,
+										2.0
+									],
+									[
+										0.15072,
+										0.77622
+									],
+									[
+										0.33845,
+										-0.07896
+									],
+									[
+										1.0,
+										-0.7369
+									]
+								],
+								"guid" : 14,
+								"max" : 2.0,
+								"name" : "Velocity"
+							},
+							{
+								"axis" : "y",
+								"base" : -3.0,
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.6,
+										-0.90004
+									],
+									[
+										1.0,
+										-3.0
+									]
+								],
+								"guid" : 15,
+								"local" : false,
+								"max" : 3.0,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										0.85351,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									]
+								],
+								"guid" : 16,
+								"name" : "Color"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1500,
+						"guid" : 11,
+						"height" : 
+						[
+							1.0,
+							0.125
+						],
+						"keep_local" : false,
+						"max_particles" : 1,
+						"min_quality" : "high",
+						"name" : "Cardboard Billboard 2",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"params" : 2,
+						"random_flip" : 
+						[
+							0.5,
+							0.5
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							-1.0,
+							1.0
+						],
+						"rotation_speed" : 25.0,
+						"scene_blend" : "alpha_blend",
+						"soft_particles_bias" : 5000,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							5,
+							5
+						],
+						"time_to_live" : 
+						[
+							2.0,
+							0.25
+						],
+						"translucency" : 1.0,
+						"type" : "cone",
+						"velocity" : 
+						[
+							1.0,
+							0.5
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.125
+						],
+						"z_offset" : 1.0
+					},
+					{
+						"billboard_type" : "axial_self",
+						"color" : 
+						[
+							0.93357,
+							0.93357,
+							0.93357,
+							1.0
+						],
+						"delay" : 0.05,
+						"diffuse" : "Textures/Flash/flash_flash02.tga",
+						"direction_type" : "constant",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.99607,
+											0.87449,
+											0.66666,
+											1.0
+										]
+									],
+									[
+										0.61124,
+										[
+											0.7656,
+											0.70823,
+											0.61009,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.54685,
+											0.52322,
+											0.48278,
+											0.0
+										]
+									]
+								],
+								"guid" : 18,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										0.74032,
+										0.69414
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"fade" : 0.5,
+								"guid" : 19,
+								"length" : 1.0,
+								"name" : "Cutoff"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"friction" : 1.0,
+						"guid" : 17,
+						"height" : 0.75,
+						"keep_local" : false,
+						"max_particles" : 1,
+						"min_quality" : "high",
+						"name" : "IMPACT",
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"soft_particles_bias" : 1200,
+						"sort_offset" : -0.20003,
+						"sub_emit" : "birth",
+						"time_to_live" : 0.25,
+						"translucency" : 0.5,
+						"velocity" : 2.0,
+						"water_mask" : "none",
+						"width" : 0.300000012,
+						"z_offset" : 25.0
+					}
+				],
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 0.100000001,
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 0.5
+			},
+			{
+				"angle" : 280.0,
+				"category" : "1 - Smoke",
+				"color" : 
+				[
+					0.77341,
+					0.70594,
+					0.59517,
+					1.0
+				],
+				"delay" : 0.025,
+				"diffuse" : "Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								4.25
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 4.25,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 22,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.84788,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 23,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58766
+							],
+							[
+								1.0,
+								0.80194
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 24,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1001,
+				"force_vector" : 
+				[
+					0.0,
+					-0.0,
+					-1.0
+				],
+				"guid" : 20,
+				"height" : 
+				[
+					0.55,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 5,
+				"name" : "debri aftermarth",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.55,
+					0.05
+				],
+				"translucency" : 0.5,
+				"velocity" : 0.200000003,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.55,
+					0.1
+				],
+				"z_offset" : 25.0
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.99215,
+					0.87058,
+					0.66272,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.80075
+								]
+							],
+							[
+								0.88169,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.60935
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.46568
+							],
+							[
+								0.07924,
+								0.8137
+							],
+							[
+								0.20374,
+								1.21568
+							],
+							[
+								0.37106,
+								1.48038
+							],
+							[
+								1.0,
+								1.72546
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 28,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 24
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 25,
+				"height" : 0.75,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Smoke Ring 4 [low]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 1.0,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"translucency" : 0.5,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75,
+				"z_offset" : 1.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

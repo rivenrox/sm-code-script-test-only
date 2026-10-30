@@ -1,0 +1,495 @@
+{
+	"assetListRenderable" : 
+	[
+		{
+			"name" : "water",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Water/16x16.fbx",
+						"subMeshMap" : 
+						{
+							"water_bot_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									-1.0,
+									0.0
+								],
+								"material" : "WaterUnderSurface",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/water_color_dif.tga"
+								]
+							},
+							"water_top_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									1.0,
+									0.0
+								],
+								"material" : "Water",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/water_color_dif.tga"
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						-0.100000001,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					],
+					"size" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"occluderIsWater" : true,
+				"streaming" : false
+			},
+			"uuid" : "990cce84-a683-4ea6-83cc-d0aee5e71e15"
+		},
+		{
+			"name" : "lava",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Water/16x16_lava.fbx",
+						"subMeshMap" : 
+						{
+							"water_bot_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									-1.0,
+									0.0
+								],
+								"custom" : 
+								{
+									"flowMap" : 
+									{
+										"flowSpeed" : 0.100000001
+									},
+									"scrollUv" : 
+									{
+										"speed" : 
+										[
+											0.02,
+											0.02
+										]
+									},
+									"translucent" : 
+									{
+										"push" : 0.449999988,
+										"refraction" : 0.150000006,
+										"thickness" : 7.690000057
+									}
+								},
+								"hidden" : false,
+								"material" : "Lava",
+								"textures" : 
+								{
+									"asg" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_asg.tga",
+									"diffuse" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_dif.tga",
+									"flowMap" : "$SURVIVAL_DATA/Lighting/Textures/flowmap_lava.tga",
+									"translucent" : "$SURVIVAL_DATA/Textures/Materialtextures/t_translucency_lava_nmap.tga"
+								}
+							},
+							"water_top_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									1.0,
+									0.0
+								],
+								"custom" : 
+								{
+									"flowMap" : 
+									{
+										"flowSpeed" : 0.100000001
+									},
+									"scrollUv" : 
+									{
+										"speed" : 
+										[
+											0.02,
+											0.02
+										]
+									},
+									"translucent" : 
+									{
+										"push" : 0.449999988,
+										"refraction" : 0.150000006,
+										"thickness" : 7.690000057
+									}
+								},
+								"material" : "Lava",
+								"textures" : 
+								{
+									"asg" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_asg.tga",
+									"diffuse" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_dif.tga",
+									"flowMap" : "$SURVIVAL_DATA/Lighting/Textures/flowmap_lava.tga",
+									"translucent" : "$SURVIVAL_DATA/Textures/Materialtextures/t_translucency_lava_nmap.tga"
+								}
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						-0.100000001,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					],
+					"size" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"occluderIsWater" : true,
+				"streaming" : false
+			},
+			"uuid" : "8e85f36d-c4b2-41bf-bf8e-33cd79e4534f"
+		},
+		{
+			"name" : "sewerwater",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Water/16x16.fbx",
+						"subMeshMap" : 
+						{
+							"water_bot_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									-1.0,
+									0.0
+								],
+								"material" : "WaterUnderSurface",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/sewer_water_color_dif.tga"
+								]
+							},
+							"water_top_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									1.0,
+									0.0
+								],
+								"material" : "Water",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/sewer_water_color_dif.tga"
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						-0.100000001,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					],
+					"size" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"occluderIsWater" : true,
+				"streaming" : false
+			},
+			"uuid" : "43180d39-6e19-4e08-9d60-631c2b7009b5"
+		},
+		{
+			"name" : "undegroundwater",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Water/16x16.fbx",
+						"subMeshMap" : 
+						{
+							"water_bot_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									-1.0,
+									0.0
+								],
+								"material" : "WaterUnderSurface",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/underground_water_color_dif.tga"
+								]
+							},
+							"water_top_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									1.0,
+									0.0
+								],
+								"material" : "Water",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/underground_water_color_dif.tga"
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						-0.100000001,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					],
+					"size" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"occluderIsWater" : true,
+				"streaming" : false
+			},
+			"uuid" : "1237e993-b7bf-4729-9de6-89342321385d"
+		},
+		{
+			"name" : "growlabwater",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Water/16x16.fbx",
+						"subMeshMap" : 
+						{
+							"water_bot_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									-1.0,
+									0.0
+								],
+								"material" : "WaterUnderSurface",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/growlab_water_color_dif.tga"
+								]
+							},
+							"water_top_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									1.0,
+									0.0
+								],
+								"material" : "Water",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/growlab_water_color_dif.tga"
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						-0.100000001,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					],
+					"size" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"occluderIsWater" : true,
+				"streaming" : false
+			},
+			"uuid" : "15c3de2e-54ff-4732-9da8-c1ffd785122c"
+		},
+		{
+			"name" : "chemicals",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Water/16x16.fbx",
+						"subMeshMap" : 
+						{
+							"water_bot_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									-1.0,
+									0.0
+								],
+								"material" : "WaterUnderSurface",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/chemical_color_dif.tga"
+								]
+							},
+							"water_top_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									1.0,
+									0.0
+								],
+								"material" : "Water",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/chemical_color_dif.tga"
+								]
+							}
+						}
+					}
+				],
+				"streaming" : false
+			},
+			"uuid" : "f0f2db63-1f2e-4aae-8dc4-ab7cd6fe2658"
+		},
+		{
+			"name" : "oil",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Water/16x16.fbx",
+						"subMeshMap" : 
+						{
+							"water_bot_mat" : 
+							{
+								"material" : "WaterUnderSurface",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/oil_color_dif.tga"
+								]
+							},
+							"water_top_mat" : 
+							{
+								"cullingPlane" : 
+								[
+									0.0,
+									1.0,
+									0.0
+								],
+								"material" : "Water",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Effects/Textures/Water/oil_color_dif.tga"
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						-0.100000001,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					],
+					"size" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"occluderIsWater" : true,
+				"streaming" : false
+			},
+			"uuid" : "40151920-f883-4d59-8f5d-c9d52222a6f8"
+		}
+	]
+}

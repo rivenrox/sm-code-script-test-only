@@ -1,0 +1,551 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.81958,
+					0.77253,
+					0.68234,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 24,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 18
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.22811,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.61325
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 4.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "smoke [low]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : -1.0,
+				"sphere_radius" : 0.25,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"translucency" : 0.61,
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.25
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.81958,
+					0.77253,
+					0.68234,
+					1.0
+				],
+				"delay" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 30,
+						"guid" : 5,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.47367
+							],
+							[
+								0.20611,
+								0.89472
+							],
+							[
+								0.54768,
+								1.1842
+							],
+							[
+								1.0,
+								1.34868
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.22811,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.48168,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 4,
+				"height" : 
+				[
+					1.75,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Smoke shockwave  (olw)",
+				"normal" : true,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2512,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 0.349999994,
+				"translucency" : 0.61,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.1
+				]
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.5098,
+					0.64705,
+					0.2,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 0.75,
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 9,
+						"name" : "Pose",
+						"time" : 0.75
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								4.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"local" : false,
+						"max" : 4.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								100.0
+							],
+							[
+								0.1462,
+								52.73968
+							],
+							[
+								0.23498,
+								37.67123
+							],
+							[
+								0.37336,
+								23.51597
+							],
+							[
+								0.58745,
+								12.32874
+							],
+							[
+								0.80417,
+								5.02264
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 11,
+						"max" : 100.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"guid" : 8,
+				"height" : 0.75,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Paper1    [medium]",
+				"params" : 2,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/cardboard_destruct/p_renderable_cardboardstack_banana_part01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"sphere_radius" : 0.1,
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "sphere",
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.5098,
+					0.64705,
+					0.2,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 0.75,
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 13,
+						"index" : 1,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								4.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 14,
+						"local" : false,
+						"max" : 4.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								100.0
+							],
+							[
+								0.1462,
+								52.73968
+							],
+							[
+								0.23498,
+								37.67123
+							],
+							[
+								0.37336,
+								23.51597
+							],
+							[
+								0.58745,
+								12.32874
+							],
+							[
+								0.80417,
+								5.02264
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 15,
+						"max" : 100.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"guid" : 12,
+				"height" : 0.75,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Paper1    [medium]",
+				"params" : 2,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/cardboard_destruct/p_renderable_cardboardstack_banana_part01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"sphere_radius" : 0.1,
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "sphere",
+				"water_mask" : "none",
+				"width" : 0.75
+			}
+		],
+		"min_quality" : "low"
+	}
+}

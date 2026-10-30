@@ -1,0 +1,778 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 25.0,
+				"category" : "1 - sparks",
+				"delay" : 0.1,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_digitalglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.155,
+									0.99216,
+									1.0
+								]
+							],
+							[
+								0.70985,
+								[
+									0.1525,
+									0.53276,
+									0.99773,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.00747,
+									0.0194,
+									0.02734,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.17846,
+								0.66118
+							],
+							[
+								0.34768,
+								0.77302
+							],
+							[
+								0.6923,
+								0.78947
+							],
+							[
+								1.0,
+								0.35526
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 30,
+						"fps" : 30,
+						"guid" : 3,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/builderguide_questplatform/p_emissionmesh_builderguidebase_emissiongrid01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					0.05
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.075,
+					0.03299
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"min_quality" : "medium",
+				"name" : "Sparks square",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.51491
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 10240,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.075,
+					0.03299
+				],
+				"z_offset" : 50.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_02.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.2148,
+					1.0,
+					0.28231,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.11828,
+								[
+									0.0,
+									0.26335,
+									0.44139,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 6,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.12471,
+								0.22416
+							],
+							[
+								0.26155,
+								0.36452
+							],
+							[
+								0.46478,
+								0.47953
+							],
+							[
+								1.0,
+								0.60816
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.961
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/builderguide_questplatform/p_emissionmesh_builderguidebase_gradientemission01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"keep_local" : true,
+				"max_particles" : 20,
+				"name" : "Gradient Noise y",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.27514
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 20001,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "mesh",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.25
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0 - ",
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_02.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.2148,
+					1.0,
+					0.28231,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.11828,
+								[
+									0.0,
+									0.26273,
+									0.4392,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 11,
+						"length" : 0.25,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.12471,
+								0.22416
+							],
+							[
+								0.26155,
+								0.36452
+							],
+							[
+								0.46478,
+								0.47953
+							],
+							[
+								1.0,
+								0.60816
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.961
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/builderguide_questplatform/p_emissionmesh_builderguidebase_gradientemission01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 9,
+				"keep_local" : true,
+				"max_particles" : 20,
+				"name" : "Gradient Noise y",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.27514
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 20001,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "mesh",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.25
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_02.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.2148,
+					1.0,
+					0.28231,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.11828,
+								[
+									0.0,
+									0.26273,
+									0.4392,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 15,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 16,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.12471,
+								0.22416
+							],
+							[
+								0.26155,
+								0.36452
+							],
+							[
+								0.46478,
+								0.47953
+							],
+							[
+								1.0,
+								0.60816
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.961
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/builderguide_questplatform/p_emissionmesh_builderguidebase_gradientemission02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 14,
+				"keep_local" : true,
+				"max_particles" : 20,
+				"name" : "Gradient Noise x",
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 20001,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "mesh",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.25
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0 - ",
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_02.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.2148,
+					1.0,
+					0.28231,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.11828,
+								[
+									0.0,
+									0.26273,
+									0.4392,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 21,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.12471,
+								0.22416
+							],
+							[
+								0.26155,
+								0.36452
+							],
+							[
+								0.46478,
+								0.47953
+							],
+							[
+								1.0,
+								0.60816
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.961
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/builderguide_questplatform/p_emissionmesh_builderguidebase_gradientemission02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 19,
+				"keep_local" : true,
+				"max_particles" : 20,
+				"name" : "Gradient Noise x",
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 20001,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "mesh",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.25
+			}
+		],
+		"min_quality" : "low"
+	}
+}

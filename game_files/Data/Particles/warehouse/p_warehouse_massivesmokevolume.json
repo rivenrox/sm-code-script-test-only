@@ -1,0 +1,167 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					20.0,
+					40.0,
+					20.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds04.tga",
+				"direction" : 
+				[
+					0.5,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 17,
+						"guid" : 1,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.52675,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.61325
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.13153
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 25.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					10.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Smoke1",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 53,
+				"sort_offset" : 1.0,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"translucency" : 0.5,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					10.0,
+					0.5
+				],
+				"z_offset" : 120.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

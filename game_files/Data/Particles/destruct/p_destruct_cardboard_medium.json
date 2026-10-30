@@ -1,0 +1,583 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 280.0,
+				"category" : "1 - Smoke",
+				"color" : 
+				[
+					0.77341,
+					0.70594,
+					0.59517,
+					1.0
+				],
+				"diffuse" : "Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								4.25
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 4.25,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 2,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.84788,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58766
+							],
+							[
+								1.0,
+								0.80194
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 4,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					-0.0,
+					-1.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					0.75,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 10,
+				"name" : "debri aftermarth",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.55,
+					0.05
+				],
+				"translucency" : 0.68,
+				"velocity" : 0.200000003,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.1
+				],
+				"z_offset" : 25.0
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.99215,
+					0.87058,
+					0.66272,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.80075
+								]
+							],
+							[
+								0.88169,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.60935
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.46568
+							],
+							[
+								0.07924,
+								0.8137
+							],
+							[
+								0.20374,
+								1.21568
+							],
+							[
+								0.37106,
+								1.48038
+							],
+							[
+								1.0,
+								1.72546
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 5,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Smoke Ring 4 [low]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 1.0,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"translucency" : 0.68,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"z_offset" : 1.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.7656,
+					0.68487,
+					0.55027,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.125,
+					0.25
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.05998,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8507,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.595
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.4,
+						"guid" : 11,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27
+							],
+							[
+								0.14968,
+								0.34705
+							],
+							[
+								0.77231,
+								0.97939
+							],
+							[
+								1.0,
+								1.12995
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.2,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"friction" : 5.0,
+				"guid" : 9,
+				"height" : 
+				[
+					5.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 15,
+				"name" : "Smoke flash impact [low]",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.00999,
+				"time_to_live" : 
+				[
+					0.3,
+					0.05
+				],
+				"translucency" : 0.68,
+				"type" : "hemisphere",
+				"velocity" : 3.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"color" : 
+				[
+					1.0,
+					0.77647,
+					0.52156,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.4,
+					0.4
+				],
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_cardboard04.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1000.0
+							],
+							[
+								0.1462,
+								527.39727
+							],
+							[
+								0.23498,
+								376.71231
+							],
+							[
+								0.37336,
+								235.15988
+							],
+							[
+								0.58745,
+								123.28767
+							],
+							[
+								0.80417,
+								50.22829
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 14,
+						"max" : 1000.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 15,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 25,
+						"fps" : 30,
+						"guid" : 16,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 333,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 
+				[
+					3.0,
+					1.0
+				],
+				"guid" : 13,
+				"height" : 
+				[
+					0.75,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 6,
+				"name" : "Cardboard Lots of Down [low]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 0.2,
+				"sphere_radius" : 0.34999,
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					2.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.25
+				],
+				"z_offset" : 1.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

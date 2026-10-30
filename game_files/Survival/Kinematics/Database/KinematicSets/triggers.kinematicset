@@ -1,0 +1,662 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_powerbreaker_col.fbx",
+			"color" : "db1414ff",
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_powerbreaker",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_powerbreaker.rend",
+			"script" : 
+			{
+				"class" : "KinematicTrackDoor",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicTrackDoor.lua"
+			},
+			"uuid" : "d57a63d1-ec6c-4c9e-a946-07735f8f3743"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_buttons01_col.obj",
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_button01",
+			"params" : 
+			[
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_button01.rend",
+			"script" : 
+			{
+				"class" : "KinematicElevatorButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicElevatorButton.lua"
+			},
+			"uuid" : "1bcd2a56-08ed-4352-a0aa-84737db47d05"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_buttons02_col.fbx",
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_button02",
+			"params" : 
+			[
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_button02.rend",
+			"script" : 
+			{
+				"class" : "KinematicElevatorButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicElevatorButton.lua"
+			},
+			"uuid" : "3375cc94-b5d9-405b-8091-e9b6471e7aae"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_buttons02_col.fbx",
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_button02_parentable",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_button02.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicElevatorButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicElevatorButton.lua"
+			},
+			"uuid" : "334a4050-f806-4e1a-8f76-2f2539e4f926"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_buttons03_col.obj",
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_button03",
+			"params" : 
+			[
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_button03.rend",
+			"script" : 
+			{
+				"class" : "KinematicButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicButton.lua"
+			},
+			"uuid" : "f20b9a2a-5d6e-47f8-8f50-5772fc74ba1f"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_buttons04_col.obj",
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_button04",
+			"params" : 
+			[
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_button04.rend",
+			"script" : 
+			{
+				"class" : "KinematicButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicButton.lua"
+			},
+			"uuid" : "43e60ec1-b586-4ff2-9aec-fd130d2f8db6"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_button05_col.fbx",
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 10.0,
+			"material" : "Electronics",
+			"name" : "kin_triggers_button05_parentable",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_button05.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicElevatorButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicElevatorButton.lua"
+			},
+			"uuid" : "3a4d10d8-239a-492f-ae53-2993e36d4280"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_buttons01_col.obj",
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_combatroom_button",
+			"params" : 
+			[
+				{
+					"name" : "preset",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_button01.rend",
+			"script" : 
+			{
+				"class" : "CombatRoomButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/CombatRoomButton.lua"
+			},
+			"uuid" : "ba0099e4-2cc1-42e1-9ff0-5a0117e6d9d3"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_latchlever_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_latchlever",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "kinematicEventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_latchlever.rend",
+			"script" : 
+			{
+				"class" : "KinematicSpinDoorRelease",
+				"data" : 
+				{
+					"kinematic" : {},
+					"meleeImpulse" : 15.0,
+					"projectileImpulse" : 5.0,
+					"restitution" : 0.35
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicSpinDoorRelease.lua"
+			},
+			"uuid" : "45a0ad3f-3662-4946-802f-5b23c9c35d6c"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_pushlever_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 100.0,
+			"material" : "Metal",
+			"name" : "pushlever",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "kinematicEventTrigger",
+					"type" : "string"
+				},
+				{
+					"name" : "onlyForward",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_pushlever.rend",
+			"script" : 
+			{
+				"class" : "KinematicRailObject",
+				"data" : 
+				{
+					"friction" : 0.15,
+					"gravity" : 9.82,
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Kinematicrailsparks"
+					},
+					"maxSpeed" : 70.0,
+					"meleeImpulse" : 15.0,
+					"movementEffectOffsets" : 
+					[
+						{
+							"x" : 0.949,
+							"y" : 0,
+							"z" : 0
+						},
+						{
+							"x" : -0.949,
+							"y" : 0,
+							"z" : 0
+						}
+					],
+					"projectileImpulse" : 5.0,
+					"restitution" : 0.35
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicRailObject.lua"
+			},
+			"uuid" : "8807762d-41ee-44e3-b7cd-7f25d1d4b673"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_triggerlever_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 100.0,
+			"material" : "Metal",
+			"name" : "triggerlever",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "onlyForward",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_triggerlever.rend",
+			"script" : 
+			{
+				"class" : "KinematicRailObject",
+				"data" : 
+				{
+					"friction" : 0.15,
+					"gravity" : 9.82,
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Kinematicrailsparks"
+					},
+					"maxSpeed" : 70.0,
+					"meleeImpulse" : 15.0,
+					"movementEffectOffsets" : 
+					[
+						{
+							"x" : 0,
+							"y" : 0,
+							"z" : 0
+						}
+					],
+					"projectileImpulse" : 5.0,
+					"restitution" : 0.35
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicRailObject.lua"
+			},
+			"uuid" : "30fa4e9a-7862-431e-9600-3c717364ea81"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_spinlever01_col.fbx",
+			"defaultColors" : 
+			{
+				"Color01" : "566466ff"
+			},
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_triggers_spinlever",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "stopWhenOpen",
+					"type" : "bool"
+				},
+				{
+					"name" : "spinnerValues",
+					"template" : "d67023c7-ca24-4b8d-a796-d8431285157c",
+					"type" : "template"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_spinlever.rend",
+			"script" : 
+			{
+				"class" : "KinematicSpinnerKey",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicSpinnerKey.lua"
+			},
+			"uuid" : "bca7b69d-5b05-45ff-b43c-76ef053313d9"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_pushlever_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 100.0,
+			"material" : "Metal",
+			"name" : "kin_track_lock",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "kinematicEventTrigger",
+					"type" : "string"
+				},
+				{
+					"name" : "showPin",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_pushlever.rend",
+			"script" : 
+			{
+				"class" : "KinematicTrackLock",
+				"data" : 
+				{
+					"friction" : 0.0,
+					"gravity" : 0.0,
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Kinematicrailsparks02"
+					},
+					"maxSpeed" : 70.0,
+					"meleeImpulse" : 10.0,
+					"movementEffectOffsets" : 
+					[
+						{
+							"x" : 0.712,
+							"y" : 0,
+							"z" : 0
+						},
+						{
+							"x" : -0.712,
+							"y" : 0,
+							"z" : 0
+						}
+					],
+					"projectileImpulse" : 10.0,
+					"restitution" : 0.35
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicTrackLock.lua"
+			},
+			"uuid" : "175462f3-5738-456f-b592-11d7265587f3"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_bigactivator_lever_col.fbx",
+			"color" : "db2715ff",
+			"kinematic" : true,
+			"mass" : 10.0,
+			"material" : "Mechanical",
+			"name" : "triggers bigactivator lever",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_bigactivator_lever.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicBridgeLever",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "audio:event:/props/installations/excavation_bridge/pylon_lever"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicBridgeLever.lua"
+			},
+			"uuid" : "4a965f00-c211-4458-9f52-cf2e525ec684"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_bigactivator_lever_col.fbx",
+			"color" : "db2715ff",
+			"kinematic" : true,
+			"mass" : 10.0,
+			"material" : "Mechanical",
+			"name" : "triggers mininghub lever",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_bigactivator_lever.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicMininghubLever",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "audio:event:/props/installations/excavation_bridge/pylon_lever"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicMininghubLever.lua"
+			},
+			"uuid" : "0476d0eb-2d58-4799-9991-2d9ed556bbaf"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_bigactivator_col.fbx",
+			"color" : "db2715ff",
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "triggers bigactivator",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_bigactivator.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"uuid" : "c6871f73-adf0-4bea-af09-cb69c287c1c0"
+		},
+		{
+			"col_box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 1
+			},
+			"color" : "ee7716",
+			"kinematic" : true,
+			"mass" : 50.0,
+			"material" : "Mechanical",
+			"name" : "kin_triggers_waitingroombutton",
+			"params" : 
+			[
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_waitingroombutton.rend",
+			"script" : 
+			{
+				"class" : "KinematicButton",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicButton.lua"
+			},
+			"uuid" : "7d83828b-ab05-4186-bf00-e05badf5e04f"
+		}
+	]
+}

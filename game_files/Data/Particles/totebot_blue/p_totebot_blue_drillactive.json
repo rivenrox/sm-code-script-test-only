@@ -1,0 +1,590 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/totebot_blue/p_mesh_totebotblue_drillswirl_01_asg.tga",
+				"category" : "0 - ",
+				"depth" : 2.900000095,
+				"direction_type" : "shape",
+				"duration" : 6.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.87352
+							],
+							[
+								1.0,
+								1.40181
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 10,
+				"guid" : 0,
+				"height" : 5.75,
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 11,
+				"mesh" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshspiral.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"name" : "Mesh Spiral1 [low]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.22747
+				],
+				"rotation_speed" : 1500.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.1
+				],
+				"velocity" : -0.25,
+				"water_mask" : "none",
+				"width" : 5.75
+			},
+			{
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.957,
+					0.957,
+					0.957,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle_wobbly.tga",
+				"direction" : 
+				[
+					-0.10002,
+					0.1,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.75,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.22253,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.66478,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.07236
+							],
+							[
+								1.0,
+								1.1447
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 6,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 12,
+				"guid" : 3,
+				"height" : 
+				[
+					0.75,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 55,
+				"min_quality" : "medium",
+				"name" : "Drill Swosh 1 [medium]",
+				"rotation" : 
+				[
+					180.0,
+					25.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"scene_blend" : "alpha_blend",
+				"time_to_live" : 
+				[
+					0.5,
+					0.075
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.957,
+					0.957,
+					0.957,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle_wobbly.tga",
+				"direction" : 
+				[
+					0.1,
+					-0.10002,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.75,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.22253,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.66478,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.07236
+							],
+							[
+								1.0,
+								1.1447
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 10,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 12,
+				"guid" : 7,
+				"height" : 
+				[
+					0.75,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 55,
+				"min_quality" : "medium",
+				"name" : "Drill Swosh 2 [medium]",
+				"rotation" : 
+				[
+					180.0,
+					25.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"scene_blend" : "alpha_blend",
+				"time_to_live" : 
+				[
+					0.5,
+					0.075
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/Drillspawner/p_drillspawner_drill_meshspiral02.tga",
+				"category" : "1 - ",
+				"depth" : 3.0,
+				"direction_type" : "shape",
+				"duration" : 6.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 12,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 1,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.72368
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 10,
+				"guid" : 11,
+				"height" : 5.0,
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 25,
+				"mesh" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshcylinder.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"name" : "Mesh Cylinder short [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.09944
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 180.0,
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 0.449990004,
+				"velocity" : -1.5,
+				"water_mask" : "none",
+				"width" : 5.0
+			},
+			{
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.4713,
+					0.7128,
+					0.84375,
+					1.0
+				],
+				"cylinder_height" : -1.0,
+				"cylinder_radius_end" : 0.75,
+				"cylinder_radius_start" : 0.15,
+				"delay" : 0.1,
+				"depth" : 
+				[
+					1.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 6.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.39997
+							],
+							[
+								0.70691,
+								2.04901
+							],
+							[
+								0.79622,
+								2.31364
+							],
+							[
+								0.8923,
+								2.11841
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					2.0
+				],
+				"friction" : 
+				[
+					2.0,
+					1.0
+				],
+				"guid" : 14,
+				"height" : 
+				[
+					1.5,
+					0.125
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					0.15997,
+					0.15997,
+					0.15997
+				],
+				"min_quality" : "high",
+				"name" : "Bubbles2 [high]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.01351
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.2
+				],
+				"type" : "cylinder",
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "under_water",
+				"width" : 
+				[
+					1.5,
+					0.125
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

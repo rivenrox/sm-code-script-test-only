@@ -1,0 +1,666 @@
+{
+	"Farmbot - AlertSprintLoop" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/loops/farmbot_voice_sprint_loop"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Angry" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_noticeplayer"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Attack01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_body_heavy"
+				],
+				"delay" : 0.200000003,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Attack02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.699999988,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_farmbot_attack_trail02",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_attack_02"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Attack03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.300000012,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_farmbot_attack_trail03",
+				"offset" : 
+				[
+					0.0,
+					-1.25,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_attack_03"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Attack04" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 1.25,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_farmbot_attack_trail04",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_attack_04"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Attack05" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.600000024,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_farmbot_attack_trail03",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_attack_03"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Destroyed" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"name" : "Explosion_01",
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"name" : "p_farmbot_destroy_explosion01",
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"name" : "p_farmbot_destroy_parts",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_explode"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"duration" : 0.400000006,
+				"shakeAmplitude" : 
+				[
+					20.0,
+					20.0,
+					20.0
+				],
+				"shakeFalloffDuration" : 0.05,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 1.5,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Farmbot - DestructionStartup01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_farmbot_destroy_startup01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_explode_buildup"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"duration" : 1.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.05,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 15,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.02,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 1.0,
+				"duration" : 1.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.05,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 20,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.04,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 2.0,
+				"duration" : 1.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.05,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 25,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.06,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 3.0,
+				"duration" : 1.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.05,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 30,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.08,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 4.0,
+				"duration" : 1.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.05,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Farmbot - DestructionStartup02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_farmbot_destroy_startup02",
+				"type" : "particle"
+			}
+		]
+	},
+	"Farmbot - DestructionStartup03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 1.0,
+				"direction" : 
+				[
+					0.0,
+					0.5,
+					-1.0
+				],
+				"name" : "p_farmbot_destroy_startup03",
+				"type" : "particle"
+			}
+		]
+	},
+	"Farmbot - DestructionStartup04" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 2.75,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					-1.0
+				],
+				"name" : "p_farmbot_destroy_startup04",
+				"type" : "particle"
+			}
+		]
+	},
+	"Farmbot - FotStepHeavy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_ff_heavy"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"Farmbot - FotStepLight" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_ff_light"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"Farmbot - FotStepMedium" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_ff_mid"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"Farmbot - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.5
+				],
+				"name" : "p_farmbot_damage01",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_takedamage"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - MoveHead" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_head"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - MoveLegs" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_legs"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - RattleSyth" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_scythe"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - RoamingIdleLoop" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/loops/farmbot_voice_roaming_loop"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - RunBody" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_body_light"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Shoot" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.300000012,
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"name" : "p_farmbot_pesticide_muzzelflash",
+				"offset" : 
+				[
+					-0.5,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_shoot"
+				],
+				"delay" : 0.300000012,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_head"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_legs"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - SprintBody" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_move_body_heavy"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Farmbot - Voice" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "",
+				"parameters" : 
+				{
+					"Voice" : 
+					[
+						{
+							"condition" : "equal",
+							"name" : "event:/char/npc/bots/enemies/farmbot/farmbot_voice_idle",
+							"value" : 1.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "event:/char/npc/bots/enemies/farmbot/farmbot_voice_roaming",
+							"value" : 2.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "event:/char/npc/bots/enemies/farmbot/farmbot_voice_alert_idle",
+							"value" : 3.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "event:/char/npc/bots/enemies/farmbot/farmbot_voice_run",
+							"value" : 4.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "event:/char/npc/bots/enemies/farmbot/farmbot_voice_sprint",
+							"value" : 5.0
+						}
+					]
+				},
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Voice" : 1
+		}
+	}
+}

@@ -1,0 +1,683 @@
+{
+	"entities" : 
+	{
+		"blueprints" : 
+		[
+			{
+				"guid" : "f60bd393-57eb-4e37-8495-631982d3006b",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Barrel_Yellow_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						15.750003814697266,
+						4.5000052452087402,
+						-2.75
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						180.0
+					]
+				}
+			},
+			{
+				"guid" : "e52d1be7-497d-4b80-835a-120a53d37edd",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Barrel_Yellow_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.75011211633682251,
+						4.2500448226928711,
+						-2.75
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-90.000030517578125
+					]
+				}
+			},
+			{
+				"guid" : "511b944a-6151-424f-9adb-3fe65e50183c",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Barrel_Yellow_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						1.5001126527786255,
+						6.5000452995300293,
+						-2.75
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-90.000030517578125
+					]
+				}
+			},
+			{
+				"guid" : "1cea8d96-d01e-44c4-b7e9-5d2c7ae6849e",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Pallet_1xOverhang_06.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						2.25,
+						-2.25,
+						-2.5
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			},
+			{
+				"guid" : "36e8ddd2-38a7-4611-8b39-d72fb55563ef",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Barrel_Yellow_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						18.749588012695312,
+						8.2506103515625,
+						3.5009708404541016
+					],
+					"rotation" : 
+					[
+						-179.99400329589844,
+						-89.984268188476562,
+						0.029110707342624664
+					]
+				}
+			}
+		],
+		"grids" : 
+		[
+			{
+				"guid" : "62e34c9b-b557-4fa2-a3cb-4c2683c35d67",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"guid" : "435fdaac-79d5-410e-9de4-36edc77b9ced",
+				"params" : 
+				[
+					{
+						"descName" : "isPatrolling",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "stationary",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TAPEBOT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						5.75,
+						4.0,
+						1.5
+					],
+					"rotation" : 
+					[
+						-89.999992370605469,
+						-4.0711111239967457e-13,
+						-180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"guid" : "f768331f-6e5f-4bd7-aef0-63796383efdc",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 4,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 1
+							},
+							{
+								"connectionId" : 3
+							},
+							{
+								"connectionId" : 0
+							},
+							{
+								"connectionId" : 2
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						7.75,
+						3.75,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						4.9153017997741699,
+						0.25,
+						4.9153017997741699
+					]
+				}
+			},
+			{
+				"guid" : "6ac60a52-bca7-4836-b750-4eb5df94a442",
+				"params" : 
+				[
+					{
+						"descName" : "isPatrolling",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "stationary",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TAPEBOT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						12.0,
+						4.0,
+						1.5
+					],
+					"rotation" : 
+					[
+						-45.0,
+						-90.0,
+						-135.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"guid" : "e8c97fa7-f6eb-43b8-9fdc-4c52c8c41db0",
+				"tags" : 
+				[
+					"REFLECTION"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						8.0,
+						4.0,
+						4.0
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						32.0,
+						24.0,
+						40.0
+					]
+				}
+			},
+			{
+				"guid" : "4dff5692-3f8a-42e9-92d4-3fc449a10fdb",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 0,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 3
+							},
+							{
+								"connectionId" : 4
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						5.5,
+						0.25,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						2.7696990966796875,
+						0.25,
+						2.7696990966796875
+					]
+				}
+			},
+			{
+				"guid" : "f40cb394-ab16-4d8d-b151-2bc4d481c5f4",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 1,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 2
+							},
+							{
+								"connectionId" : 4
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						10.5,
+						0.25,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						3.6464362144470215,
+						0.25,
+						3.6464362144470215
+					]
+				}
+			},
+			{
+				"guid" : "971c980b-3603-4855-96f2-8c241ba47262",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 2,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 1
+							},
+							{
+								"connectionId" : 4
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						10.5,
+						7.75,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						4.0490264892578125,
+						0.25,
+						4.0490264892578125
+					]
+				}
+			},
+			{
+				"guid" : "d3f50038-e8d5-4cf6-928e-57ce6fc61c2b",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 3,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 0
+							},
+							{
+								"connectionId" : 4
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						5.5,
+						7.75,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						3.7142646312713623,
+						0.25,
+						3.7142646312713623
+					]
+				}
+			}
+		],
+		"prefabs" : 
+		[
+			{
+				"editorSpecialWater" : false,
+				"guid" : "7497e964-150c-4656-8190-c7d47ebe6ca0",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/Kit_Warehouse_ShellHall_Main_Short_A.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "d5ab9336-a68d-494a-8788-9f4c54e693c5",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_plane_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.25,
+						4.0,
+						4.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						89.999984741210938
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "8331c721-1544-4bc6-a20a-a915b330e87e",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_plane_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						15.75,
+						4.0,
+						4.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-90.000022888183594
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "e34aaa19-f072-4d29-ac0d-e37e4c9ca94c",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_beam_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						11.75,
+						2.0,
+						6.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "2727fe2d-3191-402d-ab9b-6b31e0ff4b74",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_beam_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						4.75,
+						2.0,
+						6.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "46d7227d-eebc-49cc-a580-ba1f5755777f",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_beam_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						6.5,
+						6.0,
+						6.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 0,
+		"uuid" : "1578c5a3-7983-4513-b0c2-94e994c0ea9e"
+	}
+}

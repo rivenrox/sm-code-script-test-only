@@ -1,0 +1,594 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Name" : "CallerBackground",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_bg_special",
+					"Type" : "ImageBox",
+					"Visible" : true,
+					"height" : 96,
+					"width" : 540,
+					"x" : 66,
+					"y" : 56
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{DIALOG_NAME_FARMER}",
+							"Childs" : [],
+							"FontName" : "SM_GameName",
+							"Name" : "CallerBarText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"TextShadow" : true,
+							"TextShadowColour" : "0 0 0 0.2",
+							"Type" : "TextBox",
+							"height" : 28,
+							"width" : 180,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Name" : "CallerNameBar",
+					"NeedKey" : true,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_caller_bar",
+					"Type" : "ImageBox",
+					"Visible" : true,
+					"height" : 28,
+					"width" : 180,
+					"x" : 242,
+					"y" : 44
+				},
+				{
+					"Caption" : "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+					"Childs" : [],
+					"FontName" : "SM_Text",
+					"Name" : "CallerDialogText",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Left",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.2",
+					"Type" : "EditBox",
+					"Visible" : true,
+					"WordWrap" : true,
+					"height" : 70,
+					"width" : 436,
+					"x" : 140,
+					"y" : 72
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"InheritsPick" : true,
+							"Name" : "CallerCharacterBg",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "quest_dialog_caller_bg",
+							"Type" : "Widget",
+							"height" : 108,
+							"width" : 108,
+							"x" : 0,
+							"y" : 0
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - CallPortrait_stranger_idle",
+									"Name" : "DialogEffect",
+									"Offset" : 
+									{
+										"x" : 0,
+										"y" : 0
+									},
+									"PlayState" : "Auto playing"
+								}
+							],
+							"Name" : "CallerEffectBox",
+							"NeedKey" : true,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 108,
+							"width" : 108,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Layer" : "LuaHudOverlapped",
+					"Name" : "CallerCharacter",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "EditorMenu",
+					"Visible" : true,
+					"height" : 108,
+					"width" : 108,
+					"x" : 28,
+					"y" : 24
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - CallPortrait_stranger_open",
+									"Name" : "OpenEffect",
+									"Offset" : 
+									{
+										"x" : -233,
+										"y" : -14
+									},
+									"PlayState" : "Auto play off"
+								},
+								{
+									"EffectName" : "Gui - CallDialog_open",
+									"Name" : "default",
+									"Offset" : 
+									{
+										"x" : -66,
+										"y" : -21
+									},
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "CallerOpenEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 180,
+							"width" : 620,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Name" : "CallerOpenEffects",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : false,
+					"height" : 180,
+					"width" : 620,
+					"x" : 0,
+					"y" : 0
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - CallPortrait_stranger_close",
+									"Name" : "OpenEffect",
+									"Offset" : 
+									{
+										"x" : -233,
+										"y" : -14
+									},
+									"PlayState" : "Auto play off"
+								},
+								{
+									"EffectName" : "Gui - CallDialog_close",
+									"Name" : "default",
+									"Offset" : 
+									{
+										"x" : -66,
+										"y" : -21
+									},
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "CallerCloseEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 180,
+							"width" : 620,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Name" : "CallerCloseEffects",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : false,
+					"height" : 180,
+					"width" : 620,
+					"x" : 0,
+					"y" : 0
+				}
+			],
+			"Name" : "CallerDialogHolder",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : false,
+			"height" : 180,
+			"width" : 620,
+			"x" : 62,
+			"y" : 12
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Name" : "Background",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_bg_special",
+					"Type" : "ImageBox",
+					"height" : 96,
+					"width" : 540,
+					"x" : 66,
+					"y" : 56
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{DIALOG_NAME_FARMER}",
+							"Childs" : [],
+							"FontName" : "SM_GameName",
+							"Name" : "AudioBarText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"TextShadow" : true,
+							"TextShadowColour" : "0 0 0 0.2",
+							"Type" : "TextBox",
+							"height" : 28,
+							"width" : 180,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Name" : "AudioNameBar",
+					"NeedKey" : true,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_caller_bar",
+					"Type" : "ImageBox",
+					"height" : 28,
+					"width" : 180,
+					"x" : 242,
+					"y" : 44
+				},
+				{
+					"Caption" : "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+					"Childs" : [],
+					"FontName" : "SM_Text",
+					"Name" : "AudioDialogText",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Left",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.2",
+					"Type" : "EditBox",
+					"WordWrap" : true,
+					"height" : 70,
+					"width" : 436,
+					"x" : 140,
+					"y" : 72
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - CallPortrait_recording_idle",
+									"Name" : "AudioIdle",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "AudioIdleEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"Visible" : true,
+							"height" : 80,
+							"width" : 80,
+							"x" : 6,
+							"y" : 10
+						},
+						{
+							"Childs" : [],
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - CallPortrait_recording_open",
+									"Name" : "AudioOpen",
+									"PlayState" : "Auto play off"
+								},
+								{
+									"EffectName" : "Gui - CallPortrait_recording_close",
+									"Name" : "AudioClose",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "AudioEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 80,
+							"width" : 80,
+							"x" : 6,
+							"y" : 10
+						}
+					],
+					"Name" : "AudioEffectHolder",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "quest_dialog_caller_bg",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 108,
+					"width" : 108,
+					"x" : 28,
+					"y" : 24
+				}
+			],
+			"Name" : "AudioDialogHolder",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : false,
+			"height" : 180,
+			"width" : 620,
+			"x" : 62,
+			"y" : 12
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Name" : "Background",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_bg_default",
+					"Type" : "ImageBox",
+					"height" : 96,
+					"width" : 588,
+					"x" : 8,
+					"y" : 22
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{DIALOG_NAME_FARMER}",
+							"Childs" : [],
+							"FontName" : "SM_GameName",
+							"Name" : "SubtitleNameBarText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"TextShadow" : true,
+							"TextShadowColour" : "0 0 0 0.2",
+							"Type" : "TextBox",
+							"height" : 28,
+							"width" : 180,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Name" : "SubtitleNameBar",
+					"NeedKey" : true,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_caller_bar",
+					"Type" : "ImageBox",
+					"Visible" : true,
+					"height" : 28,
+					"width" : 180,
+					"x" : 190,
+					"y" : 10
+				},
+				{
+					"Caption" : "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW",
+					"Childs" : [],
+					"FontName" : "SM_Text",
+					"Name" : "SubtitleDialogText",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Left",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.2",
+					"Type" : "EditBox",
+					"WordWrap" : true,
+					"height" : 70,
+					"width" : 476,
+					"x" : 44,
+					"y" : 36
+				}
+			],
+			"Name" : "SubtitleDialogHolder",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : true,
+			"height" : 180,
+			"width" : 620,
+			"x" : 118,
+			"y" : 46
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Name" : "Background",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_bg_small",
+					"Type" : "ImageBox",
+					"height" : 80,
+					"width" : 500,
+					"x" : 96,
+					"y" : 48
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{DIALOG_NAME_FARMER}",
+							"Childs" : [],
+							"FontName" : "SM_GameName",
+							"Name" : "SubtitleNameBarText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"TextShadow" : true,
+							"TextShadowColour" : "0 0 0 0.2",
+							"Type" : "TextBox",
+							"height" : 28,
+							"width" : 180,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Name" : "SubtitleNameBar",
+					"NeedKey" : true,
+					"NeedMouse" : true,
+					"Skin" : "quest_dialog_caller_bar",
+					"Type" : "ImageBox",
+					"height" : 28,
+					"width" : 180,
+					"x" : 234,
+					"y" : 34
+				},
+				{
+					"Caption" : "WWWWWWWWWWWWWWWWWWWWWWWWWWW WWWWWWWWWWWWWWWWWWWWWWWWWWW",
+					"Childs" : [],
+					"FontName" : "SM_Text",
+					"Name" : "SubtitleDialogText",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Left",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.2",
+					"Type" : "EditBox",
+					"WordWrap" : true,
+					"height" : 50,
+					"width" : 410,
+					"x" : 120,
+					"y" : 62
+				}
+			],
+			"Name" : "SubtitleSmallDialogHolder",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : false,
+			"height" : 180,
+			"width" : 620,
+			"x" : 74,
+			"y" : 40
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"CropEffect" : false,
+					"Effects" : 
+					[
+						{
+							"EffectName" : "Gui - Incomingcall",
+							"Name" : "CallEffect",
+							"Offset" : 
+							{
+								"x" : 0,
+								"y" : 0
+							},
+							"PlayState" : "Auto play off"
+						},
+						{
+							"EffectName" : "Gui - IncomingcallQuick",
+							"Name" : "QuickCallEffect",
+							"Offset" : 
+							{
+								"x" : 0,
+								"y" : 0
+							},
+							"PlayState" : "Auto play off"
+						}
+					],
+					"Name" : "IncomingCallEffectBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EffectBox",
+					"Type" : "EffectBox",
+					"height" : 160,
+					"width" : 620,
+					"x" : -3,
+					"y" : 10
+				}
+			],
+			"Name" : "IncomingCallHolder",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : false,
+			"height" : 180,
+			"width" : 620,
+			"x" : 67,
+			"y" : 30
+		}
+	],
+	"InheritsPick" : false,
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : true,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"Visible" : true,
+	"height" : 200,
+	"width" : 800,
+	"x" : 0,
+	"y" : 200
+}

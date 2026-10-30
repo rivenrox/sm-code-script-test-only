@@ -1,0 +1,232 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "Plasma Drill",
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "Title",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Top Left",
+					"Type" : "TextBox",
+					"height" : 24,
+					"width" : 80,
+					"x" : 0,
+					"y" : 0
+				},
+				{
+					"Caption" : "Width                                                  Length",
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "StrengthLabel",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Bottom Left",
+					"Type" : "TextBox",
+					"height" : 17,
+					"width" : 200,
+					"x" : 7,
+					"y" : 116
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Name" : "SubLayout",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "WhiteSkin",
+							"SubLayoutPath" : "$SURVIVAL_DATA/Gui/JsonGuis/HorizontalSlider.gui",
+							"Type" : "SubLayout",
+							"height" : 100,
+							"width" : 100,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"Name" : "BalanceSliderHost",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"height" : 50,
+					"width" : 210,
+					"x" : 3,
+					"y" : -1
+				}
+			],
+			"LayoutRule" : "Vertical",
+			"Name" : "ContentPanel",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"height" : 300,
+			"width" : 214,
+			"x" : 20,
+			"y" : 10
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "",
+					"Childs" : 
+					[
+						{
+							"Caption" : "Sphere",
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "UpgradeText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"Type" : "TextBox",
+							"height" : 12,
+							"width" : 70,
+							"x" : 10,
+							"y" : 15
+						}
+					],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "SphereButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "UpgradeButton",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 46,
+					"onClick" : "cl_onClickSphere",
+					"width" : 90,
+					"x" : -5,
+					"y" : 12
+				},
+				{
+					"Caption" : "",
+					"Childs" : 
+					[
+						{
+							"Caption" : "Capsule",
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "UpgradeText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"Type" : "TextBox",
+							"height" : 12,
+							"width" : 70,
+							"x" : 10,
+							"y" : 15
+						}
+					],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "CapsuleButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "UpgradeButton",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 46,
+					"onClick" : "cl_onClickCapsule",
+					"width" : 90,
+					"x" : 164,
+					"y" : 12
+				},
+				{
+					"Caption" : "",
+					"Childs" : 
+					[
+						{
+							"Caption" : "Cylinder",
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "UpgradeText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"Type" : "TextBox",
+							"height" : 12,
+							"width" : 70,
+							"x" : 10,
+							"y" : 15
+						}
+					],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "CylinderButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "UpgradeButton",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 46,
+					"onClick" : "cl_onClickCylinder",
+					"width" : 90,
+					"x" : -3,
+					"y" : 57
+				},
+				{
+					"Caption" : "",
+					"Childs" : 
+					[
+						{
+							"Caption" : "Cone",
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "UpgradeText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"Type" : "TextBox",
+							"height" : 12,
+							"width" : 70,
+							"x" : 10,
+							"y" : 15
+						}
+					],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "ConeButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "UpgradeButton",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 46,
+					"onClick" : "cl_onClickCone",
+					"width" : 90,
+					"x" : 79,
+					"y" : 12
+				}
+			],
+			"Name" : "UpgradePanel",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"height" : 100,
+			"width" : 254,
+			"x" : 11,
+			"y" : 314
+		}
+	],
+	"InheritsPick" : true,
+	"LayoutRule" : "Absolute",
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : false,
+	"Skin" : "BackgroundEngine",
+	"Type" : "Widget",
+	"height" : 420,
+	"width" : 273,
+	"x" : 0,
+	"y" : 0
+}

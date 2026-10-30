@@ -1,0 +1,502 @@
+{
+	"BearingDrill - Use" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "construct_addingbearing",
+				"type" : "particle"
+			}
+		]
+	},
+	"Eat - Drink" : 
+	{
+		"effectList" : []
+	},
+	"Eat - DrinkFinish" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/can_drink"
+				],
+				"delay" : 0.25,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/health_restored"
+				],
+				"delay" : 0.8,
+				"type" : "audio"
+			}
+		]
+	},
+	"Eat - HealthRestored" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/ui/health_restored"
+				],
+				"delay" : 0.1,
+				"type" : "audio"
+			}
+		]
+	},
+	"Eat - DrinkSound" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/can_drink"
+				],
+				"delay" : 0.4,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Eat - DrinkCanSound" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/can_open"
+				],
+				"delay" : 0.01,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/can_drink"
+				],
+				"delay" : 0.4,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Eat - EatFinish" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/consumtion/swallow"
+				],
+				"delay" : 0.5,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Eat - Munch" : 
+	{
+		"effectList" : []
+	},
+	"Eat - MunchFP" : 
+	{
+		"effectList" : []
+	},
+	"Eat - MunchSound" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/consumtion/eat_generic"
+				],
+				"delay" : 0.15,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/consumtion/eat_generic"
+				],
+				"delay" : 0.46,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/consumtion/eat_generic"
+				],
+				"delay" : 0.89,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/consumtion/eat_generic"
+				],
+				"delay" : 1.23,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Itemtool - FPFertilizerUse" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/fertilizer"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "p_tools_fertilizer_use",
+				"type" : "particle",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				}
+			}
+		]
+	},
+	"Itemtool - FertilizerUse" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/fertilizer"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "p_tools_fertilizer_use",
+				"offset" : 
+				[
+					0.11,
+					0.0,
+					0.18
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Logbook - Close" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/logbook/close"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Logbook - Open" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/logbook/open"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic - EatBaguette" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/consumtion/eat_sandwich"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic - ReciveBaguette" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/consumtion/eat_sandwich"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Multiknife - Complete" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/ui/detach_default"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_pickup"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Multiknife - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/multitool_refine"
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "",
+				"parameters" : 
+				{
+					"Material" : 
+					[
+						{
+							"condition" : "equal",
+							"name" : "hammer_ground",
+							"values" : 
+							[
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0
+							]
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_tool_multiknife_refine_hit_stone",
+							"value" : 6.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_tool_multiknife_refine_hit_wood",
+							"value" : 7.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_plastic",
+							"value" : 8.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_tool_multiknife_refine_hit_metal",
+							"value" : 9.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_tool_multiknife_refine_hit_scrapmetal",
+							"value" : 26.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_glass",
+							"value" : 10.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_cardboard",
+							"value" : 13.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_tape",
+							"value" : 15.0
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0,
+			"Phys_energy" : 1.0,
+			"Size" : 0.005,
+			"Velocity_max_50" : 10.0
+		}
+	},
+	"Multiknife - Use" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/multitool_refine"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.05,
+				"name" : "p_tools_multiknife_usesparks",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 7
+		}
+	},
+	"PaintTool - Close" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/painttool/pt_colourpick"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"PaintTool - NoAmmo" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/painttool/pt_colourabort"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"PaintTool - Open" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/painttool/pt_colourmenu"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"PaintTool - Paint" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/painttool/pt_paint"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Radio - Transmitter" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/radios/radiotransmitter"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Radio - Reciever" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/radios/radioreciever"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Boombox - Transmitter" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/radios/boomboxtransmitter"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Boombox - Reciever" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/radios/boomboxreciever"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+
+}

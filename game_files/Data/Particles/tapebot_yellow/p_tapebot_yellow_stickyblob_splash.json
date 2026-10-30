@@ -1,0 +1,488 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/tapebot_yellow/p_tapebotyellow_asg.tga",
+				"angle" : 1.0,
+				"category" : "1",
+				"color" : 
+				[
+					0.44312,
+					0.74509,
+					0.0,
+					1.0
+				],
+				"delay" : 0.00999,
+				"depth" : 
+				[
+					0.5,
+					0.05
+				],
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.48355
+							],
+							[
+								0.2307,
+								1.11677
+							],
+							[
+								0.56,
+								1.46217
+							],
+							[
+								1.0,
+								1.65213
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 1.75,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								3.0
+							],
+							[
+								0.18456,
+								2.09208
+							],
+							[
+								0.44615,
+								1.3717
+							],
+							[
+								1.0,
+								0.99
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								3.0
+							],
+							[
+								0.23995,
+								1.72695
+							],
+							[
+								0.48923,
+								1.19403
+							],
+							[
+								1.0,
+								0.999
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.66153,
+								0.87171
+							],
+							[
+								0.82151,
+								0.77302
+							],
+							[
+								0.90767,
+								0.59868
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2501,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					0.5,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "FbrdfDifAsgNor",
+				"max_particles" : 2,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_tapebot_yellow_cmyk_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Drops01",
+				"normal_map" : "$GAME_DATA/Textures/Default/default_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.333
+				],
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.05
+				]
+			},
+			{
+				"category" : "2 - GooSplashes",
+				"color" : 
+				[
+					0.33333,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"depth" : 
+				[
+					0.4,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.01936
+							],
+							[
+								0.25793,
+								1.0
+							],
+							[
+								0.59895,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.27849,
+								0.0
+							],
+							[
+								0.47102,
+								1.0
+							],
+							[
+								0.79439,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 7,
+						"index" : 1,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.62803,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 8,
+						"index" : 2,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 25,
+						"fps" : 30,
+						"guid" : 9,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.30474
+							],
+							[
+								0.26767,
+								1.65532
+							],
+							[
+								0.56022,
+								2.37842
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 5,
+				"height" : 
+				[
+					0.4,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "BlobSplash",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/tapebot_yellow/p_renderable_tapebot_yellow_stickyblob_splash01.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 0.449999988,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/tapebot_yellow/p_tapebotyellow_explosionsphere_asg.tga",
+				"category" : "2 - GooSplashes",
+				"color" : 
+				[
+					0.3294,
+					0.83135,
+					0.04704,
+					1.0
+				],
+				"depth" : 
+				[
+					1.0,
+					0.2
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.52587
+							],
+							[
+								0.45045,
+								1.69123
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.43924,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 13,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 11,
+				"height" : 
+				[
+					1.0,
+					0.2
+				],
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_splatter_explosionsphere.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_tapebot_yellow_cmyk_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Explosion sphere new",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_explosionsphere_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10019
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					-1.0
+				],
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 0.550000012,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.2
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

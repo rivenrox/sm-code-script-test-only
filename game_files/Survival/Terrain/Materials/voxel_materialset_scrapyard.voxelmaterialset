@@ -1,0 +1,216 @@
+{
+	"voxelMaterials" : 
+	{
+		"height" : 2048,
+		"materials" : 
+		[
+			{
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruct - Mud_1x1x1",
+				"destructionEffect_2x2x2" : "voxeldestruct - Mud_2x2x2",
+				"destructionEffect_4x4x4" : "voxeldestruct - Mud_4x4x4",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Mud_Surface01",
+					"Voxeldestruct - Mud_Surface01",
+					"Voxeldestruct - Mud_Surface01",
+					"Voxeldestruct - Mud_Surface01"
+				],
+				"indestructible" : false,
+				"material" : "Voxel_Clay",
+				"name" : "Clay",
+				"surfaces" : 
+				{
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_mud_side02.surface"
+				}
+			},
+			{
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruct - Rock2_1x1x1",
+				"destructionEffect_2x2x2" : "voxeldestruct - Rock2_2x2x2",
+				"destructionEffect_4x4x4" : "voxeldestruct - Rock2_4x4x4",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Rock2_Surface01",
+					"Voxeldestruct - Rock2_Surface02",
+					"Voxeldestruct - Rock2_Surface03",
+					"Voxeldestruct - Rock2_Surface01"
+				],
+				"indestructible" : false,
+				"material" : "Voxel_Rock2",
+				"name" : "Rock2",
+				"surfaces" : 
+				{
+					"floor" : 
+					{
+						"activation" : 0.1,
+						"disable" : false,
+						"surface" : "$GAME_DATA/Render/Surfaces/voxel_rock02_floor01.surface",
+						"threshold" : 0.2
+					},
+					"noise" : 
+					{
+						"activation" : 0.12,
+						"disable" : false,
+						"noise" : "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_voxeldefault.tex3d",
+						"surface" : "$GAME_DATA/Render/Surfaces/voxel_rock02_side02.surface",
+						"threshold" : 0.43
+					},
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_rock02_side01 .surface"
+				}
+			},
+			{
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruct - Junk_1x1x1",
+				"destructionEffect_2x2x2" : "voxeldestruct - Junk_2x2x2",
+				"destructionEffect_4x4x4" : "voxeldestruct - Junk_4x4x4",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Junk_Surface01",
+					"Voxeldestruct - Junk_Surface01",
+					"Voxeldestruct - Junk_Surface01",
+					"Voxeldestruct - Junk_Surface01"
+				],
+				"indestructible" : false,
+				"material" : "Voxel_Junk",
+				"name" : "Junk",
+				"surfaces" : 
+				{
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_scrap1_side01.surface"
+				}
+			},
+			{
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruction - Destruction_small",
+				"destructionEffect_2x2x2" : "voxeldestruction - Destruction_medium",
+				"destructionEffect_4x4x4" : "voxeldestruction - Destruction_big",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Rock2_Surface01",
+					"Voxeldestruct - Rock2_Surface02",
+					"Voxeldestruct - Rock2_Surface03",
+					"Voxeldestruct - Rock2_Surface04"
+				],
+				"indestructible" : true,
+				"material" : "Scrapmetal",
+				"name" : "Scrap1_Bedrock",
+				"surfaces" : 
+				{
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_garbagebrown_side01.surface"
+				}
+			},
+			{
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruction - Destruction_small",
+				"destructionEffect_2x2x2" : "voxeldestruction - Destruction_medium",
+				"destructionEffect_4x4x4" : "voxeldestruction - Destruction_big",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Rock2_Surface01",
+					"Voxeldestruct - Rock2_Surface02",
+					"Voxeldestruct - Rock2_Surface03",
+					"Voxeldestruct - Rock2_Surface04"
+				],
+				"indestructible" : true,
+				"material" : "Scrapmetal",
+				"name" : "Scrap2_Bedrock_Main",
+				"surfaces" : 
+				{
+					"noise" : 
+					{
+						"activation" : 0.17,
+						"disable" : false,
+						"noise" : "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_stripes01.tex3d",
+						"surface" : "$GAME_DATA/Render/Surfaces/voxel_chunkyrock_scrapyard_side01 .surface",
+						"threshold" : 0.36
+					},
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_scrap_side01.surface"
+				}
+			},
+			{
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruction - Destruction_small",
+				"destructionEffect_2x2x2" : "voxeldestruction - Destruction_medium",
+				"destructionEffect_4x4x4" : "voxeldestruction - Destruction_big",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Rock2_Surface01",
+					"Voxeldestruct - Rock2_Surface02",
+					"Voxeldestruct - Rock2_Surface03",
+					"Voxeldestruct - Rock2_Surface04"
+				],
+				"indestructible" : true,
+				"material" : "Rock",
+				"name" : "Canyonrubble_Bedrock",
+				"surfaces" : 
+				{
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_chunkyrock_scrapyard_side01 .surface"
+				}
+			},
+			{
+				"clutterDensity" : 0.13,
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruction - Destruction_small",
+				"destructionEffect_2x2x2" : "voxeldestruction - Destruction_medium",
+				"destructionEffect_4x4x4" : "voxeldestruction - Destruction_big",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Rock2_Surface01",
+					"Voxeldestruct - Rock2_Surface02",
+					"Voxeldestruct - Rock2_Surface03",
+					"Voxeldestruct - Rock2_Surface04"
+				],
+				"indestructible" : true,
+				"material" : "Metal",
+				"name" : "Canyonrock_Bedrock",
+				"surfaces" : 
+				{
+					"ceiling" : 
+					{
+						"activation" : 0.06,
+						"disable" : false,
+						"surface" : "$GAME_DATA/Render/Surfaces/voxel_canyonrock_ceiling01.surface",
+						"threshold" : 0.25
+					},
+					"floor" : 
+					{
+						"activation" : 0.02,
+						"alternative" : 
+						{
+							"activation" : 0.14,
+							"disable" : false,
+							"surface" : "$GAME_DATA/Render/Surfaces/voxel_canyonrock_floor02.surface",
+							"threshold" : 0.46
+						},
+						"disable" : false,
+						"noise" : "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_groundnoise01.tex3d",
+						"surface" : "$GAME_DATA/Render/Surfaces/voxel_canyonrock_floor01.surface",
+						"threshold" : 0.319999993
+					},
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_canyonrock_side01.surface"
+				}
+			},
+			{
+				"constructionEffect" : "voxelconstruct",
+				"destructionEffect_1x1x1" : "voxeldestruction - Destruction_small",
+				"destructionEffect_2x2x2" : "voxeldestruction - Destruction_medium",
+				"destructionEffect_4x4x4" : "voxeldestruction - Destruction_big",
+				"destructionEffects" : 
+				[
+					"Voxeldestruct - Rock2_Surface01",
+					"Voxeldestruct - Rock2_Surface02",
+					"Voxeldestruct - Rock2_Surface03",
+					"Voxeldestruct - Rock2_Surface04"
+				],
+				"indestructible" : true,
+				"material" : "Voxel_Bedrock",
+				"name" : "Bedrock",
+				"surfaces" : 
+				{
+					"side" : "$GAME_DATA/Render/Surfaces/voxel_bedrock_side01.surface"
+				}
+			}
+		],
+		"width" : 2048
+	}
+}

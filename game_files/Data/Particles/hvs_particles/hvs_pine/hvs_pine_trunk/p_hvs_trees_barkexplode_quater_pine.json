@@ -1,0 +1,805 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "axial_self",
+				"category" : "billboards",
+				"color" : 
+				[
+					0.66272,
+					0.44705,
+					0.36469,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/debri_wood01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 5,
+						"fps" : 30,
+						"guid" : 1,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.86478,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_particles/hvs_pine/hvs_pine_trunk/p_emissionmesh_hvs_pine_trunk_quater01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 301,
+				"force_vector" : 
+				[
+					0.0,
+					-0.0,
+					-5.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.1,
+					0.00999
+				],
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 30,
+				"min_quality" : "high",
+				"name" : "Debri (High)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					-0.25,
+					0.25,
+					0.0
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					550.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					1,
+					5
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.2
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.1,
+					0.00999
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "w Mesh new",
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"direction" : 
+				[
+					0.25,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.39215,
+					1.0,
+					0.37253,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.89999,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 4,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 101,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 3,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Bark part 2 (Medium)",
+				"particle" : "debris",
+				"position" : 
+				[
+					-0.031,
+					-0.124,
+					-0.31901
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs_pine/hvs_pine_trunk/p_renderable_hvs_pine_trunk_quater_bark_02.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"rotation_speed" : 150.0,
+				"time_to_live" : 
+				[
+					3.0,
+					0.1
+				],
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "w Mesh new",
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"direction" : 
+				[
+					1.0,
+					-0.5,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.39215,
+					1.0,
+					0.37253,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 101,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 5,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Bark part 4 (High)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.18896,
+					0.126,
+					-0.69301
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs_pine/hvs_pine_trunk/p_renderable_hvs_pine_trunk_quater_bark_04.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 133.0,
+				"time_to_live" : 
+				[
+					3.0,
+					0.1
+				],
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "w Mesh new",
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"direction" : 
+				[
+					1.0,
+					-0.5,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.39215,
+					1.0,
+					0.37253,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 101,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 7,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Bark part 5 (High)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.24717,
+					-0.05999,
+					0.23465
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs_pine/hvs_pine_trunk/p_renderable_hvs_pine_trunk_quater_bark_05.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 133.0,
+				"time_to_live" : 
+				[
+					3.0,
+					0.1
+				],
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"angle" : 8.0,
+				"category" : "w Mesh new",
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"direction" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.39215,
+					1.0,
+					0.37253,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 101,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 9,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Bark part 8 (High)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.254,
+					0.20746,
+					0.572
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs_pine/hvs_pine_trunk/p_renderable_hvs_pine_trunk_quater_bark_08.rend",
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 65.0,
+				"time_to_live" : 
+				[
+					3.0,
+					0.1
+				],
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"category" : "billboards",
+				"color" : 
+				[
+					0.81638,
+					0.77248,
+					0.67927,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.05,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 12,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.582
+								]
+							],
+							[
+								0.62252,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.36327
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66447
+							],
+							[
+								0.23691,
+								1.06578
+							],
+							[
+								0.6769,
+								1.4671
+							],
+							[
+								1.0,
+								1.53945
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_particles/hvs_pine/hvs_pine_trunk/p_emissionmesh_hvs_pine_trunk_quater01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1011,
+				"friction" : 1.75,
+				"guid" : 11,
+				"height" : 
+				[
+					1.54999,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 2,
+				"min_quality" : "medium",
+				"name" : "Smoke01 (Medium)",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					-0.25,
+					0.25,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.15
+				],
+				"translucency" : 0.5,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					1.0,
+					0.15
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.54999,
+					0.25
+				],
+				"z_offset" : 50.0
+			},
+			{
+				"angle" : 8.0,
+				"category" : "w Mesh new",
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"direction" : 
+				[
+					0.5,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.39215,
+					1.0,
+					0.37253,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 101,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 15,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Bark part 9 (Low)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.161,
+					-0.26898,
+					0.34351
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs_pine/hvs_pine_trunk/p_renderable_hvs_pine_trunk_quater_bark_09.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"rotation_speed" : 90.0,
+				"time_to_live" : 
+				[
+					3.0,
+					0.1
+				],
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

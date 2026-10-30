@@ -1,0 +1,255 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "sprite",
+				"category" : ".1",
+				"color" : 
+				[
+					0.54294,
+					0.54294,
+					0.54294,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"delay" : 0.05,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/p_farmbot_swipeattack02.tga",
+				"direction" : 
+				[
+					0.5,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.17745,
+								[
+									1.0,
+									0.78636,
+									0.45311,
+									1.0
+								]
+							],
+							[
+								0.91548,
+								[
+									1.0,
+									0.582,
+									0.582,
+									0.68357
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.76858
+							],
+							[
+								0.33379,
+								0.74422
+							],
+							[
+								0.43904,
+								0.67523
+							],
+							[
+								0.56647,
+								0.51419
+							],
+							[
+								0.76591,
+								0.41407
+							],
+							[
+								1.0,
+								0.36129
+							]
+						],
+						"fade" : 0.2,
+						"guid" : 2,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 2.0,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 2,
+				"name" : "Swipe1",
+				"position" : 
+				[
+					-0.75736,
+					0.30077,
+					0.19085
+				],
+				"rotation" : -120.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.25,
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"category" : "0.1",
+				"delay" : 0.025,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction" : 
+				[
+					-1.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.25069,
+								[
+									1.0,
+									0.7843,
+									0.45098,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.54856
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 5,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.74284
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 15001,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 3,
+				"name" : "Start Flash1",
+				"position" : 
+				[
+					-1.03105,
+					0.41596,
+					1.16164
+				],
+				"power_glow" : true,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 0.116,
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

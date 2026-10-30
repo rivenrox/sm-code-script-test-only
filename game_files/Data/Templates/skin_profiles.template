@@ -1,0 +1,31 @@
+{
+	"template_meta": { 
+		"uuid" : "586995c2-a8a6-4eb8-926e-003cf1e81842",
+		"name" : "Skin Profiles", 
+		"display" : "skin Profiles", 
+		"pattern" : "*.skinprofiles"
+	},
+
+	"profiles_meta": { "type":"map", "maxSize":32 }, 
+	"profiles" : {
+		"skin" : {
+			"skinColor_meta" : { "type":"hexColor", "order":1 },
+			"skinColor" : "FFFFFFFF",
+
+			"subdermalColor_meta" : { "type":"hexColor", "order":1 },
+			"subdermalColor" : "FFFFFFFF",
+
+			"subdermalStrength_meta" : { "type":"float", "min":0.0, "max":4.0, "order":3 },
+			"subdermalStrength" : 0.25,
+
+			"subdermalOffset_meta" : { "type":"float", "min":0.0, "max":2.0, "order":3 },
+			"subdermalOffset" : 0.35,
+
+			"broadLobeScale_meta" : { "type":"float", "min":0.0, "max":0.5, "order":3 },
+			"broadLobeScale" : 0.05,
+
+			"translucency_meta" : { "type":"float", "min":0.0, "max":4.0, "order":2 },
+			"translucency" : 0.25
+		} 
+	}
+}

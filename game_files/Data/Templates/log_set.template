@@ -1,0 +1,32 @@
+{
+	"template_meta": {
+		"uuid" : "27cec3b4-8f3b-4d42-8b19-560a9c41d6db",
+		"name":"Log Set",
+		"pattern": ["*.logset"]
+	},
+
+    "logList_meta" : { "valueAsLabel":"name" },
+	"logList": [
+		{
+			"name": "",
+
+			"type_meta": { "options": ["photo"] },
+			"type": "photo",
+
+			"photo_meta": { "type": "texture", "available":{"type":["photo"]} },
+			"photo": "",
+
+			"whistle_meta": { "type": "bool", "optional": true },
+			"whistle": false,
+
+			"location_meta": { "optional": true, "options": ["mechanicStation", "crashedShip"], "optionsAllowsCustom": true },
+			"location": "mechanicStation",
+
+			"icon_meta": { "optional": true, "options": ["mechanicstation", "crashedship"], "optionsAllowsCustom": true },
+			"icon": "mechanicstation",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true },
+            "uuid": "00000000-0000-0000-0000-000000000000"
+		}
+	]
+}

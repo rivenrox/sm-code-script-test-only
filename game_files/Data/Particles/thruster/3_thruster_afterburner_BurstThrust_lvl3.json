@@ -1,0 +1,1378 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "03 - darker",
+				"circle_angle" : 90.0,
+				"default_particle" : 
+				[
+					0.25,
+					0.25
+				],
+				"depth" : 
+				[
+					4.5,
+					1.5
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.05,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.14354,
+									0.55529,
+									0.65625,
+									0.03906
+								]
+							],
+							[
+								0.36901,
+								[
+									0.09996,
+									0.59064,
+									0.71092,
+									1.0
+								]
+							],
+							[
+								0.66759,
+								[
+									0.03664,
+									0.67203,
+									0.89401,
+									0.75389
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.80309,
+									1.0,
+									0.03906
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"base_scale" : 0.25799,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.41271
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 3,
+						"length" : 0.69998,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 24
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 501,
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.55,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "StartCloud AB (Low)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"radius" : 0.05,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 20243,
+				"sort_offset" : 1.0,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 0.300000012,
+				"type" : "circle",
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.55,
+					0.1
+				]
+			},
+			{
+				"billboard_origin" : "right_center",
+				"billboard_type" : "axial_self",
+				"category" : "01 - main",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgrade_sideglow01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.32236
+							],
+							[
+								1.0,
+								0.90131
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25633,
+								[
+									0.23529,
+									0.20783,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.79717,
+								[
+									0.21402,
+									0.20783,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.20614,
+								1.44078
+							],
+							[
+								1.0,
+								1.03946
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 70,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					0.75,
+					0.05
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"min_quality" : "medium",
+				"name" : "Glow1  (Medium)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.15002
+				],
+				"rotation" : 90.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.25,
+					0.05
+				],
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 0.174999997
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "01 - main",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow08.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75985
+							],
+							[
+								0.32923,
+								1.17434
+							],
+							[
+								0.64614,
+								2.25657
+							],
+							[
+								1.0,
+								2.53289
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 3.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.29019,
+									0.4,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.169,
+								[
+									0.29019,
+									0.4,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.69577,
+								[
+									0.41218,
+									0.29019,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 11,
+						"name" : "Color"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.83552
+							],
+							[
+								1.0,
+								0.36842
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 70,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 9,
+				"height" : 
+				[
+					0.40999,
+					0.00999
+				],
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Glow thin (Low)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.25
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.3,
+					0.05
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.1,
+					0.00999
+				]
+			},
+			{
+				"category" : "04 - from above",
+				"color" : 
+				[
+					0.57879,
+					0.1953,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.25,
+					0.25
+				],
+				"depth" : 
+				[
+					4.5,
+					1.5
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke_animated_03_4x4_GlowSmoke.tga",
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.15198,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.21971,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3388
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 16,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 70,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					1.0,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 4,
+				"name" : "Base 1 (Low)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.10002
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					20.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 20241,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.17498,
+					0.0125
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.15
+				],
+				"z_offset" : 300.0
+			},
+			{
+				"category" : "04 - from above",
+				"color" : 
+				[
+					0.45827,
+					0.28514,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.25,
+					0.25
+				],
+				"depth" : 
+				[
+					4.5,
+					1.5
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.15198,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.26759,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.39801
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 70,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 17,
+				"height" : 
+				[
+					1.5,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 7,
+				"min_quality" : "medium",
+				"name" : "Base 2 (Medium)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.15002
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					20.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 100,
+				"time_to_live" : 
+				[
+					0.2,
+					0.025
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.15
+				],
+				"z_offset" : 300.0
+			},
+			{
+				"angle" : 5.0,
+				"category" : "01 - main",
+				"color" : 
+				[
+					0.375,
+					0.53125,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 53,
+						"fps" : 30,
+						"guid" : 21,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 22
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.03079,
+									0.00749,
+									0.04687,
+									1.0
+								]
+							],
+							[
+								0.23942,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.00313,
+									0.0,
+									0.03125,
+									1.0
+								]
+							]
+						],
+						"guid" : 22,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61184
+							],
+							[
+								0.24615,
+								1.05262
+							],
+							[
+								0.60614,
+								1.2763
+							],
+							[
+								1.0,
+								1.3421
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"friction" : 1.0,
+				"guid" : 20,
+				"height" : 
+				[
+					0.2,
+					0.05998
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "Glow Smokes slow",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"velocity" : 
+				[
+					1.5,
+					0.75
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.2,
+					0.05998
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "01 - main",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 53,
+						"fps" : 30,
+						"guid" : 25,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 22
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.03079,
+									0.00749,
+									0.04687,
+									1.0
+								]
+							],
+							[
+								0.25633,
+								[
+									0.11494,
+									0.53859,
+									0.9492,
+									1.0
+								]
+							],
+							[
+								0.66478,
+								[
+									0.24315,
+									0.21875,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.00313,
+									0.0,
+									0.03125,
+									1.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61184
+							],
+							[
+								0.24615,
+								1.05262
+							],
+							[
+								0.60614,
+								1.47368
+							],
+							[
+								1.0,
+								1.64472
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"friction" : 2.0,
+				"guid" : 24,
+				"height" : 
+				[
+					0.22498,
+					0.02999
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "Glow Smokes fast",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.25
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.44999,
+					0.1
+				],
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.22498,
+					0.02999
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "03 - darker",
+				"color" : 
+				[
+					0.4453,
+					0.79198,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/thruster_animatedthruster03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58552
+							],
+							[
+								0.5,
+								1.2
+							],
+							[
+								1.0,
+								1.39998
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.23097,
+								[
+									0.58202,
+									0.58202,
+									0.58202,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.25389,
+									0.25389,
+									0.25389,
+									0.0
+								]
+							]
+						],
+						"guid" : 30,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 31,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.5
+							],
+							[
+								1.0,
+								0.52499
+							]
+						],
+						"guid" : 32,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 11,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 28,
+				"height" : 
+				[
+					0.2,
+					0.00999
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Thruster (Low)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.30001
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"sort_offset" : 0.1,
+				"tiles" : 
+				[
+					2,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.2,
+					0.05
+				],
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.2,
+					0.00999
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "02 - ",
+				"circle_angle" : 65.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow08.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.26273,
+									0.48234,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.23097,
+								[
+									0.26273,
+									0.48234,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.65069,
+								[
+									0.32034,
+									0.26273,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 34,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 35,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 33,
+				"height" : 
+				[
+					0.6,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 22,
+				"min_quality" : "high",
+				"name" : "Glow thin (High)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.15002
+				],
+				"radius" : 0.07998,
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.17498,
+					0.05
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					0.5,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 0.035
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "02 - ",
+				"circle_angle" : 45.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow08.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.34509,
+									0.62744,
+									0.99215,
+									1.0
+								]
+							],
+							[
+								0.22815,
+								[
+									0.34509,
+									0.62744,
+									0.99215,
+									1.0
+								]
+							],
+							[
+								0.66197,
+								[
+									0.30305,
+									0.26273,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 37,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 38,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.71052
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 39,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 150,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 36,
+				"height" : 
+				[
+					0.3,
+					0.085
+				],
+				"keep_local" : true,
+				"max_particles" : 15,
+				"min_quality" : "high",
+				"name" : "Glow Thick short  (High)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.15002
+				],
+				"radius" : 0.07998,
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.2,
+					0.05
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					0.2,
+					0.2
+				],
+				"water_mask" : "none",
+				"width" : 0.055
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 3.0
+	}
+}

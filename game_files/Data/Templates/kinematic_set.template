@@ -1,0 +1,118 @@
+{
+	"template_meta": {
+		"uuid" : "9c9c4aab-91a7-4539-9f1f-2de273c57ed4",
+		"name":"Kinematic Set",
+		"display": "kinematicset",
+		"pattern": ["$*/Database/KinematicSets/*.json", "*.kinematicset"]
+	},
+
+	"kinematicList_meta": { "valueAsLabel":"name" },
+	"kinematicList": [
+		{
+			"name_meta": { "type": "string", "order":1 },
+			"name": "",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "ignoreUuidName": true, "autoGenerate":true, "order":2 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"showInEditor_meta" : { "type" : "bool", "optional" : true },
+			"showInEditor" : true,
+
+			"color_meta": { "type":"hexColor", "optional":true },
+			"color": "FFFFFF",
+
+			"renderable_meta": { "type" : "renderable", "order":3, "optional":true },
+			"renderable": "",
+
+			"col_box_meta": { "optional": true },
+			"col_box": { "x": 1, "y": 1, "z": 1 },
+
+			"col_sphere_meta": { "optional": true },
+			"col_sphere": { "diameter": 1.0 },
+
+			"col_meta": { "type":"filepath", "optional":true },
+			"col": "",
+
+			"collides_meta": { "optional": true },
+			"collides" : {
+			   "character" : true,
+			   "body" : true,
+			   "projectile" : true,
+			   "melee" : true
+			},
+
+			"removable_meta": { "type":"bool", "optional":true },
+			"removable": false,
+
+			"destroyTime_meta": { "type":"float", "optional":true },
+			"destroyTime": 0.0,
+
+			"script_meta": { "optional": true },
+			"script" : { 
+				"class" : "",
+				"data_meta" : { 
+					"editable": true,
+					"subTemplate": "$GAME_DATA/Templates/scriptdata.template"
+				},
+				"data" : {},
+				"file_meta": { "type": "filepath" },
+				"file": "" 
+			},
+
+			"size_meta": { "type": "int", "optional": true },
+			"size": 0,
+
+			"material_meta": { "optionsCategory":"physicsMaterial"},
+			"material" : "Default",
+
+			"mass_meta": { "type":"float" },
+			"mass" : 10000,
+
+			"params_meta" : { 
+				"optional" : true,
+				"value_meta" : { "constDataStoreAllNames" : true },
+				"presets" : {
+					"Template" : {
+						"name" : "",
+						"type" : "template",
+						"template" : ""
+					},
+					"Bool" : {
+						"name" : "",
+						"type" : "bool"
+					},
+					"Float" : {
+						"name" : "",
+						"type" : "float"
+					},
+					"String" : {
+						"name" : "",
+						"type" : "string"
+					},
+					"Name" : {
+						"name" : "name",
+						"type" : "string"
+					}
+				}
+			},
+			"params" : [
+				{
+					"name_meta" : { "order":0 },
+					"name" : "name",
+					"type_meta" : { "order":1, "options":["string", "track", "bool", "float", "connections", "effect", "template" ] },
+					"type" : "string",
+					"template_meta" : { "order":2, "optional": true, "available" : { "type" : [ "template" ] }, "type" : "uuid", "optionsCategory" : "template" },
+					"template" : ""
+				}
+			],
+
+			"optionalParams_meta" : { "optional" : true, "value_meta" : {} },
+			"optionalParams" : [{
+				"name_meta" : { "order":0 },
+				"name" : "name",
+				"type_meta" : { "order":1, "options": ["string","bool","float"] },
+				"type" : "string"
+			} ]
+		}
+	]
+}

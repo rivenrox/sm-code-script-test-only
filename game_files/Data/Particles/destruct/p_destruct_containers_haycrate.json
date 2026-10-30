@@ -1,0 +1,1586 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "4 - metal",
+				"circle_angle" : 0.0,
+				"color" : 
+				[
+					0.0392,
+					0.58429,
+					0.42745,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"debris_gravity_magnitude" : 15.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 4000,
+				"guid" : 0,
+				"keep_local" : false,
+				"max_particles" : 4,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Metal Part 1 (high)",
+				"params" : 2,
+				"particle" : "debris",
+				"radius" : 1.0,
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/containers_haycrate/p_renderable_destruction_containers_haycrate03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"time_to_live" : 2.0,
+				"type" : "circle",
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"color" : 
+				[
+					0.92185,
+					0.6718,
+					0.60496,
+					1.0
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.07321,
+								[
+									1.0,
+									0.81932,
+									0.71091,
+									1.0
+								]
+							],
+							[
+								0.842,
+								[
+									1.0,
+									1.0,
+									0.96469,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.69406
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 3,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.2423,
+								1.2
+							],
+							[
+								0.38076,
+								0.98666
+							],
+							[
+								1.0,
+								0.66131
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 0.25,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 1,
+				"height" : 
+				[
+					0.15,
+					0.025
+				],
+				"keep_local" : false,
+				"max_particles" : 50,
+				"min_quality" : "high",
+				"name" : "Sparks 2 (High)",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 1.0,
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"sphere_radius" : 0.34999,
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					5.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05998,
+					0.00999
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					1.0,
+					0.95591,
+					0.85154,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 24,
+						"guid" : 6,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 18
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.23939,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.65631,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 300,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 4.0,
+				"guid" : 5,
+				"height" : 
+				[
+					2.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "smoke [low]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"sort_offset" : -1.0,
+				"sphere_radius" : 0.86,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"translucency" : 0.69998,
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.25
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					1.0,
+					0.95292,
+					0.85096,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 30,
+						"guid" : 10,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								0.42153,
+								1.09868
+							],
+							[
+								1.0,
+								1.38153
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.22811,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.48168,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 9,
+				"height" : 
+				[
+					2.5,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Smoke shockwave  (low)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2512,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 0.5,
+				"translucency" : 0.69998,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.5,
+					0.1
+				]
+			},
+			{
+				"ASG_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_asg.tga",
+				"category" : "2",
+				"color" : 
+				[
+					0.41176,
+					0.4745,
+					0.49803,
+					1.0
+				],
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.82261,
+								0.94406
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 15,
+						"local" : false,
+						"max" : 2.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 5,
+				"mesh" : "resources/survival_objects/survivalobjects_crate/Meshes/p_survivalobjects_crate01_screws01.fbx",
+				"mesh_diffuse" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Metal parts 1  (high)",
+				"normal_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					340.0,
+					120.0
+				],
+				"sphere_radius" : 0.6,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.2
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "resources/misc/wood/p_destruct_woodchip_asg.tga",
+				"category" : "2",
+				"color" : 
+				[
+					0.40784,
+					0.47058,
+					0.4941,
+					1.0
+				],
+				"depth" : 
+				[
+					1.75,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.40459
+							],
+							[
+								0.09138,
+								0.86513
+							],
+							[
+								0.16967,
+								0.94076
+							],
+							[
+								0.80939,
+								0.90131
+							],
+							[
+								0.89033,
+								0.78947
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 18,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 1.0,
+				"guid" : 16,
+				"height" : 
+				[
+					1.75,
+					0.5
+				],
+				"keep_local" : false,
+				"material_name" : "DifAsgNorNoShadows",
+				"max_particles" : 5,
+				"mesh" : "resources/misc/wood/p_mesh_woodchip_01.fbx",
+				"mesh_diffuse" : "resources/misc/wood/p_destruct_woodchip_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh WoodChips 1 (High)",
+				"normal_map" : "resources/misc/wood/p_destruct_woodchip_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.175
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/misc/p_metalchunkcorner_02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					60.0
+				],
+				"sphere_radius" : 0.75,
+				"tiles" : 
+				[
+					1,
+					5
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.25
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					5.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.75,
+					0.5
+				]
+			},
+			{
+				"category" : "3 - Hay",
+				"color" : 
+				[
+					0.0392,
+					0.58429,
+					0.42745,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 20,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.41846,
+								0.70393
+							],
+							[
+								0.56,
+								0.81576
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 21,
+						"name" : "Pose"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.82893
+							],
+							[
+								1.0,
+								1.53945
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5001,
+				"friction" : 
+				[
+					20.0,
+					0.1
+				],
+				"guid" : 19,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Haypile 01 [medium]",
+				"params" : 2,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/containers_haycrate/p_renderable_destruction_containers_haycrate01.rend",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 0.400000006,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "3 - Hay",
+				"depth" : 
+				[
+					0.34999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5625
+							],
+							[
+								0.14846,
+								0.82235
+							],
+							[
+								0.36138,
+								0.95064
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 24,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.58881
+							],
+							[
+								0.12917,
+								0.5
+							],
+							[
+								0.75384,
+								0.4638
+							],
+							[
+								0.8769,
+								0.41117
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 25,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 2.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.88235,
+								0.61176,
+								0.14508,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.82029,
+								0.64682,
+								0.1858,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 23,
+				"height" : 
+				[
+					0.34999,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 50,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Haystraw 01 [medium]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_haypile/p_renderable_hvs_haypile_straws04.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					90.0,
+					90.0
+				],
+				"sphere_radius" : 1.0,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					1.35,
+					0.34999
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"angle" : 45.0,
+				"category" : "3 - Hay",
+				"depth" : 
+				[
+					0.34999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5625
+							],
+							[
+								0.14846,
+								0.82235
+							],
+							[
+								0.36138,
+								0.95064
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.58881
+							],
+							[
+								0.12917,
+								0.5
+							],
+							[
+								0.75384,
+								0.4638
+							],
+							[
+								0.8769,
+								0.41117
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 28,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.88235,
+								0.61176,
+								0.14508,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.82029,
+								0.64682,
+								0.1858,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 26,
+				"height" : 
+				[
+					0.34999,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 50,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Haystraw 02(High)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_haypile/p_renderable_hvs_haypile_straws02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					90.0,
+					90.0
+				],
+				"sphere_radius" : 1.0,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					1.35,
+					0.34999
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					3.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.1
+				]
+			},
+			{
+				"category" : "3 - Hay",
+				"depth" : 
+				[
+					0.25,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5625
+							],
+							[
+								0.14846,
+								0.82235
+							],
+							[
+								0.36138,
+								0.95064
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 30,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.12612,
+								0.59868
+							],
+							[
+								0.80923,
+								0.36842
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 31,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 2.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.88235,
+								0.61176,
+								0.14508,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.82029,
+								0.64682,
+								0.1858,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 29,
+				"height" : 
+				[
+					0.25,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "high",
+				"name" : "Haystraw 03(High)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_haypile/p_renderable_hvs_haypile_straws02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"sphere_radius" : 1.0,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.34999
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.25,
+					0.1
+				]
+			},
+			{
+				"category" : "1 - tape",
+				"color" : 
+				[
+					0.0392,
+					0.58429,
+					0.42745,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 33,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.41846,
+								0.70393
+							],
+							[
+								0.56,
+								0.81576
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 34,
+						"name" : "Pose"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.82893
+							],
+							[
+								1.0,
+								1.53945
+							]
+						],
+						"guid" : 35,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5001,
+				"friction" : 
+				[
+					20.0,
+					0.1
+				],
+				"guid" : 32,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "tape   [medium]",
+				"params" : 2,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/containers_haycrate/p_renderable_destruction_containers_haycrate02.rend",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 0.400000006,
+				"water_mask" : "none"
+			},
+			{
+				"box" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"category" : "4 - metal",
+				"color" : 
+				[
+					0.0392,
+					0.58429,
+					0.42745,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"debris_gravity_magnitude" : 15.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 4000,
+				"guid" : 36,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Metal Part 2 (low)",
+				"params" : 2,
+				"particle" : "debris",
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/containers_haycrate/p_renderable_destruction_containers_haycrate04.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"time_to_live" : 2.0,
+				"type" : "box",
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"box" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"category" : "4 - metal",
+				"color" : 
+				[
+					0.0392,
+					0.58429,
+					0.42745,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"debris_gravity_magnitude" : 15.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 4000,
+				"guid" : 37,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Metal Part 3 (low)",
+				"params" : 2,
+				"particle" : "debris",
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/containers_haycrate/p_renderable_destruction_containers_haycrate05.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"time_to_live" : 2.0,
+				"type" : "box",
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"box" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"category" : "4 - metal",
+				"color" : 
+				[
+					0.0392,
+					0.58429,
+					0.42745,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"debris_gravity_magnitude" : 15.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 4000,
+				"guid" : 38,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Metal Part 4 (low)",
+				"params" : 2,
+				"particle" : "debris",
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/containers_haycrate/p_renderable_destruction_containers_haycrate06.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"time_to_live" : 2.0,
+				"type" : "box",
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

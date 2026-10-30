@@ -1,0 +1,864 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 10.0,
+				"billboard_type" : "axial_self",
+				"category" : "1 - sparks",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/thruster_thruster03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.13671,
+									0.08651,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.21408,
+								[
+									1.0,
+									0.48952,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.73237,
+								[
+									1.0,
+									0.81559,
+									0.55466,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.97368
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.69998
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/minerbot/p_emissionmesh_minerbot_wheelspincylinder02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-6.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.3,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "sparks  (high)",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2500,
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					7.0,
+					3.0
+				],
+				"width" : 
+				[
+					0.02999,
+					0.00999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"angle" : 
+				[
+					10.0,
+					10.0
+				],
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "1 - sparks",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.5,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.63279,
+									0.0,
+									0.71482
+								]
+							],
+							[
+								0.18873,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									0.48045
+								]
+							],
+							[
+								0.77183,
+								[
+									1.0,
+									0.71934,
+									0.18355,
+									0.16796
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.8883,
+									0.28514,
+									0.05857
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.55912
+							],
+							[
+								0.93172,
+								0.36713
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.67523
+							],
+							[
+								0.19156,
+								3.81993
+							],
+							[
+								0.28345,
+								3.98709
+							],
+							[
+								0.46193,
+								3.78778
+							],
+							[
+								0.5971,
+								3.22829
+							],
+							[
+								0.79263,
+								1.09324
+							],
+							[
+								0.85957,
+								0.45658
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.70977
+							],
+							[
+								1.0,
+								0.81576
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 8,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/minerbot/p_emissionmesh_minerbot_wheelspincylinder01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 
+				[
+					0.25,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "Sparks Looping 1  (high)",
+				"power_glow" : true,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "blend_add",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"spawn_chance" : 0.23,
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					10.0,
+					2.0
+				],
+				"width" : 
+				[
+					0.1,
+					0.00999
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "1 - sparks",
+				"default_particle" : 
+				[
+					0.25,
+					0.25
+				],
+				"depth" : 
+				[
+					4.5,
+					1.5
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.13671,
+									0.08651,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.21408,
+								[
+									1.0,
+									0.48952,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.73237,
+								[
+									1.0,
+									0.81559,
+									0.55466,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.31577
+							],
+							[
+								0.19041,
+								0.7934
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59485
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 12,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/minerbot/p_emissionmesh_minerbot_wheelspincylinder02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 
+				[
+					7.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 9,
+				"height" : 
+				[
+					11.0,
+					3.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Flash 1  (medium)",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 20243,
+				"time_to_live" : 
+				[
+					0.2,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					12.0,
+					3.0
+				],
+				"width" : 
+				[
+					2.0,
+					0.5
+				],
+				"z_offset" : 0.3
+			},
+			{
+				"category" : "1 - sparks",
+				"default_particle" : 
+				[
+					0.25,
+					0.25
+				],
+				"depth" : 
+				[
+					4.5,
+					1.5
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.13671,
+									0.08651,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.21408,
+								[
+									1.0,
+									0.48952,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.73237,
+								[
+									1.0,
+									0.81559,
+									0.55466,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"base_scale" : 0.25799,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.46851
+							],
+							[
+								0.23691,
+								0.758
+							],
+							[
+								1.0,
+								1.00142
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.258,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.65912,
+								0.60771
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 16,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/minerbot/p_emissionmesh_minerbot_wheelspincylinder01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Flash 2  (medium)",
+				"rotation" : 
+				[
+					180.0,
+					25.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 
+				[
+					0.3,
+					0.05
+				],
+				"type" : "mesh",
+				"width" : 
+				[
+					4.0,
+					1.0
+				],
+				"z_offset" : 5.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"category" : "03 - sparks",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					4.0,
+					4.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_flamesanimated03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.13671,
+									0.08651,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.21408,
+								[
+									1.0,
+									0.48952,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.73237,
+								[
+									1.0,
+									0.81559,
+									0.55466,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66881
+							],
+							[
+								1.0,
+								1.25399
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								2.44055
+							]
+						],
+						"enabled" : false,
+						"guid" : 20,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 21,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 12,
+						"fps" : 30,
+						"guid" : 22,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/minerbot/p_emissionmesh_minerbot_wheelspincylinder01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 1.0,
+				"guid" : 17,
+				"height" : 
+				[
+					0.15,
+					0.07
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "individual Sparks   (high)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.11371
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.5,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"width" : 
+				[
+					0.15,
+					0.07
+				],
+				"z_offset" : 10.0
+			}
+		]
+	}
+}

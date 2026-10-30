@@ -1,0 +1,786 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_spinnerdoor_col.fbx",
+			"color" : "d6ad1dff",
+			"mass" : 15000.0,
+			"material" : "Rock",
+			"name" : "kin_gates_spinnerdoor01",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "completionFraction",
+					"type" : "float"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_spinnerdoor01.rend",
+			"script" : 
+			{
+				"class" : "KinematicTrackDoor",
+				"data" : 
+				{
+					"kinematic" : {},
+					"lockEffect" : "Growlab - Kinematicspinnerandlatchdoor"
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicTrackDoor.lua"
+			},
+			"uuid" : "234e12e3-ce2e-4fa4-9acf-f9794742e29d"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_corridordoor_col.fbx",
+			"color" : "b5c6dcff",
+			"defaultColors" : 
+			{
+				"Color01" : "ca362d00"
+			},
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_door_corridordoor01",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "isLocked",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_corridordoor01.rend",
+			"script" : 
+			{
+				"class" : "KinematicAutoDoor",
+				"data" : 
+				{
+					"kinematic" : {},
+					"sensorBounds" : 
+					{
+						"x" : 20,
+						"y" : 0,
+						"z" : 20.0
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicAutoDoor.lua"
+			},
+			"uuid" : "a6081b34-7eb5-4765-926f-b022414feb56"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_corridordoor_col.fbx",
+			"color" : "b5c6dcff",
+			"defaultColors" : 
+			{
+				"Color01" : "ca362d00"
+			},
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_door_corridordoor03",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "isLocked",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_corridordoor01.rend",
+			"script" : 
+			{
+				"class" : "KinematicAutoDoor",
+				"data" : 
+				{
+					"kinematic" : {},
+					"sensorBounds" : 
+					{
+						"x" : 20,
+						"y" : 0,
+						"z" : 20.0
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicAutoDoor.lua"
+			},
+			"uuid" : "da930c08-7093-4475-8097-caa02a88551f"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_corridordoor_col.fbx",
+			"color" : "db1414ff",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_door_corridordoor02",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "isLocked",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_corridordoor02.rend",
+			"script" : 
+			{
+				"class" : "KinematicAutoDoor",
+				"data" : 
+				{
+					"kinematic" : {},
+					"sensorBounds" : 
+					{
+						"x" : 2,
+						"y" : 0,
+						"z" : 5.5
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicAutoDoor.lua"
+			},
+			"uuid" : "b96c0837-a37b-4a65-ac42-615209d947c4"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_gate01_02_col.obj",
+			"color" : "e4ab03ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_gate01",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "isLocked",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_gate01.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "02e865c8-a4d3-49af-97a2-f5e613bf4e26"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_gate01_02_col.obj",
+			"color" : "e4ab03ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_gate02_auto",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "isLocked",
+					"type" : "bool"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_gate02.rend",
+			"script" : 
+			{
+				"class" : "KinematicAutoDoor",
+				"data" : 
+				{
+					"kinematic" : {},
+					"sensorBounds" : 
+					{
+						"x" : 2,
+						"y" : 0,
+						"z" : 5.5
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicAutoDoor.lua"
+			},
+			"size" : 2,
+			"uuid" : "9db5f1fe-0527-49bc-87cb-e9ddf754640d"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_gate01_02_col.obj",
+			"color" : "ca372dff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_gate03",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_gate01.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "eca673c2-fadb-4767-b8d0-35f7a3fa2503"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_gate01_02_col.obj",
+			"color" : "ca372dff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_gate04",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_gate02.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "52fe5134-032e-47b7-9fe4-5e1334681eea"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_spinnerdoor_col.fbx",
+			"color" : "ca372dff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_gate_small",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_spinnerdoor01.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Kinematicspindooraudio"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "b7388c8b-cab0-44db-b720-966ab2dbea18"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Minidungeon/kin_minidungeon_foldingplatform_col.fbx",
+			"color" : "ca372dff",
+			"kinematic" : true,
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "kin_folding_platform_triggered",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Minidungeon/kin_minidungeon_foldingplatform.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Kinematicspindooraudio"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "5f472215-cfd9-4ebb-8d6e-55b123a6952e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_gate01_02_col.obj",
+			"color" : "1f52b6ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_trackdoor01",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "lockCount",
+					"type" : "float"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_gate02.rend",
+			"script" : 
+			{
+				"class" : "KinematicMultiLockDoor",
+				"data" : 
+				{
+					"kinematic" : {},
+					"sensorBounds" : 
+					{
+						"x" : 2,
+						"y" : 0,
+						"z" : 7
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicMultiLockDoor.lua"
+			},
+			"uuid" : "d1f72daa-945a-4924-941c-f0e1051189bb"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_gate01_02_col.obj",
+			"color" : "e4ab03ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_gate05",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_gate02.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "34cc1f94-bcc3-4d0f-9813-cb09d8d1c42a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_big_doors01_col.fbx",
+			"color" : "f5ac13ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_door_big_doors01",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_big_doors01.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "ef46cc45-61aa-4feb-b730-4c6425ebcf6b"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_corridordoor_col.fbx",
+			"color" : "f5ac13ff",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_door_growlabDoubledoor",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_corridordoor01.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "d372c569-2c65-4995-b1bf-d3a01c5d92db"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_exitgate_col.fbx",
+			"color" : "f78018ff",
+			"mass" : 300.0,
+			"material" : "Mechanical",
+			"name" : "kin_door_exitgate",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_exitgate.rend",
+			"script" : 
+			{
+				"class" : "KinematicAutoDoor",
+				"data" : 
+				{
+					"kinematic" : {},
+					"sensorBounds" : 
+					{
+						"x" : 2,
+						"y" : 2,
+						"z" : 5
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicAutoDoor.lua"
+			},
+			"uuid" : "127c59ed-8902-4cac-ae56-8f3f464082d7"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_mediumelevator_col.fbx",
+			"color" : "f78018ff",
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "kin_door_mediumelevator",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_mediumelevator.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "e8ec4e18-2608-44bc-bfac-214af5ebfdbf"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_growlabtram_col.fbx",
+			"color" : "3b3b3bff",
+			"mass" : 300.0,
+			"material" : "Glass",
+			"name" : "kin_door_growlabtram",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_growlabtram.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "c74b1e32-df9b-4dc5-8ba9-22df8661236a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_growlabtram_col.fbx",
+			"color" : "3b3b3bff",
+			"mass" : 300.0,
+			"material" : "Glass",
+			"name" : "kin_door_growlabtram",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_growlabtram.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "c74b1e32-df9b-4dc5-8ba9-22df8661236a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Door/kin_door_exitgate_col.fbx",
+			"color" : "f78018ff",
+			"mass" : 300.0,
+			"material" : "Mechanical",
+			"name" : "kin_door_gateexit",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Door/kin_door_exitgate.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematic.lua"
+			},
+			"uuid" : "1ba42e79-2d35-420d-a4d4-71ef7116880d"
+		}
+	]
+}

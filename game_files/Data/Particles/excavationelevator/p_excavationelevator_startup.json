@@ -1,0 +1,844 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 25.0,
+				"category" : "1 - Smoke",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds01_nor.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 24,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.29859,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.15997
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.125,
+								0.69177
+							],
+							[
+								0.19731,
+								0.85913
+							],
+							[
+								0.30526,
+								0.94559
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.15394,
+								2.94979
+							],
+							[
+								0.31973,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max" : 5.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.25229,
+								0.95722
+							],
+							[
+								0.40922,
+								0.875
+							],
+							[
+								0.68307,
+								0.25328
+							],
+							[
+								0.80615,
+								0.10197
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/excavationelevator/p_excavationelevator_dust_emissionmesh_horizontal.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					3.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.75
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 256,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.5
+				],
+				"translucency" : 1.0,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.5
+				]
+			},
+			{
+				"angle" : 25.0,
+				"category" : "2  - Smoke",
+				"delay" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds01_nor.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 24,
+						"guid" : 7,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.30421,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.15998
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.125,
+								0.69177
+							],
+							[
+								0.19731,
+								0.85913
+							],
+							[
+								0.30526,
+								0.94559
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.15394,
+								2.94979
+							],
+							[
+								0.31973,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max" : 5.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.25229,
+								0.95722
+							],
+							[
+								0.40922,
+								0.875
+							],
+							[
+								0.68307,
+								0.25328
+							],
+							[
+								0.80615,
+								0.10197
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 11,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/excavationelevator/p_excavationelevator_dust_emissionmesh_vertical.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 6,
+				"height" : 
+				[
+					3.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.75
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 256,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.5
+				],
+				"translucency" : 1.0,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.5
+				]
+			},
+			{
+				"angle" : 25.0,
+				"category" : "1 - Smoke",
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 24,
+						"guid" : 13,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.28169,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.15997
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.125,
+								0.69177
+							],
+							[
+								0.19731,
+								0.85913
+							],
+							[
+								0.30526,
+								0.94559
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.15394,
+								2.94979
+							],
+							[
+								0.31973,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 16,
+						"max" : 5.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.25229,
+								0.95722
+							],
+							[
+								0.40922,
+								0.875
+							],
+							[
+								0.68307,
+								0.25328
+							],
+							[
+								0.80615,
+								0.10197
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 17,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/excavationelevator/p_excavationelevator_dust_emissionmesh_horizontal.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 12,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"name" : "Smoke2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.75
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 256,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.5
+				],
+				"translucency" : 1.0,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"angle" : 25.0,
+				"category" : "2  - Smoke",
+				"delay" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 24,
+						"guid" : 19,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.30421,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.15998
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.125,
+								0.69177
+							],
+							[
+								0.19731,
+								0.85913
+							],
+							[
+								0.30526,
+								0.94559
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.15394,
+								2.94979
+							],
+							[
+								0.31973,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 22,
+						"max" : 5.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.25229,
+								0.95722
+							],
+							[
+								0.40922,
+								0.875
+							],
+							[
+								0.68307,
+								0.25328
+							],
+							[
+								0.80615,
+								0.10197
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 23,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/excavationelevator/p_excavationelevator_dust_emissionmesh_vertical.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 18,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"name" : "Smoke2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.75
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 256,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.5
+				],
+				"translucency" : 1.0,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 2.0
+	}
+}

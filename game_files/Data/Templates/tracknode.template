@@ -1,0 +1,163 @@
+{
+	"label_meta" : { "optional": true, "order":0 },
+	"label" : "",
+
+	"event_meta" : { "optional": true, "order":1 },
+	"event" : "",
+
+	"stop_meta" : { "optional": true, "order":2 },
+	"stop": false,
+
+	"delay_meta" : { "type":"float", "optional": true, "order":3, "min":0.0 },
+	"delay": 0.0,
+
+	"inheritDuration_meta" : { "order":4 },
+	"inheritDuration": false,
+
+	"durationFromSpeed_meta" : { "order":5, "available":{"inheritDuration":[false]} },
+	"durationFromSpeed": false,
+
+	"duration_meta" : { "type":"float", "min":0.0, "order":6, "available":{"durationFromSpeed":[false], "inheritDuration":[false]} },
+	"duration" : 1.0,
+
+	"speed_meta" : { "type":"float", "min":0.0, "order":7, "available":{"durationFromSpeed":[true], "inheritDuration":[false]} },
+	"speed" : 1.0,
+
+	"easing_meta": { "optionsCategory": "easing", "order":8 },
+	"easing": "linear",
+
+	"position_meta": { "type":"vec3", "order":9 },
+	"position": [0.0, 0.0, 0.0],
+	
+	"rotation_meta": { "type":"vec3", "order":10 },
+	"rotation": [0.0, 0.0, 0.0],
+
+	"jumpCut_meta" : { "optional": true },
+	"jumpCut": false,
+
+	"overrideFOV_meta" : { "optional": true },
+	"overrideFOV": false,
+	
+	"FOV_meta" : { "optional": true, "min":10.0, "max": 180.0, "available":{"overrideFOV":[true]} },
+	"FOV": 60.0,
+
+	"tangents_meta":{
+		"order":11,
+		"optional":true,
+		"valueSuffix": " - Tangent",
+		"color": "#3d5b63",
+		"value_meta": {
+			"background":false,
+			"startCollapsed":true,
+			"displayTransform" : {
+				"color": [0.2, 0.2, 0.9, 0.5],
+				"cameraView": false,
+				"position":"position",
+				"rotation":"rotation"
+			},
+			"postAddModifier" : "centerTangentPoint"
+		},
+		"postCreateModifier" : "centerTangentPoint"
+	},
+	"tangents": [
+		{
+			"position_meta": { "type":"vec3", "order":0 },
+			"position": [0.0, 0.0, 0.0],
+			
+			"rotation_meta": { "type":"vec3", "order":1 },
+			"rotation": [0.0, 0.0, 0.0]
+		}
+	],
+
+	"forwardsEvent_meta" : { "optional": true, "order":12 },
+	"forwardsEvent" : false,
+
+	"backwardsEvent_meta" : { "optional": true, "order":13 },
+	"backwardsEvent" : false,
+
+	"attachedEffect_meta" : { "optional": true, "order": 14, "type": "string", "optionsCategory":"effect", "deprecated" : true, "toolTip": "Use \"Attached Effects\" list instead." },
+	"attachedEffect" : "",
+
+	"attachedEffects_meta" : { 
+		"optional" : true, 
+		"order": 15, 
+		"toolTip": "Attached effects will be created when the track node is reached. The effect will be started when created.\nCan be marked as persistent or be destroyed by another track node with 'deactivateEffects'.",
+		"value_meta": {
+			"displayTransform" : 
+			{
+				"color": [0.9, 0.7, 0.2, 0.5],
+				"cameraView": false,
+				"position":"offsetPosition",
+				"rotation":"offsetRotation",
+				"renderable" : "$GAME_DATA/Nodes/Renderable/node_cube.rend"
+			}
+		}
+	 },
+	"attachedEffects" : [
+		{
+			"effectName_meta" : { "type": "string", "optionsCategory":"effect", "order" : 0 },
+			"effectName" : "",
+
+			"offsetPosition_meta" : { "type" : "vec3", "order" : 1 },
+			"offsetPosition" : [0.0, 0.0, 0.0],
+
+			"offsetRotation_meta" : { "type" : "vec3", "order" : 2 },
+			"offsetRotation" : [0.0, 0.0, 0.0],
+
+			"persistentActivation_meta" : { "label": "Persistent Activation*", "order" : 3, "toolTip" : "If true, activates the effect upon loading in if the kinematic has gone past this track node" },
+			"persistentActivation" : false,
+
+			"identifier_meta" : { "label": "Identifier*", "type" : "string", "order" : 4, "toolTip" : "An identifier assigned to the effect used to turn it off from other nodes" },
+			"identifier" : "",
+
+			"repeatable_meta" : { "label": "Repeatable*", "order" : 5, "toolTip" : "If true, the effect starts or restarts every time the node is reached." },
+			"repeatable" : false
+		}
+	],
+
+	"effects_meta" : { 
+		"optional" : true, 
+		"order": 16, 
+		"label": "Effects*",
+		"toolTip": "Effects will be played every time the track node is reached. The effect does not attach to the kinematic.",
+		"value_meta": {
+			"displayTransform" : 
+			{
+				"color": [0.2, 0.2, 0.9, 0.5],
+				"cameraView": false,
+				"position":"offsetPosition",
+				"rotation":"offsetRotation",
+				"renderable" : "$GAME_DATA/Nodes/Renderable/node_cube.rend"
+			}
+		}
+	 },
+	"effects" : [
+		{
+			"effectName_meta" : { "type": "string", "optionsCategory":"effect", "order" : 0 },
+			"effectName" : "",
+
+			"offsetPosition_meta" : { "type" : "vec3", "order" : 1 },
+			"offsetPosition" : [0.0, 0.0, 0.0],
+
+			"offsetRotation_meta" : { "type" : "vec3", "order" : 2 },
+			"offsetRotation" : [0.0, 0.0, 0.0]
+		}
+	],
+
+	"deactivateEffects_meta" : { "optional" : true, "order": 17, "type": "string", "toolTip": "Will deactivate all effects with the matching identifier" },
+	"deactivateEffects" : "",
+
+	"eventDelay_meta" : { "type":"float", "optional" : true, "order" : 18, "min" : 0.0 },
+	"eventDelay" : 0.0,
+
+	"kinematicActivations_meta" : { "optional" : true, "order" : 19 },
+	"kinematicActivations" : [
+		{
+			"kinematicEventTrigger_meta" : { "type" : "string", "order" : 0 },
+			"kinematicEventTrigger" : "",
+
+			"trackName_meta" : { "optional" : true, "type" : "string", "order" : 1 },
+			"trackName" : "track"
+		}
+	]
+}

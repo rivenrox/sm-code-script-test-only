@@ -1,0 +1,131 @@
+{
+	"Lootbot - Lootcratedestroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.5
+				},
+				"name" : "p_lootbot_lootbox_destruct",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"shakeRadius" : 3.0,
+			"shakeStrength" : 0.25
+		}
+	},
+	"Lootbot - DestroyedParts" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_explode"
+				],
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"name" : "p_totebot_destroy_parts",
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"name" : "p_totebot_destroy",
+				"type" : "particle",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				]
+			}
+		],
+				"parameterList" : 
+		{
+			"totebot_color" : 1.0
+		}
+	},
+	"Lootbot - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_lootbot_lootbox_impact",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/ui/item_spawn"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Lootbot - Trail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_lootbot_lootbox_trail",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"type" : "particle"
+			}
+		]
+	}
+}

@@ -1,0 +1,59 @@
+{
+    "subTemplate_meta": {
+        "presets" : {
+            "Template" : {
+                "name" : "",
+                "type" : "template",
+                "template" : ""
+            },
+            "Track" : {
+                "name" : "track",
+                "type" : "template",
+                "template" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9"
+            },
+            "Bool" : {
+                "default" : false,
+                "name" : "",
+                "type" : "bool"
+            },
+            "Float" : {
+                "default" : 0,
+                "name" : "",
+                "type" : "float"
+            },
+            "String" : {
+                "default" : "",
+                "name" : "",
+                "type" : "string"
+            },
+            "Connections" : {
+                "name" : "connections",
+                "type" : "connections"
+            },
+            "Name" : {
+                "name" : "name",
+                "type" : "string"
+            },
+            "Effect" : {
+                "default" : 
+                {
+                    "name" : "Fire - small01"
+                },
+                "name" : "",
+                "type" : "effect"
+            }
+        }
+	},
+    "subTemplate_value": [
+        {
+            "name_meta": { "order":0, "type": "string" },
+            "name": "myString",
+        
+            "type_meta": { "order":1, "type": "string", "options":[ "bool", "string", "float", "connections", "effect", "template" ] },
+            "type": "string",
+        
+            "template_meta" : { "order":2, "optional": true, "available" : { "type" : [ "template" ] }, "type" : "uuid", "optionsCategory" : "template" },
+            "template" : ""
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+	"DifAsgNor" : 
+	{
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_CUSTOM_TILING",
+			"PS_TEXTURE_ARRAYS"
+		]
+	},
+	"DifAsgNorAlpha" : 
+	{
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_FLIP_BACKFACE_NORMALS",
+			"PS_CUSTOM_TILING",
+			"PS_TEXTURE_ARRAYS"
+		],
+		"pass" : "ALPHA"
+	},
+	"Glass" : 
+	{
+		"custom" : 
+		{
+			"glass" : 
+			{
+				"ROI" : 1.52,
+				"blurriness" : 0.0,
+				"depthBlurDistance" : 1,
+				"depthBlurMin" : 0,
+				"magnification" : 0.0,
+				"magnificationDirection" : 
+				[
+					1.0,
+					1.0
+				],
+				"refraction" : 0.1,
+				"responsiveGlow" : 1.0,
+				"transmission" : 1.0,
+				"transparencyBack" : 0.2,
+				"transparencyFront" : 0.75
+			}
+		},
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_CUSTOM_TILING",
+			"PS_TEXTURE_ARRAYS",
+			"PS_TRANSPARENT_TINTED",
+			"PS_FLIP_BACKFACE_NORMALS",
+			"PS_REFRACTION",
+			"PS_LEGACY_GLASS",
+			"PS_LEGACY_GLASS_BLOCKS"
+		],
+		"pass" : "GLASS"
+	},
+	"Visualization" : 
+	{
+		"defines" : 
+		[
+			"PS_NOR_TEX"
+		],
+		"pass" : "VISUALIZATION"
+	}
+}

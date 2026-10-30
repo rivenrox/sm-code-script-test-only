@@ -1,0 +1,424 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.8906,
+					0.8906,
+					0.8906,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.8,
+					0.8
+				],
+				"depth" : 
+				[
+					0.32499,
+					0.17497
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_pistonpressuregas.tga",
+				"direction_type" : "constant",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 37,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.53236,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.49608
+								]
+							],
+							[
+								1.0,
+								[
+									0.9843,
+									1.0,
+									0.98039,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"guid" : 0,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "SteamPresure TestingTexture",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"repeat_delay" : 5.0,
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2048,
+				"sort_offset" : -0.5,
+				"tiles" : 
+				[
+					4,
+					11
+				],
+				"time_to_live" : 
+				[
+					1.35,
+					0.1
+				],
+				"translucency" : 0.5,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "1 - ",
+				"circle_angle" : 85.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 53,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59735
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.27605,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.27342
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 
+				[
+					2.0,
+					0.25
+				],
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.77647,
+								0.79606,
+								0.77647,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 3,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.78136
+				],
+				"radius" : 0.1,
+				"repeat_delay" : 5.0,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 1024,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.5,
+					0.5
+				],
+				"translucency" : 0.49,
+				"type" : "circle",
+				"velocity" : 
+				[
+					6.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.25
+				]
+			},
+			{
+				"category" : "1 - ",
+				"circle_angle" : 85.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_animated01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.09013,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.5
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 
+				[
+					2.0,
+					0.25
+				],
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.77647,
+								0.79606,
+								0.77647,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 7,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Smoke3",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.99629
+				],
+				"radius" : 0.1,
+				"repeat_delay" : 5.0,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 1024,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.5,
+					0.5
+				],
+				"translucency" : 0.5,
+				"type" : "circle",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 2.0
+	}
+}

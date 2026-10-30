@@ -1,0 +1,750 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 5.0,
+				"category" : "1 - ",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/controlconsole/parts/mainconsole/p_mesh_controlconsole_destroy_mainconsole01_col.fbx",
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.99,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 555,
+				"guid" : 0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "MainConsole",
+				"particle" : "debris",
+				"position" : 
+				[
+					-0.18976,
+					-0.00888,
+					1.01795
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlconsole/mainconsole/p_mesh_controlconsole_destroy_mainconsole01.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.1,
+					0.1
+				],
+				"rotation_speed" : 300.0,
+				"sub" : 
+				[
+					{
+						"angle" : 5.0,
+						"box" : 
+						[
+							0.5,
+							1.0,
+							0.5
+						],
+						"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+						"direction_type" : "shape",
+						"duration" : 1.0,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 2,
+								"name" : "TextureAnimator",
+								"start_texture_coords_range" : 24
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.75388,
+											0.75388,
+											0.75388,
+											0.0
+										]
+									],
+									[
+										0.35774,
+										[
+											0.67185,
+											0.67185,
+											0.67185,
+											0.78591
+										]
+									],
+									[
+										1.0,
+										[
+											0.5156,
+											0.5156,
+											0.5156,
+											0.0
+										]
+									]
+								],
+								"guid" : 3,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.83231
+									],
+									[
+										0.10344,
+										1.11976
+									],
+									[
+										0.20283,
+										1.22754
+									],
+									[
+										0.32251,
+										1.23353
+									],
+									[
+										1.0,
+										0.93413
+									]
+								],
+								"guid" : 4,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_rate" : 15,
+						"friction" : 1.0,
+						"guid" : 1,
+						"height" : 
+						[
+							1.0,
+							0.25
+						],
+						"keep_local" : false,
+						"max_particles" : 100,
+						"min_quality" : "medium",
+						"name" : "Smoke",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_speed" : 
+						[
+							0.0,
+							25.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"soft_particles_bias" : 2000,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.75,
+							0.15
+						],
+						"translucency" : 0.70999,
+						"type" : "box",
+						"velocity" : 
+						[
+							0.5,
+							0.25
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.25
+						]
+					}
+				],
+				"time_to_live" : 10.0,
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 25.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.78513,
+					0.60724,
+					0.0,
+					1.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.95999,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 555,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 6,
+				"height" : 0.600000024,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "high",
+				"name" : "Keyboard keys 1",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0258,
+					-0.15264,
+					0.81268
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlconsole/keyboard/p_mesh_controlconsole_destroy_keyboard04_keys.rend",
+				"rotation" : 45.0,
+				"rotation_axis" : 
+				[
+					-0.10002,
+					-1.0,
+					0.1
+				],
+				"rotation_speed" : 
+				[
+					400.0,
+					50.0
+				],
+				"time_to_live" : 1.5,
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 0.899999976
+			},
+			{
+				"angle" : 25.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.35936,
+					0.01823,
+					0.01823,
+					1.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.95999,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 9,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 555,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 8,
+				"height" : 0.600000024,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "high",
+				"name" : "Keyboard keys 2",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.12398,
+					-0.16115,
+					0.82595
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlconsole/keyboard/p_mesh_controlconsole_destroy_keyboard04_keys.rend",
+				"rotation" : 45.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					450.0,
+					50.0
+				],
+				"time_to_live" : 1.5,
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 0.899999976
+			},
+			{
+				"angle" : 25.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.35936,
+					0.01823,
+					0.01823,
+					1.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.95999,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 11,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 555,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 10,
+				"height" : 0.600000024,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "high",
+				"name" : "Keyboard keys 3",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.26583,
+					-0.16641,
+					0.81756
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlconsole/keyboard/p_mesh_controlconsole_destroy_keyboard04_keys.rend",
+				"rotation" : 45.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					350.0,
+					50.0
+				],
+				"time_to_live" : 1.5,
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 0.899999976
+			},
+			{
+				"angle" : 25.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.78513,
+					0.60724,
+					0.0,
+					1.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.95999,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 13,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 555,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 12,
+				"height" : 0.600000024,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"min_quality" : "high",
+				"name" : "Keyboard keys 4",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.53307,
+					-0.10821,
+					0.83933
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlconsole/keyboard/p_mesh_controlconsole_destroy_keyboard04_keys.rend",
+				"rotation" : 45.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					400.0,
+					50.0
+				],
+				"time_to_live" : 1.5,
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 0.899999976
+			},
+			{
+				"angle" : 5.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.35936,
+					0.01823,
+					0.01823,
+					1.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.95999,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 555,
+				"guid" : 14,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Keyboard keys 1",
+				"particle" : "debris",
+				"position" : 
+				[
+					-0.23031,
+					-0.5085,
+					0.79259
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlconsole/keyboard/p_mesh_controlconsole_destroy_keyboard04_keys.rend",
+				"rotation_axis" : 
+				[
+					0.25,
+					-1.0,
+					0.25
+				],
+				"rotation_speed" : 
+				[
+					300.0,
+					100.0
+				],
+				"time_to_live" : 1.5,
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 5.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.35936,
+					0.01823,
+					0.01823,
+					1.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.95999,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 555,
+				"guid" : 16,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Keyboard keys 2",
+				"particle" : "debris",
+				"position" : 
+				[
+					0.07067,
+					-0.51306,
+					0.76545
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlconsole/keyboard/p_mesh_controlconsole_destroy_keyboard04_keys.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					300.0,
+					100.0
+				],
+				"time_to_live" : 1.5,
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

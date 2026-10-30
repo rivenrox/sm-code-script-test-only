@@ -1,0 +1,1611 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Colour" : "1 0.65625 0 1",
+					"ImageTexture" : "Hideout/gui_hideout_progression_fill.png",
+					"Name" : "Bar",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"height" : 350,
+					"width" : 24,
+					"x" : 52,
+					"y" : 76
+				},
+				{
+					"Childs" : [],
+					"ImageTexture" : "Hideout/gui_hideout_progression_bg.png",
+					"Name" : "BarBackground",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "HideoutProgressionBG",
+					"Type" : "ImageBox",
+					"height" : 350,
+					"width" : 28,
+					"x" : 50,
+					"y" : 76
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Alpha" : 1.0,
+							"Childs" : [],
+							"ImageTexture" : "Hideout/gui_hideout_progressionmarker_default.png",
+							"Name" : "Marker",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 6,
+							"width" : 52,
+							"x" : 6,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"Effects" : 
+									[
+										{
+											"EffectName" : "Gui - Trader_unlock02",
+											"Name" : "default",
+											"Offset" : 
+											{
+												"x" : 0,
+												"y" : -2
+											},
+											"PlayState" : "Auto playing"
+										}
+									],
+									"Name" : "EffectBox",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "EffectBox",
+									"Type" : "EffectBox",
+									"height" : 66,
+									"width" : 66,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"CropEffect" : false,
+											"Effects" : 
+											[
+												{
+													"EffectName" : "Gui - Trader_unlock",
+													"Name" : "default",
+													"Offset" : 
+													{
+														"x" : 0,
+														"y" : -2
+													},
+													"PlayState" : "Auto play off"
+												},
+												{
+													"EffectName" : "Gui - Trader_unlock_newreward",
+													"Name" : "default",
+													"Offset" : 
+													{
+														"x" : 0,
+														"y" : -2
+													},
+													"PlayState" : "Auto play off"
+												}
+											],
+											"Name" : "EffectBox",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "EffectBox",
+											"Type" : "EffectBox",
+											"height" : 66,
+											"width" : 66,
+											"x" : -8,
+											"y" : -6
+										}
+									],
+									"ImageGroup" : "ItemIcons",
+									"ImageName" : "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
+									"ImageResource" : "ItemIconsSetSurvival0",
+									"Name" : "RewardIcon",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "ImageBox",
+									"Type" : "ImageBox",
+									"Visible" : true,
+									"height" : 50,
+									"width" : 50,
+									"x" : 8,
+									"y" : 6
+								}
+							],
+							"ImageTexture" : "Hideout/gui_hideout_bgitem_yellow.png",
+							"Name" : "RewardIconBG",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 66,
+							"width" : 66,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"InheritsPick" : true,
+					"LayoutRule" : "Absolute",
+					"Name" : "Markers",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"height" : 350,
+					"width" : 66,
+					"x" : 32,
+					"y" : 76
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Trader_unlock02",
+									"Name" : "default",
+									"Offset" : 
+									{
+										"x" : 0,
+										"y" : -2
+									},
+									"PlayState" : "Auto playing"
+								}
+							],
+							"Name" : "EffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 66,
+							"width" : 66,
+							"x" : 0,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"CropEffect" : false,
+									"Effects" : 
+									[
+										{
+											"EffectName" : "Gui - Trader_finalunlock",
+											"Name" : "unlock",
+											"Offset" : 
+											{
+												"x" : 0,
+												"y" : -1
+											},
+											"PlayState" : "Auto play off"
+										},
+										{
+											"EffectName" : "Gui - Trader_unlock_newreward",
+											"Name" : "new",
+											"Offset" : 
+											{
+												"x" : 0,
+												"y" : -2
+											},
+											"PlayState" : "Auto play off"
+										}
+									],
+									"Name" : "FinalRewardImageEffectBox",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "EffectBox",
+									"Type" : "EffectBox",
+									"height" : 66,
+									"width" : 66,
+									"x" : -8,
+									"y" : -6
+								}
+							],
+							"ImageGroup" : "ItemIcons",
+							"ImageName" : "1f334b62-8955-4406-8848-91e03228c330",
+							"ImageResource" : "ItemIconsSet0",
+							"Name" : "FinalRewardImage",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 50,
+							"width" : 50,
+							"x" : 8,
+							"y" : 6
+						}
+					],
+					"ImageTexture" : "Hideout/gui_hideout_bgitem_grey.png",
+					"Name" : "FinalRewardBG",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"height" : 66,
+					"width" : 66,
+					"x" : 32,
+					"y" : 25
+				},
+				{
+					"Caption" : "#{HIDEOUT_DEPOSIT}",
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Trader_depositbuttonidleglow",
+									"Name" : "IdleGlow",
+									"Offset" : 
+									{
+										"x" : 0,
+										"y" : -30
+									},
+									"PlayState" : "Auto play off"
+								},
+								{
+									"EffectName" : "Gui - Trader_depositbutton",
+									"Name" : "ButtonClick",
+									"Offset" : 
+									{
+										"x" : 0,
+										"y" : -30
+									},
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "ProgressButtonEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 100,
+							"width" : 100,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"FontName" : "SM_ButtonSmall",
+					"Name" : "ProgressButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "StyledButtonLarge",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 40,
+					"onClick" : "cl_onDepositClick",
+					"width" : 100,
+					"x" : 14,
+					"y" : 500
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "gui_hideout_vegtable_redbeet.png",
+							"Name" : "ResourceIcon",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 42,
+							"width" : 42,
+							"x" : 30,
+							"y" : 10
+						}
+					],
+					"ImageTexture" : "gui_hideout_bgdeposit_default.png",
+					"Name" : "RequiredResourceBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"height" : 64,
+					"width" : 100,
+					"x" : 14,
+					"y" : 426
+				}
+			],
+			"InheritsPick" : true,
+			"Name" : "UnlockPanel",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "BackgroundHideoutProgress",
+			"Type" : "Widget",
+			"height" : 556,
+			"width" : 128,
+			"x" : 0,
+			"y" : 0
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "#{HIDEOUT_TITLE}",
+					"Childs" : [],
+					"FontName" : "SM_HeaderLarge_Wide",
+					"Name" : "MainTitle",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.3",
+					"Type" : "TextBox",
+					"VerticalAlign" : "Stretch",
+					"height" : 20,
+					"width" : 80,
+					"x" : 0,
+					"y" : 40
+				},
+				{
+					"Childs" : [],
+					"ImageTexture" : "Hideout/gui_hideout_icon.png",
+					"Name" : "Hideout Icon",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"height" : 80,
+					"width" : 124,
+					"x" : 10,
+					"y" : -50
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_banana.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "BananaResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_blueberry.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "BlueberryResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_broccoli.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "BroccoliResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_carrot.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "CarrotResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_orange.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "OrangeResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_pinapple.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "PineappleResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_redbeet.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "RedbeetResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "gui_hideout_vegtable_tomato.png",
+													"Name" : "CounterImage",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 40,
+													"width" : 40,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : 
+													[
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number1",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 5,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number2",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 13,
+															"y" : 3
+														},
+														{
+															"Caption" : "8",
+															"Childs" : [],
+															"FontName" : "SM_HeaderTiny",
+															"Name" : "Number3",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Center",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 7,
+															"x" : 21,
+															"y" : 3
+														}
+													],
+													"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+													"Name" : "NumberBG",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 20,
+													"width" : 32,
+													"x" : 4,
+													"y" : 38
+												}
+											],
+											"Name" : "TomatoResourceCounter",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 59,
+											"width" : 40,
+											"x" : 2,
+											"y" : 0
+										}
+									],
+									"LayoutRule" : "Horizontal",
+									"Name" : "CountPanel",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"height" : 59,
+									"width" : 336,
+									"x" : 8,
+									"y" : 10
+								}
+							],
+							"Colour" : "0.316406 0.316406 0.316406 1",
+							"Name" : "Widget",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "HideoutVegtableBG",
+							"Type" : "Widget",
+							"height" : 80,
+							"width" : 352,
+							"x" : 14,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"ImageTexture" : "Hideout/gui_hideout_farmball.png",
+											"Name" : "CounterImage",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 40,
+											"width" : 40,
+											"x" : 0,
+											"y" : -5
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Caption" : "8",
+													"Childs" : [],
+													"FontName" : "SM_HeaderTiny",
+													"Name" : "Number1",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "TextBox",
+													"TextAlign" : "Center",
+													"Type" : "TextBox",
+													"height" : 15,
+													"width" : 7,
+													"x" : 5,
+													"y" : 3
+												},
+												{
+													"Caption" : "8",
+													"Childs" : [],
+													"FontName" : "SM_HeaderTiny",
+													"Name" : "Number2",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "TextBox",
+													"TextAlign" : "Center",
+													"Type" : "TextBox",
+													"height" : 15,
+													"width" : 7,
+													"x" : 13,
+													"y" : 3
+												},
+												{
+													"Caption" : "8",
+													"Childs" : [],
+													"FontName" : "SM_HeaderTiny",
+													"Name" : "Number3",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "TextBox",
+													"TextAlign" : "Center",
+													"Type" : "TextBox",
+													"height" : 15,
+													"width" : 7,
+													"x" : 21,
+													"y" : 3
+												}
+											],
+											"ImageTexture" : "Hideout/gui_hideout_bgnumber.png",
+											"Name" : "NumberBG",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 20,
+											"width" : 32,
+											"x" : 4,
+											"y" : 38
+										}
+									],
+									"Name" : "FarmerResourceCounter",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"height" : 59,
+									"width" : 40,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Colour" : "0.316406 0.316406 0.316406 1",
+							"LayoutRule" : "Center",
+							"Name" : "Widget",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "HideoutVegtableBG",
+							"Type" : "Widget",
+							"height" : 80,
+							"width" : 56,
+							"x" : 4,
+							"y" : 0
+						}
+					],
+					"LayoutRule" : "Horizontal",
+					"Name" : "Widget",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"VerticalAlign" : "Stretch",
+					"height" : 80,
+					"width" : 409,
+					"x" : 7,
+					"y" : 0
+				},
+				{
+					"Childs" : [],
+					"GridItemSize" : 
+					{
+						"height" : 74,
+						"width" : 74
+					},
+					"LayoutRule" : "Grid",
+					"Name" : "ItemContentPanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "InventoryScrollView",
+					"Type" : "ScrollViewPanel",
+					"Visible" : true,
+					"height" : 375,
+					"width" : 400,
+					"x" : 10,
+					"y" : 10
+				}
+			],
+			"InheritsPick" : true,
+			"LayoutRule" : "Vertical",
+			"Name" : "MainPanel",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "BackgroundHideout",
+			"Type" : "Widget",
+			"height" : 556,
+			"width" : 440,
+			"x" : 6,
+			"y" : 0
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"ItemPreview" : "00000000-0000-0000-0000-000000000000",
+					"Name" : "Preview",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "Canvas",
+					"Type" : "PreviewBox",
+					"height" : 140,
+					"width" : 200,
+					"x" : 0,
+					"y" : 0
+				},
+				{
+					"Caption" : "This is a very long title on two rows",
+					"Childs" : [],
+					"FontName" : "SM_ItemTitle",
+					"Name" : "Title",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EditBoxEmpty",
+					"TextAlign" : "Left",
+					"Type" : "EditBox",
+					"WordWrap" : true,
+					"height" : 38,
+					"onTextEdit" : "cl_onTextEdit",
+					"onTextEnter" : "cl_onTextEnter",
+					"width" : 172,
+					"x" : 14,
+					"y" : -10
+				},
+				{
+					"Caption" : "#{DESCRIPTION_CAPS}",
+					"Childs" : [],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "DescriptionHeader",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Left",
+					"Type" : "TextBox",
+					"height" : 14,
+					"width" : 172,
+					"x" : 14,
+					"y" : 10
+				},
+				{
+					"Alpha" : 0.100000001,
+					"Childs" : [],
+					"Colour" : "1 1 1 1",
+					"InheritsAlpha" : false,
+					"Name" : "DescriptionLine",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "WhiteSkin",
+					"Type" : "Widget",
+					"height" : 1,
+					"width" : 172,
+					"x" : 14,
+					"y" : 2
+				},
+				{
+					"Caption" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed varius, velit a ornare dictum, leo nisi tempor sapien, et tempus mauris quam et libero. Nullam posuere eu ante in semper. Donec posuere id risus et accumsan. Integer sollicitudin efficitur gravida. Vestibulum massa urna, pellentesque eu posuere vitae, scelerisque at massa.",
+					"Childs" : [],
+					"FontName" : "SM_TextTiny",
+					"Name" : "DescriptionBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EditBoxEmpty",
+					"TextAlign" : "Top Left",
+					"TextColour" : "0.564706 0.572549 0.572549 1",
+					"Type" : "EditBox",
+					"WordWrap" : true,
+					"height" : 143,
+					"onTextEdit" : "cl_onTextEdit",
+					"onTextEnter" : "cl_onTextEnter",
+					"width" : 163,
+					"x" : 14,
+					"y" : 6
+				},
+				{
+					"Caption" : "#{HIDEOUT_TRADING}",
+					"Childs" : [],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "TradingHeader",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Left",
+					"Type" : "TextBox",
+					"height" : 14,
+					"width" : 108,
+					"x" : 14,
+					"y" : 0
+				},
+				{
+					"Alpha" : 0.100000001,
+					"Childs" : [],
+					"Colour" : "1 1 1 1",
+					"InheritsAlpha" : false,
+					"Name" : "Line",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "WhiteSkin",
+					"Type" : "Widget",
+					"height" : 1,
+					"width" : 172,
+					"x" : 14,
+					"y" : 2
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{HIDEOUT_TRADE}",
+							"Childs" : [],
+							"FontName" : "SM_LabelMini",
+							"Name" : "TradeLabel",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Left",
+							"Type" : "TextBox",
+							"height" : 34,
+							"width" : 32,
+							"x" : 10,
+							"y" : 5
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"Name" : "SubLayout",
+									"NeedKey" : true,
+									"NeedMouse" : true,
+									"Skin" : "WhiteSkin",
+									"SubLayoutPath" : "$SURVIVAL_DATA/Gui/JsonGuis/Hideout_IngredientItem.gui",
+									"Type" : "SubLayout",
+									"height" : 100,
+									"width" : 100,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"InheritsPick" : true,
+							"LayoutRule" : "Horizontal",
+							"Name" : "IngredientItems",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"height" : 47,
+							"width" : 130,
+							"x" : 50,
+							"y" : 0
+						},
+						{
+							"Caption" : "#{HIDEOUT_RECEIVE}",
+							"Childs" : [],
+							"FontName" : "SM_LabelMini",
+							"Name" : "ReceiveLabel",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Left",
+							"Type" : "TextBox",
+							"height" : 30,
+							"width" : 40,
+							"x" : 10,
+							"y" : 57
+						},
+						{
+							"Childs" : [],
+							"ImageGroup" : "ItemIcons",
+							"ImageName" : "ac0b5b0a-14e1-4b31-8944-0a351fbfcc67",
+							"ImageResource" : "ItemIconsSetSurvival0",
+							"Name" : "TradeIcon",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 30,
+							"width" : 30,
+							"x" : 50,
+							"y" : 57
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"Name" : "Padding",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"height" : 16,
+									"width" : 5,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Caption" : "#9D8641x#FFD44A100",
+									"Childs" : [],
+									"FontName" : "SM_NumberTiny",
+									"Name" : "TradeCount",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Left",
+									"Type" : "TextBox",
+									"height" : 15,
+									"width" : 10,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Childs" : [],
+									"Name" : "Padding",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"height" : 16,
+									"width" : 7,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "TradeCountBG",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "HideoutAmountBG",
+							"Type" : "ImageBox",
+							"height" : 16,
+							"width" : 10,
+							"x" : 86,
+							"y" : 65
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "Icons/icon_inventory_blueprint.png",
+							"LayoutRule" : "Absolute",
+							"Name" : "TradeCountSchematic",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 16,
+							"width" : 16,
+							"x" : 86,
+							"y" : 65
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "Icons/icon_inventory_outfit.png",
+							"LayoutRule" : "Absolute",
+							"Name" : "TradeCountCosmetic",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 16,
+							"width" : 16,
+							"x" : 86,
+							"y" : 65
+						}
+					],
+					"ImageTexture" : "gui_background_hideout_trade.png",
+					"Name" : "TradeBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"height" : 96,
+					"width" : 173,
+					"x" : 14,
+					"y" : 10
+				},
+				{
+					"Caption" : "#{HIDEOUT_TRADE}",
+					"Childs" : [],
+					"FontName" : "SM_ButtonSmall",
+					"Name" : "TradeButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "StyledButtonLarge",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 40,
+					"onClick" : "cl_onTradeClick",
+					"width" : 173,
+					"x" : 14,
+					"y" : 34
+				},
+				{
+					"Childs" : [],
+					"CropEffect" : false,
+					"Effects" : 
+					[
+						{
+							"EffectName" : "Gui - Trader_tradebutton",
+							"Name" : "tradebutton",
+							"Offset" : 
+							{
+								"x" : 51,
+								"y" : -41
+							},
+							"PlayState" : "Auto play off"
+						}
+					],
+					"Name" : "TradeButtonEffectBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EffectBox",
+					"Type" : "EffectBox",
+					"height" : 100,
+					"width" : 100,
+					"x" : 0,
+					"y" : -30
+				}
+			],
+			"InheritsPick" : true,
+			"LayoutRule" : "Vertical",
+			"Name" : "TradePanel",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "BackgroundCraftbotTooltip",
+			"Type" : "Widget",
+			"height" : 556,
+			"width" : 200,
+			"x" : 5,
+			"y" : 0
+		}
+	],
+	"InheritsPick" : true,
+	"LayoutRule" : "Horizontal",
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : false,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"height" : 556,
+	"onClose" : "cl_onClose",
+	"width" : 780,
+	"x" : -200,
+	"y" : -20
+}

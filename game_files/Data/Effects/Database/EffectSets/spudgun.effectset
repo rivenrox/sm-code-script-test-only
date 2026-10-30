@@ -1,0 +1,290 @@
+{
+	//// Default Spudgun ////
+	"SpudgunBasic - BasicMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/sg_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.05,
+				"name" : "p_spudgun_basic_muzzel",
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunBasic - FPBasicMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/sg_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.05,
+				"name" : "p_spudgun_fp_basic_muzzel",
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunBasic - DefaultImpact01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/props/plants/plant_seed"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_impact_defualt01",
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunFireball - FPFireballMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/launcher_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_fp_firelauncher_muzzel",
+				"type" : "particle"
+			}
+		]
+	},
+	
+	"SpudgunFireball - FireballMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/launcher_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_firelauncher_muzzel",
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunFrier - FPFrierMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/frier_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_fp_frier_muzzel",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunFrier - FrierMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/frier_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_frier_muzzel",
+				"offset" : 
+				{
+					"x" : 0.035,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_frier_muzzel",
+				"offset" : 
+				{
+					"x" : -0.035,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunSpinner - FPSpinnerMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/spinner_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_spudgun_fp_muzzel_spinner",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	//// Default Spinner ////
+	"SpudgunSpinner - SpinnerMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/spinner_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_muzzel_spinner",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunSpinner - Windup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/spinner_spin"
+				],
+				"parameters" : 
+				[
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		// velocity 0-1
+		"parameterList" : 
+		{
+			"velocity" : 0
+		}
+	},
+	"SpudgunScrap - BasicMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/scrap_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_scrap_muzzel",
+				"type" : "particle"
+			}
+		]
+	},
+	"SpudgunScrap - FPScrapMuzzel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/weapons/spudgun/scrap_fire"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_spudgun_fp_scrap_muzzel",
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"type" : "particle"
+			}
+		]
+	}
+}

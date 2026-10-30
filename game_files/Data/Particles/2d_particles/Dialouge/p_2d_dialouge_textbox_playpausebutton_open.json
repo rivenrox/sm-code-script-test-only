@@ -1,0 +1,310 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1",
+				"default_particle" : 
+				[
+					-0.5,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d_particles/p_2d_textbox_playpausebutton01.png",
+				"direction_type" : "shape",
+				"duration" : 0.001,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								110.3684
+							],
+							[
+								0.1535,
+								142.81578
+							],
+							[
+								0.3526,
+								162.47366
+							],
+							[
+								0.58954,
+								174.55262
+							],
+							[
+								0.80978,
+								178.57893
+							],
+							[
+								1.0,
+								180.0
+							]
+						],
+						"guid" : 1,
+						"max" : 180.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.09566,
+								0.11315
+							],
+							[
+								0.18682,
+								0.26842
+							],
+							[
+								0.26916,
+								0.50261
+							],
+							[
+								0.46606,
+								1.3421
+							],
+							[
+								0.53837,
+								1.43947
+							],
+							[
+								0.65183,
+								1.39997
+							],
+							[
+								0.81979,
+								1.11573
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.04783,
+								0.07236
+							],
+							[
+								0.12567,
+								0.23157
+							],
+							[
+								0.29477,
+								0.85657
+							],
+							[
+								0.33814,
+								0.92105
+							],
+							[
+								0.39265,
+								0.9355
+							],
+							[
+								0.47051,
+								0.9171
+							],
+							[
+								0.67741,
+								0.79736
+							],
+							[
+								0.7486,
+								0.78684
+							],
+							[
+								0.8743,
+								0.925
+							],
+							[
+								0.93212,
+								0.97236
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								180.0
+							],
+							[
+								1.0,
+								180.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 4,
+						"max" : 180.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 0,
+				"height" : 0.25,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Pause2",
+				"position" : 
+				[
+					-0.07339,
+					-2.05,
+					-0.00001
+				],
+				"scene_blend" : "alpha_blend",
+				"time_to_live" : 0.3,
+				"velocity" : 0.0,
+				"width" : 0.25
+			},
+			{
+				"category" : "1",
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d_particles/p_2d_textbox_playpausebutton02.png",
+				"direction_type" : "shape",
+				"duration" : 0.001,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								42.39471
+							],
+							[
+								0.15906,
+								87.15789
+							],
+							[
+								0.34259,
+								130.97367
+							],
+							[
+								0.50945,
+								154.65788
+							],
+							[
+								0.74747,
+								172.89476
+							],
+							[
+								1.0,
+								180.0
+							]
+						],
+						"guid" : 6,
+						"max" : 180.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10011,
+								0.05392
+							],
+							[
+								0.27807,
+								0.26973
+							],
+							[
+								0.34371,
+								0.56971
+							],
+							[
+								0.416,
+								0.86184
+							],
+							[
+								0.46829,
+								0.96973
+							],
+							[
+								0.52502,
+								1.0
+							],
+							[
+								0.60509,
+								0.96578
+							],
+							[
+								0.70854,
+								0.85526
+							],
+							[
+								0.79644,
+								0.8263
+							],
+							[
+								0.89098,
+								0.8671
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 5,
+				"height" : 0.25,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Play1",
+				"position" : 
+				[
+					0.10225,
+					-2.0,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"time_to_live" : 0.3,
+				"velocity" : 0.0,
+				"width" : 0.25
+			}
+		]
+	}
+}

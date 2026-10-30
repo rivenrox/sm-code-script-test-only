@@ -1,0 +1,999 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					0.0,
+					0.0,
+					3.0
+				],
+				"category" : "1 - ",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25633,
+								[
+									0.7656,
+									0.7656,
+									0.7656,
+									1.0
+								]
+							],
+							[
+								0.72394,
+								[
+									0.72654,
+									0.72654,
+									0.72654,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.0,
+								0.0,
+								1.0
+							]
+						],
+						[
+							0.18873,
+							[
+								0.95832,
+								0.04165,
+								0.00063,
+								1.0
+							]
+						],
+						[
+							0.21408,
+							[
+								0.0,
+								1.0,
+								0.01554,
+								1.0
+							]
+						],
+						[
+							0.49858,
+							[
+								0.0,
+								0.95744,
+								0.10954,
+								1.0
+							]
+						],
+						[
+							0.53521,
+							[
+								0.0,
+								0.55462,
+								1.0,
+								1.0
+							]
+						],
+						[
+							0.72956,
+							[
+								0.0542,
+								0.5741,
+								0.94577,
+								1.0
+							]
+						],
+						[
+							0.74646,
+							[
+								0.95954,
+								0.89945,
+								0.04044,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								1.0,
+								0.91399,
+								0.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 0,
+				"height" : 
+				[
+					0.75,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"mesh_size" : 
+				[
+					2.0,
+					2.0,
+					2.0
+				],
+				"name" : "MultiShine",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.219,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_crystaltree/hvs_crystal_shine01/p_crystal_shine01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					4.0,
+					1.0
+				],
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					20.0,
+					10.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.25
+				]
+			},
+			{
+				"box" : 
+				[
+					0.0,
+					0.0,
+					12.0
+				],
+				"category" : "1 - ",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16335,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.78591,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.07,
+								0.53513
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 6,
+						"max" : 1.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								45.0
+							],
+							[
+								1.0,
+								45.0
+							]
+						],
+						"guid" : 7,
+						"max" : 45.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.0,
+								0.0,
+								1.0
+							]
+						],
+						[
+							0.14079,
+							[
+								1.0,
+								0.49211,
+								0.0,
+								1.0
+							]
+						],
+						[
+							0.33239,
+							[
+								1.0,
+								0.84375,
+								0.0,
+								1.0
+							]
+						],
+						[
+							0.39436,
+							[
+								0.0,
+								0.29686,
+								1.0,
+								1.0
+							]
+						],
+						[
+							0.73237,
+							[
+								0.0,
+								0.90622,
+								1.0,
+								1.0
+							]
+						],
+						[
+							0.78026,
+							[
+								0.47128,
+								1.0,
+								0.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.35934,
+								1.0,
+								0.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 2,
+				"height" : 
+				[
+					0.75,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					2.0,
+					2.0,
+					2.0
+				],
+				"name" : "Shine2",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.219,
+					10.23163
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_crystaltree/hvs_crystal_shine01/p_crystal_shine02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 4.0,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					20.0,
+					10.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.25
+				]
+			},
+			{
+				"box" : 
+				[
+					0.0,
+					0.0,
+					12.0
+				],
+				"category" : "1 - ",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16335,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.78591,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.07,
+								0.53513
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10654,
+								0.74374
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 12,
+						"max" : 1.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								45.0
+							],
+							[
+								1.0,
+								45.0
+							]
+						],
+						"guid" : 13,
+						"max" : 45.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.0,
+								0.0,
+								1.0
+							]
+						],
+						[
+							0.14079,
+							[
+								1.0,
+								0.49211,
+								0.0,
+								1.0
+							]
+						],
+						[
+							0.37182,
+							[
+								1.0,
+								0.84375,
+								0.0,
+								1.0
+							]
+						],
+						[
+							0.39436,
+							[
+								0.0,
+								0.29686,
+								1.0,
+								1.0
+							]
+						],
+						[
+							0.73237,
+							[
+								0.0,
+								0.90622,
+								1.0,
+								1.0
+							]
+						],
+						[
+							0.78026,
+							[
+								0.47128,
+								1.0,
+								0.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.35934,
+								1.0,
+								0.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 8,
+				"height" : 
+				[
+					0.75,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					2.0,
+					2.0,
+					2.0
+				],
+				"name" : "Shine2",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.219,
+					10.23163
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_crystaltree/hvs_crystal_shine01/p_crystal_shine02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 4.0,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					20.0,
+					10.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.25
+				]
+			},
+			{
+				"box" : 
+				[
+					0.5,
+					0.5,
+					12.0
+				],
+				"category" : "2 - ",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.32111,
+								[
+									0.46092,
+									0.46092,
+									0.46092,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 15,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.456
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.30858,
+								0.30858,
+								1.0
+							]
+						],
+						[
+							0.33801,
+							[
+								0.1875,
+								1.0,
+								0.20013,
+								1.0
+							]
+						],
+						[
+							0.71548,
+							[
+								0.18355,
+								0.63638,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								1.0,
+								0.93414,
+								0.23431,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 14,
+				"height" : 
+				[
+					8.0,
+					2.0
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Glow01",
+				"position" : 
+				[
+					0.25286,
+					-0.21924,
+					9.3548
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 256,
+				"sort_offset" : 1.0,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					6.0,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					8.0,
+					2.0
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "3 - ",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/rainbow/p_rainbow_glow01.png",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.32111,
+								[
+									0.8281,
+									0.8281,
+									0.8281,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 4,
+				"friction" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.30858,
+								0.30858,
+								1.0
+							]
+						],
+						[
+							0.33801,
+							[
+								0.1875,
+								1.0,
+								0.20013,
+								1.0
+							]
+						],
+						[
+							0.71548,
+							[
+								0.18355,
+								0.63638,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								1.0,
+								0.93414,
+								0.23431,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 17,
+				"height" : 
+				[
+					5.0,
+					2.0
+				],
+				"keep_local" : true,
+				"max_particles" : 20,
+				"name" : "Glow02",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"sort_offset" : 1.0,
+				"sphere_radius" : 20.0,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					20.0,
+					10.0
+				],
+				"type" : "hemisphere",
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					1.0
+				],
+				"z_offset" : 1.0
+			}
+		]
+	}
+}

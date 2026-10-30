@@ -1,0 +1,1365 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 10.0,
+				"billboard_type" : "axial_self",
+				"category" : "0 - Impact",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/thruster_thruster03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.30978,
+									0.59605,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.24694,
+									0.5738,
+									0.8906,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.86301
+							],
+							[
+								1.0,
+								0.58903
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 450,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.2,
+					0.05
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "sparks 2   [high]",
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2500,
+				"sphere_radius" : 0.125,
+				"time_to_live" : 
+				[
+					1.0,
+					0.3
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					9.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.01999,
+					0.00498
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "0 - Impact",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning_02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.68234,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "row",
+						"end_texture_coords_range" : 12,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.13628,
+								0.41016
+							],
+							[
+								0.31685,
+								0.41378
+							],
+							[
+								0.54342,
+								0.8439
+							],
+							[
+								1.0,
+								0.96732
+							]
+						],
+						"guid" : 4,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.30978,
+									0.59605,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.24694,
+									0.5738,
+									0.8906,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.60184
+							],
+							[
+								0.0665,
+								0.91666
+							],
+							[
+								0.12178,
+								0.99304
+							],
+							[
+								1.0,
+								1.02546
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.57533
+							],
+							[
+								1.0,
+								0.94581
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 7,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 
+				[
+					1.5,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "Lightning2 [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5121,
+				"sphere_radius" : 0.125,
+				"tiles" : 
+				[
+					2,
+					6
+				],
+				"time_to_live" : 
+				[
+					0.44999,
+					0.125
+				],
+				"type" : "hemisphere",
+				"velocity" : 0.02,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"category" : "1 - Sustain",
+				"delay" : 0.2,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"editorColor" : 
+				[
+					0.68624,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16617,
+								[
+									0.15015,
+									0.41065,
+									0.75388,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.07017,
+									0.20192,
+									0.71875,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.76314
+							],
+							[
+								0.50463,
+								1.40645
+							],
+							[
+								1.0,
+								1.56559
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 8,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 8,
+				"name" : "Glow stretch 2 world   [low]",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1250,
+				"sphere_radius" : 0.3,
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "1 - Sustain",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning03.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 15,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.38547,
+								0.18919
+							],
+							[
+								1.0,
+								0.96732
+							]
+						],
+						"guid" : 12,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.41475,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.92957,
+								[
+									0.03125,
+									0.63669,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14732
+							],
+							[
+								0.08088,
+								0.69612
+							],
+							[
+								0.17723,
+								1.02392
+							],
+							[
+								0.30807,
+								1.21177
+							],
+							[
+								1.0,
+								1.50644
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "high",
+				"name" : "Lightning Sprite 1 [high]",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.025,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.05998
+				],
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.25
+				]
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "1 - Sustain",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.5,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.30978,
+									0.59605,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.24694,
+									0.5738,
+									0.8906,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 16,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.55912
+							],
+							[
+								0.93172,
+								0.36713
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.67523
+							],
+							[
+								0.30314,
+								4.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.70977
+							],
+							[
+								1.0,
+								0.81576
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 19,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 15,
+				"height" : 
+				[
+					0.11997,
+					0.00999
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "Sparks 1   [high]",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"sphere_radius" : 0.1,
+				"time_to_live" : 
+				[
+					0.5,
+					0.4
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					7.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.02999,
+					0.00498
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning04.tga",
+				"direction_type" : "shape",
+				"duration" : 1.7,
+				"editorColor" : 
+				[
+					0.6875,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 14,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.96732
+							]
+						],
+						"guid" : 21,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.3828,
+									0.63879,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.89012,
+								[
+									0.45311,
+									0.7949,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 22,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14732
+							],
+							[
+								0.08088,
+								0.69612
+							],
+							[
+								0.17723,
+								1.02392
+							],
+							[
+								0.30807,
+								1.21177
+							],
+							[
+								1.0,
+								1.50644
+							]
+						],
+						"enabled" : false,
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 12,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 20,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "LightningSurge1   [low]",
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.6,
+				"surface" : true,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.1
+				],
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"category" : "1 - Sustain",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"editorColor" : 
+				[
+					0.68624,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.30978,
+									0.59605,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.24694,
+									0.5738,
+									0.8906,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 25,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55247
+							],
+							[
+								0.15146,
+								1.04972
+							],
+							[
+								0.40446,
+								1.48433
+							],
+							[
+								1.0,
+								1.96685
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45394
+							],
+							[
+								1.0,
+								0.76643
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 27,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 24,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 20,
+				"name" : "Glow stretch 2 world   [low]",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1250,
+				"sphere_radius" : 0.2,
+				"time_to_live" : 0.25,
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.25
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "0 - Impact",
+				"default_particle" : 
+				[
+					1.14997,
+					1.14997
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_glowcircle01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.30978,
+									0.59605,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.24694,
+									0.5738,
+									0.8906,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 29,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.35616
+							],
+							[
+								0.11545,
+								0.75265
+							],
+							[
+								0.25698,
+								1.04085
+							],
+							[
+								0.46366,
+								1.19569
+							],
+							[
+								1.0,
+								1.31182
+							]
+						],
+						"guid" : 30,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.56129
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.75,
+						"guid" : 31,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 505,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 28,
+				"height" : 1.600000024,
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Shockwave2 [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.00736
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 10240,
+				"time_to_live" : 0.449999988,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.600000024,
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "0 - Impact",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.68624,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.30978,
+									0.59605,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.24694,
+									0.5738,
+									0.8906,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 33,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55247
+							],
+							[
+								0.15146,
+								1.04972
+							],
+							[
+								0.40446,
+								1.48433
+							],
+							[
+								1.0,
+								1.96685
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45394
+							],
+							[
+								1.0,
+								0.76643
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 35,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 8000,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 32,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 8,
+				"name" : "Glow stretch 2 world   [low]",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1250,
+				"sphere_radius" : 0.2,
+				"time_to_live" : 0.25,
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.25
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "0 - Impact",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.68624,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.30978,
+									0.59605,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57744,
+								[
+									0.24694,
+									0.5738,
+									0.8906,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 37,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55247
+							],
+							[
+								1.0,
+								1.96685
+							]
+						],
+						"guid" : 38,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 39,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 8000,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 36,
+				"height" : 
+				[
+					2.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 8,
+				"name" : "Glow stretch 2 world   [low]",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1250,
+				"sphere_radius" : 0.2,
+				"time_to_live" : 0.200000003,
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.25
+				],
+				"z_offset" : 100.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

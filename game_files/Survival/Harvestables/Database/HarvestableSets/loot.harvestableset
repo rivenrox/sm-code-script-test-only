@@ -1,0 +1,411 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_lootcrate_col.obj",
+			"color" : "ffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_lootcrate",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Loot/hvs_loot_lootcrate_common.rend",
+			"script" : 
+			{
+				"class" : "LootCrate",
+				"data" : 
+				{
+					"destroyEffect" : "LootCrate - Destroy",
+					"staticDestroyEffect" : "LootCrate - DestroyGlow"
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootCrate.lua"
+			},
+			"showInEditor" : true,
+			"uuid" : "b8eb68ca-25a0-47aa-8745-12f2dd13d873"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_lootcrate_col.obj",
+			"color" : "ffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_lootcrat_rare",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Loot/hvs_loot_lootcrate_rare.rend",
+			"script" : 
+			{
+				"class" : "LootCrate",
+				"data" : 
+				{
+					"destroyEffect" : "LootCrate - RareDestroy",
+					"staticDestroyEffect" : "LootCrate - DestroyGlow"
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootCrate.lua"
+			},
+			"showInEditor" : true,
+			"uuid" : "a6b9fa26-df80-4f5b-9679-418f4567e5ca"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "97fe0cf2-0591-4e98-9beb-9186f4fd83c8"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_bigger_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_audiologfile",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "74ffe0eb-17fe-41b3-a532-8dbb5924e5dc"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_bigger_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_picturelogfile",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "6e7611e1-ad18-413a-a4cb-bab7e3a5ca75"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_bigger_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_informationlogfile",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "6726c35c-f8e6-49cf-b0b6-05e7efac4115"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_bigger_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "",
+			"mass" : 15000.0,
+			"material" : "Wood",
+			"name" : "hvs_loot_logbook",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LogbookLoot",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LogbookLoot.lua"
+			},
+			"showInEditor" : false,
+			"size" : 1,
+			"type" : "logfiles",
+			"uuid" : "3b7054d0-9ca7-4efa-8b4a-e8658eda3181"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_bigger_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_outfitrare",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "e3cb14d5-9d28-45e8-96f7-fc79c60de292"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_bigger_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_outfitepic",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "cceec00b-8a34-4d68-a419-8c3bc7aa075a"
+		},
+		{
+			"col_sphere" : 
+			{
+				"diameter" : 4
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_quest_reward",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "QuestRewardItem",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/QuestRewardItem.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "fa982977-bf82-476a-b404-792e10451ce5"
+		},
+		{
+			"col_sphere" : 
+			{
+				"diameter" : 4
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_logbook_entry",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LogbookEntryHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LogbookEntryHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "f8f1b878-24ec-4241-acfd-9f0d91395765"
+		},
+		{
+			"col_sphere" : 
+			{
+				"diameter" : 4
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_quest_event",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "QuestEventHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/QuestEventHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "ff9a1a71-f411-46a5-a8b6-40e18a8642ab"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_lootcrate_col.obj",
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_lootcrate_epic",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Loot/hvs_loot_lootcrate_epic.rend",
+			"script" : 
+			{
+				"class" : "LootCrate",
+				"data" : 
+				{
+					"destroyEffect" : "LootCrate - EpicDestroy",
+					"staticDestroyEffect" : "LootCrate - DestroyGlow"
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootCrate.lua"
+			},
+			"showInEditor" : true,
+			"uuid" : "3bb80384-1f4c-4c1f-803d-6d1838882029"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_lootcrate_col.obj",
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_lootcrate_growlab",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Loot/hvs_loot_lootcrate_growlab.rend",
+			"script" : 
+			{
+				"class" : "LootCrate",
+				"data" : 
+				{
+					"destroyEffect" : "LootCrate - MinidungeonDestroy",
+					"staticDestroyEffect" : "LootCrate - DestroyGlow"
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootCrate.lua"
+			},
+			"showInEditor" : true,
+			"uuid" : "58ae6c48-bd59-4311-acda-45c0b3d9233b"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Loot/hvs_loot_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_limited",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LimitedLootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LimitedLootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "d1d56712-a3f0-4af8-bb53-7ad6cb37d34b"
+		},
+		{
+			"col_sphere" : 
+			{
+				"diameter" : 4
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_quest_phone",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "QuestLootPhone",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/QuestLootPhone.lua"
+			},
+			"showInEditor" : true,
+			"type" : "filler",
+			"uuid" : "facc327b-6bda-4097-9161-ee392e541a63"
+		},
+		{
+			"col_sphere" : 
+			{
+				"diameter" : 4
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "ffffffff",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_loot_bigger",
+			"removable" : true,
+			"script" : 
+			{
+				"class" : "LootHarvestable",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/LootHarvestable.lua"
+			},
+			"showInEditor" : false,
+			"type" : "filler",
+			"uuid" : "282f332e-eb95-4553-b711-4a027e92391d"
+		}
+	]
+}

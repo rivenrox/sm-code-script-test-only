@@ -1,0 +1,773 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "axial_self",
+				"bounce" : 0.5,
+				"category" : "1",
+				"collision" : "die",
+				"color" : 
+				[
+					0.49017,
+					0.5098,
+					0.54509,
+					0.77253
+				],
+				"cylinder_height" : 0.0,
+				"cylinder_radius_end" : 20.0,
+				"cylinder_radius_start" : 20.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/rain/p_rain_droplet.tga",
+				"direction" : 
+				[
+					0.0,
+					0.3,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58222
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.69845,
+								0.54605
+							],
+							[
+								0.82769,
+								0.59868
+							],
+							[
+								0.91692,
+								0.6875
+							],
+							[
+								1.0,
+								0.72561
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 17,
+						"length" : 0.5,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 18,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 19,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 300,
+				"guid" : 0,
+				"height" : 
+				[
+					3.0,
+					1.5
+				],
+				"keep_local" : false,
+				"legacy_rotation" : false,
+				"max_particles" : 1500,
+				"min_quality" : "high",
+				"name" : "Rain Col    [high]",
+				"position" : 
+				[
+					0.0,
+					7.5,
+					20.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2000,
+				"sub" : 
+				[
+					{
+						"billboard_type" : "axial_self",
+						"bounce" : 0.5,
+						"collision" : "die",
+						"color" : 
+						[
+							0.48627,
+							0.50585,
+							0.54117,
+							0.76862
+						],
+						"diffuse" : "$GAME_DATA/Particles/Textures/rain/p_rain_rainsplash01.tga",
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 16,
+								"fps" : 30,
+								"guid" : 2,
+								"name" : "TextureAnimator",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.48072
+									],
+									[
+										0.16764,
+										1.0204
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 3,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.8125
+										]
+									],
+									[
+										0.8845,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.75388
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									]
+								],
+								"guid" : 4,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 5,
+								"name" : "CameraDistanceFade",
+								"startDistance" : 5.0
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 500,
+						"guid" : 1,
+						"height" : 
+						[
+							0.1,
+							0.025
+						],
+						"keep_local" : false,
+						"legacy_rotation" : false,
+						"max_particles" : 1,
+						"min_quality" : "medium",
+						"name" : "Subemitter Splash1    [high]",
+						"normal" : true,
+						"normal_range" : 0.25,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							0.1
+						],
+						"random_flip" : 
+						[
+							0.5,
+							0.0
+						],
+						"rotation" : 180.0,
+						"scene_blend" : "alpha_blend",
+						"soft_particles_bias" : 1100,
+						"sub_emit" : "collision",
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 
+						[
+							0.44999,
+							0.15
+						],
+						"translucency" : 0.6,
+						"unlit" : true,
+						"velocity" : 0.0,
+						"water_mask" : "above_water",
+						"width" : 
+						[
+							0.1,
+							0.025
+						]
+					},
+					{
+						"angle" : 2.5,
+						"billboard_type" : "axial_self",
+						"bounce" : 0.5,
+						"collision" : "die",
+						"color" : 
+						[
+							0.76858,
+							0.79961,
+							0.85544,
+							1.0
+						],
+						"cylinder_height" : 1.0,
+						"cylinder_radius_end" : 0.1,
+						"cylinder_radius_start" : 0.05,
+						"diffuse" : "$GAME_DATA/Particles/Textures/rain/p_rain_intenserain.tga",
+						"direction" : 
+						[
+							0.0,
+							0.33,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.5,
+						"editorColor" : 
+						[
+							0.72803,
+							0.48045,
+							1.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										0.72459
+									]
+								],
+								"fade" : 1.0,
+								"guid" : 12,
+								"length" : 0.25,
+								"name" : "Cutoff",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									],
+									[
+										0.36618,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									]
+								],
+								"guid" : 13,
+								"name" : "Color",
+								"toggle" : false
+							},
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.57716,
+										0.87352
+									],
+									[
+										0.73995,
+										0.81028
+									],
+									[
+										0.83508,
+										0.70023
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 14,
+								"max_scale" : 1.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 15,
+								"name" : "CameraDistanceFade",
+								"startDistance" : 5.0
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 30,
+						"glow" : true,
+						"glow_strength" : 0.05998,
+						"guid" : 6,
+						"height" : 8.0,
+						"keep_local" : false,
+						"legacy_rotation" : false,
+						"max_particles" : 1,
+						"min_quality" : "high",
+						"name" : "Tertiary Rain [high]",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							6.8
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"soft_particles_bias" : 2000,
+						"spawn_chance" : 0.5,
+						"sub" : 
+						[
+							{
+								"billboard_type" : "axial_self",
+								"color" : 
+								[
+									0.48627,
+									0.50585,
+									0.54117,
+									0.76862
+								],
+								"cone_angle" : 25.0,
+								"cone_radius" : 3.0,
+								"diffuse" : "$GAME_DATA/Particles/Textures/rain/p_rain_rainsplash01.tga",
+								"direction_type" : "constant",
+								"duration" : 0.1,
+								"editorColor" : 
+								[
+									0.72548,
+									0.47843,
+									1.0,
+									1.0
+								],
+								"effects" : 
+								[
+									{
+										"control_point" : 
+										[
+											[
+												0.0,
+												[
+													1.0,
+													1.0,
+													1.0,
+													0.8125
+												]
+											],
+											[
+												0.8845,
+												[
+													1.0,
+													1.0,
+													1.0,
+													0.75388
+												]
+											],
+											[
+												1.0,
+												[
+													1.0,
+													1.0,
+													1.0,
+													0.0
+												]
+											]
+										],
+										"guid" : 8,
+										"name" : "Color"
+									},
+									{
+										"control_point" : 
+										[
+											[
+												0.0,
+												0.48072
+											],
+											[
+												0.16764,
+												1.0204
+											],
+											[
+												1.0,
+												2.0
+											]
+										],
+										"guid" : 9,
+										"max_scale" : 2.0,
+										"name" : "Scale"
+									},
+									{
+										"animation" : "sheet",
+										"end_texture_coords_range" : 16,
+										"fps" : 30,
+										"guid" : 10,
+										"name" : "TextureAnimator"
+									},
+									{
+										"control_point" : 
+										[
+											[
+												0.0,
+												1.0
+											],
+											[
+												1.0,
+												0.0
+											]
+										],
+										"guid" : 11,
+										"name" : "CameraDistanceFade",
+										"startDistance" : 5.0
+									}
+								],
+								"emission_mode" : "burst",
+								"emission_rate" : 500,
+								"guid" : 7,
+								"height" : 
+								[
+									0.1,
+									0.025
+								],
+								"keep_local" : false,
+								"legacy_rotation" : false,
+								"max_particles" : 1,
+								"min_quality" : "high",
+								"name" : "Subemitter SecondaryRain Splash [high]",
+								"normal" : true,
+								"normal_range" : 0.25,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.1
+								],
+								"random_flip" : 
+								[
+									0.5,
+									0.0
+								],
+								"rotation" : 180.0,
+								"scene_blend" : "alpha_blend",
+								"soft_particles_bias" : 2000,
+								"tiles" : 
+								[
+									4,
+									4
+								],
+								"time_to_live" : 
+								[
+									0.44999,
+									0.15
+								],
+								"translucency" : 0.6,
+								"type" : "cone",
+								"unlit" : true,
+								"velocity" : 0.0,
+								"water_mask" : "none",
+								"width" : 
+								[
+									0.1,
+									0.025
+								]
+							}
+						],
+						"time_to_live" : 0.5,
+						"type" : "cylinder",
+						"unlit" : true,
+						"velocity" : -30.0,
+						"water_mask" : "surface",
+						"width" : 3.0
+					}
+				],
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 0.75,
+				"type" : "cylinder",
+				"unlit" : true,
+				"velocity" : 
+				[
+					-30.0,
+					10.0
+				],
+				"water_mask" : "surface",
+				"width" : 
+				[
+					0.06498,
+					0.0125
+				]
+			},
+			{
+				"angle" : 2.5,
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"color" : 
+				[
+					0.52262,
+					0.54105,
+					0.57419,
+					0.94138
+				],
+				"cylinder_height" : 0.0,
+				"cylinder_radius_end" : 20.0,
+				"cylinder_radius_start" : 20.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/rain/p_rain_intenserain.tga",
+				"direction" : 
+				[
+					0.0,
+					0.33,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.72459
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 21,
+						"length" : 0.25,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.36618,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.85913,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 22,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.57716,
+								0.87352
+							],
+							[
+								0.73995,
+								0.81028
+							],
+							[
+								0.83508,
+								0.70023
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 24,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1555,
+				"glow" : true,
+				"glow_strength" : 0.05998,
+				"guid" : 20,
+				"height" : 8.0,
+				"keep_local" : false,
+				"legacy_rotation" : false,
+				"max_particles" : 2000,
+				"min_quality" : "medium",
+				"name" : "Rain Col Extra [medium]",
+				"position" : 
+				[
+					0.0,
+					7.5,
+					20.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 3000,
+				"time_to_live" : 0.75,
+				"type" : "cylinder",
+				"unlit" : true,
+				"velocity" : -30.0,
+				"water_mask" : "surface",
+				"width" : 3.0
+			}
+		]
+	}
+}

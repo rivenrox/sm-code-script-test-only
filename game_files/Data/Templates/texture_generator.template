@@ -1,0 +1,96 @@
+{
+	"template_meta": {
+		"uuid": "b6c2e646-f87b-4820-a70e-24f873770e33",
+		"name": "Texture Generator",
+		"display": "tex3d",
+		"pattern": [ "*.tex3d" ]
+	},
+
+	"size" : 64,
+
+	"startFillValue_meta" : { "type" : "float", "min" : 0, "max" : 1 },
+	"startFillValue" : 0.0,
+	
+	"outputExr_meta" : { "type" : "bool" },
+	"outputExr" : true,
+
+	"outputPng_meta" : { "type" : "bool" },
+	"outputPng" : true,
+
+	"stack_meta": {
+		"minSize" : 1,
+		"valueAsLabel" : "function"
+	},
+	"stack" : [
+		{
+			"hidden_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true, "writeToDisk" : true },
+    		"hidden" : false,
+
+			"function_meta": { "options": [ "TiledPerlin3D", "TiledWorleyNoise3D", "TiledVoronoiNoise3D", "TiledTurbulenceFractalBrownianMotion3D", "Perlin3D", "WorleyNoise3D", "VoronoiNoise3D", "TurbulenceFractalBrownianMotion3D", "BillowNoise3D", "RidgeNoise3D", "Invert", "Normalize", "Multiply", "Add", "Pow", "Sin", "Cos", "Remap", "Clamp" ], "order": 0 },
+			"function" : "TiledPerlin3D",
+
+			"blend_meta" : { "hideUnavailables": true, "color":"#2a342d", "header" : false, "toolTip": "Determines how the output of this step is combined with the previous step" },
+			"blend" : { 
+				"operation_meta": { "options": [ "Overwrite", "Linear Interpolation", "Add", "Subtract", "Multiply", "Divide", "Max", "Min", "AddSub", "Screen", "Overlay" ], "order": 0 },
+				"operation" : "Overwrite",
+
+				"factor_meta": { "type": "float", "min" : 0, "max" : 1, "available": { "operation": [ "Linear Interpolation" ] }, "toolTip" : "1 overwrites destination with source, 0 preserves destination and discards source." },
+				"factor" : 1.0,
+
+				"swap_meta": { 
+					"toolTip" : "Swaps operands on non commutative blend operations. By default left hand side is destination and right hand side is source.",
+					"available": { "operation": [ "Subtract", "Division", "Overlay", "AddSub" ] }
+				 },
+				"swap": false
+			},
+
+			"arguments_meta" : { "hideUnavailables": true, "color":"#1f2f42", "header":false, "order": 1 },
+			"arguments" : {
+				"period_meta": { "order": 0, "type": "float", "available": { "../function": [ "TiledPerlin3D", "TiledWorleyNoise3D", "TiledVoronoiNoise3D", "TiledTurbulenceFractalBrownianMotion3D" ] }, "min": 0, "max": 64 },
+				"period" : 1.0,
+
+				"scale_meta": { "order": 1, "type": "vec3", "available": { "../function": [ "TiledPerlin3D", "TiledWorleyNoise3D", "TiledVoronoiNoise3D", "TiledTurbulenceFractalBrownianMotion3D", "Perlin3D", "WorleyNoise3D", "VoronoiNoise3D", "TurbulenceFractalBrownianMotion3D", "BillowNoise3D", "RidgeNoise3D" ] } },
+				"scale" : [ 1.0, 1.0, 1.0 ],
+				
+				"minEdgeDistance_meta" : { "type" : "float", "available" : { "../function" : [ "TiledVoronoiNoise3D" ] }, "min" : 0, "max" : 1 },
+				"minEdgeDistance" : 1.0,
+
+				"minDistanceToCell_meta" : { "type" : "float", "available" : { "../function" : [ "TiledVoronoiNoise3D" ] }, "min" : 0, "max" : 1 },
+				"minDistanceToCell" : 1.0,
+
+				"octaves_meta" : { "type" : "uint", "available" : { "../function" : [ "TiledTurbulenceFractalBrownianMotion3D", "TurbulenceFractalBrownianMotion3D", "BillowNoise3D", "RidgeNoise3D" ] }, "min" : 0, "max" : 64, "toolTip" : "Specifies the number of frequency layers in the noise, each octave represents a different level of detail." },
+				"octaves" : 1,
+
+				"frequency_meta" : { "type" : "float", "available" : { "../function" : [ "TiledTurbulenceFractalBrownianMotion3D", "TurbulenceFractalBrownianMotion3D", "BillowNoise3D", "RidgeNoise3D" ] }, "min" : 0, "max" : 64, "tooltip" : "Controls how rapidly the noise pattern changes across space." },
+				"frequency" : 1.0,
+
+				"amplitude_meta" : { "type" : "float", "available" : { "../function" : [ "TiledTurbulenceFractalBrownianMotion3D", "TurbulenceFractalBrownianMotion3D", "BillowNoise3D", "RidgeNoise3D" ] }, "min" : 0, "max" : 64, "tooltip" : "Controls the overall contrast and variation in the texture" },
+				"amplitude" : 1.0,
+
+				"lacunarity_meta" : { "type" : "float", "available" : { "../function" : [ "TiledTurbulenceFractalBrownianMotion3D", "TurbulenceFractalBrownianMotion3D", "BillowNoise3D", "RidgeNoise3D" ] }, "min" : 0, "max" : 64, "toolTip" : "Patterns having more or larger gaps generally have higher lacunarity" },
+				"lacunarity" : 2.0,
+
+				"persistence_meta" : { "type" : "float", "available" : { "../function" : [ "TiledTurbulenceFractalBrownianMotion3D", "TurbulenceFractalBrownianMotion3D", "BillowNoise3D", "RidgeNoise3D" ] }, "min" : 0, "max" : 64, "toolTip" : "Controls how much the amplitude decreases with each successive octave." },
+				"persistence" : 0.5,
+								
+				"factor_meta" : { "type" : "float", "available" : { "../function" : [ "Multiply" ] } },
+				"factor" : 1.0,
+
+				"number_meta" : { "type" : "float", "available" : { "../function" : [ "Add" ] } },
+				"number" : 0.0,
+
+				"exponent_meta" : { "type" : "float", "available" : { "../function" : [ "Pow" ] } },
+				"exponent" : 2.0,
+
+				"origMin_meta" : { "type" : "float", "available" : { "../function" : [ "Remap" ] } },
+				"origMin" : 0.0,
+				"origMax_meta" : { "type" : "float", "available" : { "../function" : [ "Remap" ] } },
+				"origMax" : 1.0,
+				"newMin_meta" : { "type" : "float", "available" : { "../function" : [ "Remap", "Clamp" ] } },
+				"newMin" : 0.0,
+				"newMax_meta" : { "type" : "float", "available" : { "../function" : [ "Remap", "Clamp" ] } },
+				"newMax" : 1.0
+			}
+		}
+	]
+}

@@ -1,0 +1,176 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Kin_topdepartment/kin_topdepartment_assemblyroomdoor_col.obj",
+			"color" : "ff0000ff",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "kin_topdepartment_assemblyroom_door",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/kin_topdepartment/kin_topdepartment_assemblyroomdoor.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "74afe414-c8e4-4254-a0a8-f0c495e3179e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Kin_topdepartment/kin_topdepartment_assemblyroomdoor_pistons_col.obj",
+			"color" : "bb1414",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_topdepartment_assemblyroom_door_pistons",
+			"params" : 
+			[
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/kin_topdepartment/kin_topdepartment_assemblyroomdoor_pistons.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "8537afc1-8f71-43f8-9552-7d2b29f76fa1"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Kin_topdepartment/kin_topdepartment_assemblyroomdoor_console_col.obj",
+			"color" : "bb1414",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_topdepartment_assemblyroom_door_console",
+			"params" : 
+			[
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/kin_topdepartment/kin_topdepartment_assemblyroomdoor_console.rend",
+			"script" : 
+			{
+				"class" : "KinematicInteractiveDoor",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicInteractiveDoor.lua"
+			},
+			"uuid" : "8d4361f1-7041-4ccd-bcf7-31b09143e8e7"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Kin_topdepartment/env_topdepartment_assemblyroomdoor_hatch_col.fbx",
+			"color" : "bb1414",
+			"mass" : 100.0,
+			"material" : "Mechanical",
+			"name" : "assemblyroom door hatch",
+			"params" : 
+			[
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/kin_topdepartment/kin_topdepartment_assemblyroomdoor_hatch.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "a6f446e9-4f93-4971-a3b4-413f44bfe868"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Kin_topdepartment/kin_topdepartment_assemblyroomdoor_console_col.obj",
+			"color" : "bb1414",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_topdepartment_assemblyroom_door_console_quest",
+			"params" : 
+			[
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/kin_topdepartment/kin_topdepartment_assemblyroomdoor_console.rend",
+			"script" : 
+			{
+				"class" : "KinematicInteractiveWarehouseDoor",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicInteractiveWarehouseDoor.lua"
+			},
+			"uuid" : "85260f84-d859-4b12-90d0-848f31cc3e6c"
+		}
+	]
+}

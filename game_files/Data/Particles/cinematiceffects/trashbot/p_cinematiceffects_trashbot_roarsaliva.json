@@ -1,0 +1,685 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_asg.tga",
+				"angle" : 9.0,
+				"box" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"category" : "4",
+				"delay" : 0.1,
+				"depth" : 1.5,
+				"direction" : 
+				[
+					0.0,
+					-0.5,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 56,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.32714
+							],
+							[
+								0.47947,
+								0.73781
+							],
+							[
+								0.60184,
+								0.84262
+							],
+							[
+								0.7537,
+								0.92628
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.29934
+							],
+							[
+								0.16335,
+								0.59917
+							],
+							[
+								0.73066,
+								0.72745
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 3,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 300,
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 3.0,
+				"keep_local" : false,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 3,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/trashball/p_mesh_trashbot_trashball_splatterplane01_projectile.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency_fbrdf.tga",
+				"mesh_size" : 
+				[
+					3.0,
+					3.0,
+					3.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "Splash 1  BURST",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					1.0,
+					-1.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					15.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.125
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					7.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 3.0
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_asg.tga",
+				"angle" : 15.0,
+				"box" : 
+				[
+					1.5,
+					0.0,
+					0.0
+				],
+				"category" : "4",
+				"delay" : 0.2,
+				"depth" : 
+				[
+					1.25,
+					0.25
+				],
+				"direction" : 
+				[
+					0.0,
+					-0.5,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 2.2,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 56,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.47222,
+								0.71912
+							],
+							[
+								0.60184,
+								0.84262
+							],
+							[
+								0.7537,
+								0.92628
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 5,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.21897
+							],
+							[
+								0.09464,
+								0.57177
+							],
+							[
+								0.23386,
+								0.71289
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 7,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"friction" : 
+				[
+					1.0,
+					0.1
+				],
+				"guid" : 4,
+				"height" : 
+				[
+					2.5,
+					0.5
+				],
+				"keep_local" : false,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/trashball/p_mesh_trashbot_trashball_splatterplane01_projectile.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency_fbrdf.tga",
+				"mesh_size" : 
+				[
+					3.0,
+					3.0,
+					3.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "Splash 1 sustain",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.5,
+					-2.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					8.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.5,
+					0.5
+				]
+			},
+			{
+				"alpha" : true,
+				"category" : "3",
+				"circle_angle" : 75.0,
+				"color" : 
+				[
+					0.33724,
+					0.8392,
+					0.0549,
+					1.0
+				],
+				"delay" : 0.25,
+				"depth" : 
+				[
+					0.75,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 2.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.77319,
+								1.71289
+							],
+							[
+								0.90178,
+								1.44525
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.47973,
+								1.598
+							],
+							[
+								0.75937,
+								1.13241
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					0.75,
+					0.1
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.333,
+					-0.5
+				],
+				"radius" : 0.1,
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/drops/p_renderable_trashbot_drops_translucent.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					9.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.1
+				]
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.3294,
+					0.83135,
+					0.04704,
+					1.0
+				],
+				"depth" : 0.4,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.42967,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.53331
+							],
+							[
+								1.0,
+								3.64755
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.20532,
+								0.43794
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 13,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 14,
+						"index" : 1,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.60526
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 15,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3500,
+				"friction" : 1.0,
+				"guid" : 11,
+				"height" : 0.4,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Sphere Splash Trans",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_rendeble_trashbot_splatter_sphere_green.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 0.275,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.4
+			},
+			{
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 17,
+						"name" : "Pose",
+						"time" : 0.75
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.67382,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 18,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.47697
+							],
+							[
+								1.0,
+								1.53284
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 5.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 16,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Trashball GOO blendshape  [high]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/trashball/p_trashbot_trashball_trashballgoo_green.rend",
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 0.4,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		]
+	}
+}

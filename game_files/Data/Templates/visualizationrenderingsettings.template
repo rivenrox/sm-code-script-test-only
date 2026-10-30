@@ -1,0 +1,44 @@
+{
+	"template_meta": { 
+        "uuid" : "68b0d243-7e45-49c1-974e-e448946af00c",
+		"name": "Visualization Rendering Settings",
+		"pattern": ["*.visrend"],
+		"root_meta": { "type": "map" }
+	},
+
+    "settingsList_meta" : { "valueAsLabel":"name" },
+    "settingsList" :
+    [
+        {
+            "name_meta": { "type": "string" },
+            "name": "liftValid",
+
+            "color_meta": { "type": "color" },
+            "color": [0.141, 0.439, 0.674, 0.75],
+
+            "behindColor_meta": { "type": "color" },
+            "behindColor": [0.141, 0.439, 0.674, 0.75],
+
+            "fadeDistance_meta": { "type": "float", "min" : -10, "max" : 10 },
+            "fadeDistance": 0.5,
+
+            "maxSaturation_meta": { "type": "float", "min" : 0, "max" : 1 },
+            "maxSaturation": 0.65,
+
+            "pulse_meta": { "type": "float","min" : 0, "max" : 10 },
+            "pulse": 0.45,
+
+            "pulseDir_meta": { "type": "int", "min" : -1, "max" : 1 },
+            "pulseDir": -1.0,
+
+            "behindInvDepthDistance_meta": { "type": "float", "min" : -10, "max" : 10 },
+            "behindInvDepthDistance": 2.0,
+
+            "behindOffset_meta": { "type": "float", "min" : -10, "max" : 10 },
+            "behindOffset": 0.75,
+
+            "behindInvDistance_meta": { "type": "float", "min" : -10, "max" : 10 },
+            "behindInvDistance": 4.0
+        }
+    ]
+}

@@ -1,0 +1,313 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					10.0,
+					0.0,
+					0.0
+				],
+				"category" : "2",
+				"depth" : 0.200000003,
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 1,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.998
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.35868
+							],
+							[
+								0.08557,
+								0.4835
+							],
+							[
+								0.14266,
+								0.52367
+							],
+							[
+								0.25,
+								0.56097
+							],
+							[
+								0.33151,
+								0.59253
+							],
+							[
+								0.39401,
+								0.637
+							],
+							[
+								0.48912,
+								0.74317
+							],
+							[
+								0.53803,
+								0.78908
+							],
+							[
+								0.60597,
+								0.81634
+							],
+							[
+								0.70652,
+								0.83357
+							],
+							[
+								0.77309,
+								0.8565
+							],
+							[
+								0.87364,
+								0.92826
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 3,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"height" : 
+				[
+					30.0,
+					1.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1001,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Raindroplets test",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/water/p_renderable_water_raindroplets02.rend",
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					2,
+					32
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"type" : "box",
+				"velocity" : -0.001,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"box" : 
+				[
+					10.0,
+					0.0,
+					5.0
+				],
+				"category" : "1",
+				"depth" : 
+				[
+					1.0,
+					0.5
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 5,
+						"max" : 90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.02717,
+								0.57388
+							],
+							[
+								0.09916,
+								0.6987
+							],
+							[
+								0.22687,
+								0.84074
+							],
+							[
+								0.38585,
+								0.93256
+							],
+							[
+								0.60597,
+								0.95981
+							],
+							[
+								0.73097,
+								0.93686
+							],
+							[
+								0.8057,
+								0.87515
+							],
+							[
+								0.89402,
+								0.73457
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 17,
+						"guid" : 7,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"guid" : 4,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Raindroplets static",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					2.0
+				],
+				"type" : "box",
+				"velocity" : -0.01,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			}
+		],
+		"scale_time" : 0.5
+	}
+}

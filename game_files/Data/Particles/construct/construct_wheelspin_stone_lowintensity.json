@@ -1,0 +1,195 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 45.0,
+				"box" : 
+				[
+					0.44999,
+					0.44999,
+					0.25
+				],
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.75291,
+					0.74509,
+					0.72939,
+					1.0
+				],
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "object",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.49944,
+					0.45702,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.20563,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 2,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.42767,
+								1.03945
+							],
+							[
+								0.76612,
+								1.1842
+							],
+							[
+								1.0,
+								1.42762
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 2,
+				"force_vector" : 
+				[
+					0.0,
+					-0.0,
+					0.25
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.3
+				],
+				"keep_local" : false,
+				"max_particles" : 201,
+				"name" : "Smoke Looping",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.40001
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : 0.1,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.5,
+					0.5
+				],
+				"translucency" : 0.5,
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.3
+				],
+				"z_offset" : 0.63998
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 3.0
+	}
+}

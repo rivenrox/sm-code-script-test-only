@@ -1,0 +1,963 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "resources/farmbot/p_mesh_farmbot_pesticide_projectile_01_asg.tga",
+				"category" : "3",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.5156,
+					1.0
+				],
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"direction" : 
+				[
+					0.0,
+					-0.0,
+					-1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.32
+							],
+							[
+								1.0,
+								1.05262
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.4342
+							],
+							[
+								1.0,
+								1.0592
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 25,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 11,
+				"mesh" : "resources/farmbot/p_mesh_liquidball_animated.fbx",
+				"mesh_diffuse" : "resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "3 - Pesticide (Low)",
+				"normal_map" : "resources/farmbot/p_mesh_farmbot_pesticide_projectile_01_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					56.0
+				],
+				"sub" : 
+				[
+					{
+						"ASG_map" : "resources/farmbot/p_mesh_farmbot_liquid_01_asg.tga",
+						"color" : 
+						[
+							1.0,
+							0.0,
+							0.51371,
+							1.0
+						],
+						"depth" : 
+						[
+							0.4,
+							0.05
+						],
+						"direction_type" : "shape",
+						"duration" : 7.0,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										2.0
+									],
+									[
+										0.3846,
+										1.90787
+									],
+									[
+										0.67382,
+										1.6447
+									],
+									[
+										0.83076,
+										1.24342
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 2,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 4,
+						"friction" : 1.0,
+						"guid" : 1,
+						"height" : 
+						[
+							0.4,
+							0.1
+						],
+						"keep_local" : false,
+						"material_name" : "Liquid",
+						"max_particles" : 1001,
+						"mesh" : "resources/watersplashes/p_mesh_waterdrop.fbx",
+						"mesh_diffuse" : "resources/misc/p_colorable_dif.tga",
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "projectile",
+						"min_quality" : "high",
+						"name" : "Trail Spheres (high)",
+						"normal_map" : "resources/misc/p_default_nor.tga",
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.125,
+							0.0
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							-1.0,
+							1.0
+						],
+						"rotation_speed" : 
+						[
+							0.0,
+							180.0
+						],
+						"spawn_chance" : 0.5,
+						"sphere_radius" : 0.11997,
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							0.55,
+							0.125
+						],
+						"type" : "sphere",
+						"velocity" : 
+						[
+							0.1,
+							0.1
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.4,
+							0.1
+						]
+					}
+				],
+				"tiles" : 
+				[
+					8,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.55,
+					0.125
+				],
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"ASG_map" : "resources/farmbot/p_mesh_farmbot_pesticide_projectile_01_asg.tga",
+				"category" : "3",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.5156,
+					1.0
+				],
+				"depth" : 0.5,
+				"direction" : 
+				[
+					0.0,
+					-0.0,
+					-1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					1.0,
+					0.46092,
+					0.46092,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.32
+							],
+							[
+								1.0,
+								1.32
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								1.32894
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"guid" : 6,
+				"height" : 0.550000012,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 11,
+				"mesh" : "resources/farmbot/p_mesh_liquidball_animated.fbx",
+				"mesh_diffuse" : "resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "3 - Pesticide (Medium)",
+				"normal_map" : "resources/farmbot/p_mesh_farmbot_pesticide_projectile_01_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					56.0
+				],
+				"tiles" : 
+				[
+					8,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 0.550000012
+			},
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"angle" : 15.0,
+				"category" : "4",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.51371,
+					1.0
+				],
+				"depth" : 
+				[
+					3.0,
+					0.25
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 20,
+						"fps" : 30,
+						"guid" : 11,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 45,
+				"guid" : 10,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 155,
+				"mesh" : "resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "animated trail02",
+				"normal_map" : "resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"velocity" : 0.300000012,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"ASG_map" : "resources/farmbot/p_mesh_farmbot_pesticide_trail01_asg.tga",
+				"angle" : 15.0,
+				"category" : "4",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.51371,
+					1.0
+				],
+				"depth" : 
+				[
+					1.0,
+					0.25
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 20,
+						"fps" : 30,
+						"guid" : 13,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.65129
+							],
+							[
+								0.36,
+								1.42762
+							],
+							[
+								0.58767,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16922,
+								0.82235
+							],
+							[
+								0.42767,
+								1.375
+							],
+							[
+								0.71692,
+								1.55262
+							],
+							[
+								1.0,
+								1.5197
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 35,
+				"guid" : 12,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 111,
+				"mesh" : "resources/farmbot/p_mesh_farmbot_trailmesh01.fbx",
+				"mesh_diffuse" : "resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "p_farmbot_attack_trail01",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					0.1
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					10,
+					2
+				],
+				"time_to_live" : 
+				[
+					0.55,
+					0.15
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_asg.tga",
+				"category" : "2",
+				"color" : 
+				[
+					1.0,
+					0.13725,
+					0.58038,
+					1.0
+				],
+				"depth" : 
+				[
+					1.29999,
+					0.25
+				],
+				"direction" : 
+				[
+					0.0,
+					-0.0,
+					-1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.65131
+							],
+							[
+								1.0,
+								1.44078
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"guid" : 19,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 8,
+				"friction" : 1.0,
+				"guid" : 16,
+				"height" : 
+				[
+					1.1,
+					0.1
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 15,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watercylinder04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Paste Here",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.42501
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.64999,
+					0.15
+				],
+				"velocity" : 
+				[
+					-0.25,
+					-0.22
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.1,
+					0.1
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_asg.tga",
+				"category" : "2",
+				"color" : 
+				[
+					1.0,
+					0.13725,
+					0.58038,
+					1.0
+				],
+				"depth" : 
+				[
+					3.0,
+					0.75
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"guid" : 21,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.42434
+							],
+							[
+								0.14767,
+								0.9375
+							],
+							[
+								0.38152,
+								1.19403
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"friction" : 1.0,
+				"guid" : 20,
+				"height" : 
+				[
+					0.8,
+					0.1
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 31,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watercylinder04.fbx",
+				"mesh_diffuse" : "resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Trail Cylinder (Medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.40001
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.85,
+					0.15
+				],
+				"velocity" : 
+				[
+					0.15997,
+					0.15997
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.8,
+					0.1
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_asg.tga",
+				"category" : "2",
+				"color" : 
+				[
+					1.0,
+					0.13725,
+					0.58038,
+					1.0
+				],
+				"depth" : 
+				[
+					4.0,
+					0.75
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"guid" : 24,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.42434
+							],
+							[
+								0.14767,
+								0.9375
+							],
+							[
+								0.38152,
+								1.19403
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"friction" : 1.0,
+				"guid" : 23,
+				"height" : 
+				[
+					0.5,
+					0.1
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 31,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watercylinder04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Trail Cylinder Smaller (Medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.40001
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.85,
+					0.15
+				],
+				"velocity" : 
+				[
+					0.15997,
+					0.15997
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.1
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

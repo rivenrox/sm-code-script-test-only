@@ -1,0 +1,700 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "#{SEAT_UPGRADE_TITLE}",
+					"Childs" : [],
+					"FontName" : "SM_HeaderLarge_Wide",
+					"MultiLine" : true,
+					"Name" : "Title",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"Static" : true,
+					"TextAlign" : "Bottom",
+					"Type" : "EditBox",
+					"WordWrap" : true,
+					"height" : 50,
+					"width" : 296,
+					"x" : 0,
+					"y" : 0
+				},
+				{
+					"Caption" : "#{LEVEL} 12345",
+					"Childs" : [],
+					"FontName" : "SM_SubHeader",
+					"Name" : "LevelText",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"TextColour" : "1 0.803922 0.247059 1",
+					"Type" : "TextBox",
+					"height" : 24,
+					"width" : 296,
+					"x" : 0,
+					"y" : 48
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - UpgradeIcon",
+									"Name" : "upgrade_effect_icon",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"LayoutRule" : "Center",
+							"Name" : "UpgradeEffectIcon",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 100,
+							"width" : 100,
+							"x" : -10,
+							"y" : 0
+						}
+					],
+					"ImageGroup" : "ItemIcons",
+					"ImageName" : "1786e265-cebe-4ef1-9d13-02c104c6207b",
+					"ImageResource" : "ItemIconsSetFuture0",
+					"Name" : "MainIcon",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"height" : 80,
+					"width" : 80,
+					"x" : 104,
+					"y" : 90
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Name" : "BG",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "SeatDriversConnectionsBG",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 32,
+							"width" : 299,
+							"x" : 0,
+							"y" : 13
+						},
+						{
+							"Childs" : [],
+							"Name" : "Fill",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "SeatTurretConnectionsFill",
+							"Type" : "ImageBox",
+							"height" : 4,
+							"width" : 0,
+							"x" : 10,
+							"y" : 26
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "4",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep1Active",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "0.141176 0.137255 0.12549 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step1Active",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "SeatTurretConnectionsUnlock",
+							"Type" : "ImageBox",
+							"Visible" : false,
+							"height" : 22,
+							"width" : 22,
+							"x" : 0,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "4",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep1Default",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 1 0.498039",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step1Default",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 22,
+							"width" : 22,
+							"x" : 0,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "8",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep2Active",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "0.141176 0.137255 0.12549 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step2Active",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "SeatTurretConnectionsUnlock",
+							"Type" : "ImageBox",
+							"Visible" : false,
+							"height" : 22,
+							"width" : 22,
+							"x" : 65,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "8",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep2Default",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 1 0.498039",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step2Default",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 22,
+							"width" : 22,
+							"x" : 65,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "12",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep3Active",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "0.141176 0.137255 0.12549 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step3Active",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "SeatTurretConnectionsUnlock",
+							"Type" : "ImageBox",
+							"Visible" : false,
+							"height" : 22,
+							"width" : 22,
+							"x" : 130,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "12",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep3Default",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 1 0.498039",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step3Default",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 22,
+							"width" : 22,
+							"x" : 130,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "16",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep4Active",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "0.141176 0.137255 0.12549 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"LayoutRule" : "Center",
+									"Name" : "FillSmall",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "SeatTurretConnectionsUnlock",
+									"Type" : "ImageBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"LayoutRule" : "Center",
+									"Name" : "FillBig",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "SeatTurretConnectionsUnlock",
+									"Type" : "ImageBox",
+									"Visible" : false,
+									"height" : 28,
+									"width" : 28,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step4Active",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "ImageBox",
+							"Visible" : false,
+							"height" : 22,
+							"width" : 22,
+							"x" : 198,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "16",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep4Default",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 1 0.494118",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 22,
+									"width" : 22,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "Step4Default",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 22,
+							"width" : 22,
+							"x" : 198,
+							"y" : 17
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "20",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep5Active",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "0.141176 0.137255 0.12549 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 28,
+									"width" : 28,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"LayoutRule" : "Center",
+									"Name" : "FillSmall",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "SeatTurretConnectionsUnlock",
+									"Type" : "ImageBox",
+									"Visible" : false,
+									"height" : 16,
+									"width" : 16,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"LayoutRule" : "Center",
+									"Name" : "FillBig",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "SeatTurretConnectionsUnlock",
+									"Type" : "ImageBox",
+									"Visible" : true,
+									"height" : 28,
+									"width" : 28,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"LayoutRule" : "Center",
+							"Name" : "Step5Active",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "ImageBox",
+							"Visible" : false,
+							"height" : 28,
+							"width" : 28,
+							"x" : 270,
+							"y" : 14
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "20",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "LabelStep5Default",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 1 0.494118",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 28,
+									"width" : 28,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"LayoutRule" : "Center",
+							"Name" : "Step5Default",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "PanelEmpty",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 28,
+							"width" : 28,
+							"x" : 270,
+							"y" : 14
+						},
+						{
+							"Caption" : "#{CONNECTIONS}",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "ConnectionsLabel",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Bottom Left",
+							"Type" : "TextBox",
+							"height" : 15,
+							"width" : 80,
+							"x" : 0,
+							"y" : -4
+						},
+						{
+							"Caption" : "#{SETTINGS}",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "Step5Title",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Right",
+							"TextColour" : "1 1 1 1",
+							"Type" : "TextBox",
+							"height" : 15,
+							"width" : 80,
+							"x" : 220,
+							"y" : -4
+						}
+					],
+					"Name" : "Connections",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 50,
+					"width" : 299,
+					"x" : 0,
+					"y" : 240
+				}
+			],
+			"LayoutRule" : "Absolute",
+			"Name" : "ContentPanel",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"RenderDepth" : 1,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"height" : 300,
+			"width" : 299,
+			"x" : 20,
+			"y" : 12
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "gui_icon_upgrade.png",
+							"Name" : "UpgradeArrow",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 27,
+							"width" : 20,
+							"x" : 39,
+							"y" : 32
+						}
+					],
+					"ImageGroup" : "ItemIcons",
+					"ImageName" : "1786e265-cebe-4ef1-9d13-02c104c6207b",
+					"ImageResource" : "ItemIconsSetFuture0",
+					"Name" : "UpgradeIcon",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"height" : 60,
+					"width" : 60,
+					"x" : 0,
+					"y" : 0
+				},
+				{
+					"Caption" : "Caption...",
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{CONTROLLER_UPGRADE}",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "UpgradeText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"Type" : "TextBox",
+							"height" : 12,
+							"width" : 70,
+							"x" : 10,
+							"y" : 9
+						},
+						{
+							"Caption" : "00 / 00",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "UpgradeCost",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Left",
+							"Type" : "TextBox",
+							"height" : 12,
+							"width" : 40,
+							"x" : 42,
+							"y" : 21
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "gui_icon_components.png",
+							"Name" : "UpgradeResource",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 18,
+							"width" : 18,
+							"x" : 22,
+							"y" : 18
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Upgrade",
+									"Name" : "upgrade_effect_button",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"LayoutRule" : "Center",
+							"Name" : "UpgradeEffectButton",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 100,
+							"width" : 100,
+							"x" : -5,
+							"y" : -25
+						}
+					],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "UpgradeButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "UpgradeButton",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 46,
+					"onClick" : "cl_onUpgradeClicked",
+					"width" : 90,
+					"x" : 209,
+					"y" : 12
+				},
+				{
+					"Caption" : "Text...",
+					"Childs" : [],
+					"FontName" : "SM_HeaderTiny",
+					"Name" : "UpgradeInfo",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Left",
+					"Type" : "TextBox",
+					"height" : 54,
+					"width" : 100,
+					"x" : 70,
+					"y" : 3
+				}
+			],
+			"Name" : "UpgradePanel",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"RenderDepth" : 1,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"height" : 66,
+			"width" : 296,
+			"x" : 20,
+			"y" : 342
+		}
+	],
+	"InheritsPick" : true,
+	"LayoutRule" : "Absolute",
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : false,
+	"Skin" : "BackgroundEngine",
+	"Type" : "Widget",
+	"height" : 420,
+	"onClose" : "cl_onTinkerClose",
+	"width" : 336,
+	"x" : 0,
+	"y" : 0
+}

@@ -1,0 +1,3593 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "3",
+				"circle_angle" : 45.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/thruster_thruster03.tga",
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "sparks1       (high)",
+				"radius" : 0.4,
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2500,
+				"time_to_live" : 
+				[
+					0.6,
+					0.2
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					40.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "1",
+				"circle_angle" : 45.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/p_thruster_thruster04.tga",
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.15771,
+								[
+									1.0,
+									0.60412,
+									0.14451,
+									1.0
+								]
+							],
+							[
+								0.83942,
+								[
+									1.0,
+									0.72825,
+									0.34375,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 4,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.31198
+							],
+							[
+								1.0,
+								2.04799
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58222
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 6,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 120,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 2,
+				"height" : 
+				[
+					4.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 500,
+				"name" : "Flash2         (low)",
+				"radius" : 0.2,
+				"rotation" : 
+				[
+					0.0,
+					10.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 0.200000003,
+				"type" : "circle",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					6.0,
+					0.125
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "1",
+				"circle_angle" : 45.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow09.tga",
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.15771,
+								[
+									1.0,
+									0.60412,
+									0.14451,
+									1.0
+								]
+							],
+							[
+								0.83942,
+								[
+									1.0,
+									0.72825,
+									0.34375,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.05592
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 10,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					45.0,
+					10.0
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Flash3        (low)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.25
+				],
+				"radius" : 1.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.25,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					30.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					8.0,
+					2.0
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "3",
+				"circle_angle" : 45.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/thruster_thruster03.tga",
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "sparks2       (high)",
+				"radius" : 0.4,
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2500,
+				"time_to_live" : 
+				[
+					2.0,
+					0.2
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					40.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "7",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"debris_gravity_magnitude" : 30.0,
+				"depth" : 
+				[
+					1.0,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 0.5,
+				"guid" : 14,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh01       (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk01.rend",
+				"rotation" : 
+				[
+					1000.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 1000.0,
+				"spawn_chance" : 0.5,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.53125,
+							0.53125,
+							0.53125,
+							1.0
+						],
+						"delay" : 0.02999,
+						"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+						"direction_type" : "shape",
+						"duration" : 1.0,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 16,
+								"name" : "TextureAnimator",
+								"start_texture_coords_range" : 16
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											0.957,
+											0.957,
+											0.0
+										]
+									],
+									[
+										0.14925,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											0.96482,
+											0.96482,
+											0.0
+										]
+									]
+								],
+								"guid" : 17,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.5
+									]
+								],
+								"guid" : 18,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 25,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-5.0
+						],
+						"friction" : 5.0,
+						"guid" : 15,
+						"height" : 
+						[
+							1.5,
+							0.25
+						],
+						"keep_local" : false,
+						"max_particles" : 251,
+						"min_quality" : "high",
+						"name" : "SmokeTrail       (high)",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-1.5
+						],
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"sphere_radius" : 0.33329,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.5,
+							0.125
+						],
+						"translucency" : 0.62,
+						"type" : "sphere",
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.5,
+							0.25
+						]
+					}
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					25.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "8",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk02_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"debris_gravity_magnitude" : 30.0,
+				"depth" : 
+				[
+					1.0,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 0.5,
+				"guid" : 20,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh02       (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk02.rend",
+				"rotation" : 
+				[
+					1000.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.1,
+					-1.0,
+					0.1
+				],
+				"rotation_speed" : 1000.0,
+				"spawn_chance" : 0.5,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.53125,
+							0.53125,
+							0.53125,
+							1.0
+						],
+						"delay" : 0.02999,
+						"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+						"direction_type" : "shape",
+						"duration" : 1.0,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 22,
+								"name" : "TextureAnimator",
+								"start_texture_coords_range" : 16
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											0.957,
+											0.957,
+											0.0
+										]
+									],
+									[
+										0.14925,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											0.96482,
+											0.96482,
+											0.0
+										]
+									]
+								],
+								"guid" : 23,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.5
+									]
+								],
+								"guid" : 24,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 25,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-5.0
+						],
+						"friction" : 5.0,
+						"guid" : 21,
+						"height" : 
+						[
+							1.5,
+							0.25
+						],
+						"keep_local" : false,
+						"max_particles" : 251,
+						"min_quality" : "high",
+						"name" : "SmokeTrail       (high)",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-1.5
+						],
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"sphere_radius" : 0.33329,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							1.0,
+							0.25
+						],
+						"translucency" : 0.62,
+						"type" : "sphere",
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.5,
+							0.25
+						]
+					}
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					25.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 0.5,
+				"debris_gravity_magnitude" : 30.0,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"friction" : 0.5,
+				"guid" : 26,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh01       (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					20.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk02_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 4.0,
+				"cone_radius" : 0.5,
+				"debris_gravity_magnitude" : 30.0,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"friction" : 0.5,
+				"guid" : 28,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh02       (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk04.rend",
+				"rotation" : 
+				[
+					1000.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.1,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					20.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 45.0,
+				"cone_radius" : 0.5,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-25.0
+				],
+				"friction" : 0.5,
+				"guid" : 30,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh01       (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					20.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 45.0,
+				"cone_radius" : 0.5,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 33,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-25.0
+				],
+				"friction" : 0.5,
+				"guid" : 32,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh02       (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk04.rend",
+				"rotation" : 
+				[
+					1000.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					20.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "1",
+				"circle_angle" : 45.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash02.tga",
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.15771,
+								[
+									1.0,
+									0.60412,
+									0.14451,
+									1.0
+								]
+							],
+							[
+								0.83942,
+								[
+									1.0,
+									0.72825,
+									0.34375,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 35,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.05592
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 36,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 37,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 34,
+				"height" : 
+				[
+					22.0,
+					3.0
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Flash3        (medium)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.42499
+				],
+				"radius" : 1.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.125,
+				"type" : "circle",
+				"velocity" : 
+				[
+					45.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					1.0
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "4",
+				"cone_angle" : 2.0,
+				"cone_radius" : 0.1,
+				"delay" : 11.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 39,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 40,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 0.5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 38,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"name" : "sparks1          11.0        (low)",
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					36.13105,
+					-9.27481,
+					6.71049
+				],
+				"soft_particles_bias" : 2500,
+				"spawn_chance" : 0.49,
+				"time_to_live" : 
+				[
+					2.0,
+					0.2
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					15.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "4",
+				"cone_angle" : 2.0,
+				"cone_radius" : 0.1,
+				"delay" : 11.06,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 42,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 43,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 0.5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 41,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"min_quality" : "high",
+				"name" : "sparks1         11.06       (high)",
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					50.6663,
+					-2.84989,
+					2.04134
+				],
+				"soft_particles_bias" : 2500,
+				"spawn_chance" : 0.49,
+				"time_to_live" : 
+				[
+					2.0,
+					0.2
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					15.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "4",
+				"cone_angle" : 2.0,
+				"cone_radius" : 0.1,
+				"delay" : 11.125,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 45,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 46,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 0.5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 44,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"name" : "sparks2             11.125        (low)",
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					28.50959,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 2500,
+				"spawn_chance" : 0.49,
+				"time_to_live" : 
+				[
+					2.0,
+					0.2
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					25.0,
+					7.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "5",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 5.0,
+				"cone_radius" : 1.0,
+				"debris_gravity_magnitude" : 30.0,
+				"delay" : 11.0,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 48,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : 0.5,
+				"guid" : 47,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh01         (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"shape_rotation" : 
+				[
+					35.5861,
+					0.0,
+					0.0
+				],
+				"spawn_chance" : 0.5,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					20.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "5",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 5.0,
+				"cone_radius" : 1.0,
+				"debris_gravity_magnitude" : 30.0,
+				"delay" : 11.0,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 50,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : 0.5,
+				"guid" : 49,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh01     red    (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk04.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"shape_rotation" : 
+				[
+					35.5861,
+					0.0,
+					0.0
+				],
+				"spawn_chance" : 0.5,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					20.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "5",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 5.0,
+				"cone_radius" : 0.75,
+				"debris_gravity_magnitude" : 30.0,
+				"delay" : 11.125,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 52,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : 0.5,
+				"guid" : 51,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh02       (medium)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"shape_rotation" : 
+				[
+					35.5861,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					35.0,
+					7.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "4",
+				"cone_angle" : 2.0,
+				"cone_radius" : 0.1,
+				"delay" : 11.15499,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 54,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 55,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 0.5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 53,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"min_quality" : "high",
+				"name" : "sparks2      11.155       (high)",
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					35.92538,
+					7.33861,
+					-5.28775
+				],
+				"soft_particles_bias" : 2500,
+				"spawn_chance" : 0.5,
+				"time_to_live" : 
+				[
+					2.0,
+					0.2
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					30.0,
+					7.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"bounce" : 
+				[
+					0.25,
+					0.05
+				],
+				"category" : "4",
+				"collision" : "bounce",
+				"cone_angle" : 1.0,
+				"cone_radius" : 0.1,
+				"delay" : 11.25,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 57,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 58,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 0.5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 56,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"lifetime_loss" : 0.00999,
+				"max_particles" : 1000,
+				"name" : "sparks3       11.25        (low)",
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					41.1668,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 2500,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					55.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"bounce" : 
+				[
+					0.25,
+					0.05
+				],
+				"category" : "4",
+				"collision" : "bounce",
+				"cone_angle" : 1.0,
+				"cone_radius" : 0.0,
+				"delay" : 11.25,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.05352,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									0.3287,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 60,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 61,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-30.0
+				],
+				"friction" : 0.5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 59,
+				"height" : 
+				[
+					1.2,
+					0.2
+				],
+				"keep_local" : false,
+				"lifetime_loss" : 0.00999,
+				"max_particles" : 1000,
+				"min_quality" : "high",
+				"name" : "sparks3                 11.25       (high)",
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					29.94902,
+					-9.84452,
+					5.62587
+				],
+				"soft_particles_bias" : 2500,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					45.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.11997,
+					0.03999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "6",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "constant",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.15207,
+								[
+									1.0,
+									0.36858,
+									0.14925,
+									1.0
+								]
+							],
+							[
+								0.76901,
+								[
+									0.2578,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 63,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.69735
+							]
+						],
+						"guid" : 64,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.47075,
+								0.9671
+							],
+							[
+								0.68307,
+								0.89143
+							],
+							[
+								0.83384,
+								0.73026
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 65,
+						"max" : 3.0,
+						"name" : "LifeTimeOverDuration"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 62,
+				"height" : 
+				[
+					5.0,
+					2.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "GlowBurst       (high)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.88414
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"velocity" : -0.5,
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					2.0
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "7",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"debris_gravity_magnitude" : 30.0,
+				"depth" : 
+				[
+					1.0,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 71,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 0.5,
+				"guid" : 66,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh01   red    (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk04.rend",
+				"rotation" : 
+				[
+					1000.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 1000.0,
+				"spawn_chance" : 0.5,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.53125,
+							0.53125,
+							0.53125,
+							1.0
+						],
+						"delay" : 0.02999,
+						"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+						"direction_type" : "shape",
+						"duration" : 1.0,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 68,
+								"name" : "TextureAnimator",
+								"start_texture_coords_range" : 16
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											0.957,
+											0.957,
+											0.0
+										]
+									],
+									[
+										0.14925,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											0.96482,
+											0.96482,
+											0.0
+										]
+									]
+								],
+								"guid" : 69,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.5
+									]
+								],
+								"guid" : 70,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 25,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-5.0
+						],
+						"friction" : 5.0,
+						"guid" : 67,
+						"height" : 
+						[
+							1.5,
+							0.25
+						],
+						"keep_local" : false,
+						"max_particles" : 251,
+						"min_quality" : "high",
+						"name" : "SmokeTrail       (high)",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-1.5
+						],
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"sphere_radius" : 0.33329,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.5,
+							0.125
+						],
+						"translucency" : 0.62,
+						"type" : "sphere",
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.5,
+							0.25
+						]
+					}
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					25.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "8",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk02_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"debris_gravity_magnitude" : 30.0,
+				"depth" : 
+				[
+					1.0,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 11.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 77,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 0.5,
+				"guid" : 72,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh02     reds  (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk03.rend",
+				"rotation" : 
+				[
+					1000.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.1,
+					1.0,
+					1.0
+				],
+				"rotation_speed" : 1000.0,
+				"spawn_chance" : 0.5,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.53125,
+							0.53125,
+							0.53125,
+							1.0
+						],
+						"delay" : 0.02999,
+						"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+						"direction_type" : "shape",
+						"duration" : 1.0,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 74,
+								"name" : "TextureAnimator",
+								"start_texture_coords_range" : 16
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											0.957,
+											0.957,
+											0.0
+										]
+									],
+									[
+										0.14925,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											0.96482,
+											0.96482,
+											0.0
+										]
+									]
+								],
+								"guid" : 75,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.5
+									]
+								],
+								"guid" : 76,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 25,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-5.0
+						],
+						"friction" : 5.0,
+						"guid" : 73,
+						"height" : 
+						[
+							1.5,
+							0.25
+						],
+						"keep_local" : false,
+						"max_particles" : 251,
+						"min_quality" : "high",
+						"name" : "SmokeTrail       (high)",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-1.5
+						],
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"sphere_radius" : 0.33329,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							1.0,
+							0.25
+						],
+						"translucency" : 0.62,
+						"type" : "sphere",
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.5,
+							0.25
+						]
+					}
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					25.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "5",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 5.0,
+				"cone_radius" : 0.75,
+				"debris_gravity_magnitude" : 30.0,
+				"delay" : 11.125,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 79,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : 0.5,
+				"guid" : 78,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh02      red  (medium)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"shape_rotation" : 
+				[
+					35.5861,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					35.0,
+					7.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "5",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 5.0,
+				"cone_radius" : 0.5,
+				"debris_gravity_magnitude" : 30.0,
+				"delay" : 11.25,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 81,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : 0.5,
+				"guid" : 80,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh03    red   (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk04.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"shape_rotation" : 
+				[
+					35.5861,
+					0.0,
+					0.0
+				],
+				"spawn_chance" : 0.5,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					55.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			},
+			{
+				"buoyancy" : 0,
+				"category" : "5",
+				"collision_mesh" : "$GAME_DATA/Particles/resources/drillbot/p_mesh_drillbot_metalchunk01_col.fbx",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 5.0,
+				"cone_radius" : 0.5,
+				"debris_gravity_magnitude" : 30.0,
+				"delay" : 11.25,
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 83,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : 0.5,
+				"guid" : 82,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh03       (high)",
+				"particle" : "debris",
+				"phasing_time" : 0.33,
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_metalchunk01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					250.0,
+					500.0
+				],
+				"shape_rotation" : 
+				[
+					35.5861,
+					0.0,
+					0.0
+				],
+				"spawn_chance" : 0.5,
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					55.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

@@ -1,0 +1,1083 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : " 0 - global",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"height" : 0.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Parent",
+				"position" : 
+				[
+					3.75,
+					0.50585,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"sub" : 
+				[
+					{
+						"billboard_origin" : "bottom_right",
+						"billboard_type" : "sprite",
+						"box" : 
+						[
+							0.0,
+							0.5,
+							0.0
+						],
+						"color" : 
+						[
+							0.0,
+							0.41707,
+							0.78513,
+							1.0
+						],
+						"delay" : 0.01999,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgrade_sideglow01.tga",
+						"direction_type" : "constant",
+						"duration" : 2.0,
+						"effects" : 
+						[
+							{
+								"axis" : "x-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 2,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"fade" : 1.0,
+								"guid" : 3,
+								"length" : 0.0,
+								"name" : "Cutoff"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.51292,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 4,
+								"min" : 0.0,
+								"name" : "LifeTimeOverDuration"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 15,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 1,
+						"height" : 
+						[
+							1.0,
+							0.25
+						],
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 100,
+						"name" : "Glow",
+						"position" : 
+						[
+							0.0,
+							-0.50947,
+							0.0
+						],
+						"rotation" : 180.0,
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"time_to_live" : 1.0,
+						"type" : "box",
+						"unlit" : true,
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							5.0,
+							1.0
+						]
+					},
+					{
+						"billboard_origin" : "bottom_right",
+						"billboard_type" : "sprite",
+						"box" : 
+						[
+							0.0,
+							0.5,
+							0.0
+						],
+						"color" : 
+						[
+							0.0,
+							0.43784,
+							0.82419,
+							1.0
+						],
+						"delay" : 0.05,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgrade_sideglow01.tga",
+						"direction_type" : "constant",
+						"duration" : 2.0,
+						"effects" : 
+						[
+							{
+								"axis" : "x-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.03419
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 6,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"fade" : 1.0,
+								"guid" : 7,
+								"length" : 0.0,
+								"name" : "Cutoff"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.51292,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 8,
+								"min" : 0.0,
+								"name" : "LifeTimeOverDuration",
+								"toggle" : false
+							},
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										10.0
+									]
+								],
+								"guid" : 9,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 15,
+						"friction" : 2.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 5,
+						"height" : 
+						[
+							1.0,
+							0.25
+						],
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 100,
+						"name" : "Glow",
+						"position" : 
+						[
+							0.0,
+							-0.50947,
+							0.0
+						],
+						"rotation" : 180.0,
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"time_to_live" : 1.0,
+						"type" : "box",
+						"unlit" : true,
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							5.0,
+							1.0
+						]
+					}
+				],
+				"time_to_live" : 2.0,
+				"velocity" : 35.5,
+				"water_mask" : "none",
+				"width" : 0.0
+			},
+			{
+				"billboard_origin" : "top_left",
+				"billboard_type" : "sprite",
+				"category" : " 0 - global",
+				"color" : 
+				[
+					0.0,
+					0.30588,
+					0.53333,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gradient01.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								11.85
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 11.85,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 10,
+				"height" : 6.0,
+				"keep_local" : true,
+				"name" : "forcefield gradient  1",
+				"position" : 
+				[
+					3.75,
+					0.5,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 2.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					63.0,
+					0.0
+				],
+				"category" : " 0 - global",
+				"color" : 
+				[
+					0.0,
+					0.06881,
+					0.1875,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"delay" : 1.79999,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_02.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 13,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 30,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 12,
+				"height" : 10.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Forcefield 1",
+				"position" : 
+				[
+					3.75,
+					-35.03227,
+					0.0
+				],
+				"random_flip" : 
+				[
+					0.0,
+					0.5
+				],
+				"rotation" : 90.0,
+				"scene_blend" : "addative",
+				"sort_offset" : -1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : " 0 - global",
+				"color" : 
+				[
+					0.0,
+					0.1462,
+					0.39842,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_03.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 15,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 14,
+				"height" : 3.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Forcefield 2",
+				"position" : 
+				[
+					3.75,
+					-0.92437,
+					0.0
+				],
+				"rotation" : 90.0,
+				"scene_blend" : "addative",
+				"sort_offset" : -1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"category" : "1 - ",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 16,
+				"height" : 0.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Parent",
+				"position" : 
+				[
+					-3.75,
+					0.50585,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"sub" : 
+				[
+					{
+						"billboard_origin" : "top_right",
+						"billboard_type" : "sprite",
+						"box" : 
+						[
+							0.0,
+							0.5,
+							0.0
+						],
+						"color" : 
+						[
+							0.0,
+							0.41707,
+							0.78513,
+							1.0
+						],
+						"delay" : 0.01999,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgrade_sideglow01.tga",
+						"direction_type" : "constant",
+						"duration" : 2.0,
+						"effects" : 
+						[
+							{
+								"axis" : "x-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 18,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"fade" : 1.0,
+								"guid" : 19,
+								"length" : 0.0,
+								"name" : "Cutoff"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.51292,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 20,
+								"min" : 0.0,
+								"name" : "LifeTimeOverDuration"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 15,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 17,
+						"height" : 
+						[
+							1.0,
+							0.25
+						],
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 100,
+						"name" : "Glow",
+						"position" : 
+						[
+							0.0,
+							-0.50947,
+							0.0
+						],
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"time_to_live" : 1.0,
+						"type" : "box",
+						"unlit" : true,
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							5.0,
+							1.0
+						]
+					},
+					{
+						"billboard_origin" : "top_right",
+						"billboard_type" : "sprite",
+						"box" : 
+						[
+							0.0,
+							0.5,
+							0.0
+						],
+						"color" : 
+						[
+							0.0,
+							0.43784,
+							0.82419,
+							1.0
+						],
+						"delay" : 0.05,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgrade_sideglow01.tga",
+						"direction_type" : "constant",
+						"duration" : 2.0,
+						"effects" : 
+						[
+							{
+								"axis" : "x-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.03419
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 22,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"fade" : 1.0,
+								"guid" : 23,
+								"length" : 0.0,
+								"name" : "Cutoff"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.51292,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 24,
+								"min" : 0.0,
+								"name" : "LifeTimeOverDuration",
+								"toggle" : false
+							},
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										10.0
+									]
+								],
+								"guid" : 25,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 15,
+						"friction" : 2.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 21,
+						"height" : 
+						[
+							1.0,
+							0.25
+						],
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 100,
+						"name" : "Glow",
+						"position" : 
+						[
+							0.0,
+							-0.50947,
+							0.0
+						],
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"time_to_live" : 1.0,
+						"type" : "box",
+						"unlit" : true,
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							5.0,
+							1.0
+						]
+					}
+				],
+				"time_to_live" : 2.0,
+				"velocity" : 35.5,
+				"water_mask" : "none",
+				"width" : 0.0
+			},
+			{
+				"billboard_origin" : "bottom_left",
+				"billboard_type" : "sprite",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.0,
+					0.30937,
+					0.53513,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gradient01.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								11.89999
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 11.89999,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 3,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 26,
+				"height" : 6.0,
+				"keep_local" : true,
+				"name" : "forcefield gradient  1",
+				"position" : 
+				[
+					-3.75,
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 2.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					63.0,
+					0.0
+				],
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.0,
+					0.06881,
+					0.1875,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"delay" : 1.79999,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_02.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 29,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 30,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 28,
+				"height" : 10.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Forcefield 1",
+				"position" : 
+				[
+					-3.75,
+					-35.03227,
+					0.0
+				],
+				"random_flip" : 
+				[
+					0.0,
+					0.5
+				],
+				"rotation" : -90.0,
+				"scene_blend" : "addative",
+				"sort_offset" : -1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.0,
+					0.1462,
+					0.39842,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_03.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 31,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 30,
+				"height" : 3.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Forcefield 2",
+				"position" : 
+				[
+					-3.75,
+					-0.92437,
+					0.0
+				],
+				"rotation" : -90.0,
+				"scene_blend" : "addative",
+				"sort_offset" : -1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : " 0 - global",
+				"color" : 
+				[
+					0.0,
+					0.1462,
+					0.39842,
+					1.0
+				],
+				"delay" : 2.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_03.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 33,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 32,
+				"height" : 3.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Forcefield 3",
+				"position" : 
+				[
+					3.75,
+					-69.41135,
+					0.0
+				],
+				"rotation" : 90.0,
+				"scene_blend" : "addative",
+				"sort_offset" : -1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.0,
+					0.1462,
+					0.39842,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"delay" : 2.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_gravelcollector_forcefield_03.tga",
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 35,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 34,
+				"height" : 3.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Forcefield 3",
+				"position" : 
+				[
+					-3.75,
+					-69.41102,
+					0.0
+				],
+				"rotation" : -90.0,
+				"scene_blend" : "addative",
+				"sort_offset" : -1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			}
+		]
+	}
+}

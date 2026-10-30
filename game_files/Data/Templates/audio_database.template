@@ -1,0 +1,69 @@
+{
+	"template_meta": {
+		"uuid" : "395618a2-4313-4d3b-af26-4a842f663eb0",
+		"name":"Audio Database",
+		"display": "audiodatabase",
+		"pattern": ["$*/Effects/Audio/*.json"],
+		"preferDualView": true
+	},
+
+	"systemsettings_meta": { "type": "map" },
+	"systemsettings": {
+		"max_channels_meta": { "type": "int", "order": 1 },
+		"max_channels": 256,
+
+		"software_channels_meta": { "type": "int", "order": 2 },
+		"software_channels": 64,
+
+		"doppler_scale_meta": { "type": "float", "order": 3 },
+		"doppler_scale": 1.0,
+
+		"distance_factor_meta": { "type": "float", "order": 4 },
+		"distance_factor": 1.0,
+
+		"rolloff_scale_meta": { "type": "float", "order": 5 },
+		"rolloff_scale": 1.0,
+
+		"room_update_frequency_meta": { "type": "float", "order": 6 },
+		"room_update_frequency": 0.5
+	},
+
+	"audiogroups_meta": { "type": "array", "valueAsLabel": "name" },
+	"audiogroups": [
+		{
+			"name_meta": { "type": "string", "order": 1 },
+			"name": "Master",
+
+			"bus_meta": { "type": "string", "order": 2 },
+			"bus": "bus:/",
+
+			"vca_meta": { "type": "string", "order": 3 },
+			"vca": "",
+
+			"localization_tag_meta": { "type": "string", "order": 4 },
+			"localization_tag": "#{MENU_OPTIONS_AUDIO_MASTER}",
+
+			"order_meta": { "type": "int", "order": 5 },
+			"order": 1
+		}
+	],
+
+	"banks_meta": { "type": "array" },
+	"banks": [
+		{
+			"file_meta": { "type": "string", "order": 1 },
+			"file": "Master Bank.strings.bank"
+		}
+	],
+
+    "events_meta": { "type": "array", "valueAsLabel": "game event" },
+	"events": [
+		{
+			"game event_meta": { "type": "string", "order": 1 },
+			"game event": "Event",
+
+            "audio event_meta": { "type": "string", "order": 2 },
+			"audio event": "event:/"
+        }
+	]
+}

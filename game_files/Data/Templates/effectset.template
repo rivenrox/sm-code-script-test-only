@@ -1,0 +1,970 @@
+{
+	"template_meta": {
+		"uuid" : "3cd2102a-9d03-4304-a2c4-79f9cb49b63d",
+		"name":"Effect Set",
+		"display": "effectset",
+		"preferDualView" : true,
+		"pattern": ["$*/Effects/Database/EffectSets/*.json", "*.effectset"],
+		"root_meta": { "type": "map" }
+	},
+	"Effect - Name" :
+	{
+		"showInEditor_meta": { "optional": true },
+		"showInEditor": true,
+
+		"maxInstances_meta": { "optional": true, "min" : 0, "max" : 16384 },
+		"maxInstances": 128,
+
+		"startDistance_meta": { "optional": true, "min" : 0, "max" : 4000 },
+		"startDistance": 250,
+
+		"stopDistance_meta": { "optional": true, "min" : 0, "max" : 4000 },
+		"stopDistance": 350,
+
+		"hideInFirstPerson_meta": { "type": "bool", "optional": true, "toolTip" : "Sets if effect parts should be hidden while in first person camera, if its attached to player" },
+		"hideInFirstPerson": false,
+
+		"dontHideWithCharacter_meta": { "type": "bool", "optional": true, "toolTip" : "If true, the effect is not hidden when its hosted character becomes invisible" },
+		"dontHideWithCharacter": false,
+
+		"parameterList_meta": {
+			"hideInHierarchyView" : true,
+			"optional": true,
+			"editable": true,
+			"constDataStoreAllNames" : true,
+			"toolTip":"Editable values from tile editor",
+			"label" : "Tile Editor Parameters",
+			"hideUnavailableOptionals" : true
+		},
+		"parameterList": {
+
+			"Color_meta": { "type":"string", "optional":true, "label" : "Particle Color" },
+			"Color": "ffffffff", 
+			
+			"Scale_meta": { "type":"vec3", "optional":true, "label" : "Particle Scale" },
+            "Scale": [1.0, 1.0, 1.0],
+			
+			"offsetPosition_meta": { "type":"vec3", "optional":true, "label" : "Parameter Curve Offset Position" },
+			"offsetPosition": [0.0, 0.0, 0.0],
+
+			"offsetRotation_meta": { "type":"vec3", "optional":true, "label" : "Parameter Curve Offset Rotation" },
+			"offsetRotation": [0.0, 0.0, 0.0],
+
+			"lifetimeMultiplier_meta": { "type":"float", "optional":true, "label" : "Particle Lifetime Multiplier" },
+			"lifetimeMultiplier": 1.0, 
+
+			"maxParticles_meta": { "type":"float", "optional":true, "label" : "Max Particles" },
+			"maxParticles": 0.0,
+			
+			"color_meta": { "type":"string", "optional":true },
+			"color" : "eeeeee",
+
+			"ambientRangeScale_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"ambientRangeScale": 1.5,
+			
+			"ambientPosScale_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"ambientPosScale": 0.25,
+			
+			"ambientIntensityScale_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"ambientIntensityScale": 0.5,
+			
+			"ambientMaxIntensity_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"ambientMaxIntensity": 1.0,
+			
+			"ambient_meta": { "type": "bool", "optional": true },
+			"ambient": true,
+			
+			"radius_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"radius": 2.0,
+			
+			"intensity_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"intensity": 1.0,
+			
+			"maxIntensity_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"maxIntensity": 1.0,
+			
+			"additive_meta": { "type": "bool", "optional": true },
+			"additive": false,
+			
+			"customVolumetric_meta": { "type": "bool", "optional": true },
+			"customVolumetric": false,
+			
+			"disableVolumetric_meta": { "type": "bool", "optional": true },
+			"disableVolumetric": false,
+			
+			"falloffMode_meta": { "type": "uint", "optional": true, "min": 0, "max": 4 },
+			"falloffMode": 0,
+			
+			"falloffFactor_meta": { "type": "float", "optional": true, "min": 0.0, "max": 100.0 },
+			"falloffFactor": 1.0,
+			
+			"volColor_meta": { "type": "color", "optional": true },
+			"volColor": [1.0, 1.0, 1.0, 1.0],
+			
+			"volIntensity_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"volIntensity": 1.0,
+			
+			"volMaxIntensity_meta": { "type": "float", "optional": true, "min": 0.0, "max": 10.0 },
+			"volMaxIntensity": 1.0,
+			
+			"volMinRadius_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"volMinRadius": 0.0,
+			
+			"volMaxRadius_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"volMaxRadius": 0.0,
+			
+			"volFalloffMode_meta": { "type": "uint", "optional": true, "min": 0, "max": 4 },
+			"volFalloffMode": 0,
+			
+			"volFalloffFactor_meta": { "type": "float", "optional": true, "min": 0.0, "max": 100.0 },
+			"volFalloffFactor": 1.0,
+			
+			"range_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"range": 20.0,
+			
+			"cookie_meta": { "type": "uint", "optional": true },
+			"cookie": 0,
+			
+			"shadowMode_meta": { "type": "uint", "optional": true },
+			"shadowMode": 2,
+			
+			"coneAngle_meta": { "type": "float", "optional": true, "min": 0.0, "max": 89.0 },
+			"coneAngle": 45.0,
+			
+			"coneFade_meta": { "type": "float", "optional": true, "min": 0.0, "max": 1.0 },
+			"coneFade": 0.25,
+			
+			"volConeAngle_meta": { "type": "float", "optional": true, "min": 0.0, "max": 89.0 },
+			"volConeAngle": 45.0,
+			
+			"volConeFade_meta": { "type": "float", "optional": true, "min": 0.0, "max": 1.0 },
+			"volConeFade": 1.0,
+			
+			"volMinRange_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"volMinRange": 20.0,
+			
+			"volMaxRange_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"volMaxRange": 1.0,
+			
+			"volFadeInStart_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"volFadeInStart": 0.25,
+			
+			"volFadeInRange_meta": { "type": "float", "optional": true, "min": 0.0, "max": 500.0 },
+			"volFadeInRange": 1.25,
+
+			"globalPulse_meta": { "optional" : true, "type" : "bool" },
+			"globalPulse" : false,
+
+			"nearFade_meta": { "optional" : true, "type" : "bool" },
+			"nearFade" : false,
+
+			"nearFadeReversed_meta": { "optional" : true, "type" : "bool" },
+			"nearFadeReversed" : false,
+
+			"nearFadeRange_meta": { "type": "float", "optional": true, "min": 0.0, "max": 1000.0 },
+			"nearFadeRange": 50.0,
+
+			"nearFadeEnd_meta": { "type": "float", "optional": true, "min": 0.0, "max": 1000.0 },
+			"nearFadeEnd": 0.0,
+			
+			"textureIndex_meta": { "label" : "Billboard Texture Index", "type": "int", "optional": true, "min": 0.0, "max": 1000.0 },
+			"textureIndex": 0.0
+		},
+
+		"parameterCurves_meta": { "type":"map", "optional": true, "hideInHierarchyView" : true },
+		"parameterCurves": {
+			"curve":
+			{
+				"loop_meta": { "optional": true, "min": 0.0 },
+				"loop": 4.0,
+				"speed_meta": { "optional": true, "min": 0.01 },
+				"speed": 1.0,
+				"timeline":
+				[
+					{
+						"time_meta": { "type": "float", "min":0.0 },
+						"time":0.0,
+
+						"value_meta": { "value_meta":{ "type":"float" }, "minSize":1, "maxSize":3 },
+						"value":[ 0.0 ],
+
+						"easing_meta": { "optionsCategory": "easing", "optional": true },
+						"easing": "linear"
+					}
+				]
+			}
+		},
+
+		"effectList_meta" : {
+			"label": "Sub Effects",
+			"hideHeaderInHierarchyView": true,
+			"hideInValueView": true,
+			"valueAsLabel":[ "label", "audio", "particles", "name", "type" ],
+			"presets" : {
+				"Audio": {
+					"type": "audio",
+					"audio": [ "Horn" ]
+				},
+				"Particle": {
+					"type": "particle",
+					"offset": [0.0, 0.0, 0.0],
+					"particles": [ "paint_smoke" ]
+				},
+				"PointLight": {
+					"type": "pointLight",
+					"offset": [0.0, 0.0, 0.0],
+					"color": [1.0, 1.0, 1.0, 1.0],
+					"intensity": 1.0,
+					"radius": 10.0
+				},
+				"SpotLight": {
+					"type": "spotLight",
+					"offset": [0.0, 0.0, 0.0],
+					"color": [1.0, 1.0, 1.0, 1.0],
+					"direction": [0.0, 0.0, -1.0],
+					"intensity": 1.0,
+					"coneAngle": 45.0,
+					"coneFade": 0.25
+				},
+				"AmbientLight": {
+					"type": "ambientLight",
+					"offset": [0.0, 0.0, 0.0],
+					"color": [1.0, 1.0, 1.0, 1.0],
+					"radius": 10.0,
+					"intensity": 1.0
+				},
+				"Shake": {
+					"type": "shake",
+					"shakeRadius" : 1.0,
+					"shakeStrength" : 1.0,
+					"shakeFalloffEasing" : "linear"
+				},
+				"CameraShake": {
+					"type": "cameraShake",
+					"duration": 1.0,
+					"shakeRadius" : 25.0,
+					"shakeStrength" : 0.05,
+					"shakeAmplitude": [1.0, 1.0, 1.0],
+					"shakeFrequency": [40.0, 40.0, 40.0],
+					"shakeFalloffDuration" : 0.0,
+					"shakeFalloffEasing" : "linear",
+					"shakeRotational": false
+				},
+				"CameraTrack": {
+					"type": "cameraTrack",
+					"cameraTrack": [ 
+						{
+							"easing": "linear",
+							"duration": 1.0,
+							"position" : [0.0, 0.0, 0.0],
+							"rotation": [0.0, 0.0, 0.0]
+						},
+						{
+							"easing": "linear",
+							"duration": 1.0,
+							"position" : [10.0, 0.0, 0.0],
+							"rotation": [0.0, 0.0, 0.0]
+						}
+					],
+					"hasBlendIn" : false,
+					"hasBlendOut" : false
+				},
+				"Renderable": {
+					"type": "renderable",
+					"offset": [0.0, 0.0, 0.0],
+					"renderableColor": [1.0, 1.0, 1.0, 1.0],
+					"renderable": ["$CHALLENGE_DATA/Objects/Renderable/interactive/obj_challenge_interactive_smallgoal.rend"]
+				},
+				"ShapeRenderable": {
+					"type": "shapeRenderable",
+					"offset": [0.0, 0.0, 0.0],
+					"color": [1.0, 1.0, 1.0, 1.0],
+					"shape": "0637b64b-b6aa-49b9-9d20-72d565b42ed8",
+					"renderableSize": [1.0, 1.0, 1.0]
+				},
+				"CustomizationRenderable": {
+					"type": "customizationRenderable",
+					"offset": [0.0, 0.0, 0.0],
+					"renderableColor": [1.0, 1.0, 1.0, 1.0],
+					"uuid": "00000000-0000-0000-0000-000000000000"
+				},
+				"Text": {
+					"type": "text",
+					"Color": [1.0, 1.0, 1.0, 1.0],
+					"textContent": "",
+					"textMaterial": "DifAsgNoShadow",
+					"fontName": "SM_IntlText",
+					"fontSize": 20
+				},
+				"LuaEvent": {
+					"type": "luaEvent",
+					"delay": 0.0,
+					"isServerCallback": false,
+					"callback": "sv_e_spawnEnemies",
+					"callbackParams": {}
+				},
+				"SecondaryEffect": {
+					"type": "secondaryEffect",
+					"delay": 0.0,
+					"effects": "Alarmclock - Alarm",
+					"offset": [0.0, 0.0, 0.0],
+					"rotation": [0.0, 0.0, 0.0]
+				},
+				"Decal": {
+					"type": "decal",
+					"color": [1.0, 1.0, 1.0, 1.0],
+					"decal": [ "0cf445f4-c739-430e-abd8-c394983a158f" ]
+				},
+				"Billboard": {
+					"type": "billboard",
+					"color": [1.0, 1.0, 1.0, 1.0],
+					"billboardSize": [60.0, 60.0],
+					"billboardMaterial": "InWorldIcon",
+					"textureIndex": 0,
+					"billboardTexture": [ "$GAME_DATA/Gui/Beacon/icon_beacon_arrowdown.png" ],
+					"alphaMask": "$GAME_DATA/Gui/Beacon/icon_beacon_mask.png"
+				}
+			},
+			"value_meta":
+			{
+				"valueAsHeaderColor" : "labelColor",
+				"valueAsIcon" : "type",
+				"displayTransform" : {
+					"position":"offset",
+					"rotation":"rotation",
+					"scale":"offsetScale",
+					"ignoreScale": true,
+					"overlay" : true,
+					"renderable" : "$GAME_DATA/Nodes/Renderable/node_cube.rend",
+					"renderableMatchEntityScale" : true,
+					"color" : [ 0.7, 0.7, 0.7, 0.3 ],
+					"hideFromOutliner" : false
+				}, 
+				"hideUnavailableOptionals" : true
+			}
+		},
+		"effectList":
+		[
+			{
+				"type_meta": {
+					"readOnly": true,
+					"order": 0,
+					"options" : [
+						"audio",
+						"particle",
+						"pointLight",
+						"spotLight",
+						"ambientLight",
+						"cameraShake",
+						"cameraTrack",
+						"renderable",
+						"shapeRenderable",
+						"customizationRenderable",
+						"text",
+						"luaEvent",
+						"secondaryEffect",
+						"decal",
+						"billboard",
+						"shake"
+					]
+				},
+				"type": "audio",
+
+				"label_meta": { "optional":true, "order":1, "toolTip":"Editor label" },
+				"label": "",
+
+				"labelColor_meta": { "type":"color", "optional":true },
+				"labelColor": [1.0, 1.0, 1.0, 1.0],
+
+				"name_meta": {
+					"optional":true,
+					"order":2,
+					"deprecated":true,
+					"toolTip":"Deprecated! Please use the respective effect type names",
+					"available":{"type":["particle","audio"]}
+				},
+				"name": "",
+
+				"id_meta": { "optional": true, "type": "string" },
+				"id": "",
+
+				"pickingId_meta": { "optional": true, "type": "uint", "writeToDisk" : false, "hidden" : true, "toolTip" : "Internal value. Not saved to json" },
+				"pickingId": "",
+				
+				"event_meta": { "deprecated":true, "type":"string", "order":2, "optional":true, "available":{"type":["luaEvent"]} },
+				"event": "",
+
+				"particles_meta": { "order":3, "optional":true, "background" : false, "value_meta":{ "type":"string", "optionsCategory":"particle", "optionsAllowsCustom": true }, "available":{"type":["particle"]} , "hideInHierarchyView" : true },
+				"particles": [""],
+
+				"effects_meta": { "order":3, "optional":true, "type":"string", "optionsCategory":"effect", "optionsAllowsCustom": false, "available":{"type":["secondaryEffect"] } },
+				"effects": "",
+
+				"audio_meta": { "order":1, "optional":true, "background" : false, "value_meta":{ "type":"string", "optionsAllowsCustom":true, "optionsCategory":"audio" }, "available":{"type":["audio"]} , "hideInHierarchyView" : true },
+				"audio": [""],
+				
+				"audioKey_meta": { "label" :"Audio Key*", "type" : "string", "optional" : true , "available" : { "type" : ["audio"] }, "optionsCategory" : "audioKeys", "optionsAllowsCustom" : true, "toolTip" : "Specifies the key for the audio event. If not present in the drop down, but present in the bank it can still be used" },
+				"audioKey": "",
+
+				"lipSync_meta" : { "label" :"Lip Sync*", "optional" : true, "available" : { "type" : ["audio"] }, "toolTip" : "Sets effect to read lip sync parameter from the audio event" },
+				"lipSync" : "outfloatLipsync",
+
+				"followListener_meta": { "label" :"Follow Listener*", "optional" : true, "available" : { "type" : ["audio"] }, "toolTip" : "Follow the listener's position, used on 2d sounds with 3d scatter effects" },
+				"followListener" : false,
+
+				"delay_meta" : { "type" : "float", "min" : 0.0, "optional" : true },
+				"delay" : 0.0,
+
+				"duration_meta" : { "type" : "float", "optional" : true, "min" : 0.0, "available" : { "type" : ["particle","audio","pointLight","spotLight","ambientLight","renderable","shapeRenderable","customizationRenderable","cameraShake","text"]} },
+				"duration" : 1.0,
+				
+				"attached_meta": { "optional":true, "available":{"type":["particle","audio","pointLight","spotLight","ambientLight","renderable","shapeRenderable","customizationRenderable"]} },
+				"attached": true,
+				
+				"offset_meta": { "type":"vec3", "optional":true, "available":{"type":["particle","audio","pointLight","spotLight","ambientLight","renderable","shapeRenderable","customizationRenderable", "secondaryEffect", "text", "billboard", "decal" ]} },
+				"offset": [0.0, 0.0, 0.0],
+
+				"direction_meta": { "type":"vec3", "optional":true, "available":{"type":["particle","audio","pointLight","spotLight","ambientLight","renderable","shapeRenderable","customizationRenderable"]} },
+				"direction": [0.0, 0.0, 1.0],
+				
+				"rotation_meta": { "type":"vec3", "optional":true, "available":{"type":["particle","audio","pointLight","spotLight","ambientLight","renderable","shapeRenderable","customizationRenderable", "secondaryEffect", "decal"]} },
+				"rotation": [0.0, 0.0, 0.0],
+
+				"shakeRadius_meta": { "label" : "Radius", "min":0.0, "max":4000.0, "optional":true, "available":{"type":["cameraShake", "shake"]} },
+				"shakeRadius" : 25.0,
+
+				"shakeStrength_meta": { "label" : "Strength", "min":0.0, "max":1.0, "optional":true, "available":{"type":["cameraShake"]} },
+				"shakeStrength" : 0.05,
+
+				"shakeImpulse_meta": { "min":0.0, "max":10.0, "optional":true, "available":{"type":["shake"]} },
+				"shakeImpulse" : 1.0,
+
+				"shakeAmplitude_meta" : { "type" : "vec3", "optional" : true, "available":{"type":["cameraShake"]} },
+				"shakeAmplitude": [1.0, 1.0, 1.0],
+
+				"shakeFrequency_meta" : { "type" : "vec3", "optional" : true, "available":{"type":["cameraShake"]} },
+				"shakeFrequency": [40.0, 40.0, 40.0],
+
+				"shakeFalloffDuration_meta" : { "label" : "FalloffDuration", "min":0.0, "max":10.0, "optional" : true, "available":{"type":["cameraShake"]} },
+				"shakeFalloffDuration" : 0.0,
+
+				"shakeFalloffEasing_meta": { "label" : "FalloffEasing", "optionsCategory": "easing", "optional" : true, "available":{"type":["cameraShake", "shake"]} },
+				"shakeFalloffEasing" : "linear",
+
+				"shakeFalloff_meta" : { "optional" : true, "available":{"type":["shake"]} },
+				"shakeFalloff" : true,
+				
+				"shakeRotational_meta": { "optional" : true, "available":{"type":["cameraShake"]} },
+				"shakeRotational": false,
+
+				"hasBlendIn_meta": { "optional":true, "available":{"type":["cameraTrack"]} },
+				"hasBlendIn" : false,
+
+				"hasBlendOut_meta": { "optional":true, "available":{"type":["cameraTrack"]} },
+				"hasBlendOut" : false,
+
+				"blackBar_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["cameraShake"]}, "toolTip":"Letterbox percent (0 = disabled, 1 = full)" },
+				"blackBar" : 0.0,
+
+				"barrelDistortion_meta": { "type":"float", "optional":true, "min":-2.0, "max":2.0, "available":{"type":["cameraShake"]}, "toolTip":"Barrel distortion intensity" },
+				"barrelDistortion" : 0.0,
+
+				"zoom_meta": { "type":"float", "optional":true, "min":-2.0, "max":2.0, "available":{"type":["cameraShake"]}, "toolTip":"Zoom level" },
+				"zoom" : 0.0,
+
+				"filmGrain_meta": { "type":"float", "optional":true, "min":0.0, "max":0.5, "available":{"type":["cameraShake"]}, "toolTip":"Film grain noise intensity" },
+				"filmGrain" : 0.0,
+
+				"vignetteIntensity_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["cameraShake"]}, "toolTip":"Vignette darkening intensity" },
+				"vignetteIntensity" : 0.0,
+
+				"vignetteRadius_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["cameraShake"]}, "toolTip":"Vignette radius from center" },
+				"vignetteRadius" : 0.4,
+
+				"vignetteSmoothness_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["cameraShake"]}, "toolTip":"Vignette edge smoothness" },
+				"vignetteSmoothness" : 0.3,
+
+				"screenColorIntensity_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["cameraShake"]}, "toolTip":"Screen color effect intensity" },
+				"screenColorIntensity" : 0.0,
+
+				"screenColor_meta": { "type":"color", "optional":true, "available":{"type":["cameraShake"]}, "toolTip":"Color to blend towards when blinded" },
+				"screenColor" : [1.0, 0.95, 0.9, 1.0],
+
+				"chromaticAberration_meta": { "type":"float", "optional":true, "min":0.0, "max":100.0, "available":{"type":["cameraShake"]}, "toolTip":"Chromatic aberration intensity" },
+				"chromaticAberration" : 0.0,
+
+				"cinematicConeAngle_meta": { "type":"float", "optional":true, "min":0.0, "max":180.0, "available":{"type":["cameraShake"]}, "toolTip":"Half-angle in degrees for directional cinematic fade cone. 0 = disabled (omnidirectional)." },
+				"cinematicConeAngle" : 0.0,
+
+				"cinematicConeFade_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["cameraShake"]}, "toolTip":"Softness of the cone edge fade (0 = hard, 1 = fully soft)" },
+				"cinematicConeFade" : 1.0,
+
+				"decal_meta": { "order":3, "optional":true, "background" : false, "value_meta":{ "type":"uuid", "optionsCategory":"decal" }, "available":{"type":["decal"]} },
+				"decal": ["00000000-0000-0000-0000-000000000000"],
+
+				"color_meta": { "type":"color", "optional":true, "available":{"type":["pointLight", "spotLight", "ambientLight", "shapeRenderable", "decal", "billboard"]} },
+				"color": [1.0, 1.0, 1.0, 1.0],
+				
+				"graph_meta" : { "optional" : true, "type" : "graph", "icon" : "$GAME_DATA/Gui/Editor/ed_icon_graph.png", "hideInHierarchyView" : true },
+				"graph" : {
+					"control_point_meta" : { "value_meta" : { "type": "vec2", "optional" : false } },
+					"control_point" : [ [ 0.0, 0.0 ], [ 1.0, 1.0 ] ]
+				},
+
+				"offsetPosition_meta": { "optional": true, "type": "vec3", "label" : "Parameter Curve Offset Position" },
+				"offsetPosition": [0.0, 0.0, 0.0],
+
+				"offsetRotation_meta": { "optional": true, "type": "vec3", "label" : "Parameter Curve Offset Rotation" },
+				"offsetRotation": [0.0, 0.0, 0.0],
+
+				"renderableColor_meta": { "type":"color", "optional":true, "available":{"type":["renderable"]} },
+				"renderableColor": [1.0, 1.0, 1.0, 1.0],
+
+				"ambientRangeScale_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["pointLight", "spotLight"]} },
+				"ambientRangeScale": 1.5,
+
+				"ambientPosScale_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["spotLight"]} },
+				"ambientPosScale": 0.25,
+
+				"ambientIntensityScale_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["pointLight", "spotLight"]} },
+				"ambientIntensityScale": 0.5,
+
+				"ambientMaxIntensity_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["pointLight", "spotLight"]} },
+				"ambientMaxIntensity": 1.0,
+
+				"ambient_meta": { "type":"bool", "optional":true, "available":{"type":["pointLight", "spotLight"]} },
+				"ambient": true,
+
+				"radius_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["pointLight", "ambientLight"]} },
+				"radius": 2.0,
+
+				"intensity_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["pointLight", "ambientLight", "spotLight"]} },
+				"intensity": 1.0,
+
+				"maxIntensity_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["pointLight", "spotLight"]} },
+				"maxIntensity": 1.0,
+
+				"additive_meta": { "type":"bool", "optional":true, "available":{"type":["pointLight", "spotLight"]}, "unavailableAll":{"shadowMode":[1,2],"type":["pointLight"]} },
+				"additive": false,
+				
+				"customVolumetric_meta": { "type":"bool", "optional":true, "available":{"type":["pointLight", "spotLight"]} },
+				"customVolumetric": false,
+				
+				"disableVolumetric_meta": { "type":"bool", "optional":true, "available":{"type":["pointLight", "spotLight"]} },
+				"disableVolumetric": false,
+				
+				"falloffMode_meta": { "type":"uint", "optional":true, "min":0, "max":4, "available":{"type":["pointLight", "spotLight"]} },
+				"falloffMode": 0,
+				
+				"falloffFactor_meta": { "type":"float", "optional":true, "min":0.0, "max":100.0, "available":{"type":["pointLight", "spotLight"]} },
+				"falloffFactor": 1.0,
+				
+				"volColor_meta": { "type":"color", "optional":true, "available":{"type":["pointLight", "spotLight"]} },
+				"volColor": [1.0, 1.0, 1.0, 1.0],
+				
+				"volIntensity_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["pointLight", "spotLight"]} },
+				"volIntensity": 1.0,
+				
+				"volMaxIntensity_meta": { "type":"float", "optional":true, "min":0.0, "max":10.0, "available":{"type":["pointLight", "spotLight"]} },
+				"volMaxIntensity": 1.0,
+				
+				"volMinRadius_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["pointLight"]} },
+				"volMinRadius": 0.0,
+				
+				"volMaxRadius_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["pointLight"]} },
+				"volMaxRadius": 0.0,
+				
+				"volFalloffMode_meta": { "type":"uint", "optional":true, "min":0, "max":4, "available":{"type":["pointLight", "spotLight"]} },
+				"volFalloffMode": 0,
+				
+				"volFalloffFactor_meta": { "type":"float", "optional":true, "min":0.0, "max":100.0, "available":{"type":["pointLight", "spotLight"]} },
+				"volFalloffFactor": 1.0,
+				
+				"range_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["spotLight"]} },
+				"range": 20.0,
+
+				"cookie_meta": { "type":"uint", "optional":true, "available":{"type":["spotLight"]} },
+				"cookie": 0,
+				
+				"shadowMode_meta": { "type":"uint", "optional":true, "available":{"type":["spotLight","pointLight"]}, "tooltip":"Shadow mode for the light, point lights with shadows can not be additive." },
+				"shadowMode": 2,
+				
+				"coneAngle_meta": { "type":"float", "optional":true, "min":0.0, "max":89.0, "available":{"type":["spotLight"]} },
+				"coneAngle": 45.0,
+				
+				"coneFade_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["spotLight"]} },
+				"coneFade": 0.25,
+
+				"volConeAngle_meta": { "type":"float", "optional":true, "min":0.0, "max":89.0, "available":{"type":["spotLight"]} },
+				"volConeAngle": 45.0,
+
+				"volConeFade_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["spotLight"]} },
+				"volConeFade": 1.0,
+
+				"volMinRange_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["spotLight"]} },
+				"volMinRange": 20.0,
+
+				"volMaxRange_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["spotLight"]} },
+				"volMaxRange": 1.0,
+
+				"volFadeInStart_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["spotLight"]} },
+				"volFadeInStart": 0.25,
+
+				"volFadeInRange_meta": { "type":"float", "optional":true, "min":0.0, "max":500.0, "available":{"type":["spotLight"]} },
+				"volFadeInRange": 1.25,
+
+				"uuid_meta": { "type":"uuid", "optional":true, "available":{"type":["customizationRenderable"]} },
+				"uuid": "00000000-0000-0000-0000-000000000000",
+
+				"renderable_meta": { "optional":true, "background" : false, "value_meta":{ "type":"string", "optionsCategory":"renderable" }, "available":{"type":["renderable"]} },
+				"renderable": [""],
+				
+				"shape_meta": { "optional":true, "type":"uuid", "optionsCategory":"shape", "available":{"type":["shapeRenderable"]} },
+				"shape": "00000000-0000-0000-0000-000000000000",
+
+				"renderableSize_meta": { "type":"vec3", "optional":true, "available":{"type":["shapeRenderable"]} },
+				"renderableSize": [1.0, 1.0, 1.0],
+
+				"2dOffset_meta": { "type":"vec2", "optional":true, "available":{"type":["shapeRenderable", "customizationRenderable"]} },
+				"2dOffset": [0.0, 0.0],
+
+				"offsetScale_meta": { "type":"vec3", "optional":true, "available":{"type":["renderable", "shapeRenderable", "customizationRenderable", "decal"]} },
+				"offsetScale": [1.0, 1.0, 1.0],
+
+				"visualization_meta": { "type":"bool", "optional":true, "available":{"type":["shapeRenderable", "renderable"] } },
+				"visualization": false,
+				
+				"visualizationLayer_meta": { 
+					"optional":true, 
+					"available":{"visualization":[true]},
+					"type":"string", 
+					"options" : [
+						"Normal",
+						"Overlay",
+						"Marker",
+						"Top",
+						"Error",
+						"Selected"
+					]
+				},
+				"visualizationLayer": "Overlay",
+
+				"visualizationColor_meta": { 
+					"type":"string", 
+					"optional":true, 
+					"available":{"visualization":[true]},
+					"options" :[
+						"Lift Valid",
+						"Lift Invalid",
+						"Place Valid",
+						"Place Invalid",
+						"Hand Place Valid",
+						"Hand Place ValidDrag",
+						"Hand Place Invalid",
+						"Weld Marker",
+						"Arrow Markers",
+
+						"Builder Guide Silhouette",
+						"Builder Guide Build",
+						"Builder Guide Error"
+					]
+				 },
+				"visualizationColor": "Builder Guide Build",
+
+				 "marker_meta": { 
+					"label": "VisualizationValid", 
+					"type":"bool",
+					"optional":true,
+					"deprecated":true,
+					"toolTip":"Deprecated! Please use visualizationLayer and visualizationColor."
+				},
+				"marker": false,
+
+				"valid_meta": 
+				{ 
+					"label":"VisualizationMarker", 
+					"type":"bool",
+					"optional":true,
+					"deprecated":true,
+					"toolTip":"Deprecated! Please use visualizationLayer and visualizationColor." 
+				},
+				"valid": true,
+
+				"pose0_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["renderable"]} },
+				"pose0": 0.0,
+
+				"pose1_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["renderable"]} },
+				"pose1": 0.0,
+
+				"pose2_meta": { "type":"float", "optional":true, "min":0.0, "max":1.0, "available":{"type":["renderable"]} },
+				"pose2": 0.0,
+
+				"FontName_meta": { "type":"string", "optional":true, "optionsCategory":"font", "available":{"type":["text"] } },
+				"FontName": "",
+
+				"TextContent_meta": { "type":"string", "optional":true, "available":{"type":["text"] } },
+				"TextContent": "",
+				
+				"TextMaterial_meta": { "type":"string", "optional":true, "optionsCategory":"textMaterial", "available":{"type":["text"] } },
+				"TextMaterial": "",
+
+				"FontSize_meta": { "type":"u32", "optional":true, "available":{"type":["text"] } },
+				"FontSize": 20,
+
+				"anchor_meta" : { 
+					"type":"string", 
+					"options" : [	
+						"CENTER",
+						"LEFT",
+						"RIGHT",
+						"TOP",
+						"BOTTOM",
+						"TOP_LEFT",
+						"TOP_RIGHT",
+						"BOTTOM_LEFT", 
+						"BOTTOM_RIGHT"
+					],
+					"optional" : true, 
+					"available" : { "type" : [ "text", "billboard" ] } },
+				"anchor" : "",
+
+				"textAnchorOffset_meta" : { "type":"vec2", "optional":true, "available":{"type":["text"] } },
+				"textAnchorOffset" : [0.0, 0.0],
+
+				"Color_meta": { "type":"color", "optional":true, "available":{"type":["text", "particle"] } },
+				"Color": [1.0, 1.0, 1.0, 1.0],
+
+				"ASG_meta": { "type":"color", "optional":true, "available":{"type":["text"] } },
+				"ASG": [1.0, 1.0, 1.0, 1.0],
+
+				"layer_meta": { "optional":true, "type":"uint", "available":{"type":["decal"]} },
+				"layer": 0,
+
+				"textureIndex_meta": { "optional":true, "type":"uint", "available":{"type":["billboard"]} },
+				"textureIndex": 0,
+
+				"billboardSize_meta": { "optional":true, "type":"vec2", "available":{"type":["billboard"]} },
+				"billboardSize": [44.0, 44.0],
+			
+				"distanceScale_meta": { "label" : "Distance Scale*", "toolTip" : "Enables distance scaling for screen space text and billboards.\nWill use a default scaling behaviour unless a Scale Distance or Distance Scale Multiplier is also set.", "optional":true, "type":"bool", "available":{"type":["billboard", "text"]} },
+				"distanceScale": true,
+
+				"distanceFade_meta": { "optional":true, "type":"bool", "available":{"type":["billboard", "text"]} },
+				"distanceFade": true,
+
+				"scaleDistance_meta": { "label" : "Scale Distance*", "toolTip" : "The distance from the effect at which the scaled size will be used, interpolating from the default size.\nRequires either Scaled Size or Distance Scale Multiplier.","optional":true, "type":"float", "available":{"distanceScale" : [ true ]} },
+				"scaleDistance": 10.0,
+
+				"scaleMinDistance_meta": { "label" : "Scale Min Distance*", "toolTip" : "The distance from the effect at which the effect will start scaling when using Scale Distance", "optional":true, "type":"float", "available":{ "distanceScale" : [ true ] } },
+				"scaleMinDistance": 1.0,
+
+				"scaledSize_meta": { "label" : "Scaled Size*", "toolTip" : "The size of the billboard viewed from Scale Distance.", "optional":true, "type":"vec2", "available":{ "distanceScale" : [ true ] }, "unavailable" : { "distanceScaleMultiplier" : ["*"] } },
+				"scaledSize": [44.0, 44.0],
+
+				"distanceScaleMultiplier_meta": { "label" : "Distance Scale Multiplier*", "toolTip" : "The scale of the screen space text viewed from Scale Distance.","optional":true, "type":"float", "available":{ "distanceScale" : [ true ] }, "unavailable" : { "scaledSize" : ["*"] } },
+				"distanceScaleMultiplier": 1.0,
+
+				"globalPulse_meta": { "optional":true, "type":"bool", "available":{"type":["pointLight", "spotLight", "ambientLight"]} },
+				"globalPulse": false,
+
+				"nearFade_meta": { "optional":true, "type":"bool", "available":{"type":["billboard", "text", "pointLight", "spotLight", "ambientLight"]} },
+				"nearFade": false,
+
+				"nearFadeReversed_meta": { "optional":true, "type":"bool", "available":{"type":["pointLight", "spotLight", "ambientLight"]} },
+				"nearFadeReversed": false,
+
+				"lineOfSight_meta": { "optional":true, "type":"bool", "available":{"type":["billboard", "text"]} },
+				"lineOfSight": false,
+
+				"behindFadeAlpha_meta": { "optional":true, "type":"float", "available":{"type":["text", "billboard"]}, "label" : "Behind Fade Alpha", "toolTip" : "Requires PS_OVERLAY_DEPTH_FADE material define" },
+				"behindFadeAlpha": 0.5,
+
+				"customDepthOffset_meta": { "optional":true, "type":"float", "available":{"type":["text", "billboard"] }, "unavailable" : { "useHostShapeDepthOffset" : [ true] }, "toolTip" : "Requires PS_OVERLAY_DEPTH_FADE or PS_OVERLAY_DEPTH_MASK material define for fade offset or VS_OVERLAY_DEPTH_OFFSET for positional offset" },
+				"customDepthOffset": 0.25,
+
+				"useHostShapeDepthOffset_meta": { "optional":true, "type":"bool", "available":{"type":["billboard", "text"]}, "tooltip" : "Will use host shape offset instead of custom depth offset. Requires PS_OVERLAY_DEPTH_FADE or PS_OVERLAY_DEPTH_MASK material define for fade offset or VS_OVERLAY_DEPTH_OFFSET for positional offset" },
+				"useHostShapeDepthOffset": true,
+
+				"billboardMaterial_meta": { "type":"string", "optional":true, "optionsCategory":"billboardMaterial", "available":{"type":["billboard"] } },
+				"billboardMaterial": "",
+
+				"billboardTexture_meta": { "type":"array", "optional":true, "background" : false, "value_meta":{ "type":"texture", "optionsCategory":"texture", "optionsAllowsCustom": true }, "available":{"type":["billboard"] } },
+				"billboardTexture": [ "" ],
+
+				"alphaMask_meta": { "type":"texture", "optional":true, "optionsCategory":"texture", "available":{"type":["billboard"] } },
+				"alphaMask": "",
+
+				"maxRenderDistance_meta": { "type":"float", "optional":true, "available":{"type":["billboard", "text"]} },
+				"maxRenderDistance" : -1,
+				
+				"minRenderDistance_meta": { "type":"float", "optional":true, "min":0.0, "available":{"type":["billboard"]}, "toolTip":"Minimum distance to render. Use with nearFade to cull fully faded billboards." },
+				"minRenderDistance" : -1,
+				
+				"distanceFadeRange_meta": { "type":"float", "min":0.0, "max":500.0, "optional":true, "available":{"type":["billboard", "text"]} },
+				"distanceFadeRange" : 1,
+				
+				"nearFadeEnd_meta": { "type":"float", "min":0.0, "max":500.0, "optional":true, "available":{"type":["billboard", "pointLight", "spotLight", "ambientLight"]} },
+				"nearFadeEnd" : 0.0,
+
+				"nearFadeRange_meta": { "type":"float", "optional":true, "available":{"type":["billboard", "text", "pointLight", "spotLight", "ambientLight"]} },
+				"nearFadeRange" : 1,
+
+				"shadow_meta": { "type":"bool", "optional":true, "available":{"type":["text", "renderable", "shapeRenderable"]} },
+				"shadow" : true,
+
+				"shadowColor_meta": { "type":"color", "optional":true, "available":{"type":["text"] } },
+				"shadowColor": [0.0, 0.0, 0.0, 1.0],
+
+				"shadowOffset_meta": { "type":"vec2", "optional":true, "available":{"type":["text"]} },
+				"shadowOffset" : [1.0, 1.0],
+
+				"tracknodes_meta": { "optional" : true, "subTemplate":"$GAME_DATA/Templates/track.template", "hideInHierarchyView" : true },
+				"tracknodes" : {},
+
+				"callback_meta": { 
+					"available" : { "type":["luaEvent"] },
+					"optional": true,
+					"options" : [
+						"sv_e_spawnEnemies",
+						"sv_e_sendUnitEvent",
+						"sv_e_blowUpWarehouseFloor",
+						"cl_e_handleCinematicEvent",
+						"cl_e_cinematicFadeOut",
+						"cl_e_cinematicFadeIn",
+						"sv_e_teleportHostPlayer",
+						"sv_e_teleportPlayers",
+						"sv_e_triggerKinematic",
+						"sv_e_sendQuestEvent"
+					]
+				},
+				"callback": "",
+
+				"isServerCallback_meta": { "available" : { "type":["luaEvent"] }, "optional": true },
+				"isServerCallback" : true,
+
+				"callbackParams_meta": { "order": 2, "optional": true, "available" : { "type":["luaEvent"] }, "constDataStoreAllNames" : true, "hideInHierarchyView" : true },
+				"callbackParams" : {
+					"explosion_meta": { "type": "string", "optional": true, "optionsAllowsCustom": false,
+						"options": [
+							"explosion1",
+							"explosion2",
+							"explosion3",
+							"explosion4",
+							"explosion5",
+							"explosion6",
+							"explosion7",
+							"explosion8",
+							"destroyed"
+						],
+						"available":{"../callback":[ "sv_e_blowUpWarehouseFloor" ] }
+					},
+					"explosion": "",
+
+					"eventName_meta": { "type": "string", "optional": true, "available":{"../callback":[ "sv_e_sendQuestEvent", "sv_e_sendUnitEvent", "sv_e_spawnEnemies", "cl_e_handleCinematicEvent" ] } },
+					"eventName": "event.eventName.type",
+
+					"duration_meta": { "type": "float", "min":0.0, "optional": true, "available":{"../callback":[ "cl_e_cinematicFadeOut", "cl_e_cinematicFadeIn" ] } },
+					"duration": 1.0,
+
+					"teleportDestination_meta": { "type": "string", "optional": true, "available":{"../callback":[ "sv_e_teleportHostPlayer" ] }	 },
+					"teleportDestination": "teleportDestination",
+
+					"teleportDestinations_meta": { "optional": true, "available":{"../callback":[ "sv_e_teleportPlayers" ] } },
+					"teleportDestinations": ["teleportDestination"],
+
+					"teleportHost_meta": { "type": "bool", "optional": true, "available":{"../callback":[ "sv_e_teleportPlayers" ] } },
+					"teleportHost": true,
+
+					"kinematicTrigger_meta": { "type": "string", "optional": true, "available":{"../callback":[ "sv_e_triggerKinematic" ] } },
+					"kinematicTrigger": "kinematicTrigger",
+				},
+
+				"cameraTrack_meta": {
+					"optional":true,
+					"hideInHierarchyView" : true,
+					"available":{"type":["cameraTrack"]},
+					"valueAsLabel": ["label"],
+					"valueSuffix": " - Key",
+					"value_meta": {
+						"color": "#29402d",
+						"startCollapsed" : true,
+						"displayTransform" :
+						{
+							"renderable": "$GAME_DATA/Nodes/Renderable/node_camera.rend",
+							"color": [0.2, 0.9, 0.2, 0.6],
+							"cameraView": true,
+							"position":"position",
+							"rotation":"rotation",
+							"overrideFov":"overrideFOV",
+							"fov":"FOV",
+							"hideFromOutliner" : false
+						}
+					}
+				},
+				"cameraTrack": [
+					{
+						"label_meta" : { "optional": true, "order":0 },
+						"label" : "",
+
+						"duration_meta" : { "min":0.0, "order":1 },
+						"duration" : 1.0,
+
+						"easing_meta": { "optionsCategory": "easing", "order":2 },
+						"easing": "linear",
+
+						"jumpCut": false,
+
+						"position_meta": { "type":"vec3", "order":3 },
+						"position": [0.0, 0.0, 0.0],
+						
+						"rotation_meta": { "type":"vec3", "order":4 },
+						"rotation": [0.0, 0.0, 0.0],
+
+						"overrideFOV_meta" : { "order":5 },
+						"overrideFOV": false,
+						
+						"FOV_meta" : { "min":10.0, "max": 180.0, "available":{"overrideFOV":[true]}, "order":6 },
+						"FOV": 60.0,
+
+						"tangents_meta":{
+							"optional":true,
+							"available":{"jumpCut":[false]},
+							"valueSuffix": " - Tangent",
+							"color": "#3d5b63",
+							"value_meta": {
+								"background":false,
+								"startCollapsed":true,
+								"displayTransform" : {
+									"renderable": "$GAME_DATA/Nodes/Renderable/node_camera.rend",
+									"renderableScale": [0.6, 0.6, 0.6],
+									"color": [0.2, 0.2, 0.9, 0.5],
+									"cameraView": true,
+									"position":"position",
+									"rotation":"rotation",
+									"hideFromOutliner" : false
+								}
+							}
+						},
+						"tangents": [
+							{
+								"position_meta": { "type":"vec3", "order":0 },
+								"position": [0.0, 0.0, 0.0],
+								
+								"rotation_meta": { "type":"vec3", "order":1 },
+								"rotation": [0.0, 0.0, 0.0]
+							}
+						]
+					}
+				],
+
+				"parameters_meta": { 
+					"optional":true,
+					"hideInHierarchyView" : true,
+					"constDataStoreAllNames":true,
+					"value_meta" : { "type" : "string", "optionsCategory" : "audioParameters", "optionsAllowsCustom": true }
+				},
+				"parameters": [""]
+			}
+		]
+	}
+}

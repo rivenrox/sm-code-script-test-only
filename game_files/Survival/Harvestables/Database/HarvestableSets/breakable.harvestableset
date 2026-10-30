@@ -1,0 +1,65 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Breakable/hvs_breakable_sapphire_col.fbx",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"color" : "aa673fff",
+			"mass" : 10000.0,
+			"material" : "HVS_Matrixium",
+			"name" : "hvs_breakable_sapphire",
+			"removable" : true,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Breakable/hvs_breakable_sapphire.rend",
+			"script" : 
+			{
+				"class" : "BlowupHarvestable",
+				"data" : 
+				{
+					"blowupHarvestable" : 
+					{
+						"destroyEffect" : "Saphire - Destruct01",
+						"onExplosionBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/harvestable_breakable_mineral4.blueprint",
+						"onFloatingPart" : "obj_harvests_nonepart_sapphire"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BlowupHarvestable.lua"
+			},
+			"uuid" : "dd9e449a-8649-4339-b67a-dc6b73c4df79"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Breakable/hvs_breakable_t5_col.fbx",
+			"collides" : 
+			{
+				"body" : true,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "HVS_Disconite",
+			"name" : "hvs_breakable_t5",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Breakable/hvs_breakable_t5.rend",
+			"script" : 
+			{
+				"class" : "BlowupHarvestable",
+				"data" : 
+				{
+					"blowupHarvestable" : 
+					{
+						"destroyEffect" : "t5 - Destruct01",
+						"onExplosionBlueprint" : "$SURVIVAL_DATA/LocalBlueprints/harvestable_blueprints/harvestable_breakable_t5.blueprint",
+						"onFloatingPart" : "obj_harvests_nonepart_tier5"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BlowupHarvestable.lua"
+			},
+			"uuid" : "e67ebc76-ac0f-474c-bdcb-580d1e15f3d5"
+		}
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"genericDropHarvestable_meta": {
+		"available":{ "../class": ["GenericDropHarvestable"] },
+		"optional": true,
+		"constDataStoreAllNames" : true
+	},
+	"genericDropHarvestable": {
+		"lootSource_meta": { "type": "string", "optional": true, "order": 1 },
+		"lootSource": "",
+
+		"reactToDrill_meta": { "type": "bool", "order": 2 },
+		"reactToDrill": false,
+
+		"drillTime_meta": { "type": "float", "min": 0, "optional": true, "available": { "reactToDrill": [true] }, "suffix": " s", "order": 3 },
+		"drillTime": 1,
+
+		"reactToInteraction_meta": { "type": "bool", "order": 4 },
+		"reactToInteraction": false,
+
+		"reactToMelee_meta": { "type": "bool", "order": 5 },
+		"reactToMelee": false,
+
+		"reactToProjectiles_meta": { "type": "bool", "order": 6 },
+		"reactToProjectiles": false,
+
+		"reactToCollision_meta": { "type": "bool", "order": 7 },
+		"reactToCollision": false,
+
+		"reactToExplosions_meta": { "type": "bool", "order": 8 },
+		"reactToExplosions": false,
+
+		"harvestShape_meta": { "type": "string", "optional": true, "optionsCategory": "shape", "optionsAllowsCustom": false, "order": 9 },
+		"harvestShape": "",
+
+		"harvestEffect_meta": { "type": "string", "optional": true, "optionsCategory": "effect", "optionsAllowsCustom": false, "order": 10 },
+		"harvestEffect": "",
+
+		"stageEffect_meta": { "type": "string", "optional": true, "optionsCategory": "effect", "optionsAllowsCustom": false, "order": 11, "toolTip": "Effect played on each break stage transition (not on final destruction)." },
+		"stageEffect": "",
+
+		"persistentEffect_meta": { "type": "string", "optional": true, "optionsCategory": "effect", "optionsAllowsCustom": false, "order": 12 },
+		"persistentEffect": "",
+
+		"persistentEffectColor_meta": { "type": "hexColor", "optional": true, "order": 13 },
+		"persistentEffectColor": "FFFFFF",
+
+		"stages_meta": { "type": "array", "order": 14, "value_meta": { "type": "array", "value_meta": { "type": "string" } } },
+		"stages": []
+	},
+
+	"sparkstoneHarvestable_meta": {
+		"available":{ "../class": ["SparkstoneHarvestable"] },
+		"optional": true,
+		"constDataStoreAllNames" : true
+	},
+	"sparkstoneHarvestable": {
+		"persistentEffect_meta": { "type": "string", "optional": true, "optionsCategory": "effect", "optionsAllowsCustom": false, "order": 1, "toolTip": "Hosted effect played continuously while the sparkstone is alive." },
+		"persistentEffect": "",
+
+		"igniteEffect_meta": { "type": "string", "optional": true, "optionsCategory": "effect", "optionsAllowsCustom": false, "order": 2, "toolTip": "Effect played once when the sparkstone starts igniting (before it explodes)." },
+		"igniteEffect": ""
+	}
+}

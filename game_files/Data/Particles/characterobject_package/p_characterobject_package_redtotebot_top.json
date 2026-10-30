@@ -1,0 +1,150 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "w revered col",
+				"color" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					0.0
+				],
+				"diffuse" : "Textures/Glow/glow_smokeglow01.tga",
+				"direction_type" : "object",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 11111,
+				"guid" : 0,
+				"height" : 1.5,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Col Checker FRICTION TEST",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.05998
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"sub" : 
+				[
+					{
+						"color_fraction" : 1.0,
+						"cone_angle" : 45.0,
+						"cone_radius" : 0.05,
+						"direction_type" : "shape",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.96499,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 2,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							},
+							{
+								"axis" : "x-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.32894
+									],
+									[
+										0.025,
+										1.0
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 3,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 5000,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-20.0
+						],
+						"friction" : 1.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 1,
+						"keep_local" : false,
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"name" : "chunk",
+						"params" : 3,
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							0.31999
+						],
+						"renderable" : "$GAME_DATA/Objects/Renderable/characterobject/obj_characterobject_totebotredpackage_top.rend",
+						"rotation_axis" : 
+						[
+							0.1,
+							-1.0,
+							1.0
+						],
+						"rotation_speed" : 
+						[
+							750.0,
+							100.0
+						],
+						"sub_emit" : "birth",
+						"time_to_live" : 3.0,
+						"type" : "cone",
+						"velocity" : 
+						[
+							35.0,
+							7.0
+						],
+						"water_mask" : "none"
+					}
+				],
+				"time_to_live" : 0.100000001,
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 1.5
+			}
+		],
+		"min_quality" : "low"
+	}
+}

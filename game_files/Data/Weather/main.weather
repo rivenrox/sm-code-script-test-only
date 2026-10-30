@@ -1,0 +1,320 @@
+{
+	"conditions" : 
+	{
+		"Bigclouds01" : 
+		{
+			"cloudCoverage" : 0.29,
+			"cloudHeight" : 3665.22,
+			"cloudScroll" : 
+			[
+				5.0,
+				5.0,
+				0.0
+			],
+			"cloudScrollRotation" : 
+			[
+				-0.100000001,
+				0.0,
+				0.0
+			],
+			"cloudTallnessScale" : 0.440000001,
+			"effects2D" : 
+			[
+				""
+			],
+			"extinguishFires" : false,
+			"lightMod" : 1.0,
+			"normalEffects" : 
+			[
+				""
+			],
+			"rainAmount" : 0.0,
+			"skyEffects" : 
+			[
+				""
+			],
+			"wind" : 0.280000001
+		},
+		"Clear" : 
+		{
+			"cloudCoverage" : 0.0,
+			"cloudHeight" : 0.0,
+			"cloudScroll" : 
+			[
+				0.0,
+				0.0,
+				6.0
+			],
+			"cloudScrollRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"cloudTallnessScale" : 1.0,
+			"effects2D" : 
+			[
+				""
+			],
+			"extinguishFires" : false,
+			"lightMod" : 1.0,
+			"normalEffects" : 
+			[
+				""
+			],
+			"rainAmount" : 0.0,
+			"skyEffects" : 
+			[
+				""
+			],
+			"wind" : 0.0
+		},
+		"Clouds01" : 
+		{
+			"cloudCoverage" : 0.19,
+			"cloudHeight" : 873.01,
+			"cloudScroll" : 
+			[
+				7.5,
+				0.0,
+				6.0
+			],
+			"cloudScrollRotation" : 
+			[
+				0.059999999,
+				0.0,
+				0.0
+			],
+			"cloudTallnessScale" : 2.0,
+			"effects2D" : 
+			[
+				""
+			],
+			"extinguishFires" : false,
+			"lightMod" : 1.0,
+			"normalEffects" : 
+			[
+				""
+			],
+			"rainAmount" : 0.0,
+			"skyEffects" : 
+			[
+				""
+			],
+			"wind" : 0.100000001
+		},
+		"Drizzle" : 
+		{
+			"cloudCoverage" : 0.34,
+			"cloudHeight" : 2242.06,
+			"cloudScroll" : 
+			[
+				0.100000001,
+				0.0,
+				0.0
+			],
+			"cloudScrollRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"cloudTallnessScale" : 0.370000001,
+			"effects2D" : [],
+			"extinguishFires" : false,
+			"lightMod" : 0.92,
+			"normalEffects" : 
+			[
+				"Weather - Drizzle"
+			],
+			"rainAmount" : 0.25,
+			"skyEffects" : [],
+			"wind" : 0.0
+		},
+		"Rain" : 
+		{
+			"cloudCoverage" : 0.41,
+			"cloudHeight" : 3828.0,
+			"cloudScroll" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"cloudScrollRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"cloudTallnessScale" : 0.490000001,
+			"effects2D" : [],
+			"extinguishFires" : true,
+			"lightMod" : 0.85,
+			"normalEffects" : 
+			[
+				"Weather - Rain"
+			],
+			"rainAmount" : 0.5,
+			"skyEffects" : [],
+			"wind" : 0.0
+		},
+		"ThunderRain" : 
+		{
+			"cloudCoverage" : 0.45,
+			"cloudHeight" : 779.22,
+			"cloudScroll" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"cloudScrollRotation" : 
+			[
+				0.0,
+				0.0,
+				0.569999993
+			],
+			"cloudTallnessScale" : 0.73,
+			"effects2D" : [],
+			"extinguishFires" : true,
+			"lightMod" : 0.6,
+			"normalEffects" : 
+			[
+				"Weather - thunderstorm",
+				"Weather - Rain"
+			],
+			"rainAmount" : 1.0,
+			"skyEffects" : [],
+			"wind" : 1.0
+		}
+	},
+	"forecasts" : 
+	{
+		"ClearDay" : 
+		{
+			"probability" : 4.0,
+			"timeline" : 
+			[
+				{
+					"condition" : "Clouds01"
+				},
+				{
+					"condition" : "Clear"
+				},
+				{
+					"condition" : "Clear"
+				},
+				{
+					"condition" : "Clear"
+				},
+				{
+					"condition" : "Clouds01"
+				}
+			]
+		},
+		"CloudyDay" : 
+		{
+			"probability" : 4,
+			"timeline" : 
+			[
+				{
+					"condition" : "Clouds01"
+				},
+				{
+					"condition" : "Bigclouds01"
+				},
+				{
+					"condition" : "Clouds01"
+				},
+				{
+					"condition" : "Bigclouds01"
+				},
+				{
+					"condition" : "Clouds01"
+				}
+			]
+		},
+		"DefaultDay" : 
+		{
+			"probability" : 6.0,
+			"timeline" : 
+			[
+				{
+					"condition" : "Clear"
+				}
+			]
+		},
+		"RainDay" : 
+		{
+			"probability" : 2.0,
+			"timeline" : 
+			[
+				{
+					"condition" : "Clouds01"
+				},
+				{
+					"condition" : "Bigclouds01"
+				},
+				{
+					"condition" : "Drizzle"
+				},
+				{
+					"condition" : "ThunderRain"
+				},
+				{
+					"condition" : "ThunderRain"
+				},
+				{
+					"condition" : "Clear"
+				},
+				{
+					"condition" : "Clouds01"
+				}
+			]
+		},
+		"StormyDay" : 
+		{
+			"probability" : 1,
+			"timeline" : 
+			[
+				{
+					"condition" : "Clouds01"
+				},
+				{
+					"condition" : "Bigclouds01"
+				},
+				{
+					"condition" : "Drizzle"
+				},
+				{
+					"condition" : "Rain"
+				},
+				{
+					"condition" : "Rain"
+				},
+				{
+					"condition" : "Clear"
+				},
+				{
+					"condition" : "Clouds01"
+				}
+			]
+		}
+	},
+	"timeOfDayEffects" : 
+	[
+		{
+			"endTime" : 1.0,
+			"normalEffect" : "",
+			"skyEffect" : "Skybox - Starsky01",
+			"startTime" : 0.0
+		},
+		{
+			"endTime" : 1.0,
+			"normalEffect" : "",
+			"skyEffect" : "Skybox - Starskyfallingstar01",
+			"startTime" : 0.0
+		}
+	]
+}

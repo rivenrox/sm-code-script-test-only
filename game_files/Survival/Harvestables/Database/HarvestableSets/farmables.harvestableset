@@ -1,0 +1,651 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_beehive_col.obj",
+			"color" : "c5a100",
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_farmables_beehive",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_beehive.rend",
+			"script" : 
+			{
+				"class" : "BeeHive",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BeeHive.lua"
+			},
+			"uuid" : "7261bb49-9c63-4097-999a-4dcab9645eb0"
+		},
+		{
+			"col" : null,
+			"color" : "c5a100",
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_farmables_beehive_broken",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_beehive_broken.rend",
+			"script" : 
+			{
+				"class" : "BrokenBeeHive",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenBeeHive.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "3f1507bc-fc48-4b77-b87a-687cb1f4b787"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_slimyclam_col.obj",
+			"color" : "a0253e",
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_farmables_slimyclam",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_slimyclam.rend",
+			"script" : 
+			{
+				"class" : "SlimyClam",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/SlimyClam.lua"
+			},
+			"uuid" : "046a8ac8-300b-4e52-91f7-0912d53b2955"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_slimyclam_broken_col.obj",
+			"color" : "a0253e",
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_farmables_slimyclam_broken",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_slimyclam_broken.rend",
+			"script" : 
+			{
+				"class" : "BrokenSlimyClam",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenSlimyClam.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "8c95cede-25a5-48b4-be97-6c16dab31057"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_defaultcollision.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : true,
+				"projectile" : false
+			},
+			"mass" : 10000.0,
+			"material" : "Foilage",
+			"name" : "hvs_farmables_cottonplant",
+			"removable" : true,
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 15,
+						"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cottonplant.fbx",
+						"subMeshMap" : 
+						{
+							"Cotton_plant" : 
+							{
+								"material" : "Leaves",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"script" : 
+			{
+				"class" : "CottonPlant",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/CottonPlant.lua"
+			},
+			"uuid" : "c591d94b-d7d1-4305-a9dd-76ef06d6fb49"
+		},
+		{
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : true,
+				"projectile" : false
+			},
+			"mass" : 10000.0,
+			"material" : "Foilage",
+			"name" : "hvs_farmables_growing_cottonplant",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 15,
+						"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cottonplant_broken.fbx",
+						"subMeshMap" : 
+						{
+							"Cotton_plant" : 
+							{
+								"material" : "Leaves",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cottonplant_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"script" : 
+			{
+				"class" : "GrowingCottonPlant",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingCottonPlant.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "062d34ac-d7ed-44ef-b523-e5b3ad70fdac"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_cornplants_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "Foilage",
+			"name" : "hvs_farmables_cornplant",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 15,
+						"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cornplant.fbx",
+						"subMeshMap" : 
+						{
+							"corn_plant" : 
+							{
+								"material" : "Bush",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"script" : 
+			{
+				"class" : "CornPlant",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/CornPlant.lua"
+			},
+			"uuid" : "39a5aeba-a021-4117-8cad-e08ad159281d"
+		},
+		{
+			"mass" : 10000.0,
+			"material" : "Foilage",
+			"name" : "hvs_farmables_growing_cornplant",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 15,
+						"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_cornplant_broken.fbx",
+						"subMeshMap" : 
+						{
+							"corn_plant" : 
+							{
+								"material" : "Bush",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_cornplant_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"script" : 
+			{
+				"class" : "BrokenCornPlant",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BrokenCornPlant.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "0f74d3a4-ade0-4054-8207-21f6be7903be"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_oilgeyser_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : true,
+				"projectile" : false
+			},
+			"color" : "51584dff",
+			"mass" : 10000.0,
+			"material" : "Rock",
+			"name" : "hvs_farmables_oilgeyser",
+			"removable" : true,
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 15,
+						"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_oilgeyser.fbx",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"color" : "rock",
+									"textureTiling" : 
+									[
+										1,
+										1,
+										1,
+										8
+									]
+								},
+								"material" : "DifAsgNorNorD",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_nor.tga",
+									"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_waterrock_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"script" : 
+			{
+				"class" : "OilGeyser",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/OilGeyser.lua"
+			},
+			"uuid" : "2ab8edca-9cfe-4b1c-9f57-5092f94ea890"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_oilgeyser_col.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : true,
+				"projectile" : false
+			},
+			"color" : "51584dff",
+			"mass" : 10000.0,
+			"material" : "Rock",
+			"name" : "hvs_farmables_growing_oilgeyser",
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 15,
+						"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_oilgeyser.fbx",
+						"subMeshList" : 
+						[
+							{
+								"custom" : 
+								{
+									"color" : "rock",
+									"textureTiling" : 
+									[
+										1,
+										1,
+										1,
+										8
+									]
+								},
+								"material" : "DifAsgNorNorD",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_dif.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_asg.tga",
+									"$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_oilgeyser_nor.tga",
+									"$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_waterrock_nor.tga"
+								]
+							}
+						]
+					}
+				]
+			},
+			"script" : 
+			{
+				"class" : "GrowingOilGeyser",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingOilGeyser.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "b6a26689-d803-49cc-a6e8-7f2b66dfb54d"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Plantables/hvs_plantables_defaultcollision.obj",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"mass" : 10000.0,
+			"material" : "Foilage",
+			"name" : "hvs_farmables_pigmentflower",
+			"removable" : true,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_pigmentflower.rend",
+			"script" : 
+			{
+				"class" : "PigmentFlower",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PigmentFlower.lua"
+			},
+			"uuid" : "f7567939-d170-437e-b5c4-352ee9d5850d"
+		},
+		{
+			"col" : null,
+			"mass" : 10000.0,
+			"material" : "Foilage",
+			"name" : "hvs_farmables_growing_pigmentflower",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_pigmentflower_broken.rend",
+			"script" : 
+			{
+				"class" : "GrowingPigmentFlower",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GrowingPigmentFlower.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "1c5bdfa2-e28f-4ccd-8a4e-be52d812f18a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_coral01_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Rock",
+			"name" : "hvs_farmables_coral01",
+			"removable" : false,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_coral01.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"drillTime" : 3.0,
+						"harvestEffect" : "Coral01 - Destruct",
+						"lootSource" : "lootsource_mineral_01_big",
+						"reactToCollision" : false,
+						"reactToDrill" : true,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : false,
+						"stageEffect" : "Coral01 - Damage01",
+						"stages" : 
+						[
+							[
+								"m_coral"
+							],
+							[
+								"m_coral2"
+							],
+							[
+								"m_coral3"
+							]
+						]
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "d862dea3-36af-4eb6-bce1-8d12d8be0f00"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_coral02_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Rock",
+			"name" : "hvs_farmables_coral02",
+			"removable" : false,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_coral02.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Coral02 - Destruct",
+						"lootSource" : "lootsource_mineral_01",
+						"quantity" : 1,
+						"reactToCollision" : false,
+						"reactToDrill" : true,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : false,
+						"stages" : []
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "0e79a87f-b242-4332-94de-7975fd99fed3"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_coral03_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Rock",
+			"name" : "hvs_farmables_coral03",
+			"removable" : false,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_coral03.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Coral03 - Destruct",
+						"lootSource" : "lootsource_mineral_01",
+						"quantity" : 1,
+						"reactToCollision" : false,
+						"reactToDrill" : true,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : false,
+						"stages" : []
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "6903b378-3fce-45b3-917b-e502e22834cc"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_nimbolium_col.fbx",
+			"color" : "ffa9dfff",
+			"mass" : 10000.0,
+			"material" : "Sticky",
+			"name" : "hvs_farmables_nimbolium",
+			"removable" : false,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_nimbolium.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Nimbolium - Destruct",
+						"lootSource" : "lootsource_mineral_02",
+						"reactToCollision" : false,
+						"reactToDrill" : false,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : true,
+						"stages" : []
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "f4b34366-4805-477b-8e35-c91fb730152f"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_quartz_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Glass",
+			"name" : "hvs_farmables_quartz",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_quartz.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Quartz - Destruct",
+						"harvestShape" : "obj_harvest_quartz",
+						"reactToCollision" : false,
+						"reactToDrill" : true,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : false,
+						"stages" : []
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "a98a1502-7c9e-4dae-b7f9-30f31fc99496"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_lemonium_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Glass",
+			"name" : "hvs_farmables_lemonium",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_lemonium.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Lemonium - Destruct",
+						"harvestShape" : "obj_harvest_lemonium",
+						"reactToCollision" : false,
+						"reactToDrill" : true,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : false,
+						"stages" : []
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "3ab8ab0f-2179-46b5-a5c5-8ae458844675"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_t2_col.fbx",
+			"color" : "9c6443ff",
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "hvs_farmables_t2",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_t2.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"drillTime" : 2.0,
+						"harvestEffect" : "Gold - Destruct01",
+						"lootSource" : "lootsource_tier2",
+						"reactToCollision" : false,
+						"reactToDrill" : true,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : false,
+						"stageEffect" : "Gold - Damage01",
+						"stages" : 
+						[
+							[
+								"m_gold0",
+								"m_rock0"
+							],
+							[
+								"m_gold1",
+								"m_rock1"
+							],
+							[
+								"m_gold2",
+								"m_rock2"
+							]
+						]
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "40164941-d92a-4df3-bc11-ae3a335e1590"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Farmables/hvs_farmables_mud_col.fbx",
+			"collides" : 
+			{
+				"body" : true,
+				"character" : true,
+				"melee" : true,
+				"projectile" : false
+			},
+			"mass" : 10000.0,
+			"material" : "Dirt",
+			"name" : "hvs_farmables_mud",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Farmables/hvs_farmables_mud.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"drillTime" : 2.0,
+						"harvestEffect" : "Mud - Destruct01",
+						"lootSource" : "lootsource_mud",
+						"reactToCollision" : false,
+						"reactToDrill" : true,
+						"reactToExplosions" : true,
+						"reactToInteraction" : false,
+						"reactToMelee" : true,
+						"reactToProjectiles" : false,
+						"stages" : []
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "6fe3635b-e668-4fb6-8460-b64679942ae0"
+		}
+	]
+}

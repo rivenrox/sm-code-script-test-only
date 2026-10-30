@@ -1,0 +1,2403 @@
+{
+	"carryTypePriority" : 
+	[
+		"small",
+		"bucket",
+		"ore",
+		"log",
+		"large",
+		"heavyTool",
+		"worm"
+	],
+	"carryTypes" : 
+	{
+		"bucket" : 
+		{
+			"animation" : 
+			{
+				"extraFpAnims" : 
+				{
+					"sizebend" : 
+					[
+						"bucket_sizebend"
+					]
+				},
+				"extraTpAnims" : 
+				{
+					"sizebend" : 
+					[
+						"bucket_sizebend"
+					]
+				},
+				"fp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_fp_bucket.rend",
+					"$SURVIVAL_DATA/Character/Char_bucket/char_bucket_fp_animlist.rend"
+				],
+				"prefix" : "bucket",
+				"tp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_bucket.rend",
+					"$SURVIVAL_DATA/Character/Char_bucket/char_bucket_tp_animlist.rend"
+				]
+			},
+			"effectStartTimer" : 0.5,
+			"pickupEffects" : 
+			[
+				{
+					"effectName" : "audio:event:/char/movement/pickup_container",
+					"uuid" : "00000000-0000-0000-0000-000000000000"
+				}
+			],
+			"requireEqualSides" : false,
+			"size" : 
+			{
+				"footprint" : 
+				{
+					"max" : 3,
+					"min" : 1
+				},
+				"height" : 
+				{
+					"max" : 3,
+					"min" : 1
+				}
+			},
+			"sizeBend" : 
+			[
+				0.300000012,
+				0.5,
+				1.0,
+				1.0,
+				1.0
+			],
+			"sizeBendDefault" : 0.5,
+			"transform" : 
+			{
+				"fp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							0.0,
+							1.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						-0.800000012,
+						0.5,
+						-1.25
+					],
+					"facingStrategy" : "widestAcross",
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "longest",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"primaryBone" : "jnt_right_hand",
+				"secondaryBone" : "jnt_left_hand",
+				"tp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						0.25,
+						0.0,
+						-1.0
+					],
+					"facingStrategy" : "along",
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "longest",
+					"primaryAxis" : "y",
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		},
+		"heavyTool" : 
+		{
+			"animation" : 
+			{
+				"fp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_fp_heavytool.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/char_heavytool_fp_animlist.rend"
+				],
+				"prefix" : "heavytool",
+				"tp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_heavytool.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_heavytool/char_heavytool_tp_animlist.rend"
+				]
+			},
+			"effectStartTimer" : 0.5,
+			"pickupEffects" : 
+			[
+				{
+					"effectName" : "audio:event:/char/movement/pickup_mech",
+					"uuid" : "00000000-0000-0000-0000-000000000000"
+				}
+			],
+			"requireEqualSides" : false,
+			"transform" : 
+			{
+				"fp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"gripOffset" : 
+					[
+						0.100000001,
+						0.200000063,
+						0.02
+					],
+					"orientationStrategy" : "sideways",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						-5.0,
+						100.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"primaryBone" : "jnt_right_hand",
+				"secondaryBone" : "jnt_left_hand",
+				"tp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"gripOffset" : 
+					[
+						0.25,
+						0.0,
+						-0.25
+					],
+					"orientationStrategy" : "sideways",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						-80.0,
+						0.0,
+						-90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		},
+		"large" : 
+		{
+			"animation" : 
+			{
+				"fp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_fp_largecarry.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_largecarry/char_largecarry_fp_animlist.rend"
+				],
+				"prefix" : "largecarry",
+				"tp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_largecarry.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_largecarry/char_largecarry_tp_animlist.rend"
+				]
+			},
+			"effectStartTimer" : 0.5,
+			"pickupEffects" : 
+			[
+				{
+					"effectName" : "audio:event:/char/movement/pickup_container",
+					"uuid" : "00000000-0000-0000-0000-000000000000"
+				}
+			],
+			"requireEqualSides" : false,
+			"size" : 
+			{
+				"footprint" : 
+				{
+					"max" : 20,
+					"min" : 4
+				},
+				"height" : 
+				{
+					"max" : 20,
+					"min" : 3
+				}
+			},
+			"transform" : 
+			{
+				"fp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						-1.0,
+						0.0,
+						-1.0
+					],
+					"facingStrategy" : "across",
+					"gripOffset" : 
+					[
+						-0.200000003,
+						0.0,
+						-0.029999999
+					],
+					"orientationStrategy" : "longest",
+					"primaryAxis" : "y",
+					"rotation" : 
+					[
+						176.0,
+						30.0,
+						3.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"primaryBone" : "jnt_right_hand",
+				"secondaryBone" : "jnt_left_hand",
+				"tp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : -13.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						-0.400000006,
+						0.0,
+						-1.0
+					],
+					"facingStrategy" : "along",
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						-0.050000001
+					],
+					"orientationStrategy" : "longest",
+					"primaryAxis" : "x",
+					"rotation" : 
+					[
+						180.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		},
+		"log" : 
+		{
+			"animation" : 
+			{
+				"fp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_fp_item.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_item/char_item_fp_animlist.rend"
+				],
+				"prefix" : "item",
+				"tp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_item.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_item/char_item_tp_animlist.rend"
+				]
+			},
+			"effectStartTimer" : 0.5,
+			"pickupEffects" : 
+			[
+				{
+					"effectName" : "audio:event:/char/movement/pickup_container",
+					"uuid" : "00000000-0000-0000-0000-000000000000"
+				}
+			],
+			"requireEqualSides" : false,
+			"size" : 
+			{
+				"footprint" : 
+				{
+					"max" : 3,
+					"min" : 1
+				},
+				"height" : 
+				{
+					"max" : 8,
+					"min" : 4
+				}
+			},
+			"transform" : 
+			{
+				"fp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"facingStrategy" : "widestAlong",
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "sideways",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						40.0,
+						-20.0,
+						90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"primaryBone" : "jnt_right_hand",
+				"secondaryBone" : "jnt_left_hand",
+				"tp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"facingStrategy" : "along",
+					"gripOffset" : 
+					[
+						0.100000001,
+						0.0,
+						-0.160000011
+					],
+					"orientationStrategy" : "longest",
+					"primaryAxis" : "y",
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						10.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		},
+		"ore" : 
+		{
+			"animation" : 
+			{
+				"fp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_fp_oreitem.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_oreitem/char_oreitem_fp_animlist.rend"
+				],
+				"prefix" : "oreitem",
+				"tp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_oreitem.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_oreitem/char_oreitem_tp_animlist.rend"
+				]
+			},
+			"effectStartTimer" : 0.5,
+			"pickupEffects" : 
+			[
+				{
+					"effectName" : "audio:event:/char/movement/pickup_container",
+					"uuid" : "00000000-0000-0000-0000-000000000000"
+				}
+			],
+			"requireEqualSides" : false,
+			"size" : 
+			{
+				"footprint" : 
+				{
+					"max" : 4,
+					"min" : 2
+				},
+				"height" : 
+				{
+					"max" : 4,
+					"min" : 2
+				}
+			},
+			"transform" : 
+			{
+				"fp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						1.0,
+						1.0,
+						-1.0
+					],
+					"facingStrategy" : "across",
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "longest",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						180.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"primaryBone" : "jnt_right_hand",
+				"secondaryBone" : "jnt_left_hand",
+				"tp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 30.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						0.449999988,
+						0.0,
+						-0.800000012
+					],
+					"facingStrategy" : "across",
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "longest",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						180.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		},
+		"small" : 
+		{
+			"animation" : 
+			{
+				"fp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_fp_item.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_item/char_item_fp_animlist.rend"
+				],
+				"prefix" : "smallitem",
+				"tp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_item.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_item/char_item_tp_animlist.rend"
+				]
+			},
+			"pickupEffects" : 
+			[
+				{
+					"effectName" : "audio:event:/char/movement/pickup_container",
+					"uuid" : "00000000-0000-0000-0000-000000000000"
+				}
+			],
+			"requireEqualSides" : false,
+			"size" : 
+			{
+				"footprint" : 
+				{
+					"max" : 1,
+					"min" : 0
+				},
+				"height" : 
+				{
+					"max" : 1,
+					"min" : 0
+				}
+			},
+			"transform" : 
+			{
+				"fp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "sideways",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				},
+				"primaryBone" : "jnt_right_hand",
+				"secondaryBone" : "jnt_left_hand",
+				"tp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						0.100000001,
+						0.0,
+						-1.0
+					],
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "sideways",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		},
+		"worm" : 
+		{
+			"animation" : 
+			{
+				"animObject" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/char_toolgorp.rend"
+				],
+				"fp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_fp_toolgorp.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/char_toolgorp_fp.rend"
+				],
+				"fpOverrides" : 
+				{
+					"jump" : 
+					[
+						"toolgorp_jump",
+						{
+							"nextAnimation" : "idle"
+						}
+					],
+					"land" : 
+					[
+						"toolgorp_jump_land",
+						{
+							"nextAnimation" : "idle"
+						}
+					]
+				},
+				"movementOverrides" : 
+				{
+					"crouchBwd" : "toolgorp_crouch_bwd",
+					"crouchFwd" : "toolgorp_crouch_fwd",
+					"runBwd" : "toolgorp_run_bwd",
+					"runFwd" : "toolgorp_run_fwd",
+					"swimBwd" : "toolgorp_swim_bwd",
+					"swimFwd" : "toolgorp_swim_fwd",
+					"swimIdle" : "toolgorp_swim_idle"
+				},
+				"prefix" : "toolgorp",
+				"tp" : 
+				[
+					"$SURVIVAL_DATA/Character/Char_Male/Animations/char_male_tp_toolgorp.rend",
+					"$SURVIVAL_DATA/Character/Char_Tools/Char_toolgorp/char_toolgorp_tp.rend"
+				]
+			},
+			"pickupEffects" : 
+			[
+				{
+					"effectName" : "Glowgorp - Pickup",
+					"uuid" : "f2aa1e44-aea8-4431-9b7e-f7e35163dd7c"
+				}
+			],
+			"requireEqualSides" : false,
+			"transform" : 
+			{
+				"fp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"extentOffsetScalar" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "sideways",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				},
+				"primaryBone" : "jnt_right_hand",
+				"secondaryBone" : "jnt_left_hand",
+				"tp" : 
+				{
+					"boneCorrection" : 
+					{
+						"angle" : 0.0,
+						"axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						]
+					},
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"orientationStrategy" : "sideways",
+					"primaryAxis" : "z",
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				}
+			}
+		}
+	},
+	"itemOverrides" : 
+	[
+		{
+			"blocksEffect" : true,
+			"comment" : "obj_character_worm",
+			"type" : "worm",
+			"uuid" : "f2aa1e44-aea8-4431-9b7e-f7e35163dd7c"
+		},
+		{
+			"comment" : "obj_craftbot_cookbot",
+			"type" : "heavyTool",
+			"uuid" : "2af00456-b22e-4743-b338-a91934aba7c5"
+		},
+		{
+			"comment" : "obj_craftbot_craftbot1",
+			"type" : "heavyTool",
+			"uuid" : "b63c6440-dfc2-4da7-acdb-3c385080b2e4"
+		},
+		{
+			"comment" : "obj_craftbot_craftbot2",
+			"type" : "heavyTool",
+			"uuid" : "b7571f6f-9d53-44ba-99d2-3b4f05e6fd0f"
+		},
+		{
+			"comment" : "obj_craftbot_craftbot3",
+			"type" : "heavyTool",
+			"uuid" : "1c83675f-7c77-4cbb-875b-79d4bd46100d"
+		},
+		{
+			"comment" : "obj_craftbot_craftbot4",
+			"type" : "heavyTool",
+			"uuid" : "c69a7855-d915-4784-af81-d0a8849e458f"
+		},
+		{
+			"comment" : "obj_craftbot_craftbot5",
+			"type" : "heavyTool",
+			"uuid" : "4fcb4cb8-7623-11ea-bc55-0242ac130003"
+		},
+		{
+			"comment" : "obj_craftbot_dressbot",
+			"type" : "heavyTool",
+			"uuid" : "767a3121-2c31-473c-a5ab-27e188fdd55a"
+		},
+		{
+			"comment" : "obj_craftbot_portablecraftbot",
+			"type" : "heavyTool",
+			"uuid" : "05900757-a49f-4907-b498-96bfd2b15176"
+		},
+		{
+			"comment" : "obj_craftbot_refinery",
+			"type" : "heavyTool",
+			"uuid" : "5cb15c93-4fa9-48da-9974-2e95ca6c9e1c"
+		},
+		{
+			"comment" : "obj_craftbot_resourcecontainer",
+			"type" : "heavyTool",
+			"uuid" : "a930a42f-63ed-4fb0-933e-56ce8a889cc5"
+		},
+		{
+			"comment" : "obj_interactive_sawtable1",
+			"type" : "heavyTool",
+			"uuid" : "0a0cc4ee-bdd7-41b1-b5cb-f34a0e6de46e"
+		},
+		{
+			"comment" : "obj_interactive_sawtable2",
+			"type" : "heavyTool",
+			"uuid" : "1fd89935-122e-4751-be0c-94f2e337b674"
+		},
+		{
+			"comment" : "obj_interactive_sawtable3",
+			"type" : "heavyTool",
+			"uuid" : "26a9d40f-49fd-403d-94a2-2d27b04a3156"
+		},
+		{
+			"comment" : "obj_interactive_sawtable4",
+			"type" : "heavyTool",
+			"uuid" : "17844463-6664-4493-96c3-76f7f662d0bb"
+		},
+		{
+			"comment" : "obj_interactive_sawtable5",
+			"type" : "heavyTool",
+			"uuid" : "3c2689bd-57ef-45ed-9ed6-d4eea775202a"
+		},
+		{
+			"comment" : "obj_interactive_prospector",
+			"type" : "heavyTool",
+			"uuid" : "b46c3271-6288-4b74-a6b1-9ea946cf072b"
+		},
+		{
+			"comment" : "builderguideCompleted",
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						-0.300000012,
+						-0.5
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.25,
+						0.0,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "bucket",
+			"uuid" : "cc5f3b6e-d2de-45ed-bc26-d640bd1663ec"
+		},
+		{
+			"comment" : "obj_interactive_gravel",
+			"type" : "heavyTool",
+			"uuid" : "80680f7d-5f8a-4bf7-962b-ebd07481cd0a"
+		},
+		{
+			"comment" : "obj_jewel_02",
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.200000003,
+						-0.300000012,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						210.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.300000012,
+						0.0,
+						-0.600000024
+					],
+					"rotation" : 
+					[
+						0.0,
+						-35.0,
+						90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "cffd3eb7-21db-4dde-bbc3-453e6bd7d941"
+		},
+		{
+			"comment" : "obj_jewel_04",
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.200000003,
+						-0.5,
+						-1.149999976
+					],
+					"rotation" : 
+					[
+						0.0,
+						90.0,
+						-45.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						-1.100000024
+					],
+					"rotation" : 
+					[
+						0.0,
+						90.0,
+						-45.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "1db5d0d5-44c2-424e-b74c-234da226341f"
+		},
+		{
+			"comment" : "obj_artifact_fossil03",
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						-0.100000001,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						110.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.100000001,
+						0.0,
+						-0.200000003
+					],
+					"rotation" : 
+					[
+						90.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "fc87ced2-0b8b-4973-b06c-cebc45174a44"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						-0.400000006,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						-0.5
+					],
+					"rotation" : 
+					[
+						0.0,
+						10.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "5f5b2a0d-b629-4bea-93ca-e1f45ccac62b"
+		},
+		{
+			"comment" : "power generator",
+			"type" : "heavyTool",
+			"uuid" : "60825eb7-f51b-42ce-9f2a-af5668a7f5d2"
+		},
+		{
+			"comment" : "obj_jewel_crystal03",
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.25,
+						-0.400000006,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						190.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.400000125,
+						0.300000012,
+						-0.5
+					],
+					"rotation" : 
+					[
+						45.0,
+						-30.0,
+						90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "64e8cdbf-14fa-4c8d-b089-27e3e12542f7"
+		},
+		{
+			"overrideTransform" : {},
+			"type" : "bucket",
+			"uuid" : "4c4cf6a2-757d-4c21-b2e1-a9be8d90a6c1"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.200000003,
+						0.0,
+						-0.349999994
+					],
+					"rotation" : 
+					[
+						90.0,
+						0.0,
+						-90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "bucket",
+			"uuid" : "0e92a68f-ce82-4bf7-a55c-a06441b1ab69"
+		},
+		{
+			"type" : "log",
+			"uuid" : "2a8028db-9931-4d48-a2f9-bb2c1188d517"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "47e140e8-eec1-4066-ad75-57557ea07e9b"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "4edfeea0-4dd9-4260-82b0-a812b4179296"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "32111055-2a23-413b-a490-da619b85a9bf"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "ef4cc633-3cd1-4e13-9502-b498c4a4c7af"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "7aab1deb-40a1-4af1-a245-71c6c8439d2f"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "4d3d1a02-83ff-4795-9fa7-85eaee8f36f2"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "4f33ee9c-397a-4f47-b91c-32ae96cbe507"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.449999988,
+						0.0,
+						-0.449999988
+					],
+					"rotation" : 
+					[
+						90.0,
+						-45.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.129999995,
+						0.0,
+						-0.579999983
+					],
+					"rotation" : 
+					[
+						90.0,
+						10.0,
+						-33.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "05a3e48b-0483-4897-b1e3-370271f815ed"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.100000001,
+						0.0,
+						-0.200000003
+					],
+					"rotation" : 
+					[
+						90.0,
+						180.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "log",
+			"uuid" : "7f09baf1-db97-4062-ba96-9f1a3bf4fa9d"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.200000003,
+						-0.75,
+						-0.550000012
+					],
+					"rotation" : 
+					[
+						-15.0,
+						100.0,
+						45.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						-0.5
+					],
+					"rotation" : 
+					[
+						45.0,
+						90.0,
+						120.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "15bc4cdd-1892-4c8e-810a-0f18063361eb"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.300000012,
+						0.100000001,
+						-0.25
+					],
+					"rotation" : 
+					[
+						90.0,
+						-70.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.200000003,
+						-0.050000001,
+						-0.649999976
+					],
+					"rotation" : 
+					[
+						80.0,
+						15.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.239999995,
+						0.239999995,
+						0.239999995
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "99b817f7-0f1f-4329-ae6b-e1f0199aa2da"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						-1.5,
+						0.0
+					],
+					"rotation" : 
+					[
+						180.0,
+						90.0,
+						60.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.400000006,
+						1.0,
+						-0.090000004
+					],
+					"rotation" : 
+					[
+						-20.0,
+						-110.0,
+						40.0
+					],
+					"scale" : 
+					[
+						0.230000004,
+						0.230000004,
+						0.230000004
+					]
+				}
+			},
+			"type" : "large",
+			"uuid" : "1cb6b667-18c2-478f-b519-0b992e61349f"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.25,
+						-0.400000006,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						190.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.25,
+						0.0,
+						-0.600000024
+					],
+					"rotation" : 
+					[
+						-40.0,
+						30.0,
+						-100.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "9dcd7de9-477c-4334-80e8-42e2edb221cf"
+		},
+		{
+			"type" : "heavyTool",
+			"uuid" : "b593a935-802a-4715-b27f-739a091a8977"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.150000006,
+						-0.5,
+						-0.899999976
+					],
+					"rotation" : 
+					[
+						-90.0,
+						10.0,
+						5.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.200000003,
+						-0.899999976
+					],
+					"rotation" : 
+					[
+						-95.0,
+						-5.0,
+						-15.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "b5ce8bc0-e8b3-418f-9267-81b85a8eba0d"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.300000012,
+						0.050000001,
+						0.050000001
+					],
+					"rotation" : 
+					[
+						-35.0,
+						115.0,
+						120.0
+					],
+					"scale" : 
+					[
+						0.189999998,
+						0.189999998,
+						0.189999998
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						-0.140000001
+					],
+					"rotation" : 
+					[
+						90.0,
+						0.0,
+						90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.200000003,
+						0.200000003
+					]
+				}
+			},
+			"type" : "log",
+			"uuid" : "756a3a47-0e7a-4a87-9d75-d29e790e12d9"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.5,
+						-0.649999976,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						-90.0,
+						-30.0,
+						-15.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.25,
+						0.25,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						-90.0,
+						0.0,
+						-15.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "13c59db3-c368-4b06-80be-c0b258df93e3"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.100000001,
+						0.0,
+						-0.150000006
+					],
+					"rotation" : 
+					[
+						90.0,
+						75.0,
+						45.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "7143326d-e0b6-498b-a25b-45cda8958a0f"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						-0.75,
+						-0.5
+					],
+					"rotation" : 
+					[
+						-90.0,
+						90.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.5,
+						0.180000007,
+						-0.550000012
+					],
+					"rotation" : 
+					[
+						-90.0,
+						-124.0,
+						14.25
+					],
+					"scale" : 
+					[
+						0.200000003,
+						0.200000003,
+						0.200000003
+					]
+				}
+			},
+			"uuid" : "c86c5cb8-7b68-4d55-b9ee-1840d1d9ea5a"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.200000003,
+						0.0,
+						-0.200000003
+					],
+					"rotation" : 
+					[
+						0.0,
+						-135.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "d4e6c84c-a493-44b1-81aa-4f4741ea3ed8"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.200000003,
+						0.200000003,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-60.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						-0.5
+					],
+					"rotation" : 
+					[
+						0.0,
+						30.0,
+						-90.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "ba4cdff7-227b-4b97-aca8-1c700b93fec7"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						-0.100000001,
+						-0.340000004
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "90dbaebf-8ea1-4a5a-8f6f-86ddde77c6c8"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.349999994,
+						0.600000024,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						0.0,
+						90.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.0,
+						0.0,
+						-0.419999987
+					],
+					"rotation" : 
+					[
+						0.0,
+						120.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"type" : "ore",
+			"uuid" : "d0afb527-e786-4a22-a907-6da7e7cba8cb"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						0.5,
+						0.25,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						22.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						0.25,
+						0.0,
+						-0.600000024
+					],
+					"rotation" : 
+					[
+						0.0,
+						30.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "198c8b79-1f02-49fc-aacf-f8cacca7a3a7"
+		},
+		{
+			"overrideTransform" : 
+			{
+				"fp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.200000003,
+						-0.349999994,
+						-0.330000013
+					],
+					"rotation" : 
+					[
+						0.0,
+						-10.0,
+						-15.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"tp" : 
+				{
+					"gripOffset" : 
+					[
+						-0.300000012,
+						0.100000001,
+						-0.400000006
+					],
+					"rotation" : 
+					[
+						0.0,
+						-15.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			"uuid" : "8a87566d-f540-49b6-909d-4dcfbfa007c0"
+		}
+	]
+}

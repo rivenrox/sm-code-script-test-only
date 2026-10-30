@@ -1,0 +1,76 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Name" : "ScrollViewHolder",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "InventoryItemBox2",
+							"SubLayoutPath" : "$SURVIVAL_DATA/Gui/JsonGuis/GridScrollView.gui",
+							"Type" : "SubLayout",
+							"height" : 300,
+							"width" : 240,
+							"x" : 0,
+							"y" : -8
+						}
+					],
+					"Name" : "ScrollViewParent",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 355,
+					"width" : 290,
+					"x" : 20,
+					"y" : 66
+				}
+			],
+			"Name" : "GridBackground",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "InfopanelBG",
+			"Type" : "Widget",
+			"height" : 440,
+			"width" : 308,
+			"x" : 0,
+			"y" : 0
+		},
+		{
+			"Caption" : "#{INFO_PANEL_TITLE}",
+			"Childs" : [],
+			"FontName" : "SM_HeaderLarge_Medium",
+			"Name" : "Title",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "TextBox",
+			"TextAlign" : "Center",
+			"TextShadow" : true,
+			"TextShadowColour" : "0 0 0 0.3",
+			"Type" : "TextBox",
+			"height" : 22,
+			"width" : 308,
+			"x" : 0,
+			"y" : 40
+		}
+	],
+	"InheritsPick" : false,
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : true,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"height" : 500,
+	"onClose" : "cl_onGuiClosed",
+	"width" : 308,
+	"x" : 0,
+	"y" : 0
+}

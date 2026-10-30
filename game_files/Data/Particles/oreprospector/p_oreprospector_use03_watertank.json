@@ -1,0 +1,998 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"category" : "1",
+				"color" : 
+				[
+					0.0,
+					0.40391,
+					0.74115,
+					1.0
+				],
+				"depth" : 0.899999976,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 0,
+				"height" : 0.899999976,
+				"keep_local" : true,
+				"material_name" : "Liquid",
+				"max_particles" : 1,
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Watertank02 static    [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.82618,
+					-0.38742
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/oreprospector/p_renderable_oreprospector_use01_watertank01_waterblendshape.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 4.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.899999976
+			},
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 180.0,
+				"box" : 
+				[
+					0.1,
+					0.05,
+					0.05
+				],
+				"category" : "5",
+				"color" : 
+				[
+					0.34509,
+					0.6,
+					0.76862,
+					1.0
+				],
+				"depth" : 
+				[
+					0.15,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.50388,
+					1.0,
+					0.7907,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10305,
+								1.45667
+							],
+							[
+								0.17542,
+								1.63466
+							],
+							[
+								0.84649,
+								1.95316
+							],
+							[
+								0.91008,
+								1.83606
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -0.80002,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.58272
+							],
+							[
+								1.0,
+								0.48881
+							]
+						],
+						"guid" : 4,
+						"max" : 0.8,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"guid" : 5,
+						"max" : 0.5,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 0.300000012,
+				"guid" : 2,
+				"height" : 
+				[
+					0.15,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 500,
+				"mesh" : "resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Drop3   [medium]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.85102,
+					-1.10618,
+					-0.00139
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"time_to_live" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.15,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 180.0,
+				"box" : 
+				[
+					0.1,
+					0.05,
+					0.05
+				],
+				"category" : "5",
+				"color" : 
+				[
+					0.34509,
+					0.6,
+					0.76862,
+					1.0
+				],
+				"depth" : 
+				[
+					0.15,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.44139,
+					0.81669,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10305,
+								1.45667
+							],
+							[
+								0.17542,
+								1.63466
+							],
+							[
+								0.84649,
+								1.95316
+							],
+							[
+								0.91008,
+								1.83606
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -1.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.27472
+							],
+							[
+								1.0,
+								1.06927
+							]
+						],
+						"guid" : 8,
+						"max" : 1.75,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75
+							],
+							[
+								1.0,
+								0.75
+							]
+						],
+						"guid" : 9,
+						"max" : 0.75,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"friction" : 0.300000012,
+				"guid" : 6,
+				"height" : 
+				[
+					0.15,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 500,
+				"mesh" : "resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Drop4     [high]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.85067,
+					-1.20835,
+					0.0375
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"time_to_live" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.15,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 180.0,
+				"box" : 
+				[
+					0.1,
+					0.05,
+					0.05
+				],
+				"category" : "6",
+				"color" : 
+				[
+					0.34509,
+					0.6,
+					0.76862,
+					1.0
+				],
+				"depth" : 
+				[
+					0.15,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.50388,
+					1.0,
+					0.7907,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10305,
+								1.45667
+							],
+							[
+								0.17542,
+								1.63466
+							],
+							[
+								0.84649,
+								1.95316
+							],
+							[
+								0.91008,
+								1.83606
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -0.80002,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.58272
+							],
+							[
+								1.0,
+								0.48881
+							]
+						],
+						"guid" : 12,
+						"max" : 0.8,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"guid" : 13,
+						"max" : 0.5,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 0.300000012,
+				"guid" : 10,
+				"height" : 
+				[
+					0.15,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 500,
+				"mesh" : "resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Drop3   [medium]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.851,
+					-1.10618,
+					-0.00139
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"time_to_live" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.15,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 180.0,
+				"box" : 
+				[
+					0.1,
+					0.05,
+					0.05
+				],
+				"category" : "6",
+				"color" : 
+				[
+					0.34509,
+					0.6,
+					0.76862,
+					1.0
+				],
+				"depth" : 
+				[
+					0.15,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.44139,
+					0.81669,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10305,
+								1.45667
+							],
+							[
+								0.17542,
+								1.63466
+							],
+							[
+								0.84649,
+								1.95316
+							],
+							[
+								0.91008,
+								1.83606
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -1.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.27472
+							],
+							[
+								1.0,
+								1.06927
+							]
+						],
+						"guid" : 16,
+						"max" : 1.75,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75
+							],
+							[
+								1.0,
+								0.75
+							]
+						],
+						"guid" : 17,
+						"max" : 0.75,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"friction" : 0.300000012,
+				"guid" : 14,
+				"height" : 
+				[
+					0.15,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 500,
+				"mesh" : "resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Drop4    [high]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.851,
+					-1.20835,
+					0.0375
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"time_to_live" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.15,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 180.0,
+				"box" : 
+				[
+					0.1,
+					0.05,
+					0.05
+				],
+				"category" : "5.5",
+				"color" : 
+				[
+					0.34509,
+					0.6,
+					0.76862,
+					1.0
+				],
+				"depth" : 
+				[
+					0.15,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.50388,
+					1.0,
+					0.7907,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10305,
+								1.45667
+							],
+							[
+								0.17542,
+								1.63466
+							],
+							[
+								0.84649,
+								1.95316
+							],
+							[
+								0.91008,
+								1.83606
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -0.80002,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.58272
+							],
+							[
+								1.0,
+								0.48881
+							]
+						],
+						"guid" : 20,
+						"max" : 0.8,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.5
+							],
+							[
+								1.0,
+								-0.5
+							]
+						],
+						"guid" : 21,
+						"max" : 0.5,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 0.300000012,
+				"guid" : 18,
+				"height" : 
+				[
+					0.15,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 500,
+				"mesh" : "resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Drop3   [medium]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.54472,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"time_to_live" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.15,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 180.0,
+				"box" : 
+				[
+					0.1,
+					0.05,
+					0.05
+				],
+				"category" : "5.5",
+				"color" : 
+				[
+					0.34509,
+					0.6,
+					0.76862,
+					1.0
+				],
+				"depth" : 
+				[
+					0.15,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.44139,
+					0.81669,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10305,
+								1.45667
+							],
+							[
+								0.17542,
+								1.63466
+							],
+							[
+								0.84649,
+								1.95316
+							],
+							[
+								0.91008,
+								1.83606
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -1.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.27472
+							],
+							[
+								1.0,
+								1.06927
+							]
+						],
+						"guid" : 24,
+						"max" : 1.75,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.75
+							],
+							[
+								1.0,
+								-0.75
+							]
+						],
+						"guid" : 25,
+						"max" : 0.75,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"friction" : 0.300000012,
+				"guid" : 22,
+				"height" : 
+				[
+					0.15,
+					0.05
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 500,
+				"mesh" : "resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Drop4    [high]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.41693,
+					0.0375
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"time_to_live" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.15,
+					0.05
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

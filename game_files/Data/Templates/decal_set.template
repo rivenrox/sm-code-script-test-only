@@ -1,0 +1,40 @@
+{
+	"template_meta": {
+		"uuid" : "ca433935-a095-4fc2-85fe-0e89a95962f0",
+		"name": "Decal Set",
+		"display": "decalset",
+		"pattern": ["$*/Decals/*.json", "*.decalset"]
+	},
+
+	"difSheet_meta" : { "type": "texture", "order": 0 },
+	"difSheet" : "",
+
+	"norSheet_meta" : { "type": "texture", "optional": true, "order": 1 },
+	"norSheet" : "",
+
+	"agsSheet_meta" : { "type": "texture", "optional": true, "order": 2 },
+	"agsSheet" : "",
+
+	"decalList_meta" : { "type": "map", "valueAsLabel": "name", "order": 3 },
+	"decalList" :
+	{
+		"Decal_meta" : { "valueAsLabel": "name" },
+		"Decal" :
+		{
+			"uuid_meta" : { "type": "uuid", "actions": ["Generate New UUID"], "autoGenerate": true, "ignoreUuidName": true, "order": 0 },
+			"uuid" : "00000000-0000-0000-0000-000000000000",
+
+			"material_meta" : { "type": "string", "order": 1, "options": [ "Dif", "DifAsg", "DifAsgNor", "DifNor", "DifAsgAo", "DifAsgNorAo" ] },
+			"material" : "Dif",
+
+			"region_meta" : { "type": "array", "order": 2, "minSize": 4, "maxSize": 4 },
+			"region" : [ 0, 0, 0, 0 ],
+
+			"glow_meta" : { "optional": true, "min": 0.0, "max": 10.0, "order": 3 },
+			"glow" : 1.0,
+
+			"target_meta" : { "type": "string", "optional": true, "order": 4, "options": [ "Terrain", "Voxel", "All" ] },
+			"target" : "Terrain"
+		}
+	}
+}

@@ -1,0 +1,1176 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					25.0,
+					25.0,
+					100.0
+				],
+				"category" : "1 - Planet/moon",
+				"color" : 
+				[
+					0.68357,
+					0.73303,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_debri_skybox_planet_01.tga",
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.60707,
+					1.0,
+					0.51169,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "z",
+						"base" : -1.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.75
+							],
+							[
+								0.5,
+								1.75
+							],
+							[
+								1.0,
+								-1.75
+							]
+						],
+						"guid" : 1,
+						"max" : 1.75,
+						"name" : "Velocity",
+						"repeat_time" : 150.0
+					},
+					{
+						"base" : -1.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								1.75
+							],
+							[
+								0.75,
+								-1.71564
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"max" : 1.75,
+						"name" : "Velocity",
+						"repeat_time" : 150.0
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75
+							],
+							[
+								1.0,
+								0.75
+							]
+						],
+						"enabled" : false,
+						"fade" : 1.0,
+						"guid" : 3,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 4.0,
+				"keep_local" : true,
+				"max_particles" : 10000,
+				"name" : "Planet1",
+				"position" : 
+				[
+					-700.0,
+					0.0,
+					250.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					25.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 2880.0,
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 4.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2 - comet",
+				"color" : 
+				[
+					0.48045,
+					0.54944,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					1.0,
+					0.57419,
+					0.57419,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 4.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Comet Core",
+				"position" : 
+				[
+					-700.0,
+					0.0,
+					101.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 720.0,
+				"velocity" : -0.01,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2 - comet",
+				"color" : 
+				[
+					0.48045,
+					0.54944,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow08.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					1.0,
+					0.57252,
+					0.57252,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 12.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Comet Core Extra",
+				"position" : 
+				[
+					-700.0,
+					3.57522,
+					104.624
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 720.0,
+				"velocity" : -0.01,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2 - comet",
+				"color" : 
+				[
+					0.47843,
+					0.549,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_fallingstar_01.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					1.0,
+					0.57252,
+					0.57252,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 6,
+				"height" : 16.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Comet Main Tail",
+				"position" : 
+				[
+					-700.0,
+					4.49841,
+					105.40699
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 720.0,
+				"velocity" : -0.01,
+				"water_mask" : "none",
+				"width" : 4.0
+			},
+			{
+				"angle" : 5.0,
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "2 - comet",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					1.0,
+					0.57252,
+					0.57252,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.74953,
+								0.4745,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.30195,
+								0.4941,
+								1.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 7,
+				"height" : 
+				[
+					18.0,
+					4.0
+				],
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "Comet Main Tail Detail WIDE",
+				"position" : 
+				[
+					-700.0,
+					-0.21598,
+					100.693
+				],
+				"scene_blend" : "addative",
+				"start_color" : "random",
+				"time_to_live" : 720.0,
+				"velocity" : -0.01,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"angle" : 25.0,
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2 - comet",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow08.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					1.0,
+					0.57252,
+					0.57252,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.21367,
+								0.13097,
+								0.28905,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.06746,
+								0.11986,
+								0.2578,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 8,
+				"height" : 
+				[
+					-25.0,
+					4.0
+				],
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "Comet Main Tail WIDE",
+				"position" : 
+				[
+					-700.0,
+					-0.44065,
+					100.495
+				],
+				"scene_blend" : "addative",
+				"start_color" : "random",
+				"time_to_live" : 720.0,
+				"velocity" : -0.01,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					1.0
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2 - comet",
+				"color" : 
+				[
+					0.0597,
+					0.07173,
+					0.14843,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_fallingstar_01.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					1.0,
+					0.57252,
+					0.57252,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6262
+							],
+							[
+								1.0,
+								0.63278
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 10,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 9,
+				"height" : 35.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Comet Main Fade",
+				"position" : 
+				[
+					-700.0,
+					9.85461,
+					110.637
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 720.0,
+				"velocity" : -0.01,
+				"water_mask" : "none",
+				"width" : 12.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2 - comet",
+				"color" : 
+				[
+					0.48045,
+					0.54944,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 4.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Comet Core",
+				"position" : 
+				[
+					100.0,
+					700.0,
+					250.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"sub" : 
+				[
+					{
+						"billboard_type" : "axial_self",
+						"color" : 
+						[
+							0.48045,
+							0.54944,
+							1.0,
+							1.0
+						],
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+						"direction" : 
+						[
+							1.0,
+							0.0,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 12,
+						"height" : 12.0,
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 1,
+						"name" : "Comet Core Extra",
+						"position" : 
+						[
+							1.24398,
+							0.0,
+							1.26198
+						],
+						"rotation" : 180.0,
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"time_to_live" : 720.0,
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 3.0
+					},
+					{
+						"billboard_origin" : "top_center",
+						"billboard_type" : "axial_self",
+						"color" : 
+						[
+							0.36327,
+							0.15467,
+							0.24266,
+							1.0
+						],
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_fallingstar_01.tga",
+						"direction" : 
+						[
+							1.0,
+							0.0,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 13,
+						"height" : 35.0,
+						"keep_local" : true,
+						"max_particles" : 1,
+						"name" : "Comet Main Tail",
+						"position" : 
+						[
+							-2.03468,
+							0.0,
+							-2.0921
+						],
+						"rotation" : 180.0,
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"time_to_live" : 720.0,
+						"velocity" : -0.01,
+						"water_mask" : "none",
+						"width" : 8.0
+					},
+					{
+						"angle" : 5.0,
+						"billboard_origin" : "bottom_center",
+						"billboard_type" : "axial_self",
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+						"direction" : 
+						[
+							1.0,
+							0.0,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"gradient" : 
+						{
+							"control_point" : 
+							[
+								[
+									0.0,
+									[
+										0.29383,
+										0.19178,
+										0.3867,
+										1.0
+									]
+								],
+								[
+									1.0,
+									[
+										0.06932,
+										0.12657,
+										0.27733,
+										1.0
+									]
+								]
+							]
+						},
+						"guid" : 14,
+						"height" : 
+						[
+							18.0,
+							4.0
+						],
+						"keep_local" : true,
+						"max_particles" : 3,
+						"name" : "Tail Stretched 1",
+						"position" : 
+						[
+							0.0,
+							0.05626,
+							0.30695
+						],
+						"scene_blend" : "addative",
+						"start_color" : "random",
+						"sub_emit" : "birth",
+						"time_to_live" : 720.0,
+						"velocity" : -0.01,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.1
+						]
+					},
+					{
+						"angle" : 2.0,
+						"billboard_origin" : "bottom_center",
+						"billboard_type" : "axial_self",
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+						"direction" : 
+						[
+							1.0,
+							0.0,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"gradient" : 
+						{
+							"control_point" : 
+							[
+								[
+									0.0,
+									[
+										0.29383,
+										0.19178,
+										0.3867,
+										1.0
+									]
+								],
+								[
+									1.0,
+									[
+										0.06932,
+										0.12657,
+										0.27733,
+										1.0
+									]
+								]
+							]
+						},
+						"guid" : 15,
+						"height" : 
+						[
+							86.0,
+							4.0
+						],
+						"keep_local" : true,
+						"max_particles" : 3,
+						"name" : "Tail Stretched 2",
+						"position" : 
+						[
+							0.0,
+							0.05626,
+							0.30695
+						],
+						"scene_blend" : "addative",
+						"start_color" : "random",
+						"sub_emit" : "birth",
+						"time_to_live" : 720.0,
+						"velocity" : -0.01,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.1
+						]
+					},
+					{
+						"angle" : 2.0,
+						"billboard_origin" : "bottom_center",
+						"billboard_type" : "axial_self",
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+						"direction" : 
+						[
+							1.0,
+							0.0,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"gradient" : 
+						{
+							"control_point" : 
+							[
+								[
+									0.0,
+									[
+										0.29383,
+										0.19178,
+										0.3867,
+										1.0
+									]
+								],
+								[
+									1.0,
+									[
+										0.06932,
+										0.12657,
+										0.27733,
+										1.0
+									]
+								]
+							]
+						},
+						"guid" : 16,
+						"height" : 
+						[
+							86.0,
+							4.0
+						],
+						"keep_local" : true,
+						"max_particles" : 3,
+						"name" : "Tail Stretched 3",
+						"position" : 
+						[
+							0.0,
+							0.05626,
+							0.30695
+						],
+						"scene_blend" : "addative",
+						"start_color" : "random",
+						"sub_emit" : "birth",
+						"time_to_live" : 720.0,
+						"velocity" : -0.01,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.1
+						]
+					},
+					{
+						"angle" : 15.0,
+						"billboard_origin" : "top_center",
+						"billboard_type" : "axial_self",
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow08.tga",
+						"direction" : 
+						[
+							1.0,
+							0.0,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"gradient" : 
+						{
+							"control_point" : 
+							[
+								[
+									0.0,
+									[
+										0.52016,
+										0.34514,
+										0.67966,
+										1.0
+									]
+								],
+								[
+									1.0,
+									[
+										0.14474,
+										0.26941,
+										0.59763,
+										1.0
+									]
+								]
+							]
+						},
+						"guid" : 17,
+						"height" : 
+						[
+							-55.0,
+							4.0
+						],
+						"keep_local" : true,
+						"max_particles" : 5,
+						"name" : "Comet Main Tail WIDE",
+						"position" : 
+						[
+							-0.29735,
+							-0.17906,
+							-0.27956
+						],
+						"scene_blend" : "addative",
+						"start_color" : "random",
+						"sub_emit" : "birth",
+						"time_to_live" : 720.0,
+						"velocity" : -0.01,
+						"water_mask" : "none",
+						"width" : 
+						[
+							2.0,
+							0.75
+						]
+					},
+					{
+						"billboard_origin" : "top_center",
+						"billboard_type" : "axial_self",
+						"color" : 
+						[
+							0.08436,
+							0.10311,
+							0.22265,
+							1.0
+						],
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_fallingstar_01.tga",
+						"direction" : 
+						[
+							1.0,
+							0.0,
+							1.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 18,
+						"height" : 75.0,
+						"keep_local" : true,
+						"max_particles" : 1,
+						"name" : "Comet Main Fade",
+						"rotation" : 180.0,
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"time_to_live" : 720.0,
+						"velocity" : -0.01,
+						"water_mask" : "none",
+						"width" : 16.0
+					}
+				],
+				"time_to_live" : 720.0,
+				"velocity" : 0.01,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "3 - comet",
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_debri_skybox_comet_01.png",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.53544,
+					1.0,
+					0.49608,
+					1.0
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/skybox/p_emissionmesh_skybox_starsky_dome.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 19,
+				"height" : 
+				[
+					70.0,
+					5.0
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Random Comet1",
+				"rotation" : 
+				[
+					0.0,
+					25.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 720.0,
+				"type" : "mesh",
+				"water_mask" : "none",
+				"width" : 
+				[
+					16.0,
+					2.0
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "3 - comet",
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_debri_skybox_comet_02.png",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.53544,
+					1.0,
+					0.49608,
+					1.0
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/skybox/p_emissionmesh_skybox_starsky_dome.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 20,
+				"height" : 
+				[
+					70.0,
+					5.0
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Random Static Comet2",
+				"rotation" : 
+				[
+					0.0,
+					25.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 720.0,
+				"type" : "mesh",
+				"velocity" : 0.01,
+				"water_mask" : "none",
+				"width" : 
+				[
+					16.0,
+					2.0
+				]
+			},
+			{
+				"box" : 
+				[
+					25.0,
+					25.0,
+					100.0
+				],
+				"category" : "1 - Planet/moon",
+				"color" : 
+				[
+					0.68357,
+					0.73303,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_debri_skybox_planet_01.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					-0.25
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 3,
+						"fps" : 30,
+						"guid" : 22,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 2,
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -1.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.75
+							],
+							[
+								0.5,
+								1.75
+							],
+							[
+								1.0,
+								-1.75
+							]
+						],
+						"enabled" : false,
+						"guid" : 23,
+						"max" : 1.75,
+						"name" : "Velocity",
+						"repeat_time" : 150.0,
+						"toggle" : false
+					},
+					{
+						"base" : -1.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								1.75
+							],
+							[
+								0.75,
+								-1.71564
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 24,
+						"max" : 1.75,
+						"name" : "Velocity",
+						"repeat_time" : 150.0,
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75
+							],
+							[
+								1.0,
+								0.75
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 25,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 21,
+				"height" : 25.0,
+				"keep_local" : true,
+				"max_particles" : 10000,
+				"name" : "Planet2",
+				"position" : 
+				[
+					700.0,
+					0.0,
+					250.0
+				],
+				"scene_blend" : "blend_add",
+				"shape_rotation" : 
+				[
+					25.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 2880.0,
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 25.0
+			}
+		]
+	}
+}

@@ -1,0 +1,94 @@
+{
+	"Dif" : 
+	{
+		"defines" : 
+		[
+			"PS_ALPHA_CUTOFF"
+		],
+		"pass" : "OVERLAY"
+	},
+	"DifTransformBuffer" : 
+	{
+		"defines" : 
+		[
+			"VS_TRANSFORM_BUFFER",
+			"PS_ALPHA_CUTOFF",
+			"VS_OVERLAY_DEPTH_OFFSET"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldIcon" : 
+	{
+		"defines" : 
+		[
+			"VS_CLIP_SPACE",
+			"PS_ALPHA_CUTOFF"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldIconBehind" : 
+	{
+		"defines" : 
+		[
+			"VS_CLIP_SPACE",
+			"PS_ALPHA_CUTOFF",
+			"PS_OVERLAY_DEPTH_FADE"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldIconBehindDepthOffset" : 
+	{
+		"defines" : 
+		[
+			"VS_CLIP_SPACE",
+			"PS_ALPHA_CUTOFF",
+			"PS_OVERLAY_DEPTH_FADE",
+			"VS_OVERLAY_DEPTH_OFFSET"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldIconBlur" : 
+	{
+		"defines" : 
+		[
+			"VS_CLIP_SPACE",
+			"PS_BLUR",
+			"PS_ALPHA_MASK",
+			"PS_ALPHA_CUTOFF"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldIconBlurBehind" : 
+	{
+		"defines" : 
+		[
+			"VS_CLIP_SPACE",
+			"PS_BLUR",
+			"PS_ALPHA_MASK",
+			"PS_ALPHA_CUTOFF",
+			"PS_OVERLAY_DEPTH_FADE"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldIconBlurColor" : 
+	{
+		"defines" : 
+		[
+			"VS_CLIP_SPACE",
+			"PS_BLUR",
+			"PS_BLUR_COLOR",
+			"PS_ALPHA_MASK",
+			"PS_ALPHA_CUTOFF"
+		],
+		"pass" : "OVERLAY"
+	},
+	"SolidColor" : 
+	{
+		"defines" : 
+		[
+			"PS_SOLID_COLOR",
+			"PS_ALPHA_CUTOFF"
+		],
+		"pass" : "OVERLAY"
+	}
+}

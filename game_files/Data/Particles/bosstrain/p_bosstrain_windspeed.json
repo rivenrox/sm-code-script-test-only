@@ -1,0 +1,1336 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_origin" : "left_center",
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					15.0,
+					0.0
+				],
+				"category" : "1",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_square.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.7105
+							],
+							[
+								1.0,
+								5.60516
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 8.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.32956,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.125
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.28288
+							],
+							[
+								1.0,
+								1.1447
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Wind1",
+				"position" : 
+				[
+					-17.09874,
+					29.888,
+					12.30035
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					85.0,
+					0.0,
+					3.0
+				],
+				"soft_particles_bias" : 1,
+				"time_to_live" : 
+				[
+					0.3,
+					0.1
+				],
+				"type" : "box",
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					10.0,
+					3.0
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow011.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.5,
+									0.5,
+									0.5,
+									0.0
+								]
+							],
+							[
+								0.14643,
+								[
+									0.47655,
+									0.47655,
+									0.47655,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.25389,
+									0.25389,
+									0.25389,
+									0.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"endDistance" : 20.0,
+						"guid" : 6,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 0.0
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Bosstrain/p_emissionmesh_bosstrain_windspeed01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"flatness" : 0.0,
+				"glow" : true,
+				"glow_strength" : 0.1,
+				"guid" : 4,
+				"height" : 
+				[
+					20.0,
+					2.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Stripes",
+				"position" : 
+				[
+					-1.79105,
+					31.58687,
+					10.77709
+				],
+				"random_spawn_radius" : 1.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 128,
+				"time_to_live" : 0.25,
+				"type" : "mesh",
+				"unlit" : true,
+				"velocity" : 
+				[
+					400.0,
+					-0.42
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.25,
+					0.1
+				]
+			},
+			{
+				"billboard_origin" : "left_center",
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					15.0,
+					0.0
+				],
+				"category" : "1",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_square.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.7105
+							],
+							[
+								1.0,
+								5.60516
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 8.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.32956,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.125
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.28288
+							],
+							[
+								1.0,
+								1.1447
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"guid" : 7,
+				"height" : 
+				[
+					2.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Wind2",
+				"position" : 
+				[
+					17.099,
+					29.88825,
+					12.30035
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					85.0,
+					0.0,
+					-3.0
+				],
+				"soft_particles_bias" : 1,
+				"time_to_live" : 
+				[
+					0.3,
+					0.1
+				],
+				"type" : "box",
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					10.0,
+					3.0
+				]
+			},
+			{
+				"category" : "3",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_flames07.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.85355
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.05,
+						"guid" : 12,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.53538,
+								1.63862
+							],
+							[
+								0.84921,
+								0.94704
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 13,
+						"max" : 2.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25352,
+								[
+									1.0,
+									0.45829,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.87603,
+								[
+									1.0,
+									0.2578,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.48598
+							],
+							[
+								0.23995,
+								0.51401
+							],
+							[
+								0.75691,
+								0.76634
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.40184
+							],
+							[
+								0.17538,
+								0.71028
+							],
+							[
+								0.39691,
+								0.86914
+							],
+							[
+								0.65846,
+								0.95015
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"enabled" : false,
+						"endDistance" : 20.0,
+						"guid" : 17,
+						"name" : "CameraDistanceFade"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Bosstrain/p_emissionmesh_bosstrain_windspeed01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 
+				[
+					1.5,
+					0.6
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"min_quality" : "medium",
+				"name" : "Extra Sparks/Flames? 2  (High)",
+				"position" : 
+				[
+					-1.79105,
+					68.88742,
+					10.77709
+				],
+				"random_spawn_radius" : 1.0,
+				"rotation" : 
+				[
+					-90.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					-180.0,
+					1.0
+				],
+				"scene_blend" : "addative",
+				"spawn_chance" : 0.25,
+				"time_to_live" : 
+				[
+					2.0,
+					0.3
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					200.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.5,
+					0.75
+				]
+			},
+			{
+				"angle" : 
+				[
+					0.0,
+					1.0
+				],
+				"category" : "4",
+				"color" : 
+				[
+					1.0,
+					0.25097,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"base_scale" : 0.633,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.266
+							],
+							[
+								0.222,
+								1.45597
+							],
+							[
+								0.564,
+								1.57298
+							],
+							[
+								0.902,
+								1.401
+							],
+							[
+								0.96178,
+								1.19369
+							],
+							[
+								1.0,
+								0.633
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 1.57298,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.85698,
+								0.605
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.0,
+						"guid" : 20,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -16.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-5.344
+							],
+							[
+								0.33,
+								16.0
+							],
+							[
+								0.66,
+								-16.0
+							],
+							[
+								1.0,
+								-5.44006
+							]
+						],
+						"guid" : 21,
+						"max" : 16.0,
+						"name" : "Velocity",
+						"repeat_time" : 3.0
+					},
+					{
+						"axis" : "z",
+						"base" : -16.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								16.0
+							],
+							[
+								0.5,
+								-16.0
+							],
+							[
+								1.0,
+								16.0
+							]
+						],
+						"guid" : 22,
+						"max" : 16.0,
+						"name" : "Velocity",
+						"repeat_time" : 3.0
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Bosstrain/p_emissionmesh_bosstrain_windspeed01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 0.300000012,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 18,
+				"height" : 
+				[
+					0.25,
+					0.035
+				],
+				"keep_local" : false,
+				"max_particles" : 200,
+				"min_quality" : "medium",
+				"name" : "Embers",
+				"position" : 
+				[
+					-1.79105,
+					68.88742,
+					10.77709
+				],
+				"power_glow" : true,
+				"random_spawn_radius" : 1.0,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					15.0,
+					10.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"spawn_chance" : 0.49,
+				"time_to_live" : 
+				[
+					3.0,
+					4.0
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					200.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.25,
+					0.035
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "3",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_flames07.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.85355
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.05,
+						"guid" : 24,
+						"length" : 0.2,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.53538,
+								1.63862
+							],
+							[
+								0.84921,
+								0.94704
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 25,
+						"max" : 2.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25352,
+								[
+									1.0,
+									0.45829,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.87603,
+								[
+									1.0,
+									0.2578,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.48598
+							],
+							[
+								0.23995,
+								0.51401
+							],
+							[
+								0.75691,
+								0.76634
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.40184
+							],
+							[
+								0.17538,
+								0.71028
+							],
+							[
+								0.39691,
+								0.86914
+							],
+							[
+								0.65846,
+								0.95015
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -50.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-50.0
+							],
+							[
+								0.5,
+								50.0
+							],
+							[
+								1.0,
+								-50.0
+							]
+						],
+						"guid" : 29,
+						"max" : 50.0,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -50.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								50.0
+							],
+							[
+								0.75,
+								-50.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 30,
+						"max" : 50.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Bosstrain/p_emissionmesh_bosstrain_windspeed01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 23,
+				"height" : 
+				[
+					1.5,
+					0.6
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"min_quality" : "medium",
+				"name" : "Extra Sparks/Flames Test",
+				"position" : 
+				[
+					-1.79105,
+					68.88742,
+					10.77709
+				],
+				"random_spawn_radius" : 1.0,
+				"rotation" : 
+				[
+					-90.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					-180.0,
+					1.0
+				],
+				"scene_blend" : "addative",
+				"spawn_chance" : 0.125,
+				"time_to_live" : 
+				[
+					2.0,
+					0.3
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					200.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.5,
+					0.75
+				]
+			},
+			{
+				"category" : "3",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_flames07.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.85355
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.05,
+						"guid" : 32,
+						"length" : 0.2,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.53538,
+								1.63862
+							],
+							[
+								0.84921,
+								0.94704
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 33,
+						"max" : 2.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25352,
+								[
+									1.0,
+									0.45829,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.87603,
+								[
+									1.0,
+									0.2578,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 34,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.48598
+							],
+							[
+								0.23995,
+								0.51401
+							],
+							[
+								0.75691,
+								0.76634
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 35,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.40184
+							],
+							[
+								0.17538,
+								0.71028
+							],
+							[
+								0.39691,
+								0.86914
+							],
+							[
+								0.65846,
+								0.95015
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 36,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -50.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								50.0
+							],
+							[
+								0.5,
+								-50.0
+							],
+							[
+								1.0,
+								50.0
+							]
+						],
+						"guid" : 37,
+						"max" : 50.0,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -50.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								-50.0
+							],
+							[
+								0.75,
+								50.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 38,
+						"max" : 50.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Bosstrain/p_emissionmesh_bosstrain_windspeed01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 31,
+				"height" : 
+				[
+					1.5,
+					0.6
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"min_quality" : "medium",
+				"name" : "Extra Sparks/Flames Test",
+				"position" : 
+				[
+					-1.79105,
+					68.88742,
+					10.77709
+				],
+				"random_spawn_radius" : 1.0,
+				"rotation" : 
+				[
+					-90.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					-180.0,
+					1.0
+				],
+				"scene_blend" : "addative",
+				"spawn_chance" : 0.126,
+				"time_to_live" : 
+				[
+					2.0,
+					0.3
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					200.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.5,
+					0.75
+				]
+			}
+		]
+	}
+}

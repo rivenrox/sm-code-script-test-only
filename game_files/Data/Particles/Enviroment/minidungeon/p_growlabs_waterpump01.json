@@ -1,0 +1,1017 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y",
+						"base" : -10.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.025,
+								0.5
+							],
+							[
+								0.22495,
+								9.5
+							],
+							[
+								0.25,
+								10.0
+							],
+							[
+								0.275,
+								9.5
+							],
+							[
+								0.725,
+								-9.5
+							],
+							[
+								0.75,
+								-10.0
+							],
+							[
+								0.77499,
+								-9.5
+							],
+							[
+								0.975,
+								-0.5
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 19,
+						"local" : false,
+						"name" : "Velocity",
+						"repeat_time" : 1.5
+					},
+					{
+						"axis" : "y",
+						"base" : -5.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								5.0
+							],
+							[
+								0.75,
+								-5.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 20,
+						"local" : false,
+						"max" : 5.0,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 4.0
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 100000,
+				"guid" : 0,
+				"keep_local" : true,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "StaticMeshRef1",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					5.74228
+				],
+				"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Minidungeon/kin_minidungeon_waterpump.rend",
+				"sub" : 
+				[
+					{
+						"alpha" : true,
+						"angle" : 1.0,
+						"cone_angle" : 25.0,
+						"cone_radius" : 1.5,
+						"depth" : 
+						[
+							1.0,
+							0.75
+						],
+						"direction_type" : "constant",
+						"duration" : 0.6,
+						"editorColor" : 
+						[
+							0.05468,
+							1.0,
+							0.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										3.0
+									],
+									[
+										0.19686,
+										2.90124
+									],
+									[
+										0.38769,
+										2.65458
+									],
+									[
+										0.5723,
+										2.10191
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 2,
+								"max" : 3.0,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.09538,
+										0.86513
+									],
+									[
+										0.18456,
+										0.9375
+									],
+									[
+										0.78767,
+										0.9671
+									],
+									[
+										0.85535,
+										0.82564
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 3,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 100,
+						"friction" : 
+						[
+							3.0,
+							1.0
+						],
+						"guid" : 1,
+						"height" : 
+						[
+							1.0,
+							0.75
+						],
+						"keep_local" : true,
+						"material_name" : "UVAnimDifAsgNorAlpha",
+						"max_particles" : 100,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"min_quality" : "high",
+						"name" : "bubbles 1 small",
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-1.0
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/minidungeon/p_renderable_plantvat_bubbles04_liquid.rend",
+						"repeat_delay" : 3.4,
+						"rotation" : 
+						[
+							-90.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						],
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 
+						[
+							1.125,
+							0.125
+						],
+						"type" : "cone",
+						"velocity" : 
+						[
+							0.0,
+							3.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.75
+						]
+					},
+					{
+						"alpha" : true,
+						"angle" : 1.0,
+						"cone_angle" : 25.0,
+						"cone_radius" : 1.5,
+						"depth" : 
+						[
+							3.0,
+							0.75
+						],
+						"direction_type" : "constant",
+						"duration" : 0.6,
+						"editorColor" : 
+						[
+							0.05468,
+							1.0,
+							0.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										3.0
+									],
+									[
+										0.19686,
+										2.90124
+									],
+									[
+										0.38769,
+										2.65458
+									],
+									[
+										0.5723,
+										2.10191
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 5,
+								"max" : 3.0,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.09538,
+										0.86513
+									],
+									[
+										0.18456,
+										0.9375
+									],
+									[
+										0.78767,
+										0.9671
+									],
+									[
+										0.85535,
+										0.82564
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 6,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 25,
+						"friction" : 
+						[
+							3.0,
+							1.0
+						],
+						"guid" : 4,
+						"height" : 
+						[
+							3.0,
+							0.75
+						],
+						"keep_local" : true,
+						"material_name" : "UVAnimDifAsgNorAlpha",
+						"max_particles" : 100,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"min_quality" : "high",
+						"name" : "bubbles 1 medium",
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-1.0
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/minidungeon/p_renderable_plantvat_bubbles04_liquid.rend",
+						"repeat_delay" : 3.4,
+						"rotation" : 
+						[
+							-90.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						],
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 
+						[
+							1.125,
+							0.125
+						],
+						"type" : "cone",
+						"velocity" : 
+						[
+							0.0,
+							3.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							3.0,
+							0.75
+						]
+					},
+					{
+						"alpha" : true,
+						"angle" : 1.0,
+						"cone_angle" : 25.0,
+						"cone_radius" : 0.6,
+						"depth" : 
+						[
+							15.0,
+							3.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.001,
+						"editorColor" : 
+						[
+							0.05468,
+							1.0,
+							0.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.0964,
+										0.25573
+									],
+									[
+										0.1726,
+										0.67901
+									],
+									[
+										0.23597,
+										1.35802
+									],
+									[
+										0.47999,
+										5.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 8,
+								"max" : 5.0,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.16615,
+										0.75656
+									],
+									[
+										0.34152,
+										0.92434
+									],
+									[
+										0.78767,
+										0.9671
+									],
+									[
+										0.85535,
+										0.82564
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 9,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 100,
+						"friction" : 
+						[
+							3.0,
+							1.0
+						],
+						"guid" : 7,
+						"height" : 
+						[
+							15.0,
+							3.0
+						],
+						"keep_local" : true,
+						"material_name" : "UVAnimDifAsgNorAlpha",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"min_quality" : "medium",
+						"name" : "bubbles 1 Big",
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-0.66642
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/minidungeon/p_renderable_plantvat_bubbles03_liquid.rend",
+						"repeat_delay" : 3.999,
+						"rotation" : 
+						[
+							-90.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						],
+						"spawn_chance" : 0.67,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 1.5,
+						"type" : "cone",
+						"velocity" : 
+						[
+							0.0,
+							3.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							15.0,
+							3.0
+						]
+					},
+					{
+						"alpha" : true,
+						"angle" : 1.0,
+						"cone_angle" : 25.0,
+						"cone_radius" : 1.5,
+						"depth" : 
+						[
+							1.0,
+							0.75
+						],
+						"direction_type" : "constant",
+						"duration" : 0.3,
+						"editorColor" : 
+						[
+							0.05468,
+							1.0,
+							0.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.5
+									],
+									[
+										0.19686,
+										1.45062
+									],
+									[
+										0.38769,
+										1.32729
+									],
+									[
+										0.5723,
+										1.05095
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"enabled" : false,
+								"guid" : 11,
+								"max" : 1.5,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.09538,
+										0.86513
+									],
+									[
+										0.18456,
+										0.9375
+									],
+									[
+										0.78767,
+										0.9671
+									],
+									[
+										0.85535,
+										0.82564
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 12,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 25,
+						"friction" : 
+						[
+							3.0,
+							1.0
+						],
+						"guid" : 10,
+						"height" : 
+						[
+							1.0,
+							0.75
+						],
+						"keep_local" : true,
+						"material_name" : "UVAnimDifAsgNorAlpha",
+						"max_particles" : 100,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"min_quality" : "medium",
+						"name" : "bubbles Loop",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/minidungeon/p_renderable_plantvat_bubbles04_liquid.rend",
+						"repeat_delay" : 1.7,
+						"rotation" : 
+						[
+							-90.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						],
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 
+						[
+							1.125,
+							0.125
+						],
+						"type" : "cone",
+						"velocity" : 
+						[
+							0.0,
+							3.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.75
+						]
+					},
+					{
+						"alpha" : true,
+						"angle" : 1.0,
+						"cone_angle" : 25.0,
+						"cone_radius" : 1.5,
+						"delay" : 2.0,
+						"depth" : 
+						[
+							1.0,
+							0.75
+						],
+						"direction_type" : "constant",
+						"duration" : 0.6,
+						"editorColor" : 
+						[
+							0.96875,
+							1.0,
+							0.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"axis" : "y",
+								"base" : -3.0,
+								"control_point" : 
+								[
+									[
+										0.0,
+										-3.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 14,
+								"max" : 3.0,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.09538,
+										0.86513
+									],
+									[
+										0.18456,
+										0.9375
+									],
+									[
+										0.78767,
+										0.9671
+									],
+									[
+										0.85535,
+										0.82564
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 15,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 100,
+						"friction" : 
+						[
+							3.0,
+							1.0
+						],
+						"guid" : 13,
+						"height" : 
+						[
+							1.0,
+							0.75
+						],
+						"keep_local" : true,
+						"material_name" : "UVAnimDifAsgNorAlpha",
+						"max_particles" : 100,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"min_quality" : "medium",
+						"name" : "bubbles 2",
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							0.8
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/minidungeon/p_renderable_plantvat_bubbles04_liquid.rend",
+						"repeat_delay" : 3.4,
+						"rotation" : 
+						[
+							-90.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						],
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 
+						[
+							1.5,
+							0.25
+						],
+						"type" : "cone",
+						"velocity" : 
+						[
+							0.0,
+							3.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.75
+						]
+					},
+					{
+						"alpha" : true,
+						"angle" : 1.0,
+						"cone_angle" : 25.0,
+						"cone_radius" : 0.6,
+						"delay" : 2.0,
+						"depth" : 
+						[
+							10.0,
+							2.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.001,
+						"editorColor" : 
+						[
+							0.05468,
+							1.0,
+							0.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"axis" : "y",
+								"base" : -3.0,
+								"control_point" : 
+								[
+									[
+										0.0,
+										-3.0
+									],
+									[
+										1.0,
+										-1.15876
+									]
+								],
+								"guid" : 17,
+								"max" : 3.0,
+								"name" : "Velocity"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.16615,
+										0.75656
+									],
+									[
+										0.34152,
+										0.92434
+									],
+									[
+										0.78767,
+										0.9671
+									],
+									[
+										0.85535,
+										0.82564
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 18,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 100,
+						"friction" : 
+						[
+							3.0,
+							1.0
+						],
+						"guid" : 16,
+						"height" : 
+						[
+							10.0,
+							2.0
+						],
+						"keep_local" : true,
+						"material_name" : "UVAnimDifAsgNorAlpha",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"min_quality" : "high",
+						"name" : "bubbles 1 Big",
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							1.0
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/minidungeon/p_renderable_plantvat_bubbles03_liquid.rend",
+						"repeat_delay" : 3.999,
+						"rotation" : 
+						[
+							-90.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							0.0,
+							1.0,
+							0.0
+						],
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 
+						[
+							1.5,
+							0.25
+						],
+						"type" : "cone",
+						"velocity" : 
+						[
+							0.0,
+							3.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							10.0,
+							2.0
+						]
+					}
+				],
+				"time_to_live" : 4.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

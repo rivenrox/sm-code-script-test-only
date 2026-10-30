@@ -1,0 +1,117 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$GAME_DATA/Particles/resources/controlstation/p_mesh_controlstation_hologram_moon01.fbx",
+			"subMeshList" : 
+			[
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.0,
+								0.554688,
+								1.0,
+								0.289062
+							],
+							"fade" : 
+							{
+								"fadeRange" : 1.0,
+								"fadeValue" : 0.0
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 0.1,
+								"fogMin" : 0.35,
+								"fogOpacity" : 0.56,
+								"fogScale" : 30.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.56,
+								"fresnelIntensity" : 0.19
+							},
+							"glowStrength" : 0.34,
+							"highlightColor" : 
+							[
+								0.0,
+								0.71875,
+								1.0,
+								0.84375
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 4.02,
+								"intersectIntensity" : 0.77
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 7.0,
+								"scanLineFrequency2" : 18.27,
+								"scanLineIntensity1" : 0.25,
+								"scanLineIntensity2" : 0.21,
+								"scanLineSpeed1" : -0.25,
+								"scanLineSpeed2" : -0.15
+							}
+						},
+						"laserDisplacement" : 
+						{
+							"color" : 
+							[
+								0.96875,
+								0.0,
+								1.0,
+								1.0
+							],
+							"fade" : 
+							{
+								"displacementFadeRange" : 0.67,
+								"displacementFadeValue" : 0.79
+							},
+							"flicker" : 
+							{
+								"flickerFrequencyOffset" : 5.0,
+								"flickerFrequencyValue" : 10.0
+							},
+							"glitch" : 
+							{
+								"speed" : 25.360001
+							},
+							"slice" : 
+							{
+								"direction" : 
+								[
+									-1.0,
+									0.0,
+									0.0
+								],
+								"sliceSize" : 10.04
+							},
+							"speed" : 0.5,
+							"strength" : 0.5,
+							"wave" : 
+							{
+								"noiseIntensity" : 0.0
+							}
+						}
+					},
+					"material" : "Laser",
+					"textures" : 
+					{
+						"laser" : "$GAME_DATA/Particles/resources/controlstation/p_controlstation_hologram_moon_dif.tga",
+						"laserMask" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_doorsensor01_lasermask.tga"
+					}
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,111 @@
+{
+	"lodList" : 
+	[
+		{
+			"animationList" : 
+			[
+				{
+					"file" : "$GAME_DATA/Character/Char_Tools/Char_claygun/animations/ani_char_claygun_pickup.dae",
+					"name" : "claygun_pickup"
+				},
+				{
+					"file" : "$GAME_DATA/Character/Char_Tools/Char_claygun/animations/ani_char_claygun_putdown.dae",
+					"name" : "claygun_putdown"
+				},
+				{
+					"file" : "$GAME_DATA/Character/Char_Tools/Char_claygun/animations/ani_char_claygun_spin.dae",
+					"looping" : true,
+					"name" : "claygun_spinner_shoot_fp"
+				},
+				{
+					"file" : "$GAME_DATA/Character/Char_Tools/Char_claygun/animations/ani_char_claygun_spin.dae",
+					"looping" : true,
+					"name" : "claygun_spinner_shoot_tp"
+				},
+				{
+					"file" : "$GAME_DATA/Character/Char_Tools/Char_claygun/animations/ani_char_claygun_shoot.dae",
+					"name" : "claygun_shoot"
+				},
+				{
+					"file" : "$GAME_DATA/Character/Char_Tools/Char_claygun/animations/ani_char_claygun_idle.dae",
+					"looping" : true,
+					"name" : "claygun_idle"
+				}
+			],
+			"maxViewDistance" : 1000.0,
+			"mesh" : "$GAME_DATA/Character/Char_Tools/Char_claygun/char_claygun.dae",
+			"subMeshMap" : 
+			{
+				"char_spudgun_grip_mat" : 
+				{
+					"custom" : 
+					{
+						"metalProfile" : "DifAsgNor_Painted"
+					},
+					"material" : "DifAsgNor_Metal",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_asg.tga",
+						"diffuse" : "$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_dif.tga",
+						"normalMap" : "$GAME_DATA/Character/Char_Tools/Char_spudgun/Base/char_spudgun_grip_nor.tga"
+					}
+				},
+				"m_clay" : 
+				{
+					"material" : "DifAsgNor",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Character/Char_Tools/Char_claygun/char_claygunmud_asg.tga",
+						"diffuse" : "$GAME_DATA/Character/Char_Tools/Char_claygun/char_claygunmud_dif.tga",
+						"normalMap" : "$GAME_DATA/Character/Char_Tools/Char_claygun/char_claygunmud_nor.tga"
+					}
+				},
+				"m_claygun" : 
+				{
+					"custom" : 
+					{
+						"metalProfile" : "Default"
+					},
+					"material" : "DifAsgNor_Metal",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Character/Char_Tools/Char_claygun/char_claygun_asg.tga",
+						"diffuse" : "$GAME_DATA/Character/Char_Tools/Char_claygun/char_claygun_dif.tga",
+						"normalMap" : "$GAME_DATA/Character/Char_Tools/Char_claygun/char_claygun_nor.tga"
+					}
+				},
+				"m_glass" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 0.529999971,
+							"blurriness" : 0.0,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.07,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : 0.150000006,
+							"transparencyFront" : 0.02
+						}
+					},
+					"material" : "Glass",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Character/Char_oreprospector/obj_interactive_oreprospectorglass_dif.tga",
+						"normalMap" : "$GAME_DATA/Textures/Default/default_nor.tga"
+					}
+				}
+			}
+		}
+	]
+}

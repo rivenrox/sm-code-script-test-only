@@ -1,0 +1,1240 @@
+{
+	"entities" : 
+	{
+		"harvestables" : [],
+		"kinematics" : 
+		[
+			{
+				"color" : "#E3350DFF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "5eb8fa4c-a0b1-481b-b4b0-914e1ba8953c",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"attachedEffects" : 
+										[
+											{
+												"effectName" : "Bosstrain - Tracksparks",
+												"identifier" : "",
+												"offsetPosition" : 
+												[
+													1.1000000238418579,
+													-5.2600002288818359,
+													40.75
+												],
+												"offsetRotation" : 
+												[
+													-90.0,
+													35.0,
+													10.0
+												],
+												"persistentActivation" : false,
+												"repeatable" : false
+											},
+											{
+												"effectName" : "Bosstrain - Tracksparks",
+												"identifier" : "",
+												"offsetPosition" : 
+												[
+													-0.17000000178813934,
+													-4.1999998092651367,
+													-39.400001525878906
+												],
+												"offsetRotation" : 
+												[
+													-90.0,
+													35.0,
+													-170.0
+												],
+												"persistentActivation" : false,
+												"repeatable" : false
+											}
+										],
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutSine",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											3.0517578125e-05,
+											-0.001220703125,
+											-0.001220703125
+										],
+										"rotation" : 
+										[
+											-6.8301887949928641e-06,
+											-1.0313298609218591e-12,
+											-1.0017911336035468e-05
+										],
+										"speed" : 1
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "easeInOutSine",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											3.0518000130541623e-05,
+											-0.0012207030085846782,
+											-0.0012207030085846782
+										],
+										"rotation" : 
+										[
+											-6.8301887949928641e-06,
+											-1.4384408377962621e-12,
+											-1.0017910426540766e-05
+										],
+										"speed" : 40
+									},
+									{
+										"duration" : 3,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"event" : "catapultRight",
+										"inheritDuration" : false,
+										"kinematicActivations" : 
+										[
+											{
+												"kinematicEventTrigger" : "catapultRight"
+											}
+										],
+										"position" : 
+										[
+											0.0,
+											-0.0021848678588867188,
+											1772.2828369140625
+										],
+										"rotation" : 
+										[
+											-6.8301887949928641e-06,
+											-3.991042565876235e-11,
+											-1.0017911336035468e-05
+										],
+										"speed" : 1,
+										"stop" : false
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "easeInQuint",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											-0.0026731491088867188,
+											1772.2828369140625
+										],
+										"rotation" : 
+										[
+											-6.8301887949928641e-06,
+											-3.991042565876235e-11,
+											-1.0017911336035468e-05
+										],
+										"speed" : 240,
+										"stop" : false
+									},
+									{
+										"duration" : 0.10000000149011612,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0015869140625,
+											-2076.54541015625
+										],
+										"rotation" : 
+										[
+											-6.8301887949928641e-06,
+											-3.991042565876235e-11,
+											-1.0017911336035468e-05
+										],
+										"speed" : 1,
+										"stop" : false
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "sideCartRight"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						37.298000335693359,
+						-444.49868774414062,
+						5.2742586135864258
+					],
+					"rotation" : 
+					[
+						-90.0,
+						-4.0710926925598134e-13,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "f82d863d-543f-48ba-9368-986729b878d0"
+			},
+			{
+				"color" : "#E3350DFF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "6b63160e-5c7b-46d7-8de8-20d8c418fd44",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "sideCartLeftHatch"
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "sideCartRight"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"duration" : 0,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-0.16455078125,
+											0.130859375,
+											0.0
+										],
+										"rotation" : 
+										[
+											4.268868451617891e-06,
+											8.5377369032357819e-06,
+											1.7075470850613783e-06
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 3,
+										"durationFromSpeed" : false,
+										"easing" : "easeOutElastic",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-0.16455078125,
+											0.130859375,
+											0.0
+										],
+										"rotation" : 
+										[
+											4.268868451617891e-06,
+											8.5377369032357819e-06,
+											1.7075470850613783e-06
+										],
+										"speed" : 1,
+										"stop" : false
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-7.01300048828125,
+											8.937255859375,
+											0.0003662109375
+										],
+										"rotation" : 
+										[
+											-0.00010100865620188415,
+											3.7528243410633877e-05,
+											90.573936462402344
+										],
+										"speed" : 1
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-7.01300048828125,
+											8.937255859375,
+											0.0003662109375
+										],
+										"rotation" : 
+										[
+											-0.00010100865620188415,
+											3.7528243410633877e-05,
+											90.573936462402344
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "catapultRight"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						33.518295288085938,
+						-444.5,
+						7.8882341384887695
+					],
+					"rotation" : 
+					[
+						-90.000015258789062,
+						-2.3051894459058531e-05,
+						-163.53298950195312
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "24e5a076-b65a-4459-adf0-bd03c230fe2f"
+			},
+			{
+				"color" : "#E3350DFF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "e2f16a95-4277-415f-9feb-5df437e3bd9d",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"duration" : 0.60000002384185791,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutSine",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 0.60000002384185791,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutSine",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : false
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "easeInSine",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-1.9103699922561646,
+											-0.42651399970054626,
+											0.0
+										],
+										"rotation" : 
+										[
+											9.9999997473787516e-06,
+											5.4000000091036782e-05,
+											-13.810366630554199
+										],
+										"speed" : 12.5,
+										"stop" : false
+									},
+									{
+										"duration" : 5,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											15.455619812011719,
+											6.7349848747253418,
+											0.34521499276161194
+										],
+										"rotation" : 
+										[
+											0.00015199999324977398,
+											6.8000001192558557e-05,
+											-22.055280685424805
+										],
+										"speed" : 1
+									},
+									{
+										"duration" : 0.30000001192092896,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "sideCartLeftScoop"
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "sideCartRight"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "catapultRight"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						32.724998474121094,
+						-444.4986572265625,
+						6.1380906105041504
+					],
+					"rotation" : 
+					[
+						-89.999679565429688,
+						-5.0089574870071374e-06,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "ebd59724-4b50-4102-8ef9-b988941562f2"
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "37b390f9-9543-407d-8812-1e92c93c3b04",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						34.024581909179688,
+						-448.07086181640625,
+						5.000096321105957
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						-1.8633987903594971,
+						9.9934470654261531e-07
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "1cf6d965-6288-430d-8e3e-ce4200ea8eb8",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_YELLOW"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						32.499931335449219,
+						-446.50003051757812,
+						4.9999170303344727
+					],
+					"rotation" : 
+					[
+						89.8837890625,
+						-44.999908447265625,
+						-0.14907194674015045
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "572f9e3e-8614-471d-bdd8-7448831b4a13",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						32.348670959472656,
+						-440.76608276367188,
+						5.0000004768371582
+					],
+					"rotation" : 
+					[
+						-90.000030517578125,
+						-43.1365966796875,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "414a6c24-c944-4050-8ee9-2938912a7e7f",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						32.239852905273438,
+						-448.1365966796875,
+						4.9999651908874512
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						-46.863391876220703,
+						9.0547619038261473e-06
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "caee5ffb-e7db-41c2-9c51-e6832c453d80",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_YELLOW"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						32.4171142578125,
+						-442.88058471679688,
+						4.8871908187866211
+					],
+					"rotation" : 
+					[
+						-89.891647338867188,
+						-44.999912261962891,
+						-179.8505859375
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "b4c70eec-9647-4ea7-84f3-5961e584bda5",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_RED"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						34.000011444091797,
+						-446.25,
+						5.0000152587890625
+					],
+					"rotation" : 
+					[
+						89.856925964355469,
+						-44.999851226806641,
+						-0.18115167319774628
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "b9be0c3d-f701-46f8-bf6c-bf07da065596",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_RED"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						33.999870300292969,
+						-442.99993896484375,
+						4.9998512268066406
+					],
+					"rotation" : 
+					[
+						-89.884201049804688,
+						-44.999897003173828,
+						-179.8319091796875
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "f55f82a4-0907-4454-bf62-5f500df9a2db",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_YELLOW"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						32.454238891601562,
+						-444.7286376953125,
+						4.887481689453125
+					],
+					"rotation" : 
+					[
+						-0.0038237974513322115,
+						-89.923263549804688,
+						-90.05322265625
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "5a1700b3-8947-4594-bacb-f2ce7c996a45",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_RED"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						34.046031951904297,
+						-444.76678466796875,
+						4.8851313591003418
+					],
+					"rotation" : 
+					[
+						179.99754333496094,
+						89.920440673828125,
+						-89.94677734375
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "c68d8fbd-cb2a-4ccb-913e-5a42429a5c8f",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						31.349678039550781,
+						-441.87957763671875,
+						4.888023853302002
+					],
+					"rotation" : 
+					[
+						-90.128707885742188,
+						-45.000164031982422,
+						-179.91566467285156
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "28075945-39a9-4601-9b0a-d7b598152ee5",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						31.251560211181641,
+						-443.77578735351562,
+						4.888420581817627
+					],
+					"rotation" : 
+					[
+						89.973960876464844,
+						3.2636831747367978e-05,
+						-0.069462127983570099
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "f1b4e5b6-a46d-4f30-bc20-8b9981b46cba",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						31.287765502929688,
+						-445.65188598632812,
+						4.8883638381958008
+					],
+					"rotation" : 
+					[
+						89.974937438964844,
+						3.2326672226190567e-05,
+						-0.070777885615825653
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "8c5cdeb5-07d7-4066-b6b2-c9d17f606312",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						31.193893432617188,
+						-447.28982543945312,
+						4.887549877166748
+					],
+					"rotation" : 
+					[
+						90.051971435546875,
+						-45.000095367431641,
+						-0.10207262635231018
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "007386d4-0111-4343-921b-4ba23f923dcf",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "ambusher",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TOTEBOT_GREEN"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						33.7574462890625,
+						-440.86810302734375,
+						4.9999747276306152
+					],
+					"rotation" : 
+					[
+						-90.000045776367188,
+						1.8633979558944702,
+						-180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 0,
+		"uuid" : "11722606-a4d8-47fb-910c-481bd8dc7392"
+	}
+}

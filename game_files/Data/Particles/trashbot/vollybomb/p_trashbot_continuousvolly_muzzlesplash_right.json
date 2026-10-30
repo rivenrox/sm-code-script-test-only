@@ -1,0 +1,446 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_goosplatter01_asg.tga",
+				"category" : "1",
+				"color" : 
+				[
+					0.36469,
+					0.83135,
+					0.17249,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					3.0,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.2307,
+								1.27629
+							],
+							[
+								0.56,
+								1.67104
+							],
+							[
+								1.0,
+								1.88812
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.32714
+							],
+							[
+								0.47947,
+								0.73781
+							],
+							[
+								0.60184,
+								0.84262
+							],
+							[
+								0.7537,
+								0.92628
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.19076,
+								1.26312
+							],
+							[
+								0.4923,
+								1.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -5.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-5.0
+							]
+						],
+						"guid" : 4,
+						"max" : 0.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 5,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 0,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"keep_local" : false,
+				"material_name" : "GlassUvAnimFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/slimewave/p_mesh_trashbot_slimewave_impact_splashplane02.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "SplashPlane1                 (low)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_goosplatter01_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_renderable_trashbot_goosplatter01_plane_green.rend",
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"velocity" : 
+				[
+					5.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					1.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_goosplatter02_asg.tga",
+				"category" : "1",
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					5.0,
+					0.5
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.64306,
+								0.85855
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.42763
+							],
+							[
+								0.41846,
+								1.1842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.5
+				],
+				"friction" : 1.0,
+				"guid" : 6,
+				"height" : 
+				[
+					8.0,
+					0.4
+				],
+				"keep_local" : false,
+				"material_name" : "GlassUvAnimFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/misc/planes/p_mesh_plane_facingz_4x8_pivotmiddle.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency03_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "medium",
+				"name" : "SplashPlane 2             (Medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_goosplatter02_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 1.100000024,
+				"velocity" : 6.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					6.0,
+					0.4
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_explosionsphere_asg.tga",
+				"category" : "1",
+				"color" : 
+				[
+					0.3294,
+					0.83135,
+					0.04704,
+					1.0
+				],
+				"depth" : 
+				[
+					3.5,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.12894,
+								0.92456
+							],
+							[
+								1.0,
+								5.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 5.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.27384,
+								0.05107
+							],
+							[
+								0.40713,
+								0.12894
+							],
+							[
+								0.51428,
+								0.24817
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 11,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"guid" : 9,
+				"height" : 
+				[
+					3.5,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "GlassUvAnimFlip",
+				"max_particles" : 10,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_splatter_explosionsphere.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Explosion sphere [low]",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_explosionsphere_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					-1.0
+				],
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 0.5,
+				"velocity" : 3.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.5,
+					0.5
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 0.69998
+	}
+}

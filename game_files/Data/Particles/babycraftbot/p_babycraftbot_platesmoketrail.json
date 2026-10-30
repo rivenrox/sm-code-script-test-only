@@ -1,0 +1,126 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - SmokeTrail",
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.16899,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.26654
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.4,
+					0.05998
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Smoketrail1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"sphere_radius" : 0.00999,
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.64999,
+					0.11997
+				],
+				"translucency" : 0.5,
+				"type" : "sphere",
+				"velocity" : 
+				[
+					0.2,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.05998
+				]
+			}
+		]
+	}
+}

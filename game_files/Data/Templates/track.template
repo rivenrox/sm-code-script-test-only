@@ -1,0 +1,54 @@
+{
+	"template_meta" : {
+		"uuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+		"name" : "Track",
+		"display" : "track",
+		"root_meta" : { "type" : "map" },
+		"pattern" : [".track"]
+	},
+
+	"track" :
+	{
+		"loop_meta" : { "order" : 0 },
+		"loop" : true,
+
+		"startAtDelay_meta" : { "order" : 3, "optional" : true, "available" : { "../../../../effectList" : [ "*" ] } },
+		"startAtDelay" : true,
+		
+		"stopAtDuration_meta" : { "order" : 4, "optional" : true, "available" : { "../../../../effectList" : [ "*" ] } },
+		"stopAtDuration" : false,
+		
+		"file_meta" : {
+			"optional" : true,
+			"type" : "filepath",
+			"extensions" : ".tracknodes",
+			"order" : 2
+		},
+		"file" : "",
+
+		"track_meta" : {
+			"optional" : true,
+			"order" : 2,
+			"valueAsLabel" : [ "label" ],
+			"valueSuffix" : " - Key",
+			"value_meta" : {
+				"color" : "#29402d",
+				"startCollapsed" : true,
+				"displayTransform" : {
+					"renderableFromEntity" : true,
+					"color" : [
+						0.6,
+						0.6,
+						0.6,
+						0.6
+					],
+					"cameraView" : false,
+					"position" : "position",
+					"rotation" : "rotation"
+				},
+				"subTemplate" : "$GAME_DATA/Templates/tracknode.template"
+			}
+		},
+		"track" : [ {  } ]
+	}
+}

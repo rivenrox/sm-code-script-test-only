@@ -1,0 +1,339 @@
+{
+	"Cinematic - ChemicalTower01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 60.0,
+						"duration" : 5.0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"label" : "\"Event - StartChemicaltowerDestruction\"",
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-140.917999268,
+							-97.835494995,
+							78.068191528
+						],
+						"rotation" : 
+						[
+							-16.525951385,
+							28.96749115,
+							-53.677742004
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-189.679016113,
+									2.381302118,
+									48.434036255
+								],
+								"rotation" : 
+								[
+									9.88808918,
+									21.855937958,
+									-115.090873718
+								]
+							},
+							{
+								"position" : 
+								[
+									-106.166412354,
+									123.663085938,
+									-14.6248703
+								],
+								"rotation" : 
+								[
+									10.889623642,
+									9.369852066,
+									-124.95224762
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 60.0,
+						"duration" : 1.0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"label" : "\"Event - EndChemicaltowerDestruction\"",
+						"overrideFOV" : true,
+						"position" : 
+						[
+							84.952087402,
+							240.00378418,
+							-99.993232727
+						],
+						"rotation" : 
+						[
+							28.191360474,
+							7.32861805,
+							-166.613510132
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "cl_e_handleCinematicEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "chemicaltower.trigger1"
+				},
+				"delay" : 2.0,
+				"isServerCallback" : false,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "cl_e_handleCinematicEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "chemicaltower.destroyed"
+				},
+				"delay" : 3.0,
+				"isServerCallback" : false,
+				"type" : "luaEvent"
+			}
+		]
+	},
+	"Cinematic - ExcavationDigger01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 60,
+						"duration" : 5,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							19.115997314,
+							-6.702147961,
+							0.0
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							89.999992371
+						]
+					},
+					{
+						"FOV" : 60,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							19.115997314,
+							6.476074219,
+							0.0
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							89.999969482
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			}
+		]
+	},
+	"Cinematic - KinematicBridge01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 90,
+						"duration" : 12.0,
+						"easing" : "easeInQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							22.297515869,
+							-24.770599365,
+							-44.670043945
+						],
+						"rotation" : 
+						[
+							14.758631706,
+							8.881531715,
+							30.372932434
+						]
+					},
+					{
+						"FOV" : 90,
+						"duration" : 0.0,
+						"easing" : "linear",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-191.628601074,
+							-24.721313477,
+							-44.723297119
+						],
+						"rotation" : 
+						[
+							14.758666039,
+							8.881531715,
+							30.372915268
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 2.5,
+				"shakeAmplitude" : 
+				[
+					0.600000024,
+					0.600000024,
+					0.600000024
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					60.0,
+					60.0,
+					60.0
+				],
+				"shakeRadius" : 500,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.02,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 2.0,
+				"duration" : 4.0,
+				"shakeAmplitude" : 
+				[
+					0.600000024,
+					0.600000024,
+					0.600000024
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					60.0,
+					60.0,
+					60.0
+				],
+				"shakeRadius" : 500,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.04,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 5.0,
+				"duration" : 4.5,
+				"shakeAmplitude" : 
+				[
+					0.600000024,
+					0.600000024,
+					0.600000024
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					30.0,
+					30.0
+				],
+				"shakeRadius" : 500,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.06,
+				"type" : "cameraShake"
+			},
+			{
+				"callback" : "cl_e_cinematicFadeOut",
+				"callbackParams" : 
+				{
+					"duration" : 0.5
+				},
+				"delay" : 11.5,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "cl_e_cinematicFadeIn",
+				"callbackParams" : 
+				{
+					"duration" : 0.5
+				},
+				"delay" : 12.0,
+				"type" : "luaEvent"
+			}
+		]
+	},
+	"Cinematic - OilSpill01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 60,
+						"duration" : 5,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							19.115997314,
+							-6.702147961,
+							0.0
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							89.999992371
+						]
+					},
+					{
+						"FOV" : 60,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							19.115997314,
+							6.476074219,
+							0.0
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							89.999969482
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			}
+		]
+	}
+}

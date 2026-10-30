@@ -1,0 +1,1133 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.58907,
+					0.73351,
+					0.77732,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"cone_angle" : 25.0,
+				"cone_radius" : 0.25,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 24
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.72263,
+									0.72263,
+									0.72263,
+									0.0
+								]
+							],
+							[
+								0.33239,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.582
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.83552
+							],
+							[
+								0.19686,
+								1.40787
+							],
+							[
+								0.36614,
+								1.6447
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.22766,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"enabled" : false,
+						"endDistance" : 15.0,
+						"guid" : 4,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 0.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1011,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 0,
+				"height" : 
+				[
+					2.59998,
+					0.69998
+				],
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "InitSmoke ",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"params" : 2,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.3
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.59998,
+					0.69998
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.58823,
+					0.73333,
+					0.77647,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_dustaftermarth04_nor.tga",
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 6,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.32956,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0592
+							],
+							[
+								0.33537,
+								1.42762
+							],
+							[
+								1.0,
+								1.67104
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.51314
+							],
+							[
+								0.43384,
+								0.62826
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 9,
+						"length" : 0.5,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.22766,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"enabled" : false,
+						"endDistance" : 15.0,
+						"guid" : 10,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 0.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"flatness" : 0.0,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 5,
+				"height" : 
+				[
+					5.0,
+					1.0
+				],
+				"hidden" : true,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"name" : "Clay",
+				"normal" : true,
+				"params" : 2,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : 2.0,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.25
+				],
+				"translucency" : 0.5,
+				"type" : "cone",
+				"velocity" : 
+				[
+					1.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					1.0
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.58823,
+					0.73333,
+					0.77647,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_grenadesmoke02_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 12,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.72263,
+									0.72263,
+									0.72263,
+									0.0
+								]
+							],
+							[
+								0.40845,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.49608
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.22766,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"enabled" : false,
+						"endDistance" : 15.0,
+						"guid" : 14,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 0.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1011,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 11,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "InitSmoke ",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"params" : 2,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					180.0,
+					25.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.5
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					1.0
+				]
+			},
+			{
+				"angle" : 10.0,
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"circle_angle" : 56.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/thruster_thruster03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.4,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.01561,
+									0.0,
+									0.04687,
+									1.0
+								]
+							],
+							[
+								0.30704,
+								[
+									1.0,
+									0.5156,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.72394,
+								[
+									1.0,
+									0.65625,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0104,
+									0.0,
+									0.03125,
+									1.0
+								]
+							]
+						],
+						"guid" : 16,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.46709
+							],
+							[
+								1.0,
+								1.85222
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 75,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 15,
+				"height" : 
+				[
+					0.3,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 30,
+				"name" : "Sparks1",
+				"radius" : 0.4,
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.6,
+					0.3
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					7.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.07,
+					0.01999
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.51024,
+					0.64622,
+					0.6875,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 19,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.72263,
+									0.72263,
+									0.72263,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.85913,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.96561
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.83552
+							],
+							[
+								0.19686,
+								1.40787
+							],
+							[
+								0.36614,
+								1.6447
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.22766,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"endDistance" : 15.0,
+						"guid" : 22,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 0.0,
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58552
+							],
+							[
+								1.0,
+								0.67434
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 23,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 18,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 15,
+				"min_quality" : "medium",
+				"name" : "Dust1",
+				"params" : 2,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"sphere_radius" : 1.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.3
+				],
+				"translucency" : 1.0,
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					3.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					1.0
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.70218,
+					0.87067,
+					0.92185,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_dustaftermarth02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.72263,
+									0.72263,
+									0.72263,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.85913,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.96561
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 25,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.83552
+							],
+							[
+								0.19686,
+								1.40787
+							],
+							[
+								0.36614,
+								1.6447
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.22766,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"enabled" : false,
+						"endDistance" : 15.0,
+						"guid" : 27,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 0.0,
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5296
+							],
+							[
+								1.0,
+								0.67763
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 28,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 24,
+				"height" : 
+				[
+					2.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"min_quality" : "medium",
+				"name" : "Dust1",
+				"params" : 2,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"sphere_radius" : 1.0,
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"translucency" : 1.0,
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					3.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					1.0
+				]
+			},
+			{
+				"angle" : 10.0,
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"circle_angle" : 56.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/thruster_thruster03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.01561,
+									0.0,
+									0.04687,
+									1.0
+								]
+							],
+							[
+								0.30704,
+								[
+									1.0,
+									0.5156,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.72394,
+								[
+									1.0,
+									0.65625,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0104,
+									0.0,
+									0.03125,
+									1.0
+								]
+							]
+						],
+						"guid" : 30,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.46709
+							],
+							[
+								1.0,
+								1.85222
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 150,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 29,
+				"height" : 
+				[
+					0.5,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 30,
+				"name" : "Sparks2",
+				"radius" : 0.4,
+				"rotation" : 
+				[
+					0.0,
+					1.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.3,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					7.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.07,
+					0.01999
+				],
+				"z_offset" : 1.0
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 0.5,
+		"scale_velocity" : 0.5
+	}
+}

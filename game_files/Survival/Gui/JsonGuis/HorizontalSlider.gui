@@ -1,0 +1,150 @@
+{
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Name" : "Background",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LargeHorizontalSliderBackground",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 13.0,
+					"width" : 126.0,
+					"x" : 4.0,
+					"y" : 28.0
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "gui_background_slider_limiter_horizontal_new.png",
+							"Name" : "LimiterEnd",
+							"NeedKey" : true,
+							"NeedMouse" : true,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 13,
+							"width" : 2.0,
+							"x" : 0.0,
+							"y" : 0.0
+						},
+						{
+							"Caption" : "#{SLIDER_LIMIT}",
+							"Childs" : [],
+							"FontName" : "SM_SliderLabel",
+							"Name" : "RangeLimitText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Left",
+							"TextColour" : "1 0.8 0.24 1",
+							"Type" : "TextBox",
+							"height" : 13,
+							"width" : 100,
+							"x" : 20,
+							"y" : 0.0
+						}
+					],
+					"Name" : "Limiter",
+					"NeedKey" : true,
+					"NeedMouse" : true,
+					"Skin" : "LargeHorizontalSliderLimiter",
+					"Type" : "Widget",
+					"height" : 13.0,
+					"width" : 7.0,
+					"x" : 122.0,
+					"y" : 28.0
+				},
+				{
+					"Childs" : [],
+					"Name" : "Progress",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "LargeHorizontalSliderProgress",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 12.0,
+					"width" : 58.0,
+					"x" : 4.0,
+					"y" : 28.0
+				},
+				{
+					"Childs" : [],
+					"Name" : "InnerShadow",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "LargeHorizontalSliderInnerShadow",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 16.0,
+					"width" : 128.0,
+					"x" : 2.0,
+					"y" : 26.0
+				},
+				{
+					"Childs" : [],
+					"Cursor" : "Draggable",
+					"Name" : "Handle",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LargeHorizontalSliderHandle",
+					"Type" : "Button",
+					"height" : 32.0,
+					"onDrag" : "cl_onHorizontalSliderHandleDrag",
+					"onPressed" : "cl_onHorizontalSliderHandlePressed",
+					"onReleased" : "cl_onHorizontalSliderHandleReleased",
+					"width" : 28.0,
+					"x" : 54.0,
+					"y" : 18.0
+				},
+				{
+					"Childs" : [],
+					"Name" : "LineContainer",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"height" : 10.0,
+					"width" : 134.0,
+					"x" : 0.0,
+					"y" : 9.0
+				},
+				{
+					"Childs" : [],
+					"Name" : "IndexContainer",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"height" : 9.0,
+					"width" : 134.0,
+					"x" : 0.0,
+					"y" : 0.0
+				}
+			],
+			"Name" : "RightSpeed",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"height" : 50.0,
+			"width" : 296.0,
+			"x" : 0.0,
+			"y" : 0.0
+		}
+	],
+	"Name" : "MainPanel",
+	"NeedKey" : false,
+	"NeedMouse" : true,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"height" : 50.0,
+	"width" : 134.0,
+	"x" : 0.0,
+	"y" : 0.0
+}

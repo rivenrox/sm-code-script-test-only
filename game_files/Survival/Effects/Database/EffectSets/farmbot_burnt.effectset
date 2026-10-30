@@ -1,0 +1,360 @@
+{
+	"Burnt Farmbot - Attachedfire_big" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_farmbot_burnt_bigfire01",
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/placeholder/3dLoop"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Burnt Farmbot - Attachedfire_small" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_farmbot_burnt_smallfire01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/placeholder/3dLoop"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Burnt Farmbot - Attack03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.3,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_farmbot_burnt_attack_trail03",
+				"offset" : 
+				[
+					0.0,
+					-1.25,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbot_attack_03"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Burnt Farmbot - Explosion" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_farmbot_burnt_destroy_explosion",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_explosion_lingeringsmoke01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.75
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/weapons/explosion_gas"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"size"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"duration" : 0.6,
+				"shakeAmplitude" : 
+				[
+					20.0,
+					20.0,
+					20.0
+				],
+				"shakeFalloffDuration" : 0.0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 1.0,
+				"type" : "cameraShake"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.07,
+						"value" : 10.0
+					},
+					{
+						"time" : 0.18,
+						"value" : 14.0
+					},
+					{
+						"time" : 0.25,
+						"value" : 15.0
+					},
+					{
+						"time" : 0.7,
+						"value" : 7.0
+					},
+					{
+						"time" : 1.0,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffd8b0",
+			"intensity" : 5.0,
+			"radius" : 16.0,
+			"shakeRadius" : 5.0,
+			"shakeStrength" : 0.25,
+			"size" : 0.0
+		}
+	},
+	"Burnt Farmbot - Fireprojectile" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_attached_fire_projectile01",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/weapons/fire/fireball"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Burnt Farmbot - Fireprojectileimpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_attached_fire_projectile01_impact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/weapons/fire/fireball_impact"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 2.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.25,
+						"value" : 3.5
+					},
+					{
+						"time" : 1.0,
+						"value" : 2.5
+					},
+					{
+						"time" : 1.1,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ff6500ff",
+			"intensity" : 5.0,
+			"radius" : 50.0,
+			"size" : 0.0
+		}
+	},
+	"Burnt Farmbot - Battery_impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_farmbot_burnt_battery_impact",
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/placeholder/3dOneshot"
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}

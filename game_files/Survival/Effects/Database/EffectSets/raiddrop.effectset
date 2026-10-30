@@ -1,0 +1,2113 @@
+{
+	"Raidrop01 - Droppod" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/ship_engine"
+				],
+				"delay" : 0.0,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_mainframe.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/ship_drop"
+				],
+				"delay" : 9.199999809,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_mainframe.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/container_fall"
+				],
+				"delay" : 9.0,
+				"duration" : 4.0,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : true
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/container_land"
+				],
+				"delay" : 10.0,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/container_open"
+				],
+				"delay" : 11.699999809,
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					-5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					-6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"label" : "frame",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_mainframe.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					89.999984741,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_mainframe.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Arm01_left",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_arm01_left.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_arm01_left.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Arm02_right",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_arm02_right.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_arm02_right.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Backdoor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_backdoor.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_backdoor.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Frontdoor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_frontdoor.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_frontdoor.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Base",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_base.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Leftdoor01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_secondarydoor01_left.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_secondarydoor01_left.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Rightdoor02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_secondarydoor02_right.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_secondarydoor02_right.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruster_left_back_01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster01_leftback.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster01_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruste_right_back_02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster02_rightback.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster02_rightback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruster_right_back_03",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster03_leftfront.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster03_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruster_right_back_04",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster04_rightfront.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster04_rightfront.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters01"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster01_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters02"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster02_rightback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster03",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters03"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster03_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster04",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters04"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_thruster04_rightfront.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"delay" : 10.25,
+				"label" : "EFFECT - Impactsmoke",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_impactsmoke"
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 10.25,
+				"duration" : 0.25,
+				"label" : "CameraShake - Bigimpact",
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 2.0,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 12.199999809,
+				"duration" : 0.125,
+				"label" : "CameraShake - Door1",
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 12.25,
+				"duration" : 0.125,
+				"label" : "CameraShake - Door2",
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.15,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 12.350000381,
+				"duration" : 0.125,
+				"label" : "CameraShake - Door3",
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 9,
+			"pose2" : 0.5
+		}
+	},
+	"Raidrop01 - DroppodImpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					-5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					-6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 9,
+			"pose2" : 0.5
+		}
+	},
+	"Raidrop02 - Droppod" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/ship_engine"
+				],
+				"delay" : 0.0,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_mainframe.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/ship_drop"
+				],
+				"delay" : 9.199999809,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_mainframe.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/container_fall"
+				],
+				"delay" : 9.0,
+				"duration" : 4.0,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop01_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : true
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/container_land"
+				],
+				"delay" : 10.0,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/raiddrop/container_open"
+				],
+				"delay" : 11.699999809,
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					-5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					-6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"label" : "frame",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_mainframe.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_mainframe.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Arm01_left",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_arm01_left.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_arm01_left.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Arm02_right",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_arm02_right.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_arm02_right.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Backdoor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_backdoor.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_backdoor.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Frontdoor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_frontdoor.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_frontdoor.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Base",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_base.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_base.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Leftdoor01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_secondarydoor01_left.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_secondarydoor01_left.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Rightdoor02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"parameters" : 
+				[
+					"pose2"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_secondarydoor02_right.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_secondarydoor02_right.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruster_left_back_01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster01_leftback.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster01_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruste_right_back_02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster02_rightback.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster02_rightback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruster_right_back_03",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster03_leftfront.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster03_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"label" : "Thruster_right_back_04",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"offsetScale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/raiddrop/eff_raiddrop_droppod_thruster04_rightfront.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster04_rightfront.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters01"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster01_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters02"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster02_rightback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster03",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters03"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster03_leftback.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"label" : "effect - thruster04",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_thrusters04"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					-0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"file" : "$SURVIVAL_DATA/Effects/tracknodes/eff_raiddrop02_droppod_thruster04_rightfront.tracknodes",
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"delay" : 10.25,
+				"label" : "EFFECT - Impactsmoke",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.400000006
+				],
+				"particles" : 
+				[
+					"p_raiddrop_droppod_impactsmoke"
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 10.25,
+				"duration" : 0.25,
+				"label" : "CameraShake - Bigimpact",
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 2.0,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 12.199999809,
+				"duration" : 0.125,
+				"label" : "CameraShake - Door1",
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 12.25,
+				"duration" : 0.125,
+				"label" : "CameraShake - Door2",
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.15,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 12.350000381,
+				"duration" : 0.125,
+				"label" : "CameraShake - Door3",
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					57.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 9,
+			"pose2" : 0.5
+		}
+	},
+	"Raidrop02 - DroppodImpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					0.0,
+					-5.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 12.0,
+				"offset" : 
+				[
+					-6.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 9,
+			"pose2" : 0.5
+		}
+	}
+}

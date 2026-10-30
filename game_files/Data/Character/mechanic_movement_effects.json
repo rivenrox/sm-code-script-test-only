@@ -1,0 +1,246 @@
+{
+	"crouch" : 
+	{
+		"frameEffects" : 
+		[
+			{
+				"effect" : "Mechanic crouch walk",
+				"frames" : 
+				[
+					{
+						"frame" : 5,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 11,
+						"joint" : "jnt_right_toebase"
+					}
+				]
+			},
+			{
+				"effect" : "Mechanic - Watersplash_crouching",
+				"frames" : 
+				[
+					{
+						"frame" : 5,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 11,
+						"joint" : "jnt_right_toebase"
+					}
+				],
+				"condition" : "liquidSplash",
+				"liquid" : "water",
+				"maxDepth" : 0.3
+			},
+			{
+				"effect" : "Mechanic - Oilsplash_crouching",
+				"frames" : 
+				[
+					{
+						"frame" : 5,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 11,
+						"joint" : "jnt_right_toebase"
+					}
+				],
+				"condition" : "liquidSplash",
+				"liquid" : "oil",
+				"maxDepth" : 0.3
+			},
+			{
+				"effect" : "Mechanic - Chemicalsplash_crouching",
+				"frames" : 
+				[
+					{
+						"frame" : 5,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 11,
+						"joint" : "jnt_right_toebase"
+					}
+				],
+				"condition" : "liquidSplash",
+				"liquid" : "chemical",
+				"maxDepth" : 0.3
+			},
+			{
+				"effect" : "Mechanic - Lavasplash_crouching",
+				"frames" : 
+				[
+					{
+						"frame" : 5,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 11,
+						"joint" : "jnt_right_toebase"
+					}
+				],
+				"condition" : "liquidSplash",
+				"liquid" : "lava",
+				"maxDepth" : 0.3
+			}
+		]
+	},
+	"jump" : "Mechanic jump",
+	"land" : "Mechanic land",
+	"run" : 
+	{
+		"frameEffects" : 
+		[
+			{
+				"effect" : "Mechanic walk",
+				"frames" : 
+				[
+					{
+						"frame" : 1,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 10,
+						"joint" : "jnt_right_toebase"
+					}
+				],
+				"condition" : "liquidSurface",
+				"shallowDepth" : 0.3
+			},
+			{
+				"effect" : "Mechanic - Watersplash_walking",
+				"splashEffects" : [
+					{
+						"effect" : "Mechanic - Watersplash_walking",
+						"liquid" : "water"	
+					},
+					{
+						"effect" : "Mechanic - Oilsplash_walking",
+						"liquid" : "oil"
+					},
+					{
+						"effect" : "Mechanic - Chemicalsplash_walking",
+						"liquid" : "chemical"	
+					},
+					{
+						"effect" : "Mechanic - Lavasplash_walking",
+						"liquid" : "lava"	
+					}
+				],
+				"frames" : 
+				[
+					{
+						"frame" : 1,
+						"joint" : "jnt_left_toeend"
+					},
+					{
+						"frame" : 10,
+						"joint" : "jnt_right_toeend"
+					}
+				],
+				"condition" : "liquidSplash",
+				"maxDepth" : 0.3
+			}
+		]
+	},
+	"sprint" : 
+	{
+		"frameEffects" : 
+		[
+			{
+				"effect" : "Mechanic walk",
+				"frames" : 
+				[
+					{
+						"frame" : 6,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 13,
+						"joint" : "jnt_right_toebase"
+					}
+				],
+				"condition" : "liquidSurface",
+				"shallowDepth" : 0.3
+			},
+			{
+				"effect" : "Mechanic - Watersplash_running",
+				"frames" : 
+				[
+					{
+						"frame" : 6,
+						"joint" : "jnt_left_toebase"
+					},
+					{
+						"frame" : 13,
+						"joint" : "jnt_right_toebase"
+					}
+				],
+				"splashEffects" : [
+					{
+						"effect" : "Mechanic - Watersplash_walking",
+						"liquid" : "water"	
+					},
+					{
+						"effect" : "Mechanic - Oilsplash_running",
+						"liquid" : "oil"
+					},
+					{
+						"effect" : "Mechanic - Chemicalsplash_running",
+						"liquid" : "chemical"	
+					},
+					{
+						"effect" : "Mechanic - Lavasplash_running",
+						"liquid" : "lava"	
+					}
+				],
+				"condition" : "liquidSplash",
+				"maxDepth" : 0.3
+			}
+		]
+	},
+	"startCrouch" : "Mechanic crouch",
+	"stopCrouch" : "Mechanic getUp",
+	"swim bwd" : 
+	{
+		"frameEffects" : 
+		[
+			{
+				"effect" : "Mechanic - Swimbackward",
+				"frames" : 
+				[
+					{
+						"frame" : 6,
+						"joint" : "jnt_spine3"
+					},
+					{
+						"frame" : 13,
+						"joint" : "jnt_spine3"
+					}
+				]
+			}
+		]
+	},
+	"swim fwd" : 
+	{
+		"frameEffects" : 
+		[
+			{
+				"effect" : "Mechanic - Swimforeward",
+				"frames" : 
+				[
+					{
+						"frame" : 6,
+						"joint" : "jnt_spine3"
+					},
+					{
+						"frame" : 13,
+						"joint" : "jnt_spine3"
+					}
+				]
+			}
+		]
+	}
+}

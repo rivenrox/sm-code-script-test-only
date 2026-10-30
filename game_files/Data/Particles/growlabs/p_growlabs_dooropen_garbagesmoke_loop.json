@@ -1,0 +1,878 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 15.0,
+				"box" : 
+				[
+					9.0,
+					1.0,
+					0.00999
+				],
+				"category" : "1 - DoorOpen",
+				"color" : 
+				[
+					0.6406,
+					1.0,
+					0.0,
+					0.80075
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 7.0,
+				"editorColor" : 
+				[
+					0.41405,
+					0.8352,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 8,
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.97368
+							],
+							[
+								0.33673,
+								1.40181
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.20281,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.61325
+								]
+							],
+							[
+								0.76055,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0197
+							],
+							[
+								1.0,
+								-0.11186
+							]
+						],
+						"guid" : 4,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.18422
+							],
+							[
+								1.0,
+								-0.1053
+							]
+						],
+						"guid" : 5,
+						"max" : 2.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.36842
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 6,
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.25,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Smoke-1 Horizontal",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.48315,
+					0.25712
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					0.25
+				],
+				"translucency" : 0.5,
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					0.25
+				]
+			},
+			{
+				"angle" : 15.0,
+				"box" : 
+				[
+					9.0,
+					1.0,
+					0.00999
+				],
+				"category" : "1 - DoorOpen",
+				"color" : 
+				[
+					0.64059,
+					1.0,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_wispofsmoke.tga",
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 7.0,
+				"editorColor" : 
+				[
+					0.41405,
+					0.8352,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 8
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.97368
+							],
+							[
+								0.33673,
+								1.40181
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.20281,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.61325
+								]
+							],
+							[
+								0.76055,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.01974
+							],
+							[
+								0.45846,
+								-0.00658
+							],
+							[
+								0.72921,
+								0.0592
+							],
+							[
+								0.87998,
+								0.17104
+							],
+							[
+								1.0,
+								0.36842
+							]
+						],
+						"guid" : 11,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.18422
+							],
+							[
+								1.0,
+								-0.1053
+							]
+						],
+						"guid" : 12,
+						"max" : 2.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.36842
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 6,
+				"friction" : 1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					1.25,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Smoke-2 Horizontal",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.48315,
+					0.25712
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					0.25
+				],
+				"translucency" : 0.5,
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					0.25
+				]
+			},
+			{
+				"box" : 
+				[
+					7.0,
+					0.25,
+					0.00999
+				],
+				"category" : "1 - DoorOpen",
+				"color" : 
+				[
+					0.6406,
+					1.0,
+					0.0,
+					0.80075
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 7.0,
+				"editorColor" : 
+				[
+					0.41405,
+					0.8352,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 15,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 8
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.92763
+							],
+							[
+								0.35076,
+								1.26312
+							],
+							[
+								0.58459,
+								1.58881
+							],
+							[
+								0.8,
+								2.08223
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.20281,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.61325
+								]
+							],
+							[
+								0.76055,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0197
+							],
+							[
+								1.0,
+								-0.11186
+							]
+						],
+						"guid" : 18,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-0.06579
+							]
+						],
+						"guid" : 19,
+						"max" : 2.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.36842
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 6,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 1.0,
+				"guid" : 14,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Smoke-3 Vertical",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.38348,
+					3.58207
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-180.0,
+					90.0,
+					-180.0
+				],
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					0.25
+				],
+				"translucency" : 0.5,
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"box" : 
+				[
+					7.0,
+					0.25,
+					0.00999
+				],
+				"category" : "1 - DoorOpen",
+				"color" : 
+				[
+					0.64059,
+					1.0,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_wispofsmoke.tga",
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 7.0,
+				"editorColor" : 
+				[
+					0.41405,
+					0.8352,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 22,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 8
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.97368
+							],
+							[
+								0.33673,
+								1.40181
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.20281,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.61325
+								]
+							],
+							[
+								0.76055,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0197
+							],
+							[
+								1.0,
+								-0.11186
+							]
+						],
+						"guid" : 25,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-0.06579
+							]
+						],
+						"guid" : 26,
+						"max" : 2.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.36842
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 4,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 1.0,
+				"guid" : 21,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Smoke-4 Vertical",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.38348,
+					3.58207
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-180.0,
+					90.0,
+					-180.0
+				],
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					0.25
+				],
+				"translucency" : 0.5,
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.125
+				]
+			}
+		]
+	}
+}

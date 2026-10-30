@@ -1,0 +1,373 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/kin_warehouse/kin_warehouse_powerladderhandle_col.obj",
+			"collides" : 
+			{
+				"character" : false,
+				"body" : true,
+				"projectile" : true,
+				"melee" : true
+			},
+			"color" : "e8a009ff",
+			"mass" : 15000.0,
+			"material" : "Rock",
+			"name" : "kin_warehouse_powerladderhandle",
+			"params" : 
+			[],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/kin_warehouse/kin_warehouse_powerladderhandle.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderHandle",
+				"data" : 
+				{
+					"maxSpeedAudio" : 70
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/PowerLadderHandle.lua",
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.6,
+								"y" : 0.0,
+								"z" : -0.5
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.6,
+								"y" : 0.0,
+								"z" : -0.5
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftArm",
+							"offset" : 
+							{
+								"x" : 1.45,
+								"y" : -1.2,
+								"z" : -0.25
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightArm",
+							"offset" : 
+							{
+								"x" : -1.45,
+								"y" : -1.2,
+								"z" : -0.25
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Hips",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.0,
+								"z" : 0.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Spine",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.0,
+								"z" : 0.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Spine2",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.0,
+								"z" : 0.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Head",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : -1.0,
+								"z" : 0.0
+							}
+						}
+						///  Saved settings for making legs really stiff
+						/* ,
+						{
+							"freeRotation" : true,
+							"name" : "LeftUpLeg",
+							"offset" : 
+							{
+								"x" : 0.65,
+								"y" : -4.9,
+								"z" : 0.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightUpLeg",
+							"offset" : 
+							{
+								"x" : -0.65,
+								"y" : -4.9,
+								"z" : 0.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftLeg",
+							"offset" : 
+							{
+								"x" : 0.65,
+								"y" : -5.8,
+								"z" : 0.0
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightLeg",
+							"offset" : 
+							{
+								"x" : -0.65,
+								"y" : -5.8,
+								"z" : 0.0
+							}
+						} */
+					],
+					"enterAudio" : "Seat seated",
+					"exitAudio" : "Seat unseated",
+					"ragdollFile" : "$GAME_DATA/Character/powerladder_ragdoll.json"
+				}
+			},
+			"uuid" : "446df892-0b0c-42c9-8625-9d94f8ba53ea"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straightpiece_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 100.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straightpiece",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straightpiece.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "cdef0fde-8948-4daa-8b93-703f729d6766"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straight01_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straight01",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straight01.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "8603db17-2d2a-4410-ada1-7b9da53c63aa"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straight02_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straight02",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straight02.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "7fc4321b-173c-4807-a43f-6517538bd101"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straight03_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straight03",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straight03.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "50d12650-9505-481e-adad-6df638dc2c4e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straight04_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straight04",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straight04.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "bad28a17-bac3-4e7e-a7f7-35e648902378"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straight04_mirrored_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straight04_mirrored",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straight04_mirrored.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "a7f7a394-876b-43ba-b82b-0f1eed94525e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_turn01_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_turn01",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_turn01.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "bc8e90f2-669b-4428-b4e1-723a01d54870"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_turn02_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_turn02",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_turn02.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "21f0ffd0-c3ad-403f-931f-9db4e6032ef6"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_turn03_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_turn03",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_turn03.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "a4677900-f3ae-45ba-9161-2ba4742eb889"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_turn04_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_turn04",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_turn04.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "aceb34e2-baf3-41f9-affa-dd69bf1da7ac"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_turn06_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_turn06",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_turn06.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "15e59798-21b4-4f88-a803-bf0b2ac311bc"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_turn07_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_turn07",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_turn07.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "bdfbb1c1-1a77-453e-a6ba-3a9f8ae91cf5"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straight05_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straight05",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straight05.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "a2f5c029-cc09-4224-aed3-2c82769a6bef"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Powerladder/hvs_powerladder_straight05_mirrored_col.fbx",
+			"color" : "e8a009ff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "hvs_powerladder_straight05_mirrored",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Powerladder/hvs_powerladder_straight05_mirrored.rend",
+			"script" : 
+			{
+				"class" : "PowerLadderRail",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/PowerLadderRail.lua"
+			},
+			"uuid" : "bda46bf6-ea46-465c-94a5-53e3b0024ab3"
+		}
+	]
+}

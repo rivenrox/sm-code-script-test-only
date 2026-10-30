@@ -1,0 +1,43 @@
+{
+    "template_meta": { 
+		"uuid" : "e570e68d-f6fd-4ae3-8702-ff21261f3ddd",
+		"name":"Physics Materials", 
+		"pattern": ["*.physicsmaterials"]
+	 },
+	
+	"materialIds_meta": {
+		"valueAsLabel": ["id", "name"],
+		"noIndexLabel": true,
+		"multiValueAsLabel": true,
+		"value_meta": {
+			"startCollapsed" : true
+		}
+	},
+	"materialIds" : [
+		{
+			"name_meta": { "type": "string", "order": 0 },
+			"name": "Unnamed Material",
+			"id_meta": { "type": "int", "order": 1 },
+			"id": 1,
+			"slippery_meta": { "label": "Slippery*", "optional": true, "order": 2, "toolTip": "If true, the material will be slippery for characters." },
+			"slippery": false
+		}
+	],
+
+	"toolIds_meta": {
+		"valueAsLabel": ["id", "name"],
+		"noIndexLabel": true,
+		"multiValueAsLabel": true,
+		"value_meta": {
+			"startCollapsed" : true
+		}
+	},
+	"toolIds" : [
+		{
+			"name_meta": { "type": "string", "order": 0 },
+			"name": "Unnamed Material",
+			"id_meta": { "type": "int", "order": 1 },
+			"id": 1
+		}
+	]
+}

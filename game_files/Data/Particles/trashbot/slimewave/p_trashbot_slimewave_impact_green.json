@@ -1,0 +1,439 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "3",
+				"color" : 
+				[
+					0.33724,
+					0.8392,
+					0.0549,
+					1.0
+				],
+				"depth" : 
+				[
+					2.0,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.31578
+							],
+							[
+								0.22551,
+								1.20518
+							],
+							[
+								0.80699,
+								1.04935
+							],
+							[
+								0.90223,
+								0.84153
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 2,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 3,
+						"max" : 90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 250,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 3.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 2,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "high",
+				"name" : "Drops (high)",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_drops_slime_green.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"sphere_radius" : 0.5,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.33
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					10.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/2d_particles/screen_effects/p_2d_screen_effect_splatter01_asg.tga",
+				"angle" : 1.0,
+				"category" : "3",
+				"depth" : 
+				[
+					6.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 5,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 6,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.48355
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"friction" : 5.0,
+				"guid" : 4,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "MatCapUvAnimAlphaFlip",
+				"max_particles" : 3,
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_tapebot_yellow_cmyk_fbrdf.tga",
+				"mesh_size" : 
+				[
+					2.0,
+					2.0,
+					2.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "medium",
+				"name" : "GoopPlane05   (medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/2d_particles/screen_effects/p_2d_screen_effect_splatter01_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_renderable_trashbot_splatter_plane03_slime_green.rend",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					16
+				],
+				"time_to_live" : 
+				[
+					0.6,
+					0.1
+				],
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"category" : "2",
+				"circle_angle" : 85.0,
+				"depth" : 
+				[
+					22.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.52732,
+					1.0,
+					0.61224,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 9,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.13797,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27959
+							],
+							[
+								0.24921,
+								0.64143
+							],
+							[
+								0.41538,
+								0.81576
+							],
+							[
+								0.6523,
+								0.91776
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 12,
+						"max" : -90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.25,
+				"guid" : 8,
+				"height" : 
+				[
+					22.0,
+					1.0
+				],
+				"keep_local" : true,
+				"material_name" : "GlassUvAnimFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/p_mesh_trashbot_stickybubbles_plane01.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency03_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "Base Splash 3 (low)",
+				"particle" : "mesh",
+				"radius" : 0.05,
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/slimewave/p_renderable_trashbot_slimewave_shockwave_slime_green.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.449999988,
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					22.0,
+					1.0
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 0.3,
+		"scale_velocity" : 0.5
+	}
+}

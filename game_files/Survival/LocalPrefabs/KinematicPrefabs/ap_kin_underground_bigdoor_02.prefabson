@@ -1,0 +1,280 @@
+{
+	"entities" : 
+	{
+		"assets" : 
+		[
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "a5883537-9c9e-49d1-bd1f-e57822498c81",
+				"hidden" : false,
+				"locked" : false,
+				"transform" : 
+				{
+					"position" : 
+					[
+						64.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						89.999893188476562,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "330c5552-3cbe-46a1-9008-a8dadbf64381"
+			}
+		],
+		"grids" : 
+		[
+			{
+				"guid" : "a5838468-951e-4ab2-aa68-ed685b5a6963",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"harvestables" : [],
+		"kinematics" : 
+		[
+			{
+				"color" : "#F5AC13FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "877ecdeb-c5b3-49ca-8698-eddbe7851cba",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "lockTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "opengate02"
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"duration" : 2.5,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutExpo",
+										"event" : "Dust01",
+										"eventDelay" : 3,
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 20,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											8.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											155.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						64.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						89.999870300292969,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "ef46cc45-61aa-4feb-b730-4c6425ebcf6b"
+			},
+			{
+				"color" : "#EE7716FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "325a223d-41bb-4ced-afd1-0ebac13495c3",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "eventTrigger",
+						"type" : "string",
+						"value" : "opengate02"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						74.576881408691406,
+						-12.683841705322266,
+						1.2675838470458984
+					],
+					"rotation" : 
+					[
+						-89.999992370605469,
+						-8.1422200795891464e-13,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "1bcd2a56-08ed-4352-a0aa-84737db47d05"
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "93feea29-85c5-421b-b549-c5926beeb575",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"autoPlay" : false,
+						"descName" : "effect",
+						"name" : "Bigdoor - Startup_smoke01",
+						"params" : [],
+						"type" : "effect"
+					},
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : "Dust01"
+					}
+				],
+				"tags" : 
+				[
+					"EFFECT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						64.0,
+						0.0,
+						23.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 76561197982032350,
+		"uuid" : "c1890ca9-52d9-4df1-bfc0-fa1dcd14eba1"
+	}
+}

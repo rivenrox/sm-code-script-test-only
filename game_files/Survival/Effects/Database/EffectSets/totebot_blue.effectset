@@ -1,0 +1,302 @@
+{
+	"ToteBotBlue - Alerted" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_noticeplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 1
+		}
+	},
+	"ToteBotBlue - Attack" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_attack"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 1
+		}
+	},
+	"ToteBotBlue - Bite" : 
+	{
+		"effectList" : 
+		[
+
+		]
+	},
+	"ToteBotBlue - ChasePlayer" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_walk_chaseplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 1
+		}
+	},
+	"ToteBotBlue - FotStep" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_blue_ff"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"ToteBotBlue - HeadTurn" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_foley_servo"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"ToteBotBlue - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_takedamage"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.050000001,
+				"name" : "p_haybot_hit01",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 1
+		}
+	},
+	"ToteBotBlue - RevDrill" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_blue_swim_sprint"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Totebotblue - Attackimpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_blue_attack_impact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebotattack"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Totebotblue - Destroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_blue_destroy_parts",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_destroy",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_explode"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 1
+		}
+	},
+	"Totebotblue - Drillactive" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_blue_drillactive",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_blue_swim_sprint_propeller"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Totebotblue - Idlebubble" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_totebot_blue_idle_bubbles",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_blue_idlebubble"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	}
+}

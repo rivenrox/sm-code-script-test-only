@@ -1,0 +1,442 @@
+{
+	"Attached - Goopiumlight" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					0.450317383,
+					0.660041809,
+					0.9296875,
+					1.0
+				],
+				"disableVolumetric" : false,
+				"intensity" : 0.75,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					1.5
+				],
+				"radius" : 10.0,
+				"type" : "pointLight",
+				"volMaxIntensity" : 0.200000003
+			}
+		]
+	},
+	"Attached - Light Elevator Exterior" : 
+	{
+		"effectList" : 
+		[
+			{
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "",
+				"type" : "spotLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0
+						]
+					},
+					{
+						"time" : 0.5,
+						"value" : 
+						[
+							1.5
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"additive" : false,
+			"ambient" : false,
+			"ambientIntensityScale" : 0.200000003,
+			"ambientMaxIntensity" : 10.0,
+			"ambientPosScale" : 0.25,
+			"ambientRangeScale" : 1.0,
+			"color" : "f47522ff",
+			"coneAngle" : 52.0,
+			"coneFade" : 0.409999996,
+			"cookie" : 0,
+			"customVolumetric" : true,
+			"disableVolumetric" : false,
+			"falloffFactor" : 1.0,
+			"falloffMode" : 0,
+			"intensity" : 1.5,
+			"maxIntensity" : 1.399999976,
+			"range" : 24.0,
+			"shadowMode" : 2,
+			"volConeAngle" : 45.0,
+			"volConeFade" : 0.5,
+			"volFadeInRange" : 1.25,
+			"volFadeInStart" : 0.25,
+			"volFalloffFactor" : 1.0,
+			"volFalloffMode" : 0,
+			"volIntensity" : 0.300000012,
+			"volMaxIntensity" : 1.0,
+			"volMaxRange" : 50.0,
+			"volMinRange" : 100.0
+		}
+	},
+	"Attached - LightBuzzSound" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/amb/3d/light_electric"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Attached - LightSound_Turnon" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/growlab/lights_on"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Attached - Phosphorciclelight_blue_medium" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					0.239215702,
+					0.760784388,
+					0.992156923,
+					1.0
+				],
+				"disableVolumetric" : false,
+				"intensity" : 0.800000012,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 12.0,
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_hvs_phosphorcicle_idle_big",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Attached - Phosphorciclelight_blue_small" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					0.239215702,
+					0.760784388,
+					0.992156923,
+					1.0
+				],
+				"disableVolumetric" : false,
+				"intensity" : 0.800000012,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 5.0,
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_hvs_phosphorcicle_idle_small",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Attached - Pointlight_Large" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : true,
+				"ambient" : false,
+				"color" : 
+				[
+					0.67024231,
+					0.88513875,
+					0.98046875,
+					1.0
+				],
+				"disableVolumetric" : true,
+				"intensity" : 1.0,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 22.0,
+				"type" : "pointLight"
+			}
+		]
+	},
+	"Attached - Pointlight_blue" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : true,
+				"ambient" : false,
+				"color" : 
+				[
+					0.239215702,
+					0.760784388,
+					0.992156923,
+					1.0
+				],
+				"disableVolumetric" : true,
+				"intensity" : 1.0,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 12.0,
+				"type" : "pointLight"
+			}
+		]
+	},
+	"Attached - Spotlight_Yellow" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : true,
+				"ambient" : false,
+				"color" : 
+				[
+					0.9921875,
+					0.7203269,
+					0.341064453,
+					1.0
+				],
+				"coneAngle" : 30.0,
+				"coneFade" : 0.449999988,
+				"customVolumetric" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"disableVolumetric" : true,
+				"intensity" : 0.899999976,
+				"maxIntensity" : 1.5,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 14.0,
+				"range" : 20.0,
+				"type" : "spotLight",
+				"volFadeInRange" : 6.0,
+				"volFadeInStart" : 0.0,
+				"volIntensity" : 0.5,
+				"volMaxRange" : 32.0,
+				"volMinRange" : 28.0
+			}
+		]
+	},
+	"Attached - Spotlight_blue" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : true,
+				"ambient" : true,
+				"ambientIntensityScale" : 0.400000006,
+				"ambientMaxIntensity" : 1.0,
+				"ambientPosScale" : 0.300000012,
+				"ambientRangeScale" : 0.449999988,
+				"color" : 
+				[
+					0.355163574,
+					0.793729424,
+					0.98828125,
+					1.0
+				],
+				"coneAngle" : 62.0,
+				"coneFade" : 0.75,
+				"disableVolumetric" : true,
+				"intensity" : 1.5,
+				"maxIntensity" : 2.0,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 14.0,
+				"range" : 38.0,
+				"type" : "spotLight"
+			}
+		]
+	},
+	"Attached - Spotlight_cold_white" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : false,
+				"ambient" : false,
+				"ambientIntensityScale" : 0.400000006,
+				"ambientMaxIntensity" : 1.0,
+				"ambientPosScale" : 0.300000012,
+				"ambientRangeScale" : 0.449999988,
+				"color" : 
+				[
+					0.835128784,
+					0.903336287,
+					0.93359375,
+					1.0
+				],
+				"coneAngle" : 55.0,
+				"coneFade" : 0.330000013,
+				"disableVolumetric" : false,
+				"intensity" : 1.0,
+				"maxIntensity" : 1.5,
+				"nearFade" : false,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : false,
+				"radius" : 14.0,
+				"range" : 65.0,
+				"shadowMode" : 2,
+				"type" : "spotLight",
+				"volConeAngle" : 70.0,
+				"volConeFade" : 0.5,
+				"volFadeInRange" : 4.0,
+				"volFadeInStart" : 0.0,
+				"volFalloffFactor" : 1.0,
+				"volIntensity" : 0.400000006,
+				"volMaxIntensity" : 1.0,
+				"volMaxRange" : 40.0,
+				"volMinRange" : 30.0
+			}
+		]
+	},
+	"Attached - Spotlight_orange" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : true,
+				"ambient" : false,
+				"color" : 
+				[
+					0.933333397,
+					0.725490212,
+					0.48627454,
+					1.0
+				],
+				"coneAngle" : 45.0,
+				"coneFade" : 0.670000017,
+				"disableVolumetric" : true,
+				"intensity" : 1.799999952,
+				"maxIntensity" : 2.0,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 14.0,
+				"range" : 28.0,
+				"type" : "spotLight"
+			}
+		]
+	},
+	"Attached - Spotlight_red" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : true,
+				"ambient" : false,
+				"color" : 
+				[
+					0.90625,
+					0.215942383,
+					0.215942383,
+					1.0
+				],
+				"coneAngle" : 45.0,
+				"coneFade" : 0.670000017,
+				"disableVolumetric" : true,
+				"intensity" : 2.0,
+				"maxIntensity" : 2.0,
+				"nearFade" : true,
+				"nearFadeEnd" : 200.0,
+				"nearFadeRange" : 160.0,
+				"nearFadeReversed" : true,
+				"radius" : 14.0,
+				"range" : 16.0,
+				"shadowMode" : 2,
+				"type" : "spotLight"
+			}
+		]
+	}
+}

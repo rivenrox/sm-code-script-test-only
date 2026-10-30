@@ -1,0 +1,43 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Farmables/hvs_farmables_nimbolium.fbx",
+			"minViewSize" : 55,
+			"subMeshMap" : 
+			{
+				"m_core" : 
+				{
+					"material" : "DifAsgNor_LightCap",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_nimboliumcore_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_nimboliumcore_dif.tga",
+						"lightCap" : "$SURVIVAL_DATA/Textures/Lightcap/t_nimbolium_lcap.tga",
+						"normalMap" : "$GAME_DATA/Textures/Default/default_nor.tga"
+					}
+				},
+				"m_gel" : 
+				{
+					"custom" : 
+					{
+						"translucent" : 
+						{
+							"push" : 0.600000024,
+							"refraction" : 0.0,
+							"thickness" : 1.5
+						}
+					},
+					"material" : "TranslucentAdd_DifAsgNor",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_nimboliumgel_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Harvestables/Textures/Farmables/hvs_farmables_nimboliumgel_dif.tga",
+						"normalMap" : "$GAME_DATA/Textures/Default/default_nor.tga",
+						"translucent" : "$SURVIVAL_DATA/Textures/Materialtextures/t_nimbolium_fbrdf.tga"
+					}
+				}
+			}
+		}
+	]
+}

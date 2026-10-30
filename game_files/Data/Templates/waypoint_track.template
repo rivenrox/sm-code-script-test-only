@@ -1,0 +1,70 @@
+{
+	"template_meta": {
+		"uuid" : "7fd79d46-3439-47a7-8cd0-df3ddd910e0e",
+		"name":"WaypointTrack",
+		"display": "waypointTrack",
+		"root_meta": { "type": "map" }
+	},
+
+	"waypointTrack":
+	{
+		"waypointTrack_meta" : {
+			"optional" : true,
+			"order" : 1,
+			"valueAsLabel" : [ "label" ],
+			"valueSuffix" : " - Waypoint",
+			"value_meta" : {
+				"color" : "#29402d",
+				"startCollapsed" : true,
+				"displayTransform" : {
+					"renderableFromEntity" : true,
+					"color" : [
+						0.6,
+						0.6,
+						0.6,
+						0.6
+					],
+					"cameraView" : false,
+					"position" : "position",
+					"rotation" : "rotation"
+				}
+			}
+		},
+		"waypointTrack" : [ 
+			{
+				"label_meta" : { "optional": true, "order":0 },
+				"label" : "",
+
+				"position_meta": { "type":"vec3", "order":1 },
+				"position": [0.0, 0.0, 0.0],
+				
+				"rotation_meta": { "type":"vec3", "order":2 },
+				"rotation": [0.0, 0.0, 0.0],
+				
+				"characterEvent_meta" : { "optional": true, "order":3 },
+				"characterEvent" : "",
+
+				"delay_meta" : { "type": "float", "optional": true, "order":4, "min":0.0 },
+				"delay": 0.0,
+				
+				"dialog_meta" : { "optional": true, "order":5 },
+				"dialog" : "",
+				
+				"triggerEvent_meta" : { "optional": true, "order":6 },
+				"triggerEvent" : "",
+				
+				"waitForPlayer_meta" : { "optional": true, "order":7 },
+				"waitForPlayer": false,
+
+				"waitForCondition_meta" : { "optional": true, "order":8 },
+				"waitForCondition": "",
+				
+				"lookInDirection_meta" : { "optional": true, "order":9 },
+				"lookInDirection": false,
+				
+				"lookAtPlayer_meta" : { "optional": true, "order":10 },
+				"lookAtPlayer": false
+			}
+		]
+	}
+}

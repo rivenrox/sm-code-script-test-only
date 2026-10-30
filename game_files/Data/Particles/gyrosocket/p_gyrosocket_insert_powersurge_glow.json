@@ -1,0 +1,561 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "sprite",
+				"category" : "2 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"editorColor" : 
+				[
+					0.4745,
+					1.0,
+					0.86273,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.142,
+								[
+									0.0,
+									0.22653,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.75211,
+								[
+									0.0,
+									0.3203,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"guid" : 0,
+				"height" : 3.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "BackgroundGlow [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.11129
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1000,
+				"time_to_live" : 0.75,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 3.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0 - ",
+				"circle_angle" : -20.0,
+				"color" : 
+				[
+					0.0,
+					0.3203,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_square_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.3183,
+								[
+									0.0,
+									0.10937,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.66197,
+								[
+									0.09017,
+									0.25365,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.3,
+						"guid" : 4,
+						"length" : 0.2,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.52631
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 6,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 150,
+				"friction" : 4.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 2,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Impact Flash Big Radius 1 [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.56924
+				],
+				"radius" : 0.4,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.69998,
+					0.125
+				]
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0 - ",
+				"circle_angle" : -20.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_offsetglow01.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.32111,
+								[
+									0.0,
+									0.39061,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									0.09018,
+									0.48822,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.3,
+						"guid" : 9,
+						"length" : 0.2,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.52631
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 11,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 75,
+				"friction" : 4.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					1.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Impact Flash Big Radius 2  [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.56924
+				],
+				"radius" : 0.4,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 50000,
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.05
+				]
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0 - ",
+				"circle_angle" : -20.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/p_flash_flashtriangle02.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.32111,
+								[
+									0.0,
+									0.39061,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									0.09018,
+									0.48822,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.3,
+						"guid" : 14,
+						"length" : 0.2,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.52631
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 16,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 150,
+				"friction" : 4.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 12,
+				"height" : 
+				[
+					1.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Impact Flash Big Radius 2  [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.56924
+				],
+				"radius" : 0.4,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 50000,
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.25
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

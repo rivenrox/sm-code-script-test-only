@@ -1,0 +1,155 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Effects/Meshes/scannerbot/lightbeam_scannerbot_lightcone.fbx",
+			"subMeshMap" : 
+			{
+				"scan" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.480468988,
+								0.0,
+								0.0,
+								0.203125
+							],
+							"fade" : 
+							{
+								"fadeRange" : 0.49000001,
+								"fadeValue" : 0.319999993
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 0.479999989,
+								"fogMin" : 0.129999995,
+								"fogOpacity" : 0.870000005,
+								"fogScale" : 40.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.810000002,
+								"fresnelIntensity" : 0.209999993
+							},
+							"glowStrength" : 0.600000024,
+							"highlightColor" : 
+							[
+								1.0,
+								0.0,
+								0.0,
+								0.84375
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.25,
+								"intersectIntensity" : 4.539999962
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 0.5,
+								"scanLineFrequency2" : 10.0,
+								"scanLineIntensity1" : 0.25,
+								"scanLineIntensity2" : 0.150000006,
+								"scanLineSpeed1" : 5.0,
+								"scanLineSpeed2" : -0.25
+							}
+						}
+					},
+					"material" : "Laser_noglitch",
+					"textures" : 
+					{
+						"laser" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_scannerbot02_laser.tga",
+						"laserMask" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_doorsensor01_lasermask.tga"
+					}
+				},
+				"scan_inside" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.480468988,
+								0.0,
+								0.0,
+								0.0
+							],
+							"fade" : 
+							{
+								"fadeRange" : 0.49000001,
+								"fadeValue" : 0.319999993
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 0.479999989,
+								"fogMin" : 0.129999995,
+								"fogOpacity" : 0.870000005,
+								"fogScale" : 40.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.810000002,
+								"fresnelIntensity" : 0.209999993
+							},
+							"glowStrength" : 0.600000024,
+							"highlightColor" : 
+							[
+								1.0,
+								0.0,
+								0.0,
+								0.0
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.25,
+								"intersectIntensity" : 4.539999962
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 0.5,
+								"scanLineFrequency2" : 10.0,
+								"scanLineIntensity1" : 0.25,
+								"scanLineIntensity2" : 0.150000006,
+								"scanLineSpeed1" : 5.0,
+								"scanLineSpeed2" : -0.25
+							}
+						}
+					},
+					"material" : "Laser_noglitch",
+					"textures" : 
+					{
+						"laser" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_scannerbot02_laser.tga",
+						"laserMask" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_doorsensor01_lasermask.tga"
+					}
+				},
+				"scan_lightcone" : 
+				{
+					"material" : "Additive",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_scannerbot02_lightcone.tga",
+						"",
+						""
+					]
+				}
+			}
+		}
+	]
+}

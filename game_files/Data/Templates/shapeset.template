@@ -1,0 +1,721 @@
+{
+	"template_meta": {
+		"uuid" : "4dc88cae-3f45-4b9a-96dd-e83e86415bb4",
+		"name":"Shape set",
+		"display": "shapeset",
+		"pattern": ["$*/Objects/Database/ShapeSets/*.json", "*.shapeset"]
+	},
+
+	"wedgeList_meta" : { "valueAsLabel":"name", "optional": true },
+	"wedgeList": [
+		{
+			"legacyId_meta": { "optional": true, "deprecated": true },
+
+			"name_meta" : { "order":1, "optional": true, "lable": "Debug name" },
+			"name": "Debug wedge name",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "order":2, "ignoreUuidName": true  },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"color_meta": { "type":"hexColor", "optional":true },
+			"color": "FFFFFF",
+
+			"textureList_meta": { "value_meta": { "type":"texture" }, "maxSize": 5 },
+			"textureList": [ "","","" ],
+
+			"material_meta": { "optionsCategory":"material","label":"Shader Material" },
+			"material": "DifAsgNor",
+
+			"blockUuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true, "order":2 },
+			"blockUuid": "00000000-0000-0000-0000-000000000000",
+
+			"frameSize_meta" : { "type": "float", "min": 0.0, "max": 0.5, "optional":true },
+			"frameSize": 0.15,
+
+			"tiling_meta": { "value_meta": { "type":"float" }, "optional": true, "minSize":4, "maxSize":4 },
+			"tiling" : [1.0,1.0,1.0,1.0],
+
+			"ratings_meta": { "optional": true, "hideInHierarchyView" : true },
+			"ratings" : {
+				"buoyancy_meta": { "optional": true },
+				"buoyancy" : 1,
+				"density_meta": { "optional": true },
+				"density" : 1,
+				"durability_meta": { "optional": true },
+				"durability" : 1,
+				"friction_meta": { "optional": true },
+				"friction" : 1
+			},
+ 
+			"restitution_meta": { "optional": true, "hideInHierarchyView" : true },
+			"restitution": 0.0,
+
+			"restrictions_meta": { "optional": true, "hideInHierarchyView" : true },
+			"restrictions" : {
+				"buildable_meta": { "optional": true },
+				"buildable" : true,
+				"connectable_meta": { "optional": true },
+				"connectable" : true,
+				"convertibleToDynamic_meta": { "optional": true },
+				"convertibleToDynamic" : true,
+				"destructable_meta": { "optional": true },
+				"destructable" : true,
+				"erasable_meta": { "optional": true },
+				"erasable" : true,
+				"liftable_meta": { "optional": true },
+				"liftable" : true,
+				"paintable_meta": { "optional": true },
+				"paintable" : true,
+				"usable_meta": { "optional": true },
+				"usable" : true
+			},
+
+			"flammable_meta": { "optional": true },
+			"flammable" : false,
+
+			"physicsMaterial_meta": { "optionsCategory":"physicsMaterial" },
+			"physicsMaterial" : "Default",
+
+			"impactEffect_meta" : { "label" : "Override Impact Effect*", "optionsCategory" : "effect", "optional" : true, "tooltip" : "Overwrites default impact effect. Sets physics material of the shape. \"Projectile - Hit\" on projectiles and \"Sledgehammer - Hit\" for melee" },
+			"impactEffect" : "",
+
+			"destroyEffect_meta" : { "label" : "Override Destroy Effect*", "optionsCategory" : "effect", "optional" : true, "tooltip" : "Overwrites default destroy effect. Sets physics material of the shape. \"Projectile - Destroy\" on projectiles and \"Sledgehammer - Destroy\" for melee" },
+			"destroyEffect" : "",
+			
+			"stackSize_meta": { "optional": true },
+			"stackSize": 256,
+
+			"showInInventory_meta": { "optional": true },
+			"showInInventory": true,
+
+			"showInEditor_meta": { "optional": true },
+			"showInEditor": true
+		}
+	],
+
+	"partList_meta" : { "valueAsLabel":"name", "optional": true },
+	"partList": [
+		{
+			"legacyId_meta": { "optional": true, "deprecated": true },
+			
+			"name_meta" : { "order":1, "optional": true, "lable": "Debug name" },
+			"name": "Debug part name",
+
+			"baseUuid_meta" : { "type":"uuid", "optional": true, "order":2 },
+			"baseUuid": "00000000-0000-0000-0000-000000000000",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true, "order":2, "ignoreUuidName": true },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"carryItem_meta": { "optional": true },
+			"carryItem": false,
+
+			"color_meta": { "type":"hexColor", "optional":true },
+			"color": "FFFFFF",
+
+			"renderable_meta": { "type" : "renderable", "order":3, "ignoreWrongTypeError": true, "hideInHierarchyView" : true, "subTemplate" :"$GAME_DATA/Templates/renderable.template" },
+			"renderable": "",
+			
+			"previewRenderable_meta": { "type" : "renderable", "optionsCategory" : "renderable", "order":4, "optional": true },
+			"previewRenderable" : "",
+
+			"box_meta": { "optional": true, "hideInHierarchyView" : true },
+			"box": { "x": 1, "y": 1, "z": 1 },
+
+			"pipe_meta": { "optional": true, "hideInHierarchyView" : true },
+			"pipe":{
+				"extendable_meta": { "optional": true },
+				"extendable": false,
+
+				"openings" :[
+					{
+						"side_meta": { "options" : [ "+X", "-X", "+Y", "-Y", "+Z", "-Z" ] },
+						"side":  "+X",
+
+						"x": 0,
+						"y": 0,
+						"z": 0,
+
+						"direction_meta": { "optional" : true, "options" : [ "input", "output" ] },
+						"direction": "input"
+					}
+				],
+				"type_meta": { "options" : [ "Pipe", "Container", "Interactable" ], "toolTip": "The way the pipe manager will treat the object." },
+				"type": "Pipe",
+
+				"directional_meta": { "optional": true, "toolTip": "If set to true the pipe opening on the right side will be output only and the one on the left will be input only. See the craftbot as an example." },
+				"directional": false
+			},
+
+			"cylinder_meta": { "optional": true, "hideInHierarchyView" : true },
+			"cylinder": {
+				"diameter": 1,
+				"depth": 1,
+				"margin_meta": { "optional": true },
+				"margin": 1,
+				"axis_meta": { "options":["X","Y","Z"] },
+				"axis": "Y"
+			},
+
+			"edible_meta": { "optional": true, "constDataStoreAllNames" : true, "hideInHierarchyView" : true },
+			"edible": {
+				"hpGain": 0,
+				"grantPerk" : false
+			},
+
+			"plantable_meta": { "optional": true, "constDataStoreAllNames" : true, "hideInHierarchyView" : true },
+			"plantable" : 
+			{
+				"growbed_meta": { "type":"uuid" },
+				"growbed" : "2e977f44-35f1-4184-b780-3f8563e92330",
+
+				"harvestable_meta": { "type":"uuid" },
+				"harvestable" : "d3fdedca-7e1c-45cc-a1db-f0deee381a71",
+
+				"allowInGrowbed_meta": { "optional": true },
+				"allowInGrowbed" : true
+			},
+
+			"characterShape_meta": { "optional": true, "constDataStoreAllNames" : true, "hideInHierarchyView" : true },
+			"characterShape" : 
+			{
+				"characterUuid_meta": { "type":"uuid" },
+				"characterUuid" : "48c03f69-3ec8-454c-8d1a-fa09083363b1",
+
+				"placementSphereRadius_meta": { "type": "float" },
+				"placementSphereRadius" : 0.5
+			},
+
+			"electricEngine_meta": { "optional": true, "hideInHierarchyView" : true },
+			"electricEngine": {
+				"gears": [
+					{
+						"velocity_meta": { "min": 0.0, "max": 10000.0 },
+						"velocity": 0.0,
+						"power_meta": { "min": 0.0, "max": 3000.0 },
+						"power": 1000.0
+					}
+				],
+				"effect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true },
+				"effect": "ElectricEngine - Level 1"
+			},
+
+			"gasEngine_meta": { "optional": true, "hideInHierarchyView" : true },
+			"gasEngine": {
+				"gears": [
+					{
+						"velocity_meta": { "min": 0.0, "max": 20000.0 },
+						"velocity": 0.0,
+						"power_meta": { "min": 0.0, "max": 3000.0 },
+						"power": 0.0
+					}
+				],
+				"effect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true },
+				"effect": "GasEngine - Level 1"
+			},
+
+			"steering_meta": { "optional": true, "hideInHierarchyView" : true },
+			"steering": {
+				"bones": [
+					{
+						"name": "BoneName",
+						"offset": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"freeRotation_meta": { "optional": true },
+						"freeRotation": true,
+						"steers_meta": { "optional": true },
+						"steers": true
+					}
+				],
+				"ragdollFile_meta": { "type": "filepath" },
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"steerAngle_meta": { "optional": true, "min": 0.0 },
+				"steerAngle": 45.0,
+				"enterAudio_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+				"enterAudio": "Seat seated",
+				"exitAudio_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+				"exitAudio": "Seat unseated"
+			},
+			
+			"seat_meta": { "optional": true, "hideInHierarchyView" : true },
+			"seat": {
+				"bones": [
+					{
+						"name": "BoneName",
+						"offset": {
+							"x": 0.0,
+							"y": 0.0,
+							"z": 0.0
+						},
+						"freeRotation_meta": { "optional": true },
+						"freeRotation": true
+					}
+				],
+				"ragdollFile_meta": { "type":"filepath" },
+				"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+				"enterAudio_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+				"enterAudio": "Seat seated",
+				"exitAudio_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+				"exitAudio": "Seat unseated",
+				"phasing_meta": { "optional": true },
+				"phasing": true
+			},
+
+			"thruster_meta": { "optional": true, "hideInHierarchyView" : true },
+			"thruster": {
+				"levels": [
+					{
+						"averageForce_meta": { "min": 0.0, "max":  100000.0 },
+						"averageForce": 2222.22,
+						"forceVariation_meta": { "min": 0.0, "max": 2000.0 },
+						"forceVariation": 59.2592
+					}
+				],
+				
+				"effect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true },
+				"effect": "Thruster - Level 1"
+			},
+
+			"sensor_meta": { "optional": true, "hideInHierarchyView" : true },
+			"sensor": {
+				"onEffect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true, "optional": true },
+				"onEffect": "Sensor on",
+				"offEffect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true, "optional": true },
+				"offEffect": "Sensor off"
+			},
+
+			"tone_meta": { "optional": true, "hideInHierarchyView" : true },
+			"tone": {
+				"audio": [
+					{
+						"event_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+						"event": "Retrobass"
+					}
+				]
+			},
+
+			"spotlight_meta": { "optional": true, "hideInHierarchyView" : true },
+			"spotlight": {
+				"defaultLuminance_meta": { "min": 0, "max": 500 },
+				"defaultLuminance": 50,
+				"glowMultiplier_meta": { "optional": true },
+				"glowMultiplier" : false,
+				"direction": { "x": 0.0, "y": 0.0, "z": 1.0 },
+				"effect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true },
+				"effect": "HeadLight",
+				"delay_meta": { "optional": true, "min": 0.0 },
+				"delay": 0.0
+			},
+
+			"pointLight_meta": { "optional": true, "hideInHierarchyView" : true },
+			"pointLight": { 
+				"defaultLuminance_meta": { "min": 0, "max": 500 },
+				"defaultLuminance": 50,
+				"offset": { "x": 0.0, "y": 0.0, "z": 0.0 },
+				"parameters":
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"delay_meta": { "optional": true, "min": 0.0 },
+				"delay": 0.0
+			},
+
+			"chest_meta": { "optional": true, "hideInHierarchyView" : true },
+			"chest": { 
+				"slots_meta": { "min": 1, "max": 65535 },
+				"slots": 10
+			},
+
+			"simpleInteractive_meta": { "optional": true, "hideInHierarchyView" : true },
+			"simpleInteractive": {
+				"sustainedAudio_meta": { "optional": true, "optionsCategory": "audio", "optionsAllowsCustom": true },
+				"sustainedAudio": "",
+				"animationTime_meta": { "min": 0.0 },
+				"animationTime": 0.1
+			},
+
+			"camera_meta": { "optional": true, "hideInHierarchyView" : true }, 
+			"camera": {
+				"exitAudio_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+				"exitAudio": "event:/props/mapinspector/mi_off",
+				"effect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true },
+				"effect": "MapInspector - On"
+			},
+			
+			"hull_meta": { "optional": true, "hideInHierarchyView" : true },
+			"hull": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"margin_meta": { "optional": true },
+				"margin": 0.001,
+				"pointList_meta": { "optional": true },
+				"pointList": [{ "x": 0, "y": 0, "z": 0 }],
+				"blockUnits_meta": { "optional": true },
+				"blockUnits": "false",
+				"col_meta": { "type":"filepath", "optional": true },
+				"col": ""
+			},
+
+			"sphere_meta": { "optional": true, "hideInHierarchyView" : true },
+			"sphere": { "diameter": 1 },
+
+			"wedge_meta": { "optional": true, "hideInHierarchyView" : true },
+			"wedge": {
+				"x": 1,
+				"y": 1,
+				"z": 1,
+				"back_meta": { "options":["+X","+Y","+Z","-X","-Y","-Z"] },
+				"back": "-Z",
+				"bottom_meta": { "options":["+X","+Y","+Z","-X","-Y","-Z"] },
+				"bottom": "-Y"  
+			},
+
+			"density_meta": { "deprecated": true, "toolTip": "Use ratings.density instead" },
+			"qualityLevel_meta": { "deprecated": true, "toolTip": "Use ratings.durability instead" },
+			"friction_meta": { "deprecated": true, "toolTip": "Use ratings.friction instead" },
+
+			"ratings_meta": { "optional": true, "hideInHierarchyView" : true },
+			"ratings" : {
+				"buoyancy_meta": { "optional": true },
+				"buoyancy" : 1,
+				"density_meta": { "optional": true },
+				"density" : 1,
+				"durability_meta": { "optional": true },
+				"durability" : 1,
+				"friction_meta": { "optional": true },
+				"friction" : 1
+			},
+
+			 "restitution_meta": { "optional": true },
+			 "restitution": 0.0,
+
+			 "linearDamping_meta": { "label": "Linear Damping*", "optional": true, "min": 0.05, "max": 1.0, "toolTip": "The velocity damping applied to linear movement. Only applies to bodies with a single shape." },
+			 "linearDamping": 0.2,
+
+			 "angularDamping_meta": { "label": "Angular Damping*", "optional": true, "min": 0.05, "max": 1.0, "toolTip": "The velocity damping applied to angular movement. Only applies to bodies with a single shape." },
+			 "angularDamping": 0.3,
+
+			 "restrictions_meta": { "optional": true, "hideInHierarchyView" : true },
+			 "restrictions" : {
+				"buildable_meta": { "optional": true },
+				"buildable" : true,
+				"connectable_meta": { "optional": true },
+				"connectable" : true,
+				"convertibleToDynamic_meta": { "optional": true },
+				"convertibleToDynamic" : true,
+				"destructable_meta": { "optional": true },
+				"destructable" : true,
+				"erasable_meta": { "optional": true },
+				"erasable" : true,
+				"liftable_meta": { "optional": true },
+				"liftable" : true,
+				"paintable_meta": { "optional": true },
+				"paintable" : true,
+				"usable_meta": { "optional": true },
+				"usable" : true
+			 },
+
+			 "flammable_meta": { "optional": true },
+			 "flammable" : false,
+
+			 "physicsMaterial_meta": { "optionsCategory":"physicsMaterial" },
+			 "physicsMaterial" : "Default",
+
+			 "impactEffect_meta": { "label" : "Override Impact Effect*", "optionsCategory" : "effect", "optional" : true, "tooltip" : "Overwrites default impact effect. Sets physics material of the shape. \"Projectile - Hit\" on projectiles and \"Sledgehammer - Hit\" for melee" },
+			 "impactEffect" : "",
+
+			 "destroyEffect_meta" : { "label" : "Override Destroy Effect*", "optionsCategory" : "effect", "optional" : true, "tooltip" : "Overwrites default destroy effect. Sets physics material of the shape. \"Projectile - Destroy\" on projectiles and \"Sledgehammer - Destroy\" for melee" },
+			 "destroyEffect" : "",
+
+			 "destroyTime_meta" : { "optional": true, "min" : 0.1, "max" : 10.0 }, 
+			 "destroyTime" : 0.35,
+
+			 "rotationSet_meta": { "optionsCategory": "rotationSet", "optionsAllowsCustom": true },
+			 "rotationSet" : "Default",
+
+			 "scripted_meta": { "optional": true, "hideInHierarchyView" : true },
+			 "scripted" : {
+				"classname" : "",
+				"data_meta" : {
+					"optional": true,
+					"editable": true,
+					"subTemplate": "$GAME_DATA/Templates/scriptdata_shape.template" 
+				},
+				"data" : {},
+				"filename_meta": { "type": "filepath" },
+				"filename": "",
+
+				"steering_meta": { "optional": true, "hideInHierarchyView" : true },
+				"steering": {
+					"steerAngle_meta": { "optional": true },
+					"steerAngle" : 45.0
+				},
+					
+				"seat_meta": { "optional": true, "hideInHierarchyView" : true },
+				"seat": {
+					"bones": [
+						{
+							"name": "BoneName",
+							"offset": {
+								"x": 0.0,
+								"y": 0.0,
+								"z": 0.0
+							},
+							"freeRotation_meta": { "optional": true },
+							"freeRotation": true
+						}
+					],
+					"ragdollFile_meta": { "type":"filepath" },
+					"ragdollFile": "$GAME_DATA/Character/seat_ragdoll.json",
+
+					"enterAudio_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+					"enterAudio": "Seat seated",
+
+					"exitAudio_meta": { "optionsCategory": "audio", "optionsAllowsCustom": true },
+					"exitAudio": "Seat unseated",
+
+					"phasing_meta": { "optional": true },
+					"phasing": true,
+							
+					"cameraUpOffset_meta": { "type": "float", "min": -3.0, "max": 3.0, "optional": true, "order" : 6 },
+        			"cameraUpOffset": -0.125,
+
+					"cameraUpOffsetMax_meta": { "type": "float", "min": -3.0, "max": 3.0, "optional": true, "order" : 7 },
+        			"cameraUpOffsetMax": -0.125,
+					
+        			"cameraPullbackRightOffset_meta": { "type": "float", "min": -3.0, "max": 3.0, "optional": true, "order" : 8 },
+        			"cameraPullbackRightOffset": 0.375
+				},
+
+				"gyro_meta": { "optional": true, "hideInHierarchyView" : true },
+				"gyro": {
+					"maxSpeed_meta": { "type" : "float" },
+					"maxSpeed" : 3.0,
+
+					"ptichSensitivityModifier_meta": { "type" : "float" },
+					"pitchSensitivityModifier" : 2.0,
+
+					"yawSensitivityModifier_meta": { "type" : "float" },
+					"yawSensitivityModifier" : 2.0
+				}
+			 },
+
+			 "sticky_meta": { "optional": true },
+			 "sticky" : "All",
+
+			 "stackSize_meta": { "optional": true },
+			 "stackSize": 1,
+
+			 "showInInventory_meta": { "optional": true },
+			 "showInInventory": true,
+
+			 "showInEditor_meta": { "optional": true },
+			 "showInEditor": true,
+
+			 "multiShape_meta": { "optional": true, "hideInHierarchyView" : true },
+			 "multiShape": {
+				"path_meta": { "type": "filepath" },
+				"path": "" 
+			 },
+
+			 "bearing_meta": { "optional": true, "hideInHierarchyView" : true },
+			 "bearing": {},
+
+			 "genericRotational_meta": { "optional": true, "hideInHierarchyView" : true },
+			 "genericRotational": {
+				"offset_meta": { "type": "vec3" },
+				"offset": [0,0,0],
+
+				"x_meta": { "subTemplate":"$GAME_DATA/Templates/generic_rotation_axis.template" },
+				"x": {},
+
+				"y_meta": { "subTemplate":"$GAME_DATA/Templates/generic_rotation_axis.template" },
+				"y": {},
+
+				"z_meta": { "subTemplate":"$GAME_DATA/Templates/generic_rotation_axis.template" },
+				"z": {}
+			 },
+
+			 "spring_meta":  { "optional": true, "hideInHierarchyView" : true },
+			 "spring": {
+				 
+				"defaultStiffnessLevel" : 2,
+				"length" : 2,
+
+				"stiffnessLevels": [
+					{
+						"stiffness_meta": { "min": 0.0, "max":  100000.0 },
+						"stiffness": 7500
+					}
+				],
+				
+				"effect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true },
+				"effect": "Suspension"
+			 },
+
+			 "piston_meta":  { "optional": true, "hideInHierarchyView" : true },
+			 "piston": {
+				 
+				"defaultRange" : 3,
+				"defaultSpeedLevel" : 2,
+				"force" : 100000.0,
+				"length" : 16,
+
+				"speedLevels": [
+					{
+						"speed_meta": { "min": 0.0, "max": 100.0 },
+						"speed": 7500
+					}
+				],
+				
+				"effect_meta": { "optionsCategory": "effect", "optionsAllowsCustom": true },
+				"effect": "Piston - Default"
+			 },
+
+			 "survivalPiston_meta":  { "optional": true, "hideInHierarchyView" : true },
+			 "survivalPiston": {},
+
+			 "survivalSpring_meta":  { "optional": true, "hideInHierarchyView" : true },
+			 "survivalSpring": {},
+
+			 "params_meta" : { 
+				"hideInHierarchyView" : true,
+				"optional" : true, 
+				"value_meta" : { "constDataStoreAllNames" : true },
+				"presets" : {
+					"Template" : {
+						"name" : "",
+						"type" : "template",
+						"template" : ""
+					},
+					"Bool" : {
+						"name" : "",
+						"type" : "bool"
+					},
+					"Float" : {
+						"name" : "",
+						"type" : "float"
+					},
+					"String" : {
+						"name" : "",
+						"type" : "string"
+					},
+					"Name" : {
+						"name" : "name",
+						"type" : "string"
+					}
+				}
+			 },
+			 "params" : [{
+				"name_meta" : { "order":0 },
+				"name" : "name",
+				"type_meta" : { "order":1, "options": ["string","bool","float","template"] },
+				"type" : "string",
+				"template_meta" : { "order":2, "optional": true, "available" : { "type" : [ "template" ] }, "type" : "uuid", "optionsCategory" : "template" },
+				"template" : ""
+			} ],
+
+			"rarityIcon_meta" : { "optional": true, "type": "string" },
+			"rarityIcon" : ""
+		}
+	],
+
+	"blockList_meta" : { "valueAsLabel":"name", "optional": true },
+	"blockList": [
+		{
+			"legacyId_meta": { "optional": true, "deprecated": true },
+
+			"name_meta" : { "order":1, "optional": true, "lable": "Debug name" },
+			"name": "Debug block name",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true, "order":2, "ignoreUuidName": true  },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"color_meta": { "type":"hexColor", "optional":true },
+			"color": "FFFFFF",
+
+			"density_meta": { "deprecated": true, "toolTip": "Use ratings.density instead" },
+			"qualityLevel_meta": { "deprecated": true, "toolTip": "Use ratings.durability instead" },
+			"friction_meta": { "deprecated": true, "toolTip": "Use ratings.friction instead" },
+
+			"ratings_meta": { "optional": true, "hideInHierarchyView" : true },
+			"ratings" : {
+				"buoyancy_meta": { "optional": true },
+				"buoyancy" : 1,
+				"density_meta": { "optional": true },
+				"density" : 1,
+				"durability_meta": { "optional": true },
+				"durability" : 1,
+				"friction_meta": { "optional": true },
+				"friction" : 1
+			},
+
+			"restitution_meta": { "optional": true },
+			"restitution": 0.0,
+
+			"restrictions_meta": { "optional": true, "hideInHierarchyView" : true },
+			"restrictions" : {
+			   "buildable_meta": { "optional": true },
+			   "buildable" : true,
+			   "connectable_meta": { "optional": true },
+			   "connectable" : true,
+			   "convertibleToDynamic_meta": { "optional": true },
+			   "convertibleToDynamic" : true,
+			   "destructable_meta": { "optional": true },
+			   "destructable" : true,
+			   "erasable_meta": { "optional": true },
+			   "erasable" : true,
+			   "liftable_meta": { "optional": true },
+			   "liftable" : true,
+			   "paintable_meta": { "optional": true },
+			   "paintable" : true,
+			   "usable_meta": { "optional": true },
+			   "usable" : true
+			},
+
+			"flammable_meta": { "optional": true, "hideInHierarchyView" : true },
+			"flammable" : false,
+
+			"physicsMaterial_meta": { "optionsCategory":"physicsMaterial" },
+			"physicsMaterial" : "Default",
+
+			"impactEffect_meta": { "label" : "Override Impact Effect*", "optionsCategory" : "effect", "optional" : true, "tooltip" : "Overwrites default impact effect. Sets physics material of the shape. \"Projectile - Hit\" on projectiles and \"Sledgehammer - Hit\" for melee" },
+			"impactEffect" : "",
+
+			"destroyEffect_meta" : { "label" : "Override Destroy Effect*", "optionsCategory" : "effect", "optional" : true, "tooltip" : "Overwrites default destroy effect. Sets physics material of the shape. \"Projectile - Destroy\" on projectiles and \"Sledgehammer - Destroy\" for melee" },
+			"destroyEffect" : "",
+
+			"tiling_meta": { "type":"uint", "optional": true, "min":1, "max":32, "powerOfTwo" : true },
+			"tiling": 8,
+			"alpha_meta": { "optional": true },
+			"alpha": false,
+			"glass_meta": { "optional": true },
+			"glass": false,
+
+			"dif_meta": { "type":"texture", "order": 3 },
+			"dif": "",
+
+			"asg_meta": { "type":"texture", "order": 3 },
+			"asg": "",
+
+			"nor_meta": { "type":"texture", "order": 3 },
+			"nor": "",
+
+			"stackSize_meta": { "optional": true },
+			"stackSize": 256,
+			
+			"showInInventory_meta": { "optional": true },
+			"showInInventory": true,
+
+			"showInEditor_meta": { "optional": true },
+			"showInEditor": true
+		}
+	]
+
+}

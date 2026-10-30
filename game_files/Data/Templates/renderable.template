@@ -1,0 +1,311 @@
+{
+	"template_meta": { 
+		"uuid" : "e6c5e157-d180-450a-ab1e-b9453f24b2af",
+		"name":"Renderable", 
+		"display": "renderable", 
+		"pattern": "*.rend",
+		"preferDualView" : true,
+		"root_meta":{"icon":"$GAME_DATA/Gui/Editor/ed_icon_rendablesmall.png"} 
+	},
+
+	"previewCategory_meta":{ "label" : "Preview Category", "writeToDisk" : false, "order" : 0, "options" : [ "Guess By Path", "Asset", "Part", "Character" ] },
+	"previewCategory" : "Guess By Path",
+
+	"previewColor_meta":{ "label" : "Preview Color", "writeToDisk" : false, "order" : 1, "type" : "color" },
+	"previewColor" : [1,1,1,1],
+
+	"previewUvFrame_meta":{ "label" : "Preview Uv Frame", "writeToDisk" : false, "order" : 2, "type" : "uint", "min": 0, "max" : 255, "available":{"previewCategory":["Guess By Path","Asset","Part"]} },
+	"previewUvFrame" : 0,
+	
+	"previewDither_meta":{ "label" : "Preview Dither", "writeToDisk" : false, "order" : 3, "type" : "float", "min": 0.0, "max" : 1.0, "available":{"previewCategory":["Guess By Path","Asset"]} },
+	"previewDither" : 0,
+
+	"previewShake_meta":{ "label" : "Preview Shake", "writeToDisk" : false, "order" : 3, "type" : "float", "min": 0.0, "max" : 1.0, "available":{"previewCategory":["Guess By Path","Part"]} },
+	"previewShake" : 0,
+
+	"previewPose_meta":{ "label" : "Preview Pose Weights", "writeToDisk" : false, "order" : 4, "type" : "vec3", "min": 0.0, "max" : 1.0, "available":{"previewCategory":["Guess By Path","Asset","Part"]} },
+	"previewPose" : [0,0,0],
+	
+	"previewAnimationRend_meta":{ "label" : "Preview Renderable", "writeToDisk" : false, "order" : 5, "optionsCategory" : "renderable", "available":{"previewCategory":["Guess By Path","Character"]} },
+	"previewAnimationRend" : "",
+
+	"selectedAnimation_meta":{ "label" : "Selected Animation", "writeToDisk" : false, "order" : 6, "optionsCategory" : "animations", "available":{"previewCategory":["Guess By Path","Character"]} },
+	"selectedAnimation" : "",
+	
+	"animationProgress_meta":{ "label" : "Animation Progress", "writeToDisk" : false, "order" : 7, "type" : "float", "min": 0.0, "max" : 1.0, "available":{"previewCategory":["Guess By Path","Character"]} },
+	"animationProgress" : 0.0,
+
+	"animationSpeed_meta":{ "label" : "Animation Speed", "writeToDisk" : false, "order" : 8, "type" : "float", "available":{"previewCategory":["Guess By Path","Character"]} },
+	"animationSpeed" : 1.0,
+	
+	"previewAnimations_meta":{ "type" : "map", "label" : "Preview Animations", "writeToDisk" : false, "hideInHierarchyView" : true, "order" : 9, "value_meta" : { "writeToDisk" : false, "type" : "float", "min" : 0.0, "max" : 1.0 }, "available":{"previewCategory":["Guess By Path","Character"]} },
+	"previewAnimations" : {},
+	
+	"impostorThreshold_meta": { "type":"uint", "suffix":"px", "min":0, "max":2160, "optional":true },
+	"impostorThreshold": 50,
+
+	"smallestVisibleSize_meta": { "type":"uint", "suffix":"px", "min":0, "max":2160, "optional":true },
+	"smallestVisibleSize": 12,
+
+	"color_meta": { "type":"hexColor", "optional":true },
+	"color": "FFFFFF",
+
+	"streaming_meta":{ "optional":true },
+	"streaming" : true,
+
+	"drawOccluder_meta":{ "label" : "Draw Occluder", "writeToDisk" : false, "type" : "bool", "order" : 10, "available" : { "occluderBox" : ["*"], "occluderCorners" : ["*"], "occluderPlane" : ["*"] } },
+	"drawOccluder" : false,
+
+	"occluderIsTransparent_meta": { "type":"bool", "optional":true, "label":"Occluder Is Transparent", "toolTip":"If enabled the occluder will be rendered as transparent, allowing it to be used for occlusion culling without blocking the view.", "available" : { "occluderBox" : ["*"], "occluderCorners" : ["*"], "occluderPlane" : ["*"] } },
+	"occluderIsTransparent": true,
+
+	"occluderIsWater_meta": { "type":"bool", "optional":true, "label":"Occluder Is Water", "toolTip":"If enabled the occluder will be rendered as water, allowing it to be used for occlusion culling without blocking the view.", "available" : { "occluderBox" : ["*"], "occluderCorners" : ["*"], "occluderPlane" : ["*"] } },
+	"occluderIsWater": true,
+
+	"occluderBox_meta" : {
+		"optional":true,
+		"label" : "Occluder Box",
+		"unavailable" : { "occluderCorners" : ["*"], "occluderPlane" : ["*"] },
+		"hideInHierarchyView" : true, 
+		"displayTransform" : {
+			"position":"center",
+			"rotation":"rotation",
+			"scale":"size",
+			"overlay" : true,
+			"renderable" : "$GAME_DATA/Nodes/Renderable/node_cube.rend",
+			"renderableMatchEntityScale" : true,
+			"color" : [ 0.0, 0.0, 0.0, 0.0 ], // Dynamic Data Display renders a box for it
+			"hideFromOutliner" : false
+		},
+		"actions":["Auto Size", "Convert to corners"],
+		"toolTip": "The occluder box is used for occlusion culling. It defines the area in which the renderable will be considered for occlusion culling."
+	},
+	"occluderBox" : {
+		"size_meta": { "type":"vec3", "min":[0,0,0], "max":[100,100,100] },
+  		"size": [1,1,1],
+
+		"center_meta": { "type":"vec3", "min":[-100,-100,-100], "max":[100,100,100] },
+		"center": [0,0,0],
+
+		"rotation_meta": { "type":"vec3", "min":[0,0,0], "max":[360,360,360] },
+		"rotation": [0,0,0]
+	},
+	
+	"occluderPlane_meta" : {
+		"optional":true,
+		"label" : "Occluder Quad",
+		"unavailable" : { "occluderBox" : ["*"], "occluderCorners" : ["*"] },
+		"value_meta": {
+			"type":"vec3", "min":[-100,-100,-100], "max":[100,100,100],
+			"displayTransform" : {
+				"overlay" : true,
+				"renderable" : "$GAME_DATA/Nodes/Renderable/node_cube.rend",
+				"renderableMatchEntityScale" : true,
+				"color" : [ 1.0, 0.0, 0.0, 0.8 ],
+				"hideFromOutliner" : false
+			}
+		},
+		"maxSize" : 4, "minSize" : 4,
+		"hideInHierarchyView" : true,
+		"actions":["Auto Size Left", "Auto Size Right", "Auto Size Top", "Auto Size Bottom", "Auto Size Front", "Auto Size Back" ],
+		"toolTip": "The occluder quad is used for occlusion culling. It defines the area in which the renderable will be considered for occlusion culling."
+	},
+	"occluderPlane" : [
+		[1,1,0],
+		[-1,1,0],
+		[-1,-1,0],
+		[1,-1,0]
+	],
+
+	"occluderCorners_meta" : {
+		"optional":true,
+		"label" : "Occluder Corners",
+		"unavailable" : { "occluderBox" : ["*"], "occluderPlane" : ["*"] },
+		"value_meta": {
+			"type":"vec3", "min":[-100,-100,-100], "max":[100,100,100],
+			"displayTransform" : {
+				"overlay" : true,
+				"renderable" : "$GAME_DATA/Nodes/Renderable/node_cube.rend",
+				"renderableMatchEntityScale" : true,
+				"color" : [ 1.0, 0.0, 0.0, 0.8 ],
+				"hideFromOutliner" : false
+			}
+		},
+		"maxSize" : 8, "minSize" : 8,
+		"hideInHierarchyView":true,
+		"actions":["Auto Size"],
+		"toolTip": "The occluder corners are used for occlusion culling. They define the corners of the occluder box in which the renderable will be considered for occlusion culling."
+	},
+	"occluderCorners" : [
+		[1,1,1],
+		[-1,1,1],
+		[-1,-1,1],
+		[1,-1,1],
+
+		[1,-1,-1],
+		[1,1,-1],
+		[-1,1,-1],
+		[-1,-1,-1]
+	],
+
+	"decalReciever_meta": { "type":"bool", "optional":true },
+    "decalReciever": true,
+
+	"lodList_meta":{ "valuePrefix":"LOD - ", "hideInValueView":true, "hideHeaderInHierarchyView":true, "icon":"$GAME_DATA/Gui/Editor/ed_icon_lodlist.png", "value_meta":{"icon":"$GAME_DATA/Gui/Editor/ed_icon_lod.png"} },
+	"lodList": [
+		{
+			"maxViewDistance_meta" : { "optional":true, "deprecated":true, "toolTip":"Deprecated! replaced by minViewSize" }, 
+
+			"minViewSize_meta": { "type":"uint", "suffix":"px", "min":0, "max":2160, "optional":true },
+			"minViewSize": 15,
+
+			"mesh_meta": { "type":"filepath", "optional": true, "optionsCategory" : "mesh" },
+			"mesh": "",
+
+			"pose0_meta": { "type":"filepath", "optional":true },
+			"pose0": "",
+
+			"pose1_meta": { "type":"filepath", "optional":true },
+			"pose1": "",
+
+			"pose2_meta": { "type":"filepath", "optional":true },
+			"pose2": "",
+
+			"includes_meta" : {
+				"hideInHierarchyView" : true,
+				"optional":true,
+				"deprecated":true,
+				"constDataIgnore":true,
+				"value_meta": {
+					"type":"string",
+					"options":["POSITION","UV0","UV1","UV2","UV3","TANGENTS","NORMAL","VERTEX_COLOR","BLEND_INDICES","BLEND_WEIGHTS"]
+					
+				}
+			},
+			"includes" : ["POSITION"],
+
+			"subMeshList_meta" : {
+				"optional": true,
+				"unavailable" : { "subMeshMap" : ["*"] },
+				"hideHeaderInHierarchyView" : true,
+				"hideInValueView":true,
+				"valuePrefix":"Sub Mesh - ",
+				"value_meta" : { "subTemplate": "$GAME_DATA/Templates/submesh.template" } },
+			"subMeshList" :[ {} ],
+
+			"subMeshMap_meta" : 
+			{ 
+				"hideHeaderInHierarchyView" : true,
+				"hideInValueView":true,
+				"unavailable" : { "subMeshList" : ["*"] },
+				"type": "map",
+				"icon":"$GAME_DATA/Gui/Editor/ed_icon_submesh.png", 
+				"optional":true, 
+				"presets" : {
+					"Uvmaterial/Blockout": {
+					
+						"material" : "DifAsg",
+						"textureList" : [
+							"$GAME_DATA/Textures/Default/default_dif.tga",
+							"$GAME_DATA/Textures/Default/default_asg.tga",
+							""
+						]
+							
+					},
+					"Material/Concrete": {
+						"custom": {
+							"textureTiling" : [1,1,1,1]
+						},
+						"material": "DifAsgNorNorD_UV1",
+						"textureList": [
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_nor.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+						]
+					},
+					"Trimmaterial/Mechanical": {
+						"custom": {
+							"textureTiling" : [1,1,1,1]
+						},
+						"material": "DifAsgNorNorD_UV1",
+						"textureList": [
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_nor.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+						]
+					},
+					"Trimmaterial/Concrete": {
+						"custom": {
+							"textureTiling" : [1,1,1,1]
+						},
+						"material": "DifAsgNorNorD_UV1",
+						"textureList": [
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_dif.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_asg.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/env_mechanicstation_atlas_nor.tga",
+							"$SURVIVAL_DATA/Terrain/Textures/Mecanicstation/trim_broken_generic01_nor.tga"
+						]
+					}	
+				}
+		
+			},
+			"subMeshMap" :
+			{
+				"subMesh_meta" : {
+					"icon":"$GAME_DATA/Gui/Editor/ed_icon_circle.png",
+					"subTemplate": "$GAME_DATA/Templates/submesh.template"
+				},
+				"subMesh": {}
+			},
+
+			"animationList_meta" : { "optional": true, "hideInHierarchyView" : true },
+			"animationList" :
+			[
+				{
+					"name" : "animation name",
+
+					"file_meta" : { "type": "filepath" },
+					"file" : "",
+
+					"looping_meta" : { "optional": true },
+					"looping" : false,
+
+					"events_meta": { "optional": true },
+					"events": 
+					[
+						{ 
+							"time_meta": { "type":"float", "min":0.0 },
+							"time": 0.0,
+
+							"weight_meta": { "type":"float", "min":0.0, "max":1.0 },
+							"weight": 0.5,
+
+							"effect_meta": { "optionsCategory":"effect" },
+							"effect": "",
+
+							"bone_meta": { "optionsCategory":"bone" },
+							"bone": "root_jnt",
+							
+							"attached": true,
+
+							"stop_meta": { "label" : "Stop*", "options" : [ "Never", "Immediate", "Let play out", "Break sustain" ], "optionsAllowsCustom" : false, "toolTip" : "If enabled effects will stop when the animation stops or weight falls below the event weight.\nNever: Effects will not be stopped this way.\nImmediate: When stopped all effect will end immediately.\nLet play out: The effect will be stopped normally, allowing the effect to play out.\nBreak sustain: Effect will go into break sustain state, play out and stop. Audio events will key off" },
+							"stop": "No",
+
+							"start_meta": { "label" : "Start*", "options" : [ "Always", "Restart", "If finished" ], "optionsAllowsCustom" : false, "toolTip" : "Decides what the effect should do when the event is triggered.\nAlways: The effect will start a new instance.\nRestart: The effect will stop if an instance is already playing, and then start a new instance.\nIf finished: The effect will only start if the effect is not currently playing." },
+							"start": "Always",
+
+							"parameters_meta": { "optional": true },
+							"parameters":
+							{
+								"color_meta": { "type": "hexColor", "optional": true },
+								"color": "FFFFFF"
+							}
+						} 
+					]
+				}
+			]
+		}
+	]
+} 

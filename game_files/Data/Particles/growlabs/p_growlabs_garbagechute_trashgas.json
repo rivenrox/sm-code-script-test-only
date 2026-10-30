@@ -1,0 +1,1157 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_asg.tga",
+				"category" : "4",
+				"cylinder_height" : -1.0,
+				"cylinder_radius_end" : 1.25,
+				"cylinder_radius_start" : 1.0,
+				"depth" : 
+				[
+					7.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.4,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 56,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.1972
+							],
+							[
+								0.47222,
+								0.71912
+							],
+							[
+								0.60184,
+								0.84262
+							],
+							[
+								0.7537,
+								0.92628
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.29934
+							],
+							[
+								0.16335,
+								0.59917
+							],
+							[
+								0.73066,
+								0.72745
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.40479
+							],
+							[
+								0.16851,
+								1.02787
+							],
+							[
+								1.0,
+								1.2968
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								32.53012
+							]
+						],
+						"guid" : 4,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -3.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-3.0
+							]
+						],
+						"guid" : 5,
+						"max" : 3.0,
+						"name" : "Velocity",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 15,
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					7.0,
+					1.0
+				],
+				"keep_local" : false,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 10,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/trashball/p_mesh_trashbot_trashball_splatterplane01_projectile.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency03_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Splash 1 (High)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.212,
+					0.51029
+				],
+				"rotation" : 
+				[
+					90.0,
+					25.0
+				],
+				"shape_rotation" : 
+				[
+					-129.26775,
+					0.0,
+					-0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.15
+				],
+				"type" : "cylinder",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					7.0,
+					1.0
+				]
+			},
+			{
+				"category" : "2 -",
+				"cone_angle" : 5.0,
+				"cone_radius" : 0.25,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					0.41405,
+					0.8352,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 7,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.97368
+							],
+							[
+								0.33673,
+								1.40181
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.78823,
+									0.8392,
+									0.34117,
+									0.0
+								]
+							],
+							[
+								0.20563,
+								[
+									0.33592,
+									1.0,
+									0.0,
+									0.78125
+								]
+							],
+							[
+								0.76055,
+								[
+									0.28259,
+									0.73825,
+									0.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									0.60784,
+									0.81176,
+									0.45489,
+									0.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.92926,
+					-2.3391
+				],
+				"friction" : 2.0,
+				"guid" : 6,
+				"height" : 
+				[
+					4.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Smoke-1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					1.22713,
+					-2.07014
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					34.87741,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 3000,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 1.5,
+				"translucency" : 0.5,
+				"type" : "cone",
+				"velocity" : 21.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					0.5
+				]
+			},
+			{
+				"category" : "2 -",
+				"cone_angle" : 5.0,
+				"cone_radius" : 0.25,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					0.41405,
+					0.8352,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 11,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.97368
+							],
+							[
+								0.33673,
+								1.40181
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.78823,
+									0.8392,
+									0.34117,
+									0.0
+								]
+							],
+							[
+								0.20563,
+								[
+									0.33592,
+									1.0,
+									0.0,
+									0.78125
+								]
+							],
+							[
+								0.76055,
+								[
+									0.28259,
+									0.73825,
+									0.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									0.60784,
+									0.81176,
+									0.45489,
+									0.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 3.0,
+				"guid" : 10,
+				"height" : 
+				[
+					3.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Smoke2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.08939,
+					0.63331
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					42.17361,
+					-0.17092,
+					0.69673
+				],
+				"soft_particles_bias" : 3000,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 1.5,
+				"translucency" : 0.5,
+				"type" : "cone",
+				"velocity" : 8.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.5
+				]
+			},
+			{
+				"category" : "2 -",
+				"cone_angle" : 1.0,
+				"cone_radius" : 0.75,
+				"delay" : 0.15,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					0.41176,
+					0.83135,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 15,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3242
+							],
+							[
+								0.12755,
+								1.01364
+							],
+							[
+								0.33673,
+								1.40181
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.78823,
+									0.8392,
+									0.34117,
+									0.0
+								]
+							],
+							[
+								0.20563,
+								[
+									0.33592,
+									1.0,
+									0.0,
+									0.78125
+								]
+							],
+							[
+								0.76055,
+								[
+									0.28259,
+									0.73825,
+									0.0,
+									0.44139
+								]
+							],
+							[
+								1.0,
+								[
+									0.60784,
+									0.81176,
+									0.45489,
+									0.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 2.0,
+				"guid" : 14,
+				"height" : 
+				[
+					3.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Smoke4",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.08939,
+					0.63331
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					42.17361,
+					-0.17092,
+					0.69673
+				],
+				"soft_particles_bias" : 2000,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 1.5,
+				"translucency" : 0.49,
+				"type" : "cone",
+				"velocity" : 11.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.5
+				]
+			},
+			{
+				"category" : "2 - GooSplashes",
+				"color" : 
+				[
+					0.0,
+					0.45702,
+					0.07141,
+					1.0
+				],
+				"depth" : 1.5,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.44999,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.01936
+							],
+							[
+								0.333,
+								1.0
+							],
+							[
+								0.666,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 19,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								0.0
+							],
+							[
+								0.666,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 20,
+						"index" : 1,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.68421
+							],
+							[
+								0.15384,
+								0.75985
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 21,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16347,
+								0.39171
+							],
+							[
+								0.26539,
+								0.55961
+							],
+							[
+								0.42675,
+								0.66666
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 22,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.17778
+							],
+							[
+								0.47036,
+								1.18874
+							],
+							[
+								1.0,
+								1.75
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.75,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"friction" : 1.0,
+				"guid" : 18,
+				"height" : 1.5,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 25,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Splatter MATCAP qwe",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_rendeble_trashbot_splatter_splattershape_green.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 0.449999988,
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"alpha" : true,
+				"category" : "2 - GooSplashes",
+				"color" : 
+				[
+					0.33724,
+					0.8392,
+					0.0549,
+					1.0
+				],
+				"cone_angle" : 15.0,
+				"cone_radius" : 1.0,
+				"delay" : 0.1,
+				"depth" : 
+				[
+					1.0,
+					0.25
+				],
+				"direction_type" : "shape",
+				"duration" : 0.44999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45254
+							],
+							[
+								0.13684,
+								0.83696
+							],
+							[
+								0.27191,
+								1.04136
+							],
+							[
+								0.44911,
+								1.15328
+							],
+							[
+								0.81576,
+								1.07053
+							],
+							[
+								0.90877,
+								0.90024
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								4.0
+							],
+							[
+								0.08421,
+								2.13138
+							],
+							[
+								0.20877,
+								1.40145
+							],
+							[
+								0.33684,
+								1.17761
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 1.0,
+				"guid" : 24,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 15,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops small",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/drops/p_renderable_trashbot_drops_translucent.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					45.0,
+					0.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.25
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					10.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_liquidsplash02_asg.tga",
+				"category" : "2 - GooSplashes",
+				"cylinder_height" : -1.0,
+				"cylinder_radius_end" : 0.75,
+				"cylinder_radius_start" : 0.5,
+				"depth" : 
+				[
+					1.25,
+					0.25
+				],
+				"direction_type" : "shape",
+				"duration" : 0.44999,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.2307,
+								1.27629
+							],
+							[
+								0.56,
+								1.67104
+							],
+							[
+								1.0,
+								1.88812
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 35,
+						"fps" : 30,
+						"guid" : 29,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.19076,
+								1.2171
+							],
+							[
+								0.4923,
+								1.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 30,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								32.53012
+							]
+						],
+						"guid" : 31,
+						"max" : 90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"axis" : "y",
+						"base" : -3.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-3.0
+							]
+						],
+						"guid" : 32,
+						"max" : 3.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 15,
+				"guid" : 27,
+				"height" : 
+				[
+					1.75,
+					0.25
+				],
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 15,
+				"mesh" : "$GAME_DATA/Particles/resources/foamgun/Splashes/p_foamgun_liquidsplash02_cylinder.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency03_fbrdf.tga",
+				"mesh_size" : 
+				[
+					2.0,
+					2.0,
+					2.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "SplashPlane01",
+				"normal_map" : "$GAME_DATA/Particles/resources/foamgun/Splashes/p_foamgun_liquidsplash02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.212,
+					0.51029
+				],
+				"rotation" : 
+				[
+					90.0,
+					15.0
+				],
+				"shape_rotation" : 
+				[
+					-147.46134,
+					0.0,
+					-0.0
+				],
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.1
+				],
+				"type" : "cylinder",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.5
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,802 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "0",
+				"circle_angle" : 90.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"editorColor" : 
+				[
+					0.59605,
+					1.0,
+					0.26273,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16335,
+								[
+									1.0,
+									0.52986,
+									0.07417,
+									1.0
+								]
+							],
+							[
+								0.87603,
+								[
+									1.0,
+									0.69106,
+									0.25389,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.15789
+							],
+							[
+								1.0,
+								0.55263
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"keep_local" : true,
+				"max_particles" : 50,
+				"name" : "Flowing glow top 1",
+				"params" : 8,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"radius" : 0.00999,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					52.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 128,
+				"time_to_live" : 1.0,
+				"type" : "circle",
+				"velocity" : 
+				[
+					-5.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"z_offset" : 20.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "0",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/p_thruster_thruster04.tga",
+				"direction_type" : "shape",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16335,
+								[
+									1.0,
+									0.52986,
+									0.07417,
+									1.0
+								]
+							],
+							[
+								0.87603,
+								[
+									1.0,
+									0.69106,
+									0.25389,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 5,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.31198
+							],
+							[
+								1.0,
+								2.04799
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 3.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.53618
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 7,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 
+				[
+					3.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Projectile Glow Upper 1    [medium]",
+				"params" : 8,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.04558
+				],
+				"rotation" : 
+				[
+					180.0,
+					10.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 256,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"velocity" : 
+				[
+					-1.0,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.05998
+				]
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/p_thruster_thruster04.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16335,
+								[
+									0.8906,
+									0.37573,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 10,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								2.04799
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58222
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 12,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					9.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Projectile Glow Upper 2 FLAT    [medium]",
+				"params" : 8,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.04558
+				],
+				"rotation" : 
+				[
+					0.0,
+					10.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 256,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"velocity" : 
+				[
+					-1.0,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.05998
+				]
+			},
+			{
+				"category" : "2",
+				"circle_angle" : 90.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.59605,
+					1.0,
+					0.26273,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16335,
+								[
+									1.0,
+									0.52986,
+									0.07417,
+									1.0
+								]
+							],
+							[
+								0.87603,
+								[
+									1.0,
+									0.69106,
+									0.25389,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3355
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 13,
+				"height" : 0.01,
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "Flowing glow top 2",
+				"params" : 8,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"radius" : 0.00999,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					52.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1000,
+				"sub" : 
+				[
+					{
+						"category" : "0",
+						"circle_angle" : 80.0,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+						"direction_type" : "shape",
+						"duration" : 3.0,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									],
+									[
+										0.16335,
+										[
+											1.0,
+											0.52986,
+											0.07417,
+											1.0
+										]
+									],
+									[
+										0.87603,
+										[
+											1.0,
+											0.69106,
+											0.25389,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									]
+								],
+								"guid" : 15,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5296
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"fade" : 0.25,
+								"guid" : 16,
+								"length" : 0.5,
+								"name" : "Cutoff"
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 50,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-4.0
+						],
+						"friction" : 2.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 14,
+						"height" : 
+						[
+							0.2,
+							0.001
+						],
+						"keep_local" : false,
+						"max_particles" : 100,
+						"min_quality" : "medium",
+						"name" : "sparks Fast Straight    [medium]",
+						"params" : 8,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-0.20544
+						],
+						"radius" : 0.1,
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "addative",
+						"shape_rotation" : 
+						[
+							-180.0,
+							0.0,
+							180.0
+						],
+						"soft_particles_bias" : 2500,
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							0.4,
+							0.125
+						],
+						"type" : "circle",
+						"velocity" : 
+						[
+							40.0,
+							2.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.2,
+							0.001
+						],
+						"z_offset" : 1.0
+					}
+				],
+				"time_to_live" : 1.0,
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.01,
+				"z_offset" : 20.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "sprite",
+				"category" : "0",
+				"diffuse" : "$GAME_DATA/Particles/Textures/pu_flare.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.16335,
+								[
+									0.8906,
+									0.37573,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								2.04799
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"base" : -10.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								10.0
+							],
+							[
+								1.0,
+								-10.0
+							]
+						],
+						"guid" : 22,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 19,
+				"height" : 5.0,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Projectile Glow Upper 2 FLAT    [medium]",
+				"params" : 8,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.04558
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 256,
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 2.5
+	}
+}

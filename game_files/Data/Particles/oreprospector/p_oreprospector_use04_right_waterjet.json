@@ -1,0 +1,1654 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/oreprospector/p_oreprospector_watersplash01_asg.tga",
+				"category" : "4",
+				"circle_angle" : 82.0,
+				"depth" : 
+				[
+					1.0,
+					0.25
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 56,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.47222,
+								0.71912
+							],
+							[
+								0.60184,
+								0.84262
+							],
+							[
+								0.7537,
+								0.92628
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61562
+							],
+							[
+								0.3786,
+								1.2064
+							],
+							[
+								0.5246,
+								1.35587
+							],
+							[
+								0.69098,
+								1.48397
+							],
+							[
+								1.0,
+								1.54446
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 7,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 3.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 255,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/trashball/p_mesh_trashbot_trashball_splatterplane01_projectile.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Splash 1 Fancy   [medium]",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.335,
+					0.01384,
+					0.04969
+				],
+				"radius" : 0.02999,
+				"rotation" : 
+				[
+					0.0,
+					25.0
+				],
+				"shape_rotation" : 
+				[
+					180.0,
+					-81.91018,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.25
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 15.0,
+				"box" : 
+				[
+					0.25,
+					1.0,
+					0.0
+				],
+				"category" : "2",
+				"color" : 
+				[
+					0.23826,
+					0.64292,
+					1.0,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 11.8,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45269
+							],
+							[
+								0.09775,
+								0.77026
+							],
+							[
+								0.21953,
+								0.95494
+							],
+							[
+								0.37907,
+								1.04279
+							],
+							[
+								0.59004,
+								1.03153
+							],
+							[
+								0.74957,
+								0.95945
+							],
+							[
+								0.8439,
+								0.76801
+							],
+							[
+								0.89879,
+								0.57432
+							],
+							[
+								1.0,
+								0.00896
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								3.0
+							],
+							[
+								0.2298,
+								1.9243
+							],
+							[
+								0.42024,
+								1.4378
+							],
+							[
+								1.0,
+								0.74054
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 4.0,
+				"guid" : 3,
+				"height" : 
+				[
+					0.44999,
+					0.1
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 25,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "SplashDrop    [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.99801,
+					0.01384,
+					-1.12084
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					0.0,
+					-75.82268,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					8.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.44999,
+					0.1
+				]
+			},
+			{
+				"category" : "1",
+				"delay" : 0.1,
+				"depth" : 0.99000001,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								1.0
+							],
+							[
+								0.5,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 7,
+						"name" : "Pose",
+						"repeat" : true,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								0.0
+							],
+							[
+								0.5,
+								0.99105
+							],
+							[
+								0.75,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 8,
+						"index" : 1,
+						"name" : "Pose",
+						"repeat" : true,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.5,
+								0.0
+							],
+							[
+								0.75,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 9,
+						"name" : "Pose",
+						"repeat" : true,
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.58139
+							],
+							[
+								0.00999,
+								1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								180.0
+							],
+							[
+								1.0,
+								180.0
+							]
+						],
+						"guid" : 11,
+						"max" : 180.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 6,
+				"height" : 0.99000001,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "WATERFLOW 01   [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.23703,
+					-0.05043,
+					-0.00556
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/oreprospector/p_renderable_oreprospector_finish01_wateringflow_blendshapes.rend",
+				"rotation" : 65.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"time_to_live" : 11.899999619,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.99000001
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"category" : "4",
+				"circle_angle" : 80.0,
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"depth" : 
+				[
+					2.0,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								1.0,
+								0.94406
+							]
+						],
+						"enabled" : false,
+						"guid" : 13,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 14,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.80071
+							],
+							[
+								1.0,
+								1.94306
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 3.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -4.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-4.0
+							]
+						],
+						"guid" : 16,
+						"local" : false,
+						"max" : 4.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -3.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.55283
+							],
+							[
+								1.0,
+								-3.0
+							]
+						],
+						"guid" : 17,
+						"max" : 3.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 17,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"guid" : 12,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Plane Splash 2 Muzzel   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.10002,
+					0.00563,
+					-0.02519
+				],
+				"radius" : 0.05,
+				"rotation" : 
+				[
+					90.0,
+					45.0
+				],
+				"shape_rotation" : 
+				[
+					-61.60513,
+					-82.61937,
+					151.26646
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.125
+				],
+				"type" : "circle",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"box" : 
+				[
+					0.1,
+					0.1,
+					0.2
+				],
+				"category" : "4",
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"depth" : 
+				[
+					2.0,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								1.0,
+								0.94406
+							]
+						],
+						"enabled" : false,
+						"guid" : 19,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 20,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.80071
+							],
+							[
+								1.0,
+								1.94306
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 3.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 15,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 4.0,
+				"guid" : 18,
+				"height" : 
+				[
+					2.0,
+					0.125
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Plane Splash 1 Muzzel   [medium]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.10002,
+					-0.12152,
+					-0.02519
+				],
+				"rotation" : 
+				[
+					90.0,
+					45.0
+				],
+				"shape_rotation" : 
+				[
+					-168.81566,
+					-83.8146,
+					8.87108
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.125
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					7.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"category" : "4",
+				"circle_angle" : 80.0,
+				"color" : 
+				[
+					0.23826,
+					0.64292,
+					1.0,
+					1.0
+				],
+				"depth" : 
+				[
+					0.34999,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45269
+							],
+							[
+								0.09775,
+								0.77026
+							],
+							[
+								0.21953,
+								0.95494
+							],
+							[
+								0.37907,
+								1.04279
+							],
+							[
+								0.59004,
+								1.03153
+							],
+							[
+								0.74957,
+								0.95945
+							],
+							[
+								0.8439,
+								0.76801
+							],
+							[
+								0.89879,
+								0.57432
+							],
+							[
+								1.0,
+								0.00896
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								3.0
+							],
+							[
+								0.2298,
+								1.9243
+							],
+							[
+								0.42024,
+								1.4378
+							],
+							[
+								1.0,
+								0.74054
+							]
+						],
+						"guid" : 24,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 3.0,
+				"guid" : 22,
+				"height" : 
+				[
+					0.34999,
+					0.05
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_waterdrop.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "SplashDrop [medium]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.50402,
+					0.01384,
+					0.02927
+				],
+				"radius" : 0.125,
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					168.76742,
+					-76.88974,
+					-12.60051
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.125
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					6.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"angle" : 10.0,
+				"category" : "3",
+				"circle_angle" : 65.0,
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					1.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.6,
+				"editorColor" : 
+				[
+					0.87133,
+					1.0,
+					0.46875,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 26,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.03945
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 25,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Plane Splash 1   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.60501,
+					-0.68397,
+					-1.43527
+				],
+				"radius" : 0.05,
+				"shape_rotation" : 
+				[
+					0.0,
+					-37.44301,
+					-0.00002
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "circle",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"angle" : 10.0,
+				"category" : "3",
+				"circle_angle" : 65.0,
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					1.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.6,
+				"editorColor" : 
+				[
+					0.59741,
+					1.0,
+					0.46875,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 29,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.03945
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 30,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 28,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Plane Splash 1   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.743,
+					-0.29114,
+					-1.2921
+				],
+				"radius" : 0.05,
+				"shape_rotation" : 
+				[
+					0.0,
+					-37.44301,
+					-0.00002
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "circle",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"angle" : 10.0,
+				"category" : "3",
+				"circle_angle" : 65.0,
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					1.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.6,
+				"editorColor" : 
+				[
+					0.46875,
+					1.0,
+					0.6887,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 32,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.03945
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 33,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 31,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Plane Splash 1   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.77202,
+					-0.03927,
+					-1.49979
+				],
+				"radius" : 0.05,
+				"shape_rotation" : 
+				[
+					0.0,
+					-37.44301,
+					-0.00002
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "circle",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"angle" : 10.0,
+				"category" : "3",
+				"circle_angle" : 65.0,
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					1.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.6,
+				"editorColor" : 
+				[
+					0.46875,
+					1.0,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 35,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.03945
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 36,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 34,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Plane Splash 1   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.66102,
+					0.17091,
+					-1.40823
+				],
+				"radius" : 0.05,
+				"shape_rotation" : 
+				[
+					0.0,
+					-37.44301,
+					-0.00002
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "circle",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"angle" : 10.0,
+				"category" : "3",
+				"circle_angle" : 65.0,
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					1.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.6,
+				"editorColor" : 
+				[
+					0.46875,
+					0.78833,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 38,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.03945
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 39,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 37,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Plane Splash 1   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.53202,
+					0.41244,
+					-1.13376
+				],
+				"radius" : 0.05,
+				"shape_rotation" : 
+				[
+					0.0,
+					-37.44301,
+					-0.00002
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "circle",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_asg.tga",
+				"angle" : 10.0,
+				"category" : "3",
+				"circle_angle" : 65.0,
+				"color" : 
+				[
+					0.34117,
+					0.6,
+					0.76468,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					1.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 11.6,
+				"editorColor" : 
+				[
+					0.46875,
+					0.62646,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 41,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.03945
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 42,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 40,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Plane Splash 1   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_02_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.641,
+					0.73321,
+					-1.33397
+				],
+				"radius" : 0.05,
+				"shape_rotation" : 
+				[
+					0.0,
+					-37.44301,
+					-0.00002
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "circle",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

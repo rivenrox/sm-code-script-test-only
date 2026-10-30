@@ -1,0 +1,128 @@
+{
+	"template_meta": { 
+        "uuid" : "b2c63844-3927-4bb0-b477-5cb28bc0cba9",
+		"name":"World File", 
+		"display": "world", 
+		"pattern": ["$*/Worlds/*.json", "*.world"], 
+        "constDataStoreAllNames" : true
+	},
+
+    "version_meta" : { "type" : "int" },
+    "version" : 0,
+
+    "zoneSettings_meta" : { "type": "filepath" },
+    "zoneSettings" : "",
+
+    "defaultRendersettings_meta" : { "type": "filepath" },
+    "defaultRendersettings" : "",
+    
+    "cellData_meta" : { "optional" : true },
+    "cellData" : 
+    [
+        { 
+            "x_meta": { "type":"int" },
+            "x" : 0,
+            "y_meta": { "type":"int" },
+            "y" : 0,
+
+            "offsetX_meta": { "type":"int" },
+            "offsetX" : 0,
+            "offsetY_meta": { "type":"int" },
+            "offsetY" : 0,
+
+            "rotation_meta": { "type":"int" },
+            "rotation" : 0,
+
+            "path_meta": { "type":"filepath", "extensions" : [".tile"], "allowEmpty": true },
+            "path" : ""
+        }
+    ],
+
+    "dependencies_meta" : { "type" : "array", "optional" : true },
+    "dependencies" :
+    [
+        {
+            "name" : "Content Name",
+            "contentId_meta" : { "type": "uuid" },
+            "contentId" : "",
+            "steamFileId_meta" : { "type": "uint64" },
+            "steamFileId" : 0
+        }
+    ],
+    
+    "cornerData_meta": { "optional" : true },
+    "cornerData" : 
+    [
+        {
+            "type_meta" : { "type" : "int" },
+            "type" : 0,
+
+            "x_meta": { "type":"int" },
+            "x" : 0,
+            "y_meta": { "type":"int" },
+            "y" : 0
+        }
+	],
+
+    "portalData_meta" : { "type" : "array", "createEmpty" : true },
+    "portalData" : [
+        {
+            "id_meta" : { "type" : "int" },
+            "id" : 0,
+            "zoneA_meta" : { "type" : "float" },
+            "zoneA" : 0,
+            "zoneB_meta" : { "type" : "float" },
+            "zoneB" : 0,
+            "minX_meta" : { "type" : "float" },
+            "minX" : 0,
+            "minY_meta" : { "type" : "float" },
+            "minY" : 0,
+            "minZ_meta" : { "type" : "float" },
+            "minZ" : 0,
+            "maxX_meta" : { "type" : "float" },
+            "maxX" : 0,
+            "maxY_meta" : { "type" : "float" },
+            "maxY" : 0,
+            "maxZ_meta" : { "type" : "float" },
+            "maxZ" : 0
+        }
+    ],
+
+    "zoneData_meta": { "type" : "array", "createEmpty" : true },
+    "zoneData" : 
+    [
+        {
+            "id_meta" : { "type" : "float" },
+            "id" : 0,
+            "minX_meta" : { "type" : "float" },
+            "minX" : 0,
+            "minY_meta" : { "type" : "float" },
+            "minY" : 0,
+            "minZ_meta" : { "type" : "float" },
+            "minZ" : 0,
+            "maxX_meta" : { "type" : "float" },
+            "maxX" : 0,
+            "maxY_meta" : { "type" : "float" },
+            "maxY" : 0,
+            "maxZ_meta" : { "type" : "float" },
+            "maxZ" : 0
+        }
+    ],
+
+    "voxelMaterialSet_meta": { "type": "filepath", "optional" : true },
+    "voxelMaterialSet" : "",
+
+    "groundMaterialSet_meta": { "type": "filepath", "optional" : true },
+    "groundMaterialSet" : "",
+
+    "playerEffect_meta" : { "optional" : true },
+    "playerEffect" : "",
+
+    "survivalMusicParameter_meta" : { "optional" : true },
+    "survivalMusicParameter" : 0,
+
+    "ambienceAudio_meta" : { "optional" : true, "optionsCategory" : "effect" },
+    "ambienceAudio" : ""
+
+
+}

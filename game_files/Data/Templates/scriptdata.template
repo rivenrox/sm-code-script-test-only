@@ -1,0 +1,58 @@
+{
+	"kinematic_meta": {
+		"available": {
+			"../class": [
+				"Kinematic",
+				"ParentedKinematic",
+				"KinematicAutoDoor",
+				"KinematicBridgePart",
+				"KinematicInteractiveDoor",
+				"KinematicLift",
+				"ParentedKinematic",
+				"ParentedKinematicRoot",
+				"PowerLadderHandle",
+				"SimpleKinematic",
+				"KinematicTrackDoor"
+			]
+		},
+		"constDataStoreAllNames" : true
+	},
+	"kinematic": {
+		"movementEffect_meta": { "optional": true, "type": "string", "optionsCategory":"effect", "optionsAllowsCustom": false },
+		"movementEffect": "",
+
+		"useVelocity_meta": { "label" : "Use Velocity for Movement Effect*", "optional": true, "type": "bool", "unavailable": { "../../class" : [ "KinematicTrackDoor" ] }, "toolTip" : "If enabled, the movement effect will use the velocity parameter for audio." },
+		"useVelocity": false,
+
+		"maxSpeed_meta": { "label" : "Max Speed Movement Effect*", "optional": true, "type": "float", "min": 0.0, "toolTip" : "The speed of which the kinematic reaches maximum velocity sound." },
+		"maxSpeed": 1.0,
+	
+		"permanentEffects_meta": { 
+			"optional": true,
+			"label": "Permanent Effects", 
+			"unavailable": { "../../class" : [ "KinematicTrackDoor" ] },
+			"value_meta":
+			{
+				"displayTransform" : {
+					"color": [0.9, 0.7, 0.2, 0.5],
+					"cameraView": false,
+					"position":"offsetPosition",
+					"rotation":"offsetRotation",
+					"renderable" : "$GAME_DATA/Nodes/Renderable/node_cube.rend"
+				}
+			}
+		},
+		"permanentEffects": [
+			{
+				"effectName_meta" : { "type": "string", "optionsCategory":"effect", "optionsAllowsCustom": false },
+				"effectName" : "",
+
+				"offsetPosition_meta": { "type":"vec3" },
+				"offsetPosition": [0.0, 0.0, 0.0],
+				
+				"offsetRotation_meta": { "type":"vec3" },
+				"offsetRotation": [0.0, 0.0, 0.0]
+			}
+		]
+	}
+}

@@ -1,0 +1,1515 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 25.0,
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.8,
+					0.88235,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds04_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.02745,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 100,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.31338
+							],
+							[
+								0.1781,
+								0.75352
+							],
+							[
+								0.38394,
+								1.0528
+							],
+							[
+								1.0,
+								1.44718
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.54084,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.77341
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.5
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"name" : "Smoke2 lingering      [low]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.30289
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"sort_offset" : -0.10002,
+				"tiles" : 
+				[
+					10,
+					10
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.333
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.125
+				]
+			},
+			{
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.83529,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 6,
+						"max" : 0.25,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.5
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								1.0,
+								-0.5
+							]
+						],
+						"guid" : 7,
+						"max" : 0.5,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.00985
+							],
+							[
+								0.33537,
+								0.5
+							],
+							[
+								0.69845,
+								-0.5
+							],
+							[
+								1.0,
+								0.00985
+							]
+						],
+						"guid" : 8,
+						"max" : 0.5,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 9,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"friction" : 
+				[
+					2.0,
+					2.0
+				],
+				"guid" : 4,
+				"height" : 
+				[
+					0.025,
+					0.00498
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "SnowLoop1 Small    [medium] ",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.2928
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.3,
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					0.5,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.025,
+					0.00498
+				]
+			},
+			{
+				"angle" : 25.0,
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 6.0,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.83591,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 15,
+						"guid" : 11,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59816
+							],
+							[
+								0.27202,
+								0.87704
+							],
+							[
+								1.0,
+								1.28805
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.24221,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.57182,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.92966
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.5
+				],
+				"friction" : 5.0,
+				"guid" : 10,
+				"height" : 
+				[
+					1.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 150,
+				"min_quality" : "medium",
+				"name" : "Heavy Smoke 1        [medium] ",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.32822
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 1.0,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"velocity" : 
+				[
+					1.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.125
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"angle" : 10.0,
+				"category" : "3 - ",
+				"circle_angle" : 5.0,
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"delay" : 2.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.0,
+					0.57647,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 15,
+						"guid" : 15,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59816
+							],
+							[
+								0.27202,
+								0.87704
+							],
+							[
+								1.0,
+								1.28805
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.24221,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.69858,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"friction" : 1.5,
+				"guid" : 14,
+				"height" : 
+				[
+					1.5,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 150,
+				"min_quality" : "high",
+				"name" : "Heavy Smoke 2        [high]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.2482
+				],
+				"radius" : 0.25,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					1.0,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.125
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.8,
+					0.88748,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_wispofsmoke.tga",
+				"direction_type" : "shape",
+				"duration" : 4.5,
+				"editorColor" : 
+				[
+					0.02745,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 15,
+						"guid" : 19,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.22382
+							],
+							[
+								0.10029,
+								0.66052
+							],
+							[
+								0.27202,
+								0.87704
+							],
+							[
+								1.0,
+								1.28805
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.49577,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.60154
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 21,
+						"name" : "Color"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.52108
+							],
+							[
+								1.0,
+								1.51189
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59447
+							],
+							[
+								1.0,
+								1.42752
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 1.5,
+				"guid" : 18,
+				"height" : 
+				[
+					1.25,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 150,
+				"name" : "Whisp of smoke +     [low]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.44556
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "alpha_blend",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 2.5,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.5,
+					0.25
+				]
+			},
+			{
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.83529,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 26,
+						"max" : 0.25,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.5
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								1.0,
+								-0.5
+							]
+						],
+						"guid" : 27,
+						"max" : 0.5,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.00985
+							],
+							[
+								0.33537,
+								0.5
+							],
+							[
+								0.69845,
+								-0.5
+							],
+							[
+								1.0,
+								0.00985
+							]
+						],
+						"guid" : 28,
+						"max" : 0.5,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 29,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"friction" : 
+				[
+					2.0,
+					2.0
+				],
+				"guid" : 24,
+				"height" : 
+				[
+					0.05,
+					0.00999
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "SnowLoop1 Big     [medium] ",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.2928
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.3,
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					0.5,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.00999
+				]
+			},
+			{
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					0.5781,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 32,
+						"max" : 0.25,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.5
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								1.0,
+								-0.5
+							]
+						],
+						"guid" : 33,
+						"max" : 0.5,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.00985
+							],
+							[
+								0.33537,
+								0.5
+							],
+							[
+								0.69845,
+								-0.5
+							],
+							[
+								1.0,
+								0.00985
+							]
+						],
+						"guid" : 34,
+						"max" : 0.5,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"friction" : 
+				[
+					2.0,
+					2.0
+				],
+				"guid" : 30,
+				"height" : 
+				[
+					0.025,
+					0.00498
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "SnowLoop2 Small    [high]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.2928
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.3,
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					0.5,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.025,
+					0.00498
+				]
+			},
+			{
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					0.57647,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 36,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 37,
+						"max" : 0.25,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.5
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								1.0,
+								-0.5
+							]
+						],
+						"guid" : 38,
+						"max" : 0.5,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.00985
+							],
+							[
+								0.33537,
+								0.5
+							],
+							[
+								0.69845,
+								-0.5
+							],
+							[
+								1.0,
+								0.00985
+							]
+						],
+						"guid" : 39,
+						"max" : 0.5,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"friction" : 
+				[
+					2.0,
+					2.0
+				],
+				"guid" : 35,
+				"height" : 
+				[
+					0.05,
+					0.00999
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "SnowLoop2 Big     [high]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.2928
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.3,
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					0.5,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.00999
+				]
+			},
+			{
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_salt.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.02745,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 41,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.5
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								1.0,
+								-0.5
+							]
+						],
+						"guid" : 42,
+						"max" : 0.5,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -0.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.00985
+							],
+							[
+								0.33537,
+								0.5
+							],
+							[
+								0.69845,
+								-0.5
+							],
+							[
+								1.0,
+								0.00985
+							]
+						],
+						"guid" : 43,
+						"max" : 0.5,
+						"name" : "Velocity",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 12,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"friction" : 
+				[
+					2.0,
+					2.0
+				],
+				"guid" : 40,
+				"height" : 
+				[
+					0.01999,
+					0.00498
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "SnowLoop2     [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.49377
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.4,
+				"time_to_live" : 
+				[
+					1.5,
+					1.0
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					0.5,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.01999,
+					0.00498
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

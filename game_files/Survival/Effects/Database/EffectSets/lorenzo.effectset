@@ -1,0 +1,209 @@
+{
+	"Audio - Hack_door_left" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/wrong_panel/lorenzo_left"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Audio - Hack_door_right" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/wrong_panel/lorenzo_right"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Audio - Smack" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/human/smack"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Lorenzo - Dripping_goo" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_lorenzo_dripping_goo",
+				"rotation" : 
+				[
+					180.0,
+					90.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Lorenzo - Lift" : 
+	{
+		"effectList" : 
+		[
+			{
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"parameters" : 
+				[
+					"pose0"
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/effectproxies/p_effectproxies_lorenzolift.rend"
+				],
+				"renderableColor" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "renderable"
+			}
+		],
+		"parameterList" : 
+		{
+			"pose0" : 0.0
+		}
+	},
+	"Lorenzo - Lootitem_masterkey" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_lorenzo_masterkey_lootitem",
+				"offset" : 
+				[
+					0.200000003,
+					0.0,
+					-0.360000014
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Lorenzo - Lootitem_masterkey_pickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_lorenzo_masterkey_lootitem_pickup",
+				"offset" : 
+				[
+					0.200000003,
+					0.0,
+					-0.360000014
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Lorenzo - Rumbling01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/shake_underground_1"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 2.5,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 2,
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 3000,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.050000001,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Lorenzo - Rumbling02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/shake_underground_2"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 3.5,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 3,
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 3000,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.15,
+				"type" : "cameraShake"
+			}
+		]
+	}
+}

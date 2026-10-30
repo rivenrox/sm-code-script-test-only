@@ -1,0 +1,172 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_laserbeam_diameter.fbx",
+			"pose0" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_laserbeam_diameter_pose0.fbx",
+			"pose1" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_laserbeam_diameter_pose1.fbx",
+			"pose2" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_laserbeam_diameter_pose2.fbx",
+			"subMeshMap" : 
+			{
+				"plasma" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.0,
+								0.234985352,
+								0.6015625,
+								0.0
+							],
+							"distanceFade" : 
+							{
+								"farDistance" : 817.859985352,
+								"nearDistance" : 12.010000229,
+								"nearFadeEnd" : 0.0
+							},
+							"fade" : 
+							{
+								"fadeRange" : 0.74000001,
+								"fadeValue" : 0.07
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 0.01,
+								"fogMin" : 0.810000002,
+								"fogOpacity" : 0.300000012,
+								"fogScale" : 10.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.180000007,
+								"fresnelIntensity" : 0.01
+							},
+							"glowStrength" : 0.449999988,
+							"highlightColor" : 
+							[
+								0.0,
+								0.4140625,
+								1.0,
+								1.0
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.200000003,
+								"intersectIntensity" : 1.230000019
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 0.0,
+								"scanLineFrequency2" : 0.0,
+								"scanLineIntensity1" : 0.0,
+								"scanLineIntensity2" : 0.0,
+								"scanLineSpeed1" : -5.0,
+								"scanLineSpeed2" : -5.0
+							}
+						},
+						"wave" : 
+						{
+							"speed" : 0.25,
+							"strength" : 2.0
+						}
+					},
+					"material" : "Laser_plasmadiameter",
+					"textures" : 
+					{
+						"laser" : "$GAME_DATA/Particles/resources/plasmadrill/t_plasmadrill_laserbeam_diameter_laser01_dif.tga",
+						"laserFog" : "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_noise01.exr",
+						"laserMask" : "$GAME_DATA/Particles/resources/plasmadrill/t_plasmadrill_laserbeam_diameter_laser01_dif.tga"
+					}
+				},
+				"plasma_inside" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.0,
+								0.234985352,
+								0.6015625,
+								0.0
+							],
+							"distanceFade" : 
+							{
+								"farDistance" : 345.450012207,
+								"nearDistance" : 12.010000229,
+								"nearFadeEnd" : 3.029999971
+							},
+							"fade" : 
+							{
+								"fadeRange" : 0.74000001,
+								"fadeValue" : 0.07
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 0.01,
+								"fogMin" : 0.810000002,
+								"fogOpacity" : 0.300000012,
+								"fogScale" : 10.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.180000007,
+								"fresnelIntensity" : 0.01
+							},
+							"glowStrength" : 0.5,
+							"highlightColor" : 
+							[
+								0.02734375,
+								0.47567749,
+								1.0,
+								1.0
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.150000006,
+								"intersectIntensity" : 10.0
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 0.0,
+								"scanLineFrequency2" : 0.0,
+								"scanLineIntensity1" : 0.0,
+								"scanLineIntensity2" : 0.0,
+								"scanLineSpeed1" : -5.0,
+								"scanLineSpeed2" : -5.0
+							}
+						},
+						"wave" : 
+						{
+							"speed" : 1.480000019,
+							"strength" : 3.0
+						}
+					},
+					"material" : "Laser_plasmadiameter_inside",
+					"textures" : 
+					{
+						"laser" : "$GAME_DATA/Particles/resources/plasmadrill/t_plasmadrill_laserbeam_diameter_laser01_inside_dif.tga",
+						"laserFog" : "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_perlin01.exr",
+						"laserMask" : "$GAME_DATA/Particles/resources/plasmadrill/t_plasmadrill_laserbeam_diameter_laser01_inside_dif.tga"
+					}
+				}
+			}
+		}
+	]
+}

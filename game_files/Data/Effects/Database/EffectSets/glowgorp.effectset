@@ -1,0 +1,189 @@
+{
+	"Glowgorp - Cardboardmunch" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_glowgorp_destruct_cardboard",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.1
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/animals/glowgorp/eat"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Glowgorp - Destruct" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/coll/impact_debris"
+				],
+				"parameters" : 
+				[
+					"Size",
+					"Material"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 1.0,
+					"z" : 0.0
+				},
+				"name" : "p_glowgorp_destruct",
+				"parameters" : 
+				[
+					"Color"
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Color" : 
+			[
+				1,
+				0.6,
+				0,
+				1
+			],
+			"Material" : 20.0,
+			"Size" : 0.08
+		}
+	},
+	"Glowgorp - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/animals/glowgorp/hit"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Glowgorp - Idlesound" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/animals/glowgorp/idle"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Glowgorp - Jump" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/animals/glowgorp/jump"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0
+		}
+	},
+	"Glowgorp - Pickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/animals/glowgorp/pickup"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Glowgorp - Walk" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/animals/glowgorp/footstep"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0
+		}
+	}
+}

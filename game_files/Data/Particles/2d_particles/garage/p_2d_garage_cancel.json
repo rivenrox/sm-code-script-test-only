@@ -1,0 +1,291 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "2",
+				"default_particle" : 
+				[
+					2.0,
+					2.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgradesqaure.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 1,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									0.85096,
+									0.20392,
+									0.09803,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 65,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 0.33,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Flash In to Out",
+				"position" : 
+				[
+					-0.00296,
+					0.0,
+					0.008
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.35,
+				"velocity" : 0.0,
+				"width" : 0.98
+			},
+			{
+				"category" : "2",
+				"delay" : 0.1,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/schematicbot/p_2d_schematicbot_buttonouterglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.92264
+							],
+							[
+								1.0,
+								0.48618
+							]
+						],
+						"fade" : 0.3,
+						"guid" : 4,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									0.85096,
+									0.20392,
+									0.09803,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1111,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 3.69,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Glow Outwards2 Circle",
+				"position" : 
+				[
+					0.08177,
+					1.0,
+					0.008
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 0.25,
+				"velocity" : 0.0,
+				"width" : 6.0
+			},
+			{
+				"category" : "0",
+				"default_particle" : 
+				[
+					0.99,
+					0.99
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_2d_buttonglow01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 7,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									0.85096,
+									0.20392,
+									0.09803,
+									1.0
+								]
+							],
+							[
+								0.83098,
+								[
+									1.0,
+									0.14063,
+									0.0,
+									0.88314
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 6,
+				"height" : 1.1,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Looping Glow",
+				"position" : 
+				[
+					-0.005,
+					-1.0,
+					0.00999
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 0.4,
+				"velocity" : 0.0,
+				"width" : 2.5
+			}
+		]
+	}
+}

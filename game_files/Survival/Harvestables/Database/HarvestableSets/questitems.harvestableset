@@ -1,0 +1,80 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col_box" : 
+			{
+				"x" : 2,
+				"y" : 2,
+				"z" : 2
+			},
+			"collides" : 
+			{
+				"body" : true,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"color" : "0b9ade",
+			"destroyTime" : 0.349999994,
+			"mass" : 1000.0,
+			"material" : "Plastic",
+			"name" : "hvs_questitem_water_bucket",
+			"removable" : true,
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/bucket/obj_tool_bucket_empty.rend",
+			"script" : 
+			{
+				"class" : "QuestItemWaterBucket",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/QuestItemWaterBucket.lua"
+			},
+			"uuid" : "7745d036-ed25-4559-9eb2-47b6da8d007e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Questitems/hvs_questitems_ballooncrate_col.fbx",
+			"col_box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "hvs_quest_ballooncrate",
+			"optionalParams" : 
+			[
+				{
+					"default" : "",
+					"name" : "reward",
+					"type" : "string"
+				},
+				{
+					"name" : "achievement",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Quest/hvs_quest_ballooncrate.rend",
+			"script" : 
+			{
+				"class" : "BalloonCrate",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/BalloonCrate.lua"
+			},
+			"uuid" : "c0245e76-27b1-48ba-9748-07fbe52cc07b"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Questitems/hvs_questitems_ballooncrate_open_col.fbx",
+			"col_box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "hvs_quest_ballooncrate_open",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Quest/hvs_quest_ballooncrate_open.rend",
+			"uuid" : "3c51a75c-f201-4f2b-b995-b2036adf1427"
+		}
+	]
+}

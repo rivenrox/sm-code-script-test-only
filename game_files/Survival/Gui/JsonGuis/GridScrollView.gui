@@ -1,0 +1,73 @@
+{
+	"Childs" : 
+	[
+		{
+			"Childs" : [],
+			"GridItemSize" : 
+			{
+				"height" : 80,
+				"width" : 80
+			},
+			"GridScrollOffset" : 
+			{
+				"left" : 0,
+				"top" : 0
+			},
+			"LayoutRule" : "Grid",
+			"Name" : "ScrollView",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"height" : 352.0,
+			"onMouseWheel" : "cl_onHandleMouseWheel",
+			"width" : 240.0,
+			"x" : 16.0,
+			"y" : 16.0
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Cursor" : "Draggable",
+					"Name" : "ScrollButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "InventoryScrollTrack",
+					"StateSelected" : false,
+					"Type" : "Button",
+					"Visible" : false,
+					"height" : 28,
+					"onDrag" : "cl_onScrollButtonDrag",
+					"onMouseWheel" : "cl_onHandleMouseWheel",
+					"onPressed" : "cl_onScrollButtonPressed",
+					"onReleased" : "cl_onScrollButtonReleased",
+					"width" : 18,
+					"x" : 0,
+					"y" : 0
+				}
+			],
+			"Name" : "ScrollBar",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "InventoryScrollBackground",
+			"Type" : "Button",
+			"height" : 356,
+			"onPressed" : "cl_onScrollBarPressed",
+			"width" : 18,
+			"x" : 250,
+			"y" : 18
+		}
+	],
+	"Name" : "MainPanel",
+	"NeedKey" : false,
+	"NeedMouse" : true,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"height" : 384.0,
+	"onMouseWheel" : "cl_onHandleMouseWheel",
+	"width" : 288.0,
+	"x" : 0.0,
+	"y" : 0.0
+}

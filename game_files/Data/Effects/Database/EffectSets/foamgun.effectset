@@ -1,0 +1,166 @@
+{
+	"Foamgun - ProjectileTrail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"name" : "p_foamgun_spray_projectile",
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : -1.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Foamgun - ProjectileHit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_foamgun_spray_projectilehit",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/foam_land"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/foam_bubble_pop"
+				],
+				"delay" : 1.75,
+				"type" : "audio"
+			}
+		]
+	},
+	"Foamgun - Muzzlesplash" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_foamgun_muzzel",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.02,
+					"z" : -0.10
+				},
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/foam_bubble_pop"
+				],
+				"delay" : 1.75,
+				"type" : "audio",
+				"attached" : false
+			}
+		]
+	},
+	"Foamgun - MuzzlesplashFP" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_foamgun_muzzel_fp",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : -0.35
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Foamgun - Muzzlesplash_bubbles" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_foamgun_muzzel_bubbles",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.08,
+					"z" : -0.2
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 2.0,
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/foam_bubble_pop"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Foamgun - Muzzlesplash_audio" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/spray"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Foamgun - TankEmpty" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/empty"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Foamgun - Equip" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/equip"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Foamgun - Unequip" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/fire_extinguisher/unequip"
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}

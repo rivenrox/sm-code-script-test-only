@@ -1,0 +1,64 @@
+{
+	"template_meta": {
+		"uuid" : "528b1ea8-cbad-415d-8224-271972d21374",
+		"name":"Tile Editor Settings",
+		"pattern": ["*/User*/*tile_editor_settings.json"]
+	},
+
+	"FOV_meta" : { "min" : 45, "max": 120 },	
+	"FOV" : 90,
+	"AutoBottomPivotOnDrag" : true,
+	"CreateWithRandomRotation" : true,
+	"CreateWithRandomScale" : false,
+	"AutoOpenLastFile" : true,
+	"RenderSky" : true,
+	"CloudShadows" : false,
+	"CloudCoverage_meta" : { "min" : 0.0, "max": 1.0 },
+	"CloudCoverage" : 0.25,
+	"LastOpenFile_meta" : { "type" : "filepath" },
+	"LastOpenFile" : "",
+	"GizmoScale_meta" : { "type" : "float", "min" : 0.1, "max": 20.0, "options" : [ "0.5", "1", "2", "4", "6" ] },	
+	"GizmoScale" : 1.0,
+	"TransformToolScale_meta" : { "type" : "float", "min" : 0.1, "max": 10.0, "options" : [ "0.5", "1", "2", "4", "6" ] },	
+	"TransformToolScale" : 1.0,
+	
+	"SaveOnExit" : false,
+	"SaveEntityType_meta" : { "type" : "bool", "label" : "Store ( Hidden, Gizmo, Locked )" },
+	"SaveEntityType" : false,
+	"EntityTypeFlags_meta" : { "hidden" : true },
+	"EntityTypeFlags" : {},
+	"AutoLoadChangesOnDisk_meta" : { "type" : "bool" },
+	"AutoLoadChangesOnDisk" : false,
+	"ExportMiniMapOnSave_meta" : { "type" : "bool" },
+	"ExportMiniMapOnSave" : false,
+
+	"UserTypes_meta" : {},
+	"UserTypes" : [
+		{
+			"Name" : "Favorites",
+
+			"IconPath_meta" : { "type" : "texture", "optional" : true, "optionsCategory" : "texture" },
+			"IconPath" : "$GAME_DATA/Gui/Editor/ed_icon_favorites.png",
+
+			"SavedItems_meta" : { "hidden" : true, "value_meta" : { "optional" : true } },
+			"SavedItems" : [
+				{
+					"Type_meta" : { "optional" : true },
+					"Type" : "",
+
+					"FilePath_meta" : { "type" : "int", "optional" : true },
+					"FilePath" : 0,
+
+					"Uid_meta" : { "type" : "uuid", "optional" : true },
+					"Uid" : "00000000-0000-0000-0000-000000000000",
+
+					"DecalId_meta" : { "type" : "int", "optional" : true },
+					"DecalId" : 0,
+
+					"NodeDescIndex_meta" : { "type" : "int", "optional" : true },
+					"NodeDescIndex" : 0
+				}
+			]
+		}
+	]
+}

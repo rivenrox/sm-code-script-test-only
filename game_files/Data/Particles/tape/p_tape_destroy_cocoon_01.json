@@ -1,0 +1,876 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 5.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					1.0,
+					0.78823,
+					0.45881,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 24
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 3,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1011,
+				"friction" : 4.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.23
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "Base Smoke 1 (low)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.45165
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"sphere_radius" : 0.75,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.2
+				],
+				"translucency" : 0.5,
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					1.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.23
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"depth" : 0.699999988,
+				"direction_type" : "shape",
+				"duration" : 0.05,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.62171
+							],
+							[
+								1.0,
+								2.79274
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.23384,
+								0.44078
+							],
+							[
+								0.41229,
+								0.66118
+							],
+							[
+								0.63691,
+								0.82235
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 6,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1011,
+				"guid" : 4,
+				"height" : 
+				[
+					0.69998,
+					0.1
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "mesh Tape 2 (high)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.55948
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_destroy_cocoon_pt5.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					50.0,
+					50.0
+				],
+				"time_to_live" : 
+				[
+					0.25,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.69998,
+					0.1
+				]
+			},
+			{
+				"category" : "0 - ",
+				"direction_type" : "shape",
+				"duration" : 0.05,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66878
+							],
+							[
+								0.43384,
+								1.40129
+							],
+							[
+								1.0,
+								1.86184
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.23384,
+								0.44078
+							],
+							[
+								0.41229,
+								0.66118
+							],
+							[
+								0.63691,
+								0.82235
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 9,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : -1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					1.35,
+					0.2
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "mesh Tape 0 (High)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.40001
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_destroy_cocoon_pt5.rend",
+				"rotation" : 
+				[
+					21.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					100.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					0.41999,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.35,
+					0.2
+				]
+			},
+			{
+				"category" : "0 - ",
+				"depth" : 0.800000012,
+				"direction_type" : "shape",
+				"duration" : 0.05,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66878
+							],
+							[
+								0.43384,
+								1.40129
+							],
+							[
+								1.0,
+								1.86184
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.23384,
+								0.44078
+							],
+							[
+								0.41229,
+								0.66118
+							],
+							[
+								0.63691,
+								0.82235
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 12,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : -1.0,
+				"guid" : 10,
+				"height" : 
+				[
+					1.29999,
+					0.2
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "mesh Tape 1 (Medlium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_destroy_cocoon_pt5.rend",
+				"rotation" : 21.0,
+				"rotation_speed" : 
+				[
+					100.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					0.41999,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.29999,
+					0.2
+				]
+			},
+			{
+				"category" : "0 - ",
+				"depth" : 0.800000012,
+				"direction_type" : "shape",
+				"duration" : 0.05,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66878
+							],
+							[
+								0.43384,
+								1.40129
+							],
+							[
+								1.0,
+								1.86184
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.23384,
+								0.44078
+							],
+							[
+								0.41229,
+								0.66118
+							],
+							[
+								0.63691,
+								0.82235
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 15,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : -1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					1.14997,
+					0.2
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "mesh Tape 2  (Medlium)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.30136
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_destroy_cocoon_pt5.rend",
+				"rotation" : 90.0,
+				"rotation_speed" : 
+				[
+					-122.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					0.41999,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.14997,
+					0.2
+				]
+			},
+			{
+				"category" : "0 - ",
+				"depth" : 0.5,
+				"direction_type" : "shape",
+				"duration" : 0.05,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66878
+							],
+							[
+								0.43384,
+								1.40129
+							],
+							[
+								1.0,
+								1.86184
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.23384,
+								0.44078
+							],
+							[
+								0.41229,
+								0.66118
+							],
+							[
+								0.63691,
+								0.82235
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 18,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"guid" : 16,
+				"height" : 
+				[
+					1.0,
+					0.2
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "mesh Tape 3 (High)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_destroy_cocoon_pt5.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					122.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					0.41999,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.2
+				]
+			},
+			{
+				"category" : "3",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.44615,
+								0.68421
+							],
+							[
+								0.59074,
+								0.8125
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 20,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.1323,
+								0.64802
+							],
+							[
+								0.21841,
+								0.7171
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 21,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 19,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "DissolveMesh (Medlium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_cocoon01_dissolve.rend",
+				"time_to_live" : 0.600000024,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 65.0,
+				"category" : "2 - ",
+				"color" : 
+				[
+					1.0,
+					0.74348,
+					0.19921,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 0.75,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/debri_tape_02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 25,
+						"guid" : 23,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 24,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.89577,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 25,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"friction" : 3.0,
+				"guid" : 22,
+				"height" : 
+				[
+					0.4,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "high",
+				"name" : "Tape 1 (High)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.34622
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.25
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.1
+				],
+				"z_offset" : 0.1
+			}
+		],
+		"min_quality" : "low"
+	}
+}

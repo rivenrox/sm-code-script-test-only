@@ -1,0 +1,244 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - ",
+				"circle_angle" : -65.0,
+				"color" : 
+				[
+					0.4713,
+					0.7128,
+					0.84375,
+					1.0
+				],
+				"depth" : 
+				[
+					1.0,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.39997
+							],
+							[
+								0.70691,
+								2.04901
+							],
+							[
+								0.79622,
+								2.31364
+							],
+							[
+								0.88923,
+								2.40789
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					2.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 500,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Bubbles1 wide",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.01249,
+					0.75496
+				],
+				"radius" : 0.4,
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.2
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					5.0,
+					1.0
+				],
+				"water_mask" : "under_water",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshspiral_asg.tga",
+				"category" : "0 - ",
+				"depth" : 2.900000095,
+				"direction_type" : "shape",
+				"duration" : 6.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 3,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.88279,
+									0.2069,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.23939,
+								[
+									0.91811,
+									0.12906,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.78026,
+								[
+									0.99272,
+									0.60939,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.65625,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.87352
+							],
+							[
+								1.0,
+								1.68526
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 4,
+				"force_vector" : 
+				[
+					-3.449,
+					0.0,
+					0.0
+				],
+				"guid" : 2,
+				"height" : 5.75,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 11,
+				"mesh" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshspiral.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Mesh Spiral",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.06738,
+					0.0,
+					0.75
+				],
+				"rotation" : 180.0,
+				"rotation_speed" : 1500.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"velocity" : 
+				[
+					-1.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 5.75
+			}
+		],
+		"min_quality" : "low"
+	}
+}

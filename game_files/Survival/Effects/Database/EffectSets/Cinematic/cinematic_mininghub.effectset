@@ -1,0 +1,1292 @@
+{
+	"Cinematic - BigDoorOpen01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 80,
+						"duration" : 4,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							32.862640381,
+							-76.298568726,
+							-6.25
+						],
+						"rotation" : 
+						[
+							16.189479828,
+							5.953661919,
+							19.660037994
+						]
+					},
+					{
+						"FOV" : 80,
+						"duration" : 6,
+						"easing" : "easeInOutSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							32.862640381,
+							-76.298568726,
+							-6.25
+						],
+						"rotation" : 
+						[
+							16.189479828,
+							5.953661919,
+							19.660037994
+						]
+					},
+					{
+						"FOV" : 80,
+						"duration" : 0,
+						"easing" : "easeInOutSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							27.100006104,
+							-76.298568726,
+							-6.25
+						],
+						"rotation" : 
+						[
+							16.490434647,
+							5.03648901,
+							16.518037796
+						]
+					}
+				],
+				"hasBlendIn" : false,
+				"hasBlendOut" : false,
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "sv_e_triggerKinematic",
+				"callbackParams" : 
+				{
+					"kinematicTrigger" : "gateKinematic"
+				},
+				"delay" : 0.0,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"delay" : 1.0,
+				"duration" : 2.0,
+				"shakeAmplitude" : 
+				[
+					0.300000012,
+					0.300000012,
+					0.300000012
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					30.0,
+					30.0,
+					30.0
+				],
+				"shakeRadius" : 200,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.02,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 2.5,
+				"duration" : 8.0,
+				"shakeAmplitude" : 
+				[
+					0.300000012,
+					0.300000012,
+					0.300000012
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 200,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.03,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 7.0,
+				"duration" : 11.0,
+				"shakeAmplitude" : 
+				[
+					0.01,
+					0.01,
+					0.01
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					30.0,
+					30.0,
+					30.0
+				],
+				"shakeRadius" : 200,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.01,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 10.0,
+				"duration" : 20.0,
+				"shakeAmplitude" : 
+				[
+					0.01,
+					0.01,
+					0.01
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					30.0,
+					30.0,
+					30.0
+				],
+				"shakeRadius" : 200,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.005,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Cinematic - CasterActivation01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 60,
+						"duration" : 5,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							-5.178223133,
+							-5.5,
+							-7.944255829
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							-8.450652122
+						]
+					},
+					{
+						"FOV" : 60,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							8.0,
+							-5.5,
+							-7.944255829
+						],
+						"rotation" : 
+						[
+							-0.0,
+							-0.0,
+							7.253008842
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			}
+		]
+	},
+	"Cinematic - MininghubPowerup01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 90,
+						"duration" : 8,
+						"easing" : "easeOutCubic",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-46.07875061,
+							36.473953247,
+							177.132888794
+						],
+						"rotation" : 
+						[
+							-11.590451241,
+							6.256003857,
+							-27.867376328
+						]
+					},
+					{
+						"FOV" : 80,
+						"duration" : 8,
+						"easing" : "easeInOutSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							180.333358765,
+							-72.195198059,
+							74.927726746
+						],
+						"rotation" : 
+						[
+							7.030972004,
+							4.719400883,
+							30.980958939
+						]
+					},
+					{
+						"FOV" : 80,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							171.279891968,
+							-77.699653625,
+							75.00189209
+						],
+						"rotation" : 
+						[
+							7.030969143,
+							4.719399929,
+							30.980949402
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			},
+			{
+				"delay" : 2.0,
+				"duration" : 5.199999809,
+				"shakeAmplitude" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					30.0,
+					30.0,
+					30.0
+				],
+				"shakeRadius" : 500,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.02,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Cinematic - SmelterActivation01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 60,
+						"duration" : 5,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							-25.267501831,
+							1.984588981,
+							0.0
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							-0.000017
+						]
+					},
+					{
+						"FOV" : 60,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							-12.089263916,
+							1.984588981,
+							0.0
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							-0.000048
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			}
+		]
+	},
+	"Cinematic - VendorShopOpen01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 70,
+						"duration" : 8,
+						"easing" : "easeInSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-24.233810425,
+							-19.401477814,
+							9.806577682
+						],
+						"rotation" : 
+						[
+							-13.828220367,
+							18.337949753,
+							-51.961963654
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-25.394584656,
+							-15.709383011,
+							9.806577682
+						],
+						"rotation" : 
+						[
+							-11.669171333,
+							19.753070831,
+							-58.571243286
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 6,
+						"easing" : "easeInOutSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-5.477540016,
+							-0.428375006,
+							1.397300005
+						],
+						"rotation" : 
+						[
+							-1.087067962,
+							10.165208817,
+							-83.863357544
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 0,
+						"easing" : "easeInOutSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-5.477540016,
+							-0.428375006,
+							1.397300005
+						],
+						"rotation" : 
+						[
+							-1.087067962,
+							10.165208817,
+							-83.863357544
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			}
+		]
+	},
+	"Mininghub - LightActivation" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 1.5,
+				"duration" : 10.0,
+				"offset" : 
+				[
+					-0.000038186,
+					0.0,
+					-121.573120117
+				],
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 6,
+				"shakeFalloffEasing" : "easeInOutQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					30.0,
+					30.0
+				],
+				"shakeRadius" : 256,
+				"shakeRotational" : true,
+				"shakeStrength" : 0.03,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 9.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-0.000038186,
+					0.0,
+					-121.573120117
+				],
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 4,
+				"shakeFalloffEasing" : "easeInOutQuad",
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 256,
+				"shakeStrength" : 0.025,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 8.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					82.250114441,
+					5.25,
+					11.499969482
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_burst"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.0,
+					-0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 3.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					22.249961853,
+					-15.0,
+					-123.250007629
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_burst"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.000007065,
+					-90.000030518
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 5.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					39.499954224,
+					104.25,
+					-156.000015259
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_burst"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.000007065,
+					-90.000030518
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 4.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					52.749961853,
+					-20.5,
+					-122.500015259
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_burst"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.0,
+					-0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 2.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					78.750083923,
+					-4.75,
+					-123.250022888
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_burst"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.0,
+					-0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 5.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-39.999889374,
+					68.75,
+					9.5
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_burst"
+				],
+				"rotation" : 
+				[
+					-180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 2.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 4.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					12.499992371,
+					20.5,
+					24.499984741
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 8.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-5.250007629,
+					-27.25,
+					24.5
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 5.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-67.5001297,
+					38.99987793,
+					9.249954224
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-180.0,
+					-0.000006541,
+					42.42559433
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 8.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					77.9998703,
+					34.749633789,
+					8.749862671
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-180.0,
+					-0.000006541,
+					42.42559433
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 1.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					66.499961853,
+					-7.25,
+					-124.500022888
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 2.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					51.499961853,
+					-54.25,
+					-124.000015259
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 9.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-2.250014782,
+					-132.75,
+					-9.0
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 9.5,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-140.500015259,
+					-65.75,
+					-8.999969482
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 9.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					31.499977112,
+					158.0,
+					-43.500015259
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 1.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					71.499984741,
+					-19.25,
+					-0.000015259
+				],
+				"particles" : 
+				[
+					"p_enviroment_minehub_roofsmoke01"
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 5.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-71.999893188,
+					0.0,
+					4.250015259
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_loop"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 6.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					5.250108719,
+					104.0,
+					-4.0
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_loop"
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 7.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					77.750114441,
+					-1.0,
+					7.499984741
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_loop"
+				],
+				"rotation" : 
+				[
+					180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 7.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-24.249889374,
+					-77.5,
+					7.5
+				],
+				"particles" : 
+				[
+					"p_warehouse_fallingsmoke_loop"
+				],
+				"rotation" : 
+				[
+					-180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 7.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					74.000114441,
+					63.0,
+					7.499984741
+				],
+				"particles" : 
+				[
+					"p_drillspawner_fallingdirt"
+				],
+				"rotation" : 
+				[
+					-180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 7.0,
+				"duration" : 5.0,
+				"offset" : 
+				[
+					-105.249885559,
+					54.0,
+					11.000015259
+				],
+				"particles" : 
+				[
+					"p_drillspawner_fallingdirt"
+				],
+				"rotation" : 
+				[
+					-180.0,
+					-0.000006541,
+					42.425598145
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/warehouse/shake"
+				],
+				"delay" : 2.799999952,
+				"offset" : 
+				[
+					0.000095279,
+					0.0,
+					-67.5
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/warehouse/shake"
+				],
+				"delay" : 4.0,
+				"offset" : 
+				[
+					-79.749900818,
+					-64.25,
+					-50.249984741
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/warehouse/shake"
+				],
+				"delay" : 6.0,
+				"offset" : 
+				[
+					-92.499900818,
+					75.0,
+					-50.249984741
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/minehub/lights_on"
+				],
+				"delay" : 9.25,
+				"followListener" : true,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/amb/3d/building_creak"
+				],
+				"delay" : 2.0,
+				"duration" : 9.0,
+				"followListener" : true,
+				"offset" : 
+				[
+					62.250083923,
+					-6.25,
+					-127.250022888
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/amb/3d/building_creak"
+				],
+				"delay" : 4.0,
+				"duration" : 8.0,
+				"followListener" : true,
+				"offset" : 
+				[
+					42.750080109,
+					87.75,
+					-145.250015259
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/amb/3d/building_creak"
+				],
+				"delay" : 6.0,
+				"duration" : 6.0,
+				"followListener" : true,
+				"offset" : 
+				[
+					-39.749927521,
+					45.25,
+					-174.75
+				],
+				"type" : "audio"
+			},
+			{
+				"additive" : true,
+				"ambient" : false,
+				"color" : 
+				[
+					1.0,
+					0.722717285,
+					0.3984375,
+					1.0
+				],
+				"disableVolumetric" : true,
+				"id" : "light",
+				"intensity" : 0.800000012,
+				"maxIntensity" : 2.0,
+				"offset" : 
+				[
+					-33.500038147,
+					0.0,
+					-126.25
+				],
+				"radius" : 180.0,
+				"type" : "pointLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0
+						]
+					},
+					{
+						"time" : 9.149999619,
+						"value" : 
+						[
+							0.0
+						]
+					},
+					{
+						"time" : 9.350000381,
+						"value" : 
+						[
+							1.0
+						]
+					},
+					{
+						"time" : 9.5,
+						"value" : 
+						[
+							0.800000012
+						]
+					},
+					{
+						"time" : 9.600000381,
+						"value" : 
+						[
+							0.899999976
+						]
+					},
+					{
+						"time" : 11.0,
+						"value" : 
+						[
+							0.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"intensity" : 3.0
+		}
+	},
+	"Mininghub - LightActivation_extra" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : false,
+				"color" : 
+				[
+					0.796078503,
+					0.180392161,
+					0.180392161,
+					1.0
+				],
+				"delay" : 0.5,
+				"disableVolumetric" : false,
+				"duration" : 8.0,
+				"intensity" : 0.800000012,
+				"nearFade" : false,
+				"offset" : 
+				[
+					63.999954224,
+					28.25,
+					-158.500030518
+				],
+				"radius" : 16.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : false,
+				"color" : 
+				[
+					0.796078503,
+					0.180392161,
+					0.180392161,
+					1.0
+				],
+				"delay" : 0.550000012,
+				"disableVolumetric" : false,
+				"duration" : 6.0,
+				"intensity" : 0.800000012,
+				"nearFade" : false,
+				"offset" : 
+				[
+					63.999954224,
+					7.5,
+					-158.500030518
+				],
+				"radius" : 16.0,
+				"type" : "pointLight"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/growlab/lights_on"
+				],
+				"delay" : 0.5,
+				"offset" : 
+				[
+					63.999954224,
+					28.25,
+					-158.500030518
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/growlab/activator"
+				],
+				"offset" : 
+				[
+					58.140331268,
+					19.688964844,
+					-172.975387573
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0
+						]
+					},
+					{
+						"time" : 0.100000001,
+						"value" : 
+						[
+							1.25
+						]
+					},
+					{
+						"time" : 1.0,
+						"value" : 
+						[
+							0.800000012
+						]
+					},
+					{
+						"time" : 1.100000024,
+						"value" : 
+						[
+							1.0
+						]
+					},
+					{
+						"time" : 6.0,
+						"value" : 
+						[
+							0.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"intensity" : 1.0
+		}
+	}
+}

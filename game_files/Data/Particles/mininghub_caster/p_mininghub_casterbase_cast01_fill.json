@@ -1,0 +1,658 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"angle" : 1.0,
+				"category" : "1 - drops",
+				"color" : 
+				[
+					0.53724,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.75,
+				"depth" : 
+				[
+					1.0,
+					0.25
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.06772
+							],
+							[
+								0.16629,
+								0.52389
+							],
+							[
+								0.25047,
+								0.89042
+							],
+							[
+								0.35945,
+								0.95617
+							],
+							[
+								0.45888,
+								0.89243
+							],
+							[
+								0.54874,
+								0.47808
+							],
+							[
+								0.65772,
+								0.18127
+							],
+							[
+								0.82409,
+								0.0239
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.31547,
+								0.0996
+							],
+							[
+								0.45697,
+								0.25297
+							],
+							[
+								0.60803,
+								0.56173
+							],
+							[
+								0.71701,
+								0.93624
+							],
+							[
+								0.83363,
+								0.96214
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								1.0,
+								-0.36942
+							]
+						],
+						"guid" : 3,
+						"max" : 1.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.40939,
+								0.12714
+							],
+							[
+								0.51037,
+								0.2395
+							],
+							[
+								0.78421,
+								0.85654
+							],
+							[
+								0.84368,
+								0.92826
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 4,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.341
+							],
+							[
+								0.07468,
+								0.78755
+							],
+							[
+								0.18395,
+								0.9
+							],
+							[
+								0.64867,
+								0.9824
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								500.0
+							],
+							[
+								0.05401,
+								385.65637
+							],
+							[
+								0.13154,
+								257.78079
+							],
+							[
+								0.2368,
+								153.58593
+							],
+							[
+								0.40165,
+								66.98242
+							],
+							[
+								0.55953,
+								18.94453
+							],
+							[
+								0.67728,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max" : 500.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops Cauldron Dissolve",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_drops_dissolve.rend",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					0.5
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					7.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.25
+				]
+			},
+			{
+				"category" : "2",
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.05,
+								0.0
+							],
+							[
+								0.06498,
+								1.0
+							],
+							[
+								0.09,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 8,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.06498,
+								0.0
+							],
+							[
+								0.09,
+								1.0
+							],
+							[
+								0.11997,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 9,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.09,
+								0.0
+							],
+							[
+								0.11997,
+								1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 10,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.17497,
+								1.0
+							],
+							[
+								0.17497,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 11,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 7,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Pouring Liquid blendshape 1",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_blendshapes01.rend",
+				"time_to_live" : 4.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.53724,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.75,
+				"depth" : 
+				[
+					2.0,
+					0.5
+				],
+				"direction_type" : "constant",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.06772
+							],
+							[
+								0.16629,
+								0.52389
+							],
+							[
+								0.25047,
+								0.89042
+							],
+							[
+								0.35945,
+								0.95617
+							],
+							[
+								0.45888,
+								0.89243
+							],
+							[
+								0.54874,
+								0.47808
+							],
+							[
+								0.65772,
+								0.18127
+							],
+							[
+								0.82409,
+								0.0239
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 13,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.31547,
+								0.0996
+							],
+							[
+								0.45697,
+								0.25297
+							],
+							[
+								0.60803,
+								0.56173
+							],
+							[
+								0.71701,
+								0.93624
+							],
+							[
+								0.83363,
+								0.96214
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 14,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								1.0,
+								-0.36942
+							]
+						],
+						"guid" : 15,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 16,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"friction" : 
+				[
+					3.0,
+					1.0
+				],
+				"guid" : 12,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Moving Liquid",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_drops_dissolve.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "cone",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

@@ -1,0 +1,102 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"circle_angle" : 55.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.32894
+							],
+							[
+								0.025,
+								1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.97368
+							],
+							[
+								0.96499,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-25.0
+				],
+				"friction" : 0.75,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "mesh debri",
+				"particle" : "mesh",
+				"radius" : 0.05,
+				"renderable" : "$GAME_DATA/Objects/Renderable/characterobject/obj_characterobject_farmbotpackage_top.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					1000.0,
+					100.0
+				],
+				"sub_emit" : "birth",
+				"time_to_live" : 5.0,
+				"type" : "circle",
+				"velocity" : 
+				[
+					45.0,
+					7.0
+				],
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

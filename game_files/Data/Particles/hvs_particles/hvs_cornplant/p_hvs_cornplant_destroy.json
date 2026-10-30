@@ -1,0 +1,489 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "3 - ",
+				"color" : 
+				[
+					1.0,
+					0.74901,
+					0.0,
+					1.0
+				],
+				"depth" : 
+				[
+					0.75,
+					0.15
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.80307,
+								0.94735
+							],
+							[
+								0.88305,
+								0.85855
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 2,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.09538,
+								1.0
+							],
+							[
+								1.0,
+								0.89999
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "resources/hvs_particles/hvs_cornplant/p_emissionmesh_cornplant.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.6,
+					0.6,
+					0.6
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 980,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					0.75,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 50,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Mesh Corn 2 (low)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs_cornplant/p_rendeble_cornplant_corn.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 180.0,
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					1.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.15
+				]
+			},
+			{
+				"angle" : 75.0,
+				"category" : "3 - ",
+				"color" : 
+				[
+					1.0,
+					0.95832,
+					0.75,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_popcorn.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.06757,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.90985,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 6,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.7723,
+								0.94406
+							],
+							[
+								0.85846,
+								0.82564
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 8,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mesh" : "resources/hvs_particles/hvs_cornplant/p_emissionmesh_cornplant.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 0.3,
+				"guid" : 4,
+				"height" : 
+				[
+					0.14,
+					0.025
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"min_quality" : "medium",
+				"name" : "PopCorn (medium)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					180.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.5
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					2.5,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.14,
+					0.025
+				]
+			},
+			{
+				"category" : "3 - ",
+				"color" : 
+				[
+					1.0,
+					0.75,
+					0.0,
+					1.0
+				],
+				"depth" : 
+				[
+					0.75,
+					0.15
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.80307,
+								0.94735
+							],
+							[
+								0.88305,
+								0.85855
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 11,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.09538,
+								1.0
+							],
+							[
+								1.0,
+								0.89999
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "resources/hvs_particles/hvs_cornplant/p_emissionmesh_cornplant.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.8,
+					0.8,
+					0.8
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 980,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 
+				[
+					2.0,
+					1.0
+				],
+				"guid" : 9,
+				"height" : 
+				[
+					0.75,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 98,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Mesh Corn (High)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs_cornplant/p_rendeble_cornplant_corn.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 180.0,
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					2.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.15
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

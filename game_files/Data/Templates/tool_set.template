@@ -1,0 +1,34 @@
+{
+	"template_meta": {
+		"uuid" : "9f4b5e9c-b17d-409b-ad03-36a466c6928e",
+		"name":"Tool Set",
+		"display": "toolset",
+		"pattern": "*.toolset"
+	},
+
+	"toolList_meta" : { "valueAsLabel":"name", "optional": true },
+	"toolList": [
+		{
+			"name_meta" : { "order":1 },
+			"name": "",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true, "ignoreUuidName": true, "order":2 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"previewRenderable_meta": { "type" : "renderable", "order":3 },
+			"previewRenderable": "",
+
+			"previewRotation_meta": { "type": "array", "optional": true },
+			"previewRotation": [ -1, 0, 0, 0, 0, 1, 0, 1, 0 ],
+
+			"script_meta": { "optional": true },
+			"script" : { 
+				"class" : "", 
+				"data_meta" : { "editable": true }, 
+				"data": {}, 
+				"file_meta": { "type": "filepath" },
+				"file": "" 
+			}
+		}
+	]
+}

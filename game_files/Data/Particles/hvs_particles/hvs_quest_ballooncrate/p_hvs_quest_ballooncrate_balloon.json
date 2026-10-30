@@ -1,0 +1,1076 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.33333,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"depth" : 1.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.49858,
+					1.0,
+					0.39452,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.19111,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"name" : "Pose",
+						"time" : 0.75
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.06599,
+								0.023
+							],
+							[
+								0.13695,
+								0.05446
+							],
+							[
+								0.19178,
+								0.11138
+							],
+							[
+								0.58779,
+								0.55567
+							],
+							[
+								0.62515,
+								0.58353
+							],
+							[
+								0.665,
+								0.59684
+							],
+							[
+								0.70361,
+								0.57261
+							],
+							[
+								0.88208,
+								0.07817
+							],
+							[
+								0.92575,
+								0.02442
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"index" : 1,
+						"name" : "Pose",
+						"time" : 0.75
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25279,
+								0.05203
+							],
+							[
+								0.33498,
+								0.07383
+							],
+							[
+								0.41343,
+								0.10892
+							],
+							[
+								0.62391,
+								0.29418
+							],
+							[
+								0.67123,
+								0.3535
+							],
+							[
+								0.70485,
+								0.41887
+							],
+							[
+								0.901,
+								0.92671
+							],
+							[
+								0.93883,
+								0.98044
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 3,
+						"index" : 2,
+						"name" : "Pose",
+						"time" : 0.75
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"height" : 1.75,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"name" : "Balloon Pumping    [low]",
+				"params" : 4,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_quest_ballooncrate/p_hvs_quest_ballooncrate_balloon.rend",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.75
+			},
+			{
+				"category" : "3",
+				"delay" : 9.94999,
+				"depth" : 1.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.49858,
+					1.0,
+					0.39452,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 12,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.38826,
+								0.60622
+							],
+							[
+								1.0,
+								0.9782
+							]
+						],
+						"guid" : 5,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.85714
+							],
+							[
+								0.11885,
+								1.17946
+							],
+							[
+								0.2599,
+								1.42121
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.61184
+							],
+							[
+								0.36614,
+								0.83222
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 4,
+				"height" : 1.75,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"name" : "Balloon Pop dissolve    [low]",
+				"params" : 4,
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					1.83633
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_quest_ballooncrate/p_rendeble_hvs_balloon_dissolve.rend",
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 0.349999994,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.75
+			},
+			{
+				"category" : "3",
+				"delay" : 10.0,
+				"depth" : 
+				[
+					1.5,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.32012,
+								0.08241
+							],
+							[
+								0.63866,
+								0.26006
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 10,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.61184
+							],
+							[
+								0.36614,
+								0.83222
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 11,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"friction" : 2.0,
+				"guid" : 8,
+				"height" : 
+				[
+					1.5,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "BalloonSplatter mesh 01    [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					2.09117
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_quest_ballooncrate/p_hvs_quest_ballooncrate_balloon_dissolve_smallpiece01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"sphere_radius" : 1.89997,
+				"surface" : true,
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 0.300000012,
+				"type" : "sphere",
+				"velocity" : 10.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.5
+				]
+			},
+			{
+				"category" : "123",
+				"color" : 
+				[
+					0.26561,
+					0.65574,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.4,
+					0.4
+				],
+				"delay" : 10.0,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.13797,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.63156
+							],
+							[
+								1.0,
+								1.67104
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5989
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.0,
+						"guid" : 15,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 12,
+				"height" : 15.0,
+				"keep_local" : false,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Smoke shockwave 2     (medium)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					1.83598
+				],
+				"power_glow" : true,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 3024,
+				"time_to_live" : 0.300000012,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 15.0
+			},
+			{
+				"category" : "123",
+				"color" : 
+				[
+					0.49608,
+					0.76411,
+					1.0,
+					1.0
+				],
+				"delay" : 10.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.26921
+							],
+							[
+								0.18377,
+								0.47252
+							],
+							[
+								0.30902,
+								0.66483
+							],
+							[
+								0.75752,
+								2.35156
+							],
+							[
+								0.86843,
+								2.6923
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.17181,
+								[
+									0.27342,
+									0.27342,
+									0.27342,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 16,
+				"height" : 
+				[
+					8.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Glow1    (medium)",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					1.83598
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"time_to_live" : 0.200000003,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					8.0,
+					0.125
+				],
+				"z_offset" : 500.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "123",
+				"color" : 
+				[
+					0.26273,
+					0.6549,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.4,
+					0.4
+				],
+				"delay" : 10.0,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "Textures/Flash/flash_flash02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.18873,
+								[
+									0.52341,
+									0.52341,
+									0.52341,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.31654
+							],
+							[
+								0.23348,
+								0.63805
+							],
+							[
+								0.80396,
+								1.06342
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.62405
+							],
+							[
+								0.32258,
+								0.66465
+							],
+							[
+								0.59907,
+								0.78043
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 22,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.39397
+							],
+							[
+								0.13364,
+								0.94735
+							],
+							[
+								0.39015,
+								1.0075
+							],
+							[
+								0.39631,
+								1.37442
+							],
+							[
+								0.68049,
+								1.66314
+							],
+							[
+								1.0,
+								1.73529
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.15974,
+								0.13233
+							],
+							[
+								0.28725,
+								0.26765
+							],
+							[
+								0.55606,
+								1.37142
+							],
+							[
+								0.6298,
+								1.64511
+							],
+							[
+								0.78648,
+								1.81052
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 24,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 4001,
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 0.69998,
+				"guid" : 19,
+				"height" : 
+				[
+					8.0,
+					2.0
+				],
+				"keep_local" : false,
+				"max_particles" : 15,
+				"min_quality" : "medium",
+				"name" : "Impacts 2 Add    (medium)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					1.83598
+				],
+				"power_glow" : true,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 10241,
+				"sort_offset" : 0.1,
+				"sphere_radius" : 0.1,
+				"surface" : true,
+				"time_to_live" : 
+				[
+					0.3,
+					0.025
+				],
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					1.0
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					1.0
+				],
+				"category" : "5",
+				"delay" : 10.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_digitalglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"base_scale" : 0.633,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.266
+							],
+							[
+								0.16301,
+								1.47403
+							],
+							[
+								0.29229,
+								1.53587
+							],
+							[
+								0.564,
+								1.57298
+							],
+							[
+								0.80923,
+								1.52969
+							],
+							[
+								0.902,
+								1.401
+							],
+							[
+								1.0,
+								0.633
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 1.57298,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.20563,
+								[
+									0.05908,
+									0.50739,
+									0.94529,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									0.0,
+									0.44067,
+									0.87107,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.02964,
+									0.05857,
+									1.0
+								]
+							]
+						],
+						"guid" : 27,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					3.0
+				],
+				"friction" : 
+				[
+					2.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 25,
+				"height" : 
+				[
+					0.05,
+					0.01999
+				],
+				"keep_local" : false,
+				"max_particles" : 10,
+				"min_quality" : "high",
+				"name" : "Sparks Small Fast  (High]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					2.0
+				],
+				"rotation" : 
+				[
+					0.05,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					15.0,
+					90.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 1.0,
+				"time_to_live" : 
+				[
+					1.5,
+					0.33
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					6.0,
+					4.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.01999
+				],
+				"z_offset" : 1.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

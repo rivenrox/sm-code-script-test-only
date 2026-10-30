@@ -1,0 +1,156 @@
+{
+    "template_meta": {
+        "uuid": "37a9da2a-78db-4237-8a93-f8ce46b81f1a",
+        "name": "EventTestDatabase",
+        "display": "event test database",
+        "pattern": [
+            "*.eventTests"
+        ]
+    },
+    "eventContext_meta": {
+        "type": "array",
+        "valueAsLabel": "identifier",
+        "sort": false,
+        "noIndexLabel": false,
+        "presets": {
+            "Kill Count": {
+                "identifier": "new_kill_count_test",
+                "countField": "dead",
+                "countFieldValue": true,
+                "requiredCount": 1,
+                "targetStatId": "uuid or other identifier",
+                "targetValue": 1,
+                "targetAction": "set",
+                "filters": []
+            },
+            "Filtered Kill Count": {
+                "identifier": "new_filtered_kill_test",
+                "countField": "dead",
+                "countFieldValue": true,
+                "requiredCount": 3,
+                "targetStatId": "uuid or other identifier",
+                "targetValue": 1,
+                "targetAction": "set",
+                "filters": [
+                    {
+                        "field": "explosionType",
+                        "expectedValue": "00000000-0000-0000-0000-000000000000",
+                        "comparison": "equals"
+                    }
+                ]
+            }
+        }
+    },
+    "eventContext": [
+        {
+			
+            "identifier_meta": {
+                "type": "string",
+                "order": 0,
+                "toolTip": "Unique identifier for this test context"
+            },
+            "identifier": "new_test",
+
+            "countField_meta": {
+                "type": "string",
+                "order": 1,
+                "toolTip": "The JSON field name to check on each event for the count condition"
+            },
+            "countField": "dead",
+
+            "countFieldValue_meta": {
+                "type": "bool",
+                "order": 2,
+                "toolTip": "Expected boolean value of countField for an event to count"
+            },
+            "countFieldValue": true,
+
+            "requiredCount_meta": {
+                "type": "int",
+                "order": 3,
+                "min": 1,
+                "max": 9999,
+                "toolTip": "How many matching events are needed to pass the test"
+            },
+            "requiredCount": 1,
+
+            "targetStatId_meta": {
+                "type": "string",
+                "order": 4,
+                "toolTip": "The stat identifier to fire an event on when the test passes"
+            },
+            "targetStatId": "uuid or other identifier",
+
+            "targetValue_meta": {
+                "type": "int",
+                "order": 5,
+                "toolTip": "The value to set/add on the target stat"
+            },
+            "targetValue": 1,
+
+            "targetAction_meta": {
+                "type": "string",
+                "order": 6,
+                "options": [
+                    "set",
+                    "add"
+                ],
+                "toolTip": "Whether to set or add the target value"
+            },
+            "targetAction": "set",
+
+            "filters_meta": {
+                "type": "array",
+                "optional": true,
+                "order": 7,
+                "valueAsLabel": "field",
+                "toolTip": "Optional filters that each event must pass",
+                "presets": {
+                    "UUID Filter": {
+                        "field": "",
+                        "expectedValue": "uuid or other value",
+                        "comparison": "equals"
+                    },
+                    "String Filter": {
+                        "field": "damageType",
+                        "expectedValue": "fire",
+                        "comparison": "equals"
+                    }
+                },
+                "value_meta": {
+                    "startCollapsed": true
+                }
+            },
+            "filters": [
+                {
+                    "field_meta": {
+                        "type": "string",
+                        "order": 0,
+                        "toolTip": "The JSON field name to check on the event data"
+                    },
+                    "field": "filter",
+
+                    "expectedValue_meta": {
+                        "type": "string",
+                        "order": 1,
+                        "toolTip": "The value to compare against"
+                    },
+                    "expectedValue": "uuid or other value",
+
+                    "comparison_meta": {
+                        "type": "string",
+                        "order": 2,
+                        "options": [
+                            "equals",
+                            "notEquals",
+                            "greaterThan",
+                            "lessThan"
+                        ],
+                        "toolTip": "How to compare the field value against the expected value"
+                    },
+                    "comparison": "equals"
+                }
+            ]
+        }
+    ]
+}

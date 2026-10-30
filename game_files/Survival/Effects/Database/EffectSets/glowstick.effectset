@@ -1,0 +1,87 @@
+{
+	"Glowstick - Hold" : 
+	{
+		"dontHideWithCharacter" : true,
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"shadowMode" : 2,
+				"type" : "pointLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.25,
+						"value" : 0.78
+					}
+				]
+			},
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.125,
+						"value" : 18.5
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"Color" : 
+			[
+				1,
+				1,
+				0,
+				1
+			],
+			"color" : "aeae99",
+			"intensity" : 0.050000001,
+			"radius" : 8.5
+		}
+	},
+	"Glowstick - Throw" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/glowstick/gs_throw"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	}
+}

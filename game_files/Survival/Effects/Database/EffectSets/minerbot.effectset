@@ -1,0 +1,691 @@
+{
+	"Minerbot - AggroRun" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/aggro_run"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - AggroSprint" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/aggro_sprint"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Burst01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_thruster_burst01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.625
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Minerbot - Burst02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_minerbot_thruster_burst02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.625
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Minerbot - Death01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_minerbot_death01",
+				"rotation" : 
+				[
+					0.0,
+					90.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/death"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Deathcrash_fireballtrail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"name" : "p_minerbot_deathcrash_fireballtrail01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/destruct"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Engine" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/engine"
+				],
+				"parameters" : 
+				[
+					"Damage"
+				],
+				"type" : "audio"
+			},
+			{
+				"additive" : false,
+				"color" : 
+				[
+					1.0,
+					0.556732178,
+					0.31640625,
+					1.0
+				],
+				"customVolumetric" : true,
+				"disableVolumetric" : false,
+				"intensity" : 1.0,
+				"label" : "LightDistance",
+				"maxIntensity" : 5.0,
+				"nearFade" : true,
+				"nearFadeEnd" : 0.0,
+				"nearFadeRange" : 120.0,
+				"nearFadeReversed" : true,
+				"offset" : 
+				[
+					0.0,
+					-0.5,
+					-1.5
+				],
+				"radius" : 12.0,
+				"type" : "pointLight",
+				"volFalloffMode" : 2,
+				"volIntensity" : 0.100000001,
+				"volMaxRadius" : 20.0,
+				"volMinRadius" : 20.0
+			}
+		],
+		"parameterList" : 
+		{
+			"Damage" : 0
+		}
+	},
+	"Minerbot - Explosion" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_explosion_lingeringsmoke01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.75
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_totebot_red_explosion",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/body_explode"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"size"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"duration" : 0.75,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 35,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.5,
+				"type" : "cameraShake"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.100000001,
+						"value" : 15.0
+					},
+					{
+						"time" : 0.600000024,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffd8b0",
+			"intensity" : 5.0,
+			"radius" : 16.0,
+			"size" : 0.0
+		}
+	},
+	"Minerbot - Groundcontact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_groundcontact01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Minerbot - Idlespecial01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/idlespecial01"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Idlespecial02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/idlespecial02"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Idlespecial03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/idlespecial03"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Parts" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_destruct_parts01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"color" : "ffd8b0"
+		}
+	},
+	"Minerbot - Projectiletrail01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_projectile_trail01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Minerbot - ShootIn" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/shoot_in"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - ShootLoop" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/shoot_loop"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Shootout" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/shoot_out"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Spudgunimpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_spudgun_impact_tapebot01",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/hit_side"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Spudgunimpact Headshot" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_spudgun_impact_headshot_minerbot01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/hit_head"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Thruster03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"name" : "p_minerbot_thruster03",
+				"offset" : 
+				[
+					0.0,
+					-0.100000001,
+					0.0
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"additive" : true,
+			"ambient" : false,
+			"color" : "ff9999",
+			"falloffMode" : 1,
+			"intensity" : 1.0,
+			"maxIntensity" : 1.36500001,
+			"radius" : 9.0
+		}
+	},
+	"Minerbot - ThrusterExplode" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_thruster_explosion",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/body_explode"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Thruster_l" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"name" : "p_minerbot_thruster02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.01
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"additive" : true,
+			"ambient" : false,
+			"color" : "ff9999",
+			"falloffMode" : 1,
+			"intensity" : 1.0,
+			"maxIntensity" : 1.36500001,
+			"radius" : 9.0
+		}
+	},
+	"Minerbot - Thruster_r" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"name" : "p_minerbot_thruster01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.01
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"additive" : true,
+			"ambient" : false,
+			"color" : "ff9999",
+			"falloffMode" : 1,
+			"intensity" : 1.0,
+			"maxIntensity" : 1.36500001,
+			"radius" : 9.0
+		}
+	},
+	"Minerbot - ToAlert" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/to_alert"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - ToRoam" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/minerbot/to_roam"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Minerbot - Wheelspin" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_minerbot_wheelspin01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	}
+}

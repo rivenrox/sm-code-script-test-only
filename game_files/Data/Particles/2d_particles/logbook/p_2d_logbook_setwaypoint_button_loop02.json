@@ -1,0 +1,764 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.29807,
+					1.0,
+					0.10153,
+					1.0
+				],
+				"default_particle" : 
+				[
+					-1.05,
+					-1.41
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_2d_logbook_button_rotatingflash.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10699,
+								0.14237
+							],
+							[
+								0.25,
+								0.25
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								0.625,
+								0.625
+							],
+							[
+								0.75,
+								0.75
+							],
+							[
+								0.8873,
+								0.86377
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 0,
+				"height" : 0.6,
+				"keep_local" : true,
+				"name" : "CollectGlow",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.01
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.5,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.485,
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "2",
+				"default_particle" : 
+				[
+					0.64999,
+					0.6
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 3,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.55773,
+								[
+									0.39542,
+									0.51709,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.47694
+							],
+							[
+								0.23217,
+								0.74765
+							],
+							[
+								0.45936,
+								0.96682
+							],
+							[
+								0.71144,
+								1.1505
+							],
+							[
+								1.0,
+								1.26653
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 1.75,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.72188
+							],
+							[
+								1.0,
+								0.47512
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.73294
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 2,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 2,
+				"height" : 
+				[
+					2.0,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 20,
+				"min_quality" : "medium",
+				"name" : "Circle2",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 
+				[
+					1.0,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.25,
+					0.1
+				]
+			},
+			{
+				"category" : "0",
+				"default_particle" : 
+				[
+					1.04999,
+					1.04999
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_2d_logbook_waypoint_buttonglow01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 9,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.44506,
+								[
+									0.22326,
+									0.28514,
+									0.02226,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 2,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 2.0,
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Backplate Glow",
+				"position" : 
+				[
+					-0.005,
+					1.0,
+					0.0
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 4.0
+			},
+			{
+				"category" : "3",
+				"color" : 
+				[
+					0.76117,
+					1.0,
+					0.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_waypointbutton_outsideglow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.75,
+						"guid" : 12,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.51266,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 2.88,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "CollectGlow",
+				"position" : 
+				[
+					-0.00163,
+					0.0,
+					0.0
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.45,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 3.45,
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "3",
+				"color" : 
+				[
+					0.76077,
+					1.0,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_2d_logbook_waypoint_buttonglow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.14462,
+								0.5662
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 15,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 16,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 65,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 14,
+				"height" : 0.67,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Button Shine3",
+				"position" : 
+				[
+					-0.00731,
+					0.0,
+					0.0
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.35,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : -2.78,
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "0",
+				"default_particle" : 
+				[
+					1.04999,
+					1.04999
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_2d_logbook_waypoint_buttonglow01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 18,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.44506,
+								[
+									0.22326,
+									0.28514,
+									0.02226,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 19,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 17,
+				"height" : 2.0,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"name" : "Backplate Glow burst",
+				"position" : 
+				[
+					-0.005,
+					1.0,
+					0.0
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 4.0
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.76077,
+					1.0,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_2d_logbook_waypoint_buttonglow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 21,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.56619,
+								[
+									0.11715,
+									0.11715,
+									0.11715,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 22,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 2,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 20,
+				"height" : 0.67,
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "Button Shine3",
+				"position" : 
+				[
+					-0.00731,
+					0.0,
+					0.0
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : -2.78,
+				"z_offset" : 1.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

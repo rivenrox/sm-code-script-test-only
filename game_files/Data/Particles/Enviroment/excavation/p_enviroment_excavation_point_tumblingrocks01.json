@@ -1,0 +1,113 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"buoyancy" : 0,
+				"collision_mesh" : "$GAME_DATA/Particles/resources/misc/p_mesh_sphear_col.fbx",
+				"color" : 
+				[
+					0.59763,
+					0.39636,
+					0.30816,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"debris_angular_damping" : 0.100000001,
+				"debris_linear_damping" : 0.100000001,
+				"depth" : 
+				[
+					0.1,
+					0.025
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.18769,
+								0.80921
+							],
+							[
+								0.31999,
+								0.95722
+							],
+							[
+								0.71384,
+								0.99013
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-20.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					0.1,
+					0.025
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "StaticMeshRef FBX",
+				"particle" : "debris",
+				"phasing_time" : 0.25,
+				"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/excavation/p_renderable_excavation_rock01.rend",
+				"repeat_delay" : 7.0,
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					7.0,
+					5.0
+				],
+				"type" : "cone",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.1,
+					0.025
+				]
+			}
+		],
+		"min_quality" : "high",
+		"scale_time" : 0.5
+	}
+}

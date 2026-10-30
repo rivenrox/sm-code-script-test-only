@@ -1,0 +1,2235 @@
+{
+	"scriptableObjectList" : 
+	[
+// "Getting Started"
+		{
+			"classname" : "TutorialQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_TUTORIAL_TITLE}",
+				"trackingSteps" : {
+					"fire" : {
+						"steps" : [1, 2, 3, 4, 5],
+						"text" : "#{QUEST_TUTORIAL_FIRE_DESC}",
+						"index" : 1
+					},
+					"bucket" : {
+						"steps" : [1, 2, 3, 4, 5],
+						"text" : "#{QUEST_TUTORIAL_BUCKET}",
+						"index" : 2
+					},
+					"extinguish" : {
+						"steps" : [1, 2, 3, 4, 5],
+						"text" : "#{QUEST_TUTORIAL_EXTINGUISH}",
+						"index" : 3
+					},
+					"power" : {
+						"steps" : [6, 7, 8],
+						"text" : "#{QUEST_TUTORIAL_POWER_DESC}",
+						"index" : 4
+					},
+					"battery" : {
+						"steps" : [6, 7, 8],
+						"text" : "#{QUEST_FIND_BATTERY}",
+						"index" : 5
+					},
+					"restorePower" : {
+						"steps" : [6, 7, 8],
+						"text" : "#{QUEST_RESTORE_POWER}",
+						"index" : 6
+					},
+					"connect" : {
+						"steps" : [9, 10],
+						"text" : "#{QUEST_TUTORIAL_CONNECT_DESC}",
+						"index" : 7
+					},
+					"craft" : {
+						"steps" : [9, 10],
+						"text" : "#{QUEST_TUTORIAL_CRAFT}",
+						"index" : 8
+					},
+					"reconnect" : {
+						"steps" : [9, 10],
+						"text" : "#{QUEST_TUTORIAL_CONNECT}",
+						"index" : 9
+					},
+					"interact" : {
+						"steps" : [11],
+						"text" : "#{QUEST_TUTORIAL_USE_CONSOLE_DESC}",
+						"index" : 10
+					},
+					"use" : {
+						"steps" : [11],
+						"text" : "#{QUEST_TUTORIAL_USE_CONSOLE}",
+						"index" : 11
+					},
+					"find" : {
+						"steps" : [12, 13, 14, 15],
+						"text" : "#{QUEST_TUTORIAL_FIND_STATION_DESC}",
+						"index" : 12
+					},
+					"open" : {
+						"steps" : [12, 13, 14, 15],
+						"text" : "#{QUEST_TUTORIAL_OPEN}",
+						"index" : 13,
+						"binding" : "Logbook"
+					},
+					"track" : {
+						"steps" : [12, 13, 14, 15],
+						"text" : "#{QUEST_TUTORIAL_TRACK}",
+						"index" : 14
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/TutorialQuest.lua",
+			"name" : "quest_tutorial",
+			"uuid" : "8be0279e-28b6-4aab-b620-586f50162c6e"
+		},
+// "The Mechanic Station"
+		{
+			"classname" : "MechanicStationQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_MECHANICSTATION_TITLE}",
+				"trackingSteps" : {
+					"find_desc" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_MECHANICSTATION_FIND_DESC}",
+						"index" : 1
+					},
+					"find" : {
+						"steps" : [1],
+						"text" : "#{QUEST_MECHANICSTATION_FIND}",
+						"index" : 2
+					},
+					"investigate" : {
+						"steps" : [2],
+						"text" : "#{QUEST_MECHANICSTATION_INVESTIGATE}",
+						"index" : 3
+					},
+					"battery_desc" : {
+						"steps" : [3, 4],
+						"text" : "#{QUEST_MECHANICSTATION_BATTERY_DESC}",
+						"index" : 4
+					},
+					"battery" : {
+						"steps" : [3, 4],
+						"text" : "#{QUEST_FIND_BATTERY}",
+						"index" : 5
+					},
+					"power" : {
+						"steps" : [3, 4],
+						"text" : "#{QUEST_RESTORE_POWER}",
+						"index" : 6
+					},
+					"craftbot_desc" : {
+						"steps" : [5, 6],
+						"text" : "#{QUEST_MECHANICSTATION_CRAFTBOT_DESC}",
+						"index" : 7
+					},
+					"craftbot" : {
+						"steps" : [5, 6],
+						"text" : "#{QUEST_MECHANICSTATION_BUILD_CRAFTBOT}",
+						"index" : 8
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/MechanicStationQuest.lua",
+			"name" : "quest_mechanicstation",
+			"uuid" : "77993951-f7b0-429a-9f17-cef9f0bf080b"
+		},
+// "A Stranger In Need"
+		{
+			"classname" : "MysteriousCallerQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"rewards" : 
+				[
+					{
+						"type" : "schematic",
+						"name" : "obj_interactive_comfybed"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_powertools_sawblade"
+					}
+				],
+				"title" : "#{QUEST_MYSTERIOUSCALLER_TITLE}",
+				"trackingSteps" : {
+					"hideout_desc" : {
+						"steps" : [1],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_HIDEOUT_DESC}",
+						"index" : 1
+					},
+					"find" : {
+						"steps" : [1],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_HIDEOUT_FIND}",
+						"index" : 2
+					},
+					"defend_desc" : {
+						"steps" : [2, 3, 4],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_DEFEND_DESC}",
+						"index" : 3
+					},
+					"defend" : {
+						"steps" : [2],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_DEFEND}",
+						"index" : 4
+					},
+					"approach" : {
+						"steps" : [3, 4],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_APPROACH}",
+						"index" : 5
+					},
+					"ruins_desc" : {
+						"steps" : [5, 6, 7],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_RUINS_DESC}",
+						"index" : 6
+					},
+					"ruins" : {
+						"steps" : [5, 6, 7],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_RUINS_FIND}",
+						"index" : 7
+					},
+					"destroy" : {
+						"steps" : [5, 6, 7],
+						"text" : "#{QUEST_MYSTERIOUSCALLER_RUINS_DESTROY}",
+						"index" : 8
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/MysteriousCallerQuest.lua",
+			"name" : "quest_mystery_call",
+			"uuid" : "1ef345e3-7450-4674-9496-fa9f99a9f481"
+		},
+// "Palate Cleanser"
+		{
+			"classname" : "FeedTheFarmersQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"rewards" : 
+				[
+				],
+				"title" : "#{QUEST_FEEDTHEFARMERS_TITLE}",
+				"trackingSteps" : {
+					"find_desc" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_FEEDTHEFARMERS_FIND_DESC}",
+						"index" : 1
+					},
+					"find" : {
+						"steps" : [1],
+						"text" : "#{QUEST_FEEDTHEFARMERS_FIND_STATION}",
+						"index" : 2
+					},
+					"tomatoes" : {
+						"steps" : [2, 3],
+						"text" : "#{QUEST_FEEDTHEFARMERS_TOMATOES}",
+						"index" : 3
+					},
+					"deliver_desc" : {
+						"steps" : [4, 5, 6],
+						"text" : "#{QUEST_FEEDTHEFARMERS_DELIVER_CRATE_DESC}",
+						"index" : 4
+					},
+					"deliver" : {
+						"steps" : [4, 5, 6],
+						"text" : "#{QUEST_FEEDTHEFARMERS_DELIVER_CRATE}",
+						"index" : 5
+					},
+					"trader" : {
+						"steps" : [4, 5, 6],
+						"text" : "#{QUEST_FEEDTHEFARMERS_DEPOSIT_CRATE}",
+						"index" : 6
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/FeedTheFarmersQuest.lua",
+			"name" : "quest_feed_the_farmers",
+			"uuid" : "60aaf3b9-44fd-4fcc-86a7-cef12b9e7004"
+		},
+// "A Farmers Side Hustle"
+		{
+			"classname" : "ClearMinidungeonQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_CLEARMINIDUNGEON_TITLE}",
+				"trackingSteps" : {
+					"speak_desc" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_HUBERT_DESC}",
+						"index" : 1
+					},
+					"speak" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_FARMER_TALK}",
+						"index" : 2
+					},
+					"key" : {
+						"steps" : [3],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_KEY}",
+						"index" : 3
+					},
+					"track_desc" : {
+						"steps" : [4, 5, 6, 7],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_TRACK_DESC}",
+						"index" : 4
+					},
+					"enter" : {
+						"steps" : [4, 5, 6, 7],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_ENTER}",
+						"index" : 5
+					},
+					"end_desc" : {
+						"steps" : [8, 9, 10, 11],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_END_DESC}",
+						"index" : 6
+					},
+					"reach_end" : {
+						"steps" : [8],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_END}",
+						"index" : 7
+					},
+					"reward" : {
+						"steps" : [9],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_REWARD}",
+						"index" : 8
+					},
+					"exit" : {
+						"steps" : [10, 11],
+						"text" : "#{QUEST_CLEARMINIDUNGEON_EXIT}",
+						"index" : 9
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/ClearMinidungeonQuest.lua",
+			"name" : "quest_clear_minidungeon",
+			"uuid" : "78932f6f-3791-447a-bf4f-85a5bae94f21"
+		},
+// "Home Is Where Your Couch Is"
+		{
+			"classname" : "BuildWatchtowerQuest",
+			"data" :
+			{
+				"mainQuest" : true,
+				"builderGuideDescription" : "#{QUEST_WATCHTOWER_BUILD_DESC}",
+				"title" : "#{QUEST_WATCHTOWER_TITLE}",
+				"rewards" : [
+					{
+						"type" : "schematic",
+						"name" : "tool_spudgun"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_container_gas"
+					}
+				],
+				"trackingSteps" : {
+					"meet" : {
+						"steps" : [1,2],
+						"text" : "#{QUEST_FARMER_MEET}",
+						"index" : 1
+					},
+					"talk1" : {
+						"steps" : [1,2],
+						"text" : "#{QUEST_FARMER_TALK}",
+						"index" : 2
+					},
+					"build_desc" : {
+						"steps" : [3, 4, 5],
+						"text" : "#{QUEST_WATCHTOWER_BUILD_DESC}",
+						"index" : 3
+					},
+					"build" : {
+						"steps" : [3],
+						"text" : "#{QUEST_WATCHTOWER_BUILD}",
+						"index" : 4
+					},
+					"talk2" : {
+						"steps" : [4, 5],
+						"text" : "#{QUEST_FARMER_TALK}",
+						"index" : 5
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/BuildWatchtowerQuest.lua",
+			"name" : "quest_build_watchtower",
+			"uuid" : "291170d2-9790-4ef2-ab5a-07b161baf2d5"
+		},
+// "Bunk Investigation"
+		{
+			"classname" : "FindRecordingQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_FINDRECORDING_TITLE}",
+				"trackingSteps" : {
+					"meet_desc" : {
+						"steps" : [1,2],
+						"text" : "#{QUEST_FARMER_MEET}",
+						"index" : 1
+					},
+					"talk" : {
+						"steps" : [1,2],
+						"text" : "#{QUEST_FARMER_TALK}",
+						"index" : 2
+					},
+					"recording_desc" : {
+						"steps" : [3, 4, 5],
+						"text" : "#{QUEST_FINDRECORDING_RECORDING_DESC}",
+						"index" : 3
+					},
+					"recording" : {
+						"steps" : [3, 4, 5],
+						"text" : "#{QUEST_FINDRECORDING_RECORDING_LISTEN}",
+						"index" : 4
+					},
+					"find_desc" : {
+						"steps" : [6, 7],
+						"text" : "#{QUEST_FINDRECORDING_FIND_DESC}",
+						"index" : 5
+					},
+					"find" : {
+						"steps" : [6, 7],
+						"text" : "#{QUEST_FIND_LOCATION_BUNKS}",
+						"index" : 6
+					},
+					"investigate" : {
+						"steps" : [7],
+						"text" : "#{QUEST_FINDRECORDING_INVESTIGATE}",
+						"index" : 7
+					},
+					"retrieve_desc" : {
+						"steps" : [8, 9, 10],
+						"text" : "#{QUEST_FINDRECORDING_RETRIEVE_DESC}",
+						"index" : 8
+					},
+					"retrieve" : {
+						"steps" : [8, 9, 10],
+						"text" : "#{QUEST_FINDRECORDING_RETRIEVE_LISTEN}",
+						"index" : 9
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/FindRecordingQuest.lua",
+			"name" : "quest_find_recording",
+			"uuid" : "534bec18-cda3-4e0a-b587-603b553bb222"
+		},
+// "The Warehouse"
+		{
+			"classname" : "ClearWarehouseQuest",
+				"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_CLEARWAREHOUSE_TITLE}",
+				"trackingSteps" : {
+					"meet_desc" : {
+						"steps" : [1,2,3],
+						"text" : "#{QUEST_FARMER_MEET}",
+						"index" : 1
+					},
+					"talk" : {
+						"steps" : [1,2],
+						"text" : "#{QUEST_FARMER_TALK}",
+						"index" : 2
+					},
+					"key" : {
+						"steps" : [3],
+						"text" : "#{QUEST_CLEARWAREHOUSE_KEY}",
+						"index" : 3
+					},
+					"look_desc" : {
+						"steps" : [4, 5, 6 ],
+						"text" : "#{QUEST_CLEARWAREHOUSE_LOOK_DESC}",
+						"index" : 4
+					},
+					"find" : {
+						"steps" : [4],
+						"text" : "#{QUEST_CLEARWAREHOUSE_FIND}",
+						"index" : 5
+					},
+					"enter" : {
+						"steps" : [5],
+						"text" : "#{QUEST_CLEARWAREHOUSE_ENTER}",
+						"index" : 6
+					},
+					"investigate" : {
+						"steps" : [6],
+						"text" : "#{QUEST_CLEARWAREHOUSE_INVESTIGATE}",
+						"index" : 7
+					},
+					"shaking_desc" : {
+						"steps" : [7],
+						"text" : "#{QUEST_CLEARWAREHOUSE_SHAKING_DESC}",
+						"index" : 8
+					},
+					"roof" : {
+						"steps" : [7],
+						"text" : "#{QUEST_CLEARWAREHOUSE_ROOF}",
+						"index" : 9
+					},
+					"defeat" : {
+						"steps" : [8],
+						"text" : "#{QUEST_CLEARWAREHOUSE_DEFEAT}",
+						"index" : 10
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/ClearWarehouseQuest.lua",
+			"name" : "quest_clear_warehouse",
+			"uuid" : "b9fcd1bb-94fb-4dfd-9b58-a1d80ee15e15"
+		},
+// "WarehouseDestructionQuest"
+		{
+			"classname" : "WarehouseDestructionQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_TITLE}",
+				"trackingSteps" : {
+					"follow_desc" : {
+						"steps" : [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_FOLLOW_DESC}",
+						"index" : 1
+					},
+					"follow" : {
+						"steps" : [1,2,3,4],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_FOLLOW}",
+						"index" : 2
+					},
+					"chest" : {
+						"steps" : [7,8,9],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_BREAK_CHEST}",
+						"index" : 3
+					},
+					"approach" : {
+						"steps" : [11,12],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_APPROACH}",
+						"index" : 4
+					},
+					"open" : {
+						"steps" : [13,14],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_OPEN}",
+						"index" : 5
+					},
+					"destroy_desc" : {
+						"steps" : [16,17,18,19,20,21,22,23,24],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_FOLLOW_DESC}",
+						"index" : 6
+					},
+					"destroy" : {
+						"steps" : [16,17,18,19,20,21,22,23,24],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_BREAK_MAINFRAME}",
+						"index" : 7
+					},
+					"escape_desc" : {
+						"steps" : [25,26,27,28,29],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_ESCAPE_DESC}",
+						"index" : 8
+					},
+					"escape" : {
+						"steps" : [25,26,27,28,29],
+						"text" : "#{QUEST_WAREHOUSEDESTRUCTIONQUEST_ESCAPE}",
+						"index" : 9
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/WarehouseDestructionQuest.lua",
+			"name" : "quest_warehouse_destruction",
+			"uuid" : "d498de5c-72dd-4b64-a450-0a844c1b6cba"
+		},
+// "Save the Watchtower"
+		{
+			"classname" : "SaveTheWatchtowerQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_SAVEWATCHTOWER_TITLE}",
+				"trackingSteps" : {
+					"return_desc" : {
+						"steps" : [1],
+						"text" : "#{QUEST_SAVEWATCHTOWER_RETURN_DESC}",
+						"index" : 1
+					},
+					"return_to_hideout" : {
+						"steps" : [1],
+						"text" : "#{QUEST_SAVEWATCHTOWER_RETURN}",
+						"index" : 2
+					},
+					"extinguish_desc" : {
+						"steps" : [2, 3, 4],
+						"text" : "#{QUEST_SAVEWATCHTOWER_EXTINGUISH_DESC}",
+						"index" : 3
+					},
+					"extinguish" : {
+						"steps" : [2, 3, 4],
+						"text" : "#{QUEST_SAVEWATCHTOWER_EXTINGUISHER}",
+						"index" : 4
+					},
+					"fires" : {
+						"steps" : [2, 3, 4],
+						"text" : "#{QUEST_SAVEWATCHTOWER_FIRES}",
+						"index" : 5
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/SaveTheWatchtowerQuest.lua",
+			"name" : "quest_save_watchtower",
+			"uuid" : "380f5f03-4410-4528-b21b-07bb2dd5db1c"
+		},
+// "Rebuild the Watchtower Quest"
+		{
+			"classname" : "RebuildWatchtowerQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"builderGuideDescription" : "#{QUEST_REBUILD_WATCHTOWER_REBUILD_DESC}",
+				"title" : "#{QUEST_REBUILD_WATCHTOWER_TITLE}",
+				"rewards" : [
+					{
+						"type" : "schematic",
+						"name" : "obj_consumable_extinguisher",
+						"epic" : true
+					}
+				],
+				"trackingSteps" : {
+					"build_desc" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_REBUILD_WATCHTOWER_REBUILD_DESC}",
+						"index" : 1
+					},
+					"build" : {
+						"steps" : [1],
+						"text" : "#{QUEST_REBUILD_WATCHTOWER_REBUILD}",
+						"index" : 2
+					},
+					"talk" : {
+						"steps" : [2, 3],
+						"text" : "#{QUEST_FARMER_TALK}",
+						"index" : 3
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/RebuildWatchtowerQuest.lua",
+			"name" : "quest_rebuild_watchtower",
+			"uuid" : "c0fbb74a-065b-4719-a656-7517f5e5701d"
+		},
+// "Find Excavation Island Quest"
+		{
+			"classname" : "FindExcavationIslandQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_FINDEXCAVATION_TITLE}",
+				"trackingSteps" : {
+					"lorenzo_desc" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_FINDEXCAVATION_LORENZO_DESC}",
+						"index" : 1
+					},
+					"find" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_FINDEXCAVATION_FIND}",
+						"index" : 2
+					},
+					"key" : {
+						"steps" : [3],
+						"text" : "#{QUEST_FINDEXCAVATION_KEY}",
+						"index" : 3
+					},
+					"island_desc" : {
+						"steps" : [4, 5, 6, 7, 8],
+						"text" : "#{QUEST_FINDEXCAVATION_ISLAND_DESC}",
+						"index" : 4
+					},
+					"lever" : {
+						"steps" : [4, 5, 6],
+						"text" : "#{QUEST_FINDEXCAVATION_PULL_LEVER}",
+						"index" : 5
+					},
+					"search" : {
+						"steps" : [7],
+						"text" : "#{QUEST_FINDEXCAVATION_SEARCH}",
+						"index" : 6
+					},
+					"elevator" : {
+						"steps" : [8],
+						"text" : "#{QUEST_FINDEXCAVATION_OPEN_ELEVATOR}",
+						"index" : 7
+					},
+					"underground_desc" : {
+						"steps" : [9],
+						"text" : "#{QUEST_FINDEXCAVATION_UNDERGROUND_DESC}",
+						"index" : 8
+					},
+					"explore" : {
+						"steps" : [9],
+						"text" : "#{QUEST_FINDEXCAVATION_EXPLORE}",
+						"index" : 9
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/FindExcavationIslandQuest.lua",
+			"name" : "quest_find_excavation",
+			"uuid" : "20e9f83d-77a9-4d68-90d2-73d209e47e7b"
+		},
+// "Activate Mininghub"
+		{
+			"classname" : "ActivateMininghubQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_ACTIVATE_MININGHUB_TITLE}",
+				"trackingSteps" : {
+					"power_desc" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_POWER_DESC}",
+						"index" : 1
+					},
+					"power_dispenser" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_POWER_DISPENSER}",
+						"index" : 2
+					},
+					"power_smelter" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_POWER_SMELTER}",
+						"index" : 3
+					},
+					"power_caster" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_POWER_CASTER}",
+						"index" : 4
+					},
+					"power_powerrails" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_POWER_POWERRAILS}",
+						"index" : 5
+					},
+					"pylon_desc" : {
+						"steps" : [3, 4],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_ACTIVATE_PYLON_MAIN}",
+						"index" : 6
+					},
+					"pylon" : {
+						"steps" : [3, 4],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_ACTIVATE_PYLON}",
+						"index" : 7
+					},
+					"vault_desc" : {
+						"steps" : [5, 6, 7],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_VAULT_DESC}",
+						"index" : 8
+					},
+					"enter_vault" : {
+						"steps" : [5],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_ENTER_VAULT}",
+						"index" : 9
+					},
+					"interact_shop" : {
+						"steps" : [6, 7],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_INTERACT_SHOP}",
+						"index" : 10
+					},
+					"place_valuable_desc" : {
+						"steps" : [8, 9, 10, 11, 12],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_PLACE_VALUABLE_DESC}",
+						"index" : 11
+					},
+					"pickup_valuable" : {
+						"steps" : [8, 9, 10],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_PICKUP_VALUABLE}",
+						"index" : 12
+					},
+					"place_valuable" : {
+						"steps" : [8, 9, 10],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_PLACE_VALUABLE}",
+						"index" : 13
+					},
+					"get_card" : {
+						"steps" : [11],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_GET_CARD_VERSION_2}",
+						"index" : 14
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/ActivateMininghubQuest.lua",
+			"name" : "quest_activate_mininghub",
+			"uuid" : "b758f9df-a3e7-4692-ab24-66f889f305b0"
+		},
+// bossfight
+		{
+			"classname" : "BosstrainQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_DRILLBOT_FIGHT_TITLE}",
+				"trackingSteps" : {
+					"descend_desc" : {
+						"steps" : [1, 2, 3, 4, 5, 6],
+						"text" : "#{QUEST_BOSSTRAIN_DESCEND_DESC}",
+						"index" : 1
+					},
+					"enter_elevator" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_BOSSTRAIN_ENTER_ELEVATOR}",
+						"index" : 2
+					},
+					"take_elevator" : {
+						"steps" : [3, 4],
+						"text" : "#{QUEST_BOSSTRAIN_TAKE_ELEVATOR}",
+						"index" : 3
+					},
+					"reach_train" : {
+						"steps" : [5, 6],
+						"text" : "#{QUEST_BOSSTRAIN_REACH_LORENZO}",
+						"index" : 4
+					},
+					"boss_desc" : {
+						"steps" : [7, 8, 9],
+						"text" : "#{QUEST_BOSSTRAIN_BOSS_DESC}",
+						"index" : 5
+					},
+					"speak_lorenzo" : {
+						"steps" : [7, 8],
+						"text" : "#{QUEST_BOSSTRAIN_SPEAK_LORENZO}",
+						"index" : 6
+					},
+					"core_desc" : {
+						"steps" : [10, 11],
+						"text" : "#{QUEST_BOSSTRAIN_CORE_DESC}",
+						"index" : 7
+					},
+					"inspect_wreck" : {
+						"steps" : [10],
+						"text" : "#{QUEST_BOSSTRAIN_INSPECT_WRECK}",
+						"index" : 8
+					},
+					"get_core" : {
+						"steps" : [11],
+						"text" : "#{QUEST_BOSSTRAIN_GET_CORE}",
+						"index" : 9
+					},
+					"core_retrieved_desc" : {
+						"steps" : [12, 13],
+						"text" : "#{QUEST_BOSSTRAIN_CORE_RETRIVED_ALTERNATE}",
+						"index" : 10
+					},
+					"insert_core" : {
+						"steps" : [12, 13],
+						"text" : "#{QUEST_BOSSTRAIN_INSERT_CORE}",
+						"index" : 11
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/BosstrainQuest.lua",
+			"name" : "quest_bosstrain",
+			"uuid" : "d77fbad8-d5d0-421d-a526-6ea66911a140"
+		},
+// end game
+		{
+			"classname" : "EndGameQuest",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_ENDGAME_TITLE}",
+				"trackingSteps" : {
+					"ship_desc" : {
+						"steps" : [1, 2, 3, 4, 5],
+						"text" : "#{QUEST_ENDGAME_SHIP_DESC}",
+						"index" : 1
+					},
+					"goto_ship" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_ENDGAME_GOTO_SHIP}",
+						"index" : 2
+					},
+					"pickup" : {
+						"steps" : [4, 5],
+						"text" : "#{QUEST_ENDGAME_PICKUP_PHOTO}",
+						"index" : 3
+					},
+					"goodbye_desc" : {
+						"steps" : [6, 7],
+						"text" : "#{QUEST_ENGAME_GOODBYE_DESC}",
+						"index" : 4
+					},
+					"goodbye_hubert" : {
+						"steps" : [6],
+						"text" : "#{QUEST_ENGAME_GOODBYE_HUBERT}",
+						"index" : 5
+					},
+					"goodbye_phae" : {
+						"steps" : [7],
+						"text" : "#{QUEST_ENGAME_GOODBYE_PHAE}",
+						"index" : 6
+					},
+					"final_desc" : {
+						"steps" : [8],
+						"text" : "#{QUEST_ENGAME_FINAL_DESC}",
+						"index" : 7
+					},
+					"final_depart" : {
+						"steps" : [8],
+						"text" : "#{QUEST_ENGAME_FINAL_DEPART}",
+						"index" : 8
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/EndGameQuest.lua",
+			"name" : "quest_endgame",
+			"uuid" : "fc06f74a-e84b-4e83-99c0-c24aeec29cf9"
+		},
+// "Scrapyard Trashbot"
+		{
+			"classname" : "ScrapyardQuest",
+			"data" :
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_SCRAPYARD_TITLE}",
+				"trackingSteps" : {
+					"arrived_desc" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_SCRAPYARD_DESC}",
+						"index" : 1
+					},
+					"defeat" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_SCRAPYARD_DEFEAT}",
+						"index" : 2
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/ScrapyardQuest.lua",
+			"name" : "quest_scrapyard",
+			"uuid" : "a3f7c2e1-8b4d-4f6a-9e0c-2d5b8a1f3c7e"
+		},
+// Builder Quest 02
+// "Wock House"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_WOCHOUSE_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_WOCHOUSE_TITLE}",
+				"nodeName" : "builder_quest_02",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_doorhandle"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_modularsofa01"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_modularsofa02"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_WOCHOUSE_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_wochouse",
+			"uuid" : "1ad5bdb0-a6b1-4fc7-9035-9ae67e384b93"
+		},
+// "Cardboard Poop"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_POOP_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_POOP_TITLE}",
+				"nodeName" : "builder_quest_03",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_bonsaitree"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_plant01"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_POOP_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_GLOWBUG}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_cardboardpoop",
+			"uuid" : "3012421f-519a-4db5-b830-8cc715ca4467"
+		},
+// "Totebot Key"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_TOTEBOTKEY_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_TOTEBOTKEY_TITLE}",
+				"nodeName" : "builder_quest_04",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_totebotblip_bobblehead"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_totebotbass_bobblehead"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_totebotpercussion_bobblehead"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_totebotsynthvoice_bobblehead"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_TOTEBOTKEY_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_TOTEBOT}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_totebotkey",
+			"uuid" : "8742639c-f18e-46a0-a259-37f5d3e82df4"
+		},
+// "Corn Heart"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_CORNHEART_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_CORNHEART_TITLE}",
+				"nodeName" : "builder_quest_05",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_ivypipe02"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_ivypipe01"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_ivypipe04"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_plant02"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_CORNHEART_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_WOC}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_cornheart",
+			"uuid" : "adcf67cf-9087-429a-bb0b-548ed084b03c"
+		},
+// "Cozy Bed"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_COZYBED_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_COZYBED_TITLE}",
+				"nodeName" : "builder_quest_06",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_lowriderplaque"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_lowriderwheel"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_windshield"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_carfrontpanel"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_carbackpanel"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_carbumper"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_backmirror"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_sidemirror"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_COZYBED_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_cozybed",
+			"uuid" : "82f45474-c124-4621-b580-5791ede552f8"
+		},
+// "Xylophone"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_XYLOPHONE_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_XYLOPHONE_TITLE}",
+				"nodeName" : "builder_quest_07",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_synth"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_computer"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_XYLOPHONE_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_xylophone",
+			"uuid" : "08166c89-ae6d-4a10-9ea8-facfdde9c2fc"
+		},
+// "BeeSuit"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_BEESUIT_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_BEESUIT_TITLE}",
+				"nodeName" : "builder_quest_08",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_scrapmechanicbobblehead"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_scrapmechanicbobbleheadfemale"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_spaceshipstatue"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_BEESUIT_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_beesuit",
+			"uuid" : "5ad26877-d69b-469c-a6ec-4b8e46c7c382"
+		},
+// "Big Fan"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_BIGFAN_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_BIGFAN_TITLE}",
+				"nodeName" : "builder_quest_09",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_goldplatinumbearing"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_BIGFAN_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_SCRAPPER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_bigfan",
+			"uuid" : "9b368092-c437-410d-9261-3b147495adf5"
+		},
+// "Carousel"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_CAROUSEL_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_CAROUSEL_TITLE}",
+				"nodeName" : "builder_quest_10",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_beachball"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_CAROUSEL_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_SCRAPPER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_carousel",
+			"uuid" : "d57155ec-f97e-4898-877a-bf4f2d86102c"
+		},
+// "Catapult"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_CATAPULT_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_CATAPULT_TITLE}",
+				"nodeName" : "builder_quest_11",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_anvil"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_CATAPULT_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_SCRAPPER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_catapult",
+			"uuid" : "4af62838-7211-4ce1-9182-e2bca6a0a598"
+		},
+// "Crowbar"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_CROWBAR_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_CROWBAR_TITLE}",
+				"nodeName" : "builder_quest_12",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_safe"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_backpack_duck_backpack"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_CROWBAR_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_crowbar",
+			"uuid" : "fb140de6-7152-4f9b-96c0-43ec23806ddf"
+		},
+// "Compass"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_COMPASS_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_COMPASS_TITLE}",
+				"nodeName" : "builder_quest_13",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_shoes_duck_shoes"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_coffepot"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_COMPASS_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_compass",
+			"uuid" : "5c875359-3292-4d0a-b284-12c867c35c35"
+		},
+// "Garden"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_GARDEN_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_GARDEN_TITLE}",
+				"nodeName" : "builder_quest_14",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_legs_duck_pants"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_fountainstatue"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_GARDEN_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_garden",
+			"uuid" : "d04bc209-4e9a-4d78-9040-cea7476a1844"
+		},
+// "Saw Blade Arm"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_SAWBLADEARM_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_SAWBLADEARM_TITLE}",
+				"nodeName" : "builder_quest_15",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_plant03"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_SAWBLADEARM_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_SCRAPPER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_sawbladearm",
+			"uuid" : "c81a30e9-bdd7-4eb2-945d-fe80fa4ae8ba"
+		},
+// "Popcorn"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_POPCORN_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_POPCORN_TITLE}",
+				"nodeName" : "builder_quest_16",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_pictureframe"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_POPCORN_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_popcorn",
+			"uuid" : "1cbd4b72-8f94-468c-af0a-83cfaef630d4"
+		},
+// "Music Box"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_MUSICBOX_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_MUSICBOX_TITLE}",
+				"nodeName" : "builder_quest_17",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_lavalamp"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_MUSICBOX_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_SCRAPPER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_musicbox",
+			"uuid" : "b437686d-b7f9-410f-8516-c84364fb1b2a"
+		},
+// "Nice House"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_NICEHOUSE_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_NICEHOUSE_TITLE}",
+				"nodeName" : "builder_quest_18",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_hat_duck_hat"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_tablelamp"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_bowl"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_NICEHOUSE_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_nicehouse",
+			"uuid" : "f5fa242f-ab00-4797-9a67-dc35c6987523"
+		},
+// "SledgeHammer"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_SLEDGEHAMMER_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_SLEDGEHAMMER_TITLE}",
+				"nodeName" : "builder_quest_19",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_gloves_duck_gloves"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_bowlingball"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_10pin"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_SLEDGEHAMMER_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_sledgehammer",
+			"uuid" : "5b5a96dc-f222-42f9-a8c9-2fd47ab9bd58"
+		},
+// "Steel Bridge"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_STEELBRIDGE_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_STEELBRIDGE_TITLE}",
+				"nodeName" : "builder_quest_20",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_farmbotbobblehead"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_STEELBRIDGE_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_SCRAPPER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_steelbridge",
+			"uuid" : "30d42d2e-8cfa-4312-b48d-8d1c061cbcc9"
+		},
+// "Baguette"
+		{
+			"classname" : "GenericBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_BAGUETTE_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_BAGUETTE_TITLE}",
+				"nodeName" : "builder_quest_21",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_torso_duck_jacket"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_shoprewards_gasstove"
+					},
+					{
+						"type" : "schematic",
+						"name" : "obj_rewards_kitchenpot01"
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_BAGUETTE_DESC}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_FINISH_FARMER}"
+					},
+					{
+						"steps" : [3],
+						"text" : "#{QUEST_BUILDERGUIDE_REWARD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/GenericBuilderQuest.lua",
+			"name" : "quest_build_baguette",
+			"uuid" : "bb00ba18-9f20-4739-a25f-3afa710df753"
+		},
+		{
+			"classname" : "LiftPlatformBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_SCRAPCAR_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_SCRAPCAR_TITLE}",
+				"nodeName" : "builder_quest_first_car",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_torso_wow_tshirt_01" 
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_BUILDERGUIDE_LIFT}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_BUILD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/LiftPlatformBuilderQuest.lua",
+			"name" : "quest_build_first_car",
+			"uuid" : "39d5a886-6422-4e6c-8c99-7067ec580dd6"
+		},
+		{
+			"classname" : "LiftPlatformBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_HARVEST_CAR_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_HARVEST_CAR_TITLE}",
+				"nodeName" : "builder_quest_harvest_car",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_torso_rock_tshirt_02" 
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_BUILDERGUIDE_LIFT}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_BUILD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/LiftPlatformBuilderQuest.lua",
+			"name" : "quest_build_harvest_car",
+			"uuid" : "b4ed57f3-be67-48fa-b1f5-0dc3aceaf986"
+		},
+		{
+			"classname" : "LiftPlatformBuilderQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_ADVANCED_CAR_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_ADVANCED_CAR_TITLE}",
+				"nodeName" : "builder_quest_advanced_car",
+				"rewards" : 
+				[
+					{
+						"type" : "image",
+						"name" : "gui_logbook_questionmark.png"
+					},
+					{
+						"type" : "image"
+					},
+					{
+						"type" : "additionalReward",
+						"name" : "outfit_torso_fantastic_tshirt_03" 
+					}
+				],
+				"progressSteps" : [
+					{
+						"steps" : [1],
+						"text" : "#{QUEST_BUILDERGUIDE_LIFT}"
+					},
+					{
+						"steps" : [2],
+						"text" : "#{QUEST_BUILDERGUIDE_BUILD}"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/LiftPlatformBuilderQuest.lua",
+			"name" : "quest_build_advanced_car",
+			"uuid" : "d90ce1be-c7df-4581-a854-98d4eaf7d612"
+		},
+		{
+			"classname" : "BuilderGuideQuest",
+			"data" : 
+			{
+				"builderGuideDescription" : "#{QUEST_SCRAPCAR_DESC}",
+				"mainQuest" : false,
+				"title" : "#{QUEST_SCRAPCAR_TITLE}",
+				"rewards" : 
+				[
+					{
+						"type" : "item",
+						"name" : "obj_outfitpackage_common"
+					}
+				]
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/BuilderGuideQuest.lua",
+			"name" : "quest_builder_guide",
+			"uuid" : "009fe136-aeee-45c4-9135-006b786cfc59"
+		},
+		{
+			"classname" : "TraderTrackingQuest",
+			"data" : 
+			{
+				"mainQuest" : false,
+				"farmerQuest" : true,
+				"trackerIcon" : "gui_logbook_quest_icon_hideout.png",
+				"title" : "#{QUEST_TRADER_TRACKING_TITLE}",
+				"trackingSteps" : {
+					"deliveries" : "#{QUEST_TRADER_TRACKING_DELIVERIES}",
+					"deposits" : "#{QUEST_TRADER_TRACKING_DEPOSITS}",
+					"tomatoes" : "#{QUEST_TRADER_TRACKING_TOMATOES_DESC}",
+					"carrots" : "#{QUEST_TRADER_TRACKING_CARROTS_DESC}",
+					"seeds_desc" : "#{QUEST_TRADER_TRACKING_NEW_SEEDS_DESC}",
+					"key" : "#{QUEST_TRADER_TRACKING_KEY}",
+					"growlab" : "#{QUEST_TRADER_TRACKING_CLEAR_GROWLAB}",
+					"finish_desc" : "#{QUEST_TRADER_TRACKING_FINISH_DESC}"
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/TraderTrackingQuest.lua",
+			"name" : "quest_trader_tracking",
+			"uuid" : "7b4765e6-4c4a-4499-acff-f7b73ab9c09c"
+		},
+		{
+			"classname" : "VaultQuest1",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_VAULT_1_TITLE}",
+				"rewards" : [
+					{
+						"type" : "log",
+						"uuid" : "ae6773eb-c842-4dd8-8421-d83ed7069ace"
+					}
+				],
+				"trackingSteps" : {
+					"quota_desc" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_VAULT_1_DESC}",
+						"index" : 1
+					},
+					"quota" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_VAULT_STEP_1}",
+						"threshold" : 10000,
+						"dialogEntry" : "AxobotQuota1",
+						"index" : 2
+					},
+					"get_card" : {
+						"steps" : [3],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_GET_CARD_VERSION_2}",
+						"index" : 3
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/VaultQuest1.lua",
+			"name" : "quest_vault_1",
+			"uuid" : "b6c1606f-e78f-4062-b227-9e3f74d3d715"
+		},
+		// "Mysterious Signal"
+		{
+			"classname": "MysteriousSignalQuest",
+			"data": {
+				"mainQuest": true,
+				"title": "#{QUEST_MYSTERIOUS_SIGNAL_TITLE}",
+				"trackingSteps": {
+					"go_to_station_desc": {
+						"steps": [1],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_GO_TO_STATION_DESC}",
+						"index": 1
+					},
+					"go_to_station": {
+						"steps": [1],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_GO_TO_STATION}",
+						"index": 2
+					},
+					"investigate_area_desc": {
+						"steps": [2, 3],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_GO_TO_STATION_DESC}",
+						"index": 3
+					},
+					"investigate_area": {
+						"steps": [2, 3],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_STATION_EXPLORE_AREA}",
+						"index": 4
+					},
+					"explore_station_desc": {
+						"steps": [4],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_EXPLORE_STATION_DESC}",
+						"index": 5
+					},
+					"explore_station": {
+						"steps": [4],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_EXPLORE_STATION}",
+						"index": 6
+					},
+					"reach_control_room_desc": {
+						"steps": [5, 6],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_REACH_CONTROL_ROOM_DESC}",
+						"index": 7
+					},
+					"reach_control_room": {
+						"steps": [5, 6],
+						"text": "#{QUEST_MYSTERIOUS_SIGNAL_REACH_CONTROL_ROOM}",
+						"index": 8
+					}
+				}
+			},
+			"filename": "$SURVIVAL_DATA/Scripts/game/quests/MysteriousSignalQuest.lua",
+			"name": "quest_mysterious_signal",
+			"uuid": "f4e82a9c-6d3b-47a1-b5c8-9e2f1a0d7b63"
+		},
+		// "The Second Station"
+		{
+			"classname": "SecondStationQuest",
+			"data": {
+				"mainQuest": true,
+				"title": "#{QUEST_STATION_2_TITLE}",
+				"trackingSteps": {
+					"go_to_station_desc": {
+						"steps": [1],
+						"text": "#{QUEST_STATION_2_GO_TO_STATION_DESC}",
+						"index": 1
+					},
+					"go_to_station": {
+						"steps": [1],
+						"text": "#{QUEST_STATION_2_GO_TO_STATION}",
+						"index": 2
+					},
+					"reach_station_desc": {
+						"steps": [2, 3],
+						"text": "#{QUEST_STATION_2_GO_TO_STATION_DESC}",
+						"index": 3
+					},
+					"reach_station": {
+						"steps": [2, 3],
+						"text": "#{QUEST_STATION_2_GO_TO_STATION_ALTERNATE}",
+						"index": 4
+					},
+					"reach_control_room_desc": {
+						"steps": [4, 5],
+						"text": "#{QUEST_STATION_2_GO_TO_STATION_DESC}",
+						"index": 5
+					},
+					"reach_control_room": {
+						"steps": [4, 5],
+						"text": "#{QUEST_STATION_2_REACH_CONTROL_ROOM}",
+						"index": 6
+					}
+				}
+			},
+			"filename": "$SURVIVAL_DATA/Scripts/game/quests/SecondStationQuest.lua",
+			"name": "quest_station_2",
+			"uuid": "a7d3f1e2-8c64-4b95-9f01-3e6a2c8d7b40"
+
+		},
+		{
+			"classname" : "VaultQuest2",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_VAULT_2_TITLE}",
+				"rewards" : [
+					{
+						"type" : "log",
+						"uuid" : "d8239bc7-7232-4d66-9d7f-893cd3b45dcd"
+					}
+				],
+				"trackingSteps" : {
+					"speak_with_lorenzo_desc" : {
+						"steps": [1],
+						"text": "#{QUEST_VAULT_2_SPEAK_LORENZO_DESC}",
+						"index": 1
+					},
+					"speak_with_lorenzo" : {
+						"steps" : [1],
+						"text" : "#{QUEST_VAULT_2_SPEAK_LORENZO}",
+						"index" : 2
+					},
+					"quota_desc" : {
+						"steps" : [2, 3, 4],
+						"text" : "#{QUEST_VAULT_2_DESC}",
+						"index" : 3
+					},
+					"quota" : {
+						"steps" : [2, 3],
+						"text" : "#{QUEST_VAULT_STEP_2}",
+						"threshold" : 100000,
+						"dialogEntry" : "AxobotSecondQuotaComplete",
+						"index" : 4
+					},
+					"get_card" : {
+						"steps" : [4],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_GET_CARD_VERSION_2}",
+						"index" : 5
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/VaultQuest2.lua",
+			"name" : "quest_vault_2",
+			"uuid" : "a5720290-85f9-48c4-bdd2-8417a4147d3b"
+		},
+		{
+			"classname" : "VaultQuest3",
+			"data" : 
+			{
+				"mainQuest" : true,
+				"title" : "#{QUEST_VAULT_3_TITLE}",
+				"rewards" : [
+					{
+						"type" : "log",
+						"uuid" : "63ad737c-e03e-4c64-a8de-86cac9e5e6b7"
+					}
+				],
+				"trackingSteps" : {
+					"quota_desc" : {
+						"steps" : [1, 2, 3],
+						"text" : "#{QUEST_VAULT_3_DESC}",
+						"index" : 1
+					},
+					"quota" : {
+						"steps" : [1, 2],
+						"text" : "#{QUEST_VAULT_STEP_3}",
+						"threshold" : 1000000,
+						"dialogEntry" : "AxobotQuotaFinal",
+						"index" : 2
+					},
+					"get_card" : {
+						"steps" : [3],
+						"text" : "#{QUEST_ACTIVATE_MININGHUB_GET_CARD_VERSION_2}",
+						"index" : 3
+					}
+				}
+			},
+			"filename" : "$SURVIVAL_DATA/Scripts/game/quests/VaultQuest3.lua",
+			"name" : "quest_vault_3",
+			"uuid" : "3152012c-9479-4a4d-a590-b971516b0983"
+		}
+	]
+}

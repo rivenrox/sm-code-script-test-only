@@ -1,0 +1,176 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 2.0,
+				"color" : 
+				[
+					0.14113,
+					0.82744,
+					0.0,
+					1.0
+				],
+				"depth" : 
+				[
+					1.5,
+					0.2
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.45098,
+					0.92154,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 1,
+						"max" : 90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 18,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.8,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.06266,
+								1.15787
+							],
+							[
+								0.1,
+								1.0
+							],
+							[
+								0.8,
+								1.125
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"friction" : 
+				[
+					3.0,
+					0.5
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					1.5,
+					0.2
+				],
+				"keep_local" : false,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 5001,
+				"mesh_size" : 
+				[
+					1.75,
+					1.75,
+					1.75
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "SubEmitter Bubbles Big  Glass  [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					2.8745,
+					0.0,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/foam/p_renderable_trashbot_foam.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"sphere_radius" : 0.1,
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.14997,
+					0.15
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					1.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.2
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

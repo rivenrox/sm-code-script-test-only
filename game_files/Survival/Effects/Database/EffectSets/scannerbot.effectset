@@ -1,0 +1,2879 @@
+{
+	"Scannerbot - Aggro" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/aggro"
+				],
+				"parameters" : 
+				[
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"velocity" : 0.0
+		}
+	},
+	"Scannerbot - Character" : 
+	{
+		"effectList" : 
+		[
+			{
+				"name" : "$SURVIVAL_DATA/Character/Char_scannerbot/char_scannerbot_distance.rend",
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"renderableColor" : 
+				[
+					0.53725493,
+					0.06666667,
+					0.031372551,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"type" : "renderable"
+			}
+		]
+	},
+	"Scannerbot - Character_start" : 
+	{
+		"effectList" : 
+		[
+			{
+				"label" : "Scannerbot",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/scannerbot/eff_scannerbot.rend"
+				],
+				"renderableColor" : 
+				[
+					0.541176021,
+					0.066666998,
+					0.031373002,
+					1.0
+				],
+				"rotation" : 
+				[
+					-89.999969482,
+					0.000022198,
+					-135.000015259
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "0 - Start",
+								"position" : 
+								[
+									-584.877990723,
+									-923.062011719,
+									837.661010742
+								],
+								"rotation" : 
+								[
+									-99.410003662,
+									30.031000137,
+									177.542007446
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-275.027008057,
+											-1006.984985352,
+											215.804992676
+										],
+										"rotation" : 
+										[
+											-97.901000977,
+											27.089000702,
+											177.503997803
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "2",
+								"position" : 
+								[
+									-40.230998993,
+									-244.180999756,
+									108.20400238
+								],
+								"rotation" : 
+								[
+									-96.677001953,
+									23.325000763,
+									177.141998291
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-3.345999956,
+											-24.36400032,
+											76.638999939
+										],
+										"rotation" : 
+										[
+											-96.0,
+											22.163999557,
+											179.973007202
+										]
+									}
+								]
+							},
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "4 - SMOKE",
+								"position" : 
+								[
+									63.828998566,
+									123.638000488,
+									67.5
+								],
+								"rotation" : 
+								[
+									-87.79699707,
+									32.290000916,
+									-178.992996216
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											161.910995483,
+											323.289001465,
+											67.880996704
+										],
+										"rotation" : 
+										[
+											-89.100997925,
+											40.14799881,
+											-175.035995483
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									371.67098999,
+									487.988006592,
+									82.105003357
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-175.266998291
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "END",
+								"position" : 
+								[
+									1075.505981445,
+									1058.338989258,
+									81.008003235
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-174.414001465
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "renderable"
+			},
+			{
+				"offset" : 
+				[
+					-0.023481,
+					5.881535053,
+					-13.889051437
+				],
+				"particles" : 
+				[
+					"p_scannerbot_thruster_fliped"
+				],
+				"rotation" : 
+				[
+					-89.999969482,
+					0.000022198,
+					-135.000015259
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "0 - Start",
+								"position" : 
+								[
+									-584.877990723,
+									-923.062011719,
+									837.661010742
+								],
+								"rotation" : 
+								[
+									-99.410003662,
+									30.031000137,
+									177.542007446
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-275.027008057,
+											-1006.984985352,
+											215.804992676
+										],
+										"rotation" : 
+										[
+											-97.901000977,
+											27.089000702,
+											177.503997803
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "2",
+								"position" : 
+								[
+									-40.230998993,
+									-244.180999756,
+									108.20400238
+								],
+								"rotation" : 
+								[
+									-96.677001953,
+									23.325000763,
+									177.141998291
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-3.345999956,
+											-24.36400032,
+											76.638999939
+										],
+										"rotation" : 
+										[
+											-96.0,
+											22.163999557,
+											179.973007202
+										]
+									}
+								]
+							},
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "4 - SMOKE",
+								"position" : 
+								[
+									63.828998566,
+									123.638000488,
+									67.5
+								],
+								"rotation" : 
+								[
+									-87.79699707,
+									32.290000916,
+									-178.992996216
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											161.910995483,
+											323.289001465,
+											67.880996704
+										],
+										"rotation" : 
+										[
+											-89.100997925,
+											40.14799881,
+											-175.035995483
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									371.67098999,
+									487.988006592,
+									82.105003357
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-175.266998291
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "END",
+								"position" : 
+								[
+									1075.505981445,
+									1058.338989258,
+									81.008003235
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-174.414001465
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 11.0,
+				"offset" : 
+				[
+					35.801456451,
+					61.749996185,
+					128.085235596
+				],
+				"particles" : 
+				[
+					"p_scannerbot_start_trigger_smokepillar_disturb"
+				],
+				"rotation" : 
+				[
+					90.000007629,
+					-0.000002348,
+					-6.741221905
+				],
+				"type" : "particle"
+			},
+			{
+				"duration" : 21.0,
+				"rotation" : 
+				[
+					-89.999969482,
+					0.000022198,
+					-135.000015259
+				],
+				"shakeAmplitude" : 
+				[
+					5.0,
+					5.0,
+					10.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					50.0,
+					50.0,
+					50.0
+				],
+				"shakeRadius" : 250,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.2,
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "0 - Start",
+								"position" : 
+								[
+									-584.877990723,
+									-923.062011719,
+									837.661010742
+								],
+								"rotation" : 
+								[
+									-99.410003662,
+									30.031000137,
+									177.542007446
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-275.027008057,
+											-1006.984985352,
+											215.804992676
+										],
+										"rotation" : 
+										[
+											-97.901000977,
+											27.089000702,
+											177.503997803
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "2",
+								"position" : 
+								[
+									-40.230998993,
+									-244.180999756,
+									108.20400238
+								],
+								"rotation" : 
+								[
+									-96.677001953,
+									23.325000763,
+									177.141998291
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-3.345999956,
+											-24.36400032,
+											76.638999939
+										],
+										"rotation" : 
+										[
+											-96.0,
+											22.163999557,
+											179.973007202
+										]
+									}
+								]
+							},
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "4 - SMOKE",
+								"position" : 
+								[
+									63.828998566,
+									123.638000488,
+									67.5
+								],
+								"rotation" : 
+								[
+									-87.79699707,
+									32.290000916,
+									-178.992996216
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											161.910995483,
+											323.289001465,
+											67.880996704
+										],
+										"rotation" : 
+										[
+											-89.100997925,
+											40.14799881,
+											-175.035995483
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									371.67098999,
+									487.988006592,
+									82.105003357
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-175.266998291
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "END",
+								"position" : 
+								[
+									1075.505981445,
+									1058.338989258,
+									81.008003235
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-174.414001465
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "cameraShake"
+			},
+			{
+				"additive" : true,
+				"ambient" : true,
+				"ambientIntensityScale" : 2.200000048,
+				"ambientMaxIntensity" : 3.0,
+				"ambientRangeScale" : 10.0,
+				"color" : 
+				[
+					0.9296875,
+					0.083526611,
+					0.083526611,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 5.489999771,
+				"label" : "Scanning Plane",
+				"maxIntensity" : 8.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-23.0
+				],
+				"radius" : 12.0,
+				"rotation" : 
+				[
+					-89.999969482,
+					0.000022198,
+					-135.000015259
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "0 - Start",
+								"position" : 
+								[
+									-584.877990723,
+									-923.062011719,
+									837.661010742
+								],
+								"rotation" : 
+								[
+									-99.410003662,
+									30.031000137,
+									177.542007446
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-275.027008057,
+											-1006.984985352,
+											215.804992676
+										],
+										"rotation" : 
+										[
+											-97.901000977,
+											27.089000702,
+											177.503997803
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "2",
+								"position" : 
+								[
+									-40.230998993,
+									-244.180999756,
+									108.20400238
+								],
+								"rotation" : 
+								[
+									-96.677001953,
+									23.325000763,
+									177.141998291
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-3.345999956,
+											-24.36400032,
+											76.638999939
+										],
+										"rotation" : 
+										[
+											-96.0,
+											22.163999557,
+											179.973007202
+										]
+									}
+								]
+							},
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "4 - SMOKE",
+								"position" : 
+								[
+									63.828998566,
+									123.638000488,
+									67.5
+								],
+								"rotation" : 
+								[
+									-87.79699707,
+									32.290000916,
+									-178.992996216
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											161.910995483,
+											323.289001465,
+											67.880996704
+										],
+										"rotation" : 
+										[
+											-89.100997925,
+											40.14799881,
+											-175.035995483
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									371.67098999,
+									487.988006592,
+									82.105003357
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-175.266998291
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "END",
+								"position" : 
+								[
+									1075.505981445,
+									1058.338989258,
+									81.008003235
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-174.414001465
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "pointLight"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/idle"
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "0 - Start",
+								"position" : 
+								[
+									-584.877990723,
+									-923.062011719,
+									837.661010742
+								],
+								"rotation" : 
+								[
+									-99.410003662,
+									30.031000137,
+									177.542007446
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-275.027008057,
+											-1006.984985352,
+											215.804992676
+										],
+										"rotation" : 
+										[
+											-97.901000977,
+											27.089000702,
+											177.503997803
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "2",
+								"position" : 
+								[
+									-40.230998993,
+									-244.180999756,
+									108.20400238
+								],
+								"rotation" : 
+								[
+									-96.677001953,
+									23.325000763,
+									177.141998291
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-3.345999956,
+											-24.36400032,
+											76.638999939
+										],
+										"rotation" : 
+										[
+											-96.0,
+											22.163999557,
+											179.973007202
+										]
+									}
+								]
+							},
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "4 - SMOKE",
+								"position" : 
+								[
+									63.828998566,
+									123.638000488,
+									67.5
+								],
+								"rotation" : 
+								[
+									-87.79699707,
+									32.290000916,
+									-178.992996216
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											161.910995483,
+											323.289001465,
+											67.880996704
+										],
+										"rotation" : 
+										[
+											-89.100997925,
+											40.14799881,
+											-175.035995483
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									371.67098999,
+									487.988006592,
+									82.105003357
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-175.266998291
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "END",
+								"position" : 
+								[
+									1075.505981445,
+									1058.338989258,
+									81.008003235
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-174.414001465
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/ping"
+				],
+				"delay" : 11.0,
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : false,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "0 - Start",
+								"position" : 
+								[
+									-584.877990723,
+									-923.062011719,
+									837.661010742
+								],
+								"rotation" : 
+								[
+									-99.410003662,
+									30.031000137,
+									177.542007446
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-275.027008057,
+											-1006.984985352,
+											215.804992676
+										],
+										"rotation" : 
+										[
+											-97.901000977,
+											27.089000702,
+											177.503997803
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "2",
+								"position" : 
+								[
+									-40.230998993,
+									-244.180999756,
+									108.20400238
+								],
+								"rotation" : 
+								[
+									-96.677001953,
+									23.325000763,
+									177.141998291
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											-3.345999956,
+											-24.36400032,
+											76.638999939
+										],
+										"rotation" : 
+										[
+											-96.0,
+											22.163999557,
+											179.973007202
+										]
+									}
+								]
+							},
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "4 - SMOKE",
+								"position" : 
+								[
+									63.828998566,
+									123.638000488,
+									67.5
+								],
+								"rotation" : 
+								[
+									-87.79699707,
+									32.290000916,
+									-178.992996216
+								],
+								"speed" : 1.0,
+								"tangents" : 
+								[
+									{
+										"position" : 
+										[
+											161.910995483,
+											323.289001465,
+											67.880996704
+										],
+										"rotation" : 
+										[
+											-89.100997925,
+											40.14799881,
+											-175.035995483
+										]
+									}
+								]
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									371.67098999,
+									487.988006592,
+									82.105003357
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-175.266998291
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "END",
+								"position" : 
+								[
+									1075.505981445,
+									1058.338989258,
+									81.008003235
+								],
+								"rotation" : 
+								[
+									-90.0,
+									47.194999695,
+									-174.414001465
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Detected" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/enter"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - HatchClose" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/missiles_close"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - HatchOpen" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/missiles_ready"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Idle" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/idle"
+				],
+				"parameters" : 
+				[
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"velocity" : 0.0
+		}
+	},
+	"Scannerbot - Leaving" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/exit"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Lightbeam" : 
+	{
+		"effectList" : 
+		[
+			{
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/scannerbot/lightbeam_scannerbot_lightcone.rend"
+				],
+				"type" : "renderable"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_scannerbot_scanplane_shine01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/beacon"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"duration" : -1.0,
+				"offset" : 
+				[
+					0.0,
+					-180.0,
+					0.0
+				],
+				"shakeRadius" : 200,
+				"shakeStrength" : 0.0175,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Scannerbot - Lightbeams_ascending" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_ascending01"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					-15.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending03"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Scannerbot - Lightbeams_descending" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 10.0,
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending01"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 5.0,
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending02"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					-0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending03"
+				],
+				"rotation" : 
+				[
+					-89.999984741,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 10.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_scannerbot_shine_descending01",
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"label" : "SearchLight01",
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending_searchlight01"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "easeOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									-30.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 2.0,
+								"durationFromSpeed" : false,
+								"easing" : "easeInOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									15.0,
+									0.0,
+									14.999999046
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 3.0,
+								"durationFromSpeed" : false,
+								"easing" : "easeInOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 0.01,
+								"durationFromSpeed" : false,
+								"easing" : "easeInOutQuad",
+								"inheritDuration" : false,
+								"label" : "Stop1",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"label" : "SearchLight02",
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending_searchlight02"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 2.0,
+								"durationFromSpeed" : false,
+								"easing" : "easeOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-25.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 2.0,
+								"durationFromSpeed" : false,
+								"easing" : "easeInOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-15.0,
+									0.0,
+									20.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 3.0,
+								"durationFromSpeed" : false,
+								"easing" : "easeInQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-20.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 2.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 0.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "Stop",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"label" : "SearchLight03",
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending_searchlight03"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 3.5,
+								"durationFromSpeed" : false,
+								"easing" : "easeInQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									110.0,
+									0.0,
+									10.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 3.5,
+								"durationFromSpeed" : false,
+								"easing" : "easeOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									55.0,
+									0.0,
+									-130.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 3.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "Stop1",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							},
+							{
+								"duration" : 0.01,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "Stop2",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"label" : "SearchLight04",
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending_searchlight04"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 3.5,
+								"durationFromSpeed" : false,
+								"easing" : "easeInOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									130.0,
+									0.0,
+									-50.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 3.5,
+								"durationFromSpeed" : false,
+								"easing" : "easeInOutCubic",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									55.0,
+									0.0,
+									100.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 3.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "Stop1",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							},
+							{
+								"duration" : 0.01,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "Stop2",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"label" : "SearchLight05",
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending_searchlight05"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 6.0,
+								"durationFromSpeed" : false,
+								"easing" : "easeInOutSine",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									30.0,
+									0.0,
+									180.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 4.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							},
+							{
+								"duration" : 0.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "Stop",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"label" : "SearchLight06",
+				"offset" : 
+				[
+					0.0,
+					-14.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_scannerbot_descending_searchlight06"
+				],
+				"rotation" : 
+				[
+					-89.999992371,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"startAtDelay" : true,
+						"stopAtDuration" : false,
+						"track" : 
+						[
+							{
+								"duration" : 2.5,
+								"durationFromSpeed" : false,
+								"easing" : "easeInQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-110.0,
+									0.0,
+									220.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 2.5,
+								"durationFromSpeed" : false,
+								"easing" : "easeOutQuad",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-55.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 5.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							},
+							{
+								"duration" : 0.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"label" : "Stop",
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 0.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Scannerbot - Lights" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : false,
+				"color" : 
+				[
+					0.941177011,
+					0.211765006,
+					0.211765006,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 1.600000024,
+				"label" : "Back Light",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					19.75,
+					-6.25
+				],
+				"radius" : 13.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : false,
+				"color" : 
+				[
+					0.901961029,
+					0.447059005,
+					0.286274999,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 1.0,
+				"label" : "Right Small eye",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					-4.25,
+					-12.75,
+					-11.5
+				],
+				"radius" : 4.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : false,
+				"color" : 
+				[
+					0.901961029,
+					0.447059005,
+					0.286274999,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 2.0,
+				"label" : "Middle small eye",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					-13.5,
+					-10.0
+				],
+				"radius" : 5.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : false,
+				"color" : 
+				[
+					0.901961029,
+					0.447059005,
+					0.286274999,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 1.0,
+				"label" : "Left small eye",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					4.25,
+					-12.75,
+					-11.5
+				],
+				"radius" : 4.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : false,
+				"color" : 
+				[
+					1.0,
+					0.28125,
+					0.28125,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 2.0,
+				"label" : "Big eye",
+				"maxIntensity" : 3.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					-16.0,
+					4.75
+				],
+				"radius" : 13.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : false,
+				"color" : 
+				[
+					0.941177011,
+					0.211765006,
+					0.211765006,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 1.899999976,
+				"label" : "Thruster",
+				"maxIntensity" : 3.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					21.5,
+					5.574999809
+				],
+				"radius" : 13.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : true,
+				"ambient" : true,
+				"ambientIntensityScale" : 2.0,
+				"ambientMaxIntensity" : 3.0,
+				"ambientRangeScale" : 3.0,
+				"color" : 
+				[
+					0.952941,
+					0.439215988,
+					0.439215988,
+					1.0
+				],
+				"delay" : 0.0,
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 5.409999847,
+				"label" : "Scanning Plane",
+				"maxIntensity" : 8.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-23.0
+				],
+				"radius" : 12.0,
+				"type" : "pointLight"
+			},
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					1.0,
+					0.388235003,
+					0.305882007,
+					1.0
+				],
+				"coneAngle" : 45.0,
+				"coneFade" : 0.649999976,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					-1.0
+				],
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 1.0,
+				"label" : "Right Front Leg Spot",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					-10.0,
+					-13.0,
+					-10.0
+				],
+				"radius" : 12.0,
+				"range" : 20.0,
+				"type" : "spotLight"
+			},
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					1.0,
+					0.388235003,
+					0.305882007,
+					1.0
+				],
+				"coneAngle" : 45.0,
+				"coneFade" : 0.649999976,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					-1.0
+				],
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 1.0,
+				"label" : "Right Front Leg Spot",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					10.0,
+					-13.0,
+					-10.0
+				],
+				"radius" : 12.0,
+				"range" : 20.0,
+				"type" : "spotLight"
+			},
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					1.0,
+					0.389618009,
+					0.308593988,
+					1.0
+				],
+				"coneAngle" : 45.0,
+				"coneFade" : 0.649999976,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					-1.0
+				],
+				"disableVolumetric" : true,
+				"falloffFactor" : 1.0,
+				"falloffMode" : 1,
+				"intensity" : 1.0,
+				"label" : "Back Leg Spot",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					19.0,
+					-10.0
+				],
+				"radius" : 12.0,
+				"range" : 20.0,
+				"type" : "spotLight"
+			},
+			{
+				"ambient" : false,
+				"color" : 
+				[
+					1.0,
+					0.160784006,
+					0.160784006,
+					1.0
+				],
+				"coneAngle" : 55.0,
+				"coneFade" : 0.649999976,
+				"customVolumetric" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"falloffFactor" : 0.0,
+				"falloffMode" : 0,
+				"intensity" : 5.539999962,
+				"label" : "Custom Volumetric",
+				"maxIntensity" : 10.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"radius" : 12.0,
+				"range" : 100.0,
+				"type" : "spotLight",
+				"volColor" : 
+				[
+					1.0,
+					0.0,
+					0.0,
+					1.0
+				],
+				"volConeAngle" : 35.0,
+				"volConeFade" : 0.400000006,
+				"volFadeInRange" : 1.25,
+				"volFadeInStart" : 0.0,
+				"volFalloffFactor" : 1.0,
+				"volFalloffMode" : 3,
+				"volIntensity" : 5.0,
+				"volMaxIntensity" : 10.0,
+				"volMaxRange" : 100.0,
+				"volMinRange" : 100.0
+			},
+			{
+				"ambient" : false,
+				"color" : 
+				[
+					0.511718988,
+					0.0,
+					0.0,
+					1.0
+				],
+				"coneAngle" : 51.36000061,
+				"coneFade" : 0.100000001,
+				"cookie" : 9,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"intensity" : 5.900000095,
+				"label" : "Cooke1",
+				"maxIntensity" : 4.699999809,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-19.0
+				],
+				"range" : 300.0,
+				"type" : "spotLight"
+			},
+			{
+				"ambient" : true,
+				"ambientMaxIntensity" : 2.0,
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.0,
+					1.0
+				],
+				"coneAngle" : 47.0,
+				"coneFade" : 0.0,
+				"cookie" : 10,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"intensity" : 5.900000095,
+				"label" : "Cooke2",
+				"maxIntensity" : 4.699999809,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-19.0
+				],
+				"range" : 327.950012207,
+				"type" : "spotLight"
+			}
+		]
+	},
+	"Scannerbot - Lockontarget" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_scannerbot_lockontarget",
+				"offset" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Scannerbot - Missleexplosion" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_scannerbot_missle_explosion",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/missile_explode"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : [],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"duration" : 0.600000024,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 20,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.125,
+				"type" : "cameraShake"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.1,
+						"value" : 10.0
+					},
+					{
+						"time" : 0.6,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffc573ff",
+			"intensity" : 3.0,
+			"radius" : 16.0,
+			"size" : 0.0
+		}
+	},
+	"Scannerbot - Misslesmoketrail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_scannerbot_missle_smoketrail",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/missile_flying"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Ping" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/ping"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Shieldbarrierimpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_scannerbot_shieldbarrierimpact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/barrier"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Shieldbarrierplayerimpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_scannerbot_shieldbarrierimpact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/barrier"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Shootingmissles" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"name" : "p_scannerbot_missle_shootingmissles",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/seekerbot/missile_fire"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Scannerbot - Thruster" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"name" : "p_scannerbot_thruster",
+				"offset" : 
+				[
+					0.0,
+					19.5,
+					-16.125
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Scannerbot - Thruster_flipped" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"name" : "p_scannerbot_thruster_fliped",
+				"offset" : 
+				[
+					0.0,
+					24.0,
+					-16.125
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Scannerbot - camerashake" : 
+	{
+		"effectList" : 
+		[
+			{
+				"duration" : -1.0,
+				"offset" : 
+				[
+					0.0,
+					-75.0,
+					0.0
+				],
+				"shakeRadius" : 85,
+				"shakeStrength" : 0.125,
+				"type" : "cameraShake"
+			}
+		]
+	}
+}

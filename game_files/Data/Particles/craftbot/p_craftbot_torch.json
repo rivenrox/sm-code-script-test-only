@@ -1,0 +1,833 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "01",
+				"default_particle" : 
+				[
+					0.75,
+					0.5
+				],
+				"delay" : 2.65,
+				"diffuse" : "Textures/Thruster/thruster_animatedthruster_desaturated_04.tga",
+				"direction" : 
+				[
+					-1.0,
+					-0.0,
+					-0.40001
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.1773,
+								2.18091
+							],
+							[
+								0.37351,
+								2.625
+							],
+							[
+								1.0,
+								0.99
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.72939,
+									0.349,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.72939,
+									0.349,
+									1.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Start Explosion (Low)",
+				"position" : 
+				[
+					0.1848,
+					0.0,
+					-0.60102
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 0.349999994,
+				"water_mask" : "none",
+				"width" : 0.25
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "02",
+				"delay" : 2.75,
+				"diffuse" : "Textures/Thruster/thruster_animatedthruster03.tga",
+				"direction" : 
+				[
+					-1.0,
+					-0.0,
+					-0.40001
+				],
+				"direction_type" : "constant",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.72939,
+									0.349,
+									1.0
+								]
+							],
+							[
+								0.24221,
+								[
+									1.0,
+									0.73207,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								0.78307,
+								[
+									1.0,
+									0.48943,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.48627,
+									0.349,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 6,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 21,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 
+				[
+					1.0,
+					0.2
+				],
+				"keep_local" : true,
+				"max_particles" : 11,
+				"name" : "Flame (Low)",
+				"position" : 
+				[
+					0.18479,
+					0.0,
+					-0.60102
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"tiles" : 
+				[
+					2,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.25,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.25
+			},
+			{
+				"angle" : 1.0,
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "01",
+				"delay" : 2.65,
+				"diffuse" : "Textures/Thruster/thruster_dubble_thruster01.tga",
+				"direction" : 
+				[
+					-1.0,
+					-0.0,
+					-0.40001
+				],
+				"direction_type" : "constant",
+				"duration" : 0.6,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.72939,
+									0.349,
+									1.0
+								]
+							],
+							[
+								0.24221,
+								[
+									1.0,
+									0.73207,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								0.78307,
+								[
+									1.0,
+									0.48943,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.48627,
+									0.349,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.15129
+							],
+							[
+								0.77068,
+								0.97368
+							],
+							[
+								0.89832,
+								0.78947
+							],
+							[
+								1.0,
+								0.38815
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.67611,
+								0.91447
+							],
+							[
+								0.80141,
+								0.80921
+							],
+							[
+								1.0,
+								0.25986
+							]
+						],
+						"guid" : 12,
+						"max" : 
+						[
+							0.25,
+							0.05
+						],
+						"min" : 0.0,
+						"name" : "LifeTimeOverDuration"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 33,
+				"friction" : 4.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					1.0,
+					0.4
+				],
+				"keep_local" : true,
+				"max_particles" : 111,
+				"min_quality" : "medium",
+				"name" : "Start Flame (Medium)",
+				"position" : 
+				[
+					0.1848,
+					0.0,
+					-0.60102
+				],
+				"rotation" : 
+				[
+					180.0,
+					10.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"time_to_live" : 
+				[
+					0.25,
+					0.1
+				],
+				"velocity" : 
+				[
+					0.1,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.25,
+					0.15
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "02",
+				"delay" : 3.29994,
+				"diffuse" : "Textures/Thruster/thruster_animatedthruster03.tga",
+				"direction" : 
+				[
+					-1.0,
+					-0.0,
+					-0.40001
+				],
+				"direction_type" : "constant",
+				"duration" : 0.15997,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.72939,
+									0.349,
+									1.0
+								]
+							],
+							[
+								0.24221,
+								[
+									1.0,
+									0.73207,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								0.78307,
+								[
+									1.0,
+									0.48943,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.48627,
+									0.349,
+									1.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 15,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 51,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					2.0,
+					0.2
+				],
+				"keep_local" : true,
+				"max_particles" : 11,
+				"min_quality" : "medium",
+				"name" : "Flame2 test (Medium)",
+				"position" : 
+				[
+					0.18479,
+					0.0,
+					-0.60102
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"tiles" : 
+				[
+					2,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.15997,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.125
+			},
+			{
+				"category" : "02",
+				"delay" : 2.75,
+				"diffuse" : "Textures/pu_flare.tga",
+				"direction" : 
+				[
+					-1.0,
+					-0.0,
+					-0.40001
+				],
+				"direction_type" : "constant",
+				"duration" : 2.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.72939,
+									0.349,
+									1.0
+								]
+							],
+							[
+								0.24221,
+								[
+									1.0,
+									0.73207,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								0.78307,
+								[
+									1.0,
+									0.48943,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.48627,
+									0.349,
+									1.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.13815
+							],
+							[
+								1.0,
+								0.87171
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 6,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 17,
+				"height" : 
+				[
+					1.0,
+					0.44999
+				],
+				"keep_local" : true,
+				"max_particles" : 11,
+				"min_quality" : "high",
+				"name" : "Glow (High)",
+				"position" : 
+				[
+					0.18479,
+					0.0,
+					-0.60102
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.44999
+				]
+			},
+			{
+				"angle" : 1.0,
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "01",
+				"delay" : 2.65,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction" : 
+				[
+					-1.0,
+					-0.0,
+					-0.40001
+				],
+				"direction_type" : "constant",
+				"duration" : 0.4,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.72939,
+									0.349,
+									1.0
+								]
+							],
+							[
+								0.24221,
+								[
+									1.0,
+									0.73207,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								0.78307,
+								[
+									1.0,
+									0.48943,
+									0.35293,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.48627,
+									0.349,
+									1.0
+								]
+							]
+						],
+						"guid" : 21,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.15129
+							],
+							[
+								0.77068,
+								0.97368
+							],
+							[
+								0.89832,
+								0.78947
+							],
+							[
+								1.0,
+								0.38815
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 21,
+				"friction" : 4.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 20,
+				"height" : 
+				[
+					1.0,
+					0.4
+				],
+				"keep_local" : true,
+				"max_particles" : 111,
+				"min_quality" : "high",
+				"name" : "Start Glow (High)",
+				"position" : 
+				[
+					0.1848,
+					0.0,
+					-0.60102
+				],
+				"rotation" : 
+				[
+					180.0,
+					10.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"time_to_live" : 
+				[
+					0.25,
+					0.1
+				],
+				"velocity" : 
+				[
+					0.1,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.25,
+					0.15
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

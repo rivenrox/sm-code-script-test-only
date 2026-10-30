@@ -1,0 +1,81 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Glowstick/eff_meshparticle_glowstick.fbx",
+			"minViewSize" : 11,
+			"pose0" : "$SURVIVAL_DATA/Effects/Meshes/Glowstick/eff_meshparticle_glowstick_pose0.fbx",
+			"pose1" : "$SURVIVAL_DATA/Effects/Meshes/Glowstick/eff_meshparticle_glowstick_pose1.fbx",
+			"pose2" : "$SURVIVAL_DATA/Effects/Meshes/Glowstick/eff_meshparticle_glowstick_pose2.fbx",
+			"subMeshList" : 
+			[
+				{
+					"custom" : 
+					{
+						"scrollUv" : 
+						{
+							"speed" : 
+							[
+								1.0,
+								0.0
+							]
+						},
+						"translucent" : 
+						{
+							"push" : 0.400000006,
+							"refraction" : -0.01,
+							"thickness" : 1.539999962
+						},
+						"uv0" : 
+						{
+							"u" : 0.125,
+							"v" : 0.166999996
+						}
+					},
+					"material" : "Glowstick_blob",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Effects/Textures/Glowstick/t_glowstick01_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Effects/Textures/Glowstick/t_glowstick_translucency.tga",
+						"normalMap" : "$GAME_DATA/Particles/resources/stickywheels/p_mesh_stickywheels_groundblob_animated_nor.tga"
+					}
+				},
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 0.01,
+							"blurriness" : 0.02,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 0.519999981,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.5,
+							"responsiveGlow" : 0.5,
+							"transmission" : 0.5,
+							"transparencyBack" : 0.479999989,
+							"transparencyFront" : -1.679999948
+						},
+						"uv0" : 
+						{
+							"u" : 0.125,
+							"v" : 0.166999996
+						}
+					},
+					"material" : "3PoseGlass_uvanim",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Effects/Textures/Glowstick/t_glowstick03_asg.tga",
+						"diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+						"normalMap" : "$GAME_DATA/Particles/resources/stickywheels/p_mesh_stickywheels_groundblob_animated_nor.tga"
+					}
+				}
+			]
+		}
+	]
+}

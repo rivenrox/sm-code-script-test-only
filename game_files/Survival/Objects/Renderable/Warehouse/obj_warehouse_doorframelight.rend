@@ -1,0 +1,55 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_doorframelight_off.fbx",
+			"pose0" : "$SURVIVAL_DATA/Objects/Mesh/warehouse/obj_warehouse_doorframelight_on.fbx",
+			"subMeshMap" : 
+			{
+				"beam" : 
+				{
+					"color" : "582904ff",
+					"custom" : 
+					{
+						"lightCone" : 
+						{
+							"depthDistance" : 1.0,
+							"emission" : 0.2,
+							"farDistance" : 20.0,
+							"nearDistance" : 8.0,
+							"nearFadeEnd" : 2.0
+						}
+					},
+					"hidden" : false,
+					"material" : "PoseAnimLightCone",
+					"textures" : 
+					{
+						"diffuse" : "$GAME_DATA/Objects/Textures/lights/obj_light_headlightbeam_dif.tga"
+					}
+				},
+				"flare" : 
+				{
+					"material" : "PoseAnimLightCone",
+					"textures" : 
+					{
+						"diffuse" : "$GAME_DATA/Objects/Textures/lights/obj_light_horizontalflare_dif.tga"
+					}
+				},
+				"phongE1" : 
+				{
+					"custom" : 
+					{
+						"metalProfile" : "DifAsgNor_Painted"
+					},
+					"material" : "PoseAnimDifAsgNor_Metal",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_doorframelight_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_doorframelight_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Objects/Textures/warehouse/obj_warehouse_doorframelight_nor.tga"
+					}
+				}
+			}
+		}
+	]
+}

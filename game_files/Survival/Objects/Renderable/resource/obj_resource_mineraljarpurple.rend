@@ -1,0 +1,87 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Objects/Mesh/resource/obj_resource_mineraljarpurple.fbx",
+			"minViewSize" : 55,
+			"subMeshMap" : 
+			{
+				"m_glass" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 1.52,
+							"blurriness" : -1.0,
+							"depthBlurDistance" : 1.0,
+							"depthBlurMin" : 0.0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.1,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.44,
+							"transparencyBack" : 0.0,
+							"transparencyFront" : 0.78
+						}
+					},
+					"material" : "Glass",
+					"textureList" : 
+					[
+						"$GAME_DATA/Textures/Default/default_dif.tga",
+						"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+						"$GAME_DATA/Textures/Default/default_nor.tga"
+					]
+				},
+				"m_mineral" : 
+				{
+					"material" : "MatCap_AsgNor",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Matcap/t_mineralpurple_mcap.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_mineral_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/resource/obj_resource_mineralpurple_nor.tga"
+					]
+				},
+				"m_mineralswirl" : 
+				{
+					"material" : "DifAsgNor_MatCapMaskedGlow",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Tiled/Mineral/t_tiled_mineralswirl_dif.tga",
+						"$SURVIVAL_DATA/Textures/Tiled/Mineral/t_tiled_mineralswirl_asg.tga",
+						"$SURVIVAL_DATA/Textures/Tiled/Mineral/t_tiled_mineralswirl_nor.tga",
+						"",
+						"$SURVIVAL_DATA/Textures/Matcap/t_copper_mcap.tga"
+					]
+				},
+				"m_uvmaterial_industrial" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color01",
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							1.0,
+							10.0
+						]
+					},
+					"material" : "UvMaterial_Default",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_mineraljar_dif.tga",
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_mineraljar_asg.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_trimsheet_mechanic01_nor.tga",
+						"$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,3559 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "0",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.09538,
+								0.85855
+							],
+							[
+								0.20611,
+								0.76314
+							],
+							[
+								0.36179,
+								0.7127
+							],
+							[
+								0.5094,
+								0.69243
+							],
+							[
+								0.65991,
+								0.69612
+							],
+							[
+								0.80172,
+								0.72741
+							],
+							[
+								0.90153,
+								0.81576
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.52631
+							],
+							[
+								0.54461,
+								1.0
+							],
+							[
+								1.0,
+								0.28288
+							]
+						],
+						"guid" : 2,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Glow",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/minehub_smelter/p_rendeble_minehubsmelter_glow01.rend",
+				"time_to_live" : 15.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "1",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 3.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 6.0,
+				"editorColor" : 
+				[
+					0.87865,
+					1.0,
+					0.44527,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								1.0,
+								1.45394
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 3,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					2.5362,
+					14.40769
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					-141.78649,
+					0.0,
+					-0.0
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "1",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 8.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.68365,
+					1.0,
+					0.4453,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								1.0,
+								1.45394
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 7,
+				"height" : 
+				[
+					5.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					2.5362,
+					14.40769
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					-131.12514,
+					0.0,
+					-0.0
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "98",
+				"circle_angle" : 65.0,
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"delay" : 1.0,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 14.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.39278,
+									0.23045,
+									1.0
+								]
+							],
+							[
+								0.72109,
+								[
+									1.0,
+									0.27257,
+									0.07811,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.17846,
+								0.66118
+							],
+							[
+								0.34768,
+								0.77302
+							],
+							[
+								0.6923,
+								0.78947
+							],
+							[
+								1.0,
+								0.35526
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11076,
+								1.57154
+							],
+							[
+								0.22153,
+								1.64062
+							],
+							[
+								0.36,
+								1.46792
+							],
+							[
+								0.46461,
+								0.94983
+							],
+							[
+								0.64306,
+								0.68503
+							],
+							[
+								1.0,
+								0.51233
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 1.75,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55921
+							],
+							[
+								1.0,
+								0.70393
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 15,
+						"length" : 0.5,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 16,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					3.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 
+				[
+					0.8,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Sparks regular 1",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					14.9909
+				],
+				"power_glow" : true,
+				"radius" : 3.0,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					180.0,
+					0.0,
+					-0.0
+				],
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 
+				[
+					3.0,
+					0.25
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					6.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.3,
+					0.1
+				]
+			},
+			{
+				"category" : "0",
+				"color" : 
+				[
+					1.0,
+					0.39842,
+					0.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								0.81752,
+								0.56734
+							],
+							[
+								0.86461,
+								0.48684
+							],
+							[
+								0.89551,
+								0.39089
+							],
+							[
+								0.95086,
+								0.10869
+							],
+							[
+								0.97289,
+								0.03725
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 18,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 17,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Glow extra",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.06871
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/minehub_smelter/p_rendeble_minehubsmelter_glow02.rend",
+				"time_to_live" : 15.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "2",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 3.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 6.0,
+				"editorColor" : 
+				[
+					0.87865,
+					1.0,
+					0.44527,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 20,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								1.0,
+								1.45394
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 22,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 19,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					-2.70287,
+					0.29649,
+					14.40769
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					-176.05033,
+					-38.03993,
+					-83.60689
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "2",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 8.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.68365,
+					1.0,
+					0.4453,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 24,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								1.0,
+								1.45394
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 23,
+				"height" : 
+				[
+					5.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					-2.70287,
+					0.29649,
+					14.40769
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					-176.05033,
+					-38.03993,
+					-83.60689
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "3",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 3.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 6.0,
+				"editorColor" : 
+				[
+					0.87865,
+					1.0,
+					0.44527,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 28,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								1.0,
+								1.45394
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 30,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 27,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					-0.93858,
+					-3.13481,
+					13.96417
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					142.90698,
+					-9.92874,
+					-167.15383
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "3",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 8.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.68365,
+					1.0,
+					0.4453,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 32,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								1.0,
+								1.45394
+							]
+						],
+						"guid" : 33,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 34,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 31,
+				"height" : 
+				[
+					5.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					-0.93858,
+					-3.13481,
+					13.96417
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					142.90698,
+					-9.92874,
+					-167.15383
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "4",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 3.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 6.0,
+				"editorColor" : 
+				[
+					0.87865,
+					1.0,
+					0.44527,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 36,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.29502
+							],
+							[
+								0.19729,
+								0.75774
+							],
+							[
+								1.0,
+								1.55587
+							]
+						],
+						"guid" : 37,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 38,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 35,
+				"height" : 
+				[
+					4.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					2.15756,
+					-0.0937,
+					15.20549
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					176.3896,
+					28.33694,
+					95.75862
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"angle" : 
+				[
+					1.0,
+					0.5
+				],
+				"category" : "4",
+				"cone_angle" : 25.0,
+				"cone_radius" : 1.0,
+				"delay" : 8.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds05.tga",
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.68365,
+					1.0,
+					0.4453,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 40,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								1.0,
+								1.45394
+							]
+						],
+						"guid" : 41,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26197,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.3242
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.40233
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 42,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					4.0
+				],
+				"friction" : 0.25,
+				"guid" : 39,
+				"height" : 
+				[
+					5.0,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1 2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					2.15756,
+					-0.0937,
+					15.20549
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shape_rotation" : 
+				[
+					176.3896,
+					28.33694,
+					95.75862
+				],
+				"soft_particles_bias" : 64,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					1.0
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"category" : "8",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.09346,
+								0.90644
+							],
+							[
+								0.18264,
+								0.78386
+							],
+							[
+								0.26585,
+								0.59838
+							],
+							[
+								0.31474,
+								0.39998
+							],
+							[
+								0.34904,
+								0.32258
+							],
+							[
+								0.3842,
+								0.2887
+							],
+							[
+								0.41765,
+								0.28709
+							],
+							[
+								0.44898,
+								0.31143
+							],
+							[
+								0.4878,
+								0.34812
+							],
+							[
+								0.5264,
+								0.3686
+							],
+							[
+								0.56097,
+								0.34299
+							],
+							[
+								0.59043,
+								0.27814
+							],
+							[
+								0.63919,
+								0.25084
+							],
+							[
+								0.67479,
+								0.25766
+							],
+							[
+								0.72052,
+								0.29861
+							],
+							[
+								0.77025,
+								0.36614
+							],
+							[
+								0.80602,
+								0.48153
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 44,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10508,
+								0.58736
+							],
+							[
+								0.16537,
+								0.76871
+							],
+							[
+								0.2272,
+								0.9067
+							],
+							[
+								0.29598,
+								1.0
+							],
+							[
+								0.64665,
+								1.0
+							],
+							[
+								0.74269,
+								0.95643
+							],
+							[
+								0.81303,
+								0.89516
+							],
+							[
+								0.86448,
+								0.79193
+							],
+							[
+								0.9125,
+								0.65161
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 45,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 43,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Pouring Liquid blendshape 1",
+				"particle" : "mesh",
+				"position" : 
+				[
+					4.14124,
+					0.0,
+					17.57176
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_blendshapes03.rend",
+				"rotation" : -90.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"time_to_live" : 15.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "8",
+				"color" : 
+				[
+					0.53724,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"delay" : 1.0,
+				"depth" : 
+				[
+					0.5,
+					0.34999
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.06772
+							],
+							[
+								0.16629,
+								0.52389
+							],
+							[
+								0.25047,
+								0.89042
+							],
+							[
+								0.35945,
+								0.95617
+							],
+							[
+								0.45888,
+								0.89243
+							],
+							[
+								0.54874,
+								0.47808
+							],
+							[
+								0.65772,
+								0.18127
+							],
+							[
+								0.82409,
+								0.0239
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 47,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.31547,
+								0.0996
+							],
+							[
+								0.45697,
+								0.25297
+							],
+							[
+								0.60803,
+								0.56173
+							],
+							[
+								0.71701,
+								0.93624
+							],
+							[
+								0.83363,
+								0.96214
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 48,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"enabled" : false,
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.40939,
+								0.12714
+							],
+							[
+								0.51037,
+								0.2395
+							],
+							[
+								0.78421,
+								0.85654
+							],
+							[
+								0.84368,
+								0.92826
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 49,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.341
+							],
+							[
+								0.07468,
+								0.78755
+							],
+							[
+								0.18395,
+								0.9
+							],
+							[
+								0.64867,
+								0.9824
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 50,
+						"max_scale" : 3.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 1.0,
+				"guid" : 46,
+				"height" : 
+				[
+					0.5,
+					0.34999
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops Cauldron",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					3.47335,
+					0.0,
+					16.125
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/minehub_smelter/p_rendeble_minehubsmelter_moltenmetal_drops.rend",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					90.0
+				],
+				"spawn_chance" : 0.11997,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.5
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.34999
+				]
+			},
+			{
+				"category" : "8",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.07372,
+								0.8758
+							],
+							[
+								0.13807,
+								0.70643
+							],
+							[
+								0.20068,
+								0.50805
+							],
+							[
+								0.24356,
+								0.41934
+							],
+							[
+								0.29758,
+								0.37419
+							],
+							[
+								0.34391,
+								0.36934
+							],
+							[
+								0.3842,
+								0.39353
+							],
+							[
+								0.42881,
+								0.44031
+							],
+							[
+								0.45969,
+								0.45482
+							],
+							[
+								0.5077,
+								0.44999
+							],
+							[
+								0.54457,
+								0.41934
+							],
+							[
+								0.60205,
+								0.41128
+							],
+							[
+								0.6715,
+								0.43064
+							],
+							[
+								0.73755,
+								0.45159
+							],
+							[
+								0.79158,
+								0.51612
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 52,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.12347,
+								0.44
+							],
+							[
+								0.22041,
+								0.62838
+							],
+							[
+								0.32418,
+								0.7329
+							],
+							[
+								0.44082,
+								0.77161
+							],
+							[
+								0.64837,
+								0.76903
+							],
+							[
+								0.75985,
+								0.73935
+							],
+							[
+								0.84305,
+								0.68387
+							],
+							[
+								0.92536,
+								0.5303
+							],
+							[
+								0.96311,
+								0.39096
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 53,
+						"max_scale" : 0.8,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								120.7742
+							],
+							[
+								1.0,
+								120.6
+							]
+						],
+						"guid" : 54,
+						"max" : 180.0,
+						"min" : -180.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 51,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Pouring Liquid blendshape 2",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-1.79746,
+					3.45812,
+					17.57176
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_blendshapes03.rend",
+				"rotation" : -90.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"time_to_live" : 15.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "8",
+				"color" : 
+				[
+					0.53724,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"delay" : 1.0,
+				"depth" : 
+				[
+					0.5,
+					0.34999
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.06772
+							],
+							[
+								0.16629,
+								0.52389
+							],
+							[
+								0.25047,
+								0.89042
+							],
+							[
+								0.35945,
+								0.95617
+							],
+							[
+								0.45888,
+								0.89243
+							],
+							[
+								0.54874,
+								0.47808
+							],
+							[
+								0.65772,
+								0.18127
+							],
+							[
+								0.82409,
+								0.0239
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 56,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.31547,
+								0.0996
+							],
+							[
+								0.45697,
+								0.25297
+							],
+							[
+								0.60803,
+								0.56173
+							],
+							[
+								0.71701,
+								0.93624
+							],
+							[
+								0.83363,
+								0.96214
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 57,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"enabled" : false,
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.40939,
+								0.12714
+							],
+							[
+								0.51037,
+								0.2395
+							],
+							[
+								0.78421,
+								0.85654
+							],
+							[
+								0.84368,
+								0.92826
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 58,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.341
+							],
+							[
+								0.07468,
+								0.78755
+							],
+							[
+								0.18395,
+								0.9
+							],
+							[
+								0.64867,
+								0.9824
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 59,
+						"max_scale" : 3.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 1.0,
+				"guid" : 55,
+				"height" : 
+				[
+					0.5,
+					0.34999
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops Cauldron",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-1.66411,
+					2.93565,
+					16.125
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/minehub_smelter/p_rendeble_minehubsmelter_moltenmetal_drops.rend",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					90.0
+				],
+				"spawn_chance" : 0.15997,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.5
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.34999
+				]
+			},
+			{
+				"category" : "8",
+				"depth" : 0.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.12521,
+								0.50642
+							],
+							[
+								0.18524,
+								0.30967
+							],
+							[
+								0.259,
+								0.1532
+							],
+							[
+								0.31215,
+								0.07096
+							],
+							[
+								0.3765,
+								0.01128
+							],
+							[
+								0.47167,
+								0.01774
+							],
+							[
+								0.58661,
+								0.05482
+							],
+							[
+								0.6638,
+								0.07417
+							],
+							[
+								0.74528,
+								0.17258
+							],
+							[
+								0.85334,
+								0.4645
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 61,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.12347,
+								0.44
+							],
+							[
+								0.22041,
+								0.62838
+							],
+							[
+								0.32418,
+								0.7329
+							],
+							[
+								0.44082,
+								0.77161
+							],
+							[
+								0.64837,
+								0.76903
+							],
+							[
+								0.75985,
+								0.73935
+							],
+							[
+								0.84305,
+								0.68387
+							],
+							[
+								0.92536,
+								0.5303
+							],
+							[
+								0.96311,
+								0.39096
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 62,
+						"max_scale" : 0.8,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-119.6129
+							],
+							[
+								1.0,
+								-119.52002
+							]
+						],
+						"guid" : 63,
+						"max" : 180.0,
+						"min" : -180.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 60,
+				"height" : 0.75,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Pouring Liquid blendshape 3",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-1.99592,
+					-3.3068,
+					19.07925
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_blendshapes03.rend",
+				"rotation" : -90.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"time_to_live" : 15.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "8",
+				"color" : 
+				[
+					0.53724,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"delay" : 1.0,
+				"depth" : 
+				[
+					0.5,
+					0.34999
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.06772
+							],
+							[
+								0.16629,
+								0.52389
+							],
+							[
+								0.25047,
+								0.89042
+							],
+							[
+								0.35945,
+								0.95617
+							],
+							[
+								0.45888,
+								0.89243
+							],
+							[
+								0.54874,
+								0.47808
+							],
+							[
+								0.65772,
+								0.18127
+							],
+							[
+								0.82409,
+								0.0239
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 65,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.31547,
+								0.0996
+							],
+							[
+								0.45697,
+								0.25297
+							],
+							[
+								0.60803,
+								0.56173
+							],
+							[
+								0.71701,
+								0.93624
+							],
+							[
+								0.83363,
+								0.96214
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 66,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"enabled" : false,
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.40939,
+								0.12714
+							],
+							[
+								0.51037,
+								0.2395
+							],
+							[
+								0.78421,
+								0.85654
+							],
+							[
+								0.84368,
+								0.92826
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 67,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.341
+							],
+							[
+								0.07468,
+								0.78755
+							],
+							[
+								0.18395,
+								0.9
+							],
+							[
+								0.64867,
+								0.9824
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 68,
+						"max_scale" : 3.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 1.0,
+				"guid" : 64,
+				"height" : 
+				[
+					0.5,
+					0.34999
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops Cauldron",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-1.53973,
+					-2.79525,
+					19.07925
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/minehub_smelter/p_rendeble_minehubsmelter_moltenmetal_drops.rend",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					90.0
+				],
+				"spawn_chance" : 0.10999,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.5
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.34999
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"angle" : 1.0,
+				"bounce" : 0.5,
+				"category" : "9",
+				"collision" : "die",
+				"color" : 
+				[
+					0.53724,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"cone_angle" : 0.0,
+				"cone_radius" : 3.5,
+				"delay" : 1.0,
+				"depth" : 
+				[
+					1.35,
+					0.25
+				],
+				"direction_type" : "shape",
+				"duration" : 12.0,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.06772
+							],
+							[
+								0.16629,
+								0.52389
+							],
+							[
+								0.25047,
+								0.89042
+							],
+							[
+								0.35945,
+								0.95617
+							],
+							[
+								0.45888,
+								0.89243
+							],
+							[
+								0.54874,
+								0.47808
+							],
+							[
+								0.65772,
+								0.18127
+							],
+							[
+								0.82409,
+								0.0239
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 77,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.31547,
+								0.0996
+							],
+							[
+								0.45697,
+								0.25297
+							],
+							[
+								0.60803,
+								0.56173
+							],
+							[
+								0.71701,
+								0.93624
+							],
+							[
+								0.83363,
+								0.96214
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 78,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-15.0
+				],
+				"guid" : 69,
+				"height" : 
+				[
+					1.35,
+					0.25
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops Cauldron",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					17.41142
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/minehub_smelter/p_rendeble_minehubsmelter_moltenmetal_drops.rend",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					90.0
+				],
+				"shape_rotation" : 
+				[
+					180.0,
+					0.0,
+					0.0
+				],
+				"spawn_chance" : 0.14,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.3294,
+							0.83135,
+							0.04704,
+							1.0
+						],
+						"depth" : 
+						[
+							1.0,
+							0.15
+						],
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 71,
+								"name" : "TextureAnimator",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0921
+									],
+									[
+										0.13537,
+										1.81578
+									],
+									[
+										0.21536,
+										2.06574
+									],
+									[
+										1.0,
+										3.34208
+									]
+								],
+								"guid" : 72,
+								"max_scale" : 4.0,
+								"name" : "Scale"
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 73,
+								"name" : "Pose"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 3500,
+						"friction" : 1.0,
+						"guid" : 70,
+						"height" : 
+						[
+							1.0,
+							0.15
+						],
+						"keep_local" : true,
+						"material_name" : "GlassWave",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"name" : "Splashsphere1",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_drops_dissolve.rend",
+						"rotation" : 
+						[
+							0.0,
+							179.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"tiles" : 
+						[
+							6,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.34999,
+							0.05
+						],
+						"velocity" : 2.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.15
+						]
+					},
+					{
+						"alpha" : true,
+						"category" : "9",
+						"color" : 
+						[
+							0.33724,
+							0.8392,
+							0.0549,
+							1.0
+						],
+						"delay" : 0.1,
+						"depth" : 
+						[
+							1.0,
+							0.25
+						],
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.45254
+									],
+									[
+										0.13684,
+										0.83696
+									],
+									[
+										0.27191,
+										1.04136
+									],
+									[
+										0.44911,
+										1.15328
+									],
+									[
+										0.81576,
+										1.07053
+									],
+									[
+										0.90877,
+										0.90024
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 75,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										4.0
+									],
+									[
+										0.08421,
+										2.13138
+									],
+									[
+										0.20877,
+										1.40145
+									],
+									[
+										0.33684,
+										1.17761
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 76,
+								"max_scale" : 4.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 250,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-11.0
+						],
+						"guid" : 74,
+						"height" : 
+						[
+							1.0,
+							0.25
+						],
+						"keep_local" : true,
+						"material_name" : "UVAnimDifAsgNorAlpha",
+						"max_particles" : 3,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "projectile",
+						"min_quality" : "medium",
+						"name" : "Drops small     [meidum]",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/mininghub_caster/p_renderable_mininghub_caster_moltenmetal_drops.rend",
+						"rotation_axis" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"sphere_radius" : 0.3,
+						"tiles" : 
+						[
+							4,
+							4
+						],
+						"time_to_live" : 1.0,
+						"type" : "hemisphere",
+						"velocity" : 
+						[
+							5.0,
+							1.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							1.0,
+							0.25
+						]
+					}
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.5
+				],
+				"type" : "cone",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.35,
+					0.25
+				]
+			},
+			{
+				"angle" : 4.0,
+				"billboard_type" : "axial_self",
+				"category" : "98",
+				"circle_angle" : 65.0,
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"delay" : 1.0,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 14.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.39278,
+									0.23045,
+									1.0
+								]
+							],
+							[
+								0.72109,
+								[
+									1.0,
+									0.27257,
+									0.07811,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 80,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.17846,
+								0.66118
+							],
+							[
+								0.34768,
+								0.77302
+							],
+							[
+								0.6923,
+								0.78947
+							],
+							[
+								1.0,
+								0.35526
+							]
+						],
+						"guid" : 81,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11076,
+								1.57154
+							],
+							[
+								0.22153,
+								1.64062
+							],
+							[
+								0.36,
+								1.46792
+							],
+							[
+								0.46461,
+								0.94983
+							],
+							[
+								0.64306,
+								0.68503
+							],
+							[
+								1.0,
+								0.51233
+							]
+						],
+						"guid" : 82,
+						"max_scale" : 1.75,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55921
+							],
+							[
+								1.0,
+								0.70393
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 83,
+						"length" : 0.5,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 79,
+				"height" : 
+				[
+					0.8,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Sparks regular 2",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					14.9909
+				],
+				"power_glow" : true,
+				"radius" : 3.0,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					180.0,
+					0.0,
+					-0.0
+				],
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 
+				[
+					3.0,
+					0.25
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					3.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.3,
+					0.1
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

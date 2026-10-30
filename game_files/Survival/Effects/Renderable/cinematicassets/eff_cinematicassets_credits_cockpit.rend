@@ -1,0 +1,237 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Effects/Meshes/cinematicassets/eff_cinematicassets_credits_cockpit.fbx",
+			"minViewSize" : 55,
+			"subMeshMap" : 
+			{
+				"m_interface" : 
+				{
+					"hidden" : false,
+					"material" : "DifAsg",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Effects/Textures/Cinematicassets/eff_cinematicassets_cockpitinterface_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Effects/Textures/Cinematicassets/eff_cinematicassets_cockpitinterface_dif.tga"
+					}
+				},
+				"m_meshdecals_infodecals01" : 
+				{
+					"material" : "MeshDecalTransparent_Bend",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecals_infodecals01_dif.tga",
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecals_infodecals01_ags.tga",
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecals_infodecals01_nor.tga"
+					]
+				},
+				"m_meshdecals_mechanic01" : 
+				{
+					"custom" : 
+					{
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							1.0,
+							1.0
+						]
+					},
+					"material" : "MeshDecalTransparent_Bend",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecal_mechanic01_dif.tga",
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecal_mechanic01_ags.tga",
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecal_mechanic01_nor.tga"
+					]
+				},
+				"m_screen" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.227127075,
+								0.89453125,
+								0.409620404,
+								1.0
+							],
+							"fade" : 
+							{
+								"fadeRange" : 0.0,
+								"fadeValue" : 0.0
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 1.0,
+								"fogMin" : 1.0,
+								"fogOpacity" : 0.0,
+								"fogScale" : 1.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.0,
+								"fresnelIntensity" : 0.0
+							},
+							"glowStrength" : 0.07,
+							"highlightColor" : 
+							[
+								0.164855957,
+								0.452207088,
+								0.578125,
+								1.0
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.0,
+								"intersectIntensity" : 0.0
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 4.170000076,
+								"scanLineFrequency2" : 1.0,
+								"scanLineIntensity1" : 1.0,
+								"scanLineIntensity2" : 1.0,
+								"scanLineSpeed1" : 5.0,
+								"scanLineSpeed2" : 1.710000038
+							}
+						},
+						"laserDisplacement" : 
+						{
+							"color" : 
+							[
+								0.0,
+								0.0,
+								0.0,
+								1.0
+							],
+							"fade" : 
+							{
+								"displacementFadeRange" : 0.0,
+								"displacementFadeValue" : 0.0
+							},
+							"flicker" : 
+							{
+								"flickerFrequencyOffset" : 0.400000006,
+								"flickerFrequencyValue" : 7.130000114
+							},
+							"glitch" : 
+							{
+								"speed" : 35.720001221
+							},
+							"slice" : 
+							{
+								"direction" : 
+								[
+									5.0,
+									1.0,
+									1.0
+								],
+								"sliceSize" : 9.119999886
+							},
+							"speed" : 0.0,
+							"strength" : 0.0,
+							"wave" : 
+							{
+								"noiseIntensity" : 2.789999962
+							}
+						}
+					},
+					"material" : "Laser",
+					"textures" : 
+					{
+						"laser" : "$SURVIVAL_DATA/Effects/Textures/Cinematicassets/eff_cinematicassets_gamescreen01_dif.tga",
+						"laserFog" : "$SURVIVAL_DATA/Lighting/Textures/fog_colormap.tga",
+						"laserMask" : "$SURVIVAL_DATA/Effects/Textures/Cinematicassets/eff_cinematicassets_gamescreen01_dif.tga",
+						"laserRefraction" : "$GAME_DATA/Gui/Resolutions/1280x720/Hud/gui_gradient_hud_top.png"
+					}
+				},
+				"m_screenglass" : 
+				{
+					"color" : "03506eff",
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 0.01,
+							"blurriness" : -1.0,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 0.340000004,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.0,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : -0.330000013,
+							"transparencyFront" : -1.799999952
+						}
+					},
+					"hidden" : true,
+					"material" : "Glass",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Effects/Textures/Cinematicassets/eff_cinematicassets_gamescreen01_screemglass_asg.tga",
+						"diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+						"normalMap" : "$CUSTOMIZATION_DATA/Textures/Default/default_nor.tga"
+					}
+				},
+				"m_uvmaterial_industrial" : 
+				{
+					"color" : "ff0505ff",
+					"custom" : 
+					{
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							1.0,
+							15.0
+						]
+					},
+					"material" : "UvMaterial_Default",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_dif.tga",
+						"normalDetail" : "$SURVIVAL_DATA/Textures/Tiled/Metal/t_tiled_metal02_nor.tga",
+						"normalMap" : "$SURVIVAL_DATA/Textures/Trim/t_trimsheet_mechanic01_nor.tga"
+					}
+				},
+				"plate" : 
+				{
+					"material" : "DifAsgAo",
+					"textures" : 
+					{
+						"ao" : "$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_plate_ao.tga",
+						"asg" : "$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_scrapmechanicbobbleheadplate_dif.tga"
+					}
+				},
+				"robot" : 
+				{
+					"color" : "366d2aff",
+					"material" : "DifAsgNor_Metal",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Effects/Textures/Cinematicassets/eff_cinematicassets_credits_wooblehead_b_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Objects/Textures/shoprewards/obj_shoprewards_tinyrobotbobblehead_nor.tga"
+					}
+				}
+			}
+		}
+	]
+}

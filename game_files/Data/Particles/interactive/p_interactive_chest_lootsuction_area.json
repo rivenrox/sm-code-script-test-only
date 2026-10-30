@@ -1,0 +1,262 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "sprite",
+				"category" : "1",
+				"color" : 
+				[
+					0.0,
+					1.0,
+					0.625,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_glowcircle01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.31266,
+								[
+									0.16796,
+									0.16796,
+									0.16796,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5625
+							],
+							[
+								1.0,
+								0.75985
+							]
+						],
+						"fade" : 0.2,
+						"guid" : 2,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 10.899999619,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Shockwave1",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 45.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 8,
+				"time_to_live" : 2.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 10.899999619
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "1",
+				"color" : 
+				[
+					0.0,
+					1.0,
+					0.625,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_06.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.31266,
+								[
+									0.14056,
+									0.14056,
+									0.14056,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55592
+							],
+							[
+								1.0,
+								0.71381
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 5,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 10.75,
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "Shockwave2",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 90.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 0.5,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 10.75
+			},
+			{
+				"color" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.3183,
+								[
+									0.1875,
+									0.1875,
+									0.1875,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 6,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/misc/baisc_geometric_shapes/p_mesh_basicgeometricshapes_1x1box.fbx",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Area",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/interactive/p_renderable_lootsuction_area.rend",
+				"rotation_speed" : 1.0,
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		]
+	}
+}

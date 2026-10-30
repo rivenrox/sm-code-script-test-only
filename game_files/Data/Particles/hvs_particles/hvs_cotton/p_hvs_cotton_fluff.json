@@ -1,0 +1,195 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "3 - ",
+				"color" : 
+				[
+					1.0,
+					0.97916,
+					0.875,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 53,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.16617,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8169,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 3,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.33329,
+								1.0
+							],
+							[
+								0.666,
+								-1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					0.3
+				],
+				"friction" : 
+				[
+					2.0,
+					1.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					0.1,
+					0.05
+				],
+				"keep_local" : true,
+				"max_particles" : 500,
+				"min_quality" : "high",
+				"name" : "Cotton Breeze",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.125,
+					-0.64,
+					1.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sphere_radius" : 0.125,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					7.5,
+					2.0
+				],
+				"translucency" : 0.5,
+				"type" : "sphere",
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.1,
+					0.05
+				]
+			}
+		],
+		"min_quality" : "high"
+	}
+}

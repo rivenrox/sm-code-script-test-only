@@ -1,0 +1,201 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Minehub/env_minehub_casterbase.fbx",
+			"minViewSize" : 500,
+			"subMeshMap" : 
+			{
+				"glass" : 
+				{
+					"color" : "Color02",
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 0.01,
+							"blurriness" : 0.059999999,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.100000001,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : 0.100000001,
+							"transparencyFront" : 0.340000004
+						}
+					},
+					"hidden" : false,
+					"material" : "Glass",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Character/Char_castermechanics/char_castermechanics_glass_dif.tga",
+						"$SURVIVAL_DATA/Character/Char_castermechanics/char_castermechanics_glass_asg.tga",
+						"$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+					]
+				},
+				"glass_banded" : 
+				{
+					"color" : "Color02",
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 0.01,
+							"blurriness" : 0.239999995,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 0.790000021,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.059999999,
+							"responsiveGlow" : 0.600000024,
+							"transmission" : 0.569999993,
+							"transparencyBack" : 0.389999986,
+							"transparencyFront" : 1.129999995
+						}
+					},
+					"hidden" : false,
+					"material" : "Glass",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Character/Char_castermechanics/char_castermechanics_glass_dif.tga",
+						"$GAME_DATA/Textures/Materialtextures/glass_plastic_asg.tga",
+						"$SURVIVAL_DATA/Textures/Tiled/General/t_tiled_bandedglass_nor.tga"
+					]
+				},
+				"m_hotspot_chromeplate01" : 
+				{
+					"material" : "DifAsgNor",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Trim/t_hotspot_rustedmetal_dif.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_hotspot_chromeplate_asg.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_hotspot_chromeplate_nor.tga"
+					]
+				},
+				"m_hotspot_rustedmetal01" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color04"
+					},
+					"material" : "DifAsgNorVertexAo",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Trim/t_hotspot_rustedmetal_dif.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_hotspot_rustedmetal_asg.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_hotspot_rustedmetal_nor.tga"
+					]
+				},
+				"m_lava" : 
+				{
+					"custom" : 
+					{
+						"scrollUv" : 
+						{
+							"speed" : 
+							[
+								-0.01,
+								-0.039999999
+							]
+						}
+					},
+					"material" : "DifAsgNorScroll",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava03_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava03_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava03_nor.tga"
+					}
+				},
+				"m_meshdecals_infodecals01" : 
+				{
+					"material" : "MeshDecalTransparent_Bend",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecals_infodecals01_yellow_dif.tga",
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecals_infodecals01_ags.tga",
+						"$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecals_infodecals01_nor.tga"
+					]
+				},
+				"m_meshdecals_mechanic01" : 
+				{
+					"material" : "MeshDecalTransparent_Bend",
+					"textures" : 
+					{
+						"ags" : "$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecal_mechanic01_ags.tga",
+						"diffuse" : "$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecal_mechanic01_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Textures/Meshdecals/t_meshdecal_mechanic01_nor.tga"
+					}
+				},
+				"m_rock" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color",
+						"textureTiling" : 
+						[
+							3.0,
+							3.0,
+							3.0,
+							3.0
+						]
+					},
+					"material" : "GenericScalable_Grungesoft",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Textures/Tiled/Voxel/t_tiled_bedrock02_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Textures/Tiled/Voxel/t_tiled_bedrock02_dif.tga",
+						"normalDetail" : "$GAME_DATA/Textures/Tiled/Rocks/t_tiled_rocks_generic_nor.tga",
+						"normalMap" : "$SURVIVAL_DATA/Textures/Tiled/Voxel/t_tiled_bedrock02_nor.tga"
+					}
+				},
+				"m_tiled_concrete01" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color03"
+					},
+					"material" : "DifAsgNorAO_Grungesoft",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Textures/Tiled/Concrete/t_tiled_concrete02_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Textures/Tiled/Concrete/t_tiled_concrete02_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Textures/Tiled/Concrete/t_tiled_concrete02_nor.tga"
+					}
+				},
+				"m_uvmaterial_industrial" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color01",
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							1.0,
+							20.0
+						]
+					},
+					"material" : "UvMaterial_Grunge",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_dif.tga",
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_asg.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_trimsheet_mechanic01_nor.tga",
+						"$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

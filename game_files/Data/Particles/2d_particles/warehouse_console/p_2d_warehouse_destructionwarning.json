@@ -1,0 +1,193 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "0 - ",
+				"color" : 
+				[
+					0.5,
+					0.03668,
+					0.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.8,
+					-0.80002
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d_particles/warehouse/p_2d_warehouseconsole_explosionwarning01.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.47367
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 1,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.13521,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 4.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "TracedGlowOutside",
+				"scene_blend" : "addative",
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 8.0
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					1.0,
+					0.2547,
+					0.13278,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_warehousedestruction_warning_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.75,
+						"guid" : 4,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.27322,
+								[
+									0.2,
+									0.2,
+									0.2,
+									1.0
+								]
+							],
+							[
+								0.8,
+								[
+									0.2,
+									0.2,
+									0.2,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 2,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 0.55,
+				"keep_local" : true,
+				"max_particles" : 6,
+				"name" : "BehindTextGlow01",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.39251
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 3.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 0.89999
+	}
+}

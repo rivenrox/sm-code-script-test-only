@@ -1,0 +1,521 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 180.0,
+				"billboard_type" : "axial_self",
+				"category" : "w GlassDebri 1",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "Textures/Thruster/thruster_thruster03.tga",
+				"direction_type" : "constant",
+				"duration" : 0.03999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.14079,
+								[
+									0.34898,
+									0.78636,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.86299,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3
+							],
+							[
+								0.23657,
+								0.6
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.89999
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"friction" : 11.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.34999,
+					0.025
+				],
+				"keep_local" : false,
+				"max_particles" : 10,
+				"min_quality" : "high",
+				"name" : "sparks 2  (High)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 10241,
+				"time_to_live" : 
+				[
+					0.10999,
+					0.05
+				],
+				"velocity" : 
+				[
+					5.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.02999,
+					0.00498
+				]
+			},
+			{
+				"category" : "1 - impact",
+				"color" : 
+				[
+					0.63669,
+					0.92334,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.64595,
+								1.64812
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.57296,
+								0.72329
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 7,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					0.32499,
+					0.025
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "StarGlow [low]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.15,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.32499,
+					0.025
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "1 - impact",
+				"diffuse" : "$GAME_DATA/Particles/Textures/pu_flare.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.49843,
+								1.48571
+							],
+							[
+								0.65372,
+								1.8135
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.16335,
+								[
+									0.34898,
+									0.71008,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8507,
+								[
+									0.24277,
+									0.55132,
+									0.79685,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					0.5,
+					0.32499
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "Glow1 [low]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"power_glow" : true,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"time_to_live" : 0.15,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.32499
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "1 - impact",
+				"default_particle" : 
+				[
+					0.4,
+					0.4
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_geometry_logbookicon_outsideglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.16335,
+								[
+									0.34898,
+									0.71008,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8507,
+								[
+									0.24277,
+									0.55132,
+									0.79685,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.23228,
+								0.59065
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.34114,
+								0.55935
+							],
+							[
+								0.81215,
+								0.9336
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 14,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 400,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 1.25,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"min_quality" : "medium",
+				"name" : "Smoke shockwave 2  (medium)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 3024,
+				"time_to_live" : 0.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.25,
+				"z_offset" : 100.0
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 2.0
+	}
+}

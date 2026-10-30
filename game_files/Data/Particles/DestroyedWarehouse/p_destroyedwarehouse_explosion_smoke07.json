@@ -1,0 +1,790 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.53125,
+					0.53125,
+					0.53125,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 10.0,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.5156,
+					0.8978,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.957,
+									0.957,
+									0.0
+								]
+							],
+							[
+								0.03378,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.72676,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.96482,
+									0.96482,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 2,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"base_scale" : 0.158,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43957
+							],
+							[
+								0.11168,
+								0.75155
+							],
+							[
+								0.22845,
+								0.88984
+							],
+							[
+								0.3607,
+								1.02304
+							],
+							[
+								0.52503,
+								1.1023
+							],
+							[
+								1.0,
+								1.15796
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 1.15796,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-15.0
+				],
+				"friction" : 3.0,
+				"guid" : 0,
+				"height" : 
+				[
+					65.0,
+					7.0
+				],
+				"keep_local" : false,
+				"max_particles" : 2,
+				"min_quality" : "medium",
+				"name" : "Smoke 1 [medium]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : 10.0,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"translucency" : 0.66,
+				"type" : "cone",
+				"velocity" : 
+				[
+					45.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					65.0,
+					7.0
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/misc/metal/p_metal02_asg.tga",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 90.0,
+				"cone_radius" : 1.0,
+				"depth" : 
+				[
+					1.0,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"base" : -100.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-100.0
+							]
+						],
+						"guid" : 11,
+						"local" : false,
+						"max" : 100.0,
+						"name" : "Velocity"
+					},
+					{
+						"guid" : 12,
+						"name" : "RotationBySpeed",
+						"range" : 
+						{
+							"max" : 10.0
+						},
+						"speed" : 500.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 16,
+				"friction" : 0.5,
+				"guid" : 4,
+				"height" : 
+				[
+					1.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 2,
+				"mesh" : "$GAME_DATA/Particles/resources/misc/metal/p_destroyedwarehouse_metal_chunk_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/metal/p_metal01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh01 [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					1000.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					-1.0
+				],
+				"rotation_speed" : 1000.0,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.53125,
+							0.53125,
+							0.53125,
+							1.0
+						],
+						"delay" : 0.02999,
+						"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke01.tga",
+						"direction_type" : "shape",
+						"duration" : 1.75,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 6,
+								"name" : "TextureAnimator",
+								"start_texture_coords_range" : 8
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											0.957,
+											0.957,
+											0.0
+										]
+									],
+									[
+										0.03378,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										0.72676,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											0.96482,
+											0.96482,
+											0.0
+										]
+									]
+								],
+								"guid" : 7,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0147
+									],
+									[
+										1.0,
+										1.5
+									]
+								],
+								"guid" : 8,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							},
+							{
+								"axis" : "y",
+								"base" : -10.0,
+								"control_point" : 
+								[
+									[
+										0.0,
+										-10.0
+									],
+									[
+										0.18659,
+										-10.0
+									],
+									[
+										0.21095,
+										-2.24044
+									],
+									[
+										0.31845,
+										-1.09291
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 9,
+								"name" : "Velocity"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 12,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-30.0
+						],
+						"friction" : 5.0,
+						"guid" : 5,
+						"height" : 
+						[
+							6.0,
+							2.0
+						],
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 251,
+						"name" : "SmokeTrail [high]",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-1.5
+						],
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "alpha_blend",
+						"shadows" : true,
+						"sphere_radius" : 0.33329,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							1.0,
+							0.25
+						],
+						"translucency" : 0.72,
+						"type" : "sphere",
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							6.0,
+							2.0
+						]
+					}
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					1.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					130.0,
+					50.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.5
+				]
+			},
+			{
+				"category" : "3 - ",
+				"cone_angle" : 25.0,
+				"cone_radius" : 10.0,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_fireball01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.45506,
+					1.0,
+					0.4375,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 14,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.09859,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.52675,
+								[
+									1.0,
+									0.77244,
+									0.58982,
+									1.0
+								]
+							],
+							[
+								0.69858,
+								[
+									1.0,
+									0.44525,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.87603,
+								[
+									1.0,
+									0.44521,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 15,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.19999
+							],
+							[
+								0.07592,
+								0.72273
+							],
+							[
+								0.21513,
+								1.00706
+							],
+							[
+								0.40716,
+								1.15521
+							],
+							[
+								1.0,
+								1.31577
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					5.0
+				],
+				"friction" : 
+				[
+					3.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					45.0,
+					7.0
+				],
+				"keep_local" : false,
+				"max_particles" : 4,
+				"min_quality" : "medium",
+				"name" : "Fire Smoke 1 GLOW [medium]",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"sort_offset" : 1.0,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.25
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					45.0,
+					10.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					45.0,
+					7.0
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/misc/metal/p_metal02_asg.tga",
+				"angle" : 10.0,
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.30406,
+					0.34795,
+					0.36717,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 10.0,
+				"delay" : 0.1,
+				"depth" : 
+				[
+					0.75,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 18,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.68194
+							],
+							[
+								0.05555,
+								1.00978
+							],
+							[
+								0.14474,
+								1.16393
+							],
+							[
+								0.34005,
+								1.30815
+							],
+							[
+								0.66443,
+								1.23389
+							],
+							[
+								0.81015,
+								1.07602
+							],
+							[
+								0.91832,
+								0.75436
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 750,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-40.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"guid" : 17,
+				"height" : 
+				[
+					0.75,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 15,
+				"mesh" : "$GAME_DATA/Particles/resources/misc/metal/p_destroyedwarehouse_metal_chunk_01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/metal/p_metal01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Debri [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					200.0,
+					800.0
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.15
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					80.0,
+					40.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.5
+				]
+			}
+		]
+	}
+}

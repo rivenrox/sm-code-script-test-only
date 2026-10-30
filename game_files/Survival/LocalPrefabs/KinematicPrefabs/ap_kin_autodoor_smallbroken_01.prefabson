@@ -1,0 +1,425 @@
+{
+	"entities" : 
+	{
+		"grids" : 
+		[
+			{
+				"guid" : "0934c8ff-b417-48a3-bb61-6fed5115ea1c",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"harvestables" : [],
+		"kinematics" : 
+		[
+			{
+				"color" : "#B5C6DCFF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "388d0cc8-d691-4c18-ad68-1f77686cd319",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "lockTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "keyTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "isLocked",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : true,
+								"track" : 
+								[
+									{
+										"duration" : 0.5,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											1.9999999949504854e-06,
+											1.9999999949504854e-06
+										],
+										"speed" : 1
+									},
+									{
+										"duration" : 0.5,
+										"durationFromSpeed" : false,
+										"easing" : "easeInQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-0.44384801387786865,
+											-0.00012199999764561653,
+											-0.00012199999764561653
+										],
+										"rotation" : 
+										[
+											0.0,
+											1.9999999949504854e-06,
+											1.9999999949504854e-06
+										],
+										"speed" : 1
+									},
+									{
+										"delay" : 2,
+										"duration" : 0,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											1.9999999949504854e-06,
+											1.9999999949504854e-06
+										],
+										"speed" : 1
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.11638937890529633,
+						-3.0539926228811964e-05,
+						-0.056480422616004944
+					],
+					"rotation" : 
+					[
+						-89.999992370605469,
+						1.4668306903331541e-05,
+						-180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "a6081b34-7eb5-4765-926f-b022414feb56"
+			},
+			{
+				"color" : "#B5C6DCFF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "6ddad1a2-ffac-435b-925d-479bb12f6713",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "lockTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "keyTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "isLocked",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : true,
+								"track" : 
+								[
+									{
+										"attachedEffects" : 
+										[
+											{
+												"effectName" : "audio:event:/props/installations/doors/warehousedoorsliding/broken_close",
+												"identifier" : "",
+												"offsetPosition" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"offsetRotation" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"persistentActivation" : false,
+												"repeatable" : false
+											}
+										],
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeOutExpo",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1
+									},
+									{
+										"attachedEffects" : 
+										[
+											{
+												"effectName" : "audio:event:/props/installations/doors/warehousedoorsliding/broken_open",
+												"identifier" : "",
+												"offsetPosition" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"offsetRotation" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"persistentActivation" : false,
+												"repeatable" : true
+											}
+										],
+										"duration" : 2,
+										"durationFromSpeed" : false,
+										"easing" : "easeOutBounce",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-8.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1
+									},
+									{
+										"attachedEffects" : 
+										[
+											{
+												"effectName" : "audio:event:/props/installations/doors/warehousedoorsliding/broken_close",
+												"identifier" : "",
+												"offsetPosition" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"offsetRotation" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"persistentActivation" : false,
+												"repeatable" : true
+											}
+										],
+										"duration" : 0,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-1.2037824392318726,
+						-6.6187976699438877e-07,
+						-0.056483268737792969
+					],
+					"rotation" : 
+					[
+						89.999969482421875,
+						-9.8386253739590757e-06,
+						-8.6514264694415033e-06
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "a6081b34-7eb5-4765-926f-b022414feb56"
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "dba3e510-06d0-4505-85b9-86c8379ace93",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "effect",
+						"name" : "Smoke - blowing03",
+						"params" : [],
+						"type" : "effect"
+					}
+				],
+				"tags" : 
+				[
+					"EFFECT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						2.366419792175293,
+						-0.07320035994052887,
+						3.0367391109466553
+					],
+					"rotation" : 
+					[
+						172.85635375976562,
+						-0.91834861040115356,
+						179.94805908203125
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "d0087a76-81d7-48f5-8ac9-58517e5d6c63",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "effect",
+						"name" : "Shipwreck - sparks01",
+						"params" : [],
+						"type" : "effect"
+					}
+				],
+				"tags" : 
+				[
+					"EFFECT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.21308141946792603,
+						1.5774944017721282e-08,
+						3.0133955478668213
+					],
+					"rotation" : 
+					[
+						180.0,
+						5.0089624892279971e-06,
+						-180.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 0,
+		"uuid" : "f429be3e-c2dd-4f6b-8bf8-35d30a06af7d"
+	}
+}

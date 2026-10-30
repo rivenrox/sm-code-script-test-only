@@ -1,0 +1,360 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					1.0,
+					0.4226,
+					0.32811,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.62,
+					1.25
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgradesqaure02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					1.0,
+					0.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.15072,
+								0.94076
+							],
+							[
+								0.27384,
+								0.85855
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.75,
+						"guid" : 1,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 0.42,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "QuickFlash Cut 2",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.00585
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.35,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"category" : "1 - ",
+				"default_particle" : 
+				[
+					2.0,
+					1.5
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d_particles/trader/p_2d_trader_button02.tga",
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.11828,
+								[
+									0.11715,
+									0.07415,
+									0.0,
+									0.25608
+								]
+							],
+							[
+								0.45633,
+								[
+									0.47264,
+									0.13289,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.85632,
+								[
+									0.11997,
+									0.01929,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 2,
+				"height" : 0.33,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"name" : "Flash Whole",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1024,
+				"time_to_live" : 0.5,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.83,
+				"z_offset" : 0.2
+			},
+			{
+				"category" : "1 - CollectGLow",
+				"color" : 
+				[
+					1.0,
+					0.72987,
+					0.34764,
+					1.0
+				],
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d_particles/trader/p_2d_trader_button01_outsideglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.1013,
+								0.96631
+							],
+							[
+								0.18106,
+								0.91842
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.15,
+						"guid" : 5,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 4,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "CollectGlow",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.35,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.69,
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "1 - CollectGLow",
+				"color" : 
+				[
+					1.0,
+					0.6049,
+					0.18431,
+					1.0
+				],
+				"diffuse" : "Textures/Geometry/p_geometry_collectbutton_glow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.6,
+						"guid" : 8,
+						"length" : 0.3,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 7,
+				"height" : 2.7,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "CollectGlow",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.01712
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.35,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : -3.8,
+				"z_offset" : 1.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

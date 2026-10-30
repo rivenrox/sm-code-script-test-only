@@ -1,0 +1,616 @@
+{
+	"Cinematic - Survivalstart01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 120.0,
+						"duration" : 25.0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"label" : "\"Event - StartNewGame\"",
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-340.310242,
+							84.189514,
+							339.88266
+						],
+						"rotation" : 
+						[
+							-120.958336,
+							15.868007,
+							-24.503668
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-292.522644,
+									81.602036,
+									243.289429
+								],
+								"rotation" : 
+								[
+									-106.504318,
+									17.497345,
+									-40.691433
+								]
+							},
+							{
+								"position" : 
+								[
+									-182.040955,
+									52.972153,
+									78.760033
+								],
+								"rotation" : 
+								[
+									-89.999969,
+									-0.000015,
+									-49.471867
+								]
+							},
+							{
+								"position" : 
+								[
+									-76.285881,
+									24.342487,
+									33.73452
+								],
+								"rotation" : 
+								[
+									-89.999962,
+									-0.00001,
+									-49.471859
+								]
+							},
+							{
+								"position" : 
+								[
+									-65.16935,
+									24.342451,
+									16.58997
+								],
+								"rotation" : 
+								[
+									-89.999969,
+									-0.000017,
+									-49.471859
+								]
+							},
+							{
+								"position" : 
+								[
+									-65.16935,
+									9.097721,
+									7.199543
+								],
+								"rotation" : 
+								[
+									-89.999954,
+									-0.000029,
+									-71.111328
+								]
+							},
+							{
+								"position" : 
+								[
+									-19.896202,
+									8.072487,
+									-8.749943
+								],
+								"rotation" : 
+								[
+									-90.505211,
+									29.810125,
+									-87.890892
+								]
+							},
+							{
+								"position" : 
+								[
+									0.000076,
+									3.572231,
+									25.123234
+								],
+								"rotation" : 
+								[
+									-93.426949,
+									-4.612597,
+									0.112549
+								]
+							},
+							{
+								"position" : 
+								[
+									-0.500252,
+									2.0723,
+									17.301823
+								],
+								"rotation" : 
+								[
+									-93.95121,
+									-1.848815,
+									25.0343
+								]
+							},
+							{
+								"position" : 
+								[
+									8.0,
+									2.072334,
+									13.500019
+								],
+								"rotation" : 
+								[
+									-93.918373,
+									-1.917472,
+									26.032791
+								]
+							},
+							{
+								"position" : 
+								[
+									9.843147,
+									1.822376,
+									8.249954
+								],
+								"rotation" : 
+								[
+									-99.39537,
+									-7.268282,
+									37.400318
+								]
+							},
+							{
+								"position" : 
+								[
+									13.849411,
+									0.419086,
+									-1.706036
+								],
+								"rotation" : 
+								[
+									-90.291389,
+									-4.945548,
+									86.623047
+								]
+							},
+							{
+								"position" : 
+								[
+									9.999901,
+									0.072468,
+									-4.750187
+								],
+								"rotation" : 
+								[
+									-90.365524,
+									-4.854861,
+									81.535187
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 50.0,
+						"duration" : 1.15,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							5.916183,
+							-0.344593,
+							-5.301266
+						],
+						"rotation" : 
+						[
+							-91.138306,
+							-7.305689,
+							81.115921
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									4.884911,
+									-0.495415,
+									-5.412792
+								],
+								"rotation" : 
+								[
+									-91.064758,
+									-7.152133,
+									81.50621
+								]
+							},
+							{
+								"position" : 
+								[
+									2.75,
+									-0.817867,
+									-5.849812
+								],
+								"rotation" : 
+								[
+									-91.043953,
+									-6.063275,
+									80.208336
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 50.0,
+						"duration" : 1.0,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.509697,
+							-1.118599,
+							-6.211552
+						],
+						"rotation" : 
+						[
+							-90.157768,
+							-1.637033,
+							84.481392
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "cl_e_handleCinematicEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "survivalstart01.dramatics_standup"
+				},
+				"delay" : 0.0,
+				"isServerCallback" : false,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "cl_e_handleCinematicEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "survivalstart01.fadeout"
+				},
+				"delay" : 25.1,
+				"isServerCallback" : false,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "cl_e_handleCinematicEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "survivalstart01.fadein"
+				},
+				"delay" : 26.1,
+				"isServerCallback" : false,
+				"type" : "luaEvent"
+			}
+		]
+	},
+	"Cinematic - Survivalstart02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 69.0,
+						"duration" : 8.0,
+						"easing" : "easeInQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							39.475876,
+							91.657898,
+							7.596708
+						],
+						"rotation" : 
+						[
+							11.942627,
+							-11.89258,
+							-42.744755
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									6.725624,
+									42.36351,
+									-0.26832
+								],
+								"rotation" : 
+								[
+									8.354895,
+									-7.561016,
+									-33.344685
+								]
+							},
+							{
+								"position" : 
+								[
+									-15.091705,
+									17.583,
+									8.269091
+								],
+								"rotation" : 
+								[
+									8.354894,
+									-7.561014,
+									-33.344673
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 69.0,
+						"duration" : 5.0,
+						"easing" : "easeInQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-18.551132,
+							-8.227875,
+							10.146554
+						],
+						"rotation" : 
+						[
+							5.488619,
+							-0.0,
+							4.565018
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-19.955757,
+									-7.846382,
+									9.934748
+								],
+								"rotation" : 
+								[
+									-0.0,
+									0.0,
+									-0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									-19.955757,
+									-18.597694,
+									8.756009
+								],
+								"rotation" : 
+								[
+									-0.0,
+									0.0,
+									-0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									-23.8936,
+									-12.61327,
+									5.917751
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									-9.380552
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 69.0,
+						"duration" : 5.0,
+						"easing" : "easeInQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-18.887985,
+							-12.290184,
+							2.115152
+						],
+						"rotation" : 
+						[
+							5.488619,
+							-0.0,
+							4.565018
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-10.789688,
+									-9.998909,
+									1.078957
+								],
+								"rotation" : 
+								[
+									-0.0,
+									0.0,
+									-0.0
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 60.0,
+						"duration" : 5.0,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							1.433075,
+							-2.532478,
+							3.145368
+						],
+						"rotation" : 
+						[
+							-0.0,
+							-0.0,
+							47.071468
+						]
+					},
+					{
+						"FOV" : 60.0,
+						"duration" : 0.0,
+						"easing" : "linear",
+						"jumpCut" : true,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							7.908043,
+							9.449997,
+							5.412396
+						],
+						"rotation" : 
+						[
+							-0.0,
+							0.0,
+							97.281708
+						]
+					},
+					{
+						"FOV" : 75.0,
+						"duration" : 10.0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-17.371124,
+							2.895138,
+							1.117329
+						],
+						"rotation" : 
+						[
+							-2.751479,
+							-1.391102,
+							26.800398
+						]
+					},
+					{
+						"FOV" : 75.0,
+						"duration" : 1.0,
+						"easing" : "linear",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-19.245701,
+							3.512215,
+							1.117329
+						],
+						"rotation" : 
+						[
+							-3.060781,
+							-0.368858,
+							6.865128
+						]
+					},
+					{
+						"FOV" : 90.0,
+						"duration" : 10.0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-8.432228,
+							3.488396,
+							1.949754
+						],
+						"rotation" : 
+						[
+							-2.57213,
+							-1.700114,
+							33.442135
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-0.019051,
+									0.0,
+									3.087107
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									-23.172531
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 65.0,
+						"duration" : 3.0,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							44.929092,
+							20.14798,
+							-0.120262
+						],
+						"rotation" : 
+						[
+							-0.894324,
+							2.950456,
+							-73.128899
+						]
+					},
+					{
+						"FOV" : 65.0,
+						"duration" : 5.0,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							45.664482,
+							20.370682,
+							-0.161646
+						],
+						"rotation" : 
+						[
+							-0.894324,
+							2.950456,
+							-73.128899
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			}
+		]
+	}
+}

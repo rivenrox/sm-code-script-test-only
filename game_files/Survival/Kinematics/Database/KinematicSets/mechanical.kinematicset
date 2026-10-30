@@ -1,0 +1,91 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Mechanical/kin_mechanical_arenaramp_col.fbx",
+			"color" : "038f0800",
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_mechanical_arenaramp",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Mechanical/kin_mechanical_arenaramp.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "9d73fd84-f555-42a9-8e95-d4537e8bad4b"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Mechanical/kin_mechanical_arenaramphydralics_col.fbx",
+			"color" : "038f0800",
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_mechanical_arenaramphydralics",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Mechanical/kin_mechanical_arenaramphydralics.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "bc85615a-10c4-46c9-9618-bf9ffdc608eb"
+		}
+	]
+}

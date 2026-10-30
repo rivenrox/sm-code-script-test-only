@@ -1,0 +1,176 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Gaspotato/hvs_gaspotato_potato01_col.fbx",
+			"collides" : 
+			{
+				"body" : true,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_gaspotato_potato01",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Gaspotato/hvs_gaspotato_potato01.rend",
+			"script" : 
+			{
+				"class" : "GasPotato",
+				"data" : 
+				{
+					"destructionLevel" : 4,
+					"destructionRadius" : 3,
+					"explosionEffect" : "Gas_potato - SmallExplosion_explosion",
+					"initiateEffect" : "Gas_potato - SmallExplosion_initiate",
+					"explosionDelay" : 120,
+					"impulseMagnitude" : 400,
+					"impulseRadius" : 12
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GasPotato.lua"
+			},
+			"uuid" : "d45b6015-dd36-45a9-a15b-6e41b2952ff0"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Gaspotato/hvs_gaspotato_potato02_col.fbx",
+			"col_sphere" : 
+			{
+				"diameter" : 11
+			},
+			"collides" : 
+			{
+				"body" : true,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_gaspotato_potato02",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Gaspotato/hvs_gaspotato_potato02.rend",
+			"script" : 
+			{
+				"class" : "GasPotato",
+				"data" : 
+				{
+					"destructionLevel" : 4,
+					"destructionRadius" : 5,
+					"explosionEffect" : "Gas_potato - MediumExplosion_explosion",
+					"initiateEffect" : "Gas_potato - MediumExplosion_initiate",
+					"explosionDelay" : 200,
+					"impulseMagnitude" : 500,
+					"impulseRadius" : 14
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GasPotato.lua"
+			},
+			"uuid" : "d45b2615-f22a-4fd1-98ff-1da47911d89a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Gaspotato/hvs_gaspotato_potato03_col.fbx",
+			"col_sphere" : 
+			{
+				"diameter" : 11
+			},
+			"collides" : 
+			{
+				"body" : true,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_gaspotato_potato03",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Gaspotato/hvs_gaspotato_potato03.rend",
+			"script" : 
+			{
+				"class" : "GasPotato",
+				"data" : 
+				{
+					"destructionLevel" : 4,
+					"destructionRadius" : 7,
+					"explosionEffect" : "Gas_potato - LargeExplosion_explosion",
+					"initiateEffect" : "Gas_potato - LargeExplosion_initiate",
+					"explosionDelay" : 280,
+					"impulseMagnitude" : 600,
+					"impulseRadius" : 16
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GasPotato.lua"
+			},
+			"uuid" : "8870d748-c1e0-4723-93de-4a92bc7f3fa6"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Gaspotato/hvs_gaspotato_root01_col.fbx",
+			"collides" : 
+			{
+				"body" : true,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_gaspotato_root01",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Gaspotato/hvs_gaspotato_root01.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Gas_potato - Small_root_destruction",
+						"reactToExplosions" : true,
+						"reactToDrill" : true
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "489ae5a6-8b59-430a-8887-99e7d6779bb8"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Gaspotato/hvs_gaspotato_root02_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Fruit",
+			"name" : "hvs_gaspotato_root02",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Gaspotato/hvs_gaspotato_root02.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Gas_potato - Medium_root_destruction",
+						"reactToExplosions" : true,
+						"reactToDrill" : true
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "f8af8fba-83be-41cf-be65-0eecf59efefd"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Gaspotato/hvs_gaspotato_root03_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_gaspotato_root03",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Gaspotato/hvs_gaspotato_root03.rend",
+			"script" : 
+			{
+				"class" : "GenericDropHarvestable",
+				"data" : 
+				{
+					"genericDropHarvestable" : 
+					{
+						"harvestEffect" : "Gas_potato - Large_root_destruction",
+						"reactToExplosions" : true,
+						"reactToDrill" : true
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/GenericDropHarvestable.lua"
+			},
+			"uuid" : "4492379e-376d-4fad-ad69-fcb27d6b03c1"
+		}
+	]
+}

@@ -1,0 +1,215 @@
+{
+	"Minidungeon - Botspawner01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_minidungeon_combatroom_botspawner01",
+				"offset": 
+					{ 
+						"x": 0.0, 
+						"y": 0.0, 
+						"z": 0.0 
+					},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/botSpawner/spawn"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Minidungeon - Botspawner02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.1,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_minidungeon_combatroom_botspawner02",
+				"offset": 
+					{ 
+						"x": 0.0, 
+						"y": 0.0, 
+						"z": -3.0 
+					},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/botSpawner/spawn"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Generatortrigger - Activation" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/growlab/activator"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_minidungeon_combatroom_generatortrigger_activation",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 3.0,
+				"name" : "",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 3.0
+				},
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.25,
+						"value" : 3.5
+					},
+					{
+						"time" : 2.5,
+						"value" : 2.5
+					},
+					{
+						"time" : 3.0,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "59a5ffff",
+			"intensity" : 5.0,
+			"radius" : 50.0,
+			"size" : 0.0
+		}
+	},
+	"Minidungeon - BotspawnerIdle" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/botSpawner/idle"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Minidungeon - BotspawnerTelegraph" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/botSpawner/telegraph"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	},
+	"Minidungeon - BotspawnerHit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/botSpawner/on_hit"
+				],
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "audio"
+			}
+		]
+	}
+}

@@ -1,0 +1,304 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_trashbot_goo_projectile_asg.tga",
+				"category" : "1 - MainGoo",
+				"depth" : 1.25,
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 1,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.1,
+								1.08958
+							],
+							[
+								0.2,
+								1.17973
+							],
+							[
+								0.3,
+								1.35977
+							],
+							[
+								0.4,
+								1.62995
+							],
+							[
+								0.5,
+								1.98994
+							],
+							[
+								0.6,
+								2.5299
+							],
+							[
+								0.69998,
+								3.4299
+							],
+							[
+								0.8,
+								4.59989
+							],
+							[
+								0.89999,
+								7.29999
+							],
+							[
+								1.0,
+								10.0
+							]
+						],
+						"guid" : 2,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 3,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.53333,
+									0.83135,
+									0.04704,
+									1.0
+								]
+							],
+							[
+								0.38591,
+								[
+									0.89841,
+									0.19889,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.92966,
+									0.07987,
+									0.87734,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"height" : 1.25,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/misc/planes/p_mesh_plane_facingy_4x4.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_trashbot_goo_projectile_colorless_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "GooProjctile (low)",
+				"normal_map" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_trashbot_goo_projectile_nor.tga",
+				"params" : 8,
+				"particle" : "mesh",
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.25
+			},
+			{
+				"category" : "1 - MainGoo",
+				"depth" : 0.349999994,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.53333,
+									0.83135,
+									0.04704,
+									1.0
+								]
+							],
+							[
+								0.38591,
+								[
+									0.89841,
+									0.19889,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.92966,
+									0.07987,
+									0.87734,
+									1.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.1,
+								1.08958
+							],
+							[
+								0.2,
+								1.17973
+							],
+							[
+								0.3,
+								1.35977
+							],
+							[
+								0.4,
+								1.62995
+							],
+							[
+								0.5,
+								1.98994
+							],
+							[
+								0.6,
+								2.5299
+							],
+							[
+								0.69998,
+								3.4299
+							],
+							[
+								0.8,
+								4.59989
+							],
+							[
+								0.89999,
+								7.29999
+							],
+							[
+								1.0,
+								10.0
+							]
+						],
+						"guid" : 7,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 5,
+				"height" : 0.349999994,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "GooProjctile Extra (medium)",
+				"params" : 8,
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.00041
+				],
+				"renderable" : "$SURVIVAL_DATA/Effects/Renderable/Meshparticles/eff_meshparticles_gooprojectile_standard.rend",
+				"rotation" : 
+				[
+					50.0,
+					-150.0
+				],
+				"rotation_speed" : 1090.0,
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.349999994
+			}
+		],
+		"min_quality" : "low"
+	}
+}

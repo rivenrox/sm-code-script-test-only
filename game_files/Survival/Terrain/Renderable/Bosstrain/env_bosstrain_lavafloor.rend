@@ -1,0 +1,46 @@
+{
+	"decalReciever" : false,
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Bosstrain/env_bosstrain_lavafloor01.fbx",
+			"minViewSize" : 800,
+			"subMeshMap" : 
+			{
+				"m_lava" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color01",
+						"flowMap" : 
+						{
+							"flowSpeed" : 0.1
+						},
+						"scrollUv" : 
+						{
+							"speed" : 
+							[
+								0.02,
+								0.02
+							]
+						},
+						"translucent" : 
+						{
+							"push" : 0.45,
+							"refraction" : 0.0,
+							"thickness" : 7.69
+						}
+					},
+					"material" : "AsgTranslucent_scroll_adaptive",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_dif.tga",
+						"flowMap" : "$SURVIVAL_DATA/Lighting/Textures/flowmap_lava.tga",
+						"translucent" : "$SURVIVAL_DATA/Textures/Materialtextures/t_translucency_lava_nmap.tga"
+					}
+				}
+			}
+		}
+	]
+}

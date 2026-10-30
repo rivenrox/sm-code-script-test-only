@@ -1,0 +1,472 @@
+{
+	"uv0_meta": { "optional":true, "materialAvailability" : { "path" : "../material", "any" : [ "VS_UV_ANIM" ] } },
+	"uv0": { 
+		"u_meta":{ "type":"float", "min":0.0, "max":1.0 },
+		"u":0.0,
+		"v_meta":{ "type":"float", "min":0.0, "max":1.0 },
+		"v":0.0
+	},
+
+	"textureTiling_meta": { "value_meta": { "type":"float" }, "optional": true, "minSize":4, "maxSize":4, "materialAvailability" : { "path" : "../material", "any" : [ "PS_CUSTOM_TILING" ] } },
+	"textureTiling" : [1.0,1.0,1.0,1.0],
+	
+	"aniso_meta": { "value_meta": { "type":"float", "min":0.0, "max":1.0 }, "optional": true, "minSize":2, "maxSize":2, "deprecated" : true, "toolTip": "This is repleaced by metal and hair profiles" },
+	"aniso": [1.0,1.0],
+
+	"shadow_meta": { "label" : "Shadow Caster", "type":"bool", "optional":true, "toolTip" : "Should this mesh cast a shadow?", "materialAvailability" : { "path" : "../material", "passes" : [ "GBUFFER" ] } },
+	"shadow": true,
+
+	"shadowOnly_meta" : { "label" : "Only Shadow Mesh", "type":"bool", "optional":true, "toolTip" : "Should this mesh ONLY cast a shadow?", "materialAvailability" : { "path" : "../material", "passes" : [ "GBUFFER" ] } },
+	"shadowOnly": false,
+
+	"metalProfile_meta" : { "label" : "Metal Profile", "type":"string", "optional":true, "actions":["Open Metal Profiles"], "optionsCategory" : "metalProfile", "materialAvailability" : { "path" : "../material", "any" : [ "PS_MATERIAL_METAL" ] } },
+	"metalProfile" : "Defualt",
+
+	"hairProfile_meta" : { "label" : "Hair Profile", "type":"string", "optional":true, "actions":["Open Hair Profiles"], "optionsCategory" : "hairProfile", "materialAvailability" : { "path" : "../material", "any" : [ "PS_MATERIAL_HAIR" ] } },
+	"hairProfile" : "Defualt",
+
+	"skinProfile_meta" : { "label" : "Skin Profile", "type":"string", "optional":true, "actions":["Open Skin Profiles"], "optionsCategory" : "skinProfile", "materialAvailability" : { "path" : "../material", "any" : [ "PS_MATERIAL_SKIN" ] } },
+	"skinProfile" : "Defualt",
+
+	"translucent_meta": { "optional":true, "materialAvailability" : { "path" : "../material", "any" : [ "PS_MATERIAL_TRANSLUCENT" ] } },
+	"translucent":
+	{
+		"thickness_meta":{ "type":"float", "min": 0.01, "max": 10.0 },
+		"thickness": 0.5,
+		"refraction_meta":{ "type":"float", "min": -1.0, "max": 1.0 },
+		"refraction": 0.15,
+		"push_meta":{ "type":"float", "min":0.0, "max":1.0 },
+		"push": 0.1
+	},
+
+	"parallaxPlane_meta": { "optional":true, "materialAvailability" : { "path" : "../material", "any" : [ "PARALLAX_PLANE" ] } },
+	"parallaxPlane":
+	{
+		"size_meta":{ "type":"float", "min":0.01, "max": 10.0 },
+		"size": 1.0,
+		"surface_meta":{ "type":"float", "min":0.0, "max":1.0 },
+		"surface": 0.15,
+		"parallaxSpeed_meta":{ "type":"float", "min":-1.0, "max":1.0 },
+		"parallaxSpeed": 0.25,
+		"scrollSpeed_meta":{ "type":"float", "min":-10.0, "max":10.0 },
+		"scrollSpeed": -0.02
+	},
+
+	"lightCone_meta": { "optional":true, "materialAvailability" : { "path" : "../material", "passes" : [ "LIGHT_CONE" ] } },
+	"lightCone":
+	{
+		"depthDistance_meta":{ "type":"float", "min":0.0, "max": 50.0 },
+		"depthDistance": 6.0,
+		"nearDistance_meta":{ "type":"float", "min":0.0, "max": 500.0 },
+		"nearDistance": 6.0,
+		"farDistance_meta":{ "type":"float", "min":0.0, "max": 1000.0 },
+		"farDistance": 100.0,
+		"emission_meta":{ "label":"Inner Emission","type":"float", "min":0.0, "max": 1.0 },
+		"emission": 0.2,
+		
+		"nearFadeEnd_meta" : { "type":"float", "min" : 0.0, "max" : 1000.0 },
+		"nearFadeEnd" : 1.0
+	},
+
+	"scrollUv_meta": { "optional":true, "materialAvailability" : { "path" : "../material", "any" : [ "VS_UV0_SCROLL", "VS_UV1_SCROLL" ] } },
+	"scrollUv":
+	{
+		"speed_meta":{ "type":"vec2" },
+		"speed": [0.01,0.01]
+	},
+
+	"stepUv_meta": { "optional":true, "materialAvailability" : { "path" : "../material", "any" : [ "VS_UV0_STEP", "VS_UV1_STEP" ] } },
+	"stepUv":
+	{
+		"duration_meta":{ "type":"vec2" },
+		"duration": [0.1,0.1],
+		"step_meta":{ "type":"vec2" },
+		"step": [0.01,0.01]
+	},
+
+	"spriteSheetUv_meta": { "optional":true, "materialAvailability" : { "path" : "../material", "any" : [ "VS_UV0_SPRITE_SHEET", "VS_UV1_SPRITE_SHEET" ] } },
+	"spriteSheetUv":
+	{
+		"frames_meta" : { "type":"vec2" },
+		"frames" : [ 1, 1 ],
+
+		"speed_meta" : { "type":"float" },
+		"speed" : 1.0
+	},
+
+	"planarWorldSpace_meta" : { "optional" : true, "materialAvailability" : { "path" : "../material", "any" : [ "VS_UV0_PLANAR_WORLD_SPACE", "VS_UV1_PLANAR_WORLD_SPACE" ] } },
+	"planarWorldSpace" :
+	{
+		"scale_meta" : { "type" : "vec2" },
+		"scale" : [ 1.0, 1.0 ]
+	},
+
+	"color_meta" : { "label":"Color ID", "type":"string", "optional":true, "toolTip":"Color name, the color value is set by the tile editor or asset defualt color.", "color":"#282d35","icon":"$GAME_DATA/Gui/Editor/ed_icon_colorid.png", "materialAvailability" : { "path" : "../material", "categories" : [ "Asset" ] } },
+	"color": "",
+
+	"effect_params_meta": { "optional": true, "toolTip":"Custom parameter buffer for effect materials. E.g. colors for Hologram.", "materialAvailability" : { "path" : "../material", "any" : [ "PS_EFFECT_PARAM" ] } },
+	"effect_params" : 
+	{
+		"param1_meta": { "value_meta": { "type":"float" }, "optional": false, "minSize":4, "maxSize":4 },
+		"param1" : [ 0.0, 0.0, 0.0, 0.0 ],
+		"param2_meta": { "value_meta": { "type":"float" }, "optional": false, "minSize":4, "maxSize":4 },
+		"param2" : [ 0.0, 0.0, 0.0, 0.0 ]
+	},
+
+	"laser_meta": { "optional": true, "avalible": true, "label" : "Laser*", "toolTip" : "Requires LASER ,LASER_ADDITIVE, LASER_ADDITIVE_INSIDE_GLASS, LASER_BACKFACE_CULL pass.", "materialAvailability" : { "path" : "../material", "passes" : [ "LASER", "LASER_ADDITIVE", "LASER_ADDITIVE_INSIDE_GLASS", "LASER_BACKFACE_CULL" ] } },
+	"laser" : 
+	{
+		"baseColor_meta" : { "type" : "color", "label" : "Base color" },
+		"baseColor" : [ 0.0, 0.0, 0.0, 0.0 ],
+
+		"highlightColor_meta": { "type" : "color", "label" : "Highlight color" },
+		"highlightColor" : [ 1.0, 1.0, 1.0, 1.0 ],
+
+		"glowStrength_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Glow strength" },
+		"glowStrength" : 0.5,
+		
+		"fresnel_meta" : { "label" : "Fresnel*", "toolTip" : "Requires PS_LASER_FRESNEL.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_LASER_FRESNEL" ] } },
+		"fresnel" : 
+		{
+			"fresnelIntensity_meta" : { "type" : "float", "min" : 0.0, "max" : 1.0, "label" : "Intensity" },
+			"fresnelIntensity" : 0.4,
+			
+			"fresnelExponent_meta" : { "type" : "float", "min" : 0.0, "max" : 10.0, "label" : "Exponent" },
+			"fresnelExponent" : 0.6
+		},
+		
+		"intersection_meta" : { "label" : "Intersection*", "toolTip" : "Requires PS_LASER_INTERSECT.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_LASER_INTERSECT" ] } },
+		"intersection" : 
+		{
+			"intersectHeight_meta" : { "type" : "float", "min" : 0.0, "max" : 100.0, "label" : "Intersect height" },
+			"intersectHeight" : 0.25,
+			
+			"intersectIntensity_meta" : { "type" : "float", "min" : 0.0, "max" : 10.0, "label" : "Intersect intenisty" },
+			"intersectIntensity" : 0.6
+		},
+		
+		"scanLines_meta" : { "label" : "Scan Lines*", "toolTip" : "Requires PS_LASER_SCAN_LINES.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_LASER_SCAN_LINES" ] } },
+		"scanLines" : 
+		{
+			"scanLineSpeed1_meta" : { "type" : "float", "min" : -5.0, "max" : 5.0, "label" : "Scan 1 speed" },
+			"scanLineSpeed1" : 1.0,
+			
+			"scanLineFrequency1_meta" : { "type" : "float", "min" : 0.0, "max" : 100.0, "label" : "Scan 1 frequency" },
+			"scanLineFrequency1" : 1.0,
+			
+			"scanLineIntensity1_meta" : { "type" : "float", "min" : 0.0, "max" : 1.0, "label" : "Scan 1 intensity" },
+			"scanLineIntensity1" : 1.0,
+			
+			"scanLineSpeed2_meta" : { "type" : "float", "min" : -5.0, "max" : 5.0, "label" : "Scan 2 speed" },
+			"scanLineSpeed2" : 1.0,
+			
+			"scanLineFrequency2_meta" : { "type" : "float", "min" : 0.0, "max" : 50.0, "label" : "Scan 2 frequency" },
+			"scanLineFrequency2" : 1.0,
+			
+			"scanLineIntensity2_meta" : { "type" : "float", "min" : 0.0, "max" : 1.0, "label" : "Scan 2 intensity" },
+			"scanLineIntensity2" : 1.0
+		},
+		
+		"fade_meta" : { "label" : "Object fade out*", "toolTip" : "Requires PS_LASER_FADE.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_LASER_FADE" ] } },
+		"fade" : 
+		{
+			"fadeValue_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Fade out value" },
+			"fadeValue" : 1.0,
+			
+			"fadeRange_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Fade out range" },
+			"fadeRange" : 1.0
+		},
+
+		"fog_meta" : { "label" : "Fog*", "toolTip" : "Requires PS_LASER_FOG.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_LASER_FOG" ] } },
+		"fog" : 
+		{
+			"fogMin_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Min" },
+			"fogMin" : 1.0,
+			
+			"fogScale_meta" : { "type":"float", "label" : "Scale" },
+			"fogScale" : 1.0,
+			
+			"fogOpacity_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Opacity" },
+			"fogOpacity" : 1.0,
+			
+			"fogScrollSpeed_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Scroll speed" },
+			"fogScrollSpeed" : 1.0,
+
+			"fogLoopSpeed_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Loop speed" },
+			"fogLoopSpeed" : 1.0
+		},
+		
+		"refraction_meta" : { "optional": true, "label" : "Refraction*", "toolTip" : "Requires PS_LASER_REFRACTION_TEXTURE or PS_LASER_REFRACTION_SCAN_LINES or PS_LASER_REFRACTION_DISPLACEMENT. LASER pass only", "materialAvailability" : { "path" : "../../material", "passes" : [ "LASER", "LASER_BACKFACE_CULL" ], "any" : [ "PS_LASER_REFRACTION_TEXTURE", "PS_LASER_REFRACTION_SCAN_LINES", "PS_LASER_REFRACTION_DISPLACEMENT" ] } },
+		"refraction" : 
+		{
+			"ROI_meta":{ "type":"float", "min":0.01, "max": 10.0, "label" : "ROI" },
+			"ROI": 1.52,
+			
+			"refraction_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "Refraction" },
+			"refraction": 0.1
+		},
+
+		"distanceFade_meta": { "optional":true, "label" : "Distance Fade*", "toolTip" : "Requires PS_LASER_DISTANCE_FADE", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_LASER_DISTANCE_FADE" ] } },
+		"distanceFade":
+		{
+			"nearDistance_meta":{ "type":"float", "min":0.0, "max": 500.0 },
+			"nearDistance": 6.0,
+			"nearFadeEnd_meta" : { "type":"float", "min" : 0.0, "max" : 1000.0 },
+			"nearFadeEnd" : 1.0,
+			"farDistance_meta":{ "type":"float", "min":0.0, "max": 1000.0 },
+			"farDistance": 100.0
+		}
+	},
+	  
+	"laserDisplacement_meta" : { "optional": true,  "label" : "Laser displacement*", "toolTip" : "Requires VS_LASER_DISPLACEMENT.", "materialAvailability" : { "path" : "../material", "any" : [ "VS_LASER_DISPLACEMENT" ] } },
+	"laserDisplacement" : 
+	{
+		"color_meta": { "type" : "color", "label" : "Color", "toolTip" : "Requires VS_LASER_COLOR.", "materialAvailability" : { "path" : "../../material", "any" : [ "VS_LASER_COLOR" ] } },
+		"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+		
+		"speed_meta" : { "type":"float", "min" : 0.0, "max" : 50.0, "label" : "Speed" },
+		"speed" : 1.0,
+
+		"strength_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Strength" },
+		"strength" : 1.0,
+		
+		"fade_meta" : { "label" : "Displacement fade*", "toolTip" : "Requires VS_LASER_FADE.", "materialAvailability" : { "path" : "../../material", "any" : [ "VS_LASER_FADE" ] } },
+		"fade" : 
+		{
+			"displacementFadeValue_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Fade out value*", "toolTip" : "Requires VS_LASER_FADE." },
+			"displacementFadeValue" : 1.0,
+
+			"displacementFadeRange_meta" : { "type":"float", "min" : 0.0, "max" : 1.0, "label" : "Fade out range*", "toolTip" : "Requires VS_LASER_FADE." },
+			"displacementFadeRange" : 1.0
+		}, 
+		
+		"flicker_meta" : { "label" : "Flickering effect*", "toolTip" : "Requires VS_LASER_FLICKER.", "materialAvailability" : { "path" : "../../material", "any" : [ "VS_LASER_FLICKER" ] } },
+		"flicker" : 
+		{
+			"flickerFrequencyValue_meta" : { "type":"float", "min" : 0.0, "max" : 10.0, "label" : "Frequency" },
+			"flickerFrequencyValue" : 1.0,
+			
+			"flickerFrequencyOffset_meta" : { "type":"float", "min" : 0.0, "max" : 5.0, "label" : "Offset" },
+			"flickerFrequencyOffset" : 1.0
+		},
+		
+		"slice_meta" : { "label" : "Pattern: Slices*", "toolTip" : "Requires VS_LASER_SLICES.", "materialAvailability" : { "path" : "../../material", "any" : [ "VS_LASER_SLICES" ] } },
+		"slice" : 
+		{
+			"direction_meta" : { "type":"vec3", "label" : "Direction" },
+			"direction" : [ 1.0, 0.0, 0.0 ],
+
+			"sliceSize_meta" : { "type":"float", "min" : 0.0, "max" : 20.0, "label" : "Slice size" },
+			"sliceSize" : 1.0
+		},
+		
+		"wave_meta" : { "label" : "Pattern: Wave*", "toolTip" : "Requires VS_LASER_WAVE.", "materialAvailability" : { "path" : "../../material", "any" : [ "VS_LASER_WAVE" ] } },
+		"wave" : 
+		{
+			"noiseIntensity_meta" : { "type":"float", "min" : 0.0, "max" : 5.0, "label" : "Wave noise intensity*" },
+			"noiseIntensity" : 1.0
+		},
+
+		"glitch_meta" : { "label" : "Pattern: Glitch*", "toolTip" : "Requires VS_LASER_GLITCH.", "materialAvailability" : { "path" : "../../material", "any" : [ "VS_LASER_GLITCH" ] } },
+		"glitch" : 
+		{ 
+			"speed_meta" : { "type":"float", "min" : 0.0, "max" : 50.0, "label" : "Speed" },
+			"speed" : 1.0
+		}
+	},
+
+	"glass_meta": { "optional": true, "label" : "Glass*", "toolTip" : "Requires GLASS or GLASS_ALPHA or GLASS_BACKFACE_CULL pass.", "materialAvailability" : { "path" : "../material", "passes" : [ "GLASS", "GLASS_ALPHA", "GLASS_BACKFACE_CULL" ] } },
+	"glass" : 
+	{
+		"transparencyFront_meta":{ "type":"float", "min":-2.0, "max": 2.0 },
+		"transparencyFront": 0.5,
+
+		"transparencyBack_meta":{ "type":"float", "min":-2.0, "max": 2.0 },
+		"transparencyBack": 0.2,
+
+		"ROI_meta":{ "type":"float", "min":0.01, "max": 10.0, "label" : "ROI*", "toolTip" : "Requires PS_REFRACTION.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_REFRACTION" ] } },
+		"ROI": 1.52,
+		
+		"refraction_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "Refraction*", "toolTip" : "Requires PS_REFRACTION.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_REFRACTION" ] } },
+		"refraction": 0.1,
+
+		"transmission_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "Transmission*", "toolTip" : "Requires PS_TRANSMISSION.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_TRANSMISSION" ] } },
+		"transmission": 0.5,
+
+		"blurriness_meta":{ "type":"float", "min":-1.0, "max": 1.0, "label" : "Blurriness Offset" },
+		"blurriness": 0.0,
+
+		"magnification_meta":{ "type":"float", "min":-1.0, "max": 2.0, "label" : "Magnification*", "toolTip" : "Requires PS_MAGNIFICATION.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_MAGNIFICATION" ] } },
+		"magnification": 1.0,
+
+		"responsiveGlow_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "Responsive Glow*", "toolTip" : "Requires PS_RESPONSIVE_GLOW.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_RESPONSIVE_GLOW" ] } },
+		"responsiveGlow": 1.0,
+
+		"magnificationDirection_meta":{ "type":"vec2", "min":-1.0, "max": 1.0, "label" : "Magnification Direction*", "toolTip" : "Requires PS_MAGNIFICATION.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_MAGNIFICATION" ] } },
+		"magnificationDirection": [ 1.0, 1.0 ],
+
+		"depthBlurDistance_meta":{ "min":0.01, "max": 100.0, "label" : "Depth blur distance*", "toolTip" : "Requires PS_DEPTH_BLUR_DISTANCE.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_DEPTH_BLUR_DISTANCE" ] } },
+		"depthBlurDistance": 1.0,
+
+		"depthBlurMin_meta":{ "min":0.0, "max": 1.0, "label" : "Depth blur min*", "toolTip" : "Requires PS_DEPTH_BLUR_DISTANCE.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_DEPTH_BLUR_DISTANCE" ] } },
+		"depthBlurMin": 0.0
+	},
+
+	"glassOpaque_meta": { "optional": true, "label" : "Glass Opaque*", "toolTip" : "Requires GFORWARD pass.", "materialAvailability" : { "path" : "../material", "passes" : [ "GFORWARD" ] } },
+	"glassOpaque" : 
+	{
+		"transmission_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "Transmission*", "toolTip" : "Requires PS_TRANSMISSION.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_TRANSMISSION" ] } },
+		"transmission": 0.5,
+
+		"responsiveGlow_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "Responsive Glow*", "toolTip" : "Requires PS_RESPONSIVE_GLOW.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_RESPONSIVE_GLOW" ] } },
+		"responsiveGlow": 1.0,
+
+		"aoMultiplier_meta":{ "type":"float", "min":0.0, "label" : "AO multiplier", "max": 1.0 },
+		"aoMultiplier": 1.0
+	},
+
+	"grunge_meta": { "optional": true, "label" : "Grunge*", "toolTip" : "Requires PS_GRUNGE.", "materialAvailability" : { "path" : "../material", "any" : [ "PS_GRUNGE" ] } },
+	"grunge" : 
+	{
+		"color_meta":{ "type":"color" },
+		"color": [ 0.0, 0.0, 0.0, 1.0 ],
+
+		"layer1_meta" : { "label" : "Layer 1*", "toolTip" : "Requires PS_GRUNGE_LAYER_1 or PS_GRUNGE_LAYER_1_2D.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_GRUNGE_LAYER_1", "PS_GRUNGE_LAYER_1_2D" ] } },
+		"layer1" : 
+		{
+			"opacity_meta":{ "type":"float", "min":0.0, "max": 1.0 },
+			"opacity": 1.0,
+			
+			"size_meta":{ "type":"float" },
+			"size": 1.0
+		},
+
+		"layer2_meta" : { "label" : "Layer 2*", "toolTip" : "Requires PS_GRUNGE_LAYER_2.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_GRUNGE_LAYER_2" ] } },
+		"layer2" : 
+		{
+			"opacity_meta":{ "type":"float", "min":0.0, "max": 1.0 },
+			"opacity": 1.0,
+			
+			"size_meta":{ "type":"float" },
+			"size": 1.0
+		},
+		
+		"layer3_meta" : { "label" : "Layer 3*", "toolTip" : "Requires PS_GRUNGE_LAYER_3.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_GRUNGE_LAYER_3" ] } },
+		"layer3" : 
+		{
+			"opacity_meta":{ "type":"float", "min":0.0, "max": 1.0 },
+			"opacity": 1.0,
+			
+			"size_meta":{ "type":"float" },
+			"size": 1.0
+		},
+
+		"ao_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "ao*", "toolTip" : "Requires PS_GRUNGE_AO.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_GRUNGE_AO" ] } },
+		"ao": 0.0,
+
+		"reflect_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "reflection*", "toolTip" : "Requires PS_GRUNGE_GLOSS.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_GRUNGE_GLOSS" ] } },
+		"reflect": 0.0,
+
+		"gloss_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "gloss*", "toolTip" : "Requires PS_GRUNGE_REFLECT.", "materialAvailability" : { "path" : "../../material", "any" : [ "PS_GRUNGE_REFLECT" ] } },
+		"gloss": 0.0,
+		
+		"heightFactor_meta":{ "type":"float", "min":0.0, "max": 1.0, "label" : "height factor" },
+		"heightFactor": 0.0
+	},
+
+	"offset_meta": { "optional": true, "label" : "Offset*", "toolTip":"Custom material offset parameters. Requires PS_OFFSET_PARAMS or PS_SET_PARAMS", "materialAvailability" : { "path" : "../material", "any" : [ "PS_OFFSET_PARAMS", "PS_SET_PARAMS" ] } },
+	"offset" : 
+	{
+		"diffuse_meta":{ "type":"color" },
+		"diffuse": [0.0,0.0,0.0,0.0],
+
+		"glow_meta":{ "type":"float", "min":-2.0, "max": 2.0 },
+		"glow": 0.0,
+
+		"gloss_meta":{ "type":"float", "min":-2.0, "max": 2.0 },
+		"gloss": 0.0,
+
+		"specular_meta":{ "type":"float", "min":-2.0, "max": 2.0 },
+		"specular": 0.0,
+
+		"alpha_meta":{ "type":"float", "min":-2.0, "max": 2.0, "toolTip" : "Cutoff alpha." },
+		"alpha": 0.0,
+
+		"thickness_meta":{ "type":"float", "min":-2.0, "max": 2.0 },
+		"thickness": 0.0,
+
+		"ao_meta":{ "type":"float", "min":-2.0, "max": 2.0 },
+		"ao": 0.0,
+
+		"blend_meta":{ "type":"float", "min":-2.0, "max": 2.0, "toolTip" : "Used with gradient maps and color blending." },
+		"blend": 0.0
+	},
+	
+	"overlay_meta": { "optional": true, "materialAvailability" : { "path" : "../material", "any" : [ "PS_OVERLAY_DEPTH_FADE", "PS_OVERLAY_DEPTH_MASK" ] } },
+	"overlay" : 
+	{
+		"behindFadeAlpha_meta":{ "type" : "float" },
+		"behindFadeAlpha": 0.5,
+
+		"depthOffset_meta":{ "type" : "float" },
+		"depthOffset": 0.25
+	},
+
+	"flowMap_meta": { "optional": true, "label" : "Flow Map*", "toolTip" : "Requires PS_FLOW_MAP_UV0/UV1.", "materialAvailability" : { "path" : "../material", "any" : [ "PS_FLOW_MAP_UV0", "PS_FLOW_MAP_UV1" ] } },
+	"flowMap" : 
+	{
+		"flowSpeed_meta":{ "type" : "float" },
+		"flowSpeed" : 0.5
+	},
+
+	"scrollMap_meta": { "optional": true, "label" : "Scroll Map*", "toolTip" : "Requires PS_SCROLL_MAP_UV0/UV1.", "materialAvailability" : { "path" : "../material", "any" : [ "PS_SCROLL_MAP_UV0", "PS_SCROLL_MAP_UV1" ] } },
+	"scrollMap" : 
+	{
+		"scrollSpeed_meta":{ "type" : "float" },
+		"scrollSpeed" : 0.5
+	},
+
+	"dissolve_meta": { "optional": true, "label" : "Dissolve*", "toolTip" : "Requires PS_DISSOLVE_UV0/UV1/3D.", "materialAvailability" : { "path" : "../material", "any" : [ "PS_DISSOLVE_UV0", "PS_DISSOLVE_UV1", "PS_DISSOLVE_3D" ] } },
+	"dissolve" : 
+	{
+		"scale_meta":{ "type" : "float", "order" : 0 },
+		"scale" : 1.0,
+	
+		"length_meta":{ "type" : "float", "min":0.0, "max": 1.0, "order" : 0 },
+		"length" : 0.5,
+
+		"fade_meta":{ "type" : "float", "min":0.0, "max": 1.0, "order" : 1 },
+		"fade" : 0.01,
+
+		"fadePower_meta":{ "type" : "float", "min":0.0, "max": 10.0, "order" : 2 },
+		"fadePower" : 1.0,
+
+		"loopSpeed_meta":{ "type" : "float", "min":0.0, "max": 2.0, "order" : 3 },
+		"loopSpeed" : 0.0,
+
+		"scrollSpeed_meta":{ "type" : "vec3", "min":-2.0, "max": 2.0, "order" : 4 },
+		"scrollSpeed" : [0.0,0.0,0.0],
+
+		"startGlow_meta":{ "type" : "float", "min":0.0, "max": 1.0, "order" : 5 },
+		"startGlow" : 0.0,
+
+		"endGlow_meta":{ "type" : "float", "min":0.0, "max": 1.0, "order" : 6 },
+		"endGlow" : 0.0,
+
+		"startColor_meta" : { "type" : "color", "label" : "Start color", "order" : 7 },
+		"startColor" : [ 1.0, 1.0, 1.0, 1.0 ],
+
+		"endColor_meta" : { "type" : "color", "label" : "End color", "order" : 8 },
+		"endColor" : [ 1.0, 1.0, 1.0, 1.0 ]
+	},
+	
+	"wave_meta": { "optional": true, "label" : "Wave*", "toolTip" : "Requires VS_WAVE. Add VS_WAVE_NO_SCALE to remove legacy scaling", "materialAvailability" : { "path" : "../material", "any" : [ "VS_WAVE", "VS_WAVE_NO_SCALE" ] } },
+	"wave" : 
+	{
+		"strength_meta":{ "type" : "float" },
+		"strength": 1.0,
+
+		"speed_meta":{ "type" : "float" },
+		"speed": 1.0
+	}
+}

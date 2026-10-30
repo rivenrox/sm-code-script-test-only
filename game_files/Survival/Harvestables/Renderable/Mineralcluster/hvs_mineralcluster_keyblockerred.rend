@@ -1,0 +1,58 @@
+{
+	"impostorThreshold" : 150,
+	"lodList" : 
+	[
+		{
+			"maxViewDistance" : 1500,
+			"mesh" : "$SURVIVAL_DATA/Harvestables/Mesh/Mineralcluster/hvs_mineralcluster_keyblockerred.fbx",
+			"subMeshMap" : 
+			{
+				"m_mineral" : 
+				{
+					"material" : "MatCapAsgNor",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Matcap/t_mineralred_mcap.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_mineralred_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Clutter/env_clutter_mineralred_nor.tga",
+						""
+					]
+				},
+				"m_mineralglass" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color",
+						"glass" : 
+						{
+							"ROI" : 1.52,
+							"blurriness" : -0.24,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.21,
+							"responsiveGlow" : 0.49,
+							"transmission" : 1.0,
+							"transparencyBack" : 0.0,
+							"transparencyFront" : 0.26
+						}
+					},
+					"material" : "GlassMcapMaskedGlow",
+					"textureList" : 
+					[
+						"$GAME_DATA/Textures/Default/default_dif.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Minerals/env_minerals_mineralglass_asg.tga",
+						"$GAME_DATA/Textures/Default/default_nor.tga",
+						"",
+						"$SURVIVAL_DATA/Textures/Lightcap/t_mineralred_lcap.tga"
+					]
+				}
+			}
+		}
+	]
+}

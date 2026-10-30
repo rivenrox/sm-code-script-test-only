@@ -1,0 +1,42 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Excavationsite/env_excavation_islandbridge_road_col.fbx",
+			"color" : "aa1515ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_kinematic_islandbridge",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Excavation/kin_excavation_islandbridge_road.rend",
+			"script" : 
+			{
+				"class" : "KinematicBridgePart",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicBridgePart.lua"
+			},
+			"size" : 3,
+			"uuid" : "cee22a83-f2e0-4ee9-8d07-57b402ea5295"
+		}
+	]
+}

@@ -1,0 +1,573 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "3 - Drops",
+				"depth" : 
+				[
+					0.5,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.62462
+							],
+							[
+								0.62484,
+								1.07448
+							],
+							[
+								0.80699,
+								1.04935
+							],
+							[
+								0.90223,
+								0.84153
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.47973,
+								1.598
+							],
+							[
+								0.75937,
+								1.13241
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 3,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 250,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-6.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.5,
+					0.1
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 8,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Drops Small [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/claygun/p_renderable_claygun_drops.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"sphere_radius" : 0.15,
+				"surface" : true,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.33
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.1
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.48436,
+					0.30041,
+					0.23646,
+					1.0
+				],
+				"depth" : 
+				[
+					0.64999,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"name" : "Pose",
+						"time" : 0.75
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16347,
+								0.39171
+							],
+							[
+								0.26539,
+								0.55961
+							],
+							[
+								0.42675,
+								0.66666
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 6,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.20316
+							],
+							[
+								0.22461,
+								0.95393
+							],
+							[
+								0.47692,
+								1.3947
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 4,
+				"height" : 
+				[
+					0.64999,
+					0.1
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "SplatterShape Splash 3  [medium]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/claygun/p_renderable_claygun_splattershape.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					0.55,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.64999,
+					0.1
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/claygun/p_claygun_shockwave_splash_asg.tga",
+				"category" : "4",
+				"circle_angle" : 85.0,
+				"depth" : 
+				[
+					3.0,
+					0.25
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.52732,
+					1.0,
+					0.61224,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 9,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 3
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.13797,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.10852
+							],
+							[
+								0.14767,
+								0.74671
+							],
+							[
+								0.28,
+								0.92434
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								180.0
+							],
+							[
+								1.0,
+								180.0
+							]
+						],
+						"guid" : 12,
+						"max" : 180.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.25,
+				"guid" : 8,
+				"height" : 
+				[
+					3.0,
+					0.25
+				],
+				"keep_local" : true,
+				"material_name" : "MatCapUvAnimAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/foamgun/p_mesh_foam_splashplane01.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_clayprojectile_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "Base Splash 3 (Low)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splatter_shockwave_nor.tga",
+				"particle" : "mesh",
+				"radius" : 0.05,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.3,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.25
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/claygun/p_claygun_splatter03_asg.tga",
+				"category" : "5",
+				"depth" : 
+				[
+					1.0,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.88153
+							],
+							[
+								1.0,
+								0.59868
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 30,
+						"guid" : 15,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.19076,
+								1.2171
+							],
+							[
+								0.4923,
+								1.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 155,
+				"friction" : 2.0,
+				"guid" : 13,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "MatCapUvAnimAlphaFlip",
+				"max_particles" : 15,
+				"mesh" : "$GAME_DATA/Particles/resources/foamgun/p_mesh_foam_splashplane02.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_clayprojectile_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "SplashPlane1 (high)",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_06_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 180.0,
+				"sphere_radius" : 0.5,
+				"tiles" : 
+				[
+					3,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "sphere",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

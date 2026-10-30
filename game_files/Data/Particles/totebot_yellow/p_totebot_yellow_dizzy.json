@@ -1,0 +1,378 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					0.3,
+					0.3,
+					0.3
+				],
+				"category" : "1 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/misc/p_misc_star.tga",
+				"direction_type" : "constant",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"base" : -1.25,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.24986
+							],
+							[
+								0.5,
+								-1.25
+							],
+							[
+								1.0,
+								1.24986
+							]
+						],
+						"guid" : 1,
+						"max" : 1.25,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -1.25,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.00005
+							],
+							[
+								0.33,
+								1.24986
+							],
+							[
+								0.66,
+								-1.25
+							],
+							[
+								1.0,
+								-0.00005
+							]
+						],
+						"guid" : 2,
+						"max" : 1.25,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.24921,
+								26.25001
+							],
+							[
+								0.49845,
+								8.68421
+							],
+							[
+								0.77538,
+								-20.7237
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 3,
+						"max" : 30.0,
+						"min" : -30.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.78026,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -0.40001,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.00001
+							],
+							[
+								0.19076,
+								0.26572
+							],
+							[
+								0.31384,
+								0.33133
+							],
+							[
+								0.43691,
+								0.24725
+							],
+							[
+								0.63998,
+								-0.32103
+							],
+							[
+								0.74769,
+								-0.38943
+							],
+							[
+								0.86769,
+								-0.30523
+							],
+							[
+								1.0,
+								0.00001
+							]
+						],
+						"guid" : 5,
+						"max" : 0.4,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.05
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max" : 0.5,
+						"name" : "Velocity",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 4,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.07998,
+					0.01999
+				],
+				"keep_local" : true,
+				"max_particles" : 500,
+				"name" : "stars",
+				"position" : 
+				[
+					0.0,
+					-0.16,
+					0.34999
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					2.0
+				],
+				"scene_blend" : "alpha_blend",
+				"time_to_live" : 2.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.5,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.07998,
+					0.01999
+				]
+			},
+			{
+				"angle" : 3.0,
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.00999,
+					0.00999,
+					0.00999
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/geometry_circle_02.tga",
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.18309,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.88731,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.73026
+							],
+							[
+								1.0,
+								0.92105
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 9,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14643
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 7,
+				"guid" : 7,
+				"height" : 0.600000024,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 25,
+				"name" : "Swirl",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.4
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 300.0,
+				"scene_blend" : "alpha_blend",
+				"time_to_live" : 
+				[
+					1.0,
+					0.15
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.2,
+					0.00999
+				],
+				"water_mask" : "none",
+				"width" : 0.699999988
+			}
+		],
+		"min_quality" : "low"
+	}
+}

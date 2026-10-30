@@ -1,0 +1,61 @@
+{
+    "template_meta": {
+        "uuid": "415da98c-130f-4846-a698-4d50865ddcaf",
+        "name": "Achievements",
+        "display": "achievements",
+        "pattern": [
+            "*.achievementSet"
+        ]
+    },
+    "achievementList_meta": {
+        "type": "array",
+        "valueAsLabel": "name",
+        "sort": false,
+        "noIndexLabel": false
+    },
+    "achievementList": [
+        {
+            "name_meta": {
+                "type": "string",
+                "order": 1
+            },
+            "name": "New Achievement",
+            "steamAPIkey_meta":{  "type": "string",
+                "order": 2},
+            "steamAPIkey" : "",
+
+            "description_meta": {
+                "type": "string",
+                "order": 3
+            },
+            "description": "New Description",
+            "gameMode_meta": {"type": "string","options": ["Any","Survival","Challenge","Creative"],"optional" : true },
+            "gameMode" : "Survival",
+            "dependencies_meta": {
+                "type": "array",
+                "order": 4,
+                "optional": true,
+                "noIndexLabel" : false
+            },
+            "dependencies": [
+                {
+                    "isEvent_meta":{"type": "bool", "order": 0},
+                    "isEvent" : false,
+                    "eventName_meta":{"type":"string","available":{"isEvent":true}},
+                    "eventName": "",
+                    "eventuid_meta":{"type":"string","available":{"isEvent":true}},
+                    "eventuid": "uuid or other identifier",
+                    "stat_meta": {
+                        "available" : { "isEvent" : false } ,
+                        "optionsCategory": "statsDatabase",
+                        "label": "Stat",
+                        "order": 2
+                    }, 
+                    "stat": "None",
+                    "target_meta":{"type":"float","available" : { "isEvent" : false } },
+                    "target": 0
+                }
+            ]
+        }
+    ]
+}

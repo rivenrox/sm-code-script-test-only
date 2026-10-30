@@ -1,0 +1,717 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"alpha" : true,
+				"category" : "1",
+				"color" : 
+				[
+					0.31371,
+					0.81568,
+					0.03136,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.23384,
+								0.06577
+							],
+							[
+								0.41846,
+								0.1875
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.79996
+							],
+							[
+								1.0,
+								1.35526
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.20611,
+								0.28946
+							],
+							[
+								0.44615,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 4,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"guid" : 0,
+				"height" : 0.899999976,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 150,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "TrashGoo Slime       [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-1.5794
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/vollybomb/p_rendeble_trashbot_splatter_projectile_green.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.85,
+					0.125
+				],
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 0.899999976
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "99",
+				"circle_angle" : 90.0,
+				"color" : 
+				[
+					0.31764,
+					0.81958,
+					0.03528,
+					1.0
+				],
+				"depth" : 
+				[
+					0.4,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.85851
+							],
+							[
+								0.14153,
+								1.13979
+							],
+							[
+								0.36614,
+								1.20887
+							],
+							[
+								0.63691,
+								1.01644
+							],
+							[
+								0.84614,
+								0.6661
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					0.4,
+					0.1
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 150,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Trashbag Drops  [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.46862
+				],
+				"radius" : 0.75,
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/vollybomb/p_renderable_trashbot_vollybomb_trailprojectile_slime02_green.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.15
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					-6.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.1
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.3294,
+					0.83135,
+					0.04704,
+					1.0
+				],
+				"depth" : 1.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.62171
+							],
+							[
+								1.0,
+								0.2368
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.4523,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 9,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.48989
+							]
+						],
+						"guid" : 10,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"friction" : 1.0,
+				"guid" : 7,
+				"height" : 1.75,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 10,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Splattersphere   slime    [medium]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.19427
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/vollybomb/p_rendeble_trashbot_vollybomb_slime.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 1.75
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.3294,
+					0.83135,
+					0.04704,
+					1.0
+				],
+				"depth" : 1.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.49116
+							],
+							[
+								0.31075,
+								0.55592
+							],
+							[
+								0.71692,
+								0.42763
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 2.0
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"friction" : 1.0,
+				"guid" : 11,
+				"height" : 1.75,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Splattersphere   goo        [low]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.1502
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/vollybomb/p_rendeble_trashbot_vollybomb_maingoop_green.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"rotation_speed" : 25.0,
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.75
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.3294,
+					0.83135,
+					0.04704,
+					1.0
+				],
+				"depth" : 2.25,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.49116
+							],
+							[
+								0.31075,
+								0.55592
+							],
+							[
+								0.71692,
+								0.42763
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 2.0
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"friction" : 1.0,
+				"guid" : 13,
+				"height" : 2.25,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Splattersphere   slime    [high]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/vollybomb/p_rendeble_trashbot_vollybomb_maingoop_slime.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 25.0,
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.25
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "99",
+				"circle_angle" : 80.0,
+				"color" : 
+				[
+					0.53724,
+					0.83529,
+					0.05098,
+					1.0
+				],
+				"depth" : 
+				[
+					0.4,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.85851
+							],
+							[
+								0.14153,
+								1.13979
+							],
+							[
+								0.36614,
+								1.20887
+							],
+							[
+								0.63691,
+								1.01644
+							],
+							[
+								0.84614,
+								0.6661
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 10.0,
+						"guid" : 17,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 1.0,
+				"guid" : 15,
+				"height" : 
+				[
+					0.4,
+					0.1
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 150,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "GooTrail FbrdfSlime   [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.13335
+				],
+				"radius" : 0.75,
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/vollybomb/p_renderable_trashbot_vollybomb_trailprojectile_slime02_green.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.15
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					6.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.1
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 1.29999,
+		"scale_velocity" : 1.29999
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"template_meta": { 
+		"name":"Drill Spawner Spawn Node", 
+        "uuid": "e840d690-8cad-4300-8fa0-5d684d83471b"
+	},
+    "spawns":
+    {
+        "units_meta": {
+			"type": "array",
+			"value_meta": {
+				"type": "uuid",
+				"optionsCategory":"character"
+			}
+		},
+        "units": [ {
+			"uuid_meta": {
+				"optional": false,
+				"type": "uuid",
+				"optionsCategory":"character"
+			},
+			"uuid": "00000000-0000-0000-0000-000000000000",
+			"amount": 1
+		} ],
+		"drillDistance_meta" : { "optional": false, "type": "float", "min": 0 },
+		"drillDistance" : 10
+    }
+}

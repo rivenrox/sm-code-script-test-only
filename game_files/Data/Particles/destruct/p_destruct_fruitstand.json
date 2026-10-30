@@ -1,0 +1,1158 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.0392,
+					0.26666,
+					0.26666,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"debris_gravity_magnitude" : 15.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 0,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Stand1",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.39083,
+					0.00602,
+					-0.02636
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/oldfruit/p_renderable_destruct_fruistand_part01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.1,
+				"time_to_live" : 2.0,
+				"type" : "sphere",
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.60619,
+					0.61325,
+					0.58213,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 24,
+						"guid" : 2,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 18
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.23939,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.65631,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 300,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 4.0,
+				"guid" : 1,
+				"height" : 
+				[
+					1.5,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "smoke [low]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"params" : 2,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"sort_offset" : -1.0,
+				"sphere_radius" : 0.5,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"translucency" : 0.69998,
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.25
+				]
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.60391,
+					0.61176,
+					0.58038,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 30,
+						"guid" : 6,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59868
+							],
+							[
+								0.42153,
+								1.09868
+							],
+							[
+								1.0,
+								1.38153
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.22811,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.48168,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 5,
+				"height" : 
+				[
+					2.0,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Smoke shockwave  (olw)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"params" : 2,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2512,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 0.5,
+				"translucency" : 0.69998,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.1
+				]
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.0392,
+					0.26666,
+					0.26666,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"debris_gravity_magnitude" : 15.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 9,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Stand2",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.39083,
+					0.00602,
+					-0.02636
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/oldfruit/p_renderable_destruct_fruistand_part02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.1,
+				"time_to_live" : 2.0,
+				"type" : "sphere",
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "1 - ",
+				"color_fraction" : 1.0,
+				"debris_gravity_magnitude" : 15.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 10,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Stand3",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.39083,
+					0.00602,
+					-0.02636
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/oldfruit/p_renderable_destruct_fruistand_part03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.1,
+				"time_to_live" : 2.0,
+				"type" : "sphere",
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"billboard_origin" : "top_center",
+				"category" : "2",
+				"color" : 
+				[
+					0.43709,
+					0.44139,
+					0.42243,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"diffuse" : "Textures/glowstick/p_splash_drop_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.76691,
+								0.87826
+							],
+							[
+								0.91101,
+								0.73355
+							],
+							[
+								1.0,
+								0.25657
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 300,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 1.0,
+				"guid" : 11,
+				"height" : 
+				[
+					0.075,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 30,
+				"min_quality" : "high",
+				"name" : "Dropps (High)",
+				"params" : 2,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2512,
+				"sphere_radius" : 0.2,
+				"surface" : true,
+				"time_to_live" : 0.550000012,
+				"type" : "sphere",
+				"velocity" : 
+				[
+					3.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.075,
+					0.02999
+				]
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.37253,
+					0.45881,
+					0.0784,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 0.5,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 13,
+				"height" : 0.5,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "banana",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.39083,
+					0.00602,
+					-0.02636
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/oldfruit/p_renderable_destruct_fruistand_rotten_banana.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.5,
+				"time_to_live" : 1.0,
+				"type" : "sphere",
+				"velocity" : 3.0,
+				"water_mask" : "none",
+				"width" : 0.5
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.37253,
+					0.45881,
+					0.0784,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 0.5,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 14,
+				"height" : 0.5,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "blueberry",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.39083,
+					0.00602,
+					-0.02636
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/oldfruit/p_renderable_destruct_fruistand_rotten_blueberry.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.5,
+				"time_to_live" : 1.0,
+				"type" : "sphere",
+				"velocity" : 3.0,
+				"water_mask" : "none",
+				"width" : 0.5
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.37253,
+					0.45881,
+					0.0784,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 0.5,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 15,
+				"height" : 0.5,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "tomato",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.39083,
+					0.00602,
+					-0.02636
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/oldfruit/p_renderable_destruct_fruistand_rotten_tomato.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.5,
+				"time_to_live" : 2.0,
+				"type" : "sphere",
+				"velocity" : 3.0,
+				"water_mask" : "none",
+				"width" : 0.5
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.37253,
+					0.45881,
+					0.0784,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 0.5,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"guid" : 16,
+				"height" : 0.5,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "orange",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.39083,
+					0.00602,
+					-0.02636
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/destruction/oldfruit/p_renderable_destruct_fruistand_rotten_orange.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.5,
+				"time_to_live" : 1.0,
+				"type" : "sphere",
+				"velocity" : 3.0,
+				"water_mask" : "none",
+				"width" : 0.5
+			},
+			{
+				"angle" : 180.0,
+				"billboard_type" : "axial_self",
+				"category" : "0",
+				"color" : 
+				[
+					0.87058,
+					0.87058,
+					0.87058,
+					1.0
+				],
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"depth" : 1.5,
+				"diffuse" : "Textures/Debri/debri_fly_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.00498,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.99299,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 2,
+						"fps" : 4,
+						"guid" : 19,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.026,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 21,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								1.0
+							],
+							[
+								0.75,
+								-1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 22,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 250,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 
+				[
+					2.0,
+					1.0
+				],
+				"guid" : 17,
+				"height" : 
+				[
+					0.05,
+					0.0125
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Fly 01 (Use speed 3) (High)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 12811,
+				"sphere_radius" : 0.54,
+				"tiles" : 
+				[
+					1,
+					2
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.4
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.0125
+				]
+			},
+			{
+				"angle" : 180.0,
+				"billboard_type" : "axial_self",
+				"category" : "0",
+				"color" : 
+				[
+					0.87058,
+					0.87058,
+					0.87058,
+					1.0
+				],
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"depth" : 1.5,
+				"diffuse" : "Textures/Debri/debri_fly_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.00498,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.99299,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 2,
+						"fps" : 4,
+						"guid" : 25,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.026,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 27,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								1.0
+							],
+							[
+								0.75,
+								-1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 28,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 250,
+				"friction" : 2.0,
+				"guid" : 23,
+				"height" : 
+				[
+					0.05,
+					0.0125
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Fly 01 (Use speed 3) (High)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 12811,
+				"sphere_radius" : 0.54,
+				"tiles" : 
+				[
+					1,
+					2
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.4
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					2.0,
+					0.00999
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.0125
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

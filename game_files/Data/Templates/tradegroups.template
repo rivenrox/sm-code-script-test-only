@@ -1,0 +1,71 @@
+{
+	"template_meta": { 
+		"uuid" : "a502a215-c478-4a95-9f03-a2dd6961e052",
+		"name":"Trade Group", 
+		"pattern": [".tradegroup"],
+		"constDataStoreAllNames" : true,
+		"root_meta" : {
+			"hideUnavailableOptionals" : true
+		}
+	},
+
+	"questGroups_meta" : { "type" : "array" },
+	"questGroups" : [
+		{
+			"resource_meta" : { "type": "uuid" },
+			"resource" : "628fd350-577d-413f-82a8-7f08a83de3d8",
+
+			"steps_meta" : { "type" : "int", "min" : 1, "max" : 6 },
+            "steps" : 1,
+
+			"rewards_meta" : { 
+				"type" : "array",
+				"subTemplate" : "$GAME_DATA/Templates/tradegroup_reward.template",
+				"value_meta" : { "optional" : true }
+			},
+			"rewards" : []
+		}
+	],
+
+	"tierUnlockGroups_meta" : { "type" : "array" },
+	"tierUnlockGroups" : [
+		{
+			"resource_meta" : { "type": "uuid" },
+			"resource" : "628fd350-577d-413f-82a8-7f08a83de3d8",
+			"steps_meta" : { "type" : "int", "min" : 1, "max" : 6 },
+            "steps" : 1, 
+			"tier_meta" : { "type" : "int", "min" : 2, "max" : 6 },
+            "tier" : 2,
+			"rewards_meta" : { 
+				"type" : "array",
+				"subTemplate" : "$GAME_DATA/Templates/tradegroup_reward.template",
+				"value_meta" : { "optional" : true }
+			},
+			"rewards" : []
+		}
+	],
+
+	"cyclicGroups_meta" : { "type":"array" },
+	"cyclicGroups" : [ 
+		{
+			"resource_meta" : { "type": "uuid" },
+			"resource" : "628fd350-577d-413f-82a8-7f08a83de3d8",
+
+			"steps_meta" : { "type" : "int", "min" : 1, "max" : 6 },
+            "steps" : 1, 
+
+			"tier_meta" : { "type" : "int", "min" : 2, "max" : 6 },
+            "tier" : 2,
+			
+			"recurring_meta" : { "type" : "bool", "optional" : true },
+            "recurring" : true,
+
+			"rewards_meta" : { 
+				"type" : "array",
+				"subTemplate" : "$GAME_DATA/Templates/tradegroup_reward.template",
+				"value_meta" : { "optional" : true }
+			},
+			"rewards" : []
+		}
+	]
+}

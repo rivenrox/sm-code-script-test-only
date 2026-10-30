@@ -1,0 +1,1550 @@
+{
+   "system" : {
+      "emitters" : [
+         {
+            "AO_map" : "",
+            "ASG_map" : "",
+            "alpha" : false,
+            "angle_delta" : 0.0,
+            "angle_max" : 0.0,
+            "angle_min" : 0.0,
+            "angle_val" : 0.0,
+            "billboard_origin" : "center",
+            "billboard_type" : "axial_self",
+            "bounce_delta" : 0.0,
+            "bounce_max" : 0.50,
+            "bounce_min" : 0.50,
+            "bounce_val" : 0.50,
+            "box_depth" : 1.0,
+            "box_height" : 1.0,
+            "box_width" : 1.0,
+            "category" : "01 - ",
+            "circle_angle" : 0.0,
+            "collision" : "none",
+            "color" : {
+               "a" : 1.0,
+               "b" : 0.03906250,
+               "g" : 0.35437011718750,
+               "r" : 1.0
+            },
+            "cone_angle" : 90.0,
+            "cone_radius" : 0.1250,
+            "default_mesh_depth" : 1.0,
+            "default_mesh_height" : 1.0,
+            "default_mesh_width" : 1.0,
+            "default_particle_depth" : 0.0,
+            "default_particle_height" : 1.0,
+            "default_particle_width" : 1.0,
+            "delay" : 0.0,
+            "depth_delta" : 0.0,
+            "depth_max" : 1.0,
+            "depth_min" : 1.0,
+            "depth_val" : 1.0,
+            "diffuse" : "Textures/Debri/debri_butterfly03.tga",
+            "direction" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "direction_type" : "shape",
+            "duration" : 1.0,
+            "editorColor" : {
+               "a" : 1.0,
+               "b" : 1.0,
+               "g" : 1.0,
+               "r" : 1.0
+            },
+            "effects" : [
+               {
+                  "axis" : "x",
+                  "base" : -1.50,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 1.50,
+                        "time" : 0.3300000131130219
+                     },
+                     {
+                        "scale" : -1.50,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 3,
+                  "local" : true,
+                  "max" : 1.50,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "z",
+                  "base" : -1.50,
+                  "control_point" : [
+                     {
+                        "scale" : -1.50,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 1.50,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -1.50,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 4,
+                  "local" : true,
+                  "max" : 1.50,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "animation" : "sheet",
+                  "end_texture_coords_range" : 16,
+                  "fps" : 21,
+                  "guid" : 5,
+                  "mode" : "over_time",
+                  "name" : "TextureAnimator",
+                  "repeat" : true,
+                  "start_texture_coords_range" : 0,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "y",
+                  "base" : -0.250,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.1669999957084656
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.3330000042915344
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.8241205811500549
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 6,
+                  "local" : true,
+                  "max" : 0.250,
+                  "name" : "Velocity",
+                  "repeat_over_time" : false,
+                  "repeat_time" : 1.0,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "uniform-scale",
+                  "base_scale" : 0.0,
+                  "control_point" : [
+                     {
+                        "scale" : 1.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 0.8980263471603394,
+                        "time" : 0.7753846049308777
+                     },
+                     {
+                        "scale" : 0.8059210777282715,
+                        "time" : 0.8738461732864380
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 7,
+                  "max_scale" : 1.0,
+                  "name" : "Scale",
+                  "toggle" : true
+               }
+            ],
+            "emission_mesh" : "",
+            "emission_mesh_scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "emission_mode" : "loop",
+            "emission_rate" : 1,
+            "force_vector" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "friction_delta" : 0.0,
+            "friction_max" : 0.1000000014901161,
+            "friction_min" : 0.1000000014901161,
+            "friction_val" : 0.1000000014901161,
+            "glow" : true,
+            "glow_exposure_delta" : 0.0,
+            "glow_exposure_max" : 1.0,
+            "glow_exposure_min" : 1.0,
+            "glow_exposure_val" : 1.0,
+            "glow_strength" : 1.0,
+            "gradient" : {
+               "control_point" : [
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.191406250,
+                        "g" : 0.191406250,
+                        "r" : 0.191406250
+                     },
+                     "time" : 0.0
+                  },
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.16406250,
+                        "g" : 0.16406250,
+                        "r" : 0.16406250
+                     },
+                     "time" : 1.0
+                  }
+               ]
+            },
+            "guid" : 0,
+            "height_delta" : 0.01250000018626451,
+            "height_max" : 0.2125000059604645,
+            "height_min" : 0.18750,
+            "height_val" : 0.2000000029802322,
+            "hidden" : false,
+            "inherit_velocity" : false,
+            "keep_local" : false,
+            "lifetime_loss" : 0.0,
+            "material_name" : "",
+            "mesh" : "",
+            "mesh_diffuse" : "",
+            "mesh_type" : "world",
+            "min_quality" : "high",
+            "name" : "Flies (High)",
+            "normal_map" : "",
+            "params" : 0,
+            "particle" : "billboard",
+            "position" : {
+               "x" : -0.2000000029802322,
+               "y" : -0.0,
+               "z" : 0.1000000014901161
+            },
+            "radius" : 10.0,
+            "repeat_delay" : 0.0,
+            "rotation_axis" : {
+               "x" : 1.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "rotation_delta" : 1.0,
+            "rotation_max" : 181.0,
+            "rotation_min" : 179.0,
+            "rotation_speed_delta" : 5.0,
+            "rotation_speed_max" : 5.0,
+            "rotation_speed_min" : -5.0,
+            "rotation_speed_val" : 0.0,
+            "rotation_val" : 180.0,
+            "scene_blend" : "alpha_blend",
+            "shadows" : true,
+            "soft_particles_bias" : 5000,
+            "sort" : 0,
+            "sort_offset" : 0.0,
+            "spawn_chance" : 0.6600000262260437,
+            "sphere_radius" : 0.1250,
+            "start_color" : "solid",
+            "sub" : [
+               {
+                  "AO_map" : "",
+                  "ASG_map" : "",
+                  "alpha" : false,
+                  "angle_delta" : 0.0,
+                  "angle_max" : 0.0,
+                  "angle_min" : 0.0,
+                  "angle_val" : 0.0,
+                  "billboard_origin" : "center",
+                  "billboard_type" : "axial_self",
+                  "bounce_delta" : 0.0,
+                  "bounce_max" : 0.50,
+                  "bounce_min" : 0.50,
+                  "bounce_val" : 0.50,
+                  "box_depth" : 1.0,
+                  "box_height" : 1.0,
+                  "box_width" : 1.0,
+                  "category" : "",
+                  "circle_angle" : 0.0,
+                  "collision" : "none",
+                  "color" : {
+                     "a" : 1.0,
+                     "b" : 1.0,
+                     "g" : 1.0,
+                     "r" : 1.0
+                  },
+                  "cone_angle" : 25.0,
+                  "cone_radius" : 1.0,
+                  "default_mesh_depth" : 1.0,
+                  "default_mesh_height" : 1.0,
+                  "default_mesh_width" : 1.0,
+                  "default_particle_depth" : 0.0,
+                  "default_particle_height" : 1.0,
+                  "default_particle_width" : 1.0,
+                  "delay" : 0.0,
+                  "depth_delta" : 0.0,
+                  "depth_max" : 1.0,
+                  "depth_min" : 1.0,
+                  "depth_val" : 1.0,
+                  "diffuse" : "Textures/Glow/glow_glow04.tga",
+                  "direction" : {
+                     "x" : 0.0,
+                     "y" : 0.0,
+                     "z" : -1.0
+                  },
+                  "direction_type" : "constant",
+                  "duration" : 9.0,
+                  "editorColor" : {
+                     "a" : 1.0,
+                     "b" : 1.0,
+                     "g" : 1.0,
+                     "r" : 1.0
+                  },
+                  "effects" : [
+                     {
+                        "control_point" : [
+                           {
+                              "color" : {
+                                 "a" : 1.0,
+                                 "b" : 0.0,
+                                 "g" : 0.0,
+                                 "r" : 0.0
+                              },
+                              "time" : 0.0
+                           },
+                           {
+                              "color" : {
+                                 "a" : 1.0,
+                                 "b" : 1.0,
+                                 "g" : 1.0,
+                                 "r" : 1.0
+                              },
+                              "time" : 0.5154929757118225
+                           },
+                           {
+                              "color" : {
+                                 "a" : 1.0,
+                                 "b" : 0.0,
+                                 "g" : 0.0,
+                                 "r" : 0.0
+                              },
+                              "time" : 1.0
+                           }
+                        ],
+                        "guid" : 2,
+                        "name" : "Color",
+                        "toggle" : true
+                     }
+                  ],
+                  "emission_mesh" : "",
+                  "emission_mesh_scale" : {
+                     "x" : 1.0,
+                     "y" : 1.0,
+                     "z" : 1.0
+                  },
+                  "emission_mode" : "burst",
+                  "emission_rate" : 12,
+                  "force_vector" : {
+                     "x" : 0.0,
+                     "y" : 0.0,
+                     "z" : 0.0
+                  },
+                  "friction_delta" : 0.0,
+                  "friction_max" : 0.0,
+                  "friction_min" : 0.0,
+                  "friction_val" : 0.0,
+                  "glow" : false,
+                  "glow_exposure_delta" : 0.0,
+                  "glow_exposure_max" : 1.0,
+                  "glow_exposure_min" : 1.0,
+                  "glow_exposure_val" : 1.0,
+                  "glow_strength" : 1.0,
+                  "gradient" : {
+                     "control_point" : [
+                        {
+                           "color" : {
+                              "a" : 1.0,
+                              "b" : 1.0,
+                              "g" : 1.0,
+                              "r" : 1.0
+                           },
+                           "time" : 0.0
+                        },
+                        {
+                           "color" : {
+                              "a" : 1.0,
+                              "b" : 0.0,
+                              "g" : 0.0,
+                              "r" : 0.0
+                           },
+                           "time" : 1.0
+                        }
+                     ]
+                  },
+                  "guid" : 1,
+                  "height_delta" : 0.0,
+                  "height_max" : 0.3499999940395355,
+                  "height_min" : 0.3499999940395355,
+                  "height_val" : 0.3499999940395355,
+                  "hidden" : false,
+                  "inherit_velocity" : false,
+                  "keep_local" : true,
+                  "lifetime_loss" : 0.0,
+                  "material_name" : "",
+                  "mesh" : "",
+                  "mesh_diffuse" : "",
+                  "mesh_type" : "world",
+                  "min_quality" : "low",
+                  "name" : "ShadowTest",
+                  "normal_map" : "",
+                  "params" : 0,
+                  "particle" : "billboard",
+                  "position" : {
+                     "x" : 0.0,
+                     "y" : 0.0,
+                     "z" : -0.1000000014901161
+                  },
+                  "radius" : 1.0,
+                  "repeat_delay" : 0.0,
+                  "rotation_axis" : {
+                     "x" : 1.0,
+                     "y" : 0.0,
+                     "z" : 0.0
+                  },
+                  "rotation_delta" : 0.0,
+                  "rotation_max" : 180.0,
+                  "rotation_min" : 180.0,
+                  "rotation_speed_delta" : 0.0,
+                  "rotation_speed_max" : 0.0,
+                  "rotation_speed_min" : 0.0,
+                  "rotation_speed_val" : 0.0,
+                  "rotation_val" : 180.0,
+                  "scene_blend" : "subtract",
+                  "shadows" : false,
+                  "soft_particles_bias" : 512,
+                  "sort" : 0,
+                  "sort_offset" : 0.0,
+                  "spawn_chance" : 1.0,
+                  "sphere_radius" : 1.0,
+                  "start_color" : "solid",
+                  "sub" : null,
+                  "sub_emit" : "birth",
+                  "surface" : false,
+                  "texture_coords_columns" : 1,
+                  "texture_coords_rows" : 1,
+                  "time_to_live_delta" : 0.0,
+                  "time_to_live_max" : 0.1500000059604645,
+                  "time_to_live_min" : 0.1500000059604645,
+                  "time_to_live_val" : 0.1500000059604645,
+                  "type" : "point",
+                  "velocity_delta" : 0.0,
+                  "velocity_max" : 0.0,
+                  "velocity_min" : 0.0,
+                  "velocity_val" : 0.0,
+                  "visual_particle_quota" : 100,
+                  "width_delta" : 0.0,
+                  "width_max" : 0.1000000014901161,
+                  "width_min" : 0.1000000014901161,
+                  "width_val" : 0.1000000014901161,
+                  "wind_delta" : 0.0,
+                  "wind_max" : 0.0,
+                  "wind_min" : 0.0,
+                  "wind_val" : 0.0
+               }
+            ],
+            "sub_emit" : "death",
+            "surface" : false,
+            "texture_coords_columns" : 4,
+            "texture_coords_rows" : 8,
+            "time_to_live_delta" : 0.0,
+            "time_to_live_max" : 10.0,
+            "time_to_live_min" : 10.0,
+            "time_to_live_val" : 10.0,
+            "type" : "cone",
+            "velocity_delta" : 0.1000000014901161,
+            "velocity_max" : 0.1000000014901161,
+            "velocity_min" : -0.1000000014901161,
+            "velocity_val" : 0.0,
+            "visual_particle_quota" : 300,
+            "width_delta" : 0.01250000018626451,
+            "width_max" : 0.2125000059604645,
+            "width_min" : 0.18750,
+            "width_val" : 0.2000000029802322,
+            "wind_delta" : 0.0,
+            "wind_max" : 0.0,
+            "wind_min" : 0.0,
+            "wind_val" : 0.0
+         },
+         {
+            "AO_map" : "",
+            "ASG_map" : "",
+            "alpha" : false,
+            "angle_delta" : 0.0,
+            "angle_max" : 0.0,
+            "angle_min" : 0.0,
+            "angle_val" : 0.0,
+            "billboard_origin" : "center",
+            "billboard_type" : "axial_self",
+            "bounce_delta" : 0.0,
+            "bounce_max" : 0.50,
+            "bounce_min" : 0.50,
+            "bounce_val" : 0.50,
+            "box_depth" : 1.0,
+            "box_height" : 1.0,
+            "box_width" : 1.0,
+            "category" : "01 - ",
+            "circle_angle" : 0.0,
+            "collision" : "none",
+            "color" : {
+               "a" : 1.0,
+               "b" : 0.0,
+               "g" : 0.30212402343750,
+               "r" : 0.8593750
+            },
+            "cone_angle" : 90.0,
+            "cone_radius" : 0.250,
+            "default_mesh_depth" : 1.0,
+            "default_mesh_height" : 1.0,
+            "default_mesh_width" : 1.0,
+            "default_particle_depth" : 0.0,
+            "default_particle_height" : 1.0,
+            "default_particle_width" : 1.0,
+            "delay" : 0.0,
+            "depth_delta" : 0.0,
+            "depth_max" : 1.0,
+            "depth_min" : 1.0,
+            "depth_val" : 1.0,
+            "diffuse" : "Textures/Debri/debri_butterfly03.tga",
+            "direction" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "direction_type" : "shape",
+            "duration" : 1.0,
+            "editorColor" : {
+               "a" : 1.0,
+               "b" : 1.0,
+               "g" : 1.0,
+               "r" : 1.0
+            },
+            "effects" : [
+               {
+                  "axis" : "x",
+                  "base" : -1.600000023841858,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 1.600000023841858,
+                        "time" : 0.3300000131130219
+                     },
+                     {
+                        "scale" : -1.600000023841858,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 9,
+                  "local" : true,
+                  "max" : 1.600000023841858,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "z",
+                  "base" : -1.600000023841858,
+                  "control_point" : [
+                     {
+                        "scale" : -1.600000023841858,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 1.600000023841858,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -1.600000023841858,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 10,
+                  "local" : true,
+                  "max" : 1.600000023841858,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "animation" : "sheet",
+                  "end_texture_coords_range" : 16,
+                  "fps" : 21,
+                  "guid" : 11,
+                  "mode" : "over_time",
+                  "name" : "TextureAnimator",
+                  "repeat" : true,
+                  "start_texture_coords_range" : 0,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "y",
+                  "base" : -0.250,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.1669999957084656
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.3330000042915344
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.8241205811500549
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 12,
+                  "local" : true,
+                  "max" : 0.250,
+                  "name" : "Velocity",
+                  "repeat_over_time" : false,
+                  "repeat_time" : 1.0,
+                  "toggle" : true
+               }
+            ],
+            "emission_mesh" : "",
+            "emission_mesh_scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "emission_mode" : "loop",
+            "emission_rate" : 1,
+            "force_vector" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "friction_delta" : 0.0,
+            "friction_max" : 0.1000000014901161,
+            "friction_min" : 0.1000000014901161,
+            "friction_val" : 0.1000000014901161,
+            "glow" : true,
+            "glow_exposure_delta" : 0.0,
+            "glow_exposure_max" : 1.0,
+            "glow_exposure_min" : 1.0,
+            "glow_exposure_val" : 1.0,
+            "glow_strength" : 0.8000000119209290,
+            "gradient" : {
+               "control_point" : [
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.191406250,
+                        "g" : 0.191406250,
+                        "r" : 0.191406250
+                     },
+                     "time" : 0.0
+                  },
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.16406250,
+                        "g" : 0.16406250,
+                        "r" : 0.16406250
+                     },
+                     "time" : 1.0
+                  }
+               ]
+            },
+            "guid" : 8,
+            "height_delta" : 0.01250000018626451,
+            "height_max" : 0.2125000059604645,
+            "height_min" : 0.18750,
+            "height_val" : 0.2000000029802322,
+            "hidden" : false,
+            "inherit_velocity" : false,
+            "keep_local" : false,
+            "lifetime_loss" : 0.0,
+            "material_name" : "",
+            "mesh" : "",
+            "mesh_diffuse" : "",
+            "mesh_type" : "world",
+            "min_quality" : "high",
+            "name" : "Flies (High)",
+            "normal_map" : "",
+            "params" : 0,
+            "particle" : "billboard",
+            "position" : {
+               "x" : -0.2000000029802322,
+               "y" : -0.0,
+               "z" : -0.4000000059604645
+            },
+            "radius" : 10.0,
+            "repeat_delay" : 0.0,
+            "rotation_axis" : {
+               "x" : 1.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "rotation_delta" : 1.0,
+            "rotation_max" : 181.0,
+            "rotation_min" : 179.0,
+            "rotation_speed_delta" : 5.0,
+            "rotation_speed_max" : 5.0,
+            "rotation_speed_min" : -5.0,
+            "rotation_speed_val" : 0.0,
+            "rotation_val" : 180.0,
+            "scene_blend" : "alpha_blend",
+            "shadows" : true,
+            "soft_particles_bias" : 5000,
+            "sort" : 0,
+            "sort_offset" : 0.0,
+            "spawn_chance" : 0.50,
+            "sphere_radius" : 0.1250,
+            "start_color" : "solid",
+            "sub" : null,
+            "sub_emit" : "death",
+            "surface" : false,
+            "texture_coords_columns" : 4,
+            "texture_coords_rows" : 8,
+            "time_to_live_delta" : 0.0,
+            "time_to_live_max" : 10.0,
+            "time_to_live_min" : 10.0,
+            "time_to_live_val" : 10.0,
+            "type" : "cone",
+            "velocity_delta" : 0.1000000014901161,
+            "velocity_max" : 0.1000000014901161,
+            "velocity_min" : -0.1000000014901161,
+            "velocity_val" : 0.0,
+            "visual_particle_quota" : 300,
+            "width_delta" : 0.01250000018626451,
+            "width_max" : 0.2125000059604645,
+            "width_min" : 0.18750,
+            "width_val" : 0.2000000029802322,
+            "wind_delta" : 0.0,
+            "wind_max" : 0.0,
+            "wind_min" : 0.0,
+            "wind_val" : 0.0
+         },
+         {
+            "AO_map" : "",
+            "ASG_map" : "",
+            "alpha" : false,
+            "angle_delta" : 0.0,
+            "angle_max" : 0.0,
+            "angle_min" : 0.0,
+            "angle_val" : 0.0,
+            "billboard_origin" : "center",
+            "billboard_type" : "axial_self",
+            "bounce_delta" : 0.0,
+            "bounce_max" : 0.50,
+            "bounce_min" : 0.50,
+            "bounce_val" : 0.50,
+            "box_depth" : 1.0,
+            "box_height" : 1.0,
+            "box_width" : 1.0,
+            "category" : "01 - ",
+            "circle_angle" : 0.0,
+            "collision" : "none",
+            "color" : {
+               "a" : 1.0,
+               "b" : 0.0,
+               "g" : 0.262790173292160,
+               "r" : 0.753906250
+            },
+            "cone_angle" : 90.0,
+            "cone_radius" : 0.3499999940395355,
+            "default_mesh_depth" : 1.0,
+            "default_mesh_height" : 1.0,
+            "default_mesh_width" : 1.0,
+            "default_particle_depth" : 0.0,
+            "default_particle_height" : 1.0,
+            "default_particle_width" : 1.0,
+            "delay" : 0.0,
+            "depth_delta" : 0.0,
+            "depth_max" : 1.0,
+            "depth_min" : 1.0,
+            "depth_val" : 1.0,
+            "diffuse" : "Textures/Debri/debri_butterfly03.tga",
+            "direction" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "direction_type" : "shape",
+            "duration" : 1.0,
+            "editorColor" : {
+               "a" : 1.0,
+               "b" : 1.0,
+               "g" : 1.0,
+               "r" : 1.0
+            },
+            "effects" : [
+               {
+                  "axis" : "x",
+                  "base" : -1.600000023841858,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 1.600000023841858,
+                        "time" : 0.3300000131130219
+                     },
+                     {
+                        "scale" : -1.600000023841858,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 14,
+                  "local" : true,
+                  "max" : 1.600000023841858,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "z",
+                  "base" : -1.600000023841858,
+                  "control_point" : [
+                     {
+                        "scale" : -1.600000023841858,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 1.600000023841858,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -1.600000023841858,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 15,
+                  "local" : true,
+                  "max" : 1.600000023841858,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "animation" : "sheet",
+                  "end_texture_coords_range" : 16,
+                  "fps" : 21,
+                  "guid" : 16,
+                  "mode" : "over_time",
+                  "name" : "TextureAnimator",
+                  "repeat" : true,
+                  "start_texture_coords_range" : 0,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "y",
+                  "base" : -0.250,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.1669999957084656
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.3330000042915344
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.8241205811500549
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 17,
+                  "local" : true,
+                  "max" : 0.250,
+                  "name" : "Velocity",
+                  "repeat_over_time" : false,
+                  "repeat_time" : 1.0,
+                  "toggle" : true
+               }
+            ],
+            "emission_mesh" : "",
+            "emission_mesh_scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "emission_mode" : "loop",
+            "emission_rate" : 1,
+            "force_vector" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "friction_delta" : 0.0,
+            "friction_max" : 0.1000000014901161,
+            "friction_min" : 0.1000000014901161,
+            "friction_val" : 0.1000000014901161,
+            "glow" : true,
+            "glow_exposure_delta" : 0.0,
+            "glow_exposure_max" : 1.0,
+            "glow_exposure_min" : 1.0,
+            "glow_exposure_val" : 1.0,
+            "glow_strength" : 0.6499999761581421,
+            "gradient" : {
+               "control_point" : [
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.191406250,
+                        "g" : 0.191406250,
+                        "r" : 0.191406250
+                     },
+                     "time" : 0.0
+                  },
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.16406250,
+                        "g" : 0.16406250,
+                        "r" : 0.16406250
+                     },
+                     "time" : 1.0
+                  }
+               ]
+            },
+            "guid" : 13,
+            "height_delta" : 0.01250000018626451,
+            "height_max" : 0.18750,
+            "height_min" : 0.1624999940395355,
+            "height_val" : 0.1749999970197678,
+            "hidden" : false,
+            "inherit_velocity" : false,
+            "keep_local" : false,
+            "lifetime_loss" : 0.0,
+            "material_name" : "",
+            "mesh" : "",
+            "mesh_diffuse" : "",
+            "mesh_type" : "world",
+            "min_quality" : "high",
+            "name" : "Flies (High)",
+            "normal_map" : "",
+            "params" : 0,
+            "particle" : "billboard",
+            "position" : {
+               "x" : -0.2000000029802322,
+               "y" : -0.0,
+               "z" : -0.6999999880790710
+            },
+            "radius" : 10.0,
+            "repeat_delay" : 0.0,
+            "rotation_axis" : {
+               "x" : 1.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "rotation_delta" : 1.0,
+            "rotation_max" : 181.0,
+            "rotation_min" : 179.0,
+            "rotation_speed_delta" : 5.0,
+            "rotation_speed_max" : 5.0,
+            "rotation_speed_min" : -5.0,
+            "rotation_speed_val" : 0.0,
+            "rotation_val" : 180.0,
+            "scene_blend" : "alpha_blend",
+            "shadows" : true,
+            "soft_particles_bias" : 5000,
+            "sort" : 0,
+            "sort_offset" : 0.0,
+            "spawn_chance" : 0.3000000119209290,
+            "sphere_radius" : 0.1250,
+            "start_color" : "solid",
+            "sub" : null,
+            "sub_emit" : "death",
+            "surface" : false,
+            "texture_coords_columns" : 4,
+            "texture_coords_rows" : 8,
+            "time_to_live_delta" : 0.0,
+            "time_to_live_max" : 10.0,
+            "time_to_live_min" : 10.0,
+            "time_to_live_val" : 10.0,
+            "type" : "cone",
+            "velocity_delta" : 0.1000000014901161,
+            "velocity_max" : 0.1000000014901161,
+            "velocity_min" : -0.1000000014901161,
+            "velocity_val" : 0.0,
+            "visual_particle_quota" : 300,
+            "width_delta" : 0.01250000018626451,
+            "width_max" : 0.18750,
+            "width_min" : 0.1624999940395355,
+            "width_val" : 0.1749999970197678,
+            "wind_delta" : 0.0,
+            "wind_max" : 0.0,
+            "wind_min" : 0.0,
+            "wind_val" : 0.0
+         },
+         {
+            "AO_map" : "",
+            "ASG_map" : "",
+            "alpha" : false,
+            "angle_delta" : 0.0,
+            "angle_max" : 0.0,
+            "angle_min" : 0.0,
+            "angle_val" : 0.0,
+            "billboard_origin" : "center",
+            "billboard_type" : "axial_self",
+            "bounce_delta" : 0.0,
+            "bounce_max" : 0.50,
+            "bounce_min" : 0.50,
+            "bounce_val" : 0.50,
+            "box_depth" : 1.0,
+            "box_height" : 1.0,
+            "box_width" : 1.0,
+            "category" : "01 - ",
+            "circle_angle" : 0.0,
+            "collision" : "none",
+            "color" : {
+               "a" : 1.0,
+               "b" : 0.0,
+               "g" : 0.2260267734527588,
+               "r" : 0.64843750
+            },
+            "cone_angle" : 90.0,
+            "cone_radius" : 0.8000000119209290,
+            "default_mesh_depth" : 1.0,
+            "default_mesh_height" : 1.0,
+            "default_mesh_width" : 1.0,
+            "default_particle_depth" : 0.0,
+            "default_particle_height" : 1.0,
+            "default_particle_width" : 1.0,
+            "delay" : 0.0,
+            "depth_delta" : 0.0,
+            "depth_max" : 1.0,
+            "depth_min" : 1.0,
+            "depth_val" : 1.0,
+            "diffuse" : "Textures/Debri/debri_butterfly03.tga",
+            "direction" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "direction_type" : "shape",
+            "duration" : 1.0,
+            "editorColor" : {
+               "a" : 1.0,
+               "b" : 1.0,
+               "g" : 1.0,
+               "r" : 1.0
+            },
+            "effects" : [
+               {
+                  "axis" : "x",
+                  "base" : -2.0,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 2.0,
+                        "time" : 0.3300000131130219
+                     },
+                     {
+                        "scale" : -2.0,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 19,
+                  "local" : true,
+                  "max" : 2.0,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "z",
+                  "base" : -2.0,
+                  "control_point" : [
+                     {
+                        "scale" : -2.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 2.0,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -2.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 20,
+                  "local" : true,
+                  "max" : 2.0,
+                  "name" : "Velocity",
+                  "repeat_over_time" : true,
+                  "repeat_time" : 2.50,
+                  "toggle" : true
+               },
+               {
+                  "animation" : "sheet",
+                  "end_texture_coords_range" : 16,
+                  "fps" : 21,
+                  "guid" : 21,
+                  "mode" : "over_time",
+                  "name" : "TextureAnimator",
+                  "repeat" : true,
+                  "start_texture_coords_range" : 0,
+                  "toggle" : true
+               },
+               {
+                  "axis" : "y",
+                  "base" : -0.250,
+                  "control_point" : [
+                     {
+                        "scale" : 0.0,
+                        "time" : 0.0
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.1669999957084656
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.3330000042915344
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.50
+                     },
+                     {
+                        "scale" : -0.250,
+                        "time" : 0.6660000085830688
+                     },
+                     {
+                        "scale" : 0.250,
+                        "time" : 0.8241205811500549
+                     },
+                     {
+                        "scale" : 0.0,
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 22,
+                  "local" : true,
+                  "max" : 0.250,
+                  "name" : "Velocity",
+                  "repeat_over_time" : false,
+                  "repeat_time" : 1.0,
+                  "toggle" : true
+               }
+            ],
+            "emission_mesh" : "",
+            "emission_mesh_scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "emission_mode" : "loop",
+            "emission_rate" : 1,
+            "force_vector" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "friction_delta" : 0.0,
+            "friction_max" : 0.1000000014901161,
+            "friction_min" : 0.1000000014901161,
+            "friction_val" : 0.1000000014901161,
+            "glow" : false,
+            "glow_exposure_delta" : 0.0,
+            "glow_exposure_max" : 1.0,
+            "glow_exposure_min" : 1.0,
+            "glow_exposure_val" : 1.0,
+            "glow_strength" : 0.2000000029802322,
+            "gradient" : {
+               "control_point" : [
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.191406250,
+                        "g" : 0.191406250,
+                        "r" : 0.191406250
+                     },
+                     "time" : 0.0
+                  },
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.16406250,
+                        "g" : 0.16406250,
+                        "r" : 0.16406250
+                     },
+                     "time" : 1.0
+                  }
+               ]
+            },
+            "guid" : 18,
+            "height_delta" : 0.01250000018626451,
+            "height_max" : 0.18750,
+            "height_min" : 0.1624999940395355,
+            "height_val" : 0.1749999970197678,
+            "hidden" : false,
+            "inherit_velocity" : false,
+            "keep_local" : false,
+            "lifetime_loss" : 0.0,
+            "material_name" : "",
+            "mesh" : "",
+            "mesh_diffuse" : "",
+            "mesh_type" : "world",
+            "min_quality" : "high",
+            "name" : "Flies (High)",
+            "normal_map" : "",
+            "params" : 0,
+            "particle" : "billboard",
+            "position" : {
+               "x" : -0.2000000029802322,
+               "y" : -0.0,
+               "z" : -1.100000023841858
+            },
+            "radius" : 10.0,
+            "repeat_delay" : 0.0,
+            "rotation_axis" : {
+               "x" : 1.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "rotation_delta" : 1.0,
+            "rotation_max" : 181.0,
+            "rotation_min" : 179.0,
+            "rotation_speed_delta" : 5.0,
+            "rotation_speed_max" : 5.0,
+            "rotation_speed_min" : -5.0,
+            "rotation_speed_val" : 0.0,
+            "rotation_val" : 180.0,
+            "scene_blend" : "alpha_blend",
+            "shadows" : true,
+            "soft_particles_bias" : 5000,
+            "sort" : 0,
+            "sort_offset" : 0.0,
+            "spawn_chance" : 0.50,
+            "sphere_radius" : 0.1250,
+            "start_color" : "solid",
+            "sub" : null,
+            "sub_emit" : "death",
+            "surface" : false,
+            "texture_coords_columns" : 4,
+            "texture_coords_rows" : 8,
+            "time_to_live_delta" : 0.0,
+            "time_to_live_max" : 10.0,
+            "time_to_live_min" : 10.0,
+            "time_to_live_val" : 10.0,
+            "type" : "cone",
+            "velocity_delta" : 0.1000000014901161,
+            "velocity_max" : 0.1000000014901161,
+            "velocity_min" : -0.1000000014901161,
+            "velocity_val" : 0.0,
+            "visual_particle_quota" : 300,
+            "width_delta" : 0.01250000018626451,
+            "width_max" : 0.18750,
+            "width_min" : 0.1624999940395355,
+            "width_val" : 0.1749999970197678,
+            "wind_delta" : 0.0,
+            "wind_max" : 0.0,
+            "wind_min" : 0.0,
+            "wind_val" : 0.0
+         },
+         {
+            "AO_map" : "",
+            "ASG_map" : "",
+            "alpha" : false,
+            "angle_delta" : 0.0,
+            "angle_max" : 0.0,
+            "angle_min" : 0.0,
+            "angle_val" : 0.0,
+            "billboard_origin" : "center",
+            "billboard_type" : "world",
+            "bounce_delta" : 0.0,
+            "bounce_max" : 0.50,
+            "bounce_min" : 0.50,
+            "bounce_val" : 0.50,
+            "box_depth" : 1.0,
+            "box_height" : 1.0,
+            "box_width" : 1.0,
+            "category" : "",
+            "circle_angle" : 0.0,
+            "collision" : "none",
+            "color" : {
+               "a" : 1.0,
+               "b" : 0.0,
+               "g" : 0.3281250,
+               "r" : 1.0
+            },
+            "cone_angle" : 25.0,
+            "cone_radius" : 1.0,
+            "default_mesh_depth" : 1.0,
+            "default_mesh_height" : 1.0,
+            "default_mesh_width" : 1.0,
+            "default_particle_depth" : 0.0,
+            "default_particle_height" : 1.0,
+            "default_particle_width" : 1.0,
+            "delay" : 0.0,
+            "depth_delta" : 0.0,
+            "depth_max" : 1.0,
+            "depth_min" : 1.0,
+            "depth_val" : 1.0,
+            "diffuse" : "Textures/Glow/glow_glow04.tga",
+            "direction" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "direction_type" : "shape",
+            "duration" : 1.0,
+            "editorColor" : {
+               "a" : 1.0,
+               "b" : 1.0,
+               "g" : 1.0,
+               "r" : 1.0
+            },
+            "effects" : [
+               {
+                  "control_point" : [
+                     {
+                        "color" : {
+                           "a" : 1.0,
+                           "b" : 0.0,
+                           "g" : 0.0,
+                           "r" : 0.0
+                        },
+                        "time" : 0.0
+                     },
+                     {
+                        "color" : {
+                           "a" : 1.0,
+                           "b" : 0.1000000014901161,
+                           "g" : 0.1000000014901161,
+                           "r" : 0.1000000014901161
+                        },
+                        "time" : 0.5464788675308228
+                     },
+                     {
+                        "color" : {
+                           "a" : 1.0,
+                           "b" : 0.0,
+                           "g" : 0.0,
+                           "r" : 0.0
+                        },
+                        "time" : 1.0
+                     }
+                  ],
+                  "guid" : 24,
+                  "name" : "Color",
+                  "toggle" : true
+               }
+            ],
+            "emission_mesh" : "",
+            "emission_mesh_scale" : {
+               "x" : 1.0,
+               "y" : 1.0,
+               "z" : 1.0
+            },
+            "emission_mode" : "loop",
+            "emission_rate" : 2,
+            "force_vector" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "friction_delta" : 0.0,
+            "friction_max" : 0.0,
+            "friction_min" : 0.0,
+            "friction_val" : 0.0,
+            "glow" : true,
+            "glow_exposure_delta" : 0.0,
+            "glow_exposure_max" : 1.0,
+            "glow_exposure_min" : 1.0,
+            "glow_exposure_val" : 1.0,
+            "glow_strength" : 1.0,
+            "gradient" : {
+               "control_point" : [
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 1.0,
+                        "g" : 1.0,
+                        "r" : 1.0
+                     },
+                     "time" : 0.0
+                  },
+                  {
+                     "color" : {
+                        "a" : 1.0,
+                        "b" : 0.0,
+                        "g" : 0.0,
+                        "r" : 0.0
+                     },
+                     "time" : 1.0
+                  }
+               ]
+            },
+            "guid" : 23,
+            "height_delta" : 0.250,
+            "height_max" : 3.0,
+            "height_min" : 2.50,
+            "height_val" : 2.750,
+            "hidden" : false,
+            "inherit_velocity" : false,
+            "keep_local" : true,
+            "lifetime_loss" : 0.0,
+            "material_name" : "",
+            "mesh" : "",
+            "mesh_diffuse" : "",
+            "mesh_type" : "world",
+            "min_quality" : "low",
+            "name" : "GlowBig",
+            "normal_map" : "",
+            "params" : 0,
+            "particle" : "billboard",
+            "position" : {
+               "x" : 0.0,
+               "y" : 0.0,
+               "z" : 0.750
+            },
+            "radius" : 1.0,
+            "repeat_delay" : 0.0,
+            "rotation_axis" : {
+               "x" : 1.0,
+               "y" : 0.0,
+               "z" : 0.0
+            },
+            "rotation_delta" : 0.0,
+            "rotation_max" : 0.0,
+            "rotation_min" : 0.0,
+            "rotation_speed_delta" : 0.0,
+            "rotation_speed_max" : 0.0,
+            "rotation_speed_min" : 0.0,
+            "rotation_speed_val" : 0.0,
+            "rotation_val" : 0.0,
+            "scene_blend" : "addative",
+            "shadows" : false,
+            "soft_particles_bias" : 512,
+            "sort" : 0,
+            "sort_offset" : 0.0,
+            "spawn_chance" : 1.0,
+            "sphere_radius" : 1.0,
+            "start_color" : "solid",
+            "sub" : null,
+            "sub_emit" : "death",
+            "surface" : false,
+            "texture_coords_columns" : 1,
+            "texture_coords_rows" : 1,
+            "time_to_live_delta" : 0.0,
+            "time_to_live_max" : 4.0,
+            "time_to_live_min" : 4.0,
+            "time_to_live_val" : 4.0,
+            "type" : "point",
+            "velocity_delta" : 0.0,
+            "velocity_max" : 0.0,
+            "velocity_min" : 0.0,
+            "velocity_val" : 0.0,
+            "visual_particle_quota" : 31,
+            "width_delta" : 0.250,
+            "width_max" : 3.0,
+            "width_min" : 2.50,
+            "width_val" : 2.750,
+            "wind_delta" : 0.0,
+            "wind_max" : 0.0,
+            "wind_min" : 0.0,
+            "wind_val" : 0.0
+         }
+      ],
+      "min_quality" : "high",
+      "scale" : 1.0,
+      "scale_time" : 2.0,
+      "scale_velocity" : 1.0,
+      "system_type" : "stream"
+   }
+}

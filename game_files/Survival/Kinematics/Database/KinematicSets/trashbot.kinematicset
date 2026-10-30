@@ -1,0 +1,158 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col_box" : 
+			{
+				"x" : 5,
+				"y" : 5,
+				"z" : 5
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : true,
+				"projectile" : true
+			},
+			"color" : "ffffff",
+			"kinematic" : true,
+			"mass" : 10000.0,
+			"material" : "Mechanical",
+			"name" : "kin_trashbot_battery",
+			"script" : 
+			{
+				"class" : "TrashbotCore",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotCore.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "86d95db4-6355-49ce-a645-03938c986dca"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Trashbot/kin_trashbot_armend_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Bots",
+			"name" : "armend",
+			"script" : 
+			{
+				"class" : "TrashbotKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotKinematic.lua"
+			},
+			"uuid" : "f80d42b7-b294-4dd0-890e-66d037a6cd11"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Trashbot/kin_trashbot_centersection_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Bots",
+			"name" : "centersection",
+			"script" : 
+			{
+				"class" : "TrashbotKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotKinematic.lua"
+			},
+			"uuid" : "77279545-9e45-4cb9-946a-0f585cb0f514"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Trashbot/kin_trashbot_head_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Bots",
+			"name" : "head",
+			"script" : 
+			{
+				"class" : "TrashbotKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotKinematic.lua"
+			},
+			"uuid" : "339ea9ef-b610-488f-9ed7-dbc894b30f13"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Trashbot/kin_trashbot_leg01_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Bots",
+			"name" : "leg01",
+			"script" : 
+			{
+				"class" : "TrashbotKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotKinematic.lua"
+			},
+			"uuid" : "1090c8a2-5e28-480a-bef0-582087e83a1a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Trashbot/kin_trashbot_leg02_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Bots",
+			"name" : "leg02",
+			"script" : 
+			{
+				"class" : "TrashbotKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotKinematic.lua"
+			},
+			"uuid" : "66ba7f43-e6ed-4b75-8845-8312450631ea"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Trashbot/kin_trashbot_midsection_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Bots",
+			"name" : "midsection",
+			"script" : 
+			{
+				"class" : "TrashbotKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotKinematic.lua"
+			},
+			"uuid" : "35886aef-079c-4317-a469-df6759c1849c"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Trashbot/kin_trashbot_trashsection_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Slime",
+			"name" : "trashsection",
+			"script" : 
+			{
+				"class" : "TrashbotKinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/TrashbotKinematic.lua"
+			},
+			"uuid" : "25d24db2-5ce5-4b34-b896-ac5ce7023c61"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Rail/kin_mechanical_advacestairs_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "Advacestairs",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Rail/kin_mechanical_advacestairs.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "fef6596a-03a4-4007-b7bf-0d12bf81c4d3"
+		}
+	]
+}

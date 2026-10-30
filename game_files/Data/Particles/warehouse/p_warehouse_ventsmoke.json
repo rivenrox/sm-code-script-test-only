@@ -1,0 +1,350 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					1.0,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds04.tga",
+				"direction" : 
+				[
+					0.5,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 24,
+						"guid" : 1,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.26478,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.61325
+								]
+							],
+							[
+								0.83942,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.24423
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.13153
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Smoke4",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2024,
+				"sort_offset" : 1.0,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"translucency" : 0.5,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				],
+				"z_offset" : 120.0
+			},
+			{
+				"box" : 
+				[
+					1.0,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds04.tga",
+				"direction" : 
+				[
+					0.5,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 15,
+						"guid" : 6,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.32111,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.67185
+								]
+							],
+							[
+								0.83942,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.24423
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.54671,
+								0.93005
+							],
+							[
+								0.73874,
+								0.8374
+							],
+							[
+								0.84254,
+								0.65217
+							],
+							[
+								1.0,
+								0.23251
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 9,
+						"length" : 0.00999,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 2.0,
+				"guid" : 5,
+				"height" : 
+				[
+					4.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Smoke Big Sharp",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2024,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					1.0
+				],
+				"translucency" : 0.49,
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					0.5
+				],
+				"z_offset" : 120.0
+			}
+		]
+	}
+}

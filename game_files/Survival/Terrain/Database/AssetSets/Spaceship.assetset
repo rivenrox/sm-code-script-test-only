@@ -1,0 +1,160 @@
+{
+	"assetListRenderable" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Spaceship/env_spaceship_spaceship_col.fbx",
+			"defaultColors" : 
+			{
+				"Color01" : "982216ff",
+				"Color03" : "221414ff",
+				"glass" : "45bbff"
+			},
+			"name" : "env_spaceship_spaceship",
+			"physics" : 
+			{
+				"mass" : 10000.0,
+				"material" : "Metal"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Spaceship/env_spaceship_spaceship.rend",
+			"uuid" : "7dcf437d-4da5-4d2d-b5c7-274f0df546d1"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Spaceship/env_spaceship_spaceship_interior01_col.fbx",
+			"defaultColors" : 
+			{
+				"blue" : "3e9ffe",
+				"glass" : "45bbff",
+				"grey" : "494949",
+				"metal02" : "953500",
+				"orange" : "ff9600",
+				"red" : "9f0e00"
+			},
+			"name" : "env_spaceship_spaceship_interior01",
+			"physics" : 
+			{
+				"mass" : 10000.0,
+				"material" : "Metal"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Spaceship/env_spaceship_spaceship_interior01.rend",
+			"uuid" : "ffd92daf-820b-43ca-8c71-13b510996297"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Spaceship/env_spaceship_wing_col.obj",
+			"defaultColors" : 
+			{
+				"metal02" : "953500",
+				"orange" : "ff9600",
+				"red" : "9f0e00"
+			},
+			"name" : "env_spaceship_wing",
+			"physics" : 
+			{
+				"mass" : 10000.0,
+				"material" : "Metal"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"UV0",
+							"UV1",
+							"NORMAL",
+							"TANGENTS"
+						],
+						"maxViewDistance" : 2500,
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Spaceship/env_spaceship_wing.fbx",
+						"subMeshMap" : 
+						{
+							"spaceship_metal01" : 
+							{
+								"custom" : 
+								{
+									"color" : "red"
+								},
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_metal01_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_metal01_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Detailmaps/t_tiled_spaceship_metal01_nor.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Spaceship/env_spaceship_wing_ao.tga"
+								]
+							},
+							"spaceship_metal02" : 
+							{
+								"custom" : 
+								{
+									"color" : "metal02"
+								},
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_metal02_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_metal02_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Detailmaps/t_tiled_spaceship_metal02_nor.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Spaceship/env_spaceship_wing_ao.tga"
+								]
+							},
+							"spaceship_orange" : 
+							{
+								"custom" : 
+								{
+									"color" : "orange"
+								},
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_metal01_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_metal01_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Detailmaps/t_tiled_spaceship_metal01_nor.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Spaceship/env_spaceship_wing_ao.tga"
+								]
+							},
+							"spaceship_shiny01" : 
+							{
+								"custom" : 
+								{
+									"color" : "orange"
+								},
+								"material" : "DifAsgNorAo",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_shiny01_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Metal/t_tiled_spaceship_shiny01_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Detailmaps/t_tiled_spaceship_shiny01_nor.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Spaceship/env_spaceship_wing_ao.tga"
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						-10.646774292,
+						-0.058486938,
+						-1.781082153
+					],
+					"rotation" : 
+					[
+						-0.000020491,
+						-0.0,
+						0.0
+					],
+					"size" : 
+					[
+						11.994166374,
+						10.430980682,
+						29.882764816
+					]
+				}
+			},
+			"uuid" : "784d12cd-4cc2-46ae-9887-4c05899941aa"
+		}
+	]
+}

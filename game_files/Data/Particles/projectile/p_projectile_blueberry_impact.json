@@ -1,0 +1,1196 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "axial_self",
+				"category" : "02 - Impact",
+				"circle_angle" : 25.0,
+				"default_particle" : 
+				[
+					0.17,
+					0.17
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.74058,
+									0.33592,
+									1.0
+								]
+							],
+							[
+								0.8507,
+								[
+									1.0,
+									0.93085,
+									0.85544,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.91755,
+									0.8281,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.27823,
+								2.59208
+							],
+							[
+								1.0,
+								4.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 3,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.91447
+							],
+							[
+								1.0,
+								1.40129
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 4001,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 12,
+				"min_quality" : "high",
+				"name" : "Impact projectile (High)",
+				"radius" : 0.001,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2048,
+				"time_to_live" : 
+				[
+					0.15,
+					0.00999
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					3.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.15
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"category" : "02 - Impact",
+				"default_particle" : 
+				[
+					0.125,
+					0.125
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_circleflashanimated01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.73724,
+									0.33333,
+									1.0
+								]
+							],
+							[
+								0.70139,
+								[
+									1.0,
+									0.9294,
+									0.8549,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.9294,
+									0.8549,
+									0.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								5.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 5.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 3
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.82893
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 9,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 4001,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Impact FLash",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2048,
+				"tiles" : 
+				[
+					2,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.15,
+					0.00999
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"category" : "02 - Impact",
+				"circle_angle" : 0.0,
+				"color" : 
+				[
+					1.0,
+					0.89257,
+					0.6875,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.3,
+					0.3
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.75686,
+									0.41567,
+									1.0
+								]
+							],
+							[
+								0.75774,
+								[
+									1.0,
+									0.95437,
+									0.88669,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.9465,
+									0.86716,
+									0.0
+								]
+							]
+						],
+						"guid" : 11,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.54299
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 13,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 10,
+				"height" : 
+				[
+					1.25,
+					0.15
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Impact Smoke shockwave ADD",
+				"radius" : 0.0125,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 0.4,
+				"time_to_live" : 
+				[
+					0.15,
+					0.00999
+				],
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					0.15
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 180.0,
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "01 - Splashes",
+				"color" : 
+				[
+					0.30195,
+					0.23529,
+					0.76468,
+					0.98039
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/glowstick/p_splash_02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 15,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.25657
+							],
+							[
+								0.22695,
+								0.875
+							],
+							[
+								0.38297,
+								1.13812
+							],
+							[
+								1.0,
+								1.35526
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 150,
+				"friction" : 1.0,
+				"guid" : 14,
+				"height" : 
+				[
+					0.5,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 15,
+				"min_quality" : "medium",
+				"name" : "Splatter01 (medium)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2512,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.3,
+					0.05
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.35499,
+					0.07998
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"category" : "01 - Splashes",
+				"color" : 
+				[
+					0.30195,
+					0.23529,
+					0.76468,
+					0.98039
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/glowstick/p_splash_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 18,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 17,
+				"height" : 
+				[
+					0.69998,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Splatter02",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2512,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.25,
+					0.05
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.69998,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 180.0,
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "01 - Splashes",
+				"color" : 
+				[
+					0.30195,
+					0.23529,
+					0.76468,
+					0.98039
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/glowstick/p_splash_drop_02_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.76691,
+								0.87826
+							],
+							[
+								0.91101,
+								0.73355
+							],
+							[
+								1.0,
+								0.25657
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 1.0,
+				"guid" : 20,
+				"height" : 
+				[
+					0.075,
+					0.01999
+				],
+				"keep_local" : false,
+				"max_particles" : 10,
+				"min_quality" : "high",
+				"name" : "Dropps (High)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2512,
+				"time_to_live" : 0.449999988,
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.075,
+					0.01999
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 45.0,
+				"category" : "03 - Mesh",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_rate" : 20,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 22,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh part1 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/projectile/p_rendeble_projectile_blueberry01.rend",
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					0.5,
+					-1.0,
+					0.25
+				],
+				"rotation_speed" : 720.0,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.30195,
+							0.23529,
+							0.76468,
+							0.98039
+						],
+						"diffuse" : "$GAME_DATA/Particles/Textures/glowstick/p_splash_drop_02_nor.tga",
+						"direction_type" : "shape",
+						"duration" : 0.75,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.60197
+									],
+									[
+										0.1462,
+										1.24835
+									],
+									[
+										0.31852,
+										1.37662
+									],
+									[
+										0.7415,
+										1.28287
+									],
+									[
+										0.87989,
+										0.98684
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 24,
+								"max_scale" : 1.5,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									],
+									[
+										0.19436,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										0.84507,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									]
+								],
+								"guid" : 25,
+								"name" : "Color"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 12,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-5.0
+						],
+						"friction" : 5.0,
+						"guid" : 23,
+						"height" : 
+						[
+							0.075,
+							0.025
+						],
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 100,
+						"min_quality" : "high",
+						"name" : "Sub DropsTrails (High)",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"rotation_speed" : 
+						[
+							0.0,
+							45.0
+						],
+						"scene_blend" : "alpha_blend",
+						"soft_particles_bias" : 2000,
+						"sphere_radius" : 0.05,
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							0.5,
+							0.15
+						],
+						"type" : "sphere",
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.075,
+							0.025
+						]
+					}
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 
+				[
+					4.5,
+					1.5
+				],
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 45.0,
+				"category" : "03 - Mesh",
+				"depth" : 0.800000012,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.43092
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 27,
+				"height" : 0.800000012,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh part2 (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/projectile/p_rendeble_projectile_blueberry02.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					1.0,
+					1.0
+				],
+				"rotation_speed" : 720.0,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.30243,
+							0.23623,
+							0.7656,
+							0.98039
+						],
+						"diffuse" : "$GAME_DATA/Particles/Textures/glowstick/p_splash_drop_02_nor.tga",
+						"direction_type" : "shape",
+						"duration" : 0.75,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.71052
+									],
+									[
+										0.13838,
+										1.22368
+									],
+									[
+										0.28459,
+										1.36677
+									],
+									[
+										0.72323,
+										1.21379
+									],
+									[
+										0.84333,
+										0.98189
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 29,
+								"max_scale" : 1.5,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									],
+									[
+										0.16053,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										0.8507,
+										[
+											1.0,
+											1.0,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											1.0,
+											1.0,
+											1.0,
+											0.0
+										]
+									]
+								],
+								"guid" : 30,
+								"name" : "Color"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 12,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-5.0
+						],
+						"friction" : 5.0,
+						"guid" : 28,
+						"height" : 
+						[
+							0.075,
+							0.025
+						],
+						"inherit_velocity" : true,
+						"keep_local" : true,
+						"max_particles" : 100,
+						"min_quality" : "high",
+						"name" : "Sub DropsTrails (High)",
+						"normal" : true,
+						"normal_range" : 0.5,
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"rotation_speed" : 
+						[
+							0.0,
+							45.0
+						],
+						"scene_blend" : "alpha_blend",
+						"soft_particles_bias" : 2000,
+						"sphere_radius" : 0.05,
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							0.5,
+							0.15
+						],
+						"type" : "sphere",
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.075,
+							0.025
+						]
+					}
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 
+				[
+					4.5,
+					1.5
+				],
+				"water_mask" : "none",
+				"width" : 0.800000012
+			},
+			{
+				"angle" : 75.0,
+				"category" : "03 - Mesh",
+				"depth" : 0.699999988,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.43092
+							]
+						],
+						"guid" : 33,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_rate" : 20,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 32,
+				"height" : 0.699999988,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Mesh part2 - 2 (High)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/projectile/p_rendeble_projectile_blueberry02.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					720.0
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 
+				[
+					4.5,
+					1.5
+				],
+				"water_mask" : "none",
+				"width" : 0.699999988
+			}
+		],
+		"min_quality" : "low"
+	}
+}

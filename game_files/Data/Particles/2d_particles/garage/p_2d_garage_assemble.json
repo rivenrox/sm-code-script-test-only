@@ -1,0 +1,1366 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1",
+				"default_particle" : 
+				[
+					2.0,
+					2.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/schematicbot/p_2d_schematicbot_buttonoshine.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 1,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									0.73333,
+									0.93725,
+									0.07056,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 65,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 0.33,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Flash Side to Side",
+				"position" : 
+				[
+					-0.00296,
+					0.0,
+					0.008
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.35,
+				"velocity" : 0.0,
+				"width" : 0.98
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.72939,
+					0.9333,
+					0.06666,
+					1.0
+				],
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"delay" : 0.05,
+				"diffuse" : "Textures/Geometry/p_geometry_collectbutton_glow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.001,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.30755
+							]
+						],
+						"fade" : 0.6,
+						"guid" : 4,
+						"length" : 0.3,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 3,
+				"height" : 4.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "CollectGlow",
+				"position" : 
+				[
+					0.00999,
+					-0.0,
+					0.0
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.25,
+				"velocity" : 0.0,
+				"width" : 6.0,
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"delay" : 0.05,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow07.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.63968,
+								0.84539
+							],
+							[
+								0.8608,
+								0.70867
+							],
+							[
+								1.0,
+								0.43388
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.3014,
+								[
+									0.72939,
+									0.9333,
+									0.06666,
+									1.0
+								]
+							],
+							[
+								0.75211,
+								[
+									0.76468,
+									1.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.67104
+							],
+							[
+								0.12201,
+								1.28287
+							],
+							[
+								0.25198,
+								1.11184
+							],
+							[
+								0.77718,
+								0.97368
+							],
+							[
+								0.90183,
+								0.80263
+							],
+							[
+								1.0,
+								0.38157
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/emission_meshes/2d/p_2d_emissionmesh_square.fbx",
+				"emission_mesh_scale" : 
+				[
+					6.0,
+					1.0,
+					1.75
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 6,
+				"height" : 
+				[
+					0.1,
+					0.025
+				],
+				"keep_local" : false,
+				"max_particles" : 10,
+				"min_quality" : "high",
+				"name" : "StarGlow  OutwardsBurst",
+				"params" : 2,
+				"position" : 
+				[
+					0.0102,
+					-0.10002,
+					0.01063
+				],
+				"rotation" : 
+				[
+					0.0,
+					15.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.44999,
+					0.2
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					2.0
+				],
+				"width" : 
+				[
+					0.1,
+					0.025
+				]
+			},
+			{
+				"category" : "2 - ",
+				"default_particle" : 
+				[
+					0.64999,
+					0.6
+				],
+				"delay" : 0.1,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/geometry_circle_03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 11,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25914,
+								[
+									0.21942,
+									0.27733,
+									0.03141,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.87215
+							],
+							[
+								0.23217,
+								1.36714
+							],
+							[
+								0.45936,
+								1.76791
+							],
+							[
+								0.71144,
+								2.10384
+							],
+							[
+								1.0,
+								2.31599
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 3.2,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.04999
+							],
+							[
+								0.37975,
+								1.22595
+							],
+							[
+								0.65671,
+								1.4232
+							],
+							[
+								0.86066,
+								1.7674
+							],
+							[
+								1.0,
+								2.09998
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.09998,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 10,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Circle1",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 0.3,
+				"velocity" : 0.0,
+				"width" : 2.0
+			},
+			{
+				"category" : "1",
+				"delay" : 0.1,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/schematicbot/p_2d_schematicbot_buttonouterglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.92264
+							],
+							[
+								1.0,
+								0.36463
+							]
+						],
+						"fade" : 0.2,
+						"guid" : 16,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25914,
+								[
+									0.72939,
+									0.9333,
+									0.06666,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1111,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 15,
+				"height" : 3.69,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "burst smoke",
+				"position" : 
+				[
+					0.08177,
+					1.0,
+					0.008
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 0.25,
+				"velocity" : 0.0,
+				"width" : 6.0
+			},
+			{
+				"angle" : 25.0,
+				"box" : 
+				[
+					0.5,
+					0.0,
+					0.75
+				],
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"delay" : 0.05,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow07.tga",
+				"direction" : 
+				[
+					-1.0,
+					0.0,
+					0.333
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.63968,
+								0.84539
+							],
+							[
+								0.8608,
+								0.70867
+							],
+							[
+								1.0,
+								0.43388
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.3014,
+								[
+									0.72939,
+									0.9333,
+									0.06666,
+									1.0
+								]
+							],
+							[
+								0.75211,
+								[
+									0.76468,
+									1.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.67104
+							],
+							[
+								0.12201,
+								1.28287
+							],
+							[
+								0.25198,
+								1.11184
+							],
+							[
+								0.77718,
+								0.97368
+							],
+							[
+								0.90183,
+								0.80263
+							],
+							[
+								1.0,
+								0.38157
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 18,
+				"height" : 
+				[
+					0.1,
+					0.025
+				],
+				"keep_local" : false,
+				"max_particles" : 15,
+				"min_quality" : "high",
+				"name" : "StarGlow  OutwardsBurst",
+				"params" : 2,
+				"position" : 
+				[
+					-0.76702,
+					-0.10002,
+					0.01063
+				],
+				"rotation" : 
+				[
+					0.0,
+					15.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.5,
+					0.2
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"width" : 
+				[
+					0.1,
+					0.025
+				]
+			},
+			{
+				"angle" : 25.0,
+				"box" : 
+				[
+					0.5,
+					0.0,
+					0.75
+				],
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"delay" : 0.05,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow07.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.333
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.63968,
+								0.84539
+							],
+							[
+								0.8608,
+								0.70867
+							],
+							[
+								1.0,
+								0.43388
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.3014,
+								[
+									0.72939,
+									0.9333,
+									0.06666,
+									1.0
+								]
+							],
+							[
+								0.75211,
+								[
+									0.76468,
+									1.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.67104
+							],
+							[
+								0.12201,
+								1.28287
+							],
+							[
+								0.25198,
+								1.11184
+							],
+							[
+								0.77718,
+								0.97368
+							],
+							[
+								0.90183,
+								0.80263
+							],
+							[
+								1.0,
+								0.38157
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 22,
+				"height" : 
+				[
+					0.1,
+					0.025
+				],
+				"keep_local" : false,
+				"max_particles" : 15,
+				"min_quality" : "high",
+				"name" : "StarGlow  OutwardsBurst",
+				"params" : 2,
+				"position" : 
+				[
+					0.767,
+					-0.10002,
+					0.01063
+				],
+				"rotation" : 
+				[
+					0.0,
+					15.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					0.5,
+					0.2
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"width" : 
+				[
+					0.1,
+					0.025
+				]
+			},
+			{
+				"category" : "4",
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow011.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 27,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								3.42541
+							]
+						],
+						"guid" : 28,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.46958
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									0.73333,
+									0.93725,
+									0.07056,
+									1.0
+								]
+							],
+							[
+								0.78873,
+								[
+									0.67535,
+									0.86315,
+									0.06498,
+									0.92093
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 30,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 26,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"min_quality" : "medium",
+				"name" : "ExtraGlow",
+				"position" : 
+				[
+					-1.1192,
+					0.0,
+					0.0
+				],
+				"rotation" : 90.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 0.4,
+				"velocity" : 0.0
+			},
+			{
+				"category" : "4",
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow011.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0092
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 32,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								3.42541
+							]
+						],
+						"guid" : 33,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.46958
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.18027,
+								[
+									0.73333,
+									0.93725,
+									0.07056,
+									1.0
+								]
+							],
+							[
+								0.78873,
+								[
+									0.67535,
+									0.86315,
+									0.06498,
+									0.92093
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 35,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 31,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"min_quality" : "medium",
+				"name" : "ExtraGlow",
+				"position" : 
+				[
+					1.11898,
+					0.0,
+					0.0
+				],
+				"rotation" : 90.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 0.4,
+				"velocity" : 0.0,
+				"width" : -1.0
+			},
+			{
+				"category" : "2 - ",
+				"default_particle" : 
+				[
+					0.64999,
+					0.6
+				],
+				"delay" : 0.1,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 37,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25914,
+								[
+									0.76471,
+									1.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.6169,
+								[
+									0.39542,
+									0.51709,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 38,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.47694
+							],
+							[
+								0.23217,
+								0.74765
+							],
+							[
+								0.45936,
+								0.96682
+							],
+							[
+								0.71144,
+								1.1505
+							],
+							[
+								1.0,
+								1.26653
+							]
+						],
+						"guid" : 39,
+						"max_scale" : 1.75,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.37975,
+								1.16758
+							],
+							[
+								0.65671,
+								1.35543
+							],
+							[
+								0.86066,
+								1.68324
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 40,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 400,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 36,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"min_quality" : "medium",
+				"name" : "Circle2",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 0.3,
+				"velocity" : 0.0,
+				"width" : 4.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

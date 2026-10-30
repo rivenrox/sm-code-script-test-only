@@ -1,0 +1,102 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$GAME_DATA/Particles/resources/enviroment/lava/p_mesh_enviroment_lava_puddle03.fbx",
+			"minViewSize" : 500,
+			"pose0" : "$GAME_DATA/Particles/resources/enviroment/lava/p_mesh_enviroment_lava_puddle03_pose0.fbx",
+			"pose1" : "$GAME_DATA/Particles/resources/enviroment/lava/p_mesh_enviroment_lava_puddle03_pose0.fbx",
+			"subMeshMap" : 
+			{
+				"lava01" : 
+				{
+					"custom" : 
+					{
+						"scrollUv" : 
+						{
+							"speed" : 
+							[
+								0.0,
+								0.162499994
+							]
+						}
+					},
+					"material" : "2pose_LcapAsgLcapMasked_scroll_alpha",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_dissolve01_asg.tga",
+						"diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava01_diffuse.tga",
+						"lightCap" : "$SURVIVAL_DATA/Textures/Lightcap/t_lava_lcap.tga",
+						"normalMap" : "$SURVIVAL_DATA/Terrain/Textures/Bosstrain/env_bosstrain_lavafall01_nor.tga"
+					}
+				},
+				"lava01_laser" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								1.0,
+								0.609375,
+								0.0,
+								1.0
+							],
+							"fade" : 
+							{
+								"fadeRange" : 1.0,
+								"fadeValue" : 1.0
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 1.0,
+								"fogMin" : 1.0,
+								"fogOpacity" : 1.0,
+								"fogScale" : 1.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.600000024,
+								"fresnelIntensity" : 0.400000006
+							},
+							"glowStrength" : 0.5,
+							"highlightColor" : 
+							[
+								1.0,
+								0.515625,
+								0.0,
+								0.25
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.25,
+								"intersectIntensity" : 0.600000024
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 1.0,
+								"scanLineFrequency2" : 1.0,
+								"scanLineIntensity1" : 1.0,
+								"scanLineIntensity2" : 1.0,
+								"scanLineSpeed1" : 1.0,
+								"scanLineSpeed2" : 1.0
+							}
+						},
+						"uv0" : 
+						{
+							"u" : 0.0,
+							"v" : 0.0
+						}
+					},
+					"material" : "Laser_SuperSimple",
+					"textures" : 
+					{
+						"laser" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga"
+					}
+				}
+			}
+		}
+	]
+}

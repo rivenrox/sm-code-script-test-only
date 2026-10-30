@@ -1,0 +1,740 @@
+{
+	"entities" : 
+	{
+		"blueprints" : 
+		[
+			{
+				"guid" : "928f4e7f-86d2-40e0-a4f4-3575bf57a016",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Barrel_Yellow_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						11.749999046325684,
+						7.7500066757202148,
+						-2.75
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-89.999702453613281
+					]
+				}
+			},
+			{
+				"guid" : "3cb7569c-0cba-439e-b80d-c9b134e0c223",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Barrel_Yellow_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						15.250000953674316,
+						6.5000028610229492,
+						-2.75
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-179.99996948242188
+					]
+				}
+			},
+			{
+				"guid" : "ee7a0a9d-9cc4-498d-9fb2-953c664b5e82",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_BoxStack_5x6_02.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						4.25,
+						1.0,
+						-2.5
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			},
+			{
+				"guid" : "28a8c79c-6b3b-4a47-b7d3-d90b16066113",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Barrel_Yellow_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						-2.7499971389770508,
+						2.5000040531158447,
+						0.25000286102294922
+					],
+					"rotation" : 
+					[
+						0.0,
+						89.999984741210938,
+						-179.99996948242188
+					]
+				}
+			},
+			{
+				"guid" : "52111345-2607-429d-9d78-b3377b588bd6",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Pallet_1xOverhang_03.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						12.25,
+						-3.0,
+						-2.5
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			},
+			{
+				"guid" : "2c189262-55cf-466f-be75-b54437e8d529",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Canister_Red_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						5.2499966621398926,
+						9.2500009536743164,
+						-4.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						-89.999717712402344
+					]
+				}
+			},
+			{
+				"guid" : "a742283d-2d72-4424-81ae-007d1ca3c139",
+				"resource" : "$SURVIVAL_DATA/LocalBlueprints/Warehouse_Clutter_Banner_Red_01.blueprint",
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						-1.75,
+						2.5,
+						0.5
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"grids" : 
+		[
+			{
+				"guid" : "6e155e4b-f702-40c9-b1e7-d68170617558",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"guid" : "b0ff9028-0b71-498d-b6e6-9d698bd79626",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 5,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 4
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.25,
+						4.0,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						2.5,
+						0.25,
+						2.5
+					]
+				}
+			},
+			{
+				"guid" : "d913f348-3aed-400d-a00f-816d65d880cf",
+				"params" : 
+				[
+					{
+						"descName" : "isPatrolling",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "stationary",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TAPEBOT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						11.25,
+						4.25,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999946594238281,
+						-73.900390625,
+						-4.7686015022918582e-05
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"guid" : "237f9faa-3b85-4bba-9eb6-b726ff4d76d7",
+				"tags" : 
+				[
+					"REFLECTION"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						8.0,
+						4.0,
+						4.0
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						48.0,
+						24.0,
+						40.0
+					]
+				}
+			},
+			{
+				"guid" : "e3ff571f-28ee-47fc-8a0a-6cc449f7f14b",
+				"params" : 
+				[
+					{
+						"descName" : "isPatrolling",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "guaranteed",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "stationary",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "respawn",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"SPAWNABLE_UNIT",
+					"TAPEBOT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						8.0,
+						3.5,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"guid" : "f0de9fd6-87eb-49a4-ae07-e9a85b4c5058",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 0,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 4
+							},
+							{
+								"connectionId" : 2
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						5.5,
+						0.25,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						4.4561939239501953,
+						0.25,
+						4.4561939239501953
+					]
+				}
+			},
+			{
+				"guid" : "b223449d-d34c-4a9c-b922-c4a13464d99f",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 1,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 2
+							},
+							{
+								"connectionId" : 4
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						10.5,
+						0.25,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						3.0138840675354004,
+						0.25,
+						3.0138840675354004
+					]
+				}
+			},
+			{
+				"guid" : "22cc67b4-9528-4016-9385-ce403a2b7f8d",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 2,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 1
+							},
+							{
+								"connectionId" : 3
+							},
+							{
+								"connectionId" : 4
+							},
+							{
+								"connectionId" : 0
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						8.5,
+						4.0,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						4.638552188873291,
+						0.25,
+						4.638552188873291
+					]
+				}
+			},
+			{
+				"guid" : "20fdf4fb-10b6-4a53-923c-1582deeb7b09",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 3,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 2
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						8.0,
+						7.75,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						2.5,
+						0.25,
+						2.5
+					]
+				}
+			},
+			{
+				"guid" : "aa50bcf5-9935-467f-91b1-59171d2b8f33",
+				"params" : 
+				[
+					{
+						"descName" : "connections",
+						"id" : 4,
+						"otherIds" : 
+						[
+							{
+								"connectionId" : 2
+							},
+							{
+								"connectionId" : 0
+							},
+							{
+								"connectionId" : 5
+							},
+							{
+								"connectionId" : 1
+							}
+						],
+						"type" : "connections"
+					}
+				],
+				"tags" : 
+				[
+					"CONNECTABLE",
+					"WAYPOINT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						3.5,
+						3.75,
+						1.5
+					],
+					"rotation" : 
+					[
+						89.999992370605469,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						2.8007278442382812,
+						0.25,
+						2.8007278442382812
+					]
+				}
+			}
+		],
+		"prefabs" : 
+		[
+			{
+				"editorSpecialWater" : false,
+				"guid" : "730a5bbb-8a75-48f1-894b-72c01dae4950",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/Kit_Warehouse_ShellHall_Main_End_DoorLM_A.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "61760a0b-4a7a-4fde-9c79-064ee07e0ea2",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_plane_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						3.0,
+						7.75,
+						4.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.75,
+						0.75,
+						0.75
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "69efb0d1-ee82-4d24-8c37-567f17b9be91",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_plane_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						13.0,
+						7.75,
+						4.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.75,
+						0.75,
+						0.75
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "21fe486b-304b-47e3-9d7a-7393455ca6a1",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_beam_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						4.25,
+						6.0,
+						6.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			},
+			{
+				"editorSpecialWater" : false,
+				"guid" : "1a43d1bd-690c-4336-bc2c-150f15922c2d",
+				"loadAsPrefab" : false,
+				"mergePrefabShapes" : false,
+				"path" : "$SURVIVAL_DATA/LocalPrefabs/EffectPrefabs/Warehouse/warehouse_encryptionhologram_beam_01.prefab",
+				"transform" : 
+				{
+					"position" : 
+					[
+						10.25,
+						2.0,
+						6.25
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				},
+				"voxelLayer" : 0
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 0,
+		"uuid" : "f05a4f95-880a-456f-a439-75fc0e3e5664"
+	}
+}

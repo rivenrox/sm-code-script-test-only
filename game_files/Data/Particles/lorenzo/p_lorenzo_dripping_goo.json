@@ -1,0 +1,1332 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - ",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"name" : "Pose",
+						"repeat" : true,
+						"time" : 2.0
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"keep_local" : true,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Goop01",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/lorenzo/p_lorenzo_hairgoop01.rend",
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Textures/Default/default_asg.tga",
+				"alpha" : true,
+				"bounce" : 0.5,
+				"collision" : "die",
+				"depth" : 
+				[
+					0.275,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45269
+							],
+							[
+								0.09775,
+								0.77026
+							],
+							[
+								0.21953,
+								0.95494
+							],
+							[
+								0.37907,
+								1.04279
+							],
+							[
+								1.0,
+								1.1143
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.09546
+							],
+							[
+								0.0806,
+								1.29007
+							],
+							[
+								0.16121,
+								1.39459
+							],
+							[
+								0.26414,
+								1.41261
+							],
+							[
+								0.38249,
+								1.39099
+							],
+							[
+								0.46654,
+								1.27567
+							],
+							[
+								0.52828,
+								1.08466
+							],
+							[
+								0.62092,
+								0.8216
+							],
+							[
+								0.753,
+								0.69549
+							],
+							[
+								0.88336,
+								0.74594
+							],
+							[
+								1.0,
+								1.06666
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.98026
+							],
+							[
+								1.0,
+								1.63812
+							]
+						],
+						"enabled" : false,
+						"guid" : 13,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 2.0,
+				"guid" : 2,
+				"height" : 
+				[
+					0.275,
+					0.05
+				],
+				"keep_local" : false,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 10,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/stickybubbles/p_trashbot_stickybubbles01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Drops1",
+				"normal_map" : "$GAME_DATA/Textures/Default/default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.5128,
+					0.24932
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/lorenzo/p_lorenzo_hairgoop_drops.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"sphere_radius" : 0.1,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.3294,
+							0.83135,
+							0.04704,
+							1.0
+						],
+						"depth" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"direction_type" : "shape",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.72368
+									],
+									[
+										0.36923,
+										2.08874
+									],
+									[
+										1.0,
+										3.78289
+									]
+								],
+								"guid" : 4,
+								"max_scale" : 5.0,
+								"name" : "Scale"
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 5,
+								"index" : 1,
+								"name" : "Pose",
+								"time" : 0.75
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 6,
+								"name" : "TextureAnimator"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"guid" : 3,
+						"height" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"keep_local" : false,
+						"material_name" : "GlassWave",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"min_quality" : "high",
+						"name" : "Goosphere2  (High)",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_rendeble_trashbot_splatter_sphere_green.rend",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							-1.0,
+							1.0,
+							1.0
+						],
+						"tiles" : 
+						[
+							6,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.34999,
+							0.05
+						],
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.03999,
+							0.00999
+						]
+					},
+					{
+						"color" : 
+						[
+							0.3294,
+							0.83135,
+							0.04704,
+							1.0
+						],
+						"depth" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"direction_type" : "shape",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.72368
+									],
+									[
+										0.38152,
+										2.61512
+									],
+									[
+										1.0,
+										3.78289
+									]
+								],
+								"guid" : 8,
+								"max_scale" : 5.0,
+								"name" : "Scale"
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 9,
+								"index" : 1,
+								"name" : "Pose",
+								"time" : 0.75
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 32,
+								"fps" : 30,
+								"guid" : 10,
+								"name" : "TextureAnimator"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"guid" : 7,
+						"height" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"keep_local" : false,
+						"material_name" : "GlassWave",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"min_quality" : "high",
+						"name" : "Goosphere1  (High)",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_rendeble_trashbot_splatter_splattershape_green.rend",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							-1.0,
+							1.0,
+							1.0
+						],
+						"tiles" : 
+						[
+							6,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.34999,
+							0.05
+						],
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.03999,
+							0.00999
+						]
+					}
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.275,
+					0.05
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Textures/Default/default_asg.tga",
+				"alpha" : true,
+				"bounce" : 0.5,
+				"box" : 
+				[
+					0.0,
+					0.15,
+					0.0
+				],
+				"category" : "2",
+				"collision" : "die",
+				"depth" : 
+				[
+					0.275,
+					0.05998
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45269
+							],
+							[
+								0.09775,
+								0.77026
+							],
+							[
+								0.21953,
+								0.95494
+							],
+							[
+								0.37907,
+								1.04279
+							],
+							[
+								0.81537,
+								1.09375
+							],
+							[
+								0.90153,
+								0.9786
+							],
+							[
+								1.0,
+								0.28371
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.09546
+							],
+							[
+								0.0806,
+								1.29007
+							],
+							[
+								0.16121,
+								1.39459
+							],
+							[
+								0.26414,
+								1.41261
+							],
+							[
+								0.38249,
+								1.39099
+							],
+							[
+								0.46654,
+								1.27567
+							],
+							[
+								0.52828,
+								1.08466
+							],
+							[
+								0.62092,
+								0.8216
+							],
+							[
+								0.753,
+								0.69549
+							],
+							[
+								0.88336,
+								0.74594
+							],
+							[
+								1.0,
+								1.06666
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -0.60001,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.50769,
+								-0.15001
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 17,
+						"max" : 0.6,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -0.15005,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14996
+							],
+							[
+								1.0,
+								-0.1382
+							]
+						],
+						"guid" : 18,
+						"max" : 0.15,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 14,
+				"height" : 
+				[
+					0.275,
+					0.05998
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/stickybubbles/p_trashbot_stickybubbles01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Drops3",
+				"normal_map" : "$GAME_DATA/Textures/Default/default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.36784,
+					0.39322
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/lorenzo/p_lorenzo_hairgoop_drops.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					-26.56112,
+					0.0,
+					-0.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 3.0,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.275,
+					0.05998
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Textures/Default/default_asg.tga",
+				"alpha" : true,
+				"bounce" : 0.5,
+				"box" : 
+				[
+					0.0,
+					0.15,
+					0.0
+				],
+				"category" : "2",
+				"collision" : "die",
+				"depth" : 
+				[
+					0.275,
+					0.05998
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45269
+							],
+							[
+								0.09775,
+								0.77026
+							],
+							[
+								0.21953,
+								0.95494
+							],
+							[
+								0.37907,
+								1.04279
+							],
+							[
+								0.81537,
+								1.09375
+							],
+							[
+								0.90153,
+								0.9786
+							],
+							[
+								1.0,
+								0.28371
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.09546
+							],
+							[
+								0.0806,
+								1.29007
+							],
+							[
+								0.16121,
+								1.39459
+							],
+							[
+								0.26414,
+								1.41261
+							],
+							[
+								0.38249,
+								1.39099
+							],
+							[
+								0.46654,
+								1.27567
+							],
+							[
+								0.52828,
+								1.08466
+							],
+							[
+								0.62092,
+								0.8216
+							],
+							[
+								0.753,
+								0.69549
+							],
+							[
+								0.88336,
+								0.74594
+							],
+							[
+								1.0,
+								1.06666
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -0.60001,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.50769,
+								-0.15001
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 22,
+						"max" : 0.6,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -0.15005,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.15005
+							],
+							[
+								1.0,
+								0.14996
+							]
+						],
+						"guid" : 23,
+						"max" : 0.15,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 19,
+				"height" : 
+				[
+					0.275,
+					0.05998
+				],
+				"keep_local" : true,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/stickybubbles/p_trashbot_stickybubbles01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Drops6",
+				"normal_map" : "$GAME_DATA/Textures/Default/default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.35114,
+					0.37775
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/lorenzo/p_lorenzo_hairgoop_drops.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					-26.56112,
+					0.0,
+					-0.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 3.0,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.275,
+					0.05998
+				]
+			},
+			{
+				"category" : "1 - ",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 25,
+						"name" : "Pose",
+						"repeat" : true,
+						"time" : 2.0
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 24,
+				"keep_local" : true,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Goop02",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/lorenzo/p_lorenzo_hairgoop02.rend",
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Textures/Default/default_asg.tga",
+				"alpha" : true,
+				"bounce" : 0.5,
+				"collision" : "die",
+				"depth" : 
+				[
+					0.275,
+					0.05
+				],
+				"direction_type" : "shape",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.45269
+							],
+							[
+								0.09775,
+								0.77026
+							],
+							[
+								0.21953,
+								0.95494
+							],
+							[
+								0.37907,
+								1.04279
+							],
+							[
+								1.0,
+								1.1143
+							]
+						],
+						"guid" : 35,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.09546
+							],
+							[
+								0.0806,
+								1.29007
+							],
+							[
+								0.16121,
+								1.39459
+							],
+							[
+								0.26414,
+								1.41261
+							],
+							[
+								0.38249,
+								1.39099
+							],
+							[
+								0.46654,
+								1.27567
+							],
+							[
+								0.52828,
+								1.08466
+							],
+							[
+								0.62092,
+								0.8216
+							],
+							[
+								0.753,
+								0.69549
+							],
+							[
+								0.88336,
+								0.74594
+							],
+							[
+								1.0,
+								1.06666
+							]
+						],
+						"guid" : 36,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.98026
+							],
+							[
+								1.0,
+								1.63812
+							]
+						],
+						"enabled" : false,
+						"guid" : 37,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 2.0,
+				"guid" : 26,
+				"height" : 
+				[
+					0.275,
+					0.05
+				],
+				"keep_local" : false,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 10,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/stickybubbles/p_trashbot_stickybubbles01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Drops2",
+				"normal_map" : "$GAME_DATA/Textures/Default/default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.37392,
+					0.14835
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/lorenzo/p_lorenzo_hairgoop_drops.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"sphere_radius" : 0.05,
+				"sub" : 
+				[
+					{
+						"color" : 
+						[
+							0.3294,
+							0.83135,
+							0.04704,
+							1.0
+						],
+						"depth" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"direction_type" : "shape",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.72368
+									],
+									[
+										0.36923,
+										2.08874
+									],
+									[
+										1.0,
+										3.78289
+									]
+								],
+								"guid" : 28,
+								"max_scale" : 5.0,
+								"name" : "Scale"
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 29,
+								"index" : 1,
+								"name" : "Pose",
+								"time" : 0.75
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 30,
+								"name" : "TextureAnimator"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"guid" : 27,
+						"height" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"keep_local" : false,
+						"material_name" : "GlassWave",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"min_quality" : "high",
+						"name" : "Goosphere2  (High)",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_rendeble_trashbot_splatter_sphere_green.rend",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							-1.0,
+							1.0,
+							1.0
+						],
+						"tiles" : 
+						[
+							6,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.34999,
+							0.05
+						],
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.03999,
+							0.00999
+						]
+					},
+					{
+						"color" : 
+						[
+							0.3294,
+							0.83135,
+							0.04704,
+							1.0
+						],
+						"depth" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"direction_type" : "shape",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.72368
+									],
+									[
+										0.38152,
+										2.61512
+									],
+									[
+										1.0,
+										3.78289
+									]
+								],
+								"guid" : 32,
+								"max_scale" : 5.0,
+								"name" : "Scale"
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 33,
+								"index" : 1,
+								"name" : "Pose",
+								"time" : 0.75
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 32,
+								"fps" : 30,
+								"guid" : 34,
+								"name" : "TextureAnimator"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 200,
+						"guid" : 31,
+						"height" : 
+						[
+							0.03999,
+							0.00999
+						],
+						"keep_local" : false,
+						"material_name" : "GlassWave",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"min_quality" : "high",
+						"name" : "Goosphere1  (High)",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/splatter/p_rendeble_trashbot_splatter_splattershape_green.rend",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							-1.0,
+							1.0,
+							1.0
+						],
+						"tiles" : 
+						[
+							6,
+							8
+						],
+						"time_to_live" : 
+						[
+							0.34999,
+							0.05
+						],
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.03999,
+							0.00999
+						]
+					}
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.275,
+					0.05
+				]
+			}
+		]
+	}
+}

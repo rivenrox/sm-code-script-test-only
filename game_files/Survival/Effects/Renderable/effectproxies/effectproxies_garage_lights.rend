@@ -1,0 +1,114 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Effects/Meshes/Effectproxies/effectproxies_garage_lights.fbx",
+			"subMeshMap" : 
+			{
+				"laser" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							],
+							"fade" : 
+							{
+								"fadeRange" : 1.0,
+								"fadeValue" : 1.0
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 1.0,
+								"fogMin" : 1.0,
+								"fogOpacity" : 1.0,
+								"fogScale" : 10.0,
+								"fogScrollSpeed" : 0.5
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.600000024,
+								"fresnelIntensity" : 0.400000006
+							},
+							"glowStrength" : 0.5,
+							"highlightColor" : 
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.25,
+								"intersectIntensity" : 0.600000024
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 1.0,
+								"scanLineFrequency2" : 1.0,
+								"scanLineIntensity1" : 1.0,
+								"scanLineIntensity2" : 1.0,
+								"scanLineSpeed1" : 1.0,
+								"scanLineSpeed2" : 1.0
+							}
+						}
+					},
+					"material" : "Laser_additive",
+					"textures" : 
+					{
+						"laser" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+						"laserMask" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga"
+					}
+				},
+				"m_lightcone" : 
+				{
+					"custom" : 
+					{
+						"lightCone" : 
+						{
+							"depthDistance" : 0.479999989,
+							"emission" : 0.0,
+							"farDistance" : 100.0,
+							"nearDistance" : 0.0,
+							"nearFadeEnd" : 0.0
+						}
+					},
+					"material" : "LightCone",
+					"textures" : 
+					{
+						"diffuse" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_scrapgarage_lightcone_dif.tga"
+					}
+				},
+				"m_uvmaterial_industrial" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color01",
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							1.0,
+							15.0
+						]
+					},
+					"material" : "UvMaterial_Default",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_dif.tga",
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_asg.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_trimsheet_mechanic01_nor.tga",
+						"$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,902 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_06_asg.tga",
+				"box" : 
+				[
+					6.5,
+					0.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.36078,
+					0.61176,
+					0.7843,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					1.0,
+					0.25
+				],
+				"direction" : 
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.29934
+							],
+							[
+								0.32615,
+								0.69406
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.19403
+							],
+							[
+								0.24307,
+								1.81578
+							],
+							[
+								0.6523,
+								2.47691
+							],
+							[
+								1.0,
+								2.73354
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 40,
+				"friction" : 4.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 200,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_05.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Splashes1 (medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_06_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					3,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					7.0,
+					0.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.35686,
+					0.60784,
+					0.78039,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					6.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"guid" : 5,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 6,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.99342
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"friction" : 2.0,
+				"guid" : 4,
+				"height" : 
+				[
+					6.0,
+					1.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "WaterSplashes 2  (medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.20003
+				],
+				"rotation" : 
+				[
+					90.0,
+					25.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					1.0,
+					0.86
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					6.0,
+					1.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_06_asg.tga",
+				"box" : 
+				[
+					6.5,
+					0.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.36078,
+					0.61176,
+					0.7843,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					1.0,
+					0.25
+				],
+				"direction" : 
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.46092,
+					0.69677,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 30,
+						"guid" : 9,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.29934
+							],
+							[
+								0.32615,
+								0.69406
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.19403
+							],
+							[
+								0.24307,
+								1.81578
+							],
+							[
+								0.6523,
+								2.47691
+							],
+							[
+								1.0,
+								2.73354
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 40,
+				"friction" : 4.0,
+				"guid" : 8,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 200,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_flipped_05.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Splashes1    (high)",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_06_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					3,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_03_asg.tga",
+				"box" : 
+				[
+					5.0,
+					0.0,
+					0.0
+				],
+				"category" : "3",
+				"depth" : 
+				[
+					3.0,
+					2.0
+				],
+				"direction" : 
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.80263
+							],
+							[
+								1.0,
+								1.17762
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.4605
+							],
+							[
+								0.6769,
+								0.9671
+							],
+							[
+								1.0,
+								1.03287
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.35692,
+								0.00657
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 15,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-2.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 16,
+						"max" : 0.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"guid" : 12,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_watercylinder_plane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "medium",
+				"name" : "Cylinder  (medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"rotation" : 
+				[
+					0.0,
+					25.0
+				],
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.5,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_03_asg.tga",
+				"box" : 
+				[
+					3.0,
+					0.0,
+					0.0
+				],
+				"category" : "3",
+				"depth" : 
+				[
+					3.0,
+					2.0
+				],
+				"direction" : 
+				[
+					0.0,
+					0.5,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.45881,
+					0.6941,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.80263
+							],
+							[
+								1.0,
+								1.17762
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.4605
+							],
+							[
+								0.6769,
+								0.9671
+							],
+							[
+								1.0,
+								1.03287
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.35692,
+								0.00657
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 20,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-2.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 21,
+						"max" : 0.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"guid" : 17,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : false,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_watercylinder_plane_flipped01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Cylinder     (high)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splashcylinder01_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"rotation" : 
+				[
+					0.0,
+					25.0
+				],
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.5,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					7.0,
+					0.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.35686,
+					0.60784,
+					0.78039,
+					1.0
+				],
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					6.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.45881,
+					0.6941,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"guid" : 23,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 24,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								1.32894
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"friction" : 2.0,
+				"guid" : 22,
+				"height" : 
+				[
+					6.0,
+					1.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_flipped_04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "WaterSplashes 2 flipped (high)",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.20003
+				],
+				"rotation" : 
+				[
+					90.0,
+					25.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					1.0,
+					0.86
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					6.0,
+					1.0
+				]
+			}
+		]
+	}
+}

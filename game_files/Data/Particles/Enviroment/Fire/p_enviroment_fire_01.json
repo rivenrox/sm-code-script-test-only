@@ -1,0 +1,1268 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 
+				[
+					0.0,
+					1.0
+				],
+				"box" : 
+				[
+					0.25,
+					0.25,
+					0.05
+				],
+				"category" : "2 - Detail Flames",
+				"color" : 
+				[
+					1.0,
+					0.4196,
+					0.0,
+					1.0
+				],
+				"diffuse" : "Textures/Fire/FireFlames_Animated_04(BlendAdd).tga",
+				"direction_type" : "constant",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 45,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.18591,
+								[
+									1.0,
+									0.45201,
+									0.45201,
+									0.75
+								]
+							],
+							[
+								0.75492,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.75
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"base_scale" : 0.583,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.651
+							],
+							[
+								1.0,
+								1.17596
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 1.17596,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.64999
+							],
+							[
+								1.0,
+								0.8125
+							]
+						],
+						"fade" : 0.2,
+						"guid" : 4,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.23025
+							],
+							[
+								0.24479,
+								0.64802
+							],
+							[
+								0.55466,
+								0.92434
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.5
+							],
+							[
+								0.61229,
+								0.95722
+							],
+							[
+								1.0,
+								0.15
+							]
+						],
+						"guid" : 6,
+						"local" : false,
+						"max" : 1.5,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"friction" : 
+				[
+					0.1,
+					0.1
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.39997,
+					0.4
+				],
+				"keep_local" : false,
+				"max_particles" : 2,
+				"name" : "Main Flame Burst (Low)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.60001
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "blend_add",
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 0.1,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.2,
+					0.2
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.8,
+					0.2
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					0.125,
+					0.125,
+					0.0
+				],
+				"category" : "1 - Base Fire",
+				"color" : 
+				[
+					1.0,
+					0.28125,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_flamesanimated08_desaturated.tga",
+				"direction_type" : "constant",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 24,
+						"guid" : 8,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 9
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.20281,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.75
+								]
+							],
+							[
+								0.78873,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.75
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"base_scale" : 0.25,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.60298
+							],
+							[
+								0.20103,
+								0.68358
+							],
+							[
+								1.0,
+								0.74
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 0.74,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.7796
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.4,
+						"guid" : 11,
+						"length" : 0.6,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					2.5,
+					0.3
+				],
+				"keep_local" : false,
+				"max_particles" : 12,
+				"name" : "Main Flame loop (Low)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.55002
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "blend_add",
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 0.1,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.14997,
+					0.1
+				],
+				"type" : "box",
+				"velocity" : 0.01,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 
+				[
+					0.0,
+					1.0
+				],
+				"box" : 
+				[
+					0.6,
+					0.6,
+					0.2
+				],
+				"category" : "2 - Detail Flames",
+				"color" : 
+				[
+					1.0,
+					0.39842,
+					0.0,
+					1.0
+				],
+				"diffuse" : "Textures/Fire/FireFlames_Animated_04(BlendAdd).tga",
+				"direction_type" : "constant",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 45,
+						"guid" : 13,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.2845,
+								[
+									1.0,
+									0.54294,
+									0.54294,
+									0.75
+								]
+							],
+							[
+								0.81124,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.75
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"base_scale" : 0.583,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.651
+							],
+							[
+								1.0,
+								1.17596
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.17596,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75326
+							],
+							[
+								1.0,
+								0.82235
+							]
+						],
+						"fade" : 0.3,
+						"guid" : 16,
+						"length" : 0.6,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.37171
+							],
+							[
+								0.13537,
+								0.74013
+							],
+							[
+								0.42767,
+								0.9375
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 6,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					0.6
+				],
+				"friction" : 
+				[
+					0.1,
+					0.1
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 12,
+				"height" : 
+				[
+					0.85,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 7,
+				"name" : "Main Flame (Low)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.30001
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "blend_add",
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 0.1,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.2,
+					0.2
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.85,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"category" : "1 - Base Fire",
+				"circle_angle" : 0.0,
+				"color" : 
+				[
+					1.0,
+					0.5156,
+					0.0,
+					1.0
+				],
+				"diffuse" : "Textures/Fire/fire_flamesanimated02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.13521,
+								[
+									1.0,
+									0.44139,
+									0.44139,
+									0.75
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 19,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 15,
+						"fps" : 30,
+						"guid" : 20,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 3
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.63814
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 21,
+						"length" : 0.4,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.22039
+							],
+							[
+								0.13799,
+								0.41776
+							],
+							[
+								0.5156,
+								0.59539
+							],
+							[
+								0.80988,
+								0.91776
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.1875
+							],
+							[
+								0.09375,
+								0.59539
+							],
+							[
+								0.2558,
+								0.7796
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.09046
+							],
+							[
+								0.60154,
+								0.25492
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"guid" : 24,
+						"max" : 0.5,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 18,
+				"height" : 
+				[
+					2.0,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 15,
+				"min_quality" : "medium",
+				"name" : "Background Flames Circle  (Medium)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.40001
+				],
+				"radius" : 0.64999,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "blend_add",
+				"soft_particles_bias" : 1000,
+				"sort_offset" : 0.4,
+				"tiles" : 
+				[
+					2,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : -1.100000024,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"box" : 
+				[
+					0.1,
+					0.1,
+					0.0
+				],
+				"category" : "3 - glow",
+				"color" : 
+				[
+					0.59375,
+					0.04174,
+					0.0,
+					1.0
+				],
+				"diffuse" : "Textures/Glow/glow_glow04.tga",
+				"direction_type" : "constant",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.30704,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.61408,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.63156
+							],
+							[
+								1.0,
+								0.86842
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 25,
+				"height" : 
+				[
+					3.0,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 6,
+				"min_quality" : "medium",
+				"name" : "Red Glow (Medium)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.40001
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1024,
+				"sort_offset" : 2.0,
+				"time_to_live" : 
+				[
+					2.0,
+					0.8
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"category" : "4 - Flames Sparks",
+				"cone_angle" : 80.0,
+				"cone_radius" : 0.00999,
+				"diffuse" : "Textures/Debri/p_debri_sparkscluster_02.tga",
+				"direction_type" : "constant",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.42186,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.10982,
+								[
+									1.0,
+									0.4453,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.94928,
+								[
+									1.0,
+									0.1875,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.02342,
+									0.02342,
+									0.0
+								]
+							]
+						],
+						"guid" : 29,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.01499,
+						"guid" : 30,
+						"length" : 0.02999,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.25
+							],
+							[
+								1.0,
+								0.85936
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"friction" : 0.25,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 28,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : false,
+				"max_particles" : 3,
+				"min_quality" : "high",
+				"name" : "Sparks (High)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					0.1
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 10241,
+				"time_to_live" : 2.0,
+				"type" : "cone",
+				"velocity" : 
+				[
+					1.1,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.25
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2 - Detail Flames",
+				"circle_angle" : 0.0,
+				"color" : 
+				[
+					1.0,
+					0.28125,
+					0.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_flamesanimated08_desaturated.tga",
+				"direction_type" : "shape",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.25069,
+								[
+									1.0,
+									0.53513,
+									0.53513,
+									0.75
+								]
+							],
+							[
+								0.78873,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.75
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 33,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 20,
+						"guid" : 34,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 5
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.80194
+							],
+							[
+								1.0,
+								0.81493
+							]
+						],
+						"fade" : 0.75,
+						"guid" : 35,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6546
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 36,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.40788
+							],
+							[
+								0.20623,
+								0.69735
+							],
+							[
+								0.43342,
+								0.88485
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 37,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 9,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					0.3
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 32,
+				"height" : 
+				[
+					1.14997,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Flames Circle orange FIRST (High)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.5
+				],
+				"radius" : 0.8,
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "blend_add",
+				"soft_particles_bias" : 1000,
+				"sort_offset" : 0.2,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.1,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : -0.5,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.64999,
+					0.1
+				],
+				"z_offset" : 0.1
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 1.5
+	}
+}

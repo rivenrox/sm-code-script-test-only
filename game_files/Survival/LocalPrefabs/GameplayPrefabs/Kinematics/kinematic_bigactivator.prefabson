@@ -1,0 +1,315 @@
+{
+	"entities" : 
+	{
+		"assets" : 
+		[
+			{
+				"colorMap" : 
+				{
+					"Color01" : "#DB2715FF"
+				},
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "e6b7c87c-7a08-48e9-82df-55d4bbaa972a",
+				"hidden" : false,
+				"locked" : false,
+				"tags" : 
+				[
+					"ts:hide:raised"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						-9.4623222351074219,
+						89.999969482421875,
+						99.462326049804688
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "6288fdd1-9c22-4e62-af7c-bc0d503affe3"
+			}
+		],
+		"grids" : 
+		[
+			{
+				"guid" : "2d7a88d3-f414-4c71-afa7-24b72e300eee",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"harvestables" : [],
+		"kinematics" : 
+		[
+			{
+				"color" : "#DB2715FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "c834c956-6ee5-4b0c-84c8-76e03e81a3db",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"file" : "$SURVIVAL_DATA/Kinematics/Kinematictracks/BigActivator/bigactivator_activatedeactivate.tracknodes",
+								"loop" : false
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "TriggerTest"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "BridgeActivatorPillar"
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					}
+				],
+				"tags" : 
+				[
+					"ts:hide:raised"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						-2.9711437225341797
+					],
+					"rotation" : 
+					[
+						6.5819449424743652,
+						-89.999969482421875,
+						-83.4180908203125
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "c6871f73-adf0-4bea-af09-cb69c287c1c0"
+			},
+			{
+				"color" : "#EE7716FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "2828be25-a5a8-446d-9fc2-699f2c63710a",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "BridgeLever"
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "BridgeActivatorPillar"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"duration" : 0.30000001192092896,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 0.30000001192092896,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-4.76837158203125e-07,
+											0.0,
+											4.76837158203125e-07
+										],
+										"rotation" : 
+										[
+											90.601493835449219,
+											-5.9583038819255307e-05,
+											7.4777526606339961e-05
+										],
+										"speed" : 1
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"tags" : 
+				[
+					"ts:hide:raised"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-0.63874292373657227,
+						0.0,
+						-2.2994809150695801
+					],
+					"rotation" : 
+					[
+						-56.309932708740234,
+						-90.0,
+						-146.30987548828125
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "4a965f00-c211-4458-9f52-cf2e525ec684"
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "5f2c40b5-7e2c-457b-8e24-dda8502f8841",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "kinematicEventTrigger",
+						"type" : "string",
+						"value" : "TriggerTest"
+					},
+					{
+						"descName" : "reactToNonPlayers",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "scriptableUuid",
+						"type" : "string",
+						"value" : "b54c5522-fe2e-40c2-b737-8f8135f2f8f6"
+					},
+					{
+						"descName" : "singleTrigger",
+						"type" : "bool",
+						"value" : false
+					}
+				],
+				"tags" : 
+				[
+					"KINEMATIC_AREA_TRIGGER",
+					"SCRIPTABLE_NODE"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.250885009765625,
+						0.35919189453125,
+						2.8700675964355469
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						8.4098396301269531,
+						7.2105255126953125,
+						8.4712066650390625
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 0,
+		"uuid" : "ec880ad0-0231-46af-8bd8-aa19e263ee55"
+	}
+}

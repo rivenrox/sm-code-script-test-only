@@ -1,0 +1,30 @@
+{
+	"template_meta": {
+		"uuid" : "9ed23d61-7377-47cc-9a3f-6b35ca3001df",
+		"name":"Rotation Set",
+		"display": "rotationset",
+		"pattern": ["$*/Objects/Database/rotationsets.json", "*.rotationset"]
+	},
+
+	"rotationSet_meta": { "type": "array", "valueAsLabel": "name" },
+	"rotationSet": [
+		{
+			"name_meta": { "type": "string", "order": 1 },
+			"name": "New Rotation",
+
+			"prop_meta": { "type": "bool", "order": 2, "toolTip": "Rotates proportional to the surface normal" },
+			"prop": true,
+
+			"rotation_meta": { "type": "array", "value_meta": { "type":"object" }, "order": 3 },
+			"rotation": [
+				{
+					"south_meta": { "type": "string", "options":[ "-X", "X", "-Y", "Y", "-Z", "Z" ] },
+					"south": "X",
+
+					"east_meta": { "type": "string", "options":[ "-X", "X", "-Y", "Y", "-Z", "Z" ] },
+					"east": "Y"
+				}
+			]
+		}
+	]
+}

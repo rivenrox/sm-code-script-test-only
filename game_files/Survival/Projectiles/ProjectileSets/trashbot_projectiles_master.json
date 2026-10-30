@@ -1,0 +1,1805 @@
+{
+	"projectiles" : 
+	[
+		{
+			"attachedEffect" : "Trashbot - GoopbubbleSmallGreen",
+			"audiomass" : 250.0,
+			"bounce" : 
+			{
+				"bounceEffect" : "",
+				"forcedHitNormal" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"forcedNormalDotThreshold" : -0.200000003,
+				"hitOnBounce" : true,
+				"maxAllowedBounces" : 4,
+				"maxDeathVelocity" : 70.0,
+				"minDeathVelocity" : 1.0,
+				"restitution" : 1.200000048,
+				"useForcedNormal" : true
+			},
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactsmall_green",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.0,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_trashbubble_small_bounce",
+			"radius" : 2.5,
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "e4369d5e-dc94-45ab-b586-7f9ff54f72f9"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Standard",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectIgnoreHitRotation" : true,
+			"effectmaterial" : "None",
+			"effectsByGrowth" : 
+			[
+				{
+					"effect" : "Trashbot - Gooprojectile_impactsmall_green",
+					"minLifeTime" : 0.0
+				},
+				{
+					"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+					"minLifeTime" : 0.5
+				},
+				{
+					"effect" : "Trashbot - Gooprojectile_impactlarge_green",
+					"minLifeTime" : 0.666000009
+				},
+				{
+					"effect" : "Trashbot - Gooprojectile_impactend_green",
+					"minLifeTime" : 0.800000012
+				}
+			],
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_standard",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "3f2850ca-7ba8-4996-bf50-b91cd528b4c3"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Standard",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectIgnoreHitRotation" : true,
+			"effectmaterial" : "None",
+			"effectsByGrowth" : 
+			[
+				{
+					"effect" : "Trashbot - Gooprojectile_impactsmall_purple",
+					"minLifeTime" : 0.0
+				},
+				{
+					"effect" : "Trashbot - Gooprojectile_impactmedium_purple",
+					"minLifeTime" : 0.5
+				},
+				{
+					"effect" : "Trashbot - Gooprojectile_impactlarge_purple",
+					"minLifeTime" : 0.666000009
+				},
+				{
+					"effect" : "Trashbot - Gooprojectile_impactend_purple",
+					"minLifeTime" : 0.800000012
+				}
+			],
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_standard",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "78780596-9a23-41e3-b88f-3c72e3356160"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Curved",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_curved",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"spiralData" : 
+			{
+				"angularVelocity" : 0.300000012,
+				"growthBasedOnSpeed" : true,
+				"radialGrowth" : 1.0
+			},
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "b19d0c62-3fe7-44d4-ab7a-828f0691c27f"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Twister",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_curved_v2",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"spiralData" : 
+			{
+				"angularVelocity" : 0.300000012,
+				"growthBasedOnSpeed" : true,
+				"radialGrowth" : 1.0
+			},
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "2edb2cea-66a9-448f-99f1-e57517e6e64e"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Curved",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_curved_v2_c",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"spiralData" : 
+			{
+				"angularVelocity" : -0.300000012,
+				"growthBasedOnSpeed" : true,
+				"radialGrowth" : 1.0
+			},
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "756bf78c-b604-4a76-aa9b-2aa5bd4870c6"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Curved",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_curved_v2",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"spiralData" : 
+			{
+				"angularVelocity" : 0.300000012,
+				"growthBasedOnSpeed" : true,
+				"radialGrowth" : 1.0
+			},
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "ee9ae476-a141-4714-a6c5-4979df7b7678"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Curved",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_curved_v2_c",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"spiralData" : 
+			{
+				"angularVelocity" : -0.300000012,
+				"growthBasedOnSpeed" : true,
+				"radialGrowth" : 1.0
+			},
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "ec39fb0a-df10-4d34-afb6-ecaa99d260b8"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Curved",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_curved",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"spiralData" : 
+			{
+				"angularVelocity" : 0.200000003,
+				"growthBasedOnSpeed" : false,
+				"radialGrowth" : 0.899999976
+			},
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "71fca034-02e0-4541-bcb7-753b4636b09c"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Chargeup",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_chargeup",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "9b164409-61db-41ea-903f-f3471cb4664d"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Chargeup",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_chargeup",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "7795d565-e2a4-4264-bf71-3ba8c4a59d92"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Extradamage",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_extra",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "9f99cfc6-0c71-4f0a-aff2-9fff0fab6f92"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Extradamage",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_expo",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "8744e8fb-ac26-4826-851b-20969268bfcd"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Big_Extradamage",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_extra",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Growth_ExtraDamage.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "76017e75-8024-4ecd-bd1e-ad0f849be1c6"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Tiny",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_tiny",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "776aeabe-9f03-4ae8-b2ed-b99699c7e18e"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Tiny",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"heightGraph" : 
+			{
+				"distanceScale" : 54.0,
+				"graph" : "$PARTICLE_EDITOR_DATA/Graphs/TrashbotProjectileCurve.json",
+				"heightScale" : 20.799999237
+			},
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_tiny",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"useRadiusAsHeightOffset" : true,
+			"uuid" : "b6311cb6-2eed-4522-b4b4-17b2dbe84b96"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Arched",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_arched",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"uuid" : "c08542c8-7e37-4582-a5c3-1da44a387e03"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Arched",
+			"audiomass" : 250.0,
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"endRadius" : 10.0,
+			"friction" : 0.0,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_arched",
+			"radius" : 1.0,
+			"radiusGrowthGraph" : "$PARTICLE_EDITOR_DATA/Graphs/Bubble_Grow_Exponential_01.json",
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"uuid" : "ee21acdd-97e9-48b1-aa9e-258775784c3a"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Green_Bounce",
+			"audiomass" : 250.0,
+			"bounce" : 
+			{
+				"bounceEffect" : "",
+				"forcedHitNormal" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"forcedNormalDotThreshold" : -0.200000003,
+				"hitOnBounce" : true,
+				"maxAllowedBounces" : 10,
+				"maxDeathVelocity" : 170.0,
+				"minDeathVelocity" : 1.0,
+				"restitution" : 1.200000048,
+				"useForcedNormal" : true
+			},
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Gooprojectile_impactmedium_green",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.0,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "green_goopbubble_bounce",
+			"radius" : 2.0,
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"uuid" : "323e5c90-111a-4a54-b0b3-a672b5516615"
+		},
+		{
+			"attachedEffect" : "Trashbot - Goopbubble_Purple_Bounce",
+			"audiomass" : 250.0,
+			"bounce" : 
+			{
+				"bounceEffect" : "",
+				"forcedHitNormal" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"forcedNormalDotThreshold" : -0.200000003,
+				"hitOnBounce" : true,
+				"maxAllowedBounces" : 4,
+				"maxDeathVelocity" : 70.0,
+				"minDeathVelocity" : 1.0,
+				"restitution" : 1.200000048,
+				"useForcedNormal" : true
+			},
+			"color" : "ffffff",
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagebubble_Purple_Pop",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : true,
+			"friction" : 0.0,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : true,
+			"ignoreInitialCollisions" : false,
+			"mass" : 4.0,
+			"mesh" : "",
+			"name" : "purple_goopbubble_bounce",
+			"radius" : 2.0,
+			"spin" : 0.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"useLifetimeAsEffectMultiplier" : true,
+			"uuid" : "5c685395-86fc-4382-9a50-f6637e5e5dc1"
+		},
+		{
+			"attachedEffect" : "Trashbot - Garbagespray Projectile Green",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 80,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 40,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 20,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 10,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagespray player Impact Green",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : false,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 0.0,
+			"mesh" : "",
+			"name" : "trashbubble green",
+			"radius" : 1.0,
+			"spin" : 1.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "6e06cd7d-9142-4678-adf7-5e77ea627d2f"
+		},
+		{
+			"attachedEffect" : "Trashbot - Garbagespray Projectile Purple",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 80,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 40,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 20,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 10,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Garbagespray player Impact Purple",
+			"effectmaterial" : "None",
+			"enableGravity" : false,
+			"enableImpactEffect" : false,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 0.0,
+			"mesh" : "",
+			"name" : "trashbubble purple",
+			"radius" : 1.0,
+			"spin" : 1.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "8c86284f-096f-4419-8f93-5c3e3069448a"
+		},
+		{
+			"attachedEffect" : "Trashbot - Vollybomb Trail Green",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Vollybomb Impact",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 50.0,
+			"mesh" : "$SURVIVAL_DATA/Effects/Renderable/trashbot/projectile_trashbot_garbagebag.rend",
+			"name" : "trashbomb",
+			"radius" : 2.0,
+			"spin" : 1.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "76794a63-5202-4505-822f-45b83e08a9e9"
+		},
+		{
+			"attachedEffect" : "Trashbot - Vollybomb Trail Purple",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Vollybomb Impact Purple",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 50.0,
+			"mesh" : "$SURVIVAL_DATA/Effects/Renderable/trashbot/projectile_trashbot_garbagebag.rend",
+			"name" : "trashbomb_purple",
+			"radius" : 2.0,
+			"spin" : 1.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "4177e8b1-5ee4-4be8-ad2e-1d108f9d32b1"
+		},
+		{
+			"attachedEffect" : "Trashbot - Massvollybomb_purple_trail",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Massvollybomb_purple_impact",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 50.0,
+			"mesh" : "$SURVIVAL_DATA/Effects/Renderable/trashbot/projectile_trashbot_garbagebag.rend",
+			"name" : "trashbomb_mass_purple",
+			"radius" : 2.0,
+			"spin" : 1.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "beae42e2-c963-4e78-9c49-92296f6f3aaf"
+		},
+		{
+			"attachedEffect" : "Trashbot - Massvollybomb_green_trail",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Massvollybomb_green_impact",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 50.0,
+			"mesh" : "$SURVIVAL_DATA/Effects/Renderable/trashbot/projectile_trashbot_garbagebag.rend",
+			"name" : "trashbomb_mass_green",
+			"radius" : 2.0,
+			"spin" : 1.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "ded6a6ee-2322-41f2-b8e7-53b6fdf619fa"
+		},
+		{
+			"attachedEffect" : "Trashbot - Vollybomb Trail Green",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 80,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 60,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Chargedshot Impact Green",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 100.0,
+			"mesh" : "$SURVIVAL_DATA/Effects/Renderable/trashbot/projectile_trashbot_garbagebag.rend",
+			"name" : "trashchargedbullet_green",
+			"radius" : 2.0,
+			"spin" : 7.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "29bc9021-7aa0-4f0b-8c09-44f2950adadc"
+		},
+		{
+			"attachedEffect" : "Trashbot - Vollybomb Trail Purple",
+			"audiomass" : 250.0,
+			"destroyAttachedEffectOnHit" : true,
+			"destruction" : 
+			{
+				"destructionLevels" : 
+				[
+					{
+						"damage" : 100,
+						"qualityLevel" : 1
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 2
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 3
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 4
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 5
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 6
+					},
+					{
+						"damage" : 100,
+						"qualityLevel" : 7
+					},
+					{
+						"damage" : 80,
+						"qualityLevel" : 8
+					},
+					{
+						"damage" : 60,
+						"qualityLevel" : 9
+					}
+				]
+			},
+			"effect" : "Trashbot - Chargedshot Impact Purple",
+			"effectmaterial" : "None",
+			"enableGravity" : true,
+			"enableImpactEffect" : true,
+			"friction" : 0.200000003,
+			"hitOnTimeout" : false,
+			"ignoreCollisionTypes" : 
+			{
+				"kinematics" : true,
+				"melee" : true,
+				"surfaces" : false
+			},
+			"ignoreDirectionalRotation" : false,
+			"ignoreInitialCollisions" : false,
+			"liquidEffect" : "",
+			"mass" : 100.0,
+			"mesh" : "$SURVIVAL_DATA/Effects/Renderable/trashbot/projectile_trashbot_garbagebag.rend",
+			"name" : "trashchargedbullet_purple",
+			"radius" : 2.0,
+			"spin" : 7.0,
+			"spinRevolutionsPerSecond" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"useLegacyAttachedEffect" : true,
+			"useLegacyDirection" : true,
+			"useLegacyOrientation" : true,
+			"uuid" : "8922b592-58ea-40c0-8d24-e22022857a6d"
+		}
+	]
+}

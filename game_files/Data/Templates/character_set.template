@@ -1,0 +1,146 @@
+{
+	"template_meta": {
+		"uuid" : "2c42b9c5-881e-4a41-af0f-d89db12eec56",
+		"name":"Character Set",
+		"display": "characterset",
+		"pattern": ["$*/Character/CharacterSets/*.json", "*.characterset"]
+	},
+
+	"characters_meta" : { "valueAsLabel":"uuid" },
+	"characters": [
+		{
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true, "ignoreUuidName": true, "order":1 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"name_meta" : { "type": "string", "order": 2, "optional" : true },
+			"name" : "",
+
+			"showInEditor_meta" : { "type" : "bool", "order" : 3, "optional" : true },
+			"showInEditor" : true,
+
+			"renderables_meta": { "type":"array", "value_meta": { "type": "filepath" } },
+			"renderables": [],
+
+			"ragdoll_meta": { "type": "filepath", "optional": true },
+			"ragdoll": "",
+
+			"tumble_meta": { "optional": true },
+			"tumble":
+			{
+				"col_meta": { "type": "filepath" },
+				"col": "",
+
+				"offset_meta": { "type": "vec3" },
+				"offset": [0.0, 0.0, 0.0]
+			},
+
+			"hit_meta" : { "optional": true },
+			"hit" : {
+				"stand" : {
+					"col_meta": { "type": "filepath" },
+					"col": "",
+
+					"offset_meta": { "type": "vec3" },
+					"offset": [0.0, 0.0, 0.0]
+				},
+				"crouch_meta": { "optional": true },
+				"crouch" : {
+					"col_meta": { "type": "filepath" },
+					"col": "",
+
+					"offset_meta": { "type": "vec3" },
+					"offset": [0.0, 0.0, 0.0]
+				}
+			},
+
+			"character": 
+			{
+				"scriptPath_meta": { "type": "filepath" },
+				"scriptPath": "",
+
+				"scriptClass": "",
+				"data_meta" : { "editable": true }, 
+				"data": {}
+			},
+
+			"unit_meta": { "optional": true },
+			"unit":
+			{
+				"scriptPath_meta": { "type": "filepath" },
+				"scriptPath": "",
+
+				"scriptClass": "",
+				"data_meta" : { "editable": true }, 
+				"data": {}			
+			},
+
+			"movement":
+			{
+				"moveSpeed": 4.0,
+				"slowDownSpeed": 2.5,
+				"crouchSpeed": 3.0,
+				"sprintSpeed": 8.0,
+				"ladderMoveSpeed": 3.2,
+				"jumpImpulse_meta": { "optional": true },
+				"jumpImpulse": 7.0,
+				"headingRotationSpeed": 3.1415,
+				"facingRotationSpeed": 3.1415,
+				"canSwim": true,
+				"static_meta": { "optional": true },
+				"static": false,
+
+				"slipperySlopeAngle_meta": { "type": "float", "optional": true },
+				"slipperySlopeAngle": 15.0,
+				"slipperySlideSlopeAngle_meta": { "type": "float", "optional": true },
+				"slipperySlideSlopeAngle": 10.0,
+				"slipperyGlideFactor_meta": { "type": "float", "optional": true },
+				"slipperyGlideFactor": 0.975,
+				"slipperySlideGlideFactor_meta": { "type": "float", "optional": true },
+				"slipperySlideGlideFactor": 0.99,
+				"slipperySlideBoostFactor_meta": { "type": "float", "optional": true },
+				"slipperySlideBoostFactor": 2.0
+			},
+
+			"capsule":
+			{
+				"radius": 0.3,
+				"height": 1.4,
+				"crouchHeight_meta": { "optional": true },
+				"crouchHeight": 0.8
+			},
+
+			"mass_meta": { "optional": true, "suffix": "kg" },
+			"mass": 75.0,
+
+			"paint_meta": { "optional": true },
+			"paint":
+			{
+				"enable": true,
+
+				"defaultColor_meta": { "type":"hexColor", "optional":true },
+				"defaultColor": "",
+
+				"effect_meta": { "type": "option", "category":"effect" },
+				"effect": ""
+			},
+			
+			"animateOnServer_meta": { "optional": true },
+			"animateOnServer": false,
+
+			"rootMotion_meta": { "optional": true },
+			"rootMotion": false,
+
+			"hairGradient_meta" : { "optional": true },
+			"hairGradient" : {
+				"begin_meta": { "type":"color" },
+				"begin": [1.0, 1.0, 1.0, 1.0],
+
+				"end_meta": { "type":"color" },
+				"end": [1.0, 1.0, 1.0, 1.0]
+			},
+
+			"skinColorIndex_meta" : { "type":"int", "optional": true, "min" : 0, "max" : 4 },
+			"skinColorIndex" : 0
+		}
+	]
+}

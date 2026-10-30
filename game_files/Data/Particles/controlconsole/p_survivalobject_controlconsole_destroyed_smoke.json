@@ -1,0 +1,427 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.79294,
+					0.79294,
+					0.79294,
+					1.0
+				],
+				"cone_angle" : 15.0,
+				"cone_radius" : 0.5,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.46704
+							],
+							[
+								0.10242,
+								0.70059
+							],
+							[
+								0.20856,
+								0.85628
+							],
+							[
+								1.0,
+								1.28143
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.25633,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.78125
+								]
+							],
+							[
+								0.69014,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.71482
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 7.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					5.0
+				],
+				"friction" : 
+				[
+					4.0,
+					0.5
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					3.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.98961,
+					0.44264
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					45.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.0,
+					0.5
+				],
+				"translucency" : 0.72,
+				"type" : "cone",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.5
+				]
+			},
+			{
+				"category" : "4 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.3,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 14,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.96732
+							]
+						],
+						"guid" : 6,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.25389,
+									0.56334,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.89012,
+								[
+									0.29295,
+									0.73483,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14732
+							],
+							[
+								0.42947,
+								1.55227
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					0.75,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Lightning Sprite 1",
+				"position" : 
+				[
+					0.0,
+					0.73192,
+					0.56116
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.75,
+				"surface" : true,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "hemisphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.125
+				]
+			},
+			{
+				"category" : "0 - initiation",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/pu_flare.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.54364,
+								[
+									0.0,
+									0.11304,
+									0.23431,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.05076,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.18231
+							],
+							[
+								1.0,
+								1.55552
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 35,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 9,
+				"height" : 
+				[
+					8.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 55,
+				"min_quality" : "high",
+				"name" : "Initiation Glow4",
+				"position" : 
+				[
+					0.0,
+					0.397,
+					0.898
+				],
+				"rotation" : 
+				[
+					1.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"sort_offset" : 1.0,
+				"sphere_radius" : 0.00249,
+				"time_to_live" : 0.349999994,
+				"type" : "hemisphere",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					8.0,
+					1.0
+				],
+				"z_offset" : 10.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

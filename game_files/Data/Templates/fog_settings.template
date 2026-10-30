@@ -1,0 +1,44 @@
+{ 
+	"template_meta": {
+		"uuid" : "30eea993-7b61-4efb-b47c-4676dd69341c",
+		"name":"Fog Settings",
+		"display": "effectset",
+		"preferDualView" : false,
+		"pattern": ["*.fogsettings"]
+	},
+    "fogs_meta" : { "type" : "map" },
+    "fogs" : { 
+        "fog" : {
+
+            "speed_meta" : { "type" : "float", "min" : 0, "max" : 1000, "toolTip" : "Controls how fast the fog animates in and out" },
+            "speed" : 64,
+
+            "distance_meta" : { "type" : "float", "min" : 0, "max" : 1000, "toolTip" : "Maximum distance at which fog is visible from the camera" },
+            "distance" : 250,
+            
+            "depth_meta" : { "type" : "float", "min" : 0, "max" : 1000, "toolTip" : "Vertical depth fog" },
+            "depth" : 250,
+
+            "depth_color_meta" : { "type" : "color", "toolTip" : "Vertical depth fog Color tint" },
+            "depth_color" : [0.5, 0.5, 0.5, 1.0],
+
+            "depth_fade_meta" : { "type" : "float", "min" : 0, "max" : 10, "toolTip" : "Vertical depth fog clossness fade" },
+            "depth_fade" : 2,
+
+            "distance_pulse_speed_meta" : { "type" : "float", "min" : 0, "max" : 10, "toolTip" : "Speed of pulsating effect on fog distance (0 = no pulse)" },
+            "distance_pulse_speed" : 0,
+
+            "distance_pulse_size_meta" : { "type" : "float", "min" : 0, "max" : 1000, "toolTip" : "Amplitude of the distance pulsing effect" },
+            "distance_pulse_size" : 50,
+
+            "chromatic_aberration_meta" : { "type" : "float", "min" : 0, "max" : 10, "toolTip" : "Amount of color separation effect in the fog (0 = none)" },
+            "chromatic_aberration" : 0.0,
+
+            "godray_intensity_meta" : { "type" : "float", "min" : 0, "max" : 10, "toolTip" : "Intensity of volumetric light rays through the fog" },
+            "godray_intensity" : 1.0,
+
+            "map_meta" : { "type" : "texture", "toolTip" : "Texture used for fog color mapping and patterns" },
+            "map" : "$SURVIVAL_DATA/Lighting/Textures/fog_colormap.tga"
+        }
+    }
+}

@@ -1,0 +1,194 @@
+{
+	"partList" : 
+	[
+		{
+			"box" : 
+			{
+				"x" : 4,
+				"y" : 1,
+				"z" : 7
+			},
+			"color" : "3e9ffe",
+			"flammable" : true,
+			"name" : "obj_interactive_comfybed",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_comfybed.rend",
+			"restrictions" : 
+			{
+				"usable" : true
+			},
+			"rotationSet" : "PropFullMinusNegY",
+			"scripted" : 
+			{
+				"classname" : "Bed",
+				"data" : {},
+				"filename" : "$SURVIVAL_DATA/Scripts/game/interactables/Bed.lua",
+				"seat" : 
+				{
+					"bones" : 
+					[
+						{
+							"name" : "root_jnt",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 1.0,
+								"z" : 0.3
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "LeftForeArm",
+							"offset" : 
+							{
+								"x" : 1.5,
+								"y" : 1.1,
+								"z" : 1.1
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "RightForeArm",
+							"offset" : 
+							{
+								"x" : -1.5,
+								"y" : 1.1,
+								"z" : 1.1
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Head",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.0,
+								"z" : -0.2
+							}
+						},
+						{
+							"freeRotation" : true,
+							"name" : "Shoulders",
+							"offset" : 
+							{
+								"x" : 0.0,
+								"y" : 0.5,
+								"z" : 0.2
+							}
+						}
+					],
+					"enterAudio" : "event:/vehicle/seats/bed",
+					"exitAudio" : "event:/vehicle/seats/bed_getup",
+					"ragdollFile" : "$SURVIVAL_DATA/Character/bed_ragdoll.json"
+				}
+			},
+			"stackSize" : 5,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "5eb8975b-0acf-43a7-ab4e-62ce661c0df7"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"color" : "e86213ff",
+			"flammable" : false,
+			"name" : "obj_interactive_beehive",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_beehive.rend",
+			"restrictions" : 
+			{
+				"paintable" : false
+			},
+			"rotationSet" : "PropY",
+			"stackSize" : 5,
+			"uuid" : "98a85002-3b45-4fe8-b2fb-390a9953e877"
+		},
+		{
+			"box" : 
+			{
+				"x" : 3,
+				"y" : 4,
+				"z" : 3
+			},
+			"color" : "008ae1ff",
+			"flammable" : false,
+			"name" : "obj_interactive_freezer",
+			"physicsMaterial" : "Mechanical",
+			"ratings" : 
+			{
+				"buoyancy" : 2,
+				"density" : 3,
+				"durability" : 7,
+				"friction" : 6
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_freezer.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 5,
+			"uuid" : "479e8131-cc76-48e1-9979-8053a7295d1f"
+		},
+		{
+			"box" : 
+			{
+				"x" : 2,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "df7f01",
+			"flammable" : true,
+			"name" : "obj_interactive_alarmclock",
+			"physicsMaterial" : "Electronics",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_alarmclock.rend",
+			"rotationSet" : "PropYZ",
+			"stackSize" : 5,
+			"uuid" : "d9509ce7-5a2e-4d4d-b39c-1332447cef41"
+		},
+		{
+			"box" : 
+			{
+				"x" : 5,
+				"y" : 2,
+				"z" : 5
+			},
+			"color" : "577d07ff",
+			"flammable" : false,
+			"name" : "obj_interactive_growbed_soil",
+			"physicsMaterial" : "Plastic",
+			"ratings" : 
+			{
+				"buoyancy" : 6,
+				"density" : 3,
+				"durability" : 3,
+				"friction" : 4
+			},
+			"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_growbed.rend",
+			"rotationSet" : "PropY",
+			"stackSize" : 5,
+			"sticky" : "-Z+Z-Y-X+X",
+			"uuid" : "40730f13-5fdb-4785-b32e-5ca6519c162e"
+		}
+	]
+}

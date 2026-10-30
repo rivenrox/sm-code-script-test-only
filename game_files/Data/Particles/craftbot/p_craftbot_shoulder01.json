@@ -1,0 +1,1088 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "axial_self",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								3.7171
+							],
+							[
+								0.2,
+								3.61842
+							],
+							[
+								0.34768,
+								3.19076
+							],
+							[
+								0.46461,
+								2.17105
+							],
+							[
+								0.66768,
+								1.62827
+							],
+							[
+								1.0,
+								1.15128
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 5.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.39146,
+									0.06396,
+									1.0
+								]
+							],
+							[
+								0.88731,
+								[
+									1.0,
+									0.71941,
+									0.39511,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66447
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 3,
+						"length" : 0.34999,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/craftbot/p_emssionmesh_craftbot_shoulder.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 40,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.05,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 150,
+				"min_quality" : "high",
+				"name" : "SparksGeneral 1 (High)",
+				"power_glow" : true,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"time_to_live" : 
+				[
+					1.0,
+					0.3
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					-5.0,
+					2.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.035,
+					0.00749
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/powertools/p_mesh_plasmasaw_cylinder01_asg.tga",
+				"category" : "1",
+				"color" : 
+				[
+					0.16403,
+					0.16403,
+					0.16403,
+					1.0
+				],
+				"depth" : 0.949999988,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 5.0,
+				"editorColor" : 
+				[
+					0.11764,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.32811,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.76911,
+									0.4453,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.85895
+							],
+							[
+								1.0,
+								1.09993
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.1,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 90,
+						"guid" : 7,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 8,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 2.0,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 411,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Mesh Swirl Edge",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/sawtable/p_renderable_sawtable_saw01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 540.0,
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.05
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.949999988
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/powertools/p_powertools_swirlloop02_asg.tga",
+				"box" : 
+				[
+					0.1,
+					0.0,
+					0.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.27733,
+					0.27733,
+					0.27733,
+					1.0
+				],
+				"depth" : 
+				[
+					0.85,
+					0.15
+				],
+				"direction_type" : "constant",
+				"duration" : 4.0,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.90196,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.32811,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.76911,
+									0.4453,
+									1.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 11,
+						"name" : "TextureAnimator"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-90.0
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 12,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 30,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 9,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 100,
+				"mesh" : "$GAME_DATA/Particles/resources/sawtable/p_sawtable_saw_meshcylinder03.fbx",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Main Swirl 03 MESH",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.10002
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/sawtable/p_renderable_sawtable_saw02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 540.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					-0.85001,
+					0.15
+				]
+			},
+			{
+				"box" : 
+				[
+					0.0,
+					0.2,
+					0.0
+				],
+				"category" : "4 - RedGlow ",
+				"color" : 
+				[
+					0.50195,
+					0.50195,
+					0.50195,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"editorColor" : 
+				[
+					0.11764,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.16899,
+								[
+									1.0,
+									0.48284,
+									0.10546,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.62948
+							],
+							[
+								1.0,
+								0.43823
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"friction" : 6.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					0.2,
+					0.05
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Saw Glow 02",
+				"position" : 
+				[
+					0.0,
+					-0.5613,
+					-0.23523
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					1.0,
+					1.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					0.0,
+					0.0,
+					-90.0
+				],
+				"soft_particles_bias" : 3500,
+				"time_to_live" : 
+				[
+					0.25,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.2,
+					0.05
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					0.0,
+					0.2,
+					0.0
+				],
+				"category" : "1 - flash",
+				"color" : 
+				[
+					0.50388,
+					0.50388,
+					0.50388,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash02.tga",
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"editorColor" : 
+				[
+					0.11764,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 17,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.39441
+							],
+							[
+								0.44679,
+								1.56972
+							],
+							[
+								0.67659,
+								1.87249
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.63441,
+									0.11715,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.55062,
+									0.39452,
+									1.0
+								]
+							]
+						],
+						"guid" : 19,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.53187
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 16,
+				"height" : 
+				[
+					0.37,
+					0.17
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "New Flash 1",
+				"position" : 
+				[
+					0.0,
+					-0.5613,
+					-0.13031
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					25.0,
+					0.0,
+					-90.0
+				],
+				"soft_particles_bias" : 1500,
+				"time_to_live" : 
+				[
+					0.15,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 3.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.125,
+					0.025
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					0.0,
+					0.2,
+					0.0
+				],
+				"category" : "1 - flash",
+				"color" : 
+				[
+					0.50195,
+					0.50195,
+					0.50195,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash04.tga",
+				"direction_type" : "shape",
+				"duration" : 5.0,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.90196,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 22,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.17678
+							],
+							[
+								0.56932,
+								0.96363
+							],
+							[
+								0.75419,
+								1.15039
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.39997
+							]
+						],
+						"guid" : 24,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.63441,
+									0.11715,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.55062,
+									0.39452,
+									1.0
+								]
+							]
+						],
+						"guid" : 25,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 100,
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 21,
+				"height" : 
+				[
+					0.675,
+					0.125
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "New Flash 2",
+				"position" : 
+				[
+					0.0,
+					-0.5613,
+					-0.13031
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					25.0,
+					0.0,
+					-90.0
+				],
+				"soft_particles_bias" : 1500,
+				"time_to_live" : 
+				[
+					0.15,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					2.0,
+					0.75
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.125,
+					0.05
+				],
+				"z_offset" : 250.0
+			},
+			{
+				"angle" : 5.0,
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					0.0,
+					0.2,
+					0.0
+				],
+				"category" : "1 - flash",
+				"color" : 
+				[
+					0.50195,
+					0.50195,
+					0.50195,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash04.tga",
+				"direction" : 
+				[
+					0.0,
+					-0.5,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 5.0,
+				"editorColor" : 
+				[
+					0.11764,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.88643
+							]
+						],
+						"fade" : 0.2,
+						"guid" : 27,
+						"length" : 0.3,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.17678
+							],
+							[
+								0.56932,
+								0.96363
+							],
+							[
+								0.75419,
+								1.15039
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.39997
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.63441,
+									0.11715,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.55062,
+									0.39452,
+									1.0
+								]
+							]
+						],
+						"guid" : 30,
+						"name" : "Color",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 26,
+				"height" : 
+				[
+					0.75,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "New Flash 3",
+				"position" : 
+				[
+					0.0,
+					-0.5613,
+					-0.13031
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					0.0,
+					0.0,
+					-90.0
+				],
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 
+				[
+					0.2,
+					0.05
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					3.5,
+					0.75
+				],
+				"water_mask" : "none",
+				"width" : 0.075000003,
+				"z_offset" : 250.0
+			}
+		]
+	}
+}

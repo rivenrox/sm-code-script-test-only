@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2025-07-01T11:04:08Z</created><keywords></keywords><modified>2025-07-01T11:04:08Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
+  <library_animations>
+    <animation id="j_ratt-anim" name="j_ratt"><animation><source id="j_ratt-Matrix-animation-input"><float_array id="j_ratt-Matrix-animation-input-array" count="3">
+
+0.000000 0.033333 0.066667</float_array><technique_common><accessor source="#j_ratt-Matrix-animation-input-array" count="3"><param name="TIME" type="float"/></accessor></technique_common></source><source id="j_ratt-Matrix-animation-output-transform"><float_array id="j_ratt-Matrix-animation-output-transform-array" count="48">
+
+0.706781 0.706781 0.030360 0.008306 -0.707107 0.707107 -0.000000 0.000000 -0.021468 -0.021468 0.999539 1.879908 0.000000 0.000000 0.000000 1.000000
+0.999539 0.000000 0.030360 0.008306 0.000000 1.000000 0.000000 0.000000 -0.030360 0.000000 0.999539 1.879908 0.000000 0.000000 0.000000 1.000000
+0.706781 -0.706781 0.030360 0.008306 0.707107 0.707107 0.000000 0.000000 -0.021468 0.021468 0.999539 1.879908 0.000000 0.000000 0.000000 1.000000</float_array><technique_common><accessor source="#j_ratt-Matrix-animation-output-transform-array" count="3" stride="16"><param type="float4x4"/></accessor></technique_common></source><source id="j_ratt-Interpolations"><Name_array id="j_ratt-Interpolations-array" count="3">
+ LINEAR LINEAR LINEAR</Name_array><technique_common><accessor source="#j_ratt-Interpolations-array" count="3"><param type="name"/></accessor></technique_common></source><sampler id="j_ratt-Matrix-animation-transform"><input semantic="INPUT" source="#j_ratt-Matrix-animation-input"/><input semantic="OUTPUT" source="#j_ratt-Matrix-animation-output-transform"/><input semantic="INTERPOLATION" source="#j_ratt-Interpolations"/></sampler><channel source="#j_ratt-Matrix-animation-transform" target="j_ratt/matrix"/></animation></animation>
+  </library_animations>
+  <library_visual_scenes>
+    <visual_scene id="ani_obj_interactive_turretseat_turn" name="ani_obj_interactive_turretseat_turn">
+      <node name="j_root" id="j_root" sid="j_root" type="JOINT"><matrix sid="matrix">0.999539 0.000000 -0.030360 0.000000 0.000000 1.000000 0.000000 0.000000 0.030360 0.000000 0.999539 0.000000 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra><node name="j_ratt" id="j_ratt" sid="j_ratt" type="JOINT"><matrix sid="matrix">0.706781 0.706781 0.030360 0.008306 -0.707107 0.707107 -0.000000 0.000000 -0.021468 -0.021468 0.999539 1.879908 0.000000 0.000000 0.000000 1.000000</matrix><extra><technique profile="FCOLLADA"><visibility>1.000000</visibility></technique></extra></node></node>
+      <extra><technique profile="MAX3D"><frame_rate>30.000000</frame_rate></technique><technique profile="FCOLLADA"><start_time>0.000000</start_time><end_time>0.066667</end_time></technique></extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#ani_obj_interactive_turretseat_turn"></instance_visual_scene>
+  </scene>
+</COLLADA>

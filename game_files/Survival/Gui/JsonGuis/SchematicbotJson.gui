@@ -1,0 +1,717 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : [],
+			"Name" : "BackgroundPanel",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "BackgroundDressbot",
+			"Type" : "Widget",
+			"height" : 520,
+			"width" : 360,
+			"x" : 0,
+			"y" : -1
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "#{SCHEMATICBOT_SCAN}",
+					"Childs" : [],
+					"FontName" : "SM_Button",
+					"Name" : "TextBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.3",
+					"Type" : "TextBox",
+					"height" : 30,
+					"width" : 126,
+					"x" : 0,
+					"y" : 10
+				},
+				{
+					"Childs" : [],
+					"CropEffect" : false,
+					"Effects" : 
+					[
+						{
+							"EffectName" : "Gui - Schematicbot Scanbuttonhover",
+							"Name" : "hover",
+							"Offset" : 
+							{
+								"x" : -66,
+								"y" : -231
+							},
+							"PlayState" : "Auto play off"
+						},
+						{
+							"EffectName" : "Gui - Schematicbot Pickupbutton",
+							"Name" : "collect",
+							"Offset" : 
+							{
+								"x" : -61,
+								"y" : -98
+							},
+							"PlayState" : "Auto play off"
+						}
+					],
+					"Name" : "UnlockButtonEffectBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EffectBox",
+					"Type" : "EffectBox",
+					"height" : 250,
+					"width" : 250,
+					"x" : 0,
+					"y" : 0
+				}
+			],
+			"FontName" : "SM_Button",
+			"Name" : "ScanButtonInactive",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "SchematicbotButtonGray",
+			"Type" : "Button",
+			"Visible" : true,
+			"height" : 56,
+			"width" : 126,
+			"x" : 120,
+			"y" : 294
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "#{SCHEMATICBOT_SCAN}",
+					"Childs" : [],
+					"FontName" : "SM_Button",
+					"Name" : "TextBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"TextColour" : "1.0 1.0 1.0 1.0",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.3",
+					"Type" : "TextBox",
+					"height" : 30,
+					"width" : 126,
+					"x" : 0,
+					"y" : 10
+				}
+			],
+			"FontName" : "SM_Button",
+			"Name" : "ScanButtonActive",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "SchematicbotButtonBlue",
+			"Type" : "Button",
+			"Visible" : false,
+			"height" : 56,
+			"onClick" : "cl_onScanClicked",
+			"width" : 126,
+			"x" : 120,
+			"y" : 294
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "#{UNLOCK}",
+					"Childs" : [],
+					"FontName" : "SM_Button",
+					"Name" : "TextBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"TextColour" : "1.0 1.0 1.0 1.0",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.3",
+					"Type" : "TextBox",
+					"height" : 30,
+					"width" : 126,
+					"x" : 0,
+					"y" : 10
+				}
+			],
+			"FontName" : "SM_Button",
+			"Name" : "UnlockButton",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "SchematicbotButtonBlueFilled",
+			"Type" : "Button",
+			"Visible" : false,
+			"height" : 56,
+			"onClick" : "cl_onUnlockedClicked",
+			"width" : 126,
+			"x" : 120,
+			"y" : 294
+		},
+		{
+			"Caption" : "You got .. schematics to unlock",
+			"Childs" : [],
+			"FontName" : "SM_TabSmall",
+			"Name" : "SchematicCountText",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "TextBox",
+			"TextAlign" : "Center",
+			"Type" : "TextBox",
+			"height" : 30,
+			"width" : 360,
+			"x" : 0,
+			"y" : 376
+		},
+		{
+			"Caption" : "#{SCHEMATICBOT_DIRECTIONS}",
+			"Childs" : [],
+			"FontName" : "SM_TabSmall",
+			"Name" : "DirectionsText",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "TextBox",
+			"TextAlign" : "Center",
+			"TextColour" : "1 1 1 0.5",
+			"Type" : "TextBox",
+			"height" : 30,
+			"width" : 360,
+			"x" : 0,
+			"y" : 70
+		},
+		{
+			"Caption" : "#{SCHEMATICBOT_TITLE}",
+			"Childs" : [],
+			"FontName" : "SM_HeaderLarge_Medium",
+			"Name" : "TitleText",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "TextBox",
+			"TextAlign" : "Center",
+			"TextShadow" : true,
+			"TextShadowColour" : "0 0 0 0.2",
+			"Type" : "TextBox",
+			"height" : 50,
+			"width" : 360,
+			"x" : 0,
+			"y" : 30
+		},
+		{
+			"Childs" : [],
+			"Name" : "LeftButton",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "DressbotArrowLeft",
+			"StateSelected" : false,
+			"Type" : "Button",
+			"Visible" : true,
+			"height" : 24,
+			"onClick" : "cl_onLeftArrowClicked",
+			"width" : 20,
+			"x" : 10,
+			"y" : 438
+		},
+		{
+			"Childs" : [],
+			"Name" : "RightButton",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "DressbotArrowRight",
+			"StateSelected" : false,
+			"Type" : "Button",
+			"Visible" : true,
+			"height" : 24,
+			"onClick" : "cl_onRightArrowClicked",
+			"width" : 20,
+			"x" : 333,
+			"y" : 438
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"CropEffect" : false,
+					"Effects" : 
+					[
+						{
+							"EffectName" : "Gui - Schematicbot Activate",
+							"Name" : "activate",
+							"PlayState" : "Auto play off"
+						},
+						{
+							"EffectName" : "Gui - Schematicbot Scandrag",
+							"Name" : "drag",
+							"Offset" : 
+							{
+								"x" : 1,
+								"y" : 4
+							},
+							"PlayState" : "Auto play off"
+						}
+					],
+					"Name" : "InactiveScanBackgroundEffectBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EffectBox",
+					"Type" : "EffectBox",
+					"height" : 166,
+					"width" : 166,
+					"x" : -1,
+					"y" : 0
+				}
+			],
+			"ImageTexture" : "schematicbot_symbol_default.png",
+			"Name" : "InactiveScanBackground",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "ImageBox",
+			"Type" : "ImageBox",
+			"Visible" : true,
+			"height" : 166,
+			"width" : 166,
+			"x" : 96,
+			"y" : 104
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"Name" : "ProgressBarBackground",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "DressbotProgressBackground",
+					"Type" : "ProgressBar",
+					"height" : 14,
+					"width" : 164,
+					"x" : 0,
+					"y" : 30
+				},
+				{
+					"Caption" : "#{SCHEMATICBOT_SCANNING}",
+					"Childs" : [],
+					"FontName" : "SM_Header",
+					"Name" : "ScanText",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"Type" : "TextBox",
+					"height" : 30,
+					"width" : 160,
+					"x" : 0,
+					"y" : 4
+				},
+				{
+					"Childs" : [],
+					"Name" : "ProgressBar",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "DressbotProgress",
+					"Type" : "Widget",
+					"height" : 10,
+					"width" : 160,
+					"x" : 2,
+					"y" : 32
+				}
+			],
+			"Name" : "ProgressHolder",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : false,
+			"height" : 50,
+			"width" : 170,
+			"x" : 100,
+			"y" : 290
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"ImageTexture" : "schematicbot_scanning_base.png",
+					"Name" : "ActiveScanBackground",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"Visible" : true,
+					"height" : 166,
+					"width" : 166,
+					"x" : 0,
+					"y" : 0
+				},
+				{
+					"Childs" : [],
+					"ImageTexture" : "schematicbot_scanning_symbol.png",
+					"Name" : "ScanEmblem",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"Visible" : true,
+					"height" : 132,
+					"width" : 150,
+					"x" : 8,
+					"y" : 16
+				},
+				{
+					"Childs" : [],
+					"ImageTexture" : "schematicbot_scanning_grid.png",
+					"Name" : "ScanGrid",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"Visible" : true,
+					"height" : 166,
+					"width" : 166,
+					"x" : 1,
+					"y" : 1
+				},
+				{
+					"Childs" : [],
+					"CropEffect" : false,
+					"Effects" : 
+					[
+						{
+							"EffectName" : "Gui - Schematicbot Scanning",
+							"Name" : "scan",
+							"PlayState" : "Auto play off"
+						},
+						{
+							"EffectName" : "Gui - Schematicbot Scanning_done",
+							"Name" : "scandone",
+							"PlayState" : "Auto play off"
+						},
+						{
+							"EffectName" : "Gui - Schematicbot Scanning_done_glowloop",
+							"Name" : "scandoneloop",
+							"PlayState" : "Auto play off"
+						}
+					],
+					"Name" : "ScanEffectBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EffectBox",
+					"Type" : "EffectBox",
+					"height" : 150,
+					"width" : 150,
+					"x" : 8,
+					"y" : 90
+				}
+			],
+			"Name" : "ActiveScanHolder",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : false,
+			"height" : 166,
+			"width" : 166,
+			"x" : 96,
+			"y" : 104
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Name" : "Item1Icon",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 82,
+							"width" : 82,
+							"x" : 4,
+							"y" : 4
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Schematicbot Drag",
+									"Name" : "drag",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Layer" : "LuaDragAndDrop",
+							"Name" : "ItemDragImageEffectBox1",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Popup" : true,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 90,
+							"width" : 90,
+							"x" : 500,
+							"y" : 467
+						}
+					],
+					"Cursor" : "Draggable",
+					"Name" : "Item1",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "DressbotQueueBackground",
+					"StateSelected" : false,
+					"Type" : "Button",
+					"height" : 90,
+					"onDrag" : "cl_onDrag",
+					"onPressed" : "cl_onPressed",
+					"onReleased" : "cl_onReleased",
+					"width" : 90,
+					"x" : 4,
+					"y" : 14
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Name" : "Item2Icon",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 82,
+							"width" : 82,
+							"x" : 4,
+							"y" : 4
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Schematicbot Drag",
+									"Name" : "drag",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Layer" : "LuaDragAndDrop",
+							"Name" : "ItemDragImageEffectBox2",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Popup" : true,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 90,
+							"width" : 90,
+							"x" : 598,
+							"y" : 467
+						}
+					],
+					"Cursor" : "Draggable",
+					"Name" : "Item2",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "DressbotQueueBackground",
+					"StateSelected" : false,
+					"Type" : "Button",
+					"height" : 90,
+					"onDrag" : "cl_onDrag",
+					"onPressed" : "cl_onPressed",
+					"onReleased" : "cl_onReleased",
+					"width" : 90,
+					"x" : 102,
+					"y" : 14
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Name" : "Item3Icon",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 82,
+							"width" : 82,
+							"x" : 4,
+							"y" : 4
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Schematicbot Drag",
+									"Name" : "drag",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Layer" : "LuaDragAndDrop",
+							"Name" : "ItemDragImageEffectBox3",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Popup" : true,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"height" : 90,
+							"width" : 90,
+							"x" : 696,
+							"y" : 467
+						}
+					],
+					"Cursor" : "Draggable",
+					"Name" : "Item3",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "DressbotQueueBackground",
+					"StateSelected" : false,
+					"Type" : "Button",
+					"height" : 90,
+					"onDrag" : "cl_onDrag",
+					"onPressed" : "cl_onPressed",
+					"onReleased" : "cl_onReleased",
+					"width" : 90,
+					"x" : 200,
+					"y" : 14
+				}
+			],
+			"Name" : "InventoryListing",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"height" : 120,
+			"width" : 290,
+			"x" : 35,
+			"y" : 395
+		},
+		{
+			"Childs" : [],
+			"Name" : "ResearchImage",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "ImageBox",
+			"Type" : "ImageBox",
+			"height" : 110,
+			"width" : 110,
+			"x" : 124,
+			"y" : 136
+		},
+		{
+			"Childs" : [],
+			"Cursor" : "Draggable",
+			"DisableOnFocusSound" : true,
+			"Name" : "ResearchButton",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "PanelEmpty",
+			"StateSelected" : false,
+			"TextAlign" : "Center",
+			"Type" : "Button",
+			"height" : 140,
+			"onDrag" : "cl_onResearchDrag",
+			"onPressed" : "cl_onResearchAreaPressed",
+			"onReleased" : "cl_onResearchAreaReleased",
+			"width" : 140,
+			"x" : 108,
+			"y" : 120
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"CropEffect" : false,
+					"Effects" : 
+					[
+						{
+							"EffectName" : "Gui - Schematicbot Scandrag",
+							"Name" : "drag",
+							"PlayState" : "Auto play off"
+						}
+					],
+					"Name" : "ResearchDragImageEffectBox",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "EffectBox",
+					"Type" : "EffectBox",
+					"height" : 110,
+					"width" : 110,
+					"x" : 0,
+					"y" : 0
+				}
+			],
+			"Name" : "ResearchDragImage",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Popup" : true,
+			"Skin" : "ImageBox",
+			"Type" : "ImageBox",
+			"Visible" : false,
+			"height" : 110,
+			"width" : 110,
+			"x" : 584,
+			"y" : 194
+		},
+		{
+			"Childs" : [],
+			"Effects" : 
+			[
+				{
+					"EffectName" : "Gui - Schematicbot Scanbutton",
+					"Name" : "scanbutton",
+					"PlayState" : "Auto play off"
+				}
+			],
+			"Name" : "ResearchButtonEffectBox",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Skin" : "EffectBox",
+			"Type" : "EffectBox",
+			"height" : 140,
+			"width" : 140,
+			"x" : 108,
+			"y" : 120
+		},
+		{
+			"Childs" : [],
+			"Layer" : "LuaDragAndDrop",
+			"Name" : "ItemDragImage",
+			"NeedKey" : false,
+			"NeedMouse" : false,
+			"Popup" : true,
+			"Skin" : "ImageBox",
+			"Type" : "ImageBox",
+			"Visible" : true,
+			"height" : 90,
+			"width" : 92,
+			"x" : 500,
+			"y" : 464
+		}
+	],
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : true,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"Visible" : true,
+	"height" : 520,
+	"onClose" : "cl_onGuiClosed",
+	"width" : 360,
+	"x" : 0,
+	"y" : -42
+}

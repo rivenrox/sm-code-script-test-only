@@ -1,0 +1,375 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "0",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "ChestGlow  (low) -- set opacity in rend to 0.85 for Laser FOG",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.13696
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/interactive/p_renderable_interactive_chestglow01.rend",
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "0",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 1,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "ChestGlow  2",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.13696
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/interactive/p_renderable_interactive_chestglow02.rend",
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "2",
+				"color" : 
+				[
+					0.0,
+					1.0,
+					0.625,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_lootsuction_square01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.80563,
+								[
+									0.11326,
+									0.11326,
+									0.11326,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.15,
+								1.0
+							],
+							[
+								0.25,
+								0.75
+							],
+							[
+								0.4,
+								0.75
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								0.64999,
+								0.5
+							],
+							[
+								0.75,
+								0.25
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 2,
+				"height" : 5.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "square1 Main",
+				"scene_blend" : "addative",
+				"time_to_live" : 2.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "2",
+				"color" : 
+				[
+					0.0,
+					1.0,
+					0.625,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"delay" : 0.125,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_lootsuction_square01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.50138,
+								[
+									0.07,
+									0.07,
+									0.07,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.05,
+								1.0
+							],
+							[
+								0.25,
+								0.75
+							],
+							[
+								0.3,
+								0.75
+							],
+							[
+								0.5,
+								0.5
+							],
+							[
+								0.55,
+								0.5
+							],
+							[
+								0.75,
+								0.25
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 5.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "square delay",
+				"scene_blend" : "addative",
+				"time_to_live" : 2.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "2",
+				"color" : 
+				[
+					0.0,
+					1.0,
+					0.625,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_lootsuction_square02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.52956,
+								[
+									0.07,
+									0.07,
+									0.07,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.73026
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 5.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "square1 Background",
+				"scene_blend" : "addative",
+				"time_to_live" : 2.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

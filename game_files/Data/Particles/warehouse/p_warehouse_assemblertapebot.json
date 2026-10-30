@@ -1,0 +1,216 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - LeftOver",
+				"circle_angle" : 0.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								0.11321,
+								-0.85642
+							],
+							[
+								0.2025,
+								-0.63591
+							],
+							[
+								0.28389,
+								-0.31283
+							],
+							[
+								0.37957,
+								0.57946
+							],
+							[
+								0.41786,
+								0.87686
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								0.56936,
+								0.90249
+							],
+							[
+								0.61403,
+								0.66666
+							],
+							[
+								0.70015,
+								-0.1077
+							],
+							[
+								0.79584,
+								-0.58975
+							],
+							[
+								0.89472,
+								-0.83079
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 1,
+						"max" : 1.0,
+						"min" : -1.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 2.15
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.01176,
+									0.36078,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.26758,
+								[
+									0.00784,
+									0.35686,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.60562,
+								[
+									1.0,
+									0.15294,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.15681,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.99,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"friction" : 0.01,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 0,
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Robot1",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-1.51945
+				],
+				"radius" : 0.002,
+				"renderable" : "$GAME_DATA/Particles/Renderable/botconverter/p_renderable_botconverter_tapebot01.rend",
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 31.0,
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "2 - platfrom",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 4,
+				"height" : 0.75,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "platfrom",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-1.54253
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/botconverter/p_renderable_botconverter_platform01.rend",
+				"time_to_live" : 32.833,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75
+			}
+		],
+		"min_quality" : "low"
+	}
+}

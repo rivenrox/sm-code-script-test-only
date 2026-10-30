@@ -1,0 +1,362 @@
+{
+	"template_meta": {
+		"uuid" : "14af07e3-5483-4e50-9555-96f87dafc2b4",
+		"name":"Tileson/Prefabson",
+		"display": "tileson",
+		"pattern": ["*.tileson", "*.prefabson"]
+	},
+
+	"info" :
+	{
+		"uuid_meta" : { "type" : "uuid" },
+		"uuid" : "",
+
+		"userId_meta" : { "type" : "uint64" },
+		"userId" : 0,
+
+		"type_meta" : { "options" : [ "Prefab", "Terrain", "Dungeon", "MiniDungeon" ] },
+		"type" : "Prefab",
+
+		"cellsX_meta" : { "type" : "uint", "optional" : true },
+		"cellsX" : 0,
+
+		"cellsY_meta" : { "type" : "uint", "optional" : true },
+		"cellsY" : 0
+	},
+
+	"entities_meta" : { "optional" : true },
+	"entities" :
+	{
+		"assets_meta" : { "optional" : true },
+		"assets" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+				
+				"colorMap_meta" : { "type" : "map", "optional" : true },
+				"colorMap" : {
+					"color_meta" : { "type" : "string" },
+					"color" : "#FFFFFFFF"
+				},
+				
+				"tags_meta" : { "type" : "array", "optional" : true, "value_meta" : { "type" : "string" } },
+				"tags" : [],
+
+				"uuid_meta" : { "type" : "uuid", "optional" : true },
+				"uuid" : "00000000-0000-0000-0000-000000000000",
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+
+		"blueprints_meta" : { "optional" : true },
+		"blueprints" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+
+				"resource_meta" : { "optional" : true },
+				"resource" : "",
+				
+				"tags_meta" : { "type" : "array", "optional" : true, "value_meta" : { "type" : "string" } },
+				"tags" : [],
+
+				"params_meta" : { "optional": true, "hideUnavailableOptionals" : true },
+				"params" :[ {} ],
+
+				"sortingIndex_meta" : { "type" : "int", "optional" : true },
+				"sortingIndex" : 0,
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+
+		"prefabs_meta" : { "optional" : true },
+		"prefabs" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+
+				"tags_meta" : { "type" : "array", "optional" : true, "value_meta" : { "type" : "string" } },
+				"tags" : [],
+
+				"mergePrefabShapes_meta" : { "type" : "bool", "optional" : true },
+				"mergePrefabShapes" : false,
+
+				"editorSpecialWater_meta" : { "type" : "bool", "optional" : true },
+				"editorSpecialWater" : false,
+
+				"loadAsPrefab_meta" : { "type" : "bool", "optional" : true },
+				"loadAsPrefab" : false,
+				
+				"voxelLayer_meta" : { "type" : "uint", "optional" : true },
+				"voxelLayer" : 0,
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+
+		"nodes_meta" : { "optional" : true },
+		"nodes" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+
+				"tags_meta" : { "type" : "array", "optional" : true, "value_meta" : { "type" : "string" } },
+				"tags" : [],
+
+				"params_meta" : { "optional": true, "hideUnavailableOptionals" : true },
+				"params" :[ {} ],
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+
+		"decals_meta" : { "optional" : true },
+		"decals" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+
+				"tags_meta" : { "type" : "array", "optional" : true, "value_meta" : { "type" : "string" } },
+				"tags" : [],
+
+				"layer_meta" : { "type" : "uint", "optional" : true },
+				"layer" : 0,
+
+				"color_meta" : { "type" : "string", "optional" : true },
+				"color" : "#FFFFFFFF",
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+
+		"harvestables_meta" : { "optional" : true },
+		"harvestables" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+
+				"tags_meta" : { "type" : "array", "optional" : true, "value_meta" : { "type" : "string" } },
+				"tags" : [],
+
+				"params_meta" : { "optional": true, "hideUnavailableOptionals" : true },
+				"params" :[ {} ],
+
+				"color_meta" : { "type" : "string", "optional" : true },
+				"color" : "#FFFFFFFF",
+
+				"uuid_meta" : { "type" : "uuid", "optional" : true },
+				"uuid" : "00000000-0000-0000-0000-000000000000",
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+
+		"kinametics_meta" : { "optional" : true },
+		"kinametics" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+	
+				"tags_meta" : { "type" : "array", "optional" : true, "value_meta" : { "type" : "string" } },
+				"tags" : [],
+
+				"params_meta" : { "optional": true, "hideUnavailableOptionals" : true },
+				"params" :[ {} ],
+
+				"color_meta" : { "type" : "string", "optional" : true },
+				"color" : "#FFFFFFFF",
+
+				"uuid_meta" : { "type" : "uuid", "optional" : true },
+				"uuid" : "00000000-0000-0000-0000-000000000000",
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+		
+		"voxelMeshes_meta" : { "optional" : true },
+		"voxelMeshes" :
+		[
+			{
+
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000",
+
+				"layer_meta" : { "type" : "uint", "optional" : true },
+				"layer" : 0,
+
+				"uuid_meta" : { "type" : "uuid", "optional" : true },
+				"uuid" : "00000000-0000-0000-0000-000000000000",
+
+				"materialIndex_meta" : { "type" : "uint", "optional" : true },
+				"materialIndex" : 0,
+
+				"blurTypeIndex_meta" : { "type" : "uint", "optional" : true },
+				"blurTypeIndex" : 0,
+
+				"shellDepth_meta" : { "type" : "uint", "optional" : true },
+				"shellDepth" : 0,
+
+				"operation_meta" : { "type" : "uint", "optional" : true },
+				"operation" : 0,
+
+				"hidden_meta" : { "type" : "bool", "optional" : true },
+				"hidden" : false,
+				
+				"locked_meta" : { "type" : "bool", "optional" : true },
+				"locked" : false,
+
+				"gizmo_meta" : { "type" : "bool", "optional" : true },
+				"gizmo" : false,
+
+				"exclude_meta" : { "type" : "bool", "optional" : true },
+				"exclude" : false
+			}
+		],
+
+		"grids_meta" : { "optional" : true },
+		"grids" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000"
+			}
+		],
+
+		"characters_meta" : { "optional" : true },
+		"characters" :
+		[
+			{
+				"transform_meta" : {},
+				"transform" : {},
+
+				"guid_meta" : { "type" : "uuid", "optional" : true },
+				"guid" : "00000000-0000-0000-0000-000000000000"
+			}
+		]
+	},
+
+	"terrain_meta" : { "optional" : true },
+	"terrain":
+	{
+		"surface" :
+		{
+			"cells_meta" : { "type" : "array", "value_meta" : { "type" : "binary" } },
+			"cells" : []
+		},
+		"clutter" :
+		{
+			"table" : {
+				"0" : ""
+			},
+
+			"cells_meta" : { "type" : "array", "value_meta" : { "type" : "binary" } },
+			"cells" : []
+		}
+	}
+}

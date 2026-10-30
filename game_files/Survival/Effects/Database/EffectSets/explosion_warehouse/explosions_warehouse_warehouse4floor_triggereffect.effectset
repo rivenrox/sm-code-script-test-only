@@ -1,0 +1,310 @@
+{
+	"warehouse4floor - trigger" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"effects" : "Warehousedestruction_4FloorBuilding - Fourthfloor_explosion01",
+				"label" : "4FloorWarehouse -  4thFloor Main_explosion01",
+				"offset" : 
+				[
+					-23.9,
+					10.15,
+					42.099998
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 0.65,
+				"effects" : "Warehousedestruction_4floorbuilding - Fourthfloorextra_explosion02",
+				"label" : "4FloorWarehouse -  4thFloor Extra_explosion02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 2.0,
+				"effects" : "Warehousedestruction_4FloorBuilding - Thirdfloor_explosion03",
+				"label" : "4FloorWarehouse -  3rdFloor Main_explosion03",
+				"offset" : 
+				[
+					-23.9,
+					10.0,
+					42.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 5.5,
+				"effects" : "Warehousedestruction_4floorbuilding - Thirdfloorwarehousepipe_explosion04",
+				"label" : "4FloorWarehouse - 3rdfloorpipeleadingto4thfloortank_explosion04",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 6.4,
+				"effects" : "Warehousedestruction_4floorbuilding - Thirdfloortank_explosion05",
+				"label" : "4FloorWarehouse - 3rdfloor tank_explosion05",
+				"offset" : 
+				[
+					256.0,
+					0.0,
+					40.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					90.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 6.0,
+				"effects" : "Warehousedestruction_4FloorBuilding - Secondfloor_explosion06",
+				"label" : "4FloorWarehouse -  2ndFloor Main_explosion06",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 9.0,
+				"effects" : "Warehousedestruction_4FloorBuilding - Firstfloor_explosion07",
+				"label" : "4FloorWarehouse -  1stFloor Main_explosion07",
+				"offset" : 
+				[
+					-23.9,
+					9.9,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 12.25,
+				"effects" : "Warehousedestruction_4FloorBuilding - Firstfloorextra_explosion08",
+				"label" : "4FloorWarehouse -  1stFloor Extra_explosion08",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 12.25,
+				"effects" : "Warehousedestruction_4floorbuilding - Warehousepipe01_explosion09",
+				"label" : "4FloorWarehouse - 1stfloorpipe1leadingto2ndfloortank_explosion09",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 12.25,
+				"effects" : "Warehousedestruction_4floorbuilding - Warehousepipe02_explosion010",
+				"label" : "4FloorWarehouse - 1stfloorpipe2leadingto2ndfloortank_explosion010",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 13.0,
+				"effects" : "Warehousedestruction_4floorbuilding - Firstfloortank_explosion011",
+				"label" : "4FloorWarehouse - 1stfloortank_explosion011",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					-0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion1"
+				},
+				"delay" : 0.7,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch01 - 4thFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion2"
+				},
+				"delay" : 5.25,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch02 - 3rdFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion3"
+				},
+				"delay" : 6.0,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch03 - 3rd/4th floor tank",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion4"
+				},
+				"delay" : 8.75,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch04 - 2ndFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion5"
+				},
+				"delay" : 12.5,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch05 - 1stFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion6"
+				},
+				"delay" : 12.25,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch06 - 1st/2nd Floor pipes and tank",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "destroyed"
+				},
+				"delay" : 12.25,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - Destruction",
+				"type" : "luaEvent"
+			},
+			{
+				"duration" : 13.5,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 300,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.5,
+				"type" : "cameraShake",
+				"offset" : 
+				[
+					128.0,
+					128.0,
+					0.0
+				]
+			}
+		]
+	}
+}

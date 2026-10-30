@@ -1,0 +1,156 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1",
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.60145,
+								0.85044
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.00952
+							],
+							[
+								0.16572,
+								0.92698
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.10476
+							],
+							[
+								0.34933,
+								2.74285
+							],
+							[
+								0.59131,
+								3.37772
+							],
+							[
+								1.0,
+								4.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.46046,
+								2.30942
+							],
+							[
+								1.0,
+								4.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 4,
+						"max_scale" : 4.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"guid" : 0,
+				"height" : 
+				[
+					20.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 100,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Explosion Torus",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_torus01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.1
+				],
+				"velocity" : -5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					20.0,
+					5.0
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 0.64999
+	}
+}

@@ -1,0 +1,34 @@
+{
+    "template_meta": { 
+		"uuid" : "83a37325-2ecb-42b9-9e95-39d310e90252",
+		"name":"Ground Material Set", 
+		"pattern": ["$*/Terrain/Materials/*_materialset.json", "*.materialset"]
+	 },
+
+	"groundMaterials": 
+	{
+		"width_meta" : { "type": "uint", "powerOfTwo": true, "min":8, "max":4096  },
+		"width" : 1024,
+		
+		"height_meta" : { "type": "uint", "powerOfTwo": true, "min":8, "max":4096 },
+		"height" : 1024,
+		
+		"textures_meta": { "minSize":9, "maxSize":9 },
+		"textures":
+		[
+			{
+				"name_meta": { "type":"string", "order":0 },
+				"name": "Concrete", 
+
+				"diffuse_meta": { "type":"texture", "order":1 },
+				"diffuse": "$GAME_DATA/Terrain/Textures/Ground/gnd_0_dif.tga",
+				
+				"asgMap_meta": { "type":"texture", "order":2 },
+				"asgMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_0_asg.tga",
+
+				"normalMap_meta": { "type":"texture", "order":3 },
+				"normalMap": "$GAME_DATA/Terrain/Textures/Ground/gnd_0_nor.tga"
+			}
+		]
+	}
+}

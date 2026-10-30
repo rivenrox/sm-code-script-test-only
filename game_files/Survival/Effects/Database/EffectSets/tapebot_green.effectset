@@ -1,0 +1,82 @@
+{
+	"Greentapebot - ProjectileHit" : 
+	{
+		"effectList" : 
+		[
+			{	
+				"name" : "p_tapebot_green_projectile_hit",
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Greentapebot - ProjectileShot" : 
+	{
+		"effectList" : 
+		[
+			{	
+				"name" : "p_tapebot_green_shoot",
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "event:/char/npc/bots/enemies/tapebot/tapebot_shoot",
+				"type" : "audio"
+			}
+		]
+	},
+	"Greentapebot - ProjectileTrail" : 
+	{
+		"effectList" : 
+		[
+			{	
+				"attached" : true,
+				"name" : "p_tapebot_green_trail",
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "event:/char/npc/bots/enemies/tapebot/tapebot_shoot_projectile",
+				"type" : "audio"
+			}
+		]
+	}
+}

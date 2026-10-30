@@ -1,0 +1,27 @@
+{
+	"template_meta": {
+        "uuid" : "fde335ac-c7eb-4c30-8175-945db4621ced",
+		"name":"Custom Game Config",
+		"display": "config",
+		"pattern": "$*/config.json"
+	},
+
+    "baseGameContent_meta": { "options":["None", "Creative", "Survival"], "type": "string" },
+	"baseGameContent": "None",
+
+    "gameScript": { 
+        "class_meta": { "type": "string", "allowEmpty": false },
+        "class": "Classname",
+
+        "file_meta": { "type": "filepath" },
+        "file": "Filename"
+    },
+
+    "playerScript": { 
+        "class_meta": { "type": "string", "allowEmpty": false },
+        "class": "Classname",
+
+        "file_meta": { "type": "filepath" },
+        "file": "Filename"
+    }
+}

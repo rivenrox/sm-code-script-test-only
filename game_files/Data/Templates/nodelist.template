@@ -1,0 +1,60 @@
+{
+	"template_meta": { 
+		"uuid" : "6e05a6f6-e7a0-465f-a965-0492a3598491",
+		"name":"Node Set", 
+		"pattern": ["$*/Nodes/nodelist.json", "*.nodeset"] 
+	},
+
+	"nodeList_meta": { "type": "array", "valueAsLabel": "name", "sort" : true, "noIndexLabel" : true },
+	"nodeList": [
+		{
+			"name_meta": { "type": "string", "order": 1 },
+			"name": "New Node",
+
+			"tags_meta": { "type": "array", "value_meta": { "type":"string" }, "minSize": 1, "order": 2 },
+			"tags": [ "NEW_NODE" ],
+			
+			"optionalTags_meta": { "type": "array", "value_meta": { "type":"string" }, "optional": true, "order": 3 },
+			"optionalTags": [ "NEW_NODE" ],
+			
+			"params_meta": { 
+				"type": "array", 
+				"value_meta": { "type":"object" },
+				"order": 4, 
+				"optional": true,
+				"subTemplate" : "$GAME_DATA/Templates/parampresets.template"
+			},
+			"params": [ {} ],
+
+			"optionalParams_meta": { "type": "array", "value_meta": { "type":"object" }, "optional": true, "order": 5, "subTemplate" : "$GAME_DATA/Templates/parampresets.template" },
+			"optionalParams": [],
+
+			"renderable_meta": { "type": "renderable", "order": 6, "optional": true },
+			"renderable": "Renderable",
+
+			"icon_meta": { "type": "filepath", "optional": true, "order": 7, "optionsCategory" : "texture" },
+			"icon": "",
+
+			"color_meta": { "type": "vec4", "order": 8 },
+			"color": [1.0, 1.0, 1.0, 1.0],
+			
+			"billboardColor_meta": { "type": "vec4", "order": 9 },
+			"billboardColor": [1.0, 1.0, 1.0, 1.0],
+			
+			"scaleFlags_meta": { "type": "string", "optional": true, "order": 10 },
+			"scaleFlags": "",
+
+			"useTerrainMaterial_meta": { "type": "bool", "optional": true, "order": 11 },
+			"useTerrainMaterial": false,
+
+			"useUnitBounds_meta": { "type": "bool", "optional": true, "order": 12 },
+			"useUnitBounds": false,
+
+			"showInEditor_meta": { "type": "bool", "optional": true, "order": 13 },
+			"showInEditor": true,
+
+			"hideInAssetLibrary_meta": { "type": "bool", "deprecated": true, "optional": true, "order": 14, "toolTip":"use showInEditor." },
+			"hideInAssetLibrary": false
+		}
+	]
+}

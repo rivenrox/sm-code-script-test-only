@@ -1,0 +1,1257 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.14056,
+					0.13422,
+					0.12906,
+					1.0
+				],
+				"depth" : 
+				[
+					0.4,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.3242,
+					0.76239,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.90899,
+								0.998
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/orecrusher/p_emissionmesh_orecrusher02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 255,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					0.4,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Small Stone   [high]",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.28453,
+					0.0,
+					0.21547
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/orecrusher/p_orecrusher_stonedebri01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 555.0,
+				"time_to_live" : 
+				[
+					1.0,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.1
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.7843,
+					0.69801,
+					0.6549,
+					1.0
+				],
+				"color_fraction" : 0.5,
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_dustaftermarth06.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.40625,
+					1.0,
+					0.49902,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.24108,
+								0.40503
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 3,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.76055,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"enabled" : false,
+						"guid" : 4,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61513
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 5,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.625
+							],
+							[
+								1.0,
+								1.29349
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.37051
+							],
+							[
+								0.12229,
+								0.94818
+							],
+							[
+								0.21491,
+								1.0
+							],
+							[
+								1.0,
+								0.50463
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61619
+							],
+							[
+								0.20408,
+								1.24302
+							],
+							[
+								0.36713,
+								1.55112
+							],
+							[
+								0.57971,
+								1.7503
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/orecrusher/p_emissionmesh_orecrusher02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 3.0,
+				"guid" : 2,
+				"height" : 
+				[
+					2.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"min_quality" : "medium",
+				"name" : "Dust1   [medium]",
+				"normal" : true,
+				"params" : 2,
+				"position" : 
+				[
+					0.28453,
+					0.0,
+					0.21547
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2048,
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.25
+				]
+			},
+			{
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.23137,
+					0.21568,
+					0.2078,
+					1.0
+				],
+				"color_fraction" : 0.5,
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.32155,
+					0.76077,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "row",
+						"end_texture_coords_range" : 9,
+						"fps" : 30,
+						"guid" : 10,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 8
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.76055,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 11,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.85066
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 12,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.625
+							],
+							[
+								1.0,
+								1.29349
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/orecrusher/p_emissionmesh_orecrusher02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 5.0,
+				"guid" : 9,
+				"height" : 
+				[
+					1.5,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Dust2  [high]",
+				"params" : 2,
+				"position" : 
+				[
+					0.28453,
+					0.0,
+					0.21547
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 2.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					4.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.1
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"angle" : 10.0,
+				"billboard_type" : "axial_self",
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.78039,
+					0.6941,
+					0.65096,
+					1.0
+				],
+				"color_fraction" : 0.5,
+				"default_particle" : 
+				[
+					0.125,
+					0.25
+				],
+				"delay" : 0.1,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.2,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8845,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 15,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.595
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 16,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27
+							],
+							[
+								1.0,
+								0.77419
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 1.2,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/orecrusher/p_emissionmesh_orecrusher02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"friction" : 5.0,
+				"guid" : 14,
+				"height" : 
+				[
+					8.0,
+					4.0
+				],
+				"keep_local" : true,
+				"max_particles" : 50,
+				"name" : "Smoke ImpactFlash  [low]",
+				"params" : 2,
+				"position" : 
+				[
+					0.28453,
+					0.0,
+					0.21547
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 5.0,
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					6.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				],
+				"z_offset" : 500.0
+			},
+			{
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.78513,
+					0.69928,
+					0.65634,
+					1.0
+				],
+				"color_fraction" : 0.5,
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.40391,
+					1.0,
+					0.49803,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 19,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.23025
+							],
+							[
+								0.17554,
+								0.81901
+							],
+							[
+								0.34887,
+								0.98281
+							],
+							[
+								1.0,
+								1.22368
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/orecrusher/p_emissionmesh_orecrusher02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 4.0,
+				"guid" : 18,
+				"height" : 
+				[
+					0.75,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"min_quality" : "medium",
+				"name" : "Smoke01  [medium]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"params" : 2,
+				"position" : 
+				[
+					0.28453,
+					0.0,
+					0.21547
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2048,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.333
+				],
+				"translucency" : 1.0,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					2.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.1
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.78513,
+					0.69928,
+					0.65634,
+					1.0
+				],
+				"color_fraction" : 0.5,
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds04_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 100,
+						"fps" : 30,
+						"guid" : 23,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.66759,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.4492
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.23025
+							],
+							[
+								0.17554,
+								0.81901
+							],
+							[
+								0.34887,
+								0.98281
+							],
+							[
+								1.0,
+								1.22368
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/orecrusher/p_emissionmesh_orecrusher02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 3.0,
+				"guid" : 22,
+				"height" : 
+				[
+					0.75,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"name" : "Smoke02   [low]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"params" : 2,
+				"position" : 
+				[
+					0.28453,
+					0.0,
+					0.21547
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2048,
+				"tiles" : 
+				[
+					10,
+					10
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.333
+				],
+				"translucency" : 1.0,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					2.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.1
+				],
+				"z_offset" : 400.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "2 - ",
+				"color_fraction" : 0.5,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.957,
+									0.34915,
+									0.05231,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.05076,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 27,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.24492,
+								0.40026
+							],
+							[
+								0.43959,
+								0.57726
+							],
+							[
+								0.73154,
+								0.72522
+							],
+							[
+								1.0,
+								0.78465
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16403,
+								0.0775
+							],
+							[
+								0.24352,
+								0.14553
+							],
+							[
+								0.45767,
+								0.72022
+							],
+							[
+								0.52849,
+								0.80528
+							],
+							[
+								0.63037,
+								0.85255
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59924
+							],
+							[
+								1.0,
+								0.98676
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 30,
+						"length" : 0.75,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.34299
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/orecrusher/p_emissionmesh_orecrusher02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 250,
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 26,
+				"height" : 1.5,
+				"keep_local" : false,
+				"max_particles" : 45,
+				"name" : "FlashBurst  [low]",
+				"params" : 2,
+				"position" : 
+				[
+					0.28453,
+					0.0,
+					0.21547
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 
+				[
+					0.2,
+					0.025
+				],
+				"type" : "mesh",
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.333,
+					0.1
+				],
+				"z_offset" : 250.0
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 2.0
+	}
+}

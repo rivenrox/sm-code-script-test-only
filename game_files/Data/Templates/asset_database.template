@@ -1,0 +1,28 @@
+{
+	"template_meta": {
+		"uuid" : "db3776cc-3071-4789-b619-d39bb3c02001",
+		"name":"Asset Database",
+		"display": "assetdatabase",
+		"pattern": ["$*/Terrain/Database/*.json", "$*/Database/assetsets.json", "*.assetdb"]
+	},
+
+	"assetSetList_meta" : { "valueAsLabel":"assetSet" },
+	"assetSetList": [
+		{
+			"assetSet_meta": { "type": "filepath" },
+			"assetSet": "",
+
+			"hidden_meta" : { "optional":true, "deprecated" : true, "order":0, "toolTip":"use showInEditor." },
+			"hidden": true,
+
+			"showInEditor_meta": { "type": "bool", "optional": true },
+			"showInEditor": true,
+
+			"categories_meta": { "type": "array", "value_meta": { "type":"string" }, "optional": true },
+			"categories": [""],
+
+			"category_meta": { "deprecated": true, "toolTip": "Use 'categories' instead", "optional": true }, 
+			"category": ""
+		}
+	]
+}

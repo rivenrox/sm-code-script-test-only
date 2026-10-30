@@ -1,0 +1,421 @@
+{
+	"ToteBot - Alerted" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_noticeplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 2
+		}
+	},
+	"ToteBot - Attack" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_attack"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 2
+		}
+	},
+	"ToteBot - ChasePlayer" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_walk_chaseplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 2
+		}
+	},
+	"ToteBot - DestroyedParts" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_explode"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"name" : "p_totebot_destroy_parts",
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_destroy",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 2
+		}
+	},
+	"ToteBot - FotStep" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_ff"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"ToteBot - HeadTurn" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_foley_servo"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"ToteBot - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_takedamage"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.050000001,
+				"name" : "p_haybot_hit01",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 2
+		}
+	},
+	"ToteBot - JumpAttack_land" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_attack_land"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"ToteBot - JumpAttack_start" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.349999994,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_totebot_jumpattack_start",
+				"offset" : 
+				[
+					0.0,
+					0.100000001,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_attack_jump"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"ToteBot - JumpAttack_trail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_jumpattack_trail",
+				"offset" : 
+				[
+					0.0,
+					0.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/placeholder/3dOneshot"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"ToteBot - SparkAttack" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_foley_servo"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 2
+		}
+	},
+	"ToteBot - Sparks" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_totebot_sparks",
+				"offset" : 
+				[
+					0.0,
+					0.100000001,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"customVolumetric" : true,
+				"delay" : 0.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight",
+				"volColor" : 
+				[
+					0.011765,
+					0.652574003,
+					1.0,
+					1.0
+				],
+				"volIntensity" : 0.100000001,
+				"volMaxIntensity" : 0.300000012,
+				"volMaxRadius" : 0.0,
+				"volMinRadius" : 2.0
+			}
+		],
+		"parameterList" : 
+		{
+			"color" : "03c7ff",
+			"intensity" : 0.75,
+			"nearFade" : true,
+			"nearFadeEnd" : 0.0,
+			"nearFadeRange" : 85.0,
+			"nearFadeReversed" : true,
+			"radius" : 4.5
+		}
+	},
+	"Totebot - Leafbush" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.100000001,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"renderable" : 
+				[
+					"$SURVIVAL_DATA/Effects/Renderable/Character/eff_char_totebotbush.rend"
+				],
+				"type" : "renderable"
+			}
+		],
+		"parameterList" : 
+		{
+			"Color" : 
+			[
+				0,
+				1.0,
+				0,
+				1
+			]
+		}
+	},
+	"Totebot - LeafbushDestruct" : 
+	{
+		"effectList" : 
+		[
+			{
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_totebot_green_destroy_leaves",
+				"offset" : 
+				[
+					0.0,
+					0.550000012,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/placeholder/3dOneshot"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	}
+}

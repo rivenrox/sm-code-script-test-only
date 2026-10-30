@@ -1,0 +1,569 @@
+{
+	"CableBot - Death" : 
+	{
+		"effectList" : 
+		[
+			{
+				"label" : "explosionIndex",
+				"parameters" : 
+				{
+					"ExplosionIndex" : 
+					[
+						{
+							"condition" : "equal",
+							"name" : "p_cablebot_destroy01",
+							"value" : 1.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_cablebot_destroy02",
+							"value" : 2.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_cablebot_destroy03",
+							"value" : 3.0
+						}
+					]
+				},
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/die"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"label" : "Particles_cablebot_deathparts",
+				"particles" : 
+				[
+					"p_cablebot_destory_part"
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"ExplosionIndex" : 1
+		}
+	},
+	"CableBot - DestroyedParts" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/destroy_part"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Cablebot - Attached_blocks01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew01"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_blocks_animated01",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_blocks02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew02"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_blocks_animated02",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_blocks03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew03"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_blocks_animated03",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_parts01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew01"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_parts_animated01",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_parts02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew02"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_parts_animated02",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_parts03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew03"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_parts_animated01",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_smallparts01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew01"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_smallparts_animated01",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_smallparts02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew02"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_smallparts_animated02",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_smallparts03" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/chew03"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_gnawing_smallparts_animated03",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Attached_start" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/attach"
+				],
+				"parameters" : 
+				[
+					"material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"material" : 0.0
+		}
+	},
+	"Cablebot - Digging" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/dig"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Cablebot - FotStep" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/footstep"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"Cablebot - Gnawing_impactsparks" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/placeholder/3dOneshot"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"name" : "p_cablebot_gnawing_impact_sparks",
+				"type" : "particle"
+			}
+		]
+	},
+	"Cablebot - Jumpattack_buildup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/buildup"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Cablebot - Jumpattack_start" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_cablebot_jumpattack_start",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/cablebot/jump"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"Cablebot - Jumpattack_trail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_cablebot_jumpattack_trail",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Cablebot - Projectile" : 
+	{
+		"effectList" : 
+		[
+			{
+				"name" : "$SURVIVAL_DATA/Character/Char_Cablebot/char_cablebot.rend",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"renderableColor" : 
+				[
+					0.286274523,
+					0.392156869,
+					0.176470593,
+					1.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"type" : "renderable"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_cablebot_jumpattack_trail",
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_cablebot_jumpattack_start",
+				"type" : "particle"
+			}
+		]
+	}
+}

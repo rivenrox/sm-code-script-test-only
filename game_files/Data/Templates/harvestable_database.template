@@ -1,0 +1,22 @@
+{
+	"template_meta": {
+		"uuid" : "7574f837-116c-481a-b1c4-72aea4b89fcd",
+		"name":"Harvestable Database",
+		"display": "harvestabledatabase",
+		"pattern": ["$*/Harvestables/Database/*.json", "*.harvestabledb"]
+	},
+
+	"harvestableSetList_meta" : { "valueAsLabel":"name" },
+	"harvestableSetList": [
+		{
+			"name_meta": { "type": "filepath" },
+			"name": "",
+
+			"showInEditor_meta": { "type": "bool", "optional": true },
+			"showInEditor": true,
+
+			"categories_meta": { "type": "array", "value_meta": { "type":"string" } },
+			"categories": []
+		}
+	]
+}

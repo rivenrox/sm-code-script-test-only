@@ -1,0 +1,70 @@
+{
+	"Vacuumpipe - Blowout" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_vacuumpipe_blowout",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/tools/vacuum/vacuum_blowout"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Vacuumpipe - Suction" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_vacuumpipe_suction",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/tools/vacuum/vacuum_suction"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Vacuumpipe - Build":
+	{
+		"effectList":
+		[
+			{
+				"type": "audio",
+				"name": "event:/ui/attach",
+				"delay": 0.0
+			},
+			{
+				"type": "audio",
+				"name": "event:/coll/impact_single",
+				"delay": 0.0,
+				"parameters" : 
+				[
+					"Velocity_max_50",
+					"Material",
+					"Size",
+					"Phys_energy"
+				]
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0,
+			"Phys_energy" : 1.0,
+			"Size" : 0.1,
+			"Velocity_max_50" : 4.0
+		}
+	}
+}

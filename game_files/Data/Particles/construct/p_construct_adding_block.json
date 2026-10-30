@@ -1,0 +1,212 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_blockshockwave.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.21841,
+								0.60526
+							],
+							[
+								0.31075,
+								0.73026
+							],
+							[
+								0.43075,
+								0.80263
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.21378
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.2,
+						"guid" : 2,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 300,
+				"guid" : 0,
+				"height" : 0.75,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Shockwave",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 1000,
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75,
+				"z_offset" : 500.0
+			},
+			{
+				"category" : "test",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 53,
+						"fps" : 30,
+						"guid" : 5,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 15
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.49294,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5001,
+				"glow" : true,
+				"glow_strength" : 0.25,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.77647,
+								0.79606,
+								0.77647,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 3,
+				"height" : 
+				[
+					0.75,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "SmokeTest",
+				"normal" : true,
+				"normal_range" : 0.25,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 1000,
+				"sphere_radius" : 0.00999,
+				"start_color" : "random",
+				"surface" : true,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 0.5,
+				"translucency" : 0.5,
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.15
+				],
+				"z_offset" : 500.0
+			}
+		]
+	}
+}

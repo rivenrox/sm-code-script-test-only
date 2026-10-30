@@ -1,0 +1,799 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 24
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.83982,
+									0.6251,
+									0.37397,
+									1.0
+								]
+							],
+							[
+								0.64507,
+								[
+									0.71091,
+									0.56716,
+									0.43599,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.63669,
+									0.54158,
+									0.48996,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/emission_meshes/refinery/p_refinery_cylinder.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.8,
+					0.1,
+					0.1
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 3.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Smoke 01 (Medium)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2000,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.33
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					0.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.25
+				]
+			},
+			{
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.7031,
+									0.52043,
+									0.3488,
+									0.0
+								]
+							],
+							[
+								0.16617,
+								[
+									0.78904,
+									0.56805,
+									0.36061,
+									1.0
+								]
+							],
+							[
+								0.65631,
+								[
+									0.63279,
+									0.47194,
+									0.32135,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.50779,
+									0.42394,
+									0.34514,
+									0.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.36
+							],
+							[
+								0.16153,
+								0.71599
+							],
+							[
+								0.37882,
+								0.95595
+							],
+							[
+								1.0,
+								1.13197
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/emission_meshes/refinery/p_refinery_cylinder.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.8,
+					0.1,
+					0.1
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 3.0,
+				"guid" : 3,
+				"height" : 1.5,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "HOCKWAVE (Medium)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 2.0,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 0.550000012,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					0.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"angle" : 45.0,
+				"category" : "2 - DEBRI",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/debri_wood01.tga",
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 8,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.87107,
+									0.67347,
+									0.44235,
+									1.0
+								]
+							],
+							[
+								0.9042,
+								[
+									0.87058,
+									0.67058,
+									0.4392,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.87058,
+									0.67058,
+									0.4392,
+									0.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/emission_meshes/refinery/p_refinery_cylinder.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					0.1,
+					0.1
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2001,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 2.0,
+				"guid" : 7,
+				"height" : 
+				[
+					0.125,
+					0.05
+				],
+				"keep_local" : true,
+				"max_particles" : 35,
+				"min_quality" : "high",
+				"name" : "Debri 01 (High)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 122.0,
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					1,
+					5
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.33
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					0.0,
+					4.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.125,
+					0.05
+				]
+			},
+			{
+				"angle" : 1.0,
+				"category" : "2 - DEBRI",
+				"depth" : 
+				[
+					1.5,
+					0.75
+				],
+				"direction_type" : "shape",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.87107,
+									0.67347,
+									0.44235,
+									1.0
+								]
+							],
+							[
+								0.9042,
+								[
+									0.87058,
+									0.67058,
+									0.4392,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.87058,
+									0.67058,
+									0.4392,
+									0.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/emission_meshes/refinery/p_refinery_cylinder.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					0.1,
+					0.1
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2001,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 2.0,
+				"guid" : 11,
+				"height" : 
+				[
+					1.5,
+					0.75
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Debri 02 (High)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/refinery/p_rendeble_refinery_woodchip01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 122.0,
+				"tiles" : 
+				[
+					1,
+					5
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.33
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.75
+				]
+			},
+			{
+				"angle" : 15.0,
+				"category" : "2 - DEBRI",
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"guid" : 13,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "End1 (Low)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.862,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/refinery/p_rendeble_refinery_scrapwood_finnishchunk_end01.rend",
+				"rotation" : 90.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 180.0,
+				"time_to_live" : 2.0,
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none"
+			},
+			{
+				"category" : "2 - DEBRI",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"guid" : 14,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "End2 (Low)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.80598,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/refinery/p_rendeble_refinery_scrapwood_finnishchunk_end02.rend",
+				"rotation" : 90.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.33001,
+					-1.0
+				],
+				"rotation_speed" : 180.0,
+				"time_to_live" : 2.0,
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none"
+			},
+			{
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					1.0,
+					0.5,
+					0.5
+				],
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_dustaftermarth04_nor.tga",
+				"direction_type" : "constant",
+				"duration" : 0.125,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 16,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.7031,
+									0.52043,
+									0.3488,
+									0.0
+								]
+							],
+							[
+								0.15207,
+								[
+									0.70283,
+									0.51977,
+									0.34795,
+									1.0
+								]
+							],
+							[
+								0.6704,
+								[
+									0.70196,
+									0.51762,
+									0.34509,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.50779,
+									0.42394,
+									0.34514,
+									0.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 18,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66131
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 4.0,
+				"guid" : 15,
+				"height" : 
+				[
+					0.86,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "SawDust01 (Medium)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2000,
+				"sort_offset" : 2.0,
+				"spawn_chance" : 0.3,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.33
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.215
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 1.5
+	}
+}

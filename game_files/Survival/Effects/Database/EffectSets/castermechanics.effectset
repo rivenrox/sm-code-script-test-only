@@ -1,0 +1,980 @@
+{
+	"Castermechanics - Activate" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/props/installations/caster/on"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - BucketEmpty" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/crucible_empty"
+				],
+				"delay" : 14.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - Cast01_cauldronpouringliquidmetal" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 4.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_cauldronpouringliquidmetal_cast01",
+				"offset" : 
+				[
+					0.0,
+					1.75,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/crucible_pour"
+				],
+				"delay" : 4.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - Cast01_cauldronpouringliquidmetal_light" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"duration" : 45.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 1.0,
+						"value" : 10.0
+					},
+					{
+						"time" : 14.0,
+						"value" : 10.0
+					},
+					{
+						"time" : 15.0,
+						"value" : 10.0
+					},
+					{
+						"time" : 44.0,
+						"value" : 3.0
+					},
+					{
+						"time" : 45.0,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffcc34",
+			"intensity" : 5.0,
+			"radius" : 8.0
+		}
+	},
+	"Castermechanics - Cast01_fill" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/crucible_fill"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_casterbase_cast01_fill",
+				"offset" : 
+				[
+					0.0,
+					1.75,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Castermechanics - Cast01_steamsmoke" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 5.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_steamsmoke_cast01",
+				"offset" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Castermechanics - Cast02_forgeimpact01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_up"
+				],
+				"delay" : 20.5,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_down"
+				],
+				"delay" : 21.299999237,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 21.75,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpactsmoke01_cast02",
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"delay" : 21.5,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpact01_cast02",
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_up"
+				],
+				"delay" : 22.299999237,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_down"
+				],
+				"delay" : 23.5,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 24.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpactsmoke01_cast02",
+				"offset" : 
+				[
+					-20.916000366,
+					-24.278999329,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"delay" : 23.799999237,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpact01_cast02",
+				"offset" : 
+				[
+					-20.916000366,
+					-24.278999329,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_up"
+				],
+				"delay" : 24.600000381,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_down"
+				],
+				"delay" : 26.299999237,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 26.75,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpactsmoke01_cast02",
+				"offset" : 
+				[
+					-20.916000366,
+					-26.820999146,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"delay" : 26.5,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpact01_cast02",
+				"offset" : 
+				[
+					-20.916000366,
+					-26.820999146,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_up"
+				],
+				"delay" : 27.5,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - Cast02_forgeimpact01_glow" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 21.5,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpactglow01_cast02",
+				"offset" : 
+				[
+					0.0,
+					9.024999619,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 23.75,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpactglow02_cast02",
+				"offset" : 
+				[
+					0.0,
+					6.775000095,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 26.5,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_forgeimpactglow03_cast02",
+				"offset" : 
+				[
+					0.0,
+					3.450000048,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Castermechanics - Cast03_flip" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 30.125,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_flipimpact_cast03",
+				"offset" : 
+				[
+					-0.0,
+					1.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/mold_reset"
+				],
+				"delay" : 32.5,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/cast_flip"
+				],
+				"delay" : 30.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - Cast03_smoketrail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 30.125,
+				"direction" : 
+				[
+					0.0,
+					2.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_flipsmoketrail_cast03",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Castermechanics - Cast04_steamsmoke" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 30.75,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_steamsmoke_cast04",
+				"offset" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Castermechanics - Cast05_steamsmoke" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 44.625,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_castermechanics_steamsmoke_cast05",
+				"offset" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/cast_conveyor2"
+				],
+				"delay" : 44.299999237,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 44.625,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"offset" : 
+				[
+					0.0,
+					-0.5,
+					0.0
+				],
+				"particles" : 
+				[
+					"p_mininghub_castermechanics_castedpart"
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Castermechanics - Conveyor" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/cast_conveyor1"
+				],
+				"delay" : 30.75,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - CoolerClose" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/cooler_down"
+				],
+				"delay" : 35.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - CoolerOpen" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/cooler_open"
+				],
+				"delay" : 43.700000763,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - HammerReset" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/hammer_reset"
+				],
+				"delay" : 19.5,
+				"offset" : 
+				[
+					-20.916000366,
+					-22.665000916,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - MoldEnter" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/mold_enter"
+				],
+				"delay" : 3.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - MoldOpen" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/mold_open"
+				],
+				"delay" : 19.5,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Castermechanics - MoldUp" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/caster/mold_up"
+				],
+				"delay" : 18.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"MininghubCaster - CasterbaseFlash01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"name" : "p_mininghub_casterbase_flash01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/placeholder/3dOneshot"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"name" : "p_mininghub_casterbase_flash02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"track" : 
+						[
+							{
+								"duration" : 33.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 1.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									52.798919678
+								],
+								"rotation" : 
+								[
+									-0.0,
+									0.0,
+									-0.0
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "particle"
+			},
+			{
+				"color" : 
+				[
+					1.0,
+					0.5859375,
+					0.0,
+					1.0
+				],
+				"delay" : 0.25,
+				"intensity" : 2.0,
+				"radius" : 10.0,
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"track" : 
+						[
+							{
+								"duration" : 0.649999976,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 1.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									52.798919678,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									-0.0,
+									0.0,
+									-0.0
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "pointLight"
+			}
+		]
+	},
+	"MininghubCaster - CasterbaseShine01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_mininghub_casterbase_shine01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/placeholder/3dOneshot"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}

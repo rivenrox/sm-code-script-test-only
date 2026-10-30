@@ -1,0 +1,291 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "axial_self",
+				"category" : "1.1",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 0.0,
+				"cone_radius" : 0.001,
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 10.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.01971,
+								[
+									0.0,
+									0.46092,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									0.26952,
+									0.57195,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76972
+							],
+							[
+								0.27691,
+								4.24341
+							],
+							[
+								0.34768,
+								3.19076
+							],
+							[
+								0.46461,
+								2.17105
+							],
+							[
+								0.66768,
+								1.62827
+							],
+							[
+								1.0,
+								1.15128
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 5.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66447
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 3,
+						"length" : 0.34999,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.1,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "Sparks1       [high]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.16251
+				],
+				"power_glow" : true,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"time_to_live" : 
+				[
+					2.0,
+					0.4
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					12.0,
+					4.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.035,
+					0.00749
+				]
+			},
+			{
+				"category" : "4",
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					1.0,
+					0.1
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"guid" : 5,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Debri 2    (medium)",
+				"params" : 2,
+				"particle" : "debris",
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw03.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					1000.0,
+					500.0
+				],
+				"time_to_live" : 4.0,
+				"velocity" : 
+				[
+					25.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			}
+		],
+		"scale_time" : 2.0
+	}
+}

@@ -1,0 +1,21 @@
+{
+    "template_meta": {
+        "uuid" : "2a248685-debb-4d88-b59a-6e13009c371c",
+		"name":"Zone settings",
+		"display": "zonesettings",
+		"pattern": ["*.zonesettings"],
+		"root_meta": { "type": "map" }
+	},
+    "zoneData" : [
+        {
+            "id_meta": { "type": "int", "order":1 },
+            "id": 0,
+            
+            "settingsPath_meta": { "type": "filepath" },
+            "settingsPath": "",
+
+            "ambientEffect_meta" : { "optionsCategory":"effect", "optional" : true },
+            "ambientEffect" : ""
+        }
+    ]
+}

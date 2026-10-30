@@ -1,0 +1,45 @@
+{
+	"DifAsgNoShadow" : 
+	{
+		"defines" : 
+		[
+			"PS_DIF_FONT"
+		],
+		"pass" : "ALPHA",
+		"shadows" : false
+	},
+	"InWorldText" : 
+	{
+		"defines" : 
+		[
+			"PS_DIF_FONT",
+			"PS_VERTEX_ALPHA",
+			"VS_CLIP_SPACE",
+			"PS_OVERLAY_DEPTH_FADE"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldTextDepthMask" : 
+	{
+		"defines" : 
+		[
+			"PS_DIF_FONT",
+			"PS_VERTEX_ALPHA",
+			"VS_CLIP_SPACE",
+			"PS_OVERLAY_DEPTH_MASK"
+		],
+		"pass" : "OVERLAY"
+	},
+	"InWorldTextPlayer" : 
+	{
+		"defines" : 
+		[
+			"PS_DIF_FONT",
+			"PS_VERTEX_ALPHA",
+			"VS_CLIP_SPACE",
+			"PS_OVERLAY_DEPTH_FADE",
+			"VS_OVERLAY_INFINITE"
+		],
+		"pass" : "OVERLAY"
+	}
+}

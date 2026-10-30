@@ -1,0 +1,455 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_smalllift_col.fbx",
+			"color" : "ca362d00",
+			"defaultColors" : 
+			{
+				"Color01" : "ca362d00"
+			},
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_smalllift",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_smalllift.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "41a12765-d6ab-4add-a202-c950c8181cdb"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_largelift_col.fbx",
+			"color" : "ca362d00",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_largelift",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_largelift.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "f911ae61-ecce-4008-bdce-3e5c04b60fd0"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_blockelevator_col.fbx",
+			"color" : "f2a907ff",
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_blocklelevator01",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"default" : 1.0,
+					"name" : "completionFraction",
+					"type" : "float"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_blockelevator.rend",
+			"script" : 
+			{
+				"class" : "KinematicTrackDoor",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"maxSpeed" : 1.0,
+						"movementEffect" : "Growlab - Platformmoving_velocity"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicTrackDoor.lua"
+			},
+			"uuid" : "11bee39b-c06c-4776-a126-9b06cd54bafe"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_blockelevator_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_blocklelevator02",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_blockelevator.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"maxSpeed" : 5.0,
+						"movementEffect" : "Growlab - Platformmoving_velocity",
+						"useVelocity" : true
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "38f70876-b9a2-4742-aa00-971c6381d196"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_smalllift_col.fbx",
+			"color" : "ca362d00",
+			"defaultColors" : 
+			{
+				"Color01" : "ca362d00"
+			},
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_smalllift_parentable",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_smalllift.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"size" : 2,
+			"uuid" : "d671991b-6147-4610-961b-2c50d50b0e41"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_largelift_col.fbx",
+			"color" : "ca362d00",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_largelift_parentable",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_largelift.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"size" : 2,
+			"uuid" : "c10e3c15-6817-4768-aa80-627fbaff89d0"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_growlabtram_col.fbx",
+			"color" : "ca362d00",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "kin_elevator_growlabtram_parentable",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_growlabtram.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"size" : 2,
+			"uuid" : "5d76c8f3-f5b6-4035-ace4-9a75673a617f"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_casterbaseelevator_col.fbx",
+			"color" : "f2a907ff",
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_casterbaseelevator",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_casterbaseelevator.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "76faa383-5fd2-4e84-95f6-6205c3cfad3e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_hoistway_col.fbx",
+			"color" : "d13a11ff",
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "kin_elevator_hoistway",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_hoistway.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "d32aa5e4-39de-4429-b972-5f5147a05c63"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Elevator/kin_elevator_growlabtram_col.fbx",
+			"color" : "c2361fff",
+			"mass" : 6000.0,
+			"material" : "Mechanical",
+			"name" : "kin_elevator_growlabtram",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Elevator/kin_elevator_growlabtram.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"uuid" : "29c2ff14-7579-43c6-8484-83b653040c90"
+		}
+	]
+}

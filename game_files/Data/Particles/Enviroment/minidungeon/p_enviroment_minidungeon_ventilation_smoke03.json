@@ -1,0 +1,139 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 1.0,
+				"category" : "1",
+				"circle_angle" : 90.0,
+				"color_fraction" : 1.0,
+				"default_particle" : 
+				[
+					0.64999,
+					0.64999
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.97654,
+									0.97654,
+									0.97654,
+									0.0
+								]
+							],
+							[
+								0.33801,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.23046
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.23026
+							],
+							[
+								1.0,
+								1.45896
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					4.0,
+					0.15
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke5",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"params" : 2,
+				"radius" : 0.1,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 513,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"translucency" : 1.0,
+				"type" : "circle",
+				"velocity" : 2.5,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					0.15
+				]
+			}
+		],
+		"scale_time" : 2.0
+	}
+}

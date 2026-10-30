@@ -1,0 +1,340 @@
+{
+	"Drill - Debris" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_powertools_drill_default_01",
+				"parameters" : 
+				{
+					"drill_material" : 
+					[
+						{
+							"condition" : "equal",
+							"name" : "p_powertools_drill_metal_01",
+							"value" : 9.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_powertools_drill_stone_01",
+							"value" : 6.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_powertools_drill_wood_01",
+							"value" : 7.0
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"drill_material" : 0
+		}
+	},
+	"Drill - StoneDrill" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/vehicle/drill"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"impact",
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"impact" : 0,
+			"velocity" : 0
+		}
+	},
+	"Gravelcollector - Draw" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/vehicle/orecollector_draw"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Gravelcollector - Forcefield" : 
+	{
+		"effectList" : 
+		[
+			{
+				"Color" : 
+				[
+					0.078431375,
+					1.0,
+					0.650980413,
+					1.0
+				],
+				"attached" : true,
+				"name" : "p_powertool_gravelcollectorgravity",
+				"rotation" : 
+				[
+					0.0,
+					-0.0,
+					-89.999984741
+				],
+				"type" : "particle"
+			},
+			{
+				"Color" : 
+				[
+					0.078431375,
+					1.0,
+					0.650980413,
+					1.0
+				],
+				"attached" : true,
+				"name" : "p_powertool_gravelcollectorgravity",
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					89.999984741
+				],
+				"type" : "particle"
+			},
+			{
+				"Color" : 
+				[
+					0.078431375,
+					1.0,
+					0.650980413,
+					1.0
+				],
+				"attached" : true,
+				"name" : "p_powertool_gravelcollectorgravity",
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					179.999969482
+				],
+				"type" : "particle"
+			},
+			{
+				"Color" : 
+				[
+					0.078431375,
+					1.0,
+					0.650980413,
+					1.0
+				],
+				"attached" : true,
+				"name" : "p_powertool_gravelcollectorgravity",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/placeholder/3dLoop"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Gravelcollector - Magnetic_in" : 
+	{
+		"effectList" : 
+		[
+			{
+				"Color" : 
+				[
+					0.0,
+					1.0,
+					0.623529434,
+					1.0
+				],
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_powertool_gravelcollectorgravity_magnetic_in",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Gravelcollector - Magnetic_out"  : 
+	{
+		"effectList" : 
+		[
+			{
+				"Color" : 
+				[
+					0.921875,
+					0.0,
+					1.0,
+					1.0
+				],
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_powertool_gravelcollectorgravity_magnetic_out",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Gravelcollector - Insert" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/vehicle/orecollector_insert"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"PlasmaDrill - Drill" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/vehicle/drill_plasma"
+				],
+				"parameters" : 
+				[
+					"impact",
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"impact" : 0,
+			"velocity" : 0
+		}
+	},
+	"PlasmaSaw - Blade" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/vehicle/saw_plasma"
+				],
+				"parameters" : 
+				[
+					"impact",
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"impact" : 0,
+			"velocity" : 0
+		}
+	},
+	"Saw - Debris" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_powertools_sawblade_generic_01",
+				"parameters" : 
+				{
+					"saw_material" : 
+					[
+						{
+							"condition" : "equal",
+							"name" : "p_powertools_sawblade_metal_01",
+							"value" : 9.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_powertools_sawblade_stone_01",
+							"value" : 6.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_powertools_sawblade_wood_01",
+							"value" : 7.0
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"saw_material" : 0
+		}
+	},
+	"Saw - SawBlade" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/vehicle/saw"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"impact",
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"impact" : 0,
+			"velocity" : 0
+		}
+	},
+	"PlasmaDrill - Rock01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"name" : "p_plasmadrill_impact_hvs_rock01",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/collapse/mining/stone_hard"
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}

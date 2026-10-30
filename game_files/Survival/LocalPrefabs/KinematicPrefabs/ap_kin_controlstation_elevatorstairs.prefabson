@@ -1,0 +1,1001 @@
+{
+	"entities" : 
+	{
+		"assets" : 
+		[
+			{
+				"colorMap" : 
+				{
+					"Color01" : "#D42204FF"
+				},
+				"guid" : "b4f8694e-03d0-4a50-8297-8ceab3bdc6ee",
+				"transform" : 
+				{
+					"position" : 
+					[
+						250.68655395507812,
+						157.0,
+						-1.25
+					],
+					"rotation" : 
+					[
+						-44.999984741210938,
+						-0.0,
+						-0.0
+					],
+					"scale" : 
+					[
+						0.012500000186264515,
+						0.012500000186264515,
+						0.012500000186264515
+					]
+				},
+				"uuid" : "1b3fb195-4fb6-43bb-a320-b3786a409fba"
+			},
+			{
+				"colorMap" : 
+				{
+					"Color01" : "#731D0FFF"
+				},
+				"guid" : "de85c9a0-dbf9-481e-aa3b-fc2daf3b5576",
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.75,
+						159.5,
+						-2.25
+					],
+					"rotation" : 
+					[
+						-89.999992370605469,
+						-5.008955213270383e-06,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.27000001072883606
+					]
+				},
+				"uuid" : "ef3ff117-8084-463e-ad49-7967f15ade72"
+			},
+			{
+				"colorMap" : 
+				{
+					"Color01" : "#D42204FF"
+				},
+				"guid" : "72db8bf1-c1ef-4e7a-91ab-18ffd66fd7a9",
+				"transform" : 
+				{
+					"position" : 
+					[
+						242.650634765625,
+						220.75,
+						52.5
+					],
+					"rotation" : 
+					[
+						-134.99998474121094,
+						0.0,
+						-0.0
+					],
+					"scale" : 
+					[
+						0.012500000186264515,
+						0.012500000186264515,
+						0.012500000186264515
+					]
+				},
+				"uuid" : "1b3fb195-4fb6-43bb-a320-b3786a409fba"
+			}
+		],
+		"grids" : 
+		[
+			{
+				"guid" : "75198a94-3b00-4c27-b705-711dd0cfd10b",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					]
+				}
+			}
+		],
+		"harvestables" : [],
+		"kinematics" : 
+		[
+			{
+				"color" : "#BB1414FF",
+				"guid" : "a5755c39-198e-4db2-b116-a0170f32fc88",
+				"params" : 
+				[
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"delay" : 2.5,
+										"duration" : 2,
+										"durationFromSpeed" : false,
+										"easing" : "easeInQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											-18.25,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.75,
+						106.25003051757812,
+						-54.499984741210938
+					],
+					"rotation" : 
+					[
+						-135.00001525878906,
+						0.0,
+						-0.0
+					],
+					"scale" : 
+					[
+						0.3125,
+						4.0,
+						0.3125
+					]
+				},
+				"uuid" : "8537afc1-8f71-43f8-9552-7d2b29f76fa1"
+			},
+			{
+				"color" : "#DC8D06FF",
+				"guid" : "ba981434-c620-4fc4-9838-aadc177eeb3b",
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "parent.controlelevator01"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											3.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											-0.0,
+											0.0,
+											-0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.75,
+						156.75,
+						-1.5
+					],
+					"rotation" : 
+					[
+						89.999664306640625,
+						-0.0,
+						-0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "e053e000-3cad-4bb0-8e4f-2f265fec593d"
+			},
+			{
+				"color" : "#DC8D06FF",
+				"guid" : "9ae39e82-9f18-4d97-867f-0968997466e8",
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "parent.controlelevator01"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											3.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											-0.0,
+											0.0,
+											-0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "ElevatorGate2"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.75,
+						162.25,
+						-0.75
+					],
+					"rotation" : 
+					[
+						-89.999992370605469,
+						5.0089538490283303e-06,
+						-180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "e053e000-3cad-4bb0-8e4f-2f265fec593d"
+			},
+			{
+				"color" : "#EE7716FF",
+				"guid" : "61d145d8-6734-41b9-b962-aa2e1317c526",
+				"params" : 
+				[
+					{
+						"descName" : "eventTrigger",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : ""
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						250.68655395507812,
+						155.99472045898438,
+						-0.30917215347290039
+					],
+					"rotation" : 
+					[
+						89.999771118164062,
+						-2.4148287138814339e-06,
+						-2.414840537312557e-06
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "3a4d10d8-239a-492f-ae53-2993e36d4280"
+			},
+			{
+				"color" : "#9D210DFF",
+				"guid" : "dc977f62-4b50-4f74-b1ec-51236cbf06aa",
+				"params" : 
+				[
+					{
+						"descName" : "lockTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"delay" : 1,
+										"duration" : 1.5,
+										"durationFromSpeed" : false,
+										"easing" : "easeInQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"event" : "event_ControlstationLift1",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											-44.999996185302734,
+											6.0000002122251317e-06,
+											-1.1000000085914508e-05
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.74993896484375,
+						159.49995422363281,
+						0.50005340576171875
+					],
+					"rotation" : 
+					[
+						-89.999946594238281,
+						1.6284444495986983e-12,
+						-180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "bdfe3b2a-7f66-4457-82ce-f76f75aeea7b"
+			},
+			{
+				"color" : "#DC8D06FF",
+				"guid" : "6ca3170f-5231-4eba-a274-e8cf10bdabb0",
+				"params" : 
+				[
+					{
+						"descName" : "lockTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"delay" : 1,
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "easeInQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "easeInQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											6.0000672340393066,
+											6.0999998822808266e-05
+										],
+										"rotation" : 
+										[
+											-3.0000001061125658e-06,
+											0.0,
+											0.0
+										],
+										"speed" : 4
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											23.999944686889648,
+											-18.69146728515625
+										],
+										"rotation" : 
+										[
+											3.0000001061125658e-06,
+											0.0,
+											0.0
+										],
+										"speed" : 6
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "easeOutQuad",
+										"inheritDuration" : false,
+										"kinematicActivations" : 
+										[
+											{
+												"kinematicEventTrigger" : "ControlstationLift2"
+											}
+										],
+										"position" : 
+										[
+											0.0,
+											212.99993896484375,
+											-214.95306396484375
+										],
+										"rotation" : 
+										[
+											3.0000001061125658e-06,
+											-3.0000001061125658e-06,
+											-0.0
+										],
+										"speed" : 2
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											213.00108337402344,
+											-244.0281982421875
+										],
+										"rotation" : 
+										[
+											-3.0000001061125658e-06,
+											-3.0000001061125658e-06,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "parent.controlelevator01"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.75,
+						159.5,
+						-1.0
+					],
+					"rotation" : 
+					[
+						89.999504089355469,
+						-0.0,
+						-0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.24999997019767761,
+						0.24074999988079071
+					]
+				},
+				"uuid" : "d950e7d5-3ed4-442a-adcd-520f609a5f1a"
+			},
+			{
+				"color" : "#EE7716FF",
+				"guid" : "ebdbc39e-93f9-4ac1-97d0-2bd63f6cfc35",
+				"params" : 
+				[
+					{
+						"descName" : "eventTrigger",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : ""
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						242.650634765625,
+						221.74092102050781,
+						53.460803985595703
+					],
+					"rotation" : 
+					[
+						-89.999961853027344,
+						7.4238000706827734e-06,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "3a4d10d8-239a-492f-ae53-2993e36d4280"
+			},
+			{
+				"color" : "#9D210DFF",
+				"guid" : "d18c3503-c02d-484c-8636-7ac5ad1b5f90",
+				"params" : 
+				[
+					{
+						"descName" : "lockTag",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "eventListen",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"delay" : 2.5,
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeInQuad",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0012209999840706587,
+											0.00036599999293684959,
+											-35.9991455078125
+										],
+										"rotation" : 
+										[
+											0.00020500000391621143,
+											-0.0,
+											-0.0
+										],
+										"speed" : 1,
+										"stop" : true
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.75,
+						220.25,
+						52.0
+					],
+					"rotation" : 
+					[
+						-89.999992370605469,
+						-5.008955213270383e-06,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "bdfe3b2a-7f66-4457-82ce-f76f75aeea7b"
+			},
+			{
+				"color" : "#EE7716FF",
+				"guid" : "5b0590d9-4164-4341-9e07-b724cc4ed653",
+				"params" : 
+				[
+					{
+						"descName" : "eventTrigger",
+						"type" : "string",
+						"value" : "ControlstationLift1"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "parent.controlelevator01"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						243.75,
+						159.5,
+						0.0
+					],
+					"rotation" : 
+					[
+						-45.0,
+						89.999984741210938,
+						134.99998474121094
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "3a4d10d8-239a-492f-ae53-2993e36d4280"
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"guid" : "55c76165-527a-4700-9dd1-2daa30eefb7d",
+				"params" : 
+				[
+					{
+						"autoPlay" : false,
+						"descName" : "effect",
+						"name" : "Controlstation - Elevator_activation01",
+						"params" : [],
+						"type" : "effect"
+					},
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : "event_ControlstationLift1"
+					}
+				],
+				"tags" : 
+				[
+					"EFFECT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						246.75,
+						166.92135620117188,
+						7.8285598754882812
+					],
+					"rotation" : 
+					[
+						45.000026702880859,
+						3.5418640891293762e-06,
+						-180.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 76561197982032350,
+		"uuid" : "befe79f9-3e46-4134-9972-77ed8b48849b"
+	}
+}

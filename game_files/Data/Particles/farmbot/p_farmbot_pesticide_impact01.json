@@ -1,0 +1,433 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "resources/watersplashes/p_mesh_watersplash_01_asg.tga",
+				"angle" : 3.0,
+				"category" : "1",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.51371,
+					1.0
+				],
+				"depth" : 
+				[
+					0.75,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.20306,
+								1.35526
+							],
+							[
+								0.55075,
+								1.8092
+							],
+							[
+								1.0,
+								1.88812
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								4.0
+							],
+							[
+								0.18456,
+								2.78941
+							],
+							[
+								0.44615,
+								1.82894
+							],
+							[
+								1.0,
+								1.32
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								4.0
+							],
+							[
+								0.23995,
+								2.30258
+							],
+							[
+								0.48923,
+								1.5921
+							],
+							[
+								1.0,
+								1.332
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.67075,
+								0.875
+							],
+							[
+								0.82151,
+								0.78618
+							],
+							[
+								0.87998,
+								0.59539
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 51111,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-9.0
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.75,
+					0.25
+				],
+				"keep_local" : false,
+				"material_name" : "Liquid",
+				"max_particles" : 25,
+				"mesh" : "resources/watersplashes/p_mesh_waterdrop03.fbx",
+				"mesh_diffuse" : "resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Drops (High)",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_drop01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"sphere_radius" : 0.1,
+				"time_to_live" : 
+				[
+					1.0,
+					0.133
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					10.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.25
+				]
+			},
+			{
+				"category" : "5",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.51367,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.42103
+							],
+							[
+								1.0,
+								4.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3500,
+				"friction" : 1.0,
+				"guid" : 5,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Splatter sphere dissolve",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidsplashes_sphereshape01.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 0.600000024,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "01 - Splashes",
+				"color" : 
+				[
+					1.0,
+					0.0,
+					0.5098,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.83881
+							],
+							[
+								0.40615,
+								2.22039
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 11,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								1.0
+							],
+							[
+								0.666,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 12,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								0.0
+							],
+							[
+								0.666,
+								0.97697
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 13,
+						"index" : 1,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.666,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 14,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3500,
+				"friction" : 1.0,
+				"guid" : 9,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Splatter sphere dissolve",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/liquidplashes/p_renderable_liquidplashes_liquid_splatterhape01.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 0.550000012,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

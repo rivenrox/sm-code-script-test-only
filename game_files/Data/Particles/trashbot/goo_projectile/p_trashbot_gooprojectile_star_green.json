@@ -1,0 +1,427 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_trashbot_goo_projectile_star_asg.tga",
+				"category" : "2",
+				"depth" : 1.649999976,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 1,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.1,
+								1.875
+							],
+							[
+								0.2,
+								2.75
+							],
+							[
+								0.3,
+								2.925
+							],
+							[
+								0.39743,
+								3.11466
+							],
+							[
+								0.5,
+								3.27497
+							],
+							[
+								0.6,
+								3.44997
+							],
+							[
+								0.69998,
+								3.625
+							],
+							[
+								0.8,
+								3.79993
+							],
+							[
+								0.89999,
+								3.97498
+							],
+							[
+								1.0,
+								4.14997
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 4.5,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 80,
+						"guid" : 3,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									1.0,
+									0.0859,
+									1.0
+								]
+							],
+							[
+								0.49013,
+								[
+									0.09803,
+									0.52941,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.8,
+								[
+									0.22236,
+									0.9107,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.24218,
+									1.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color",
+						"repeat" : true,
+						"time" : 7.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"height" : 1.649999976,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/p_mesh_trashbot_stickybubbles_plane01.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_trashbot_goo_projectile_star_colorless_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "GooProjctile (low)",
+				"normal_map" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_trashbot_goo_projectile_star_nor.tga",
+				"params" : 8,
+				"particle" : "mesh",
+				"rotation" : 180.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.649999976
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.03037,
+					0.25,
+					0.0,
+					1.0
+				],
+				"depth" : 1.649999976,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 6,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.1,
+								1.875
+							],
+							[
+								0.2,
+								2.75
+							],
+							[
+								0.3,
+								2.925
+							],
+							[
+								0.39743,
+								3.11466
+							],
+							[
+								0.5,
+								3.27497
+							],
+							[
+								0.6,
+								3.44997
+							],
+							[
+								0.69998,
+								3.625
+							],
+							[
+								0.8,
+								3.79993
+							],
+							[
+								0.89999,
+								3.97498
+							],
+							[
+								1.0,
+								4.14997
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 4.5,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 80,
+						"guid" : 8,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 5,
+				"height" : 1.649999976,
+				"keep_local" : true,
+				"material_name" : "GlassUvAnimAlphaFbdrf",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "GooProjctile Slime (low)",
+				"params" : 8,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/trashbot/goo_projectiles/p_renderable_trashbot_gooprojectile_star_slime.rend",
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.649999976
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/chargeshot/t_twistedshockwave01_asg.tga",
+				"category" : "1",
+				"depth" : 1.149999976,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.1
+							],
+							[
+								1.0,
+								1.45957
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 11,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.1,
+								1.875
+							],
+							[
+								0.2,
+								2.75
+							],
+							[
+								0.3,
+								2.925
+							],
+							[
+								0.39743,
+								3.11466
+							],
+							[
+								0.5,
+								3.27497
+							],
+							[
+								0.6,
+								3.44997
+							],
+							[
+								0.69998,
+								3.625
+							],
+							[
+								0.8,
+								3.79993
+							],
+							[
+								0.89999,
+								3.97498
+							],
+							[
+								1.0,
+								4.14997
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 4.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.25,
+				"guid" : 9,
+				"height" : 1.149999976,
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/trashbot/goo_projectile/p_mesh_gooprojectile_shockwave_plane.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_trashgoop_translucency_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.75,
+					1.75,
+					1.75
+				],
+				"min_quality" : "medium",
+				"name" : "Shockwave1",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/chargeshot/t_twistedshockwave01_nor.tga",
+				"params" : 8,
+				"particle" : "mesh",
+				"rotation_speed" : 
+				[
+					720.0,
+					20.0
+				],
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.149999976
+			}
+		],
+		"min_quality" : "low"
+	}
+}

@@ -1,0 +1,161 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "4",
+				"color" : 
+				[
+					0.5195,
+					0.5195,
+					0.5195,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_uppgradesqaure.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.14462,
+								0.5662
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 1,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 65,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 0.51,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Button Shine3",
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.35,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : -2.47,
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "1 - CollectGLow",
+				"color" : 
+				[
+					0.65232,
+					0.55549,
+					0.32616,
+					1.0
+				],
+				"default_particle" : 
+				[
+					-1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_waypointbutton_outsideglow01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 4,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 0.5,
+				"guid" : 3,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "CollectGlow",
+				"position" : 
+				[
+					-0.00163,
+					0.0,
+					-0.00301
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 0.4,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 3.3,
+				"z_offset" : 1.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

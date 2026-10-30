@@ -1,0 +1,114 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col_sphere" : 
+			{
+				"diameter" : 2.0
+			},
+			"collides" : 
+			{
+				"body" : false,
+				"character" : false,
+				"melee" : false,
+				"projectile" : false
+			},
+			"color" : "34c5f2",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "hvs_cablebot_pocket01",
+			"physics" : 
+			{
+				"mass" : 15000,
+				"material" : "Rock"
+			},
+			"script" : 
+			{
+				"class" : "CablebotPocket",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/CablebotPocket.lua"
+			},
+			"showInEditor" : false,
+			"uuid" : "55253f85-08d3-4940-8468-7b414cc89c21"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Traps/hvs_traps_surprisespawner_col.fbx",
+			"color" : "3e9ffe",
+			"mass" : 500.0,
+			"material" : "Metal",
+			"name" : "hvs_traps_surprisespawner",
+			"params" : 
+			[
+				{
+					"name" : "spawnEventName",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"default" : 0.0,
+					"name" : "spawnDelaySeconds",
+					"type" : "float"
+				},
+				{
+					"default" : 0.0,
+					"name" : "effectDelaySeconds",
+					"type" : "float"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Traps/hvs_traps_surprisespawner.rend",
+			"script" : 
+			{
+				"class" : "SurpriseSpawnerHarvestable",
+				"data" : 
+				{
+					"effect" : "Growlab - Surpricespawnerflyoff"
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/SurpriseSpawnerHarvestable.lua"
+			},
+			"uuid" : "5ece57cb-5251-4951-906b-52f8615e3aaf"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Fillers/col_fillers_haypile_02.obj",
+			"color" : "d18b17ff",
+			"mass" : 500.0,
+			"material" : "Foilage",
+			"name" : "hvs_traps_surprisespawner_hay",
+			"params" : 
+			[
+				{
+					"name" : "spawnEventName",
+					"type" : "string"
+				},
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"default" : 0.0,
+					"name" : "spawnDelaySeconds",
+					"type" : "float"
+				},
+				{
+					"default" : 0.0,
+					"name" : "effectDelaySeconds",
+					"type" : "float"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Fillers/hvs_fillers_haypile_02.rend",
+			"script" : 
+			{
+				"class" : "SurpriseSpawnerHarvestable",
+				"data" : 
+				{
+					"destroy" : true,
+					"effect" : "Haypile02 - Destruction_trap"
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/SurpriseSpawnerHarvestable.lua"
+			},
+			"uuid" : "a9667fbe-3991-48c9-b830-0a5dcdce4d36"
+		}
+	]
+}

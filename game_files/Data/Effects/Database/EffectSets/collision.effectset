@@ -1,0 +1,1700 @@
+{
+	"Character - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/health/impact"
+				],
+				"delay" : 0.0,
+				"parameters" : [],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Collision - Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "",
+				"parameters" : 
+				{
+					"Velocity_max_50" : 
+					[
+						{
+							"condition" : "greater",
+							"name" : "construct_hit_ground_small",
+							"value" : 5.0
+						},
+						{
+							"condition" : "greater",
+							"name" : "construct_hit_ground_big",
+							"value" : 10.0
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"maxInstances" : 128,
+		"parameterList" : 
+		{
+			"Material" : 0.0,
+			"Phys_energy" : 1.0,
+			"Size" : 0.0,
+			"Velocity_max_50" : 0.0
+		}
+	},
+	"Collision - ImpactAudioOnly" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0.0,
+			"Phys_energy" : 0.0,
+			"Size" : 0.0,
+			"Velocity_max_50" : 0.0
+		}
+	},
+	"Collision - RollingA" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_rolling"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0.0,
+			"Size" : 0.0,
+			"Velocity_max_50" : 0.0
+		}
+	},
+	"Collision - RollingB" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_rolling"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "",
+				"parameters" : 
+				{
+					"Material" : 
+					[
+						{
+							"condition" : "greater",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_generic_lowintensity",
+										"value" : 10.0
+									},
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_generic",
+										"value" : 20.0
+									},
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_generic_highintensity",
+										"value" : 30.0
+									}
+								]
+							},
+							"value" : -1
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_grass_lowintensity",
+										"value" : 15.0
+									},
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_grass_highintensity",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 2
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_generic_lowintensity",
+										"value" : 15.0
+									},
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_generic_highintensity",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 8
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_stone_lowintensity",
+										"value" : 15.0
+									},
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_stone_highintensity",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 6
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_sand_lowintensity",
+										"value" : 15.0
+									},
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_sand_highintensity",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 4
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Intensity" : 0.0,
+			"Material" : 0.0,
+			"Size" : 0.0,
+			"Velocity_max_50" : 0.0
+		}
+	},
+	"Collision - SlidingA" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_sliding"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0.0,
+			"Size" : 0.0,
+			"Velocity_max_50" : 0.0
+		}
+	},
+	"Collision - SlidingB" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_sliding"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "",
+				"parameters" : 
+				{
+					"Material" : 
+					[
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_grass_lowintensity",
+										"value" : 5.0
+									}
+								]
+							},
+							"value" : 2
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_generic_lowintensity",
+										"value" : 5.0
+									}
+								]
+							},
+							"value" : 8
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_stone_lowintensity",
+										"value" : 5.0
+									}
+								]
+							},
+							"value" : 6
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"parameters" : 
+							{
+								"Intensity" : 
+								[
+									{
+										"condition" : "greater",
+										"name" : "construct_wheelspin_sand_lowintensity",
+										"value" : 5.0
+									}
+								]
+							},
+							"value" : 4
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Intensity" : 0.0,
+			"Material" : 0.0,
+			"Size" : 0.0,
+			"Velocity_max_50" : 0.0
+		}
+	},
+	"Farmbot - ImpactBreach" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbotbreach"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0
+		}
+	},
+	"Farmbot - ImpactSwipe" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/farmbot/farmbotswipe"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0
+		}
+	},
+	"Haybot - Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/haybot/haybotpitchfork"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0
+		}
+	},
+	"Haybot - ImpactSwipe" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/haybot/haybotpitchforkswipe"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0
+		}
+	},
+	"Impact - Single" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0,
+			"Phys_energy" : 12.5,
+			"Size" : 0.05,
+			"Velocity_max_50" : 10.0
+		}
+	},
+	"Projectile - Destroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_debris"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			},
+			{
+				"name" : "",
+				"parameters" : 
+				{
+					"Volume" : 
+					[
+						{
+							//Small 1 or 2 in size
+							"condition" : "greater",
+							"name" : "p_destruct_plastic",
+							"parameters" : 
+							{
+								"Material" : 
+								[
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_stone",
+										"value" : 6.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_wood",
+										"value" : 7.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_plastic",
+										"value" : 8.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal",
+										"values" : 
+										[
+											9.0,
+											34.0
+										]
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_sand",
+										"value" : 4.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_destruct_glass",
+										"value" : 10.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_destruct_cardboard",
+										"value" : 13.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_mechanical",
+										"value" : 19.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_fruit",
+										"value" : 20.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_destruct_ice",
+										"value" : 24.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_bubblewrap",
+										"value" : 25.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal",
+										"value" : 26.0
+									}
+								]
+							},
+							"value" : 0.0
+						},
+						{
+							//Medium 3 or 4 in size
+							"condition" : "greater",
+							"name" : "p_sledgehammer_destruct_cardboard",
+							"parameters" : 
+							{
+								"Material" : 
+								[
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_stone_medium",
+										"value" : 6.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_wood_medium",
+										"value" : 7.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_plastic_medium",
+										"value" : 8.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_medium",
+										"values" : 
+										[
+											9.0,
+											34.0
+										]
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_sand_medium",
+										"value" : 4.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_glass_medium",
+										"value" : 10.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_cardboard_medium",
+										"value" : 13.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_mechanical_medium",
+										"value" : 19.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_fruit",
+										"value" : 20.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_medium",
+										"value" : 26.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_ice_medium",
+										"value" : 24.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_bubblewrap_medium",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 2.0
+						},
+						{
+							//Medium 5 or greater
+							"condition" : "greater",
+							"name" : "p_sledgehammer_destruct_cardboard",
+							"parameters" : 
+							{
+								"Material" : 
+								[
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_stone_big",
+										"value" : 6.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_wood_big",
+										"value" : 7.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_plastic_big",
+										"value" : 8.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_big",
+										"values" : 
+										[
+											9.0,
+											34.0
+										]
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_sand_big",
+										"value" : 4.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_glass_big",
+										"value" : 10.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_cardboard_big",
+										"value" : 13.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_mechanical_big",
+										"value" : 19.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_fruit",
+										"value" : 20.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_big",
+										"value" : 26.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_ice_big",
+										"value" : 24.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_bubblewrap_big",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 4.0
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0.0,
+			"Volume" : 1.0
+		}
+	},
+	"Projectile - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "",
+				"parameters" : 
+				{
+					"Phys_energy" : 
+					[
+						{
+							"condition" : "greater",
+							"name" : "p_spudgun_impact_defualt01",
+							"parameters" : 
+							{
+								"Material" : 
+								[
+									{
+										"condition" : "equal",
+										"name" : "p_spudgun_impact_glass",
+										"value" : 10.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_spudgun_impact_cardboard",
+										"value" : 13.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_destruct_ice",
+										"value" : 24.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_bubblewrap",
+										"value" : 25.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_fruit",
+										"value" : 20.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_sand",
+										"value" : 4.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_impact_carpet",
+										"value" : 12.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_spudgun_impact_trashgoo",
+										"value" : 30.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_spudgun_impact_bots",
+										"value" : 31.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_spudgun_impact_trashgoo",
+										"value" : 32.0
+									}
+								]
+							},
+							"value" : 1.0
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0.0,
+			"Phys_energy" : 0.0,
+			"Size" : 0.0,
+			"Velocity_max_50" : 0.0
+		}
+	},
+	"Projectile - HitWater" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_water_hit_ground_small",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.165000007
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 17,
+			"Phys_energy" : 300.0,
+			"Size" : 0.01,
+			"Velocity_max_50" : 3.0
+		}
+	},
+	"Projectile - HitLava" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"particles" : 
+				[
+					"p_lava_hit_ground_small"
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 17,
+			"Phys_energy" : 300.0,
+			"Size" : 0.01,
+			"Velocity_max_50" : 3.0
+		}
+	},
+	"Projectile - HitChemical" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"particles" : 
+				[
+					"p_chemical_hit_ground_small"
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 17,
+			"Phys_energy" : 300.0,
+			"Size" : 0.01,
+			"Velocity_max_50" : 3.0
+		}
+	},
+	"Projectile - HitOil" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"particles" : 
+				[
+					"p_oil_hit_ground_small"
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 17,
+			"Phys_energy" : 300.0,
+			"Size" : 0.01,
+			"Velocity_max_50" : 3.0
+		}
+	},
+	"Sledgehammer - Destroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_debris"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			},
+			{
+				"name" : "",
+				"parameters" : 
+				{
+					"Volume" : 
+					[
+						{
+							//Small 1 or 2 in size
+							"condition" : "greater",
+							"name" : "p_destruct_plastic",
+							"parameters" : 
+							{
+								"Material" : 
+								[
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_stone",
+										"value" : 6.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_wood",
+										"value" : 7.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_plastic",
+										"value" : 8.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal",
+										"values" : 
+										[
+											9.0,
+											34.0
+										]
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_sand",
+										"value" : 4.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_destruct_glass",
+										"value" : 10.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_destruct_cardboard",
+										"value" : 13.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_mechanical",
+										"value" : 19.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_fruit",
+										"value" : 20.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_destruct_ice",
+										"value" : 24.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_sledgehammer_bubblewrap",
+										"value" : 25.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal",
+										"value" : 26.0
+									}
+								]
+							},
+							"value" : 0.0
+						},
+						{
+							//Medium 3 or 4 in size
+							"condition" : "greater",
+							"name" : "p_sledgehammer_destruct_cardboard",
+							"parameters" : 
+							{
+								"Material" : 
+								[
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_stone_medium",
+										"value" : 6.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_wood_medium",
+										"value" : 7.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_plastic_medium",
+										"value" : 8.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_medium",
+										"values" : 
+										[
+											9.0,
+											34.0
+										]
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_sand_medium",
+										"value" : 4.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_glass_medium",
+										"value" : 10.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_cardboard_medium",
+										"value" : 13.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_mechanical_medium",
+										"value" : 19.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_fruit",
+										"value" : 20.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_medium",
+										"value" : 26.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_ice_medium",
+										"value" : 24.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_bubblewrap_medium",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 2.0
+						},
+						{
+							//Medium 5 or greater
+							"condition" : "greater",
+							"name" : "p_sledgehammer_destruct_cardboard",
+							"parameters" : 
+							{
+								"Material" : 
+								[
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_stone_big",
+										"value" : 6.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_wood_big",
+										"value" : 7.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_plastic_big",
+										"value" : 8.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_big",
+										"values" : 
+										[
+											9.0,
+											34.0
+										]
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_sand_big",
+										"value" : 4.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_glass_big",
+										"value" : 10.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_cardboard_big",
+										"value" : 13.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_mechanical_big",
+										"value" : 19.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_fruit",
+										"value" : 20.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_metal_big",
+										"value" : 26.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_ice_big",
+										"value" : 24.0
+									},
+									{
+										"condition" : "equal",
+										"name" : "p_destruct_bubblewrap_big",
+										"value" : 25.0
+									}
+								]
+							},
+							"value" : 4.0
+						}
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0.0,
+			"Volume" : 1.0
+		}
+	},
+	"Sledgehammer - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_single"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50",
+					"Material",
+					"Phys_energy"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "",
+				"parameters" : 
+				{
+					"Material" : 
+					[
+						{
+							"condition" : "equal",
+							"name" : "hammer_ground",
+							"values" : 
+							[
+								1.0,
+								2.0,
+								3.0,
+								5.0
+							]
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_stone",
+							"value" : 6.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_wood",
+							"value" : 7.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_sand",
+							"value" : 4.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_plastic",
+							"value" : 8.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_metal",
+							"values" : 
+							[
+								9.0,
+								19.0,
+								34.0
+							]
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_glass",
+							"value" : 10.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_cardboard",
+							"value" : 13.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_tape",
+							"value" : 15.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_ice",
+							"value" : 24.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_plastic",
+							"value" : 25.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_hammer_scrapmetal",
+							"value" : 26.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_hvs_rewardlocker_takingdamage",
+							"value" : 27.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_carpet",
+							"value" : 12.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_trashgoo",
+							"value" : 30.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "",
+							"value" : 30.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_trashgoo",
+							"value" : 32.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_metal",
+							"value" : 11.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_metal",
+							"value" : 22.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "hammer_plastic",
+							"value" : 29.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_destruct_fruit",
+							"value" : 20.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_hvs_matrixium_noprogress",
+							"value" : 35.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_hvs_disconite_noprogress",
+							"value" : 36.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_hvs_matrixium",
+							"value" : 37.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_hvs_disconite",
+							"value" : 38.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelbedrock_noprogress",
+							"value" : 100.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelrock1a",
+							"value" : 101.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelrock1b",
+							"value" : 102.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelrock1c",
+							"value" : 103.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelrock2",
+							"value" : 104.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelrock3",
+							"value" : 105.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelorerich_noprogress",
+							"value" : 106.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelgoopite_noprogress",
+							"value" : 107.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelcrimsonite_noprogress",
+							"value" : 108.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelthornite_noprogress",
+							"value" : 109.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxeljunk",
+							"value" : 110.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelclay",
+							"value" : 111.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxeldirt",
+							"value" : 112.0
+						},
+						{
+							"condition" : "equal",
+							"name" : "p_sledgehammer_impact_voxelice",
+							"value" : 113.0
+						}
+
+					]
+				},
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0,
+			"Phys_energy" : 12.5,
+			"Size" : 0.005,
+			"Velocity_max_50" : 10.0
+		}
+	},
+	"Sledgehammer - NoProgress" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_sledgehammer_noprogress",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/coll/barrier"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"maxInstances" : 128
+	},
+	"SledgehammerHit - Default" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "hammer_ground",
+				"type" : "particle"
+			}
+		]
+	},
+	"Totebot - Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebotattack"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0
+		}
+	},
+	"Totebot - ImpactWhip" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebotwhip"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Material"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 0
+		}
+	},
+	"Weapon - Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/impact_weapon"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Material",
+					"Velocity_max_50",
+					"Size"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 1,
+			"Size" : 0.005,
+			"Velocity_max_50" : 10.0
+		}
+	}
+}

@@ -1,0 +1,81 @@
+{
+	"template_meta": {
+		"uuid" : "9595d1d6-8f59-4484-989e-9d70ff17d297",
+		"name":"Melee Attack Set",
+		"display": "meleeattackset",
+		"preferDualView" : true,
+		"pattern": ["$*/Melee/*.json", "*.meleeattackset"]
+	},
+
+	"meleeAttacks_meta" : { "valueAsLabel":"name" },
+	"meleeAttacks": [
+		{
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "ignoreUuidName": true, "autoGenerate":true, "order":1 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"name_meta" : { "order":2 },
+			"name": "Attack name",
+
+			"impactEffect_meta": { 
+				"label" : "Hit Effect*", 
+				"type":"string", 
+				"optionsCategory" : "effect",
+				"toolTip" : "Sets melee attack effect when hit something. Reacts to the material the melee attack has hit, if enableSurfaceMaterial is true. Default is 'Weapon - Impact'",
+				"optional" : true,
+				"optionsAllowsCustom" : true
+			},
+			"impactEffect": "Weapon - Impact",
+
+			"materialImpactEffect_meta": { 
+				"label" : "Impact Effect*", 
+				"type" : "string", 
+				"optionsCategory" : "effect",
+				"toolTip" : "Overwrites default impact effect (Sledgehammer - Hit), reacts to the material the melee attack has hit", 
+				"available" : { "enableMaterialImpactEffect":[ true ] },
+				"optional" : true,
+				"optionsAllowsCustom" : true
+			},
+			"materialImpactEffect": "Sledgehammer - Hit",
+
+			"enableMaterialImpactEffect_meta": { "label" : "Enable impact effect*", "type" : "bool", "toolTip" : "Enables Impact Effect" },
+			"enableMaterialImpactEffect": true,
+
+			"enableSurfaceMaterial_meta": { "label" : "Enable surface material*", "optional" : true, "type" : "bool", "toolTip" : "Enables surface material for the Hit Effect. Default is false if not added" },
+			"enableSurfaceMaterial": true,
+
+			"hitSphere_meta": { "optional": true, "hideInHierarchyView" : true },
+			"hitSphere": 
+			{
+				"radius": 0.1
+			},
+
+			"hitBox_meta": { "optional": true, "hideInHierarchyView" : true },
+			"hitBox": 
+			{
+				"halfWidth": 0.4,
+				"halfHeight": 0.4
+			},
+
+			"destruction_meta" : { "hideInHierarchyView" : true },
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel_meta": { "type": "uint", "min": 1, "max": 10, "suffix": " lvl"  },
+						"qualityLevel": 1,
+						
+						"chance_meta": { "type": "range", "min": 0.0, "max": 1.0, "suffix": " %", "dragPrecision":3, "deprecated" : true, "optional" : true, "toolTip" : "Use 'damage' instead" },
+						"chance": 1.0,
+						
+						"damage_meta": { "type": "range", "min": 0.0, "max": 100.0, "suffix": " %", "dragPrecision":3 },
+						"damage": 100.0
+					}
+				]
+			},
+
+			"useWideFallback_meta": { "optional": true },
+			"useWideFallback": false
+		}
+	]
+}

@@ -1,0 +1,1161 @@
+{
+	"EpicLoot - GlowItem" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_lootbox_projectile_glowitem_epic",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "",
+				"type" : "shapeRenderable"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_spawn_epic"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 1.0,
+				"speed" : 0.1875,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 1.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							360.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"EpicLootProjectile - Attached" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_lootbox_projectile_attached_epic",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/ui/item_projectile_epic"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.125,
+						"value" : 1.75
+					}
+				]
+			},
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.125,
+						"value" : 3.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffff00",
+			"intensity" : 1.75,
+			"radius" : 3.0
+		}
+	},
+	"EpicLootProjectile - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_lootbox_projectile_impact_epic",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.333
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Loot - AudioLogfiles" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_logfile_glowitem_wave.json",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "$SURVIVAL_DATA/Harvestables/Renderable/logfiles/hvs_logfiles_audiolog.rend",
+				"type" : "shapeRenderable"
+			}
+		]
+	},
+	"Loot - GlowItem" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_lootbox_projectile_glowitem",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "",
+				"type" : "shapeRenderable"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_spawn"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 1.0,
+				"speed" : 0.1875,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 1.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							360.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Loot - Logbook" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_logfile_glowitem",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/logbook_entry"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					2.0
+				],
+				"name" : "$SURVIVAL_DATA/Harvestables/Renderable/logfiles/hvs_logfiles_logbook.rend",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.04
+				],
+				"type" : "renderable"
+			}
+		]
+	},
+	"Loot - Logentry" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_logfile_glowentry",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/logbook_entry"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Loot - Logentryactivate" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_logfile_glowentry_activate",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/logbook_entryactivate"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Loot - LogfilesPickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_logfile_pickup",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.35
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_pickup"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Loot - OutfitCommonGlowItem" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_outfit_glowitem_common_01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "",
+				"type" : "shapeRenderable"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_spawn"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 1.0,
+				"speed" : 0.1875,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 1.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							360.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Loot - OutfitCommonPickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_outfit_pickup_comon",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.35
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_pickup"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Loot - OutfitEpicGlowItem" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_outfit_glowitem_epic_01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "",
+				"type" : "shapeRenderable"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_spawn_epic"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 1.0,
+				"speed" : 0.1875,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 1.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							360.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Loot - OutfitEpicPickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_outfit_pickup_epic",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.35
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_pickup"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Loot - OutfitRareGlowItem" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_outfit_glowitem_rare_01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "",
+				"type" : "shapeRenderable"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_spawn_epic"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 1.0,
+				"speed" : 0.1875,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 1.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							360.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Loot - OutfitRarePickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_outfit_pickup_rare",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.35
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_pickup"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Loot - Pickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_lootbox_projectile_pickedup",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.35
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_pickup"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Loot - PictureLogfiles" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_logfile_glowitem_wave.json",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "$SURVIVAL_DATA/Harvestables/Renderable/logfiles/hvs_logfiles_picturelog.rend",
+				"type" : "shapeRenderable"
+			}
+		]
+	},
+	"LootCrate - Destroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_lootbox_destruct",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"shakeRadius" : 3.0,
+			"shakeStrength" : 0.25
+		}
+	},
+	"LootCrate - DestroyGlow" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/lootcrate_smash"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_lootbox_destructglow",
+				"type" : "particle"
+			}
+		]
+	},
+	"LootCrate - RareDestroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_lootbox_destruct_rare",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"shakeRadius" : 3.0,
+			"shakeStrength" : 0.25
+		}
+	},
+	"LootCrate - MinidungeonDestroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_lootbox_destruct_growlab",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"shakeRadius" : 3.0,
+			"shakeStrength" : 0.25
+		}
+	},
+	"LootCrate - EpicDestroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_lootbox_destruct_epic",
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"shakeRadius" : 3.0,
+			"shakeStrength" : 0.25
+		}
+	},
+	"LootProjectile - Attached" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_lootbox_projectile_attached",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/ui/item_projectile"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.125,
+						"value" : 0.75
+					}
+				]
+			},
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.125,
+						"value" : 3.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffff00",
+			"intensity" : 0.75,
+			"radius" : 3.0
+		}
+	},
+	"LootProjectile - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_lootbox_projectile_impact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.35
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Lootitems - Unlockitem" : 
+	{
+		"effectList" : 
+		[
+			{
+				"name" : "p_loot_unlockitem",
+				"type" : "particle"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 1.0,
+				"speed" : 0.1875,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 1.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							360.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			]
+		}
+	},
+	"Lootitems - Unlockitempickup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_loot_unlockitem_pickup",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.35
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/item_pickup"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"LootProjectile - Chestsuction_Attached" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_interactive_chest_lootsuction_projectile",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/ui/item_projectile"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.125,
+						"value" : 0.75
+					}
+				]
+			},
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.125,
+						"value" : 3.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "00ff9eff",
+			"intensity" : 0.75,
+			"radius" : 3.0
+		}
+	}
+}

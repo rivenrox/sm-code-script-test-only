@@ -1,0 +1,817 @@
+{
+	"Mechanic - Exhausted" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/exhausted"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic - Hurt" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/impact"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - HurtDrown" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/hurt_drown"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - HurtFire" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/burn"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - Hurthunger" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/hurt_hunger"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - Hurtpoision" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/poison"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - Hurtshock" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/shock"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - HurtRadiation" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/poison"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - JetpackBurstThruster" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/vehicle/thrusters/thruster01"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.05,
+				"name" : "p_player_jetpack_burstthrust",
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - JetpackThruster" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/vehicle/thrusters/thruster01"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.05,
+				"name" : "p_player_jetpack_thrust",
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Ko" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/death"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic - KoLoop" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.05,
+				"direction" : 
+				{
+					"x" : 1.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"name" : "p_player_knockedout",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/ko"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic - MeleeHit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/impact"
+				],
+				"parameters" : 
+				[
+					"char",
+					"damage"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0,
+			"damage" : 0
+		}
+	},
+	"Mechanic - StatusHungry" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/lowfood"
+				],
+				"parameters" : 
+				[
+					"char"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0
+		}
+	},
+	"Mechanic - StatusThirsty" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/lowfood"
+				],
+				"parameters" : 
+				[
+					"char"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0
+		}
+	},
+	"Mechanic - StatusUnderwater" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/health/lowair"
+				],
+				"parameters" : 
+				[
+					"char"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"char" : 0
+		}
+	},
+	"Mechanic - Swimbackward" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/movement/water/swim_backwards"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic - Swimforeward" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/movement/water/swim_forwards"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic crouch" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/crouch"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic crouch walk" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/footstep_crouching"
+				],
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0
+		}
+	},
+	"Mechanic getUp" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/getup"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Mechanic jump" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/jump"
+				],
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0
+		}
+	},
+	"Mechanic land" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/land"
+				],
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0
+		}
+	},
+	"Mechanic underwater" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_dive_bubbles",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic walk" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/footstep"
+				],
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0
+		}
+	},
+	"Mechanic wind" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/wind"
+				],
+				"parameters" : 
+				[
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"velocity" : 0
+		}
+	},
+	"Mechanic - Sledgehammer Swing" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/sledgehammer_swing"
+				],
+				"type" : "audio",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 1.25,
+					"z" : 0.0
+				}
+			}
+		]
+	},
+	"Mechanic - Sledgehammer Equip" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/sledgehammer_pickup"
+				],
+				"type" : "audio",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 1.25,
+					"z" : 0.0
+				}
+			}
+		]
+	},
+	"Mechanic - Sledgehammer Unequip" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/sledgehammer_putdown"
+				],
+				"type" : "audio",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 1.25,
+					"z" : 0.0
+				}
+			}
+		]
+	},
+	"Mechanic - Watersplash_crouching" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_watersplash01_crouching",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Watersplash_walking" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_watersplash01_walking",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Watersplash_running" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_watersplash01_running",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Lavasplash_crouching" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_watersplash01_crouching",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Lavasplash_walking" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_watersplash01_walking",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Lavasplash_running" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_watersplash01_running",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Oilsplash_crouching" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_oilsplash01_crouching",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Oilsplash_walking" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_oilsplash01_walking",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Oilsplash_running" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_oilplash01_running",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Chemicalsplash_crouching" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_chemicalsplash01_crouching",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Chemicalsplash_walking" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_chemicalsplash01_walking",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	},
+	"Mechanic - Chemicalsplash_running" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_player_chemicalplash01_running",
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			}
+		]
+	}
+}

@@ -1,0 +1,264 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 10.0,
+				"category" : "4 - smoke",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3242
+							],
+							[
+								0.12755,
+								1.01364
+							],
+							[
+								0.33673,
+								1.40181
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.11546,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.53904
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/lootitem/p_emissionmesh_lootitem_cylinder.fbx",
+				"emission_mesh_scale" : 
+				[
+					3.0,
+					3.0,
+					3.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.25
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					0.0,
+					90.0,
+					0.0
+				],
+				"soft_particles_bias" : 10001,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.333
+				],
+				"translucency" : 0.5,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					-2.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.25
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/powertools/p_powertools_swirlloop01_asg.tga",
+				"box" : 
+				[
+					0.75,
+					0.0,
+					0.0
+				],
+				"category" : "03 - swirl",
+				"depth" : 
+				[
+					2.0,
+					0.5
+				],
+				"direction_type" : "constant",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.63137,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.75291,
+									0.31764,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.80154
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 5,
+						"fps" : 30,
+						"guid" : 7,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 3,
+				"mesh" : "$GAME_DATA/Particles/resources/minerbot/p_mesh_minerbot_wheelspincylinder01.fbx",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Main Swirl 01 MESH",
+				"particle" : "mesh",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.05,
+					-0.05001
+				],
+				"rotation_speed" : -360.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.64999,
+					0.05
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

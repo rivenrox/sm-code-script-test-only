@@ -1,0 +1,1204 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_asg.tga",
+				"alpha" : true,
+				"category" : "3 - Drops",
+				"depth" : 
+				[
+					0.5,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.62462
+							],
+							[
+								0.62484,
+								1.07448
+							],
+							[
+								0.80699,
+								1.04935
+							],
+							[
+								0.90223,
+								0.84153
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.47973,
+								1.598
+							],
+							[
+								0.75937,
+								1.13241
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 3,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 250,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-6.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.5,
+					0.1
+				],
+				"keep_local" : false,
+				"material_name" : "UVAnimDifAsgNorAlpha",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_water_anim_plane_02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"min_quality" : "high",
+				"name" : "Drops Small [high]",
+				"normal_map" : "$GAME_DATA/Particles/resources/player/player_divebubbles/p_mesh_player_divebubbles_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/foamgun/p_renderable_foamgun_drops_translucent.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"sphere_radius" : 0.15,
+				"surface" : true,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.33
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.1
+				]
+			},
+			{
+				"category" : "2 - StickyFoam",
+				"delay" : 0.05,
+				"depth" : 
+				[
+					0.75998,
+					0.15
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.57634
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.54193
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 6,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.075,
+								0.5
+							],
+							[
+								0.875,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 7,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.05494,
+								0.9824
+							],
+							[
+								0.09752,
+								1.0
+							],
+							[
+								0.88186,
+								1.0
+							],
+							[
+								0.93954,
+								0.97158
+							],
+							[
+								0.96701,
+								0.9161
+							],
+							[
+								1.0,
+								0.50656
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 4,
+				"height" : 
+				[
+					0.75998,
+					0.15
+				],
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "StickyFoam Ground [low]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/foamgun/p_renderable_foamgun_sprayprojectile_ground_dissolve.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					0.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75998,
+					0.15
+				]
+			},
+			{
+				"category" : "2 - StickyFoam",
+				"delay" : 0.05,
+				"depth" : 
+				[
+					0.75998,
+					0.15
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								1.0
+							],
+							[
+								0.666,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								0.0
+							],
+							[
+								0.666,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 11,
+						"index" : 1,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.666,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 12,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.05494,
+								0.9824
+							],
+							[
+								0.09752,
+								1.0
+							],
+							[
+								0.88186,
+								1.0
+							],
+							[
+								0.93954,
+								0.97158
+							],
+							[
+								0.96701,
+								0.9161
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 9,
+				"height" : 
+				[
+					0.75998,
+					0.15
+				],
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "bubble foam [high]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/foamgun/p_renderable_foamgun_bubbles.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					0.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 
+				[
+					4.5,
+					0.25
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75998,
+					0.15
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/foamgun/Splashes/p_foamgun_liquidsplash02_asg.tga",
+				"angle" : 180.0,
+				"category" : "1",
+				"depth" : 
+				[
+					0.44999,
+					0.1
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.001,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.2307,
+								1.27629
+							],
+							[
+								0.56,
+								1.67104
+							],
+							[
+								1.0,
+								1.88812
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 35,
+						"fps" : 30,
+						"guid" : 16,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.19076,
+								1.2171
+							],
+							[
+								0.4923,
+								1.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 18,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								100.0
+							],
+							[
+								1.0,
+								100.0
+							]
+						],
+						"guid" : 19,
+						"max" : 100.0,
+						"min" : -100.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 30,
+				"guid" : 14,
+				"height" : 
+				[
+					1.0,
+					0.15
+				],
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 2,
+				"mesh" : "$GAME_DATA/Particles/resources/foamgun/Splashes/p_foamgun_liquidsplash03_cylinder.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Fbrdf/t_foam_fbrdf.tga",
+				"mesh_size" : 
+				[
+					2.0,
+					2.0,
+					2.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "medium",
+				"name" : "SplashPlane01 Random Splash 2  [medium]",
+				"normal_map" : "$GAME_DATA/Particles/resources/foamgun/Splashes/p_foamgun_liquidsplash02_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					90.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 0.400000006,
+				"velocity" : 0.25,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.15
+				]
+			},
+			{
+				"category" : "1",
+				"depth" : 0.649999976,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.01936
+							],
+							[
+								0.333,
+								1.0
+							],
+							[
+								0.666,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 21,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								0.0
+							],
+							[
+								0.666,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 22,
+						"index" : 1,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16347,
+								0.39171
+							],
+							[
+								0.26539,
+								0.55961
+							],
+							[
+								0.42675,
+								0.66666
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 23,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.12698
+							],
+							[
+								0.47036,
+								0.84908
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 24,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.68421
+							],
+							[
+								0.15384,
+								0.75985
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 25,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 20,
+				"height" : 0.649999976,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "SplatterShape Splash 3  [High]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/foamgun/p_rendeble_foamgun_splattershape_dissolve.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.2,
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 0.449999988,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.649999976
+			},
+			{
+				"category" : "0",
+				"cone_angle" : 90.0,
+				"cone_radius" : 0.25,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/debri_bubbles01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.93519,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 27,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.04861,
+								1.02567
+							],
+							[
+								0.08043,
+								1.08176
+							],
+							[
+								0.12992,
+								1.08642
+							],
+							[
+								0.18273,
+								1.04437
+							],
+							[
+								0.23296,
+								0.9883
+							],
+							[
+								0.32523,
+								0.96028
+							],
+							[
+								0.43838,
+								0.98128
+							],
+							[
+								0.54316,
+								1.02803
+							],
+							[
+								0.66219,
+								1.04437
+							],
+							[
+								0.75858,
+								1.02102
+							],
+							[
+								0.90863,
+								0.96261
+							],
+							[
+								0.93509,
+								1.01993
+							],
+							[
+								0.95494,
+								1.77408
+							],
+							[
+								0.96951,
+								1.89698
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.89999,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 29,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"use_graph" : true
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2001,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 0.25,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.94901,
+								0.88235,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.88235,
+								1.0,
+								0.90625,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 26,
+				"height" : 
+				[
+					0.2,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Bubbles 1 [medium]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					1.0,
+					25.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 2000,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 2.0,
+				"translucency" : 1.0,
+				"type" : "cone",
+				"velocity" : 
+				[
+					0.34999,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.2,
+					0.1
+				]
+			},
+			{
+				"category" : "1",
+				"depth" : 0.649999976,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 31,
+						"name" : "Pose",
+						"time" : 0.75
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								0.0
+							],
+							[
+								0.666,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 32,
+						"index" : 1,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16347,
+								0.39171
+							],
+							[
+								0.26539,
+								0.55961
+							],
+							[
+								0.42675,
+								0.66666
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 33,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.12698
+							],
+							[
+								0.22461,
+								0.59621
+							],
+							[
+								0.47692,
+								0.87171
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.68421
+							],
+							[
+								0.15384,
+								0.75985
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 35,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 30,
+				"height" : 0.649999976,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "SplatterShape Splash 3  [High]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/foamgun/p_rendeble_foamgun_splattershape.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 0.349999994,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.649999976
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 0.8
+	}
+}

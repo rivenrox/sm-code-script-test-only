@@ -1,0 +1,133 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/triggers/kin_triggers_powerbreaker_col.fbx",
+			"color" : "85ffebff",
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "hvs_triggers_powerbreaker",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/triggers/kin_triggers_powerbreaker.rend",
+			"script" : 
+			{
+				"class" : "AutoDoorBreakableLock",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/AutoDoorBreakableLock.lua"
+			},
+			"uuid" : "20bb2d93-cdc7-45f6-8d15-18742706bd36"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Minidungeon/hvs_minidungeon_doorprogresslight_col.fbx",
+			"color" : "d3261aff",
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "hvs_survivalobjects_doorprogresslight",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Minidungeon/hvs_minidungeon_doorprogresslight.rend",
+			"script" : 
+			{
+				"class" : "AutoDoorDisplay",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/AutoDoorDisplay.lua"
+			},
+			"uuid" : "939bd3ae-c92d-401a-864a-9d05028e2e2e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Minidungeon/hvs_minidungeon_doorunlocklight_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "doorunlocklight",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyCount",
+					"type" : "float"
+				},
+				{
+					"name" : "kinematicEventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Minidungeon/hvs_minidungeon_doorunlocklight.rend",
+			"script" : 
+			{
+				"class" : "KinematicDoorSign",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/KinematicDoorSign.lua"
+			},
+			"uuid" : "b1a44f59-df94-42f5-b569-433d6fc5e68d"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Minidungeon/hvs_minidungeon_smallunlocklight_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Default",
+			"name" : "smallunlocklight",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				},
+				{
+					"name" : "keyCount",
+					"type" : "float"
+				},
+				{
+					"name" : "kinematicEventTrigger",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Minidungeon/hvs_minidungeon_smallunlocklight.rend",
+			"script" : 
+			{
+				"class" : "KinematicDoorSign",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/KinematicDoorSign.lua"
+			},
+			"uuid" : "4636bbb6-b1a4-48c7-b0b7-29f230d7981a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Minidungeon/hvs_minidungeon_rewardlocker_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Rewardlocker",
+			"name" : "rewardlocker",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Minidungeon/hvs_minidungeon_rewardlocker.rend",
+			"script" : 
+			{
+				"class" : "RewardLockerBase",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/RewardLockerBase.lua"
+			},
+			"uuid" : "354eee30-8345-4502-b4ed-6fbe35d894e6"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Minidungeon/hvs_minidungeon_rewardlocker_destroyed_col.fbx",
+			"mass" : 10000.0,
+			"material" : "Rewardlocker",
+			"name" : "rewardlocker_destroyed",
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Minidungeon/hvs_minidungeon_rewardlocker_destroyed.rend",
+			"uuid" : "4b735c21-f3d5-41c1-bd1a-054064ab5088"
+		}
+	]
+}

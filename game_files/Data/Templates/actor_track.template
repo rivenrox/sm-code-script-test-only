@@ -1,0 +1,429 @@
+{
+	"template_meta": {
+		"uuid" : "e03d8b3d-9ebc-4592-9821-4993863cd7a6",
+		"name":"ActorTrack",
+		"display": "actorTrack",
+		"root_meta": { "type": "map" }
+	},
+
+	"actorTrack":
+	{
+		"actorTrack_meta" : {
+			"optional" : true,
+			"order" : 1,
+			"valueAsLabel" : [ "label" ],
+			"valueSuffix" : " - Waypoint",
+			"value_meta" : {
+				"color" : "#29402d",
+				"startCollapsed" : true,
+				"displayTransform" : {
+					"renderableFromEntity" : true,
+					"color" : [
+						0.6,
+						0.6,
+						0.6,
+						0.6
+					],
+					"cameraView" : false,
+					"position" : "position",
+					"rotation" : "rotation"
+				},
+				"hideUnavailableOptionals" : true
+			}
+		},
+		"actorTrack" : [ 
+			{
+				"label_meta" : { "optional": true, "order":0 },
+				"label" : "",
+
+				"position_meta": { "type":"vec3", "order":1 },
+				"position": [0.0, 0.0, 0.0],
+				
+				"rotation_meta": { "type":"vec3", "order":2 },
+				"rotation": [0.0, 0.0, 0.0],
+				
+				"waitForPlayer_meta" : { "optional": true, "order":3 },
+				"waitForPlayer": false,
+
+				"incrementalDelay_meta" : { "order":4 },
+				"incrementalDelay" : true,
+
+				"teleport_meta" : { "optional": true, "order":5 },
+				"teleport" : false,
+
+				"commands_meta" : { 
+					"order":11, 
+					"createEmpty" : true,
+					"startCollapsed" : true,
+					"optional": true,
+					"presets" : {
+						"QuestEvent": {
+							"name" : "questEvent",
+							"questEvent" : "example.event"
+						},
+						"CharacterEvent": {
+							"name" : "characterEvent",
+							"characterEvent" : "emote_hello"
+						},
+						"SetFacingDirection": {
+							"name" : "setFacingDirection",
+							"angle" : 0.0
+						},
+						"SetFacePlayer": {
+							"name" : "setFacePlayer",
+							"enabled" : true
+						},
+						"GiveItem": {
+							"name" : "giveItem",
+							"type" : "log",
+							"uuid" : "00000000-0000-0000-0000-000000000000",
+							"quantity" : 1,
+							"questEvent" : "",
+							"shapeRenderableUuid" : "00000000-0000-0000-0000-000000000000"
+						},
+						"AwaitInteraction": {
+							"name" : "awaitInteraction",
+							"interactionText" : "#{INTERACTION_INTERACT}",
+							"questEvent" : "example.event",
+							"characterEvent" : "",
+							"notifySkip" : "",
+							"externalCompletion" : false
+						},
+						"Wait": {
+							"name" : "wait",
+							"seconds" : 1.0,
+							"notifyActorEvent" : "",
+							"idle" : false
+						},
+						"Dialog": {
+							"name" : "dialog",
+							"dialogEntry" : "example.dialog",
+							"uuid" : "00000000-0000-0000-0000-000000000000",
+							"dialogBeatLookup" : ""
+						},
+						"SetMovementType": {
+							"name" : "setMovementType",
+							"movementType" : "walk"
+						},
+						"BeginTrack": {
+							"name" : "beginTrack",
+							"trackName" : "exampleTrack"
+						},
+						"BlockingDialog": {
+							"name" : "blockingDialog",
+							"dialogEntry" : "example.dialog",
+							"uuid" : "00000000-0000-0000-0000-000000000000",
+							"dialogBeatLookup" : "",
+							"notifySkip" : ""
+						},
+						"BlockingCharacterEvent": {
+							"name" : "blockingCharacterEvent",
+							"characterEvent" : "emote_hello",
+							"seconds" : 1.0
+						},
+						"InteractiveWait": {
+							"name" : "interactiveWait",
+							"uuid" : "00000000-0000-0000-0000-000000000000",
+							"characterEvent" : "",
+							"interactionText" : "#{INTERACTION_INTERACT}",
+							"notifyActorEvent" : "example.event",
+							"cooldown" : 1.0,
+							"repeating" : false
+						}
+					},
+					"valueAsLabel" : "name",
+					"value_meta" : {
+						"hideUnavailableOptionals" : true,
+						"valueToColor": {
+							"name": [
+								{ "value": "giveItem", "color": "#29402d" },
+								{ "value": "awaitInteraction", "color": "#29402d" },
+								{ "value": "wait", "color": "#29402d" },
+								{ "value": "beginTrack", "color": "#29402d" },
+								{ "value": "blockingDialog", "color": "#29402d" },
+								{ "value": "blockingCharacterEvent", "color": "#29402d" },
+								{ "value": "interactiveWait", "color": "#29402d" }
+							]
+						}
+					}
+				},
+				"commands" : [
+					{
+						"incrementalDelay_meta" : { "order":0, "available": {
+								"name": [
+									"giveItem",
+									"awaitInteraction",
+									"wait",
+									"blockingDialog",
+									"blockingCharacterEvent",
+									"interactiveWait"
+								]
+							}
+						},
+						"incrementalDelay" : false,
+
+						// available on non blocking commands
+						"delay_meta" : { "type":"float", "order":0, "available": {
+								"name": [
+									"questEvent",
+									"characterEvent",
+									"setFacingDirection",
+									"setFacePlayer",
+									"dialog",
+									"setMovementType"
+								]
+							}
+						},
+						"delay" : 0.0,
+
+						"name_meta" : { "order":0, "options" : [
+							"questEvent",
+							"characterEvent",
+							"setFacingDirection",
+							"setFacePlayer",
+							"giveItem",
+							"awaitInteraction",
+							"wait",
+							"dialog",
+							"setMovementType",
+							"beginTrack",
+							"blockingDialog",
+							"blockingCharacterEvent",
+							"interactiveWait"
+						] },
+						"name" : "",
+
+						"characterEvent_meta": {
+							"order": 1,
+							"optional": true,
+							"available": {
+								"name": [
+									"characterEvent",
+									"awaitInteraction",
+									"blockingCharacterEvent",
+									"interactiveWait"
+								]
+							}
+						},
+						"characterEvent" : "",
+
+						"questEvent_meta": {
+							"order": 1,
+							"optional": true,
+							"available": {
+								"name": [
+									"questEvent",
+									"awaitInteraction",
+									"giveItem"
+								]
+							}
+						},
+						"questEvent" : "",
+
+						"angle_meta" : { 
+							"type":"float", 
+							"order":2, 
+							"optional": true,
+							"available": {
+								"name": [ "setFacingDirection" ]
+							}
+						},
+						"angle" : 0.0,
+
+						"enabled_meta" : { 
+							"order":3, 
+							"optional": true,
+							"available": {
+								"name": [ "setFacePlayer", "setFacingDirection" ]
+							}
+						},
+						"enabled" : false,
+
+						"type_meta" : { 
+							"order":4, 
+							"optional": true,
+							"available": {
+								"name": [ "giveItem" ]
+							},
+							"options" : [
+								"log",
+								"item"
+							]
+						},
+						"type" : "log",
+
+						"uuid_meta" : { 
+							"type" : "uuid",
+							"order":5, 
+							"optional": true,
+							"available": {
+								"name": [ "giveItem", "dialog", "blockingDialog", "interactiveWait" ]
+							}
+						},
+						"uuid" : "00000000-0000-0000-0000-000000000000",
+
+						"quantity_meta" : { 
+							"type":"int", 
+							"order":6, 
+							"min":1,
+							"optional": true,
+							"available": {
+								"name": [ "giveItem" ]
+							}
+						},
+						"quantity" : 1,
+
+						"interactionText_meta" : { 
+							"order":7, 
+							"optional": true,
+							"available": {
+								"name": [ "awaitInteraction", "interactiveWait" ]
+							}
+						},
+						"interactionText" : "#{INTERACTION_INTERACT}",
+
+						"seconds_meta" : { 
+							"type":"float", 
+							"order":8, 
+							"min":0,
+							"optional": true,
+							"available": {
+								"name": [ "wait", "blockingCharacterEvent" ]
+							}
+						},
+						"seconds" : 1.0,
+
+						"dialogEntry_meta" : { 
+							"order":9, 
+							"optional": true,
+							"available": {
+								"name": [ "dialog", "blockingDialog" ]
+							}
+						},
+						"dialogEntry" : "example.dialog",
+
+						"dialogBeatLookup_meta" : { 
+							"order":9, 
+							"optional": true,
+							"toolTip": "If set, overrides uuid and dialogEntry with a named story beat lookup.",
+							"available": {
+								"name": [ "dialog", "blockingDialog" ]
+							}
+						},
+						"dialogBeatLookup" : "",
+
+						"movementType_meta" : { 
+							"order":10, 
+							"optional": true,
+							"available": {
+								"name": [ "setMovementType" ]
+							},
+							"options" : [
+								"walk",
+								"sprint",
+								"stand"
+							]
+						},
+						"movementType" : "walk",
+
+						"notifyActorEvent_meta" : { 
+							"order":11, 
+							"optional": true,
+							"available": {
+								"name": [ "wait", "interactiveWait" ]
+							}
+						},
+						"notifyActorEvent" : "defaultNotifyEvent",
+
+						"trackName_meta" : { 
+							"order":12, 
+							"optional": true,
+							"available": {
+								"name": [ "beginTrack" ]
+							}
+						},
+						"trackName" : "exampleTrack",
+
+						"idle_meta" : {
+							"order":13,
+							"optional": true,
+							"available": {
+								"name": [ "wait" ]
+							}
+						},
+						"idle" : false,
+
+						"immovable_meta" : {
+							"order":14,
+							"optional": true,
+							"available": {
+								"name": [ "wait" ]
+							}
+						},
+						"immovable" : false,
+
+						"waitForDialog_meta" : {
+							"order":15,
+							"optional": true,
+							"available": {
+								"name": [ "wait" ]
+							}
+						},
+						"waitForDialog" : false,
+
+						"shapeRenderableUuid_meta" : {
+							"type":"uuid", 
+							"optionsCategory":"shape",
+							"order":16,
+							"optional": true,
+							"available": {
+								"name": [ "giveItem" ]
+							}
+						},
+						"shapeRenderableUuid" : "00000000-0000-0000-0000-000000000000",
+
+						"repeating_meta" : {
+							"order":18,
+							"optional": true,
+							"available": {
+								"name": [ "interactiveWait" ]
+							}
+						},
+						"repeating" : true,
+
+						"cooldown_meta" : {
+							"type":"float",
+							"order":19,
+							"min":0,
+							"optional": true,
+							"available": {
+								"name": [ "interactiveWait" ]
+							}
+						},
+						"cooldown" : 1.0,
+
+						"notifySkip_meta" : {
+							"order":20,
+							"optional": true,
+							"available": {
+								"name": [ "awaitInteraction", "blockingDialog" ]
+							}
+						},
+						"notifySkip" : "",
+
+						"externalCompletion_meta" : {
+							"order":21,
+							"optional": true,
+							"toolTip": "If true, the interaction is not auto-completed. The quest must validate the interaction and complete it via QuestActorManager.Sv_CompleteActorInteraction.",
+							"available": {
+								"name": [ "awaitInteraction" ]
+							}
+						},
+						"externalCompletion" : false
+					}
+				]
+
+			}
+		]
+	}
+}

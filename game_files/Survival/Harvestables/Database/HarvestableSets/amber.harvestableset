@@ -1,0 +1,110 @@
+{
+	"harvestableList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Amber/hvs_amber_small01_col.fbx",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "Glass",
+			"name" : "hvs_amber_small01",
+			"removable" : true,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Amber/hvs_amber_small01.rend",
+			"script" : 
+			{
+				"class" : "Amber",
+				"data" : 
+				{
+					"amber" : 
+					{
+						"effect" : 
+						{
+							"name" : "Light POI Small",
+							"params" : 
+							{
+								"additive" : true,
+								"color" : 
+								[
+									1.0,
+									0.4921875,
+									0.0,
+									1.0
+								],
+								"intensity" : 0.4,
+								"maxIntensity" : 0.8,
+								"radius" : 5
+							}
+						},
+						"loot" : "lootsource_amber_small",
+						"stages" : 
+						[
+							"m_amber0",
+							"m_amber1",
+							"m_amber2"
+						]
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/Amber.lua"
+			},
+			"uuid" : "c1f9d37f-ec89-4116-b7e5-e48dc90fdd77"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Harvestables/Collision/Amber/hvs_amber_large01_col.fbx",
+			"collides" : 
+			{
+				"body" : false,
+				"character" : true,
+				"melee" : true,
+				"projectile" : true
+			},
+			"mass" : 10000.0,
+			"material" : "Glass",
+			"name" : "hvs_amber_large01",
+			"removable" : true,
+			"renderable" : "$SURVIVAL_DATA/Harvestables/Renderable/Amber/hvs_amber_large01.rend",
+			"script" : 
+			{
+				"class" : "Amber",
+				"data" : 
+				{
+					"amber" : 
+					{
+						"effect" : 
+						{
+							"name" : "Light POI Small",
+							"params" : 
+							{
+								"additive" : true,
+								"color" : 
+								[
+									1.0,
+									0.4921875,
+									0.0,
+									1.0
+								],
+								"intensity" : 0.6,
+								"maxIntensity" : 0.8,
+								"radius" : 10
+							}
+						},
+						"loot" : "lootsource_amber_large",
+						"stages" : 
+						[
+							"m_amber0",
+							"m_amber1",
+							"m_amber2",
+							"m_amber3"
+						]
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/harvestable/Amber.lua"
+			},
+			"uuid" : "47c98d51-1297-4104-9444-8706edc37bd0"
+		}
+	]
+}

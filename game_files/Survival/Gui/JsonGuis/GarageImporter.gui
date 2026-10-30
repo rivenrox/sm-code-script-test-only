@@ -1,0 +1,478 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Caption" : "#{ASSEMBLE_CREATION}",
+					"Childs" : [],
+					"FontName" : "SM_HeaderLarge_Wide",
+					"Name" : "Title",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"TextShadow" : true,
+					"TextShadowColour" : "0 0 0 0.3",
+					"Type" : "TextBox",
+					"height" : 30,
+					"width" : 796,
+					"x" : 0,
+					"y" : 20
+				},
+				{
+					"Caption" : "This is a placeolder for a cool blueprint name",
+					"Childs" : [],
+					"FontName" : "SM_HeaderNarrow",
+					"Name" : "BlueprintName",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Center",
+					"TextColour" : "1 1 1 0.5",
+					"Type" : "TextBox",
+					"height" : 24,
+					"width" : 796,
+					"x" : 0,
+					"y" : 46
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"BlueprintPreview" : null,
+							"Childs" : [],
+							"Name" : "PreviewCanvas",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "Canvas",
+							"Type" : "PreviewBox",
+							"height" : 160,
+							"width" : 726,
+							"x" : 0,
+							"y" : 2
+						}
+					],
+					"Name" : "DisplayBackground",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "GarageGridBG",
+					"Type" : "Widget",
+					"height" : 166,
+					"width" : 726,
+					"x" : 30,
+					"y" : 80
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"Name" : "ScrollGrid",
+									"NeedKey" : true,
+									"NeedMouse" : true,
+									"Skin" : "WhiteSkin",
+									"SubLayoutPath" : "$SURVIVAL_DATA/Gui/JsonGuis/GridScrollView.gui",
+									"Type" : "SubLayout",
+									"height" : 100,
+									"width" : 100,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "GridHolder",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"height" : 140,
+							"width" : 800,
+							"x" : -14,
+							"y" : 8
+						}
+					],
+					"Name" : "ResourcesBackground",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "BackgroundPanel",
+					"Type" : "Widget",
+					"height" : 154,
+					"width" : 726,
+					"x" : 30,
+					"y" : 304
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{REQUIRED_PARTS}",
+							"Childs" : [],
+							"FontName" : "SM_HeaderSmall",
+							"Name" : "RequiredPartsText",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Center",
+							"Type" : "TextBox",
+							"height" : 24,
+							"width" : 140,
+							"x" : 4,
+							"y" : 4
+						}
+					],
+					"Name" : "Tab",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "GarageTab",
+					"Type" : "Widget",
+					"height" : 33,
+					"width" : 150,
+					"x" : 50,
+					"y" : 275
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "Garage/gui_garage_button_main_icon.png",
+							"Name" : "Image",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "GarageButtonIconLoad",
+							"Type" : "ImageBox",
+							"height" : 22,
+							"width" : 22,
+							"x" : 16,
+							"y" : 13
+						},
+						{
+							"Caption" : "#{GARAGE_LOAD}",
+							"Childs" : [],
+							"FontName" : "SM_Button",
+							"MultiLine" : true,
+							"Name" : "TextBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextAlign" : "Center",
+							"TextColour" : "0.203922 0.207843 0.223529 1",
+							"TextShadow" : true,
+							"TextShadowColour" : "1 1 1 0.4",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 38,
+							"width" : 110,
+							"x" : 41,
+							"y" : 5
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Garage Loadparts",
+									"Name" : "load",
+									"Offset" : 
+									{
+										"x" : 0,
+										"y" : 0
+									},
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "LoadEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"Visible" : false,
+							"height" : 50,
+							"width" : 160,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"FontName" : "SM_HeaderNarrow",
+					"Name" : "LoadButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "GarageButtonDefault",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"Visible" : true,
+					"height" : 50,
+					"onClick" : "cl_onLoadClick",
+					"width" : 160,
+					"x" : 233,
+					"y" : 469
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "Garage/gui_garage_button_green_icon.png",
+							"Name" : "Image",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "GarageButtonIconCheckmark",
+							"Type" : "ImageBox",
+							"height" : 22,
+							"width" : 22,
+							"x" : 16,
+							"y" : 13
+						},
+						{
+							"Caption" : "#{GARAGE_ASSEMBLE}",
+							"Childs" : [],
+							"FontName" : "SM_Button",
+							"MultiLine" : true,
+							"Name" : "TextBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextAlign" : "Center",
+							"TextColour" : "0.266667 0.34902 0.0196078 1",
+							"TextShadow" : true,
+							"TextShadowColour" : "1 1 1 0.4",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 38,
+							"width" : 100,
+							"x" : 44,
+							"y" : 5
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Garage Assemble_glow",
+									"Name" : "glow",
+									"Offset" : 
+									{
+										"x" : 0,
+										"y" : 0
+									},
+									"PlayState" : "Auto playing"
+								},
+								{
+									"EffectName" : "Gui - Garage Assemble",
+									"Name" : "assemble",
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "AssembleEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"Visible" : true,
+							"height" : 50,
+							"width" : 160,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"FontName" : "SM_HeaderNarrow",
+					"Name" : "AssembleButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "GarageButtonDone",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"Visible" : false,
+					"height" : 50,
+					"onClick" : "cl_onAssembleClick",
+					"width" : 160,
+					"x" : 234,
+					"y" : 469
+				},
+				{
+					"Caption" : "#{CANCEL}",
+					"Childs" : 
+					[
+						{
+							"Caption" : "#{GARAGE_DISASSEMBLE}",
+							"Childs" : [],
+							"FontName" : "SM_Button",
+							"MultiLine" : true,
+							"Name" : "TextBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextAlign" : "Center",
+							"TextColour" : "0.447059 0 0 1",
+							"TextShadow" : true,
+							"TextShadowColour" : "1 1 1 0.2",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 38,
+							"width" : 110,
+							"x" : 40,
+							"y" : 5
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "Garage/gui_garage_button_red_icon.png",
+							"Name" : "Image",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "GarageButtonIconCheckmark",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 22,
+							"width" : 22,
+							"x" : 16,
+							"y" : 13
+						},
+						{
+							"Childs" : [],
+							"CropEffect" : false,
+							"Effects" : 
+							[
+								{
+									"EffectName" : "Gui - Garage Cancel",
+									"Name" : "stop",
+									"Offset" : 
+									{
+										"x" : 0,
+										"y" : 0
+									},
+									"PlayState" : "Auto play off"
+								}
+							],
+							"Name" : "CancelEffectBox",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "EffectBox",
+							"Type" : "EffectBox",
+							"Visible" : false,
+							"height" : 50,
+							"width" : 160,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"FontName" : "SM_HeaderNarrow",
+					"Name" : "CancelButton",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "GarageButtonCancel",
+					"StateSelected" : false,
+					"TextAlign" : "Center",
+					"Type" : "Button",
+					"height" : 50,
+					"onClick" : "cl_onCancelClick",
+					"width" : 160,
+					"x" : 424,
+					"y" : 470
+				},
+				{
+					"Caption" : "#5f5f5f #{ASSEMBLY_PROGRESS}",
+					"Childs" : [],
+					"Colour" : "0.375 0.375 0.375 1",
+					"FontName" : "SM_HeaderSmall",
+					"Name" : "ProgressText",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Right",
+					"Type" : "TextBox",
+					"height" : 24,
+					"width" : 300,
+					"x" : 221,
+					"y" : 276
+				},
+				{
+					"Caption" : "100%",
+					"Childs" : [],
+					"FontName" : "SM_HeaderSmall",
+					"Name" : "ProgressPercentages",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "TextBox",
+					"TextAlign" : "Right",
+					"Type" : "TextBox",
+					"height" : 24,
+					"width" : 35,
+					"x" : 520,
+					"y" : 276
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"Name" : "ProgressBarBackground",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "DressbotProgressBackground",
+							"Type" : "ProgressBar",
+							"height" : 14,
+							"width" : 200,
+							"x" : 0,
+							"y" : 0
+						},
+						{
+							"Childs" : [],
+							"Name" : "ProgressBar",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "DressbotProgress",
+							"Type" : "Widget",
+							"Visible" : true,
+							"height" : 10,
+							"width" : 196,
+							"x" : 2,
+							"y" : 2
+						}
+					],
+					"Name" : "ProgressHolder",
+					"NeedKey" : false,
+					"NeedMouse" : false,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 20,
+					"width" : 210,
+					"x" : 556,
+					"y" : 280
+				}
+			],
+			"Name" : "Background",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "BackgroundLiftExport",
+			"Type" : "Widget",
+			"height" : 534,
+			"width" : 796,
+			"x" : 0,
+			"y" : 0
+		}
+	],
+	"InheritsPick" : false,
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : true,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"height" : 534,
+	"onClose" : "cl_onGuiClosed",
+	"width" : 840,
+	"x" : 0,
+	"y" : -42
+}

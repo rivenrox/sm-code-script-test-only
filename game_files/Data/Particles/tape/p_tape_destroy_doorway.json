@@ -1,0 +1,1363 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 180.0,
+				"box" : 
+				[
+					2.25,
+					1.0,
+					1.6
+				],
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.957,
+					0.79053,
+					0.39627,
+					0.73825
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 25
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.88669
+								]
+							],
+							[
+								0.59153,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.74216
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1011,
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.63996,
+					0.4
+				],
+				"keep_local" : true,
+				"max_particles" : 15,
+				"name" : "Base Smoke 1 (Low)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.55,
+					0.2
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.63996,
+					0.4
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 45.0,
+				"box" : 
+				[
+					2.5,
+					0.6,
+					1.75
+				],
+				"category" : "2 -  small tapes",
+				"diffuse" : "Textures/Debri/debri_tape_01.tga",
+				"direction_type" : "constant",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.89577,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.83121
+							],
+							[
+								1.0,
+								0.84394
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 6,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"friction" : 1.0,
+				"guid" : 3,
+				"height" : 
+				[
+					0.34999,
+					0.07
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Tape 0 (Medium)",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					1.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.34999,
+					0.07
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 45.0,
+				"box" : 
+				[
+					2.5,
+					0.6,
+					1.75
+				],
+				"category" : "2 -  small tapes",
+				"color" : 
+				[
+					1.0,
+					0.74348,
+					0.19921,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/debri_tape_02.tga",
+				"direction_type" : "constant",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 25,
+						"guid" : 8,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"axis" : "y",
+						"base" : -1.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-1.5
+							]
+						],
+						"guid" : 9,
+						"local" : false,
+						"max" : 1.5,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.89577,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.73882
+							],
+							[
+								1.0,
+								0.79299
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 11,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2001,
+				"friction" : 3.0,
+				"guid" : 7,
+				"height" : 
+				[
+					0.4,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Tape 1 (Medium)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.14997,
+					0.25
+				],
+				"translucency" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					1.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"box" : 
+				[
+					2.0,
+					0.2,
+					1.0
+				],
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.8281,
+					0.60979,
+					0.30083,
+					1.0
+				],
+				"diffuse" : "Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 13,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.77464,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.92
+							],
+							[
+								1.0,
+								1.1
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.09997
+							],
+							[
+								1.0,
+								-2.0
+							]
+						],
+						"guid" : 16,
+						"max" : 2.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5414
+							],
+							[
+								1.0,
+								0.6875
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 17,
+						"length" : 0.33,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1011,
+				"friction" : 3.0,
+				"guid" : 12,
+				"height" : 
+				[
+					2.0,
+					0.33
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"min_quality" : "medium",
+				"name" : "Dust (Medium)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.52499
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"sort_offset" : 0.2,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.44999,
+					0.1
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.5,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.33
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 45.0,
+				"box" : 
+				[
+					2.5,
+					0.6,
+					1.75
+				],
+				"category" : "2 -  small tapes",
+				"color" : 
+				[
+					1.0,
+					0.74348,
+					0.19921,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/debri_tape_02.tga",
+				"direction_type" : "constant",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 25,
+						"guid" : 19,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"axis" : "y",
+						"base" : -1.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 20,
+						"local" : false,
+						"max" : 1.5,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.89577,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 21,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2001,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 3.0,
+				"guid" : 18,
+				"height" : 
+				[
+					0.4,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "high",
+				"name" : "Tape 2 (High)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					360.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.14997,
+					0.25
+				],
+				"translucency" : 1.0,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.1
+				],
+				"z_offset" : 0.1
+			},
+			{
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					0.2,
+					0.2,
+					1.5
+				],
+				"category" : "5 - Big Tape 2",
+				"diffuse" : "Textures/Debri/debri_tape_01.tga",
+				"direction_type" : "constant",
+				"duration" : 0.3,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 23,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8676,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					},
+					{
+						"base" : -3.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.98727
+							],
+							[
+								0.28674,
+								-1.5478
+							],
+							[
+								0.5518,
+								-0.22938
+							],
+							[
+								0.75419,
+								1.26109
+							],
+							[
+								1.0,
+								1.83439
+							]
+						],
+						"guid" : 25,
+						"max" : 3.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 26,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								360.0
+							]
+						],
+						"guid" : 27,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 151,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 2.0,
+				"guid" : 22,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Big Tape 1 (Medium)",
+				"position" : 
+				[
+					0.4,
+					0.0,
+					-0.25
+				],
+				"rotation" : 110.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.14997,
+					0.2
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 0.349999994,
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : 45.0,
+				"category" : "0 - ",
+				"color" : 
+				[
+					1.0,
+					0.63279,
+					0.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"guid" : 29,
+						"name" : "RotationBySpeed",
+						"range" : 
+						{
+							"max" : 10.0
+						},
+						"speed" : 4000.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"guid" : 28,
+				"keep_local" : true,
+				"lifetime_loss" : 0.00999,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "TapeRoll02 (High)",
+				"particle" : "debris",
+				"position" : 
+				[
+					-1.4,
+					-0.25,
+					0.94998
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_doorway_destruction_taperoll.rend",
+				"rotation" : 90.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					0.2,
+					0.2,
+					1.5
+				],
+				"category" : "5 - Big Tape 2",
+				"diffuse" : "Textures/Debri/debri_tape_01.tga",
+				"direction_type" : "constant",
+				"duration" : 0.3,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 31,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8676,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 32,
+						"name" : "Color"
+					},
+					{
+						"base" : -2.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-1.57168
+							],
+							[
+								0.28674,
+								-1.16879
+							],
+							[
+								0.5518,
+								0.0398
+							],
+							[
+								0.75419,
+								1.40605
+							],
+							[
+								1.0,
+								1.93148
+							]
+						],
+						"guid" : 33,
+						"max" : 3.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 34,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-360.0
+							]
+						],
+						"guid" : 35,
+						"min" : -360.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 151,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 2.0,
+				"guid" : 30,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Big Tape 2 (Medium)",
+				"position" : 
+				[
+					-0.30001,
+					0.0,
+					-0.25
+				],
+				"rotation" : 110.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.35,
+					0.3
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 0.349999994,
+				"z_offset" : 0.1
+			},
+			{
+				"billboard_type" : "axial_self",
+				"box" : 
+				[
+					0.2,
+					0.2,
+					1.5
+				],
+				"category" : "5 - Big Tape 2",
+				"diffuse" : "Textures/Debri/debri_tape_01.tga",
+				"direction_type" : "constant",
+				"duration" : 0.3,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 37,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8676,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 38,
+						"name" : "Color"
+					},
+					{
+						"base" : -2.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.27388
+							],
+							[
+								1.0,
+								-2.0
+							]
+						],
+						"guid" : 39,
+						"max" : 2.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 40,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								174.26751
+							],
+							[
+								1.0,
+								-178.85352
+							]
+						],
+						"guid" : 41,
+						"min" : -360.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 151,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 2.0,
+				"guid" : 36,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Big Tape 3 (Medium)",
+				"position" : 
+				[
+					0.8,
+					0.0,
+					-0.25
+				],
+				"rotation" : 110.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 1500,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.14997,
+					0.3
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					0.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 0.349999994,
+				"z_offset" : 0.1
+			},
+			{
+				"angle" : -45.0,
+				"category" : "0 - ",
+				"color" : 
+				[
+					1.0,
+					0.63279,
+					0.0,
+					1.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"guid" : 43,
+						"name" : "RotationBySpeed",
+						"range" : 
+						{
+							"max" : 10.0
+						},
+						"speed" : 4000.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"guid" : 42,
+				"keep_local" : true,
+				"lifetime_loss" : 0.00999,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "TapeRoll03 (High)",
+				"particle" : "debris",
+				"position" : 
+				[
+					0.94998,
+					0.5,
+					-0.65
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/tape/p_rendeble_tape_doorway_destruction_taperoll.rend",
+				"rotation" : 90.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 3.0,
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

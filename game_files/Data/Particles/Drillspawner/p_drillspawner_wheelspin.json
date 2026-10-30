@@ -1,0 +1,754 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 5.0,
+				"box" : 
+				[
+					1.5,
+					0.1,
+					0.1
+				],
+				"category" : "1 - ",
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_animated01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					1.0,
+					0.78671,
+					0.05857,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.25729
+							],
+							[
+								0.08449,
+								0.64717
+							],
+							[
+								0.24547,
+								0.99804
+							],
+							[
+								0.55532,
+								1.26312
+							],
+							[
+								1.0,
+								1.28838
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.67185,
+									0.50989,
+									0.33068,
+									0.0
+								]
+							],
+							[
+								0.31266,
+								[
+									0.79215,
+									0.62743,
+									0.46665,
+									1.0
+								]
+							],
+							[
+								0.74646,
+								[
+									0.79215,
+									0.62743,
+									0.46665,
+									0.63669
+								]
+							],
+							[
+								1.0,
+								[
+									0.5195,
+									0.47343,
+									0.43022,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 3,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 3.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.44999
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "SmokeFront Box",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.44999,
+					-0.25,
+					-0.22959
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					0.0,
+					0.0,
+					90.0
+				],
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"translucency" : 0.68,
+				"type" : "box",
+				"velocity" : 
+				[
+					-3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.44999
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.78823,
+					0.62352,
+					0.46274,
+					1.0
+				],
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_animated01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					1.0,
+					0.4453,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.93256
+							],
+							[
+								0.39846,
+								1.44569
+							],
+							[
+								1.0,
+								1.83141
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.27042,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.70985,
+								[
+									0.875,
+									0.875,
+									0.875,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.60544,
+									0.5695,
+									0.52977,
+									0.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 7,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Drillspawner/p_mesh_drillspawner_emissionbox01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.25,
+					0.1,
+					0.1
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					-2.0,
+					2.0
+				],
+				"friction" : 2.0,
+				"guid" : 4,
+				"height" : 
+				[
+					1.5,
+					0.5
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Regular Smoke",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.25,
+					-0.25,
+					-0.58189
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					0.0,
+					0.0,
+					90.0
+				],
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.33
+				],
+				"translucency" : 0.68,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					6.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.5
+				]
+			},
+			{
+				"angle" : 5.0,
+				"billboard_type" : "axial_self",
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.97654,
+					0.97654,
+					0.97654,
+					1.0
+				],
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_dustaftermarth04_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.33333
+							],
+							[
+								0.14564,
+								0.76608
+							],
+							[
+								0.25826,
+								0.99414
+							],
+							[
+								0.40838,
+								1.15787
+							],
+							[
+								1.0,
+								1.51312
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.10153,
+									0.0925,
+									0.08251,
+									0.0
+								]
+							],
+							[
+								0.1211,
+								[
+									0.79215,
+									0.62743,
+									0.46665,
+									1.0
+								]
+							],
+							[
+								0.74646,
+								[
+									0.79215,
+									0.62743,
+									0.46665,
+									0.63669
+								]
+							],
+							[
+								1.0,
+								[
+									0.5195,
+									0.47343,
+									0.43022,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 11,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.62826
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.34999,
+						"guid" : 12,
+						"length" : 0.34999,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Drillspawner/p_mesh_drillspawner_emissionbox01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					0.1,
+					0.1
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"name" : "Mud",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.25,
+					-0.25,
+					-0.58189
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					0.0,
+					-21.01964,
+					90.0
+				],
+				"sort_offset" : 2.0,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.25,
+					0.33
+				],
+				"translucency" : 0.68,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					6.5,
+					2.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.5
+				]
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.7843,
+					0.61957,
+					0.45881,
+					1.0
+				],
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					1.0,
+					0.23431,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"base_scale" : 0.25,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.17181
+							],
+							[
+								0.26923,
+								2.12453
+							],
+							[
+								0.4323,
+								2.52097
+							],
+							[
+								0.67075,
+								2.84032
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.25069,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.70985,
+								[
+									0.8125,
+									0.77841,
+									0.73948,
+									0.75
+								]
+							],
+							[
+								1.0,
+								[
+									0.60544,
+									0.5695,
+									0.52977,
+									0.0
+								]
+							]
+						],
+						"guid" : 15,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 100,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25382,
+								0.38951
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 16,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/Drillspawner/p_mesh_drillspawner_emissionbox01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					0.1,
+					0.1
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					2.0
+				],
+				"friction" : 
+				[
+					1.25,
+					0.5
+				],
+				"guid" : 13,
+				"height" : 
+				[
+					0.75,
+					0.25
+				],
+				"keep_local" : false,
+				"max_particles" : 201,
+				"min_quality" : "medium",
+				"name" : "Smoke longlived",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.25,
+					-0.25,
+					-1.13436
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-10.10895,
+					0.0,
+					90.0
+				],
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.75,
+					0.5
+				],
+				"translucency" : 0.68,
+				"type" : "mesh",
+				"velocity" : 
+				[
+					7.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.25
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

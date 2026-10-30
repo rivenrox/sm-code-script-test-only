@@ -1,0 +1,404 @@
+{
+	"RedTapeBot - ExplosivesHit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "Explosion_small_01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/weapons/explosion_gas"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"size"
+				],
+				"type" : "audio"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			},
+			{
+				"duration" : 0.2,
+				"shakeAmplitude" : 
+				[
+					0.25,
+					0.25,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.2,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 25,
+				"shakeRotational" : false,
+				"shakeStrength" : 1.0,
+				"type" : "cameraShake"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.1,
+						"value" : 15.0
+					},
+					{
+						"time" : 0.6,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "ffcc34",
+			"intensity" : 2.0,
+			"radius" : 16.0,
+			"size" : 0.0
+		}
+	},
+	"TapeBot - Alerted" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_noticeplayer"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - AlertedFotStep" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_ff"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"TapeBot - AlertedGunRattle" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_gunrattle"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"TapeBot - AlertedScissor" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_scissor"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"TapeBot - AlertedServo" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_servo"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"TapeBot - ChasePlayer" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_walk_chaseplayer"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - ChasingFotStep" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_walk_aggro"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - ChasingGunRattle" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_gunrattle"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - ChasingScissor" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_scissor"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - ChasingServo" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_servo"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - Destroyed" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_explode"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.050000001,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_tapebot_destructionexplosion",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.050000001,
+				"name" : "p_tapebot_destroy_parts",
+				"type" : "particle"
+			}
+		]
+	},
+	"TapeBot - FotStep" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_ff"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"TapeBot - HeadShot" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_takedamage"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.050000001,
+				"name" : "p_spudgun_impact_headshot_tapebot01",
+				"type" : "particle"
+			}
+		]
+	},
+	"TapeBot - Hit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_takedamage"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.050000001,
+				"name" : "p_spudgun_impact_tapebot01",
+				"type" : "particle"
+			}
+		]
+	},
+	"TapeBot - Scissor" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_scissor"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - Servo" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_foley_servo"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"TapeBot - Shoot" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_shoot"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			},
+			{
+				"attached" : false,
+				"delay" : 0.050000001,
+				"name" : "p_tapebot_shoot",
+				"offset" : 
+				[
+					0.0,
+					-0.0,
+					-0.200000003
+				],
+				"type" : "particle"
+			}
+		]
+	}
+}

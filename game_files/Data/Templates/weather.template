@@ -1,0 +1,82 @@
+{
+	"template_meta": { 
+		"uuid" : "88473727-6d09-4075-98db-8b1aefaf93e6",
+		"name":"Weather Settings", 
+		"display": "weather", 
+		"pattern": ["*.weather"],
+		"constDataStoreAllNames" : true
+	},
+
+	"conditions_meta" : { "type" : "map", "order" : 0 },
+	"conditions" : {
+		"condition" : {
+			"cloudCoverage_meta" : { "min": 0.0, "max": 1.0 },
+			"cloudCoverage" : 0.0,
+
+			"lightMod_meta" : { "min": 0.0, "max": 1.0 },
+			"lightMod" : 1.0,
+
+			"cloudTallnessScale_meta" : { "min": 0.1, "max": 4.0 },
+			"cloudTallnessScale" : 1.0,
+
+			"cloudHeight_meta" : { "min": 0.0, "max": 10000.0 },
+			"cloudHeight" : 4000.0,
+
+			"cloudScroll_meta" : { "type" : "vec3" },
+			"cloudScroll" : [0.0, 0.0, 0.0],
+
+			"cloudScrollRotation_meta" : { "type" : "vec3" },
+			"cloudScrollRotation" : [0.0, 0.0, 0.0],
+
+			"skyEffects_meta" : { "value_meta" : { "optionsCategory" : "effect" } },
+			"skyEffects" : [""],
+
+			"effects2D_meta" : { "value_meta" : { "optionsCategory" : "effect" } },
+			"effects2D" : [""],
+
+			"normalEffects_meta" : { "value_meta" : { "optionsCategory" : "effect" } },
+			"normalEffects" : [""],
+
+			"extinguishFires_meta" : { "type" : "bool" },
+			"extinguishFires" : false,
+
+			"rainAmount_meta" : { "type" : "float", "min": 0.0, "max": 1.0 },
+			"rainAmount" : 0.0,
+
+			"wind_meta" : { "type" : "float", "min": 0.0, "max": 1.0 },
+			"wind" : 0.0
+		}
+	},
+
+	"forecasts_meta" : { "type" : "map", "order" : 1 },
+	"forecasts" : {
+		"forecast" : {
+			"probability_meta" : { "min" : 0.0, "max" : 10.0 },
+			"probability" : 1.0,
+			
+			"timeline": [
+				{
+					"condition_meta": { "optionsFromValue" : "../../../../conditions" },
+					"condition": "condition"
+				}
+			]
+		}
+	},
+
+	"timeOfDayEffects_meta" : { "order" : 2 },
+	"timeOfDayEffects" : [
+		{ 
+			"skyEffect_meta" : { "optionsCategory" : "effect", "order":0 },
+			"skyEffect" : "",
+
+			"normalEffect_meta" : { "optionsCategory" : "effect", "order":0 },
+			"normalEffect" : "",
+
+			"startTime_meta": { "min": 0.0, "max": 1.0, "order":1 },
+			"startTime": 0.0,
+
+			"endTime_meta": { "min": 0.0, "max": 1.0, "order":2 },
+			"endTime": 0.0
+		}
+	]
+}

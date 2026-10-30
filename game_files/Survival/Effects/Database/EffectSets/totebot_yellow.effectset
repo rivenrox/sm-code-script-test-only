@@ -1,0 +1,327 @@
+{
+	"ToteBotYellow - Alerted" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_noticeplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 4
+		}
+	},
+	"ToteBotYellow - Buildup" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_yellow_buildup"
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_totebot_yellow_dizzy",
+				"offset" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"ToteBotYellow - ChasePlayer" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_walk_chaseplayer"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 4
+		}
+	},
+	"Yellowtotebot - Destroy" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_yellow_destroy_parts",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : false,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_destroy",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot/totebot_takedamage"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"totebot_color"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"totebot_color" : 4
+		}
+	},
+	"Yellowtotebot - Jumpimpact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_totebot_yellow_jump_impact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.25
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_yellow_diveattack_land"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			},
+			{
+				"duration" : 0.200000006,
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.15,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					25.0,
+					25.0,
+					25.0
+				],
+				"shakeRadius" : 10,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.5,
+				"type" : "cameraShake"
+			}
+		],
+		"maxInstances" : 64,
+		"parameterList" : 
+		{
+			"size" : 0.0,
+			"surface" : 0.0
+		}
+	},
+	"Yellowtotebot - Jumpinitation" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_yellow_jump_initation",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_yellow_jump"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"Yellowtotebot - Jumpland" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_yellow_jump_land",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_yellow_land"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"surface"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"surface" : 0.0
+		}
+	},
+	"Yellowtotebot - Jumptrail" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_yellow_jump_trail",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Yellowtotebot - Jumptrailimpactincoming" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_totebot_yellow_jump_impactincoming",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/totebot_new/totebot_yellow_diveattack"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	}
+}

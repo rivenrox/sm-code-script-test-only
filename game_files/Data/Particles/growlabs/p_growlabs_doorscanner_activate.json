@@ -1,0 +1,266 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.02745,
+					0.46665,
+					0.0,
+					1.0
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.001,
+				"editorColor" : 
+				[
+					0.67966,
+					1.0,
+					0.73724,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.2421,
+								1.01712
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.07885,
+								1.0
+							],
+							[
+								0.92659,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"guid" : 0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Scan1 Loop",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/growlab/p_growlabs_doorsensor_scanplane01.rend",
+				"time_to_live" : 3.0,
+				"velocity" : 0.0
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.06666,
+					1.0,
+					0.0,
+					0.83529
+				],
+				"delay" : 0.25,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "z-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.03737,
+								0.01413
+							],
+							[
+								0.05468,
+								0.04357
+							],
+							[
+								0.07598,
+								0.94226
+							],
+							[
+								0.09798,
+								0.98466
+							],
+							[
+								0.14496,
+								1.0
+							],
+							[
+								0.20588,
+								1.0
+							],
+							[
+								0.23104,
+								0.97768
+							],
+							[
+								0.24751,
+								0.93427
+							],
+							[
+								0.27928,
+								0.04577
+							],
+							[
+								0.29352,
+								0.01641
+							],
+							[
+								0.32857,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.08669,
+								0.0
+							],
+							[
+								0.34599,
+								0.0
+							],
+							[
+								0.368,
+								1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 5,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.114,
+								0.0
+							],
+							[
+								0.141,
+								0.03858
+							],
+							[
+								0.18795,
+								0.96622
+							],
+							[
+								0.209,
+								1.0
+							],
+							[
+								0.34599,
+								1.0
+							],
+							[
+								0.368,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"index" : 1,
+						"name" : "Pose",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 3,
+				"height" : 0.95,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "SweepingScan Forwards",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/growlab/p_growlabs_doorsensor_scanplane03.rend",
+				"time_to_live" : 4.0,
+				"velocity" : 0.01,
+				"width" : 0.975
+			}
+		],
+		"min_quality" : "low"
+	}
+}

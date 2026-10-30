@@ -1,0 +1,445 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 5.0,
+				"category" : "04 - thruster loop",
+				"color" : 
+				[
+					0.30077,
+					0.30077,
+					0.30077,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.64999,
+					0.64999
+				],
+				"delay" : 0.2,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.90908
+							],
+							[
+								0.29569,
+								1.34615
+							],
+							[
+								1.0,
+								1.68877
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 30,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					3.0
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.333
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"min_quality" : "medium",
+				"name" : "Smoke Trail 02 big SMOKE      (medium)",
+				"normal" : true,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : -1.25,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"velocity" : 
+				[
+					7.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.333
+				]
+			},
+			{
+				"category" : "04 - thruster loop",
+				"default_particle" : 
+				[
+					0.64999,
+					0.64999
+				],
+				"delay" : 0.2,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_fireball02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.23431,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.49838
+							],
+							[
+								1.0,
+								1.68877
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 
+				[
+					1.5,
+					0.15
+				],
+				"keep_local" : false,
+				"max_particles" : 1000,
+				"name" : "Flames (low)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.64999,
+					0.125
+				],
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.15
+				]
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "03 - sparks",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.5,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.63279,
+									0.0,
+									0.71482
+								]
+							],
+							[
+								0.18873,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									0.48045
+								]
+							],
+							[
+								0.77464,
+								[
+									1.0,
+									0.30467,
+									0.0,
+									0.16796
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.23529,
+									0.0,
+									0.05857
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.55912
+							],
+							[
+								0.93172,
+								0.36713
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.67523
+							],
+							[
+								0.19156,
+								3.81993
+							],
+							[
+								0.28345,
+								3.98709
+							],
+							[
+								0.46193,
+								3.78778
+							],
+							[
+								0.5971,
+								3.22829
+							],
+							[
+								0.79263,
+								1.09324
+							],
+							[
+								0.85957,
+								0.45658
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.70977
+							],
+							[
+								1.0,
+								0.81576
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 11,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					0.23995,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "Sparks Looping 2 Burst  (high)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"power_glow" : true,
+				"repeat_delay" : 4.0,
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "blend_add",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"sphere_radius" : 1.0,
+				"time_to_live" : 
+				[
+					0.5,
+					0.4
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					7.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.1,
+					0.00999
+				],
+				"z_offset" : 10.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

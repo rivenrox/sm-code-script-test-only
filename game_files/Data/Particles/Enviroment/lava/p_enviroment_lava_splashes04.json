@@ -1,0 +1,1040 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_asg.tga",
+				"box" : 
+				[
+					0.0,
+					75.0,
+					0.0
+				],
+				"category" : "1",
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					55.0,
+					5.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75656
+							],
+							[
+								1.0,
+								1.83255
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.20506,
+								0.35348
+							],
+							[
+								0.68317,
+								0.85891
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 15,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 16,
+						"max" : 90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"friction" : 2.0,
+				"guid" : 0,
+				"keep_local" : true,
+				"material_name" : "MatCapUvAnimAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/lavaball/p_mesh_lavaball_liquidsplash03_plane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "Splash1",
+				"normal_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_lavasplash02.rend",
+				"rotation" : 180.0,
+				"spawn_chance" : 0.5,
+				"sub" : 
+				[
+					{
+						"ASG_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_asg.tga",
+						"box" : 
+						[
+							0.0,
+							0.1,
+							0.0
+						],
+						"color_fraction" : 1.0,
+						"depth" : 54.0,
+						"direction_type" : "constant",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.75656
+									],
+									[
+										1.0,
+										1.83255
+									]
+								],
+								"guid" : 2,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.44238,
+										0.6341
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 3,
+								"name" : "TextureAnimator",
+								"toggle" : false,
+								"use_graph" : true
+							},
+							{
+								"axis" : "x",
+								"control_point" : 
+								[
+									[
+										0.0,
+										90.0
+									],
+									[
+										1.0,
+										90.0
+									]
+								],
+								"guid" : 4,
+								"max" : 90.0,
+								"name" : "RotationOverTime",
+								"toggle" : false
+							},
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										10.0
+									],
+									[
+										1.0,
+										0.06199
+									]
+								],
+								"guid" : 5,
+								"name" : "Velocity",
+								"toggle" : false
+							},
+							{
+								"axis" : "x-scale",
+								"base_scale" : 0.5,
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 6,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-10.0
+						],
+						"friction" : 2.0,
+						"guid" : 1,
+						"keep_local" : true,
+						"material_name" : "MatCapUvAnimAlphaFlip",
+						"max_particles" : 1,
+						"mesh" : "$GAME_DATA/Particles/resources/lavaball/p_mesh_lavaball_liquidsplash03_plane01.fbx",
+						"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"name" : "SplatterBase1",
+						"normal_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_nor.tga",
+						"params" : 2,
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-2.5
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_lavasplash01.rend",
+						"rotation" : 180.0,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 1.200000048,
+						"type" : "box",
+						"velocity" : 10.0,
+						"water_mask" : "none",
+						"width" : 45.0
+					},
+					{
+						"ASG_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_asg.tga",
+						"box" : 
+						[
+							0.0,
+							0.1,
+							0.0
+						],
+						"color_fraction" : 1.0,
+						"depth" : 45.0,
+						"direction_type" : "constant",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.75656
+									],
+									[
+										1.0,
+										1.83255
+									]
+								],
+								"guid" : 8,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 32,
+								"fps" : 30,
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.20506,
+										0.35348
+									],
+									[
+										0.68317,
+										0.85891
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 9,
+								"name" : "TextureAnimator",
+								"use_graph" : true
+							},
+							{
+								"axis" : "x",
+								"control_point" : 
+								[
+									[
+										0.0,
+										90.0
+									],
+									[
+										1.0,
+										90.0
+									]
+								],
+								"guid" : 10,
+								"max" : 90.0,
+								"name" : "RotationOverTime"
+							},
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										10.0
+									],
+									[
+										1.0,
+										0.06199
+									]
+								],
+								"guid" : 11,
+								"name" : "Velocity"
+							},
+							{
+								"axis" : "x-scale",
+								"base_scale" : 0.5,
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 12,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-10.0
+						],
+						"friction" : 2.0,
+						"guid" : 7,
+						"keep_local" : true,
+						"material_name" : "MatCapUvAnimAlphaFlip",
+						"max_particles" : 1,
+						"mesh" : "$GAME_DATA/Particles/resources/lavaball/p_mesh_lavaball_liquidsplash03_plane01.fbx",
+						"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"name" : "SplatterBase2",
+						"normal_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_nor.tga",
+						"params" : 2,
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-2.5
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_lavasplash02.rend",
+						"rotation" : 180.0,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 1.399999976,
+						"type" : "box",
+						"velocity" : 10.0,
+						"water_mask" : "none",
+						"width" : 35.0
+					},
+					{
+						"color" : 
+						[
+							0.36469,
+							0.61567,
+							0.78823,
+							1.0
+						],
+						"cone_angle" : 10.0,
+						"cone_radius" : 2.0,
+						"depth" : 
+						[
+							5.0,
+							3.0
+						],
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 150,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-30.0
+						],
+						"guid" : 13,
+						"height" : 
+						[
+							5.0,
+							3.0
+						],
+						"keep_local" : false,
+						"max_particles" : 15,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "projectile",
+						"name" : "Drops",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/lavaball/p_renderable_lavaball_drops.rend",
+						"rotation_axis" : 
+						[
+							-1.0,
+							-1.0,
+							1.0
+						],
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							3.0,
+							0.133
+						],
+						"type" : "cone",
+						"velocity" : 
+						[
+							45.0,
+							15.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							5.0,
+							3.0
+						]
+					}
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 1.299990058,
+				"type" : "box",
+				"velocity" : 65.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					35.0,
+					5.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_asg.tga",
+				"box" : 
+				[
+					0.0,
+					75.0,
+					0.0
+				],
+				"category" : "1",
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					55.0,
+					5.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75656
+							],
+							[
+								1.0,
+								1.83255
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.20506,
+								0.35348
+							],
+							[
+								0.68317,
+								0.85891
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 32,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 33,
+						"max" : 90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"friction" : 2.0,
+				"guid" : 17,
+				"keep_local" : true,
+				"material_name" : "MatCapUvAnimAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/lavaball/p_mesh_lavaball_liquidsplash03_plane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "Splash1",
+				"normal_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"position" : 
+				[
+					-8.71244,
+					76.83283,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_lavasplash02.rend",
+				"rotation" : 180.0,
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					13.0
+				],
+				"spawn_chance" : 0.5,
+				"sub" : 
+				[
+					{
+						"ASG_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_asg.tga",
+						"box" : 
+						[
+							0.0,
+							0.1,
+							0.0
+						],
+						"color_fraction" : 1.0,
+						"depth" : 54.0,
+						"direction_type" : "constant",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.75656
+									],
+									[
+										1.0,
+										1.83255
+									]
+								],
+								"guid" : 19,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.44238,
+										0.6341
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 20,
+								"name" : "TextureAnimator",
+								"use_graph" : true
+							},
+							{
+								"axis" : "x",
+								"control_point" : 
+								[
+									[
+										0.0,
+										90.0
+									],
+									[
+										1.0,
+										90.0
+									]
+								],
+								"guid" : 21,
+								"max" : 90.0,
+								"name" : "RotationOverTime"
+							},
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										10.0
+									],
+									[
+										1.0,
+										0.06199
+									]
+								],
+								"guid" : 22,
+								"name" : "Velocity"
+							},
+							{
+								"axis" : "x-scale",
+								"base_scale" : 0.5,
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 23,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-10.0
+						],
+						"friction" : 2.0,
+						"guid" : 18,
+						"keep_local" : true,
+						"material_name" : "MatCapUvAnimAlphaFlip",
+						"max_particles" : 1,
+						"mesh" : "$GAME_DATA/Particles/resources/lavaball/p_mesh_lavaball_liquidsplash03_plane01.fbx",
+						"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"name" : "SplatterBase1",
+						"normal_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_nor.tga",
+						"params" : 2,
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-2.5
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_lavasplash01.rend",
+						"rotation" : 180.0,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 1.200000048,
+						"type" : "box",
+						"velocity" : 10.0,
+						"water_mask" : "none",
+						"width" : 45.0
+					},
+					{
+						"ASG_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_asg.tga",
+						"box" : 
+						[
+							0.0,
+							0.1,
+							0.0
+						],
+						"color_fraction" : 1.0,
+						"depth" : 45.0,
+						"direction_type" : "constant",
+						"duration" : 0.00999,
+						"effects" : 
+						[
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.75656
+									],
+									[
+										1.0,
+										1.83255
+									]
+								],
+								"guid" : 25,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 32,
+								"fps" : 30,
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.20506,
+										0.35348
+									],
+									[
+										0.68317,
+										0.85891
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 26,
+								"name" : "TextureAnimator",
+								"use_graph" : true
+							},
+							{
+								"axis" : "x",
+								"control_point" : 
+								[
+									[
+										0.0,
+										90.0
+									],
+									[
+										1.0,
+										90.0
+									]
+								],
+								"guid" : 27,
+								"max" : 90.0,
+								"name" : "RotationOverTime"
+							},
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										10.0
+									],
+									[
+										1.0,
+										0.06199
+									]
+								],
+								"guid" : 28,
+								"name" : "Velocity"
+							},
+							{
+								"axis" : "x-scale",
+								"base_scale" : 0.5,
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 29,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-10.0
+						],
+						"friction" : 2.0,
+						"guid" : 24,
+						"keep_local" : true,
+						"material_name" : "MatCapUvAnimAlphaFlip",
+						"max_particles" : 1,
+						"mesh" : "$GAME_DATA/Particles/resources/lavaball/p_mesh_lavaball_liquidsplash03_plane01.fbx",
+						"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"name" : "SplatterBase2",
+						"normal_map" : "$GAME_DATA/Particles/resources/lavaball/p_lavaball_liquidsplash03_nor.tga",
+						"params" : 2,
+						"particle" : "mesh",
+						"position" : 
+						[
+							0.0,
+							0.0,
+							-2.5
+						],
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_lavasplash02.rend",
+						"rotation" : 180.0,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 1.399999976,
+						"type" : "box",
+						"velocity" : 10.0,
+						"water_mask" : "none",
+						"width" : 35.0
+					},
+					{
+						"color" : 
+						[
+							0.36469,
+							0.61567,
+							0.78823,
+							1.0
+						],
+						"cone_angle" : 10.0,
+						"cone_radius" : 2.0,
+						"depth" : 
+						[
+							5.0,
+							3.0
+						],
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"emission_mode" : "burst",
+						"emission_rate" : 150,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-30.0
+						],
+						"guid" : 30,
+						"height" : 
+						[
+							5.0,
+							3.0
+						],
+						"keep_local" : false,
+						"max_particles" : 15,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "projectile",
+						"name" : "Drops",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/lavaball/p_renderable_lavaball_drops.rend",
+						"rotation_axis" : 
+						[
+							-1.0,
+							-1.0,
+							1.0
+						],
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							3.0,
+							0.133
+						],
+						"type" : "cone",
+						"velocity" : 
+						[
+							45.0,
+							15.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							5.0,
+							3.0
+						]
+					}
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 1.299990058,
+				"type" : "box",
+				"velocity" : 65.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					35.0,
+					5.0
+				]
+			}
+		]
+	}
+}

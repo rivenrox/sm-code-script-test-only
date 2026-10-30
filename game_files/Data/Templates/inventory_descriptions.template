@@ -1,0 +1,20 @@
+{
+	"template_meta": {
+        "uuid" : "65927239-0d3a-4ce1-ba2a-892c1c2ecc1d",
+		"name":"Inventory Description Set",
+		"display": "inventorydescriptionset",
+		"pattern": ["$*/Gui/Language/*inventoryDescriptions.json"],
+        "root_meta": { "type": "map" }
+	},
+    "00000000-0000-0000-0000-00000000000":
+	{
+        "title_meta": { "type":"string" },
+        "title": "Shape title",
+
+        "description_meta": { "type":"string", "optional": true },
+        "description": "Shape description",
+
+        "keywords_meta": { "type":"array", "value_meta": { "type": "string" }, "optional": true },
+        "keywords": []
+    }
+}

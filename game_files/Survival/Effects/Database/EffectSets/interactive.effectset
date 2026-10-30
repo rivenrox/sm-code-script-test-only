@@ -1,0 +1,226 @@
+{
+	"Alarmclock - Alarm" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/tools/alarmclock"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"alarm"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"alarm" : 1
+		}
+	},
+	"Alarmclock - AlarmPreview" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/ui/alarmclock_preview"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"alarm"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"alarm" : 1
+		}
+	},
+	"Interactive - Beehive_done" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_interactive_beehive_done",
+				"offset" : 
+				[
+					0.0,
+					-0.25,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Interactive - Beehive_loop" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_interactive_beehive_loop",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/beehive"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Interactive - ChestLootsuction_glow" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_interactive_chest_lootsuction_glow",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.899999976
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Interactive - ChestLootsuction_active" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_interactive_chest_lootsuction_active",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.899999976
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Interactive - ChestLootsuction_area" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_interactive_chest_lootsuction_area",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.899999976
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Interactive - Freezer_done" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_interactive_freezer_done",
+				"offset" : 
+				[
+					0.0,
+					-0.649999976,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Interactive - Freezer_loop" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_interactive_freezer_loop",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/freezer"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Interactive - Growbed_active" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_interactive_growbed_ready",
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/props/growbed"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	}
+}

@@ -1,0 +1,887 @@
+{
+	"Drillspawner - Blowingthetop" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_blowingthetop_start",
+				"offset" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 7.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_blowingthetop_middle",
+				"offset" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 7.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_blowingthetop_middle_pressuresmoke01",
+				"offset" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 7.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_blowingthetop_middle_drillbit",
+				"offset" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/buildup1"
+				],
+				"delay" : 7.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Drillspawner - Blowingthetop Drillbit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 9.350000381,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_blowingthetop_end",
+				"offset" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 9.350000381,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_blowingthetop_end_explosion",
+				"offset" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/buildup2"
+				],
+				"delay" : 9.5,
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/open"
+				],
+				"delay" : 14.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Drillspawner - Destruction" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "Explosion_01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_destruction",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/explode"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Drillspawner - DrillGrindSound" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/coll/stress/stone"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"Size",
+					"Velocity_max_50"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Size" : 1.0,
+			"Velocity_max_50" : 50.0
+		}
+	},
+	"Drillspawner - DrillSound" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/drill"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Drillspawner - Drilling" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_drillspawner_drilling_looping",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					2.5
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - Emerging" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_drillspawner_diggingdebri",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "p_drillspawner_diggingdebri_rocks",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.25
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/drill"
+				],
+				"delay" : 0.0,
+				"parameters" : 
+				[
+					"impact",
+					"velocity"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"impact" : 1.0,
+			"velocity" : 0.25
+		}
+	},
+	"Drillspawner - Fallingdebris" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_drillspawner_fallingdirt",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - Farmbotprojectile" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.75
+				],
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_drillspawner_thruster_farmbot",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.625
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/botbox_flying"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Color" : "c52c18",
+			"color" : "33bcffff",
+			"intensity" : 2.0,
+			"radius" : 10.0
+		}
+	},
+	"Drillspawner - Farmbotprojectile Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/bot_unbox"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_drillspawner_projectile_impact_totebot_bot",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.5
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_drillspawner_projectile_impact_farmbot_top",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - GroundshakeLarge" : 
+	{
+		"effectList" : 
+		[
+			{
+				"duration" : 0.75,
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 15,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.5,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Drillspawner - GroundshakeSmall" : 
+	{
+		"effectList" : 
+		[
+			{
+				"duration" : 0.75,
+				"shakeAmplitude" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					60.0,
+					60.0,
+					60.0
+				],
+				"shakeRadius" : 50,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			}
+		]
+	},
+	"Drillspawner - Haybotprojectile" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.75
+				],
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_drillspawner_thruster_haybot",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.625
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/botbox_flying"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Color" : "e75b0f",
+			"color" : "33bcffff",
+			"intensity" : 2.0,
+			"radius" : 5.0
+		}
+	},
+	"Drillspawner - Haybotprojectile Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/bot_unbox"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_projectile_impact_haybot_bot",
+				"offset" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_drillspawner_projectile_impact_haybot_top",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - Shootingpods" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_drillspawner_shootingpods",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/shootbolt"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Drillspawner - Tapebotprojectile" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.75
+				],
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_drillspawner_thruster_tapebot",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.625
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/botbox_flying"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Color" : "19ec19",
+			"color" : "33bcffff",
+			"intensity" : 2.0,
+			"radius" : 5.0
+		}
+	},
+	"Drillspawner - Tapebotprojectile Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/bot_unbox"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_projectile_impact_tapebot_bot",
+				"offset" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_drillspawner_projectile_impact_tapebot_top",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - Totebotprojectile" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"duration" : -1.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.75
+				],
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_drillspawner_thruster_totebot",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.625
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/spawner/botbox_flying"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Color" : "49642d",
+			"color" : "33bcffff",
+			"intensity" : 2.0,
+			"radius" : 5.0
+		}
+	},
+	"Drillspawner - Totebotprojectile Impact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/bot_unbox"
+				],
+				"delay" : 0.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "audio"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_projectile_impact_totebot_bot",
+				"offset" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_drillspawner_projectile_impact_totebot_top",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - Wheelspin" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_wheelspin",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - WheelspinOne" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_wheelspin",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - WheelspinThree" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_wheelspin",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Drillspawner - WheelspinTwo" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_drillspawner_wheelspin",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	}
+}

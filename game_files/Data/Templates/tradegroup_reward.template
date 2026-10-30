@@ -1,0 +1,51 @@
+{
+    "subTemplate_value": [
+        {
+            "step_meta": {
+                "type": "int",
+                "optional": true,
+                "toolTip": "The unlock step where the reward is received, a reward without a step is presumed to be the last reward"
+            },
+            "step" : 1,
+
+            "item_meta" : { "type" : "uuid" },
+            "item" : "",
+
+            "amount_meta" : { "type" : "int" },
+            "amount" : 1,
+
+            "giveItem_meta" : { "label":"GiveItem*", "type" : "bool", "toolTip": "Put the item in the player's inventory" },
+            "giveItem" : false,
+
+            "unlockCraftBot_meta" : { "label":"UnlockCraftBot*", "type" : "bool", "toolTip": "Unlock the craft recipe" },
+            "unlockCraftBot" : false,
+
+            "unlockTrader_meta" : { "label":"UnlockTrader*", "type" : "bool", "toolTip": "Unlock the item at the trader" },
+            "unlockTrader" : false,
+
+            "activateQuest_meta" : { "label":"ActivateQuest*", "type" : "string", "optional" : true, "toolTip": "Activate quest as reward" },
+            "activateQuest" : "",
+
+            "prerequisiteQuest_meta" : { "label":"PrerequisiteQuest*", "type" : "string", "optional" : true, "toolTip": "The quest that must be completed before this quest is available" },
+            "prerequisiteQuest" : "",
+
+            "dialogUuid_meta" : { "label":"DialogUuid*", "type" : "string", "optional" : true, "toolTip": "The dialog which will be played before the quest is started" },
+            "dialogUuid" : "",
+
+            "speaker_meta" : { "label":"Speaker*", "type" : "string", "optional" : true, "options" : ["Hubert", "Lorenzo"], "toolTip": "The speaker of the dialog" },
+            "speaker" : "Hubert",
+            
+            "unlockTraderSchematic_meta" : { "label":"UnlockTraderSchematic*" ,"type" : "bool", "toolTip": "Unlock the item as a schematic at the trader" },
+            "unlockTraderSchematic" : false,
+
+            "unlockCosmetic_meta" : { "label": "UnlockCosmetic*", "type" : "bool", "toolTip": "Unlock the cosmetic item" },
+            "unlockCosmetic" : false,
+            
+            "unlockTraderCosmetic_meta" : { "label": "UnlockTraderCosmetic*", "type" : "bool", "toolTip": "Unlock the cosmetic item at the trader" },
+            "unlockTraderCosmetic" : false,
+            
+            "unlockAchievement_meta" : { "label": "UnlockAchievement*", "type" : "bool", "toolTip": "Unlock a steam achievement" },
+            "unlockAchievement" : false
+        }
+    ]
+}

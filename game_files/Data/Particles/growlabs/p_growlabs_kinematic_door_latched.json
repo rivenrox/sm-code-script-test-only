@@ -1,0 +1,775 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "sprite",
+				"category" : "4 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_digitalglow.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.3,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.19154,
+								[
+									0.03251,
+									0.48827,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 6.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Flash 0   [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					2.95531
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 2.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 8.5,
+				"z_offset" : 2.0
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "4 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/builderguide/p_builderguide_questplatform_squaregrid05.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.3,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 3,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.23093,
+								[
+									0.06666,
+									1.0,
+									0.0,
+									0.83529
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 11,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 2,
+				"height" : 6.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"name" : "Flash 4   [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					2.95531
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.699999988,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 8.0,
+				"z_offset" : 2.0
+			},
+			{
+				"angle" : 180.0,
+				"billboard_type" : "axial_self",
+				"bounce" : 
+				[
+					0.3,
+					0.1
+				],
+				"box" : 
+				[
+					5.0,
+					0.0,
+					4.0
+				],
+				"category" : "3 - sparks",
+				"collision" : "bounce",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Thruster/p_thruster_spark01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.19154,
+								[
+									0.06656,
+									1.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								7.0
+							],
+							[
+								1.0,
+								2.30136
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 7.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.49671
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 8,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5001,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-6.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					0.05998,
+					0.00999
+				],
+				"keep_local" : false,
+				"lifetime_loss" : 0.1,
+				"max_particles" : 100,
+				"min_quality" : "medium",
+				"name" : "Sparks2  Col  [high]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					2.80221
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 
+				[
+					2.0,
+					0.236
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					10.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.007
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "sprite",
+				"category" : "1",
+				"delay" : 0.2,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning04.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55198
+							],
+							[
+								1.0,
+								0.8015
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 10,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 11,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.19154,
+								[
+									0.03251,
+									0.48827,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.69998,
+				"guid" : 9,
+				"height" : 3.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "GeneralLightning1  [medium]",
+				"position" : 
+				[
+					1.82527,
+					0.29333,
+					5.81337
+				],
+				"power_glow" : true,
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0,
+				"z_offset" : 2.0
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					7.0,
+					0.0,
+					0.0
+				],
+				"category" : "1",
+				"delay" : 0.3,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning04.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55198
+							],
+							[
+								1.0,
+								0.8015
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 14,
+						"length" : 0.75,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 15,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.19154,
+								[
+									0.03251,
+									0.48827,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 16,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10,
+				"glow" : true,
+				"glow_strength" : 0.69998,
+				"guid" : 13,
+				"height" : 
+				[
+					3.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 2,
+				"min_quality" : "medium",
+				"name" : "GeneralLightning2   [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					5.72726
+				],
+				"power_glow" : true,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					180.0,
+					25.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					180.0,
+					0.0,
+					-0.0
+				],
+				"soft_particles_bias" : 2000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.25,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					0.25
+				],
+				"z_offset" : 15.0
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "sprite",
+				"category" : "1",
+				"delay" : 0.4,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning04.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55198
+							],
+							[
+								1.0,
+								0.8015
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 18,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 19,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.19154,
+								[
+									0.03251,
+									0.48827,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.69998,
+				"guid" : 17,
+				"height" : 3.0,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 1,
+				"name" : "GeneralLightning3 [low]",
+				"position" : 
+				[
+					3.75913,
+					0.29333,
+					0.27619
+				],
+				"power_glow" : true,
+				"rotation" : 45.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0,
+				"z_offset" : 2.0
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "sprite",
+				"category" : "1",
+				"delay" : 0.6,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning03.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55198
+							],
+							[
+								1.0,
+								0.8015
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 22,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 23,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 4
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.19154,
+								[
+									0.03251,
+									0.48827,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.69998,
+				"guid" : 21,
+				"height" : 3.0,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "GeneralLightning4    [medium]",
+				"position" : 
+				[
+					-3.97973,
+					0.29333,
+					0.27619
+				],
+				"power_glow" : true,
+				"rotation" : -45.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.150000006,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0,
+				"z_offset" : 2.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

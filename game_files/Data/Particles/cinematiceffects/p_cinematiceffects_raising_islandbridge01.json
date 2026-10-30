@@ -1,0 +1,4437 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"category" : "2",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"depth" : 
+				[
+					60.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/raisingbridge/p_emissionmesh_x_direction_raisingbridge06.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					1.0,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 20,
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					60.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_8x7_xup_splash03.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water-X",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					2.4618,
+					-50.0,
+					2.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 1.5,
+				"type" : "mesh",
+				"velocity" : 12.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					60.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					0.0,
+					20.0,
+					3.0
+				],
+				"category" : "2",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.15,
+				"depth" : 
+				[
+					55.0,
+					5.0
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.07665,
+					1.0,
+					0.04687,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.34538
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 4,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 6,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								10.0
+							],
+							[
+								0.19686,
+								10.0
+							],
+							[
+								0.25845,
+								8.94736
+							],
+							[
+								0.41538,
+								1.25
+							],
+							[
+								0.5292,
+								0.46052
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 7,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -20.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14767,
+								-1.44739
+							],
+							[
+								0.26153,
+								-3.02632
+							],
+							[
+								0.49845,
+								-15.52633
+							],
+							[
+								1.0,
+								-20.0
+							]
+						],
+						"guid" : 8,
+						"max" : 20.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.2,
+								-4.73685
+							],
+							[
+								0.62769,
+								-63.94739
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 9,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 13,
+				"friction" : 2.0,
+				"guid" : 3,
+				"height" : 
+				[
+					40.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water-x OverEdge1",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					11.67199,
+					-75.0,
+					2.57574
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					90.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 1.25,
+				"type" : "box",
+				"velocity" : 11.0,
+				"water_mask" : "none"
+			},
+			{
+				"circle_angle" : 45.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.35196
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 11,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.33239,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							]
+						],
+						"guid" : 12,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 10,
+				"keep_local" : true,
+				"material_name" : "LiquidNoNormalMap",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Water Rising (low)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					2.25
+				],
+				"radius" : 0.4,
+				"renderable" : "$GAME_DATA/Particles/Renderable/cinematic_bridge/p_rendeble_cinematic_bridge_breakwater01.rend",
+				"time_to_live" : 
+				[
+					4.0,
+					0.133
+				],
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"category" : "0",
+				"circle_angle" : 0.0,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 14,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14391
+							],
+							[
+								0.06458,
+								0.5921
+							],
+							[
+								0.18456,
+								0.82648
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.33239,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							]
+						],
+						"guid" : 16,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "WaterSplashes Middle 1",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-50.0,
+					2.0
+				],
+				"radius" : 3.0,
+				"rotation" : 
+				[
+					90.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					12.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"category" : "0",
+				"circle_angle" : 0.0,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 18,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14391
+							],
+							[
+								0.06458,
+								0.5921
+							],
+							[
+								0.18456,
+								0.82648
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.33239,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 1.0,
+				"guid" : 17,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "WaterSplashes Middle 2",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-50.0,
+					2.0
+				],
+				"radius" : 3.0,
+				"rotation" : 
+				[
+					90.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					12.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"category" : "0",
+				"circle_angle" : 0.0,
+				"delay" : 0.1,
+				"depth" : 
+				[
+					60.0,
+					20.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 22,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.33239,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 20,
+				"friction" : 0.5,
+				"guid" : 21,
+				"height" : 
+				[
+					60.0,
+					20.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "WaterSplashes Middle 3",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-50.0,
+					2.0
+				],
+				"radius" : 7.0,
+				"rotation" : 
+				[
+					90.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					12.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					60.0,
+					20.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"category" : "0",
+				"circle_angle" : 0.0,
+				"delay" : 0.1,
+				"depth" : 
+				[
+					60.0,
+					20.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 26,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.33239,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							]
+						],
+						"guid" : 28,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 20,
+				"friction" : 0.5,
+				"guid" : 25,
+				"height" : 
+				[
+					60.0,
+					20.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "WaterSplashes Middle 4",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-50.0,
+					2.0
+				],
+				"radius" : 8.0,
+				"rotation" : 
+				[
+					90.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					12.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					60.0,
+					20.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					35.0,
+					10.0,
+					0.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.15,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 30,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 29,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           1",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-40.0,
+					2.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					35.0,
+					10.0,
+					0.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 33,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 32,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           2",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-33.0,
+					2.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					25.0,
+					10.0,
+					0.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.25,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 36,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 37,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 35,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           3",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-26.0,
+					2.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					15.0,
+					10.0,
+					0.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.35686,
+					0.60784,
+					0.78039,
+					1.0
+				],
+				"delay" : 0.3,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 39,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 40,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 38,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           4",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-19.0,
+					2.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					15.0,
+					10.0,
+					0.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.35686,
+					0.60784,
+					0.78039,
+					1.0
+				],
+				"delay" : 0.4,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 42,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 43,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 20,
+				"friction" : 
+				[
+					2.0,
+					0.25
+				],
+				"guid" : 41,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           5",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-9.0,
+					2.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					8.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					35.0,
+					10.0,
+					0.0
+				],
+				"category" : "3",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.15,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 45,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 46,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 44,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water-Y           1",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-60.0,
+					3.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					35.0,
+					10.0,
+					0.0
+				],
+				"category" : "3",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.2,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 48,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 49,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 47,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           2",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-67.0,
+					3.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					25.0,
+					10.0,
+					0.0
+				],
+				"category" : "3",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.25,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 51,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 52,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 50,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           3",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-74.0,
+					3.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					15.0,
+					10.0,
+					0.0
+				],
+				"category" : "3",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.3,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 54,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 55,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 53,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           4",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-81.0,
+					3.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					12.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					15.0,
+					5.0,
+					0.0
+				],
+				"category" : "3",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.4,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 57,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 58,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 20,
+				"friction" : 
+				[
+					2.0,
+					0.25
+				],
+				"guid" : 56,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane02.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y           5",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-90.0,
+					3.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					45.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					8.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					33.0,
+					0.0,
+					1.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.35686,
+					0.60784,
+					0.78039,
+					1.0
+				],
+				"delay" : 0.5,
+				"depth" : 
+				[
+					60.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 60,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 61,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3054
+							],
+							[
+								0.31433,
+								0.41185
+							],
+							[
+								0.42019,
+								0.47817
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 62,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 63,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-7.69739
+							],
+							[
+								1.0,
+								-18.35528
+							]
+						],
+						"guid" : 64,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 59,
+				"height" : 
+				[
+					40.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane03.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y OverEdge",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-4.62348,
+					2.5
+				],
+				"shape_rotation" : 
+				[
+					-85.06273,
+					0.0,
+					-180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 7.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					33.0,
+					0.0,
+					1.0
+				],
+				"category" : "3",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.5,
+				"depth" : 
+				[
+					60.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					1.0,
+					0.9375,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 66,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 67,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3054
+							],
+							[
+								0.31433,
+								0.41185
+							],
+							[
+								0.42019,
+								0.47817
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 68,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 69,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-7.69739
+							],
+							[
+								1.0,
+								-18.35528
+							]
+						],
+						"guid" : 70,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 65,
+				"height" : 
+				[
+					60.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane03.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y OverEdge",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-95.1129,
+					2.89646
+				],
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					-180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					7.0,
+					2.0
+				],
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					0.0,
+					20.0,
+					3.0
+				],
+				"category" : "2",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.15,
+				"depth" : 
+				[
+					55.0,
+					5.0
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.07665,
+					1.0,
+					0.04687,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.34538
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 72,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 73,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 74,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								10.0
+							],
+							[
+								0.19686,
+								10.0
+							],
+							[
+								0.25845,
+								8.94736
+							],
+							[
+								0.41538,
+								1.25
+							],
+							[
+								0.5292,
+								0.46052
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 75,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -20.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14767,
+								-1.44739
+							],
+							[
+								0.26153,
+								-3.02632
+							],
+							[
+								0.49845,
+								-15.52633
+							],
+							[
+								1.0,
+								-20.0
+							]
+						],
+						"guid" : 76,
+						"max" : 20.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.2,
+								-4.73685
+							],
+							[
+								0.62769,
+								-63.94739
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 77,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 13,
+				"friction" : 2.0,
+				"guid" : 71,
+				"height" : 
+				[
+					40.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water-x OverEdge2",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					11.67199,
+					-75.0,
+					2.57574
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					90.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 1.25,
+				"type" : "box",
+				"velocity" : 11.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					0.0,
+					20.0,
+					3.0
+				],
+				"category" : "2",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.15,
+				"depth" : 
+				[
+					55.0,
+					5.0
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.07665,
+					1.0,
+					0.04687,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.34538
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 79,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 80,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 81,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								10.0
+							],
+							[
+								0.19686,
+								10.0
+							],
+							[
+								0.25845,
+								8.94736
+							],
+							[
+								0.41538,
+								1.25
+							],
+							[
+								0.5292,
+								0.46052
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 82,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -20.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14767,
+								-1.44739
+							],
+							[
+								0.26153,
+								-3.02632
+							],
+							[
+								0.49845,
+								-15.52633
+							],
+							[
+								1.0,
+								-20.0
+							]
+						],
+						"guid" : 83,
+						"max" : 20.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.2,
+								-4.73685
+							],
+							[
+								0.62769,
+								-63.94739
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 84,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 13,
+				"friction" : 2.0,
+				"guid" : 78,
+				"height" : 
+				[
+					40.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_mirrored_splashplane04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water-x OverEdge3",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					11.67199,
+					-25.0,
+					2.57574
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					90.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 1.25,
+				"type" : "box",
+				"velocity" : 11.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					0.0,
+					20.0,
+					3.0
+				],
+				"category" : "2",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"delay" : 0.15,
+				"depth" : 
+				[
+					55.0,
+					5.0
+				],
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.07665,
+					1.0,
+					0.04687,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.34538
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 86,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 87,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 88,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								10.0
+							],
+							[
+								0.19686,
+								10.0
+							],
+							[
+								0.25845,
+								8.94736
+							],
+							[
+								0.41538,
+								1.25
+							],
+							[
+								0.5292,
+								0.46052
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 89,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -20.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14767,
+								-1.44739
+							],
+							[
+								0.26153,
+								-3.02632
+							],
+							[
+								0.49845,
+								-15.52633
+							],
+							[
+								1.0,
+								-20.0
+							]
+						],
+						"guid" : 90,
+						"max" : 20.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.2,
+								-4.73685
+							],
+							[
+								0.62769,
+								-63.94739
+							],
+							[
+								1.0,
+								-90.0
+							]
+						],
+						"guid" : 91,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 13,
+				"friction" : 2.0,
+				"guid" : 85,
+				"height" : 
+				[
+					40.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane04.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water-x OverEdge4",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					11.67199,
+					-25.0,
+					2.57574
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					90.0,
+					0.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 1.25,
+				"type" : "box",
+				"velocity" : 11.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"box" : 
+				[
+					33.0,
+					0.0,
+					1.0
+				],
+				"category" : "1",
+				"color" : 
+				[
+					0.35686,
+					0.60784,
+					0.78039,
+					1.0
+				],
+				"delay" : 0.5,
+				"depth" : 
+				[
+					60.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 93,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 94,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.3054
+							],
+							[
+								0.31433,
+								0.41185
+							],
+							[
+								0.42019,
+								0.47817
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 95,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 96,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								-7.69739
+							],
+							[
+								1.0,
+								-18.35528
+							]
+						],
+						"guid" : 97,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 25,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 
+				[
+					1.0,
+					0.25
+				],
+				"guid" : 92,
+				"height" : 
+				[
+					40.0,
+					5.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane03.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water+Y OverEdge",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-4.62348,
+					2.5
+				],
+				"shape_rotation" : 
+				[
+					-85.06273,
+					0.0,
+					-180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 7.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"category" : "4",
+				"color" : 
+				[
+					0.35293,
+					0.60391,
+					0.77647,
+					1.0
+				],
+				"depth" : 
+				[
+					60.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 99,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.34128
+							],
+							[
+								0.11076,
+								0.64967
+							],
+							[
+								0.27384,
+								0.87171
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 100,
+						"max_scale" : 1.25,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/raisingbridge/p_emissionmesh_x_direction_raisingbridge06.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					1.0,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 20,
+				"friction" : 1.0,
+				"guid" : 98,
+				"height" : 
+				[
+					60.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_8x7_xup_splash03.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "Water-X",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-2.462,
+					-50.0,
+					2.0
+				],
+				"rotation" : 
+				[
+					90.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 1.5,
+				"type" : "mesh",
+				"velocity" : 12.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					60.0,
+					10.0
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/raisingbridge/p_mesh_watersplash_anim_07_asg.tga",
+				"category" : "0",
+				"circle_angle" : 0.0,
+				"depth" : 
+				[
+					40.0,
+					10.0
+				],
+				"direction_type" : "shape",
+				"duration" : 0.25,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14461,
+								0.4638
+							],
+							[
+								0.2646,
+								0.58552
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 102,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.14391
+							],
+							[
+								0.06458,
+								0.5921
+							],
+							[
+								0.18456,
+								0.82648
+							],
+							[
+								0.58152,
+								1.11017
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 103,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.33239,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.36078,
+									0.61176,
+									0.7843,
+									1.0
+								]
+							]
+						],
+						"guid" : 104,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 40,
+				"friction" : 1.0,
+				"guid" : 101,
+				"height" : 
+				[
+					40.0,
+					10.0
+				],
+				"keep_local" : true,
+				"material_name" : "LiquidAlphaUvAnim",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/cinematic_bridge/p_mesh_cinematic_islandbridge_splashplane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "projectile",
+				"name" : "WaterSplashes Middle 1",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/splatter/p_trashbot_goosplatter04_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-50.0,
+					2.0
+				],
+				"radius" : 3.0,
+				"rotation" : 
+				[
+					90.0,
+					1.0
+				],
+				"shape_rotation" : 
+				[
+					-0.0,
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					7,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.5,
+					0.5
+				],
+				"type" : "circle",
+				"velocity" : 
+				[
+					12.0,
+					5.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					40.0,
+					10.0
+				]
+			}
+		]
+	}
+}

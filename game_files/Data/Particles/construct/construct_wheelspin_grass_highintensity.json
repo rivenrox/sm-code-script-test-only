@@ -1,0 +1,1166 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 45.0,
+				"category" : "2 - ",
+				"cone_angle" : 25.0,
+				"cone_radius" : 0.00999,
+				"default_particle" : 
+				[
+					0.8,
+					0.8
+				],
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_dustaftermarth04_nor.tga",
+				"direction_type" : "object",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"base_scale" : 0.25,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.53781
+							],
+							[
+								0.25102,
+								0.99997
+							],
+							[
+								0.53263,
+								1.42622
+							],
+							[
+								0.78162,
+								1.66803
+							],
+							[
+								1.0,
+								1.76639
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.09859,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									0.94529,
+									0.94529,
+									0.94529,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.91794,
+									0.91794,
+									0.91794,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.92105
+							],
+							[
+								1.0,
+								2.07236
+							]
+						],
+						"guid" : 3,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -5.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.4
+							],
+							[
+								1.0,
+								-2.75
+							]
+						],
+						"guid" : 5,
+						"local" : false,
+						"max" : 4.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.56906
+							],
+							[
+								1.0,
+								0.70393
+							]
+						],
+						"fade" : 0.75,
+						"guid" : 6,
+						"length" : 0.25,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"friction" : 
+				[
+					0.5,
+					0.1
+				],
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.40233,
+								0.31305,
+								0.23731,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.33592,
+								0.25499,
+								0.18634,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.4
+				],
+				"keep_local" : false,
+				"max_particles" : 201,
+				"min_quality" : "medium",
+				"name" : "Smoke Side Pushed (Medium)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.55
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					2.0,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.4
+				],
+				"z_offset" : 0.25
+			},
+			{
+				"angle" : 5.0,
+				"box" : 
+				[
+					0.1,
+					0.1,
+					0.2
+				],
+				"category" : "1 - ",
+				"default_particle" : 
+				[
+					0.8,
+					0.8
+				],
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "object",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					0.17181,
+					0.0,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.65789
+							],
+							[
+								0.31692,
+								1.26312
+							],
+							[
+								1.0,
+								1.51312
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.55466,
+									0.42691,
+									0.31417,
+									0.0
+								]
+							],
+							[
+								0.0507,
+								[
+									0.55294,
+									0.4235,
+									0.31371,
+									1.0
+								]
+							],
+							[
+								0.52675,
+								[
+									0.55294,
+									0.4235,
+									0.31371,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.55294,
+									0.4235,
+									0.31371,
+									0.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 10,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"friction" : 1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					1.5,
+					0.44999
+				],
+				"keep_local" : true,
+				"max_particles" : 12,
+				"name" : "Smoke wheel (Low)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.7
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 11111,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.79999,
+					0.5
+				],
+				"type" : "box",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.44999
+				],
+				"z_offset" : 0.63998
+			},
+			{
+				"angle" : 5.0,
+				"box" : 
+				[
+					0.1,
+					0.1,
+					0.2
+				],
+				"category" : "1 - ",
+				"default_particle" : 
+				[
+					0.8,
+					0.8
+				],
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "object",
+				"duration" : 0.5,
+				"editorColor" : 
+				[
+					0.62352,
+					1.0,
+					0.45489,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.38815
+							],
+							[
+								1.0,
+								1.51312
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.55294,
+									0.4235,
+									0.31371,
+									0.0
+								]
+							],
+							[
+								0.22811,
+								[
+									0.55294,
+									0.4235,
+									0.31371,
+									1.0
+								]
+							],
+							[
+								0.51547,
+								[
+									0.55294,
+									0.4235,
+									0.31371,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.55294,
+									0.4235,
+									0.31371,
+									0.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 55,
+						"fps" : 30,
+						"guid" : 14,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 4,
+				"friction" : 2.0,
+				"guid" : 11,
+				"height" : 
+				[
+					1.75,
+					0.44999
+				],
+				"keep_local" : true,
+				"max_particles" : 12,
+				"name" : "Smoke wheel Fast (Low)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 11111,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.75,
+					0.44999
+				],
+				"z_offset" : 0.63998
+			},
+			{
+				"angle" : 
+				[
+					5.0,
+					1.0
+				],
+				"box" : 
+				[
+					0.44999,
+					0.44999,
+					0.25
+				],
+				"category" : "2 - ",
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "object",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.62668,
+					1.0,
+					0.45702,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"base_scale" : 0.25,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.89472
+							],
+							[
+								0.12251,
+								1.38979
+							],
+							[
+								0.26469,
+								1.57401
+							],
+							[
+								0.82841,
+								1.79851
+							],
+							[
+								1.0,
+								1.76639
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.09859,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 18,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 19,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 5.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 6,
+				"force_vector" : 
+				[
+					0.0,
+					-0.0,
+					0.25
+				],
+				"friction" : 
+				[
+					1.0,
+					0.5
+				],
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.55294,
+								0.4235,
+								0.31371,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.45702,
+								0.35078,
+								0.26065,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 15,
+				"height" : 
+				[
+					1.5,
+					0.3
+				],
+				"keep_local" : false,
+				"max_particles" : 201,
+				"min_quality" : "high",
+				"name" : "Smoke (High)",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.40001
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : 0.1,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.25
+				],
+				"type" : "box",
+				"velocity" : 
+				[
+					2.5,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.3
+				],
+				"z_offset" : 0.3
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "3 - ",
+				"cone_angle" : 45.0,
+				"cone_radius" : 0.3,
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "Textures/Debri/debri_grass01.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.62668,
+					1.0,
+					0.45702,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.09859,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 21,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 25,
+						"fps" : 12,
+						"guid" : 22,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"axis" : "y",
+						"base" : -4.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								4.0
+							],
+							[
+								0.21536,
+								0.0
+							],
+							[
+								1.0,
+								-4.0
+							]
+						],
+						"guid" : 23,
+						"local" : false,
+						"max" : 4.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 24,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"friction" : 0.5,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.66346,
+								0.87107,
+								0.38789,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.37448,
+								0.63279,
+								0.11618,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 20,
+				"height" : 
+				[
+					0.4,
+					0.15
+				],
+				"keep_local" : false,
+				"max_particles" : 201,
+				"min_quality" : "medium",
+				"name" : "Grass01 (Medium)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.20003
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					6.0,
+					2.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					1.5,
+					1.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.15
+				],
+				"z_offset" : 0.3
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "3 - ",
+				"cone_angle" : 45.0,
+				"cone_radius" : 0.3,
+				"depth" : 
+				[
+					1.5,
+					0.3
+				],
+				"diffuse" : "Textures/Debri/debri_grass02.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"editorColor" : 
+				[
+					0.62668,
+					1.0,
+					0.45702,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.09859,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 25,
+						"fps" : 12,
+						"guid" : 27,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"axis" : "y",
+						"base" : -4.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								4.0
+							],
+							[
+								0.21536,
+								0.0
+							],
+							[
+								1.0,
+								-4.0
+							]
+						],
+						"guid" : 28,
+						"local" : false,
+						"max" : 4.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 29,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"friction" : 0.5,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.66346,
+								0.87107,
+								0.38789,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.33945,
+								0.5625,
+								0.11642,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 25,
+				"height" : 
+				[
+					0.4,
+					0.15
+				],
+				"keep_local" : false,
+				"max_particles" : 201,
+				"min_quality" : "medium",
+				"name" : "Grass01 (Medium)",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					-0.20003
+				],
+				"rotation" : 
+				[
+					0.0,
+					360.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					6.0,
+					2.0
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					1.5,
+					1.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.15
+				],
+				"z_offset" : 0.3
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 3.0
+	}
+}

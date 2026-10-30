@@ -1,0 +1,220 @@
+{
+	"warehouse3floor - trigger" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"effects" : "Warehousedestruction_3floorBuilding - Thirdfloorbigpipe_Explosion01",
+				"label" : "3FloorWarehouse - Explosion01 -  Tank&Pipe",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 0.85,
+				"effects" : "Warehousedestruction_3floorBuilding - Thirdfloor_explosion02",
+				"label" : "3FloorWarehouse - Explosion02 - 3rdFloor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 3.0,
+				"effects" : "Warehousedestruction_3FloorBuilding - Secondfloor_explosion03",
+				"label" : "3FloorWarehouse - Explosion03 - 2ndFloor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 7.0,
+				"effects" : "Warehousedestruction_3FloorBuilding - Silopipe_explosions04",
+				"label" : "3FloorWarehouse - Explosion04 - SilopipeExplosion",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 7.0,
+				"effects" : "Warehousedestruction_3FloorBuilding - Secondfloorbetweenfloors_explosion05",
+				"label" : "3FloorWarehouse - Explosion05 - between2and1Floor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 7.5,
+				"effects" : "Warehousedestruction_3FloorBuilding - Firstfloor_explosion06",
+				"label" : "3FloorWarehouse - Explosion06 - 1stFloor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion1"
+				},
+				"delay" : 0.7,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch01 - Tank&Pipe",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion2"
+				},
+				"delay" : 1.55,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch02 - 3rdFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion3"
+				},
+				"delay" : 6.5,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch03 - 2ndFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion4"
+				},
+				"delay" : 7.5,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch04 - SiloPipe",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion5"
+				},
+				"delay" : 7.5,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch05 - Between2and1Floor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion6"
+				},
+				"delay" : 11.0,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch06 - 1stFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "destroyed"
+				},
+				"delay" : 11.0,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - Destruction",
+				"type" : "luaEvent"
+			},
+			{
+				"duration" : 10.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 250,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.5,
+				"type" : "cameraShake",
+				"offset" : 
+				[
+					111.789833,
+					159.955093,
+					0.0
+				]
+			}
+		]
+	}
+}

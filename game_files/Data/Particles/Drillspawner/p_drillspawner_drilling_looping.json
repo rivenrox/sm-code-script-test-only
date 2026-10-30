@@ -1,0 +1,302 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshspiral_asg.tga",
+				"category" : "0 - ",
+				"depth" : 2.75,
+				"direction_type" : "shape",
+				"duration" : 6.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.23939,
+								[
+									0.91811,
+									0.12906,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.78026,
+								[
+									0.99272,
+									0.60939,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.87352
+							],
+							[
+								1.0,
+								1.68526
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 4,
+				"guid" : 0,
+				"height" : 3.25,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 11,
+				"mesh" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshspiral.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh Spiral",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.06738,
+					0.0,
+					2.2
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/Drillspawner/p_renderable_drillspawner_swirl01.rend",
+				"rotation_speed" : 1500.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"velocity" : 
+				[
+					-1.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 3.25
+			},
+			{
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y",
+						"base" : -4.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.22787,
+								4.0
+							],
+							[
+								0.75884,
+								-4.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"max" : 4.0,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 0.2,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 4,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Drillbit",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/Drillspawner/p_renderable_drillspawner_emissivedrill01.rend",
+				"rotation_speed" : 1500.0,
+				"time_to_live" : 9.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshspiral_asg.tga",
+				"category" : "0 - ",
+				"depth" : 2.75,
+				"direction_type" : "shape",
+				"duration" : 6.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 7,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.23939,
+								[
+									0.91811,
+									0.12906,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.78026,
+								[
+									0.99272,
+									0.60939,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.87352
+							],
+							[
+								1.0,
+								1.68526
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 4,
+				"guid" : 6,
+				"height" : 3.25,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 11,
+				"mesh" : "$GAME_DATA/Particles/resources/powertools/p_powertools_plasmadrill_meshspiral.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Textures/Default/default_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Mesh Spiral",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.06738,
+					0.0,
+					2.2
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/Drillspawner/p_renderable_drillspawner_swirl01.rend",
+				"rotation" : 180.0,
+				"rotation_speed" : 1500.0,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"velocity" : 
+				[
+					-0.5,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 3.25
+			}
+		],
+		"min_quality" : "low"
+	}
+}

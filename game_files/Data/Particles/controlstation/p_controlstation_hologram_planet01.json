@@ -1,0 +1,1792 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "2 - moon",
+				"depth" : 2.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.53125,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"base" : -0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.125
+							],
+							[
+								0.5,
+								0.12498
+							],
+							[
+								1.0,
+								-0.125
+							]
+						],
+						"guid" : 9,
+						"max" : 0.125,
+						"name" : "Velocity",
+						"repeat_time" : 100.0
+					},
+					{
+						"axis" : "z",
+						"base" : -0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								0.125
+							],
+							[
+								0.75,
+								-0.125
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max" : 0.125,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y",
+						"base" : -0.015,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.015
+							],
+							[
+								0.5,
+								0.01498
+							],
+							[
+								1.0,
+								-0.015
+							]
+						],
+						"guid" : 11,
+						"max" : 0.01499,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 100.0,
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								45.0
+							],
+							[
+								1.0,
+								45.0
+							]
+						],
+						"guid" : 12,
+						"max" : 45.0,
+						"min" : 45.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Moon1 Uvsphere",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-6.0,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlstation/p_renderable_controlstation_hologram_moon01.rend",
+				"rotation_speed" : 23.0,
+				"sub" : 
+				[
+					{
+						"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"editorColor" : 
+						[
+							0.0,
+							1.0,
+							0.52941,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.63968,
+										0.84539
+									],
+									[
+										0.79895,
+										0.69076
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 2,
+								"max_scale" : 1.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									],
+									[
+										0.34646,
+										[
+											0.0,
+											0.0656,
+											0.09764,
+											1.0
+										]
+									],
+									[
+										0.75492,
+										[
+											0.0,
+											0.05603,
+											0.10546,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									]
+								],
+								"guid" : 3,
+								"name" : "Color",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 4,
+								"name" : "TextureAnimator",
+								"toggle" : false
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 2,
+						"friction" : 3.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 1,
+						"height" : 
+						[
+							0.85,
+							0.15
+						],
+						"keep_local" : false,
+						"max_particles" : 50,
+						"min_quality" : "medium",
+						"name" : "Glow Clouds",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							3.5,
+							0.75
+						],
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.85,
+							0.15
+						]
+					},
+					{
+						"angle" : 1.0,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow06.tga",
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"editorColor" : 
+						[
+							0.0,
+							1.0,
+							0.52941,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.63968,
+										0.84539
+									],
+									[
+										0.79895,
+										0.69076
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 6,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									],
+									[
+										0.23093,
+										[
+											0.0,
+											0.5781,
+											1.0,
+											1.0
+										]
+									],
+									[
+										0.75211,
+										[
+											0.29686,
+											0.57151,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									]
+								],
+								"guid" : 7,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										0.66776
+									]
+								],
+								"fade" : 0.5,
+								"guid" : 8,
+								"length" : 0.5,
+								"name" : "Cutoff"
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 1,
+						"friction" : 1.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 5,
+						"height" : 
+						[
+							0.15,
+							0.0333
+						],
+						"inherit_velocity" : true,
+						"keep_local" : false,
+						"max_particles" : 50,
+						"min_quality" : "medium",
+						"name" : "Stars",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"rotation_speed" : 180.0,
+						"scene_blend" : "addative",
+						"sphere_radius" : 0.25,
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							5.0,
+							0.2
+						],
+						"type" : "sphere",
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.15,
+							0.0333
+						]
+					}
+				],
+				"time_to_live" : 400.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"category" : "2 - moon",
+				"depth" : 1.5,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					0.74216,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "z",
+						"base" : -0.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.75
+							],
+							[
+								0.5,
+								0.74987
+							],
+							[
+								1.0,
+								-0.75
+							]
+						],
+						"guid" : 22,
+						"max" : 0.75,
+						"name" : "Velocity",
+						"repeat_time" : 100.0
+					},
+					{
+						"base" : -0.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.25,
+								-0.75
+							],
+							[
+								0.75,
+								0.75
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 23,
+						"max" : 0.75,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "y",
+						"base" : -0.015,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.015
+							],
+							[
+								0.5,
+								0.01498
+							],
+							[
+								1.0,
+								-0.015
+							]
+						],
+						"guid" : 24,
+						"max" : 0.01499,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 100.0
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								45.0
+							],
+							[
+								1.0,
+								45.0
+							]
+						],
+						"guid" : 25,
+						"max" : 45.0,
+						"min" : 45.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 13,
+				"height" : 1.5,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Moon2 Uvsphere",
+				"particle" : "mesh",
+				"position" : 
+				[
+					9.22828,
+					0.0,
+					0.0
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlstation/p_renderable_controlstation_hologram_moon01.rend",
+				"rotation_speed" : 18.0,
+				"sub" : 
+				[
+					{
+						"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"editorColor" : 
+						[
+							0.0,
+							0.74115,
+							1.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.63968,
+										0.84539
+									],
+									[
+										0.79895,
+										0.69076
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 15,
+								"max_scale" : 1.0,
+								"name" : "Scale",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									],
+									[
+										0.34646,
+										[
+											0.0,
+											0.0656,
+											0.09764,
+											1.0
+										]
+									],
+									[
+										0.75492,
+										[
+											0.0,
+											0.05603,
+											0.10546,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									]
+								],
+								"guid" : 16,
+								"name" : "Color",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 17,
+								"name" : "TextureAnimator",
+								"toggle" : false
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 2,
+						"friction" : 3.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 14,
+						"height" : 
+						[
+							0.85,
+							0.15
+						],
+						"keep_local" : false,
+						"max_particles" : 50,
+						"min_quality" : "medium",
+						"name" : "Glow Clouds",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "addative",
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							3.5,
+							0.75
+						],
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.85,
+							0.15
+						]
+					},
+					{
+						"angle" : 1.0,
+						"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow06.tga",
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"editorColor" : 
+						[
+							0.0,
+							0.74115,
+							1.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										1.0
+									],
+									[
+										0.63968,
+										0.84539
+									],
+									[
+										0.79895,
+										0.69076
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 19,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									],
+									[
+										0.23093,
+										[
+											0.0,
+											0.5781,
+											1.0,
+											1.0
+										]
+									],
+									[
+										0.75211,
+										[
+											0.29686,
+											0.57151,
+											1.0,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									]
+								],
+								"guid" : 20,
+								"name" : "Color"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.5
+									],
+									[
+										1.0,
+										0.66776
+									]
+								],
+								"fade" : 0.5,
+								"guid" : 21,
+								"length" : 0.5,
+								"name" : "Cutoff"
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 1,
+						"friction" : 1.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 18,
+						"height" : 
+						[
+							0.15,
+							0.0333
+						],
+						"inherit_velocity" : true,
+						"keep_local" : false,
+						"max_particles" : 50,
+						"min_quality" : "medium",
+						"name" : "Stars",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"rotation_speed" : 180.0,
+						"scene_blend" : "addative",
+						"sphere_radius" : 0.25,
+						"sub_emit" : "birth",
+						"time_to_live" : 
+						[
+							5.0,
+							0.2
+						],
+						"type" : "sphere",
+						"water_mask" : "none",
+						"width" : 
+						[
+							0.15,
+							0.0333
+						]
+					}
+				],
+				"time_to_live" : 100.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"category" : "5 - ",
+				"depth" : 6.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.78039,
+					0.0,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y",
+						"base" : -0.02502,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.02502
+							],
+							[
+								0.5,
+								0.025
+							],
+							[
+								1.0,
+								-0.02502
+							]
+						],
+						"guid" : 27,
+						"max" : 0.025,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 20.0
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-250.0
+							]
+						],
+						"guid" : 28,
+						"max" : 250.0,
+						"min" : -250.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 100.0,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.29493,
+								1.0
+							],
+							[
+								0.75,
+								0.0
+							],
+							[
+								1.0,
+								0.5
+							]
+						],
+						"guid" : 29,
+						"name" : "Pose",
+						"repeat" : true,
+						"time" : 20.0
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 26,
+				"height" : 6.0,
+				"keep_local" : true,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "arrows1",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlstation/arrows/p_mesh_controlstation_hologram_arrows01.rend",
+				"time_to_live" : 100.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"category" : "6 - rings",
+				"depth" : 6.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.6941,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y",
+						"base" : -0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.125
+							],
+							[
+								0.5,
+								0.125
+							],
+							[
+								1.0,
+								-0.125
+							]
+						],
+						"guid" : 31,
+						"max" : 0.125,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 20.0
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								15.0
+							],
+							[
+								1.0,
+								15.0
+							]
+						],
+						"guid" : 32,
+						"max" : 15.0,
+						"min" : -15.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 33,
+						"name" : "Pose",
+						"repeat" : true,
+						"time" : 10.0
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 30,
+				"height" : 6.0,
+				"keep_local" : true,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "rings1",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlstation/p_mesh_controlstation_hologram_rings01.rend",
+				"rotation_speed" : -5.0,
+				"time_to_live" : 100.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"category" : "1 - planet",
+				"depth" : 6.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					0.48234,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y",
+						"base" : -0.05001,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.05001
+							],
+							[
+								0.5,
+								0.05
+							],
+							[
+								1.0,
+								-0.05001
+							]
+						],
+						"guid" : 39,
+						"max" : 0.05,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 20.0
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								15.0
+							],
+							[
+								1.0,
+								15.0
+							]
+						],
+						"guid" : 40,
+						"max" : 15.0,
+						"min" : -15.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-250.0
+							]
+						],
+						"guid" : 41,
+						"max" : 250.0,
+						"min" : -250.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 100.0,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 34,
+				"height" : 6.0,
+				"keep_local" : true,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Planet1 Uvsphere Dugout",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlstation/p_renderable_controlstation_hologram_planet01.rend",
+				"sub" : 
+				[
+					{
+						"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+						"direction_type" : "shape",
+						"duration" : 0.1,
+						"effects" : 
+						[
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 64,
+								"fps" : 30,
+								"guid" : 36,
+								"name" : "TextureAnimator",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									],
+									[
+										0.29859,
+										[
+											0.0,
+											0.12071,
+											0.17968,
+											1.0
+										]
+									],
+									[
+										0.74084,
+										[
+											0.0,
+											0.09961,
+											0.1875,
+											1.0
+										]
+									],
+									[
+										1.0,
+										[
+											0.0,
+											0.0,
+											0.0,
+											1.0
+										]
+									]
+								],
+								"guid" : 37,
+								"name" : "Color",
+								"toggle" : false
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.48543
+									],
+									[
+										0.2055,
+										0.6085
+									],
+									[
+										0.42752,
+										0.69796
+									],
+									[
+										0.72842,
+										0.7651
+									],
+									[
+										1.0,
+										0.79193
+									]
+								],
+								"guid" : 38,
+								"max_scale" : 1.0,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "loop",
+						"emission_rate" : 2,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-0.5
+						],
+						"friction" : 3.0,
+						"glow" : true,
+						"glow_strength" : 1.0,
+						"guid" : 35,
+						"height" : 
+						[
+							3.5,
+							0.5
+						],
+						"keep_local" : false,
+						"max_particles" : 50,
+						"name" : "Smoke1",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"scene_blend" : "addative",
+						"sphere_radius" : 0.25,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							8,
+							8
+						],
+						"time_to_live" : 
+						[
+							4.0,
+							1.0
+						],
+						"type" : "sphere",
+						"velocity" : 2.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							3.5,
+							0.5
+						]
+					}
+				],
+				"time_to_live" : 100.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"category" : "1 - Stars",
+				"circle_angle" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_looping_clouds04.tga",
+				"direction_type" : "shape",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75
+							],
+							[
+								1.0,
+								0.75
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 43,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"time" : 8.345
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 10,
+						"guid" : 44,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.03942,
+								[
+									0.25,
+									0.25,
+									0.25,
+									0.25
+								]
+							],
+							[
+								0.96337,
+								[
+									0.25,
+									0.25,
+									0.25,
+									0.25
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 45,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 25,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.11663,
+								0.37661,
+								0.71091,
+								0.44139
+							]
+						],
+						[
+							1.0,
+							[
+								0.11331,
+								0.22924,
+								0.61716,
+								0.53904
+							]
+						]
+					]
+				},
+				"guid" : 42,
+				"height" : 
+				[
+					10.0,
+					3.0
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"name" : "StarClouds smoke TO EXPENSIVE",
+				"power_glow" : true,
+				"radius" : 4.0,
+				"random_flip" : 
+				[
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "blend_add",
+				"shape_rotation" : 
+				[
+					15.0,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 10000,
+				"start_color" : "random",
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					100.0,
+					50.0
+				],
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					10.0,
+					3.0
+				],
+				"z_offset" : 25.0
+			},
+			{
+				"box" : 
+				[
+					10.0,
+					10.0,
+					4.0
+				],
+				"category" : "1 - Stars",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow06.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.72368
+							],
+							[
+								0.27004,
+								0.64143
+							],
+							[
+								0.72992,
+								0.77302
+							],
+							[
+								1.0,
+								0.72368
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 47,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"repeat" : true,
+						"time" : 8.345
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.30213,
+								1.2
+							],
+							[
+								0.72459,
+								0.8
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 48,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 8.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.9531,
+								0.96701,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.8945,
+								0.9283,
+								1.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 46,
+				"height" : 0.25,
+				"keep_local" : false,
+				"max_particles" : 10,
+				"name" : "Stars1",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					10.0,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 10000,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					730.0,
+					10.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.25,
+				"z_offset" : 25.0
+			},
+			{
+				"box" : 
+				[
+					10.0,
+					10.0,
+					4.0
+				],
+				"category" : "1 - Stars",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.615
+							],
+							[
+								0.26469,
+								0.47038
+							],
+							[
+								0.68181,
+								0.64802
+							],
+							[
+								1.0,
+								0.51972
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 50,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"repeat" : true,
+						"time" : 5.0
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.30213,
+								1.2
+							],
+							[
+								0.72459,
+								0.8
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 51,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 5.0,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								0.92185,
+								0.96402,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.70196,
+								0.86273,
+								1.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 49,
+				"height" : 0.125,
+				"keep_local" : false,
+				"max_particles" : 10,
+				"name" : "Stars2",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					10.0,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 10000,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					730.0,
+					10.0
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.125,
+				"z_offset" : 25.0
+			},
+			{
+				"category" : "3 - ",
+				"depth" : 6.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.73333,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y",
+						"base" : -0.05001,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.05001
+							],
+							[
+								0.5,
+								0.05
+							],
+							[
+								1.0,
+								-0.05001
+							]
+						],
+						"guid" : 53,
+						"max" : 0.05,
+						"name" : "Velocity",
+						"repeat_over_time" : true,
+						"repeat_time" : 20.0
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-250.0
+							]
+						],
+						"guid" : 54,
+						"max" : 250.0,
+						"min" : -250.0,
+						"name" : "RotationOverTime",
+						"repeat_over_time" : true,
+						"repeat_time" : 100.0
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.5,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 55,
+						"name" : "Pose",
+						"repeat" : true,
+						"time" : 10.0,
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 52,
+				"height" : 6.0,
+				"keep_local" : true,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Cubes1 NEW",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/controlstation/cubes/p_mesh_controlstation_hologram_clustercubes09.rend",
+				"time_to_live" : 100.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			}
+		]
+	}
+}

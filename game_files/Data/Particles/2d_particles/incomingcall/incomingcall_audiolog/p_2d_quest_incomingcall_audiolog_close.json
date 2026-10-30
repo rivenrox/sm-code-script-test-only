@@ -1,0 +1,143 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.25885,
+								0.94233
+							],
+							[
+								0.49311,
+								0.81997
+							],
+							[
+								0.68502,
+								0.63006
+							],
+							[
+								0.82677,
+								0.41912
+							],
+							[
+								0.92618,
+								0.20675
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.13278,
+								0.1182
+							],
+							[
+								0.27799,
+								0.82749
+							],
+							[
+								0.45089,
+								3.19177
+							],
+							[
+								0.64038,
+								8.47196
+							],
+							[
+								1.0,
+								22.5
+							]
+						],
+						"guid" : 2,
+						"max" : 22.5,
+						"min" : -22.5,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.19301,
+								-0.20045
+							],
+							[
+								0.37029,
+								3.00668
+							],
+							[
+								0.53886,
+								10.42316
+							],
+							[
+								0.71613,
+								25.05567
+							],
+							[
+								0.83056,
+								45.50112
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 3,
+						"max" : 90.0,
+						"min" : -90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "AudioLog",
+				"particle" : "mesh",
+				"renderable" : "$SURVIVAL_DATA/Effects/Renderable/2deffectmeshes/eff_2deffectmeshes_audiolog.rend",
+				"time_to_live" : 0.4,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

@@ -1,0 +1,1203 @@
+{
+	"entities" : 
+	{
+		"grids" : 
+		[
+			{
+				"guid" : "0907a9c4-8c85-47d8-8b86-205142dd2b60",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "af337a67-4a8b-46ba-87ba-be5c553d2339",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "quest_mysterious_signal.controlroom_area"
+					}
+				],
+				"tags" : 
+				[
+					"AREATRIGGER"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.23060095310211182,
+						-27.39866828918457,
+						-1.560084342956543
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						10.932448387145996,
+						8.1532878875732422,
+						10.356216430664062
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "b0d65cbd-de9a-4ee3-b80c-383be264f9c2",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : "quest_mysterious_signal.spawnPhae"
+					},
+					{
+						"descName" : "questActorParams",
+						"jsonRoot" : 
+						{
+							"actorName" : "",
+							"characterUuid" : "fd8e1f0c-364b-4522-8ecd-3c7dc582ea06",
+							"spawnTrack" : "phae.controlroom"
+						},
+						"templateUuid" : "ec540379-88a3-4bd0-ac91-0ebdf2965204",
+						"type" : "jsonTemplate"
+					}
+				],
+				"tags" : 
+				[
+					"GENERAL_QUESTACTOR",
+					"SPAWNABLE_UNIT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						11.59451961517334,
+						-6.9258708953857422,
+						-6.1924924850463867
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "fb22dd06-8ddb-44c9-89fe-43f9fd6699ba",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "actorTrack",
+						"jsonRoot" : 
+						{
+							"actorTrack" : 
+							{
+								"actorTrack" : 
+								[
+									{
+										"commands" : 
+										[
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "notify.phae_player_arrived",
+												"seconds" : 0
+											},
+											{
+												"characterEvent" : "emote_casual_explain",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 4
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 4
+											},
+											{
+												"delay" : 0,
+												"dialogBeatLookup" : "meeting_phae_in_control_room",
+												"dialogEntry" : "example.dialog",
+												"incrementalDelay" : false,
+												"name" : "dialog",
+												"uuid" : "00000000-0000-0000-0000-000000000000"
+											},
+											{
+												"delay" : 0,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										]
+									},
+									{
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											-23.327880859375,
+											0.0,
+											18.30712890625
+										],
+										"rotation" : 
+										[
+											-1.1021438695024699e-05,
+											-15.621173858642578,
+											-4.9588975343795028e-06
+										]
+									},
+									{
+										"commands" : 
+										[
+											{
+												"delay" : 0,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											},
+											{
+												"characterEvent" : "emote_casual_explain_out",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"characterEvent" : "",
+												"cooldown" : 3,
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"interactionText" : "#{INTERACTION_INTERACT}",
+												"name" : "interactiveWait",
+												"notifyActorEvent" : "forever",
+												"repeating" : true,
+												"uuid" : "cf0b52a9-ad7a-4511-8fa8-db8e6ee26343"
+											},
+											{
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "questEvent",
+												"questEvent" : "quest.mysterious_signal.phae_done"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											-29.761962890625,
+											-0.000244140625,
+											38.578857421875
+										],
+										"rotation" : 
+										[
+											-6.8301887949928641e-06,
+											0.0,
+											0.0
+										]
+									}
+								]
+							}
+						},
+						"templateUuid" : "e03d8b3d-9ebc-4592-9821-4993863cd7a6",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "phae.controlroom"
+					}
+				],
+				"tags" : 
+				[
+					"ACTORTRACK"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						11.65537166595459,
+						-7.0545330047607422,
+						-5.9966001510620117
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "faca7062-40e1-47e4-98a6-97c82bd8724d",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : "quest_mysterious_signal.spawnPhae"
+					},
+					{
+						"descName" : "questActorParams",
+						"jsonRoot" : 
+						{
+							"actorName" : "mechanic_male_03",
+							"characterUuid" : "7fe46b47-77aa-45b5-9476-3a9d6737aa4b",
+							"spawnTrack" : "mechanic03.controlroom"
+						},
+						"templateUuid" : "ec540379-88a3-4bd0-ac91-0ebdf2965204",
+						"type" : "jsonTemplate"
+					}
+				],
+				"tags" : 
+				[
+					"GENERAL_QUESTACTOR",
+					"SPAWNABLE_UNIT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						12.34458065032959,
+						-9.1758098602294922,
+						-6.1924924850463867
+					],
+					"rotation" : 
+					[
+						-89.999961853027344,
+						-18.620880126953125,
+						-179.99998474121094
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "206b1285-29d2-4e5d-ba08-7de2cec89965",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "actorTrack",
+						"jsonRoot" : 
+						{
+							"actorTrack" : 
+							{
+								"actorTrack" : 
+								[
+									{
+										"commands" : 
+										[
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "notify.phae_player_arrived",
+												"seconds" : 0
+											},
+											{
+												"characterEvent" : "emote_cower_loop",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 4
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 3
+											},
+											{
+												"characterEvent" : "emote_cower_out",
+												"delay" : 2,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											},
+											{
+												"characterEvent" : "emote_wohoo",
+												"delay" : 1,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										]
+									},
+									{
+										"commands" : 
+										[
+											{
+												"characterEvent" : "emote_doublethumbup",
+												"cooldown" : 3,
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"interactionText" : "#{INTERACTION_INTERACT}",
+												"name" : "interactiveWait",
+												"notifyActorEvent" : "forever",
+												"repeating" : true,
+												"uuid" : "00000000-0000-0000-0000-000000000000"
+											},
+											{
+												"delay" : 0,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											30.6142578125,
+											0.0,
+											-13.39520263671875
+										],
+										"rotation" : 
+										[
+											-179.99990844726562,
+											50.235736846923828,
+											179.99998474121094
+										]
+									}
+								]
+							}
+						},
+						"templateUuid" : "e03d8b3d-9ebc-4592-9821-4993863cd7a6",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "mechanic03.controlroom"
+					}
+				],
+				"tags" : 
+				[
+					"ACTORTRACK"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						12.35416316986084,
+						-9.2043132781982422,
+						-6.1881742477416992
+					],
+					"rotation" : 
+					[
+						-89.999961853027344,
+						-18.620880126953125,
+						-179.99998474121094
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "da2ec163-ddcd-443d-b4b1-f395d4f541de",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "actorTrack",
+						"jsonRoot" : 
+						{
+							"actorTrack" : 
+							{
+								"actorTrack" : 
+								[
+									{
+										"commands" : 
+										[
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "notify.phae_player_arrived",
+												"seconds" : 0
+											},
+											{
+												"characterEvent" : "emote_countdown_loop",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 0.5
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 1.6000000238418579
+											},
+											{
+												"characterEvent" : "emote_surprised",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											3.107696533203125,
+											0.0,
+											0.2874755859375
+										],
+										"rotation" : 
+										[
+											-2.9455188268912025e-05,
+											-1.0245279554510489e-05,
+											-1.1952833119721618e-05
+										]
+									},
+									{
+										"commands" : 
+										[
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 2
+											},
+											{
+												"characterEvent" : "emote_wohoo",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											23.95794677734375,
+											-0.24658203125,
+											-11.48583984375
+										],
+										"rotation" : 
+										[
+											-179.99974060058594,
+											47.14154052734375,
+											179.99984741210938
+										]
+									},
+									{
+										"commands" : 
+										[
+											{
+												"characterEvent" : "emote_thumbup",
+												"cooldown" : 3,
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"interactionText" : "#{INTERACTION_INTERACT}",
+												"name" : "interactiveWait",
+												"notifyActorEvent" : "forever",
+												"repeating" : true,
+												"uuid" : "00000000-0000-0000-0000-000000000000"
+											},
+											{
+												"delay" : 0,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											52.9788818359375,
+											-1.285888671875,
+											-38.8966064453125
+										],
+										"rotation" : 
+										[
+											-7.6266085670795292e-05,
+											-33.493839263916016,
+											-0.00011567424371605739
+										]
+									}
+								]
+							}
+						},
+						"templateUuid" : "e03d8b3d-9ebc-4592-9821-4993863cd7a6",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "mechanic04.controlroom"
+					}
+				],
+				"tags" : 
+				[
+					"ACTORTRACK"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-1.5197992324829102,
+						-26.868070602416992,
+						-5.6209592819213867
+					],
+					"rotation" : 
+					[
+						89.999931335449219,
+						33.734447479248047,
+						2.4904100428102538e-05
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "b1f7f3db-ef1d-4f77-8ad7-d8eedcad7544",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : "quest_mysterious_signal.spawnPhae"
+					},
+					{
+						"descName" : "questActorParams",
+						"jsonRoot" : 
+						{
+							"actorName" : "mechanic_male_04",
+							"characterUuid" : "21429dd0-a0d4-4653-8326-9860907232f3",
+							"spawnTrack" : "mechanic04.controlroom"
+						},
+						"templateUuid" : "ec540379-88a3-4bd0-ac91-0ebdf2965204",
+						"type" : "jsonTemplate"
+					}
+				],
+				"tags" : 
+				[
+					"GENERAL_QUESTACTOR",
+					"SPAWNABLE_UNIT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-0.94588565826416016,
+						-26.190092086791992,
+						-5.6252927780151367
+					],
+					"rotation" : 
+					[
+						89.999923706054688,
+						33.734443664550781,
+						2.3952585252118297e-05
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "ef9ad759-afb7-472e-947a-e258e7a49824",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "actorTrack",
+						"jsonRoot" : 
+						{
+							"actorTrack" : 
+							{
+								"actorTrack" : 
+								[
+									{
+										"commands" : 
+										[
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "notify.phae_player_arrived",
+												"seconds" : 0
+											},
+											{
+												"characterEvent" : "explain_loop",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 3
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 3
+											},
+											{
+												"characterEvent" : "explain_out",
+												"delay" : 1,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0.5,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											},
+											{
+												"characterEvent" : "emote_doublethumbup",
+												"delay" : 1,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										]
+									},
+									{
+										"commands" : 
+										[
+											{
+												"characterEvent" : "emote_wohoo",
+												"cooldown" : 3,
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"interactionText" : "#{INTERACTION_INTERACT}",
+												"name" : "interactiveWait",
+												"notifyActorEvent" : "forever",
+												"repeating" : true,
+												"uuid" : "00000000-0000-0000-0000-000000000000"
+											},
+											{
+												"delay" : 0,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											-34.9072265625,
+											-0.0001220703125,
+											-23.5400390625
+										],
+										"rotation" : 
+										[
+											-179.99993896484375,
+											-12.089394569396973,
+											-179.99995422363281
+										]
+									}
+								]
+							}
+						},
+						"templateUuid" : "e03d8b3d-9ebc-4592-9821-4993863cd7a6",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "mechanic02.controlroom"
+					}
+				],
+				"tags" : 
+				[
+					"ACTORTRACK"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-5.4666986465454102,
+						-9.1069011688232422,
+						-5.9381589889526367
+					],
+					"rotation" : 
+					[
+						-89.999977111816406,
+						3.3957092761993408,
+						-179.99998474121094
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "34f579d3-f437-48c2-bfe1-b6e17a328ff0",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : "quest_mysterious_signal.spawnPhae"
+					},
+					{
+						"descName" : "questActorParams",
+						"jsonRoot" : 
+						{
+							"actorName" : "mechanic_male_02",
+							"characterUuid" : "5a22c658-58bd-4ed8-b890-2b6317645a59",
+							"spawnTrack" : "mechanic02.controlroom"
+						},
+						"templateUuid" : "ec540379-88a3-4bd0-ac91-0ebdf2965204",
+						"type" : "jsonTemplate"
+					}
+				],
+				"tags" : 
+				[
+					"GENERAL_QUESTACTOR",
+					"SPAWNABLE_UNIT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-5.4649896621704102,
+						-9.0767498016357422,
+						-5.9424924850463867
+					],
+					"rotation" : 
+					[
+						-89.999977111816406,
+						3.3957078456878662,
+						180.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "432833c0-f9c9-4cd3-9f9c-eb0646e86985",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "actorTrack",
+						"jsonRoot" : 
+						{
+							"actorTrack" : 
+							{
+								"actorTrack" : 
+								[
+									{
+										"commands" : 
+										[
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "notify.phae_player_arrived",
+												"seconds" : 0
+											},
+											{
+												"characterEvent" : "emote_r_gesture_loop",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 3.5
+											},
+											{
+												"delay" : 0,
+												"idle" : false,
+												"incrementalDelay" : false,
+												"name" : "wait",
+												"notifyActorEvent" : "",
+												"seconds" : 3
+											},
+											{
+												"characterEvent" : "explain_out",
+												"delay" : 0.5,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											},
+											{
+												"delay" : 0.20000000298023224,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											},
+											{
+												"characterEvent" : "emote_confused",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										]
+									},
+									{
+										"commands" : 
+										[
+											{
+												"characterEvent" : "emote_confused",
+												"cooldown" : 3,
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"interactionText" : "#{INTERACTION_INTERACT}",
+												"name" : "interactiveWait",
+												"notifyActorEvent" : "",
+												"repeating" : true,
+												"uuid" : "00000000-0000-0000-0000-000000000000"
+											},
+											{
+												"delay" : 0,
+												"enabled" : true,
+												"incrementalDelay" : false,
+												"name" : "setFacePlayer"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											46.693103790283203,
+											-1.9997482299804688,
+											-15.875888824462891
+										],
+										"rotation" : 
+										[
+											-179.99908447265625,
+											79.507286071777344,
+											179.99923706054688
+										]
+									}
+								]
+							}
+						},
+						"templateUuid" : "e03d8b3d-9ebc-4592-9821-4993863cd7a6",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "mechanic01.controlroom"
+					}
+				],
+				"tags" : 
+				[
+					"ACTORTRACK"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-6.1554803848266602,
+						-3.9258708953857422,
+						-5.6924924850463867
+					],
+					"rotation" : 
+					[
+						89.999397277832031,
+						-79.658477783203125,
+						-0.00055540725588798523
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "d3d241d7-986d-4eab-b62a-b721f098e4b7",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : "quest_mysterious_signal.spawnPhae"
+					},
+					{
+						"descName" : "questActorParams",
+						"jsonRoot" : 
+						{
+							"actorName" : "mechanic_male_01",
+							"characterUuid" : "1619be1c-6660-475c-909c-6933bf3fe5d6",
+							"spawnTrack" : "mechanic01.controlroom"
+						},
+						"templateUuid" : "ec540379-88a3-4bd0-ac91-0ebdf2965204",
+						"type" : "jsonTemplate"
+					}
+				],
+				"tags" : 
+				[
+					"GENERAL_QUESTACTOR",
+					"SPAWNABLE_UNIT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						-5.8695917129516602,
+						-3.9635906219482422,
+						-5.9424924850463867
+					],
+					"rotation" : 
+					[
+						89.999748229980469,
+						-58.541141510009766,
+						-0.00017785139789339155
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "2328f09c-18ba-4290-b0d7-911545587eae",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "isSideQuest",
+						"type" : "bool",
+						"value" : false
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "quest_mysterious_signal.controlroom"
+					},
+					{
+						"descName" : "visibleFar",
+						"type" : "bool",
+						"value" : false
+					}
+				],
+				"tags" : 
+				[
+					"QUESTMARKER"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						2.0945196151733398,
+						-18.925870895385742,
+						-0.67759990692138672
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 76561198003999920,
+		"uuid" : "f24e3223-ccbe-4a0f-a903-020a78726888"
+	}
+}

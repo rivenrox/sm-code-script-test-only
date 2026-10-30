@@ -1,0 +1,182 @@
+{
+	"template_meta": {
+		"uuid": "3e8f2a7c-d514-4b6e-9a3f-8c7d6e5f4a2b",
+		"name": "Carry Config",
+		"display": "carryconfig",
+		"pattern": "*.carryconfig",
+		"constDataStoreAllNames": true
+	},
+
+	"carryTypePriority_meta": { "type": "array", "value_meta": { "type": "string", "optionsFromValue": "../../carryTypes" }, "label": "Carry Type Priority", "toolTip": "Ordered list of carry types used for automatic size-based type matching" },
+	"carryTypePriority": [""],
+
+	"carryTypes_meta": { "type": "map", "label": "Carry Types" },
+	"carryTypes": {
+		"typeName": {
+
+			"size_meta": { "optional": true, "toolTip": "Size range in blocks for automatic carry type matching. Null for override-only types." },
+			"size": {
+				"footprint": {
+					"min_meta": { "type": "uint", "min": 0, "max": 100 },
+					"min": 0,
+					"max_meta": { "type": "uint", "min": 0, "max": 100 },
+					"max": 1
+				},
+				"height": {
+					"min_meta": { "type": "uint", "min": 0, "max": 100 },
+					"min": 0,
+					"max_meta": { "type": "uint", "min": 0, "max": 100 },
+					"max": 1
+				}
+			},
+
+			"transform": {
+				"tp_meta": { "label": "Third Person" },
+				"tp": {
+					"gripOffset_meta": { "type": "vec3", "label": "Grip Offset" },
+					"gripOffset": [0.0, 0.0, 0.0],
+					"rotation_meta": { "type": "vec3", "label": "Rotation (Euler Degrees)" },
+					"rotation": [0.0, 0.0, 0.0],
+					"scale_meta": { "type": "vec3" },
+					"scale": [0.25, 0.25, 0.25],
+					"extentOffsetScalar_meta": { "type": "vec3", "optional": true, "label": "Extent Offset Scalar", "toolTip": "Multiplier (0-1) applied to rotatedHalfExtent to compute a type-specific carry offset." },
+					"extentOffsetScalar": [0.0, 0.0, 0.0],
+					"boneCorrection_meta": { "label": "Bone Correction (angle-axis)", "toolTip": "Rotation correction applied to the bone in third person. Angle in radians." },
+					"boneCorrection": {
+						"angle_meta": { "type": "float", "min": -360.0, "max": 360.0, "label": "Angle (radians)" },
+						"angle": 0.0,
+						"axis_meta": { "type": "vec3", "label": "Axis" },
+						"axis": [0.0, 1.0, 0.0]
+					},
+					"orientationStrategy_meta": { "type": "string", "options": [ "longest", "medium", "smallest", "fixed"], "label": "Orientation (TP)", "toolTip": "Which shape axis (by size rank) to lock onto the primary axis (in attachment bone local space). longest=largest dimension, medium=middle dimension, smallest=shortest dimension, fixed=use fixedRotation." },
+					"orientationStrategy": "smallest",
+					"primaryAxis_meta": { "type": "string", "options": ["x", "y", "z"], "label": "Primary Axis (TP)", "toolTip": "The axis (in attachment bone local space) to lock the selected shape axis onto. z=bone up, y=bone forward, x=bone lateral. Ignored when orientationStrategy is 'fixed'." },
+					"primaryAxis": "z",
+					"facingStrategy_meta": { "type": "string", "optional": true, "options": ["along", "across"], "label": "Facing Strategy (TP)", "toolTip": "Secondary rotation around the primary axis (in attachment bone local space). Orients the longer of the two remaining shape axes: along=toward bone forward (Y), across=toward bone lateral (X)." },
+					"facingStrategy": "",
+					"fixedRotation_meta": { "type": "vec3", "optional": true, "label": "Fixed Rotation TP (Euler Degrees)", "toolTip": "Rotation applied when orientationStrategy is 'fixed' in third person." },
+					"fixedRotation": [0.0, 0.0, 0.0]
+				},
+				"fp_meta": { "label": "First Person" },
+				"fp": {
+					"gripOffset_meta": { "type": "vec3", "label": "Grip Offset" },
+					"gripOffset": [0.0, 0.0, 0.0],
+					"rotation_meta": { "type": "vec3", "label": "Rotation (Euler Degrees)" },
+					"rotation": [0.0, 0.0, 0.0],
+					"scale_meta": { "type": "vec3" },
+					"scale": [0.25, 0.25, 0.25],
+					"extentOffsetScalar_meta": { "type": "vec3", "optional": true, "label": "Extent Offset Scalar", "toolTip": "Multiplier (0-1) applied to rotatedHalfExtent to compute a type-specific carry offset." },
+					"extentOffsetScalar": [0.0, 0.0, 0.0],
+					"boneCorrection_meta": { "label": "Bone Correction (angle-axis)", "toolTip": "Rotation correction applied to the bone in first person. Angle in radians." },
+					"boneCorrection": {
+						"angle_meta": { "type": "float", "min": -360.0, "max": 360.0, "label": "Angle (radians)" },
+						"angle": 0.0,
+						"axis_meta": { "type": "vec3", "label": "Axis" },
+						"axis": [0.0, 1.0, 0.0]
+					},
+					"orientationStrategy_meta": { "type": "string", "options": [ "longest", "medium", "smallest", "fixed"], "label": "Orientation (FP)", "toolTip": "Which shape axis (by size rank) to lock onto the primary axis (in attachment bone local space). longest=largest dimension, medium=middle dimension, smallest=shortest dimension, fixed=use fixedRotation." },
+					"orientationStrategy": "smallest",
+					"primaryAxis_meta": { "type": "string", "options": ["x", "y", "z"], "label": "Primary Axis (FP)", "toolTip": "The axis (in attachment bone local space) to lock the selected shape axis onto. z=bone up, y=bone forward, x=bone lateral. Ignored when orientationStrategy is 'fixed'." },
+					"primaryAxis": "z",
+					"facingStrategy_meta": { "type": "string", "optional": true, "options": ["along", "across"], "label": "Facing Strategy (FP)", "toolTip": "Secondary rotation around the primary axis (in attachment bone local space). Orients the longer of the two remaining shape axes: along=toward bone forward (Y), across=toward bone lateral (X)." },
+					"facingStrategy": "",
+					"fixedRotation_meta": { "type": "vec3", "optional": true, "label": "Fixed Rotation FP (Euler Degrees)", "toolTip": "Rotation applied when orientationStrategy is 'fixed' in first person." },
+					"fixedRotation": [0.0, 0.0, 0.0]
+				},
+				"primaryBone_meta": { "options": ["jnt_right_weapon", "jnt_right_hand", "jnt_left_hand"], "label": "Attachment Bone" },
+				"primaryBone": "jnt_right_hand",
+
+				"secondaryBone_meta": { "options": ["jnt_right_weapon", "jnt_right_hand", "jnt_left_hand"], "label": "Constraint Bone" },
+				"secondaryBone": "jnt_left_hand"
+			},
+
+			"animation": {
+				"prefix_meta": { "type": "string", "label": "Animation Prefix" },
+				"prefix": "",
+				"tp_meta": { "type": "array", "value_meta": { "type": "filepath" }, "label": "TP Renderables" },
+				"tp": [],
+				"fp_meta": { "type": "array", "value_meta": { "type": "filepath" }, "label": "FP Renderables" },
+				"fp": [],
+				"extraTpAnims_meta": { "optional": true, "editable": true, "label": "Extra TP Animations" },
+				"extraTpAnims": {},
+				"extraFpAnims_meta": { "optional": true, "editable": true, "label": "Extra FP Animations" },
+				"extraFpAnims": {},
+				"movementOverrides_meta": { "optional": true, "editable": true, "label": "Movement Overrides" },
+				"movementOverrides": {},
+				"fpOverrides_meta": { "optional": true, "editable": true, "label": "FP Overrides" },
+				"fpOverrides": {},
+				"animObject_meta": { "type": "array", "value_meta": { "type": "filepath" }, "optional": true, "label": "Anim Object Renderables" },
+				"animObject": []
+			},
+
+			"requireEqualSides _meta": {"type": "bool" , "label" : "Uniform shapes only"},
+			"requireEqualSides" : false,
+
+			"sizeBend_meta": { "type": "array", "value_meta": { "type": "float", "min": 0.0, "max": 1.0 }, "optional": true, "label": "Size Bend Values", "toolTip": "Array indexed by footprint width. Used for bucket-style size bending." },
+			"sizeBend": [],
+
+			"sizeBendDefault_meta": { "type": "float", "optional": true, "min": 0.0, "max": 1.0, "label": "Size Bend Default" },
+			"sizeBendDefault": 0.5,
+
+			"effectStartTimer_meta": { "type": "float", "optional": true, "min": 0.0, "max": 5.0, "label": "Effect start timer" },
+			"effectStartTimer": 0.5,
+
+			"pickupEffects_meta": { "type": "array", "optional": true, "label": "Pickup Effects", "toolTip": "Effects to play when picking up specific items" },
+			"pickupEffects": [
+				{
+					"uuid_meta": { "type": "uuid", "label": "Item UUID" },
+					"uuid": "00000000-0000-0000-0000-000000000000",
+					"effectName_meta": { "type": "string", "label": "Effect Name" },
+					"effectName": ""
+				}
+			]
+
+		}
+	},
+
+	"itemOverrides_meta": { "valueAsLabel": "uuid", "label": "Item Overrides", "toolTip": "Per-UUID overrides for specific items" },
+	"itemOverrides": [
+		{
+			"uuid_meta": { "type": "uuid", "order": 1 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"type_meta": { "optional": true, "order": 3, "label": "Carry Type Override", "optionsFromValue": "../../carryTypes" },
+			"type": "",
+
+			"blocksEffect_meta": { "type": "bool", "optional": true, "label": "Blocks Effect" },
+			"blocksEffect": false,
+
+			"pickupEffects_meta": { "type": "array", "optional": true, "label": "Pickup Effects", "toolTip": "Effects to play when picking up this item" },
+			"pickupEffects": [
+				{
+					"uuid_meta": { "type": "uuid", "label": "Item UUID" },
+					"uuid": "00000000-0000-0000-0000-000000000000",
+					"effectName_meta": { "type": "string", "label": "Effect Name" },
+					"effectName": ""
+				}
+			],
+
+			"overrideTransform_meta": { "optional": true, "label": "Override Transform" },
+			"overrideTransform": {
+				"tp_meta": { "optional": true, "label": "Third Person" },
+				"tp": {
+					"gripOffset_meta": { "type": "vec3", "label": "Grip Offset" },
+					"gripOffset": [0.0, 0.0, 0.0],
+					"rotation_meta": { "type": "vec3", "label": "Rotation (Euler Degrees)" },
+					"rotation": [0.0, 0.0, 0.0],
+					"scale_meta": { "type": "vec3" },
+					"scale": [0.25, 0.25, 0.25]
+				},
+				"fp_meta": { "optional": true, "label": "First Person" },
+				"fp": {
+					"gripOffset_meta": { "type": "vec3", "label": "Grip Offset" },
+					"gripOffset": [0.0, 0.0, 0.0],
+					"rotation_meta": { "type": "vec3", "label": "Rotation (Euler Degrees)" },
+					"rotation": [0.0, 0.0, 0.0],
+					"scale_meta": { "type": "vec3" },
+					"scale": [0.25, 0.25, 0.25]
+				}
+			}
+		}
+	]
+}

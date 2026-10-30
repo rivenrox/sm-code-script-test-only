@@ -1,0 +1,885 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 
+				[
+					0.0,
+					3.0
+				],
+				"color" : 
+				[
+					0.0,
+					0.62352,
+					0.89802,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.25,
+					0.25
+				],
+				"depth" : 
+				[
+					4.5,
+					1.5
+				],
+				"diffuse" : "Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.282,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.61842
+							],
+							[
+								0.27384,
+								0.80263
+							],
+							[
+								0.61536,
+								0.93421
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "resources/encryptor/p_emissionmesh_barrier_01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.5,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 25,
+				"name" : "GlowSmoke",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 500,
+				"time_to_live" : 
+				[
+					0.2,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					0.0,
+					0.1
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.25
+				]
+			},
+			{
+				"angle" : 
+				[
+					0.0,
+					3.0
+				],
+				"color" : 
+				[
+					0.32811,
+					0.59055,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.25,
+					0.25
+				],
+				"depth" : 
+				[
+					4.5,
+					1.5
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning03.tga",
+				"direction_type" : "shape",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.38547,
+								0.18919
+							],
+							[
+								1.0,
+								0.96732
+							]
+						],
+						"guid" : 4,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.11828,
+								[
+									0.4492,
+									0.574,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.887,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.52302
+							],
+							[
+								1.0,
+								0.65789
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "resources/encryptor/p_emissionmesh_barrier_02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 15,
+				"friction" : 5.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 
+				[
+					2.0,
+					0.5
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "Lightning 01",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 10241,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "mesh",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				]
+			},
+			{
+				"ASG_map" : "resources/encryptor/p_mesh_encryptor_lightning_asg.tga",
+				"category" : "1",
+				"color" : 
+				[
+					0.27599,
+					0.28268,
+					0.29686,
+					1.0
+				],
+				"direction" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 10,
+						"guid" : 8,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 15.0,
+				"guid" : 7,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "resources/encryptor/p_mesh_barrier_lightning_01.fbx",
+				"mesh_diffuse" : "resources/encryptor/p_mesh_encryptor_lightning_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Lightning 01 1 ",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.15005,
+					-0.38601
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.05,
+					0.025
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "resources/encryptor/p_mesh_encryptor_lightning_asg.tga",
+				"category" : "1",
+				"color" : 
+				[
+					0.27599,
+					0.28268,
+					0.29686,
+					1.0
+				],
+				"delay" : 0.03299,
+				"direction" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 10,
+						"guid" : 10,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 15.0,
+				"guid" : 9,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "resources/encryptor/p_mesh_barrier_lightning_01.fbx",
+				"mesh_diffuse" : "resources/encryptor/p_mesh_encryptor_lightning_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Lightning 01 2 ",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.15005,
+					-0.38601
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.086,
+					0.025
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"ASG_map" : "resources/encryptor/p_mesh_encryptor_lightning_asg.tga",
+				"category" : "2",
+				"delay" : 0.03299,
+				"direction" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 10,
+						"guid" : 12,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 15.0,
+				"guid" : 11,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "resources/encryptor/p_mesh_barrier_lightning_01.fbx",
+				"mesh_diffuse" : "resources/encryptor/p_mesh_encryptor_lightning_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Lightning 02 1 ",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.55002,
+					-0.15005,
+					0.0
+				],
+				"rotation" : 90.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.086,
+					0.025
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"ASG_map" : "resources/encryptor/p_mesh_encryptor_lightning_asg.tga",
+				"category" : "2",
+				"delay" : 0.03299,
+				"direction" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 10,
+						"guid" : 14,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 15.0,
+				"guid" : 13,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "resources/encryptor/p_mesh_barrier_lightning_01.fbx",
+				"mesh_diffuse" : "resources/encryptor/p_mesh_encryptor_lightning_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Lightning 02 2 ",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.45,
+					-0.15005,
+					0.0
+				],
+				"rotation" : 270.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.086,
+					0.025
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"ASG_map" : "resources/encryptor/p_mesh_encryptor_lightning_asg.tga",
+				"category" : "3",
+				"color" : 
+				[
+					0.27599,
+					0.28268,
+					0.29686,
+					1.0
+				],
+				"delay" : 0.25,
+				"direction" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 10,
+						"guid" : 16,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 15.0,
+				"guid" : 15,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "resources/encryptor/p_mesh_barrier_lightning_01.fbx",
+				"mesh_diffuse" : "resources/encryptor/p_mesh_encryptor_lightning_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Lightning 01 1 ",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.55,
+					-0.15005,
+					0.0
+				],
+				"rotation" : 270.0,
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1.0
+				],
+				"spawn_chance" : 0.33,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.05,
+					0.025
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"ASG_map" : "resources/encryptor/p_mesh_encryptor_lightning_asg.tga",
+				"category" : "4",
+				"color" : 
+				[
+					0.27599,
+					0.28268,
+					0.29686,
+					1.0
+				],
+				"delay" : 0.125,
+				"direction" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.5,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 10,
+						"guid" : 18,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5,
+				"glow" : true,
+				"glow_strength" : 15.0,
+				"guid" : 17,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "resources/encryptor/p_mesh_barrier_lightning_01.fbx",
+				"mesh_diffuse" : "resources/encryptor/p_mesh_encryptor_lightning_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Lightning 01 2 ",
+				"normal_map" : "resources/misc/p_default_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.15005,
+					0.386
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1.0
+				],
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					1,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.086,
+					0.025
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 180.0,
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Lightning/p_lightning_lightning04.tga",
+				"direction_type" : "shape",
+				"duration" : 1.5,
+				"editorColor" : 
+				[
+					0.6875,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 8,
+						"fps" : 30,
+						"guid" : 20,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.19529,
+									0.52906,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.84788,
+								[
+									0.87889,
+									0.95458,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									1.0
+								]
+							]
+						],
+						"guid" : 21,
+						"name" : "Color"
+					}
+				],
+				"emission_mesh" : "resources/encryptor/p_emissionmesh_barrier_02.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"glow" : true,
+				"glow_strength" : 0.6,
+				"guid" : 19,
+				"height" : 0.100000001,
+				"keep_local" : true,
+				"max_particles" : 100,
+				"min_quality" : "high",
+				"name" : "LightningSurge1   [low]",
+				"power_glow" : true,
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 0.125,
+				"type" : "mesh",
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 0.200000003,
+				"z_offset" : 10.0
+			}
+		],
+		"min_quality" : "high"
+	}
+}

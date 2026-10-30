@@ -1,0 +1,40 @@
+{
+	"template_meta": {
+		"uuid" : "3044fd8c-92f4-44de-83d5-9ac6df876593",
+		"name":"Patrol",
+		"display": "patrol",
+		"root_meta": { "type": "map" }
+	},
+
+	"patrol":
+	{
+		"patrol_meta": {
+			"order":1,
+			"valueAsLabel": ["label"],
+			"valueSuffix": " - Waypoint",
+			"value_meta": {
+				"color": "#29402d",
+				"startCollapsed" : true,
+				"displayTransform" :
+				{
+					"renderableFromEntity": true,
+					"color": [0.6, 0.6, 0.6, 0.6],
+					"cameraView": false,
+					"position":"position"
+				}
+			}
+		},
+		"patrol": [
+			{
+				"label_meta" : { "optional": true, "order":0 },
+				"label" : "",
+
+				"position_meta": { "type":"vec3", "order":1 },
+				"position": [0.0, 0.0, 0.0],
+
+				"delay_meta" : { "optional": true, "order":2, "min":0.0 },
+				"delay": 0.0
+			}
+		]
+	}
+}

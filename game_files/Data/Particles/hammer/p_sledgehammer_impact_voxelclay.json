@@ -1,0 +1,773 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"color" : 
+				[
+					0.56076,
+					0.39215,
+					0.29019,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.125,
+					0.25
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.05998,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.2,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.54929,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.595
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.4,
+						"guid" : 2,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.27
+							],
+							[
+								0.14968,
+								0.34705
+							],
+							[
+								0.77231,
+								0.97934
+							],
+							[
+								1.0,
+								1.07351
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 1.2,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"friction" : 8.0,
+				"guid" : 0,
+				"height" : 
+				[
+					5.0,
+					1.0
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"min_quality" : "high",
+				"name" : "Smoke flash impact (High)",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sphere_radius" : 0.25,
+				"time_to_live" : 
+				[
+					0.3,
+					0.05
+				],
+				"translucency" : 0.67,
+				"type" : "hemisphere",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.5
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"category" : "2",
+				"color" : 
+				[
+					0.56076,
+					0.39215,
+					0.29019,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 0.1,
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "row",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 5,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.72263,
+									0.72263,
+									0.72263,
+									1.0
+								]
+							],
+							[
+								0.76901,
+								[
+									0.77732,
+									0.77732,
+									0.77732,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.63669,
+									0.63669,
+									0.63669,
+									0.0
+								]
+							]
+						],
+						"guid" : 6,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.43647,
+								0.54654
+							],
+							[
+								0.74716,
+								0.68624
+							],
+							[
+								1.0,
+								0.88235
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 7,
+						"length" : 0.34999,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								-0.61844
+							]
+						],
+						"guid" : 8,
+						"local" : false,
+						"max" : 1.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.625
+							],
+							[
+								1.0,
+								1.47368
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 5.0,
+				"guid" : 4,
+				"height" : 
+				[
+					2.0,
+					0.2
+				],
+				"keep_local" : true,
+				"max_particles" : 4,
+				"min_quality" : "medium",
+				"name" : "Dust (Medium)",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 3000,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"translucency" : 0.67,
+				"type" : "cone",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.2
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/claygun/p_claygun_shockwave_splash_asg.tga",
+				"category" : "3",
+				"circle_angle" : 85.0,
+				"color" : 
+				[
+					0.5647,
+					0.39607,
+					0.29411,
+					1.0
+				],
+				"depth" : 
+				[
+					3.0,
+					0.25
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.52732,
+					1.0,
+					0.61224,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.10852
+							],
+							[
+								0.14767,
+								0.74671
+							],
+							[
+								0.28,
+								0.92434
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 12,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 3,
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								180.0
+							],
+							[
+								1.0,
+								180.0
+							]
+						],
+						"guid" : 13,
+						"max" : 180.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"glow" : true,
+				"glow_strength" : 0.25,
+				"guid" : 10,
+				"height" : 
+				[
+					3.0,
+					0.25
+				],
+				"keep_local" : true,
+				"material_name" : "MatCapUvAnimAlphaFlip",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/foamgun/p_mesh_foam_splashplane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "medium",
+				"name" : "Base Splash 3  [medium]",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splatter_shockwave_nor.tga",
+				"particle" : "mesh",
+				"radius" : 0.05,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.3,
+					0.1
+				],
+				"type" : "circle",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.25
+				]
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/claygun/p_claygun_splatter03_asg.tga",
+				"category" : "3",
+				"color" : 
+				[
+					0.5647,
+					0.39607,
+					0.29411,
+					1.0
+				],
+				"depth" : 
+				[
+					1.0,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.59715,
+					1.0,
+					0.48436,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.2307,
+								1.27629
+							],
+							[
+								0.56,
+								1.67104
+							],
+							[
+								1.0,
+								1.88812
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 24,
+						"fps" : 30,
+						"guid" : 16,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 17,
+						"max" : 90.0,
+						"name" : "RotationOverTime"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.2307,
+								1.27629
+							],
+							[
+								0.56,
+								1.67104
+							],
+							[
+								1.0,
+								1.88812
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5000,
+				"guid" : 14,
+				"keep_local" : false,
+				"material_name" : "MatCapUvAnimAlphaFlip",
+				"max_particles" : 5,
+				"mesh" : "$GAME_DATA/Particles/resources/hvs/hvs_mud/p_mesh_hvs_mud_plane01.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "medium",
+				"name" : "SplashPlane1 (Medium)",
+				"normal_map" : "$GAME_DATA/Particles/resources/watersplashes/p_mesh_watersplash_anim_06_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					3,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"category" : "3",
+				"color" : 
+				[
+					0.56638,
+					0.39631,
+					0.29425,
+					1.0
+				],
+				"depth" : 
+				[
+					0.5,
+					0.125
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.20316
+							],
+							[
+								0.22461,
+								0.95393
+							],
+							[
+								0.47692,
+								1.3947
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16347,
+								0.39171
+							],
+							[
+								0.26539,
+								0.55961
+							],
+							[
+								0.42675,
+								0.66666
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 21,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 22,
+						"name" : "Pose",
+						"time" : 0.75
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 19,
+				"height" : 
+				[
+					0.5,
+					0.125
+				],
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "0",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/claygun/p_renderable_claygun_splattershape.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					1.0
+				],
+				"sub_emit" : "birth",
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 
+				[
+					0.44999,
+					0.1
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.125
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

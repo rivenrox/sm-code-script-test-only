@@ -1,0 +1,654 @@
+{
+	"entities" : 
+	{
+		"grids" : 
+		[
+			{
+				"guid" : "266b2226-954a-4e53-b3fd-45115cb81d06",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					]
+				}
+			}
+		],
+		"harvestables" : [],
+		"kinematics" : 
+		[
+			{
+				"color" : "#E3350DFF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "9c50de3c-6cba-43f2-b687-6adc0441bde9",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "Waggon_Main"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false,
+								"track" : 
+								[
+									{
+										"attachedEffects" : 
+										[
+											{
+												"effectName" : "Bosstrain - Trackthruster",
+												"identifier" : "",
+												"offsetPosition" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"offsetRotation" : 
+												[
+													0.0,
+													0.0,
+													0.0
+												],
+												"persistentActivation" : false,
+												"repeatable" : false
+											}
+										],
+										"duration" : 1,
+										"durationFromSpeed" : false,
+										"easing" : "easeInOutSine",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-0.5577390193939209,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1
+									},
+									{
+										"duration" : 1,
+										"durationFromSpeed" : true,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											-0.5577390193939209,
+											-0.0012209999840706587,
+											-26.374267578125
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 55
+									},
+									{
+										"duration" : 1.2000000476837158,
+										"durationFromSpeed" : false,
+										"easing" : "easeOutExpo",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											-0.0021440000273287296,
+											-1754.54345703125
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 80
+									},
+									{
+										"duration" : 15,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											-0.0020679999142885208,
+											-1771.7757568359375
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1
+									},
+									{
+										"duration" : 15,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											-0.0018769999733194709,
+											-1671.564208984375
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : false
+									},
+									{
+										"duration" : 15,
+										"durationFromSpeed" : false,
+										"easing" : "linear",
+										"inheritDuration" : false,
+										"position" : 
+										[
+											0.0,
+											-1.5019650459289551,
+											-1772.2840576171875
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"speed" : 1,
+										"stop" : false
+									}
+								]
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						22.720987319946289,
+						-443.00210571289062,
+						6.4764261245727539
+					],
+					"rotation" : 
+					[
+						89.999870300292969,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "3b0123f1-f795-4464-89e7-0e7417cb4f08"
+			},
+			{
+				"color" : "#D25016FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "84f2da4c-71fb-494f-b95e-ad0fe2600fab",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "Waggon_Main"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : true
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						20.669536590576172,
+						-436.82489013671875,
+						6.4161076545715332
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "b3768349-242d-4219-9794-b49a922cfa50"
+			},
+			{
+				"color" : "#D25016FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "e4981dcf-d649-4d2c-9051-6be33b943726",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "Waggon_Main"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : true
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						24.794506072998047,
+						-436.82064819335938,
+						6.4160151481628418
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "b3768349-242d-4219-9794-b49a922cfa50"
+			},
+			{
+				"color" : "#D25016FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "690f7915-e2a3-4957-88e3-fe4c88a9bb41",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "Waggon_Main"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : true
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						20.669536590576172,
+						-449.2005615234375,
+						6.3973393440246582
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "b3768349-242d-4219-9794-b49a922cfa50"
+			},
+			{
+				"color" : "#D25016FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "f7a5effb-3c46-4d3a-a985-5c92a8ce2c71",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "Waggon_Main"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : true
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						24.789430618286133,
+						-449.19537353515625,
+						6.4160151481628418
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "b3768349-242d-4219-9794-b49a922cfa50"
+			},
+			{
+				"color" : "#D25016FF",
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "1c4ae528-16ac-40c9-8048-838a770e4314",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "parentedKinematic",
+						"jsonRoot" : 
+						{
+							"rootName" : "Waggon_Main"
+						},
+						"templateUuid" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : true
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						22.731826782226562,
+						-443.0130615234375,
+						6.4159846305847168
+					],
+					"rotation" : 
+					[
+						89.999984741210938,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "b3768349-242d-4219-9794-b49a922cfa50"
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "5b90e683-5cb4-498b-a319-ff18230e2ddb",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "eventName",
+						"type" : "string",
+						"value" : ""
+					},
+					{
+						"descName" : "questActorParams",
+						"jsonRoot" : 
+						{
+							"actorName" : "DrillbotPhe",
+							"characterUuid" : "fd8e1f0c-364b-4522-8ecd-3c7dc582ea06",
+							"spawnTrack" : "cinematic_drillbotphe"
+						},
+						"templateUuid" : "ec540379-88a3-4bd0-ac91-0ebdf2965204",
+						"type" : "jsonTemplate"
+					}
+				],
+				"tags" : 
+				[
+					"GENERAL_QUESTACTOR",
+					"SPAWNABLE_UNIT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						19.53765869140625,
+						-443.09918212890625,
+						7.5675110816955566
+					],
+					"rotation" : 
+					[
+						89.999923706054688,
+						-65.369613647460938,
+						-5.6291355576831847e-05
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			},
+			{
+				"exclude" : false,
+				"gizmo" : false,
+				"guid" : "e6e1e12a-e71b-4383-8a90-d8054c3cfc58",
+				"hidden" : false,
+				"locked" : false,
+				"params" : 
+				[
+					{
+						"descName" : "actorTrack",
+						"jsonRoot" : 
+						{
+							"actorTrack" : 
+							{
+								"actorTrack" : 
+								[
+									{
+										"commands" : 
+										[
+											{
+												"characterEvent" : "emote_wave_loop",
+												"delay" : 0,
+												"incrementalDelay" : false,
+												"name" : "characterEvent"
+											}
+										],
+										"incrementalDelay" : true,
+										"position" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										],
+										"rotation" : 
+										[
+											0.0,
+											0.0,
+											0.0
+										]
+									}
+								]
+							}
+						},
+						"templateUuid" : "e03d8b3d-9ebc-4592-9821-4993863cd7a6",
+						"type" : "jsonTemplate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "cinematic_drillbotphe"
+					}
+				],
+				"tags" : 
+				[
+					"ACTORTRACK"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						19.65753173828125,
+						-443.04580688476562,
+						7.6947698593139648
+					],
+					"rotation" : 
+					[
+						89.999961853027344,
+						-41.023593902587891,
+						-1.6780859368736856e-05
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 76561198026800672,
+		"uuid" : "113cc491-ab9a-452a-b7e9-47a7f982885a"
+	}
+}

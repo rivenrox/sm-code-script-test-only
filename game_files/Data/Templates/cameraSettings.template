@@ -1,0 +1,216 @@
+{
+    "template_meta": { 
+		"uuid" : "195d6f28-62f2-4ad7-bb70-12863c0c4125",
+		"name":"Immersive Camera Settings", 
+		"display": "Immersive Camera", 
+        "preferDualView" : true,
+		"pattern": ["*.camerasettings"]
+    },
+
+    "LandingSettings_meta" : {},
+    "LandingSettings" :
+    {
+        "StartLandingMaxOffset_meta": { "label" : "Start Max Offset", "type" : "float", "min": 0.0, "max": 10.0, "order": 1 },
+        "StartLandingMaxOffset": 2.0,
+
+        "LandingTargetSpeed_meta": { "label" : "Target Speed", "type": "float", "min": 0.0, "max": 10.0, "order": 2 },
+        "LandingTargetSpeed": 9.872,
+
+        "LandingOffsetSpeed_meta": { "label" : "Offset Speed", "type": "float", "min": 0.0, "max": 20.0, "order": 3 },
+        "LandingOffsetSpeed": 14.468,
+
+        "LandingHandsScale_meta": { "label" : "Hands Scale", "type": "float", "min": -5.0, "max": 10.0, "order": 4 },
+        "LandingHandsScale": -0.146,
+
+        "LandingHorizontalLandingOffset_meta": { "label" : "Horizontal Offset", "type": "float", "min": 0.0, "max": 10.0, "order": 5 },
+        "LandingHorizontalLandingOffset": 3.333,
+
+        "LandingHorizontalMovementSpeedOffset_meta": { "label" : "Horizontal Movement Speed Offset", "type": "float", "min": 0.0, "max": 10.0, "order": 6 },
+        "LandingHorizontalMovementSpeedOffset": 4.97,
+
+        "LandingThirdPersonScale_meta": { "label" : "Third Person Scale", "type": "float", "min": 0.0, "max": 10.0, "order": 7 },
+        "LandingThirdPersonScale": 1.0,
+
+        "LandingTiltFactor_meta": { "label" : "Tilt Factor", "type": "float", "min": 0.0, "max": 1.0, "order": 8 },
+        "LandingTiltFactor": 0.4
+    },
+
+    "FallingSettings_meta" : {},
+    "FallingSettings" :
+    {
+        "FastFallingTimeThreshold_meta": { "label" : "Time Threshold", "type": "float", "min": 0.0, "max": 10.0, "order": 1 },
+        "FastFallingTimeThreshold": 3.5,
+
+        "FastFallingSpeed_meta": { "label" : "Speed", "type": "float", "min": 0.0, "max": 10.0, "order": 2 },
+        "FastFallingSpeed": 2.0,
+
+        "FastFallingRecoverSpeed_meta": { "label" : "Recover Speed", "type": "float", "min": 0.0, "max": 10.0, "order": 3 },
+        "FastFallingRecoverSpeed": 10.0,
+
+        "FastFallingFov_meta": { "label" : "Fov", "type": "float", "min": 0.0, "max": 50.0, "order": 4 },
+        "FastFallingFov": 22.5,
+
+        "FastFallingFreq_meta": { "label" : "Frequancy", "type": "float", "min": 0.0, "max": 100.0, "order": 5 },
+        "FastFallingFreq": 7.6,
+
+        "FastFallingShake_meta": { "label" : "Shake", "type": "float", "min": 0.0, "max": 1.0, "order": 6 },
+        "FastFallingShake": 0.062,
+
+        "FastFallingFirstPersonShakeScale_meta": { "label" : "First Person Shake Scale", "type": "float", "min": 0.0, "max": 10.0, "order": 7 },
+        "FastFallingFirstPersonShakeScale": 10.0,
+
+        "FastFallingHandsShakeScale_meta": { "label" : "Hands Shake Scale", "type": "float", "min": 0.0, "max": 1.0, "order": 8 },
+        "FastFallingHandsShakeScale": 0.188,
+
+        "RotationalShake_meta": { "label" : "Rotational Shake", "type": "bool", "order": 9 },
+        "RotationalShake": false
+    },
+
+    "SideTiltSettings_meta" : {},
+    "SideTiltSettings" :
+    {
+        "SideMaxTiltFactor_meta": { "label" : "Hands Shake Scale", "type": "float", "min": 0.0, "max": 10.0, "order": 1 },
+        "SideMaxTiltFactor": 0.1,
+
+        "SideTiltSpeed_meta": { "label" : "Hands Shake Scale", "type": "float", "min": 0.0, "max": 10.0, "order": 2 },
+        "SideTiltSpeed": 8.876,
+
+        "SideTiltRecoverSpeed_meta": { "label" : "Hands Shake Scale", "type": "float", "min": 0.0, "max": 10.0, "order": 3 },
+        "SideTiltRecoverSpeed": 10.0
+    },
+    
+    "SprintSettings_meta" : {},
+    "SprintSettings" :
+    {
+        "SprintFovMax_meta": { "label" : "Fov Max", "type": "float", "min": 0.0, "max": 10.0, "order": 20 },
+        "SprintFovMax": 4.0,
+
+        "SprintFovSpeed_meta": { "label" : "Fov Speed", "type": "float", "min": 0.0, "max": 10.0, "order": 21 },
+        "SprintFovSpeed": 2.5,
+
+        "SprintFovRecoverSpeed_meta": { "label" : "Fov Recover Speed", "type": "float", "min": 0.0, "max": 10.0, "order": 22 },
+        "SprintFovRecoverSpeed": 10.0,
+
+        "SprintBobFactor_meta": { "label" : "Bob Factor", "type": "float", "min": 0.0, "max": 1.0, "order": 23 },
+        "SprintBobFactor": 0.370,
+
+        "SprintBobOffset_meta": { "label" : "Bob Offset", "type": "float", "min": 0.0, "max": 1.0, "order": 24 },
+        "SprintBobOffset": 0.323,
+
+        "SprintBobSpeed_meta": { "label" : "Bob Speed", "type": "float", "min": 0.0, "max": 25.0, "order": 25 },
+        "SprintBobSpeed": 21.138
+    },
+   
+    "FastDriveSettings_meta" : {},
+    "FastDriveSettings" :
+    {
+        "FastDriveMinSpeedThreshold_meta": { "label" : "Min Speed Threshold", "hideInHierarchyView" : true, "order": 1 },
+        "FastDriveMinSpeedThreshold": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 2 },
+            "medium": 6.0, 
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 3 },
+            "high": 6.0 
+        },
+
+        "FastDriveMaxSpeedThreshold_meta": { "label" : "Max Speed Threshold", "hideInHierarchyView" : true, "order": 2 },
+        "FastDriveMaxSpeedThreshold": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 100.0, "order": 2 },
+            "medium": 30.0, 
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 100.0, "order": 3 },
+            "high": 30.0 
+        },
+
+        "FastDriveSpeed_meta": { "label" : "Drive Speed", "hideInHierarchyView" : true, "order": 3 },
+        "FastDriveSpeed": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 50.0, "order": 2 },
+            "medium": 4.0, 
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 50.0, "order": 3 },
+            "high": 4.0 
+        },
+
+        "FastDriveFov_meta": { "label" : "Drive Fov", "hideInHierarchyView" : true, "order": 4 },
+        "FastDriveFov": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 100.0, "order": 2 },
+            "medium": 8.0,
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 100.0, "order": 3 },
+            "high": 8.0 
+        },
+
+        "VelocityDropThreshold_meta": { "label" : "Velocity Drop Threshold", "type": "float", "min": 0.0, "max": 10.0, "order": 5 },
+        "VelocityDropThreshold": 1.0,
+
+        "FrontHitDotThreshold_meta": { "label" : "Front Hit Dot Threshold", "type": "float", "min": 0.0, "max": 1.0, "order": 6 },
+        "FrontHitDotThreshold": 0.7,
+
+        "WhiplashDuration_meta": { "label" : "Whiplash Duration", "hideInHierarchyView" : true, "order": 6 },
+        "WhiplashDuration": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 8.0, "order": 2 },
+            "medium": 0.5,
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 8.0, "order": 3 },
+            "high": 0.5 
+        },
+
+        "WhiplashIntensity_meta": { "label" : "Whiplash Intensity", "hideInHierarchyView" : true, "order": 7 },
+        "WhiplashIntensity": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 2 },
+            "medium": 0.5,
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 3 },
+            "high": 0.5 
+        },
+
+        "DirectionalWhiplashIntensity_meta": { "label" : "Directional Whiplash Intensity", "hideInHierarchyView" : true, "order": 8 },
+        "DirectionalWhiplashIntensity": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 2 },
+            "medium": 0.5,
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 3 },
+            "high": 0.5 
+        },
+
+        "MaxImpactThreshold_meta": { "label" : "Max Impact Threshold", "hideInHierarchyView" : true, "order": 9 },
+        "MaxImpactThreshold": { 
+            "medium_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 2 },
+            "medium": 2.5,
+
+            "high_meta" : { "type": "float", "min": 0.0, "max": 30.0, "order": 3 },
+            "high": 2.5 
+        },
+
+        "WhiplashType_meta" : { "label" : "Whiplash Type", "min": 0.0, "max": 2.0, "order": 10 },
+        "WhiplashType": 0,
+
+        "UseFOVWhiplash_meta": { "label" : "FOV Whiplash", "type": "bool", "order": 11 },
+        "UseFOVWhiplash": true,
+
+        "UseDirectionalWhiplash_meta": { "label" : "Directional Whiplash", "type": "bool", "order": 12 },
+        "UseDirectionalWhiplash": true
+    },
+
+    "DestructionSettings_meta" : {},
+    "DestructionSettings" :
+    {
+        "ZoomMax_meta" : { "label" : "Zoom Max", "hideInHierarchyView" : true, "type": "float", "min": 0.0, "max": 20.0, "order": 1 },
+        "ZoomMax": 8.0, 
+
+        "ZoomSpeed_meta": { "label" : "Zoom Speed", "type": "float", "min": 0.0, "max": 20.0, "order": 2 },
+        "ZoomSpeed" : 10.0,
+
+        "ZoomRecoverSpeed_meta": { "label" : "Zoom Recover Speed", "min": 0.0, "max": 20.0, "order": 3 },
+        "ZoomRecoverSpeed": 2.0,
+
+        "DestructionStartThreshold_meta": { "label" : "Start Threshold", "type": "float", "min": 0.0, "max": 20.0, "order": 4 },
+        "DestructionStartThreshold": 0.5,
+
+        "DestructionDuration_meta": { "label" : "Duration", "type": "float", "min": 0.0, "max": 20.0, "order": 5 },
+        "DestructionDuration": 0.5,
+
+        "ThirdPersonScale_meta": { "label" : "Third Person Scale", "type": "float", "min": 0.0, "max": 2.0, "order": 6 },
+        "ThirdPersonScale": 0.6
+    }
+}

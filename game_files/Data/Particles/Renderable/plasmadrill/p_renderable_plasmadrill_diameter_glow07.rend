@@ -1,0 +1,100 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_diameter_glow02.fbx",
+			"pose0" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_diameter_glow02_pose0.fbx",
+			"pose1" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_diameter_glow02_pose1.fbx",
+			"pose2" : "$GAME_DATA/Particles/resources/plasmadrill/p_mesh_plasmadrill_diameter_glow02_pose2.fbx",
+			"subMeshMap" : 
+			{
+				"plasma" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.0,
+								0.346130371,
+								0.8359375,
+								1.0
+							],
+							"distanceFade" : 
+							{
+								"farDistance" : 28.520000458,
+								"nearDistance" : 12.010000229,
+								"nearFadeEnd" : 4.5
+							},
+							"fade" : 
+							{
+								"fadeRange" : 0.219999999,
+								"fadeValue" : 0.050000001
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 1.0,
+								"fogMin" : 0.0,
+								"fogOpacity" : 0.0,
+								"fogScale" : 2.0,
+								"fogScrollSpeed" : 0.5
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.0,
+								"fresnelIntensity" : 0.0
+							},
+							"glowStrength" : 0.5,
+							"highlightColor" : 
+							[
+								0.3828125,
+								0.754089355,
+								1.0,
+								1.0
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.200000003,
+								"intersectIntensity" : 1.230000019
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 0.0,
+								"scanLineFrequency2" : 0.0,
+								"scanLineIntensity1" : 0.0,
+								"scanLineIntensity2" : 0.0,
+								"scanLineSpeed1" : -5.0,
+								"scanLineSpeed2" : -5.0
+							}
+						},
+						"stepUv" : 
+						{
+							"duration" : 
+							[
+								0.0,
+								0.050000001
+							],
+							"step" : 
+							[
+								0.0,
+								-0.100000001
+							]
+						}
+					},
+					"material" : "Laser_TrailAddPose3",
+					"textures" : 
+					{
+						"laser" : "$GAME_DATA/Particles/resources/plasmadrill/p_plasmadrill_diameter_trail02_dif.tga",
+						"laserMask" : "$GAME_DATA/Particles/resources/plasmadrill/p_plasmadrill_diameter_trail01_dif.tga"
+					}
+				}
+			}
+		}
+	]
+}

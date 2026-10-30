@@ -1,0 +1,132 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Verticalpipe/kin_verticalpipe_blade_col.fbx",
+			"color" : "de3710ff",
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "kin_verticalpipe_blade",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Verticalpipe/kin_verticalpipe_blade.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "14f85df8-db86-4b09-b55b-98f5f2046a87"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Verticalpipe/kin_verticalpipe_rotatingplatform_col.fbx",
+			"color" : "de3710ff",
+			"kinematic" : true,
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "kin_verticalpipe_rotatingplatform",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Verticalpipe/kin_verticalpipe_rotatingplatform.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 1,
+			"uuid" : "0fdc7921-1d9a-4665-bd53-8fbaf90e0c9c"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Verticalpipe/kin_verticalpipe_bladefold_col.fbx",
+			"color" : "de3710ff",
+			"kinematic" : true,
+			"mass" : 10000.0,
+			"material" : "Metal",
+			"name" : "kin_verticalpipe_bladefold",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Verticalpipe/kin_verticalpipe_bladefold.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : 
+					{
+						"movementEffect" : "Growlab - Elevatormoving"
+					}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"size" : 1,
+			"uuid" : "4a2edd4a-9e98-4110-b5af-116f56e05c0a"
+		}
+	]
+}

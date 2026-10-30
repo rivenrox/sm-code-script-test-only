@@ -1,0 +1,880 @@
+{
+	"assetListRenderable" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobject_packingstation_base_col.obj",
+			"defaultColors" : 
+			{
+				"plastic" : "2b2b2b"
+			},
+			"name" : "env_survivalobject_packingstation_base",
+			"physics" : 
+			{
+				"mass" : 10000.0,
+				"material" : "Metal"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"includes" : 
+						[
+							"POSITION",
+							"NORMAL",
+							"UV0",
+							"TANGENT"
+						],
+						"maxViewDistance" : 55,
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_survivalobject_packingstation_base.fbx",
+						"subMeshMap" : 
+						{
+							"texture01" : 
+							{
+								"custom" : 
+								{
+									"color" : "plastic"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation01_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation01_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation01_nor.tga"
+								]
+							},
+							"texture03" : 
+							{
+								"custom" : 
+								{
+									"color" : "plastic"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation03_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation03_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation03_nor.tga"
+								]
+							},
+							"texture04" : 
+							{
+								"custom" : 
+								{
+									"color" : "plastic"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation_railing_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation_railing_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation_railing_nor.tga"
+								]
+							},
+							"texture05" : 
+							{
+								"custom" : 
+								{
+									"color" : "plastic"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation05_dif.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation05_asg.tga",
+									"$SURVIVAL_DATA/Character/Char_packingstation/char_packingstation05_nor.tga"
+								]
+							}
+						}
+					}
+				],
+				"smallestVisibleSize" : 10
+			},
+			"uuid" : "247cb632-5b3b-4501-af36-84e6e627189e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_packingstation_area_col.obj",
+			"defaultColors" : 
+			{
+				"Color01" : "52696aff"
+			},
+			"name" : "env_packingstation_area",
+			"physics" : 
+			{
+				"mass" : 10000.0,
+				"material" : "Rock"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 2500,
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_packingstation_area.fbx",
+						"subMeshMap" : 
+						{
+							"concrete" : 
+							{
+								"custom" : 
+								{
+									"color" : "Color01"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_nor.tga"
+								]
+							},
+							"concrete_dark" : 
+							{
+								"custom" : 
+								{
+									"color" : "Color01"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_dark_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_nor.tga"
+								]
+							},
+							"trim" : 
+							{
+								"custom" : 
+								{
+									"color" : "Color01"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_trim_dif.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_trim_asg.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_trim_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"uuid" : "23c3635b-2567-4f39-b074-3499003e81e6"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_packingstation_arealight_col.obj",
+			"defaultColors" : 
+			{
+				"frame" : "4dbcb3"
+			},
+			"name" : "env_packingstation_arealight",
+			"physics" : 
+			{
+				"mass" : 10000.0,
+				"material" : "Metal"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 2500,
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_packingstation_arealight.fbx",
+						"subMeshMap" : 
+						{
+							"arealight" : 
+							{
+								"custom" : 
+								{
+									"color" : "frame"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_arealight_dif.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_arealight_asg.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_arealight_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"uuid" : "e59d0532-0b85-4e83-ba2f-ea7839d3cb5b"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_packingstation_sign_col.fbx",
+			"defaultColors" : 
+			{
+				"frame" : "4dbcb3"
+			},
+			"name" : "env_packingstation_sign_veggie",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Default"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 2500,
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_packingstation_sign.fbx",
+						"subMeshMap" : 
+						{
+							"Sign_mat" : 
+							{
+								"custom" : 
+								{
+									"color" : "frame"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_sign_veggie_dif.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_sign_asg.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_sign_veggie_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"uuid" : "f481a1e2-8235-4648-a6c2-199b18485d54"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_packingstation_sign_col.fbx",
+			"defaultColors" : 
+			{
+				"frame" : "4dbcb3"
+			},
+			"name" : "env_packingstation_sign_fruit",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Default"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 2500,
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_packingstation_sign.fbx",
+						"subMeshMap" : 
+						{
+							"Sign_mat" : 
+							{
+								"custom" : 
+								{
+									"color" : "frame"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_sign_fruit_dif.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_sign_asg.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_sign_fruit_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"uuid" : "39ea4602-9f99-41b7-9ac4-cecf914a0182"
+		},
+		{
+			"col" : "$GAME_DATA/Terrain/Collision/Manmade/env_manmade_billboard01_col.obj",
+			"defaultColors" : 
+			{
+				"frames" : "8ad2d9"
+			},
+			"name" : "env_packingstation_billboard02",
+			"physics" : 
+			{
+				"mass" : 20000.0,
+				"material" : "Metal"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 85,
+						"mesh" : "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01.fbx",
+						"subMeshMap" : 
+						{
+							"billboard" : 
+							{
+								"custom" : 
+								{
+									"color" : "frames"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_billboard02_dif.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+								]
+							},
+							"lamp_grid" : 
+							{
+								"custom" : {},
+								"material" : "DifAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+									"",
+									""
+								]
+							}
+						}
+					},
+					{
+						"maxViewDistance" : 250,
+						"mesh" : "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01_lod1.fbx",
+						"subMeshMap" : 
+						{
+							"billboard" : 
+							{
+								"custom" : 
+								{
+									"color" : "frames"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_billboard02_dif.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+								]
+							}
+						}
+					},
+					{
+						"maxViewDistance" : 2500,
+						"mesh" : "$GAME_DATA/Terrain/Mesh/Manmade/env_manmade_billboard01_lod2.fbx",
+						"subMeshMap" : 
+						{
+							"billboard" : 
+							{
+								"custom" : 
+								{
+									"color" : "frames"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_billboard02_dif.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+								]
+							}
+						}
+					}
+				]
+			},
+			"uuid" : "e70da1d3-db17-48d4-8d19-e51a30c95d50"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_farmingbillboard_col.obj",
+			"defaultColors" : 
+			{
+				"frames" : "8ad2d9"
+			},
+			"name" : "env_survivalobjects_farmingbillboard",
+			"physics" : 
+			{
+				"mass" : 20000.0,
+				"material" : "Metal"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_survivalobjects_farmingbillboard_lod0.fbx",
+						"minViewSize" : 300,
+						"subMeshMap" : 
+						{
+							"billboard" : 
+							{
+								"custom" : 
+								{
+									"color" : "frames"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_survivalobjects_farmingbillboard_dif.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+								]
+							},
+							"lamp_grid" : 
+							{
+								"custom" : {},
+								"material" : "DifAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+									"",
+									""
+								]
+							}
+						}
+					},
+					{
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_survivalobjects_farmingbillboard_lod1.fbx",
+						"subMeshMap" : 
+						{
+							"billboard" : 
+							{
+								"custom" : 
+								{
+									"color" : "frames"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_survivalobjects_farmingbillboard_dif.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+								]
+							},
+							"lamp_grid" : 
+							{
+								"custom" : {},
+								"material" : "DifAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+									"",
+									""
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						18.038574219,
+						0.239776611
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"size" : 
+					[
+						58.613136292,
+						22.404098511,
+						3.562094927
+					]
+				}
+			},
+			"uuid" : "84129420-6cb5-4078-ad79-e4cc1be27899"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_farmingbillboard_col.obj",
+			"defaultColors" : 
+			{
+				"frames" : "8ad2d9"
+			},
+			"name" : "env_survivalobjects_droppoffbillboard",
+			"physics" : 
+			{
+				"mass" : 20000.0,
+				"material" : "Metal"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_survivalobjects_farmingbillboard_lod0.fbx",
+						"minViewSize" : 300,
+						"subMeshMap" : 
+						{
+							"billboard" : 
+							{
+								"custom" : 
+								{
+									"color" : "frames"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_survivalobjects_droppoffboard_dif.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+								]
+							},
+							"lamp_grid" : 
+							{
+								"custom" : {},
+								"material" : "DifAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+									"",
+									""
+								]
+							}
+						}
+					},
+					{
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_survivalobjects_farmingbillboard_lod1.fbx",
+						"subMeshMap" : 
+						{
+							"billboard" : 
+							{
+								"custom" : 
+								{
+									"color" : "frames"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_survivalobjects_droppoffboard_dif.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_asg.tga",
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboard01_nor.tga"
+								]
+							},
+							"lamp_grid" : 
+							{
+								"custom" : {},
+								"material" : "DifAlphaFlip",
+								"textureList" : 
+								[
+									"$GAME_DATA/Terrain/Textures/Manmade/env_manmade_billboardlampshade_dif.tga",
+									"",
+									""
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.107666016,
+						17.866821289,
+						-0.044433594
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"size" : 
+					[
+						61.273448944,
+						22.654043198,
+						2.231992722
+					]
+				}
+			},
+			"uuid" : "3977ea5d-84e5-47ae-b677-25311e397fbd"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_packingstation_roundconcretebase_col.obj",
+			"defaultColors" : 
+			{
+				"Color01" : "52696aff"
+			},
+			"name" : "env_packingstation_roundconcretebase",
+			"physics" : 
+			{
+				"mass" : 10000.0,
+				"material" : "Rock"
+			},
+			"renderable" : 
+			{
+				"lodList" : 
+				[
+					{
+						"maxViewDistance" : 2500,
+						"mesh" : "$SURVIVAL_DATA/Terrain/Mesh/Survivalobjects/env_packingstation_roundconcretebase.fbx",
+						"subMeshMap" : 
+						{
+							"concrete" : 
+							{
+								"custom" : 
+								{
+									"color" : "Color01"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_dif.tga",
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_asg.tga",
+									"$GAME_DATA/Textures/Tiled/Concrete/t_tiled_building_concrete_flat_nor.tga"
+								]
+							},
+							"trim" : 
+							{
+								"custom" : 
+								{
+									"color" : "Color01"
+								},
+								"material" : "DifAsgNor",
+								"textureList" : 
+								[
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_trim_dif.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_trim_asg.tga",
+									"$SURVIVAL_DATA/Terrain/Textures/Survivalobjects/env_packingstation_trim_nor.tga"
+								]
+							}
+						}
+					}
+				],
+				"occluderBox" : 
+				{
+					"center" : 
+					[
+						0.0,
+						4.84362793,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.000030736,
+						-0.0,
+						0.0
+					],
+					"size" : 
+					[
+						45.65694809,
+						9.687232018,
+						37.929019928
+					]
+				}
+			},
+			"uuid" : "91d3a790-9cee-4642-968c-04ffe9573164"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_activatorplatform_col.fbx",
+			"defaultColors" : 
+			{
+				"Color01" : "fb8714ff"
+			},
+			"name" : "env_survivalobjects_activatorplatform",
+			"physics" : 
+			{
+				"mass" : 200.0,
+				"material" : "Metal"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_activatorplatform.rend",
+			"uuid" : "06e0e591-bdbd-4fa3-bbb0-dd07b78d02c0"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_col.fbx",
+			"name" : "drillbot defeated",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated.rend",
+			"uuid" : "d79f9bb9-a3df-4a1d-9b03-952fa2e92620"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_drill_col.fbx",
+			"name" : "drillbot defeated drill",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_drill.rend",
+			"uuid" : "83b72f67-bf95-498c-9224-65e5aedd543d"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_drillhousing_col.fbx",
+			"name" : "drillbot defeated drillhousing",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_drillhousing.rend",
+			"uuid" : "f6c6f4c0-9521-4d65-b617-6cd14c4f7cef"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_face_col.fbx",
+			"defaultColors" : 
+			{
+				"Color01" : "e80000ff"
+			},
+			"name" : "drillbot defeated face",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_face.rend",
+			"uuid" : "77b76046-d134-41fe-9c0d-a058811b8a3a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_arm_col.fbx",
+			"name" : "drillbot defeated arm",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_arm.rend",
+			"uuid" : "5d3cbacb-5bb9-433b-94f4-4ea782966272"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_wagonengine_col.fbx",
+			"name" : "drillbot defeated wagonengine",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_wagonengine.rend",
+			"uuid" : "06c6b487-0dd2-4cd5-9a6d-3fc8985ceea1"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_bigarm_col.fbx",
+			"name" : "drillbot defeated bigarm",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_bigarm.rend",
+			"uuid" : "f785790a-787e-4a05-a8c2-3a7bc7fbed35"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_faceplate01_col.fbx",
+			"name" : "drillbot defeated faceplate01",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_faceplate01.rend",
+			"uuid" : "1727ba2d-18fd-44fd-9391-ebb563b7ec33"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_faceplate02_col.fbx",
+			"name" : "drillbot defeated faceplate02",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_faceplate02.rend",
+			"uuid" : "0c6312a5-c20f-4290-af98-44ccc1430efb"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_joint_col.fbx",
+			"name" : "drillbot defeated joint",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_joint.rend",
+			"uuid" : "3fceb8bd-3aa7-4521-bb53-230c157a9688"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_scyth_col.fbx",
+			"name" : "drillbot defeated scythe",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_scyth.rend",
+			"uuid" : "7ec63695-4d76-4b0d-9e17-6ebd0d029903"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_shoulder_col.fbx",
+			"name" : "drillbot defeated shoulder",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_shoulder.rend",
+			"uuid" : "e895cea8-9aa8-495c-8843-425ec2ee98d7"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_leg01_col.fbx",
+			"name" : "drillbot defeated leg01",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_leg01.rend",
+			"uuid" : "dacf4e67-4a25-4684-9e59-9421853ced20"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_leg02_col.fbx",
+			"name" : "drillbot defeated leg02",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_leg02.rend",
+			"uuid" : "067c8a60-683a-4cba-aed2-72860be95419"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_drillbot_defeated_ring_col.fbx",
+			"name" : "drillbot defeated ring",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_drillbot_defeated_ring.rend",
+			"uuid" : "77d1eae3-338b-44c3-9a68-9e03ca3232b7"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobjects_pickupstation_col.fbx",
+			"defaultColors" : 
+			{
+				"Color01" : "800000ff"
+			},
+			"name" : "pickup station",
+			"physics" : 
+			{
+				"mass" : 100.0,
+				"material" : "Electronics"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_pickupstation.rend",
+			"uuid" : "c4a439a6-bbb3-4e09-afbc-0e7749596142"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Terrain/Collision/Survivalobjects/env_survivalobject_multimasterbatteryactivatorframe01_col.fbx",
+			"defaultColors" : 
+			{
+				"Color01" : "e46d39ff"
+			},
+			"name" : "env_survivalobjects_multimasterbatteryactivatorframe01",
+			"physics" : 
+			{
+				"mass" : 1000.0,
+				"material" : "Mechanical"
+			},
+			"renderable" : "$SURVIVAL_DATA/Terrain/Renderable/Survivalobjects/env_survivalobjects_multimasterbatteryactivatorframe01.rend",
+			"uuid" : "219a705d-0d97-43a9-9e5a-982f8f7dd0f4"
+		}
+	]
+}

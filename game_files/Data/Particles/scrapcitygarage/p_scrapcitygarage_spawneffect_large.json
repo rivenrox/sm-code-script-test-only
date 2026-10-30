@@ -1,0 +1,2482 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "3 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					1.0,
+					0.78026,
+					0.4375,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.21377
+							],
+							[
+								0.11383,
+								0.52218
+							],
+							[
+								0.28615,
+								0.74423
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.26666,
+									0.78823,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.64507,
+								[
+									0.0,
+									0.14495,
+									0.48827,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 600,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.333
+				],
+				"keep_local" : false,
+				"max_particles" : 33,
+				"min_quality" : "medium",
+				"name" : "Glow Circle   [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.15399
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 300,
+				"sphere_radius" : 0.125,
+				"time_to_live" : 
+				[
+					1.25,
+					0.25
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.333
+				]
+			},
+			{
+				"category" : "1 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.5,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.17328,
+								2.15159
+							],
+							[
+								0.37042,
+								2.60665
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 3.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0625,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.56054,
+								[
+									0.0,
+									0.07381,
+									0.23046,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 53,
+						"fps" : 30,
+						"guid" : 6,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 1
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 501,
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"height" : 
+				[
+					1.0,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 10,
+				"min_quality" : "medium",
+				"name" : "GlowDust1     [medium]",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 256,
+				"sphere_radius" : 1.0,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.333
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.15
+				]
+			},
+			{
+				"category" : "0 - ",
+				"color" : 
+				[
+					0.0,
+					0.36717,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow05.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.2,
+								[
+									0.63279,
+									0.63279,
+									0.63279,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 7,
+				"height" : 3.0,
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Glow Circle  [medium]",
+				"rotation" : 120.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 3000,
+				"time_to_live" : 1.5,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 3.0,
+				"z_offset" : 0.00999
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.26664,
+					0.60465,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					0.666,
+					0.666
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_digitalglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.26273,
+									0.7843,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81971,
+								[
+									0.01826,
+									0.39383,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 11,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.70037
+							],
+							[
+								1.0,
+								1.29209
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 501,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 
+				[
+					4.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 10,
+				"height" : 
+				[
+					0.1,
+					0.025
+				],
+				"keep_local" : true,
+				"max_particles" : 35,
+				"min_quality" : "medium",
+				"name" : "Digital     [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.01287
+				],
+				"rotation" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "addative",
+				"sphere_radius" : 2.0,
+				"time_to_live" : 
+				[
+					1.75,
+					0.25
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					5.0,
+					1.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.1,
+					0.025
+				]
+			},
+			{
+				"category" : "0 - ",
+				"color" : 
+				[
+					0.0,
+					0.36717,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glowcircle_starburst.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.19718,
+								[
+									0.20306,
+									0.20306,
+									0.20306,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 15,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 300,
+				"guid" : 13,
+				"height" : 6.5,
+				"keep_local" : true,
+				"max_particles" : 3,
+				"min_quality" : "medium",
+				"name" : "Glow Starburst  [medium]",
+				"rotation" : 
+				[
+					120.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"time_to_live" : 
+				[
+					1.25,
+					0.25
+				],
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.5,
+				"z_offset" : 0.00999
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.1211,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 17,
+				"height" : 2.5,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Longitude middle 1",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.5
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.1211,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 21,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 20,
+				"height" : 2.400000095,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Longitude middle 2",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					1.04999
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.400000095
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.07885,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.36901,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.19381,
+								1.48026
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2002,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 23,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Longitude middle 3",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					2.09998
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "4 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.23657,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 27,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.50461,
+								1.48026
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 26,
+				"height" : 1.5,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Longitude middle 4 ",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					3.15
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.23657,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 30,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.24615,
+								1.07236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 29,
+				"height" : 1.600000024,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Latitude 3",
+				"position" : 
+				[
+					0.0,
+					3.15,
+					0.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.600000024
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.07885,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.36901,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 33,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 32,
+				"height" : 2.099999905,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Latitude 2",
+				"position" : 
+				[
+					0.0,
+					2.09998,
+					0.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.099999905
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.1211,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 36,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 37,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 35,
+				"height" : 2.400000095,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Latitude 1",
+				"position" : 
+				[
+					0.0,
+					1.04999,
+					0.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.400000095
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.1211,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 39,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 40,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 38,
+				"height" : 2.5,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Latitude middle 1",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.5
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.1211,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 42,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 43,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 41,
+				"height" : 2.400000095,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Latitude 1",
+				"position" : 
+				[
+					0.0,
+					-1.05,
+					0.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.400000095
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.07885,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.36901,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 45,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.11383,
+								1.31578
+							],
+							[
+								0.2123,
+								1.57236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 46,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 44,
+				"height" : 2.099999905,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Latitude 2",
+				"position" : 
+				[
+					0.0,
+					-2.1,
+					0.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.099999905
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "5 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.51371,
+					1.0,
+					0.76077,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.23657,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.81405,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 48,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.24615,
+								1.07236
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 49,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 47,
+				"height" : 1.600000024,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Latitude 3",
+				"position" : 
+				[
+					0.0,
+					-3.15002,
+					0.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : -180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					90.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.600000024
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "6 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle_wobbly.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.20281,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8676,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 51,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.36842
+							],
+							[
+								0.28922,
+								0.88814
+							],
+							[
+								0.4923,
+								1.0592
+							],
+							[
+								1.0,
+								1.23684
+							]
+						],
+						"guid" : 52,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 222,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 50,
+				"height" : 5.0,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Glow Circle Orbit1",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					-45.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "6 - ",
+				"color" : 
+				[
+					0.0,
+					0.12939,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"delay" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle_wobbly.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.20281,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8676,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 54,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.36842
+							],
+							[
+								0.28922,
+								0.88814
+							],
+							[
+								0.4923,
+								1.0592
+							],
+							[
+								1.0,
+								1.23684
+							]
+						],
+						"guid" : 55,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 222,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 53,
+				"height" : 5.0,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Glow Circle Orbit2",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 180.0,
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					45.0,
+					0.0,
+					0.0
+				],
+				"time_to_live" : 1.25,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 5.0
+			},
+			{
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.0,
+					0.36717,
+					1.0,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.25,
+					1.25
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.47323,
+								[
+									0.51169,
+									0.51169,
+									0.51169,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 57,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 58,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 55,
+				"guid" : 56,
+				"height" : 
+				[
+					5.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Glow Middle     [medium]",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"sphere_radius" : 0.125,
+				"time_to_live" : 0.600000024,
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					5.0,
+					0.25
+				]
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.34509,
+					0.61624,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/p_flash_flashtriangle01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.47182
+							],
+							[
+								1.0,
+								7.49063
+							]
+						],
+						"guid" : 60,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.42816,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 61,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5468
+							],
+							[
+								1.0,
+								0.78649
+							]
+						],
+						"fade" : 0.64999,
+						"guid" : 62,
+						"length" : 0.64999,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 59,
+				"height" : 
+				[
+					0.2,
+					0.05
+				],
+				"keep_local" : true,
+				"max_particles" : 35,
+				"min_quality" : "medium",
+				"name" : "Glow stretched point 3     [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.05647
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 2000,
+				"sphere_radius" : 1.0,
+				"time_to_live" : 
+				[
+					0.8,
+					0.1
+				],
+				"type" : "sphere",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.4,
+					0.05
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 1.5,
+		"scale_time" : 1.75
+	}
+}

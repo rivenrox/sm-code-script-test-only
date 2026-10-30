@@ -1,0 +1,41 @@
+{
+	"template_meta": {
+		"uuid" : "d5d586bc-6ba4-42b4-abe9-e651dc9ee9f9",
+		"name" : "Combat Encounter",
+		"root_meta" : { "type" : "map" },
+		"pattern" : [".combatencounters"],
+		"constDataStoreAllNames" : true
+	},
+	
+	"preset_meta" : { "optional": false },
+	"preset": 
+	{
+		"waves_meta" : { "optional": false },
+		"waves" : [
+			{
+				"minimumDuration_meta" : { "optional": false, "type": "float", "min" : 0 },
+				"minimumDuration" : 0,
+
+				"minimumClearRequirement_meta" : { "optional": false, "type": "float", "min": 0, "max": 1 },
+				"minimumClearRequirement" : 0.5,
+
+				"spawns_meta" : { "optional": false },
+				"spawns" : [
+					{
+					"delay_meta" : { "optional": false, "type": "float", "min": 0 },
+					"delay" : 0,
+
+					"uuid_meta" : { "optional": false, "type": "uuid", "optionsCategory": "character" },
+					"uuid": "00000000-0000-0000-0000-000000000000",
+
+					"spawnerIndex_meta" : { "optional": true, "type": "int" },
+					"spawnerIndex" : 1,
+
+					"roaming_meta" : { "optional": true },
+					"roaming" : true
+					}
+				]
+			}
+		]			
+	}
+}

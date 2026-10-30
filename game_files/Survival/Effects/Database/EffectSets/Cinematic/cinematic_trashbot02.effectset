@@ -1,0 +1,682 @@
+{
+	"cinematic - trashbot_despawn02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 70.0,
+						"duration" : 2.93,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-12.222039223,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							8.358392715,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0.8,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-7.970403194,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							9.351719856,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 1.1,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-7.970403194,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							9.267746925,
+							0.0,
+							-2.087582111
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 1.23,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-7.970403194,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							9.339001656,
+							0.0,
+							-2.340821981
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 1.23,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-7.970403194,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							9.339001656,
+							0.0,
+							3.379766941
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 2.03,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-7.970403194,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							8.738758087,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0.77,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							4.161930084,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							24.68756485,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 1.57,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							4.161930084,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							27.469074249,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 2.3,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							4.161930084,
+							1.438928962
+						],
+						"rotation" : 
+						[
+							20.473999023,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0.53,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-3.887496948,
+							8.443307877
+						],
+						"rotation" : 
+						[
+							44.03036499,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-7.91265583,
+							8.443307877
+						],
+						"rotation" : 
+						[
+							25.694145203,
+							0.0,
+							0.0
+						]
+					}
+				],
+				"hasBlendIn" : true,
+				"hasBlendOut" : true,
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "sv_e_spawnEnemies",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_clear_warehouse.spawn_trashbot"
+				},
+				"delay" : 0.029999999,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendUnitEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_clear_warehouse.attack"
+				},
+				"delay" : 18.0,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			}
+		]
+	},
+	"cinematic - trashbot_spawn02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 70.0,
+						"duration" : 2.0,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.034453999,
+							-59.524215698,
+							26.116897583
+						],
+						"rotation" : 
+						[
+							2.13448,
+							-0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 7.0,
+						"easing" : "easeInOutSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.034453999,
+							-59.524215698,
+							26.116897583
+						],
+						"rotation" : 
+						[
+							2.13448,
+							-0.0,
+							0.0
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-0.249969006,
+									-47.651779175,
+									29.8312397
+								],
+								"rotation" : 
+								[
+									-3.705603123,
+									-0.0,
+									0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									-0.249962002,
+									-43.712768555,
+									25.323287964
+								],
+								"rotation" : 
+								[
+									-52.685241699,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									-1.923613548,
+									-47.158737183,
+									7.990344048
+								],
+								"rotation" : 
+								[
+									-42.01556015,
+									-0.0,
+									0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									-2.454489708,
+									-29.471694946,
+									2.81976366
+								],
+								"rotation" : 
+								[
+									-4.905745029,
+									-0.000001,
+									-0.0
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0.1,
+						"easing" : "easeInQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-1.666446805,
+							-9.137123108,
+							2.126204729
+						],
+						"rotation" : 
+						[
+							-0.286355495,
+							0.051883325,
+							-10.269625664
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 2.5,
+						"easing" : "easeInSine",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-1.666446805,
+							-9.137123108,
+							2.126204729
+						],
+						"rotation" : 
+						[
+							-0.286355495,
+							0.051883325,
+							-10.269625664
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-1.666448593,
+									-8.579959869,
+									2.037956715
+								],
+								"rotation" : 
+								[
+									6.274239063,
+									-1.134386659,
+									-10.207579613
+								]
+							},
+							{
+								"position" : 
+								[
+									-1.666448474,
+									-8.579959869,
+									2.037955761
+								],
+								"rotation" : 
+								[
+									43.243419647,
+									-7.075939655,
+									-7.462082386
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0.5,
+						"easing" : "easeInQuint",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-1.666446328,
+							-9.137125015,
+							3.397889853
+						],
+						"rotation" : 
+						[
+							57.473400116,
+							-9.611268044,
+							-7.853749275
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 2.0,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-1.666444659,
+							-9.622609138,
+							3.39789629
+						],
+						"rotation" : 
+						[
+							-3.409699678,
+							0.683469951,
+							-11.321323395
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-1.666446686,
+									-9.622611046,
+									3.397898674
+								],
+								"rotation" : 
+								[
+									-14.51715374,
+									2.878315687,
+									-10.974981308
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 5.4,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-1.666444659,
+							-9.622608185,
+							3.39789629
+						],
+						"rotation" : 
+						[
+							-6.289890766,
+							1.264690757,
+							-11.323293686
+						]
+					},
+					{
+						"FOV" : 55.0,
+						"duration" : 0.3,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-1.242161155,
+							-15.160717964,
+							3.178762674
+						],
+						"rotation" : 
+						[
+							2.116906166,
+							0.357578874,
+							-2.318981886
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 4.0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-3.131025791,
+							-40.039276123,
+							7.772255898
+						],
+						"rotation" : 
+						[
+							-6.364189148,
+							1.228524685,
+							-10.881113052
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 1.6,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-3.418386459,
+							-41.524604797,
+							7.944122314
+						],
+						"rotation" : 
+						[
+							-6.364189148,
+							1.228524685,
+							-10.881113052
+						]
+					}
+				],
+				"hasBlendIn" : true,
+				"hasBlendOut" : true,
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "sv_e_spawnEnemies",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_scrapyard.spawn_trashbot"
+				},
+				"delay" : 0.029999999,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendUnitEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_clear_warehouse.attack"
+				},
+				"delay" : 22.5,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendQuestEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "quest_event.trashbot.attack"
+				},
+				"delay" : 25.0,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_teleportPlayers",
+				"callbackParams" : 
+				{
+					"teleportDestination" : "trashbotspawn01.teleport",
+					"teleportDestinations" : 
+					[
+						"trashbotspawn01.teleport01",
+						"trashbotspawn01.teleport02",
+						"trashbotspawn01.teleport03",
+						"trashbotspawn01.teleport04",
+						"trashbotspawn01.teleport05",
+						"trashbotspawn01.teleport06"
+					],
+					"teleportHost" : true
+				},
+				"delay" : 12.199999809,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendQuestEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_scrapyard.bossfight_music"
+				},
+				"delay" : 13.199999809,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"delay" : 12.0,
+				"duration" : 2.5,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 2,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					10.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.200000003,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 13.5,
+				"duration" : 6.300000191,
+				"shakeAmplitude" : 
+				[
+					9.0,
+					2.0,
+					6.0
+				],
+				"shakeFalloffDuration" : 3,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					8.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.03,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 19.5,
+				"duration" : 5.0,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 2,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					10.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.200000003,
+				"type" : "cameraShake"
+			}
+		]
+	}
+}

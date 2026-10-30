@@ -1,0 +1,844 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "axial_self",
+				"category" : "3 - ",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/rainbow/p_rainbow_glow01.png",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.32111,
+								[
+									0.8281,
+									0.8281,
+									0.8281,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.456
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"fade" : 1.0,
+						"guid" : 3,
+						"length" : 0.0,
+						"name" : "Cutoff",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 4,
+				"friction" : 1.0,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.30858,
+								0.30858,
+								1.0
+							]
+						],
+						[
+							0.33801,
+							[
+								0.1875,
+								1.0,
+								0.20013,
+								1.0
+							]
+						],
+						[
+							0.71548,
+							[
+								0.18355,
+								0.63638,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								1.0,
+								0.93414,
+								0.23431,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 0,
+				"height" : 
+				[
+					5.0,
+					2.0
+				],
+				"keep_local" : true,
+				"max_particles" : 20,
+				"name" : "Glow02",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"sort_offset" : 1.0,
+				"sphere_radius" : 5.0,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					20.0,
+					10.0
+				],
+				"type" : "sphere",
+				"velocity" : 0.100000001,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					1.0
+				],
+				"z_offset" : 1.0
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.74115,
+					0.49803,
+					0.49803,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.42252,
+								[
+									0.57463,
+									0.57463,
+									0.57463,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.57252,
+									0.57252,
+									0.57252,
+									1.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 4,
+				"height" : 2.0,
+				"keep_local" : true,
+				"name" : "Flare00",
+				"rotation_speed" : 1.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"category" : "1",
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 6,
+				"height" : 3.0,
+				"keep_local" : true,
+				"name" : "Flare01",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 3.0
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.53904,
+					0.36006,
+					0.36006,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 7,
+				"height" : 0.5,
+				"keep_local" : true,
+				"name" : "Flare02",
+				"position" : 
+				[
+					0.0,
+					1.01707,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.5
+			},
+			{
+				"category" : "0",
+				"color" : 
+				[
+					1.0,
+					0.45702,
+					0.45702,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/pu_flare.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.65625,
+					1.0,
+					0.66162,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.51828,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 1,
+				"guid" : 8,
+				"height" : 2.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 10,
+				"name" : "Base0",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 5.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"category" : "0",
+				"color" : 
+				[
+					1.0,
+					0.707,
+					0.707,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25914,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 11,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 10,
+				"hidden" : true,
+				"keep_local" : true,
+				"name" : "Base1",
+				"scene_blend" : "addative",
+				"time_to_live" : 5.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.53904,
+					0.36006,
+					0.36006,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 12,
+				"height" : 0.75,
+				"keep_local" : true,
+				"name" : "Flare03",
+				"position" : 
+				[
+					0.0,
+					2.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.53904,
+					0.36006,
+					0.36006,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 13,
+				"height" : 1.5,
+				"keep_local" : true,
+				"name" : "Flare04",
+				"position" : 
+				[
+					0.0,
+					3.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.53904,
+					0.36006,
+					0.36006,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 14,
+				"height" : 0.25,
+				"keep_local" : true,
+				"name" : "Flare05",
+				"position" : 
+				[
+					0.0,
+					2.5,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.25
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.16015,
+					0.11072,
+					0.11072,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 15,
+				"height" : 3.0,
+				"keep_local" : true,
+				"name" : "Flare06",
+				"position" : 
+				[
+					0.0,
+					4.0,
+					0.0
+				],
+				"rotation_speed" : 1.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 3.0
+			},
+			{
+				"category" : "1",
+				"color" : 
+				[
+					0.0859,
+					0.05908,
+					0.05908,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/lensflare/p_lensflare_flare03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 16,
+				"height" : 7.0,
+				"keep_local" : true,
+				"name" : "Flare06",
+				"position" : 
+				[
+					0.0,
+					5.0,
+					0.0
+				],
+				"rotation_speed" : 1.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 10.0,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 7.0
+			},
+			{
+				"category" : "0",
+				"color" : 
+				[
+					1.0,
+					0.707,
+					0.707,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.25914,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 1,
+				"guid" : 17,
+				"hidden" : true,
+				"keep_local" : true,
+				"name" : "Base1",
+				"rotation" : 35.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 5.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "0",
+				"color" : 
+				[
+					1.0,
+					0.67966,
+					0.67966,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow09.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.51371,
+					0.82744,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.10982,
+								[
+									0.39061,
+									0.39061,
+									0.39061,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.37645,
+									0.37645,
+									0.37645,
+									1.0
+								]
+							]
+						],
+						"guid" : 20,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 100,
+				"guid" : 19,
+				"height" : 4.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"name" : "Base2",
+				"rotation" : 120.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "0",
+				"color" : 
+				[
+					1.0,
+					0.67843,
+					0.67843,
+					1.0
+				],
+				"default_particle" : 
+				[
+					1.0,
+					-1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_glow09.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.51371,
+					0.82744,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.10982,
+								[
+									0.39061,
+									0.39061,
+									0.39061,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.37645,
+									0.37645,
+									0.37645,
+									1.0
+								]
+							]
+						],
+						"guid" : 22,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "single",
+				"emission_rate" : 100,
+				"guid" : 21,
+				"height" : 4.0,
+				"hidden" : true,
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"name" : "Base2",
+				"rotation" : 139.0,
+				"scene_blend" : "addative",
+				"time_to_live" : 1.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		]
+	}
+}

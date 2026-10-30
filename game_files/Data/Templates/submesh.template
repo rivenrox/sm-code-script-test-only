@@ -1,0 +1,46 @@
+{
+	"textureList_meta": { 
+		"value_meta": { "type":"texture", "optionsAllowsCustom": true, "optionsCategory":"texture" },
+		"noIndexLabel": true,
+		"valueLabels": [ "Dif/Fbdrf/MapCap", "Asg/Ags", "Nor", "Ao/NorD/Dir/Thickness/Translucent", "MapCapMasked/LightCap/Plane" ],
+		"maxSize": 5, "icon":"$GAME_DATA/Gui/Editor/ed_icon_texturearray.png", "color":"#2a342d",
+		"optional":true,
+		"hideInHierarchyView" : true,
+		"unavailable":{ "hidden" : true }
+	},
+	"textureList": [ "","","" ],
+	
+	"textures_meta": { "optional":true, "icon":"$GAME_DATA/Gui/Editor/ed_icon_texturearray.png", "hideInHierarchyView" : true, "color":"#2a342d", "subTemplate":"$GAME_DATA/Templates/textures.template", "unavailable":{ "hidden" : true } },
+
+	"cullingPlane_meta": { "optional":true, "type":"vec3", "unavailable":{ "hidden" : true } },
+	"cullingPlane": [ 0.0, 0.0, 1.0 ],
+
+	"material_meta": { "optionsCategory":"material", "label":"Shader Material", "actions":["Open Material"], "unavailable":{ "hidden" : true } },
+	"material": "DifAsgNor",
+
+	"hidden_meta": { "optional":true, "label":"Hidden" },
+	"hidden" : false,
+
+	"previewHidden_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true, "writeToDisk" : false },
+	"previewHidden" : false,
+
+	"color_meta": { "type":"hexColor", "optional":true },
+	"color": "FFFFFF",
+
+	"useAccentColor_meta": { "type" : "bool", "optional":true },
+	"useAccentColor": true,
+
+	"customAccentColors_meta": { "minSize" : 64, "maxSize" : 64, "value_meta": { "type": "hexColor" }, "optional" : true, "hideInHierarchyView" : true },
+	"customAccentColors": [
+		"EEEEEEFF", "F5F071FF", "CBF66FFF", "68FF88FF", "7EEDEDFF", "4CE36FFF", "AE79F0FF", "EE7BF0FF", "F06767FF", "EE5CAFFF",
+		"7F7F7FFF", "E2DB13FF", "A0EA00FF", "19E753FF", "2CE6E6FF", "0A3EE2FF", "7514EDFF", "CF11D2FF", "D02525FF", "DF7F00FF",
+		"4A4A4AFF", "817C00FF", "577D07FF", "0E8031FF", "118787FF", "0F2E91FF", "500AA6FF", "720A74FF", "7C0000FF", "673B00FF",
+		"222222FF", "323000FF", "375000FF", "064023FF", "0A4444FF", "0A1D5AFF", "35086CFF", "520653FF", "560202FF", "472800FF",
+
+		"00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000",
+		"00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000", "00000000",
+		"00000000", "00000000", "00000000", "00000000"
+	],
+
+	"custom_meta": { "label" : "Shader Properties", "optional":true, "hideInHierarchyView" : true, "color":"#342a2d", "icon":"$GAME_DATA/Gui/Editor/ed_icon_rendablecustom.png", "subTemplate":"$GAME_DATA/Templates/shader_properties.template", "unavailable":{ "hidden" : true } }
+}

@@ -1,0 +1,111 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 15.0,
+				"category" : "1 - ",
+				"debris_angular_damping" : 0.0,
+				"debris_friction" : 0.0,
+				"debris_gravity_direction" : 
+				[
+					0.0,
+					0.0,
+					-6.0
+				],
+				"debris_gravity_magnitude" : 50.0,
+				"debris_linear_damping" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 4.0,
+				"effects" : 
+				[
+					{
+						"enabled" : false,
+						"guid" : 1,
+						"name" : "RotationBySpeed",
+						"range" : 
+						{
+							"max" : 6.5
+						},
+						"speed" : 300.0
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 9,
+				"force_vector" : 
+				[
+					0.0,
+					-0.0,
+					-10.0
+				],
+				"guid" : 0,
+				"keep_local" : true,
+				"lifetime_loss" : 0.00999,
+				"max_particles" : 200,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "01 - roof (Low)",
+				"particle" : "debris",
+				"position" : 
+				[
+					0.0,
+					0.02098,
+					0.31
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/drillbot/p_renderable_drillbot_farmerball01.rend",
+				"rotation" : 
+				[
+					30.0,
+					30.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.1
+				],
+				"rotation_speed" : 
+				[
+					180.0,
+					30.0
+				],
+				"time_to_live" : 8.0,
+				"velocity" : -40.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

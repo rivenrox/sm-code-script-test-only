@@ -1,0 +1,154 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "4 - smoke",
+				"default_particle" : 
+				[
+					0.64999,
+					0.64999
+				],
+				"delay" : 0.75,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 1
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.97654,
+									0.97654,
+									0.97654,
+									0.0
+								]
+							],
+							[
+								0.4507,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.64999
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.1842
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/packingstation/p_packingstation_piston01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					1.25,
+					1.0
+				],
+				"keep_local" : false,
+				"max_particles" : 50,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-3.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					2.0,
+					0.5
+				],
+				"translucency" : 0.5,
+				"type" : "mesh",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					1.0
+				],
+				"z_offset" : 0.2
+			}
+		],
+		"scale_time" : 1.5
+	}
+}

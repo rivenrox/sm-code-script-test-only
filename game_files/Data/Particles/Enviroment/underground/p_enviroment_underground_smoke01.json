@@ -1,0 +1,319 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					20.0,
+					3.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds03_addcompatible.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 15,
+						"guid" : 1,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.61527
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.72548,
+									0.72548,
+									0.72548,
+									0.0
+								]
+							],
+							[
+								0.49577,
+								[
+									0.92185,
+									0.92185,
+									0.92185,
+									0.6
+								]
+							],
+							[
+								1.0,
+								[
+									0.88669,
+									0.88669,
+									0.88669,
+									0.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"endDistance" : 5.0,
+						"guid" : 4,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 30.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"guid" : 0,
+				"height" : 
+				[
+					3.0,
+					0.75
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"min_quality" : "medium",
+				"name" : "Smoke1",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 128,
+				"spawn_chance" : 0.25999,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					20.0,
+					5.0
+				],
+				"translucency" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					1.0,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.75
+				]
+			},
+			{
+				"box" : 
+				[
+					20.0,
+					3.0,
+					0.0
+				],
+				"category" : "2 - ",
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 1.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 60,
+						"fps" : 64,
+						"guid" : 6,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 24
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.61527
+							],
+							[
+								1.0,
+								1.30394
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.72548,
+									0.72548,
+									0.72548,
+									0.0
+								]
+							],
+							[
+								0.49577,
+								[
+									0.92185,
+									0.92185,
+									0.92185,
+									0.6
+								]
+							],
+							[
+								1.0,
+								[
+									0.88669,
+									0.88669,
+									0.88669,
+									0.0
+								]
+							]
+						],
+						"guid" : 8,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 9,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"endDistance" : 5.0,
+						"guid" : 10,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 30.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 5,
+				"guid" : 5,
+				"height" : 
+				[
+					3.0,
+					0.75
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"min_quality" : "high",
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.6,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					5.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 128,
+				"spawn_chance" : 0.25,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					20.0,
+					5.0
+				],
+				"translucency" : 1.0,
+				"type" : "box",
+				"velocity" : 
+				[
+					1.0,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.0,
+					0.75
+				]
+			}
+		]
+	}
+}

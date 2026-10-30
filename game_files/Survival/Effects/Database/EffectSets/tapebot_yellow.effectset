@@ -1,0 +1,107 @@
+{
+	"Tapebot_yellow - ProjectileTrail" : 
+	{
+		"effectList" : 
+		[
+			{	
+				"name" : "p_tapebot_yellow_projectile",
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : -1.0
+				},
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_yellow_shoot_projectile"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Tapebot_yellow - ProjectileHit" : 
+	{
+		"effectList" : 
+		[
+			{	
+				"name" : "p_tapebot_yellow_projectile_hit",
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 0.0
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/coll/impact_weapon"
+				],
+				"parameters" : 
+				[
+					"Material",
+					"Velocity_max_50",
+					"Size"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"Material" : 3,
+			"Size" : 0.005,
+			"Velocity_max_50" : 10.0
+		}
+	},
+	"Tapebot_yellow - ProjectileShot" : 
+	{
+		"effectList" : 
+		[
+			{	
+				"name" : "p_tapebot_yellow_shot",
+				"delay" : 0.0,
+				"direction" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : 1.0
+				},
+				"offset" : 
+				{
+					"x" : 0.0,
+					"y" : 0.0,
+					"z" : -0.4
+				},
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"audio" :
+				[
+					"event:/char/npc/bots/enemies/tapebot/tapebot_yellow_shoot"
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"template_meta": { 
+		"uuid" : "ecf60794-9add-4e24-981e-9628546ee1eb",
+		"name":"Cookie Library", 
+		"display": "cookie_library", 
+		"pattern": "*.coklib" 
+	},
+	
+	"library_meta": { "type":"array", "max":15 },
+	"library": [ {
+		"name" : "cookie",
+		"name_meta" : { "order":0 },
+		
+		"index" : 1,
+		"index_meta" : { "order":1, "type":"uint", "min":1, "max":15 },
+
+		"texture" : "",
+		"texture_meta" : { "type":"texture" },
+
+		"flowMap" : "",
+		"flowMap_meta" : { "type":"texture" },
+
+		"scrollSpeed" : [ 0.0, 0.0 ],
+		"scrollSpeed_meta" : { "optional":true, "type":"vec2" },
+
+		"flowSpeed" : 0.0,
+		"flowSpeed_meta" : { "optional":true, "min":-2.0, "max":2.0, "type":"float" }
+	} ]
+}

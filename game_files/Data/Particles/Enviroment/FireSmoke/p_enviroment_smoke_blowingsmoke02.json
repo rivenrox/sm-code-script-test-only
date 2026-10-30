@@ -1,0 +1,246 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"cone_angle" : 90.0,
+				"cone_radius" : 1.0,
+				"depth" : 1.5,
+				"diffuse" : "Textures/Smoke/smoke_looping_clouds04.tga",
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.0,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.92185,
+									0.92185,
+									0.92185,
+									0.0
+								]
+							],
+							[
+								0.26478,
+								[
+									0.92966,
+									0.92966,
+									0.92966,
+									0.82029
+								]
+							],
+							[
+								0.73237,
+								[
+									0.91794,
+									0.91794,
+									0.91794,
+									0.77341
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 17,
+						"guid" : 2,
+						"mode" : "over_time",
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"toggle" : false
+					},
+					{
+						"axis" : "z",
+						"base" : -1.25,
+						"control_point" : 
+						[
+							[
+								0.0,
+								-0.22617
+							],
+							[
+								0.15692,
+								-0.37418
+							],
+							[
+								0.36,
+								-0.49754
+							],
+							[
+								0.53538,
+								-0.38652
+							],
+							[
+								1.0,
+								-0.81826
+							]
+						],
+						"guid" : 3,
+						"max" : 2.5,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"base" : -2.5,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.55,
+								0.04998
+							],
+							[
+								0.85846,
+								0.28782
+							],
+							[
+								1.0,
+								0.46052
+							]
+						],
+						"guid" : 4,
+						"local" : false,
+						"max" : 5.0,
+						"name" : "Velocity",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.16447
+							],
+							[
+								0.49845,
+								0.69077
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 5,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.18152,
+								0.94735
+							],
+							[
+								0.37538,
+								0.81576
+							],
+							[
+								0.64613,
+								0.29276
+							],
+							[
+								0.80615,
+								0.13154
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"name" : "CameraDistanceFade",
+						"startDistance" : 15.0
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 3,
+				"friction" : 3.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.0,
+					0.44999
+				],
+				"keep_local" : true,
+				"max_particles" : 35,
+				"min_quality" : "high",
+				"name" : "Smoke 1",
+				"position" : 
+				[
+					0.0,
+					-1.0,
+					-0.5
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					25.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					6.0,
+					2.0
+				],
+				"translucency" : 0.5,
+				"type" : "cone",
+				"velocity" : 
+				[
+					0.0,
+					0.2
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.44999
+				]
+			}
+		],
+		"min_quality" : "high"
+	}
+}

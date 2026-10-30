@@ -1,0 +1,102 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$GAME_DATA/Particles/resources/jellyfish/p_mesh_jellyfish01.fbx",
+			"pose0" : "$GAME_DATA/Particles/resources/jellyfish/p_mesh_jellyfish01_pose0.fbx",
+			"pose1" : "$GAME_DATA/Particles/resources/jellyfish/p_mesh_jellyfish01_pose1.fbx",
+			"pose2" : "$GAME_DATA/Particles/resources/jellyfish/p_mesh_jellyfish01_pose2.fbx",
+			"subMeshMap" : 
+			{
+				"ears" : 
+				{
+					"material" : "3PoseAnimDifAsg",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Particles/resources/jellyfish/p_jellyfish_ears_asg.tga",
+						"diffuse" : "$GAME_DATA/Particles/resources/misc/p_colorable_dif.tga"
+					}
+				},
+				"m_jellyfish" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 1.519999981,
+							"blurriness" : 0.189999998,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.100000001,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : 2.0,
+							"transparencyFront" : 0.439999998
+						},
+						"translucent" : 
+						{
+							"push" : 0.100000001,
+							"refraction" : 0.150000006,
+							"thickness" : 0.5
+						},
+						"wave" : 
+						{
+							"speed" : 0.25,
+							"strength" : 1.0
+						}
+					},
+					"material" : "Jellyfish01",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Particles/resources/jellyfish/p_jellyfish_body_asg.tga",
+						"diffuse" : "$GAME_DATA/Particles/resources/jellyfish/p_jellyfish_body_dif.tga",
+						"lightCap" : "$SURVIVAL_DATA/Textures/Lightcap/t_jellyfish_lcap.tga"
+					}
+				},
+				"m_jellyfish_arms" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 1.519999981,
+							"blurriness" : 0.280000001,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.100000001,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : 0.129999995,
+							"transparencyFront" : 0.170000002
+						},
+						"wave" : 
+						{
+							"speed" : 0.5,
+							"strength" : 1.0
+						}
+					},
+					"material" : "Jellyfish02",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Particles/resources/jellyfish/p_jellyfish_arms_asg.tga",
+						"diffuse" : "$GAME_DATA/Particles/resources/jellyfish/p_jellyfish_arms_dif.tga",
+						"fbdrf" : "$GAME_DATA/Particles/resources/jellyfish/p_jellyfish_arms_dif.tga",
+						"normalMap" : "$GAME_DATA/Particles/resources/jellyfish/p_jellyfish_arms_nor.tga"
+					}
+				}
+			}
+		}
+	]
+}

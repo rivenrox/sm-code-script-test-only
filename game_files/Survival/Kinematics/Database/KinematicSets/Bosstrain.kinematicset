@@ -1,0 +1,960 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_col.fbx",
+			"color" : "6c707fff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain wagon",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon.rend",
+			"script" : 
+			{
+				"class" : "BosstrainWagon",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainWagon.lua"
+			},
+			"size" : 2,
+			"uuid" : "d8b50b83-3b46-4a37-a6b2-3f689524572b"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_col.fbx",
+			"color" : "6c707fff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain activation wagon",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"size" : 2,
+			"uuid" : "19cb03c2-d417-491e-8b4e-fe290e1baddf"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_col.fbx",
+			"color" : "6c707fff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain wagon station",
+			"navMesh" : true,
+			"params" : 
+			[
+				{
+					"name" : "Locktag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				},
+				{
+					"name" : "name",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"size" : 2,
+			"uuid" : "cdae33d4-2465-4ed9-a976-035e30c22f8e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_sidecart01_col.fbx",
+			"color" : "e3350dff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain sidecart01",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_sidecart01.rend",
+			"script" : 
+			{
+				"class" : "BosstrainSideCartScoop",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainSideCartScoop.lua"
+			},
+			"size" : 2,
+			"uuid" : "ebd59724-4b50-4102-8ef9-b988941562f2"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_sidecart02_col.fbx",
+			"color" : "e3350dff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain sidecart02",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_sidecart02.rend",
+			"script" : 
+			{
+				"class" : "BosstrainSideCart",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainSideCart.lua"
+			},
+			"size" : 2,
+			"uuid" : "f82d863d-543f-48ba-9368-986729b878d0"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_sidecart03_col.fbx",
+			"color" : "e3350dff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain sidecart03",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_sidecart03.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "24e5a076-b65a-4459-adf0-bd03c230fe2f"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagonramp_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 5000.0,
+			"material" : "Mechanical",
+			"name" : "wagon ramp",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagonramp.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "a5d5080d-2385-420e-93dd-73b2f01ce0d4"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_target_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain target",
+			"params" : 
+			[
+				{
+					"name" : "keyTag",
+					"type" : "string"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon_target.rend",
+			"script" : 
+			{
+				"class" : "KinematicSpinDoorRelease",
+				"data" : 
+				{
+					"kinematic" : {},
+					"meleeImpulse" : 15.0,
+					"projectileImpulse" : 5.0,
+					"restitution" : 0.35
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/KinematicSpinDoorRelease.lua"
+			},
+			"size" : 2,
+			"uuid" : "d6c2aeb0-3b00-4504-8021-14dd5702d8e2"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_targetarmature_left_col.fbx",
+			"col_box" : 
+			{
+				"x" : 1,
+				"y" : 1,
+				"z" : 1
+			},
+			"color" : "e3350dff",
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain target armature left",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon_targetarmature_left.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"uuid" : "4e51ee11-1727-491c-a71a-16fa74a673a4"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_targetarmature_right_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain target armature right",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon_targetarmature_right.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"uuid" : "e334299c-6a9c-4c8c-b90c-4764f84d6319"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_fronthook_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain front hook",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon_fronthook.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"uuid" : "4c439dd0-3e4c-4c0f-97d9-9654b2b7a211"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_lock_col.fbx",
+			"color" : "ffffffff",
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_lock",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_lock.rend",
+			"script" : 
+			{
+				"class" : "BosstrainLock",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainLock.lua"
+			},
+			"size" : 2,
+			"uuid" : "04b1c8fa-2834-45cd-af4f-19111a5952a9"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_hatch_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain hatch",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon_hatch.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "5ee4c8d1-3a9b-4247-b003-389d59155183"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagon_sidepanel_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 1000.0,
+			"material" : "MetalSlippery",
+			"name" : "bosstrain sidepanel",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagon_sidepanel.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "b52ed45a-904e-49c8-97d0-dc046a1f9624"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_frontplatform_col.fbx",
+			"color" : "f5aa36ff",
+			"mass" : 1000.0,
+			"material" : "Metal",
+			"name" : "bosstrain frontplatform",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_frontplatform.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "fe6eecf9-416c-4762-bf14-ada5725b5b2d"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_smallwagon_col.fbx",
+			"color" : "d25016ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain smallwagon",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_smallwagon.rend",
+			"script" : 
+			{
+				"class" : "BosstrainSideCart",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainSideCart.lua"
+			},
+			"size" : 2,
+			"uuid" : "3b0123f1-f795-4464-89e7-0e7417cb4f08"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_smallwagon_col.fbx",
+			"color" : "d25016ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain endwagon",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_smallwagon.rend",
+			"script" : 
+			{
+				"class" : "BosstrainWagon",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainWagon.lua"
+			},
+			"size" : 2,
+			"uuid" : "b8499b1e-4dd7-4341-9074-7bed518d71b1"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_smallwagonplatform_col.fbx",
+			"color" : "d25016ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Mechanical",
+			"name" : "bosstrain smallwagon platform",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_smallwagonplatform.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "b3768349-242d-4219-9794-b49a922cfa50"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_waitingroomdoor_col.fbx",
+			"color" : "de0000ff",
+			"mass" : 400.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_waitingroomdoor",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"default" : true,
+					"name" : "saved",
+					"type" : "bool"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_waitingroomdoor.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "852890db-90c3-44c6-a225-804339f1248f"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_lockmechanism_col.fbx",
+			"color" : "d62012ff",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_lockmechanism",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "storageTag",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_lockmechanism.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematic.lua"
+			},
+			"uuid" : "19846401-8d77-4d1d-8f94-eeeabe0b3c55"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_lockmechanism_base_col.fbx",
+			"color" : "d62012ff",
+			"kinematic" : true,
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_lockmechanism_base",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "storageTag",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_lockmechanism_base.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematic.lua"
+			},
+			"uuid" : "a5cc70cc-abdf-443f-98fa-5f4528d7dfee"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_dropcontainer_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 3000.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_dropcontainer",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_dropcontainer.rend",
+			"script" : 
+			{
+				"class" : "BosstrainSideCart",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainSideCart.lua"
+			},
+			"size" : 2,
+			"uuid" : "221b8719-41bf-4e4b-bea7-c2e9a213465d"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_dropcontainerhatch_col.fbx",
+			"color" : "d62012ff",
+			"mass" : 1000.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_dropcontainerhatch",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "storageTag",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_dropcontainerhatch.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematic.lua"
+			},
+			"uuid" : "4875b1c3-d655-41a9-8ce8-b5507649807a"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagonsliced01_col.fbx",
+			"color" : "6c707fff",
+			"mass" : 10000.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_wagonsliced01",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "activationTag",
+					"type" : "string"
+				},
+				{
+					"name" : "storageTag",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagonsliced01.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"size" : 2,
+			"uuid" : "81d82441-9ef9-4c88-be78-3ead5b9a7f54"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagonsliced02_col.fbx",
+			"color" : "6c707fff",
+			"mass" : 10000.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_wagonsliced02",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "activationTag",
+					"type" : "string"
+				},
+				{
+					"name" : "storageTag",
+					"type" : "string"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagonsliced02.rend",
+			"script" : 
+			{
+				"class" : "ParentedKinematicRoot",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/ParentedKinematicRoot.lua"
+			},
+			"size" : 2,
+			"uuid" : "f776af6c-9406-4d25-8fe0-91c2a166ff96"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagonrampsliced01_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_wagonrampsliced01",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagonrampsliced01.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "49c01be6-8f4a-4150-8d96-341283294b7e"
+		},
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/Bosstrain/kin_bosstrain_wagonrampsliced02_col.fbx",
+			"color" : "e3350dff",
+			"mass" : 500.0,
+			"material" : "Mechanical",
+			"name" : "kin_bosstrain_wagonrampsliced02",
+			"params" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "parentedKinematic",
+					"template" : "3dc456dd-7afd-4ec8-8272-4ed618c48654",
+					"type" : "template"
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/Bosstrain/kin_bosstrain_wagonrampsliced02.rend",
+			"script" : 
+			{
+				"class" : "BosstrainParentedKinematic",
+				"data" : 
+				{
+					"kinematic" : {}
+				},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/BosstrainParentedKinematic.lua"
+			},
+			"size" : 2,
+			"uuid" : "680b1677-9ccc-43e8-8bd6-4b6d53790a72"
+		}
+	]
+}

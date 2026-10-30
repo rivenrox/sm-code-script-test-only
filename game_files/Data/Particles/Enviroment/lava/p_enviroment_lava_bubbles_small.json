@@ -1,0 +1,1243 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"box" : 
+				[
+					62.0,
+					62.0,
+					0.0
+				],
+				"category" : "2",
+				"depth" : 
+				[
+					1.6,
+					0.2
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.42967,
+					1.0,
+					0.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.53331
+							],
+							[
+								0.50439,
+								2.16507
+							],
+							[
+								0.63998,
+								3.03484
+							],
+							[
+								0.77266,
+								3.49833
+							],
+							[
+								1.0,
+								4.0
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.47512,
+								0.03649
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 8,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.49671
+							],
+							[
+								0.42153,
+								0.60526
+							],
+							[
+								0.74461,
+								0.84868
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 9,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 30,
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.6,
+					0.2
+				],
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1000,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Lava Bubbling Subemitter Small",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_splattersphere01.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.125,
+				"sub" : 
+				[
+					{
+						"category" : "2",
+						"delay" : 0.3,
+						"depth" : 
+						[
+							4.0,
+							0.4
+						],
+						"direction_type" : "shape",
+						"duration" : 0.00999,
+						"editorColor" : 
+						[
+							0.42745,
+							1.0,
+							0.0,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.01936
+									],
+									[
+										0.333,
+										1.0
+									],
+									[
+										0.666,
+										0.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 2,
+								"name" : "Pose",
+								"time" : 0.75,
+								"toggle" : false
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.333,
+										0.0
+									],
+									[
+										0.666,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 3,
+								"index" : 1,
+								"name" : "Pose",
+								"time" : 0.75,
+								"toggle" : false
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.68421
+									],
+									[
+										0.15384,
+										0.75985
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 4,
+								"index" : 2,
+								"name" : "Pose",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 32,
+								"fps" : 30,
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.23995,
+										0.51428
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 5,
+								"name" : "TextureAnimator",
+								"toggle" : false,
+								"use_graph" : true
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.40476
+									],
+									[
+										0.56796,
+										1.67619
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 6,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"guid" : 1,
+						"height" : 
+						[
+							4.0,
+							0.4
+						],
+						"keep_local" : true,
+						"material_name" : "GlassWave",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"min_quality" : "high",
+						"name" : "Explosion Splatter2 matcap",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_splattershape01.rend",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							-1.0,
+							1.0,
+							1.0
+						],
+						"spawn_chance" : 0.5,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							6,
+							8
+						],
+						"time_to_live" : 0.449999988,
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 
+						[
+							4.0,
+							0.4
+						]
+					}
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.69998,
+					0.1
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.6,
+					0.2
+				]
+			},
+			{
+				"box" : 
+				[
+					62.0,
+					62.0,
+					0.0
+				],
+				"category" : "2",
+				"depth" : 0.800000012,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.36717,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.53331
+							],
+							[
+								0.50439,
+								2.16507
+							],
+							[
+								0.63998,
+								3.03484
+							],
+							[
+								0.77266,
+								3.49833
+							],
+							[
+								1.0,
+								4.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.47512,
+								0.03649
+							],
+							[
+								0.7717,
+								0.81111
+							],
+							[
+								0.85658,
+								0.89682
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 18,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.49671
+							],
+							[
+								0.47499,
+								0.60526
+							],
+							[
+								0.74461,
+								0.84868
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 19,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 30,
+				"friction" : 1.0,
+				"guid" : 10,
+				"height" : 0.800000012,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1000,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Lava Bubbling Subemitter Big",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_splattersphere01.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.25,
+				"sub" : 
+				[
+					{
+						"category" : "2",
+						"delay" : 0.3,
+						"depth" : 2.0,
+						"direction_type" : "shape",
+						"duration" : 0.00999,
+						"editorColor" : 
+						[
+							0.0,
+							1.0,
+							0.36469,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.01936
+									],
+									[
+										0.333,
+										1.0
+									],
+									[
+										0.666,
+										0.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 12,
+								"name" : "Pose",
+								"time" : 0.75,
+								"toggle" : false
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.333,
+										0.0
+									],
+									[
+										0.666,
+										1.0
+									],
+									[
+										1.0,
+										0.0
+									]
+								],
+								"guid" : 13,
+								"index" : 1,
+								"name" : "Pose",
+								"time" : 0.75,
+								"toggle" : false
+							},
+							{
+								"graph" : 
+								[
+									[
+										0.0,
+										0.68421
+									],
+									[
+										0.15384,
+										0.75985
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 14,
+								"index" : 2,
+								"name" : "Pose",
+								"toggle" : false
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 32,
+								"fps" : 30,
+								"graph" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.23995,
+										0.51428
+									],
+									[
+										1.0,
+										1.0
+									]
+								],
+								"guid" : 15,
+								"name" : "TextureAnimator",
+								"toggle" : false,
+								"use_graph" : true
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.40476
+									],
+									[
+										0.56796,
+										1.67619
+									],
+									[
+										1.0,
+										2.0
+									]
+								],
+								"guid" : 16,
+								"max_scale" : 2.0,
+								"name" : "Scale",
+								"toggle" : false
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"guid" : 11,
+						"height" : 2.0,
+						"keep_local" : true,
+						"material_name" : "GlassWave",
+						"max_particles" : 1,
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"min_quality" : "high",
+						"name" : "Explosion Splatter2 matcap",
+						"particle" : "mesh",
+						"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_splattershape01.rend",
+						"rotation" : 
+						[
+							0.0,
+							180.0
+						],
+						"rotation_axis" : 
+						[
+							-1.0,
+							1.0,
+							1.0
+						],
+						"spawn_chance" : 0.49,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							6,
+							8
+						],
+						"time_to_live" : 0.449999988,
+						"velocity" : 0.0,
+						"water_mask" : "none",
+						"width" : 2.0
+					}
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 0.699999988,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.800000012
+			},
+			{
+				"box" : 
+				[
+					62.0,
+					62.0,
+					0.0
+				],
+				"category" : "2",
+				"depth" : 1.200000048,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.83591,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.23807
+							],
+							[
+								0.03483,
+								1.66666
+							],
+							[
+								0.05931,
+								1.96825
+							],
+							[
+								0.11016,
+								2.11904
+							],
+							[
+								0.20527,
+								2.0873
+							],
+							[
+								0.34556,
+								2.31746
+							],
+							[
+								0.46985,
+								2.40475
+							],
+							[
+								0.50282,
+								2.30952
+							],
+							[
+								0.62523,
+								4.10305
+							],
+							[
+								1.0,
+								5.0
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 5.0,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.47512,
+								0.03649
+							],
+							[
+								0.7717,
+								0.81111
+							],
+							[
+								0.85658,
+								0.89682
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 28,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.49671
+							],
+							[
+								0.47499,
+								0.5
+							],
+							[
+								0.74461,
+								0.84868
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 29,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 50,
+				"friction" : 1.0,
+				"guid" : 20,
+				"height" : 1.200000048,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1000,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Lava Bubbling Subemitter Extra Medium",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/enviroment/lava/p_rendeble_enviroment_lava_splattersphere01.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"spawn_chance" : 0.25,
+				"sub" : 
+				[
+					{
+						"ASG_map" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_splatter_asg.tga",
+						"angle" : 5.0,
+						"category" : "3",
+						"delay" : 0.3,
+						"depth" : 
+						[
+							12.0,
+							2.0
+						],
+						"direction_type" : "constant",
+						"duration" : 0.00999,
+						"editorColor" : 
+						[
+							0.0,
+							1.0,
+							0.83529,
+							1.0
+						],
+						"effects" : 
+						[
+							{
+								"axis" : "y-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.42857
+									],
+									[
+										0.14214,
+										1.48888
+									],
+									[
+										0.33803,
+										1.83492
+									],
+									[
+										0.47832,
+										1.88888
+									],
+									[
+										0.60828,
+										1.84124
+									],
+									[
+										0.77401,
+										1.59045
+									],
+									[
+										0.89828,
+										1.30789
+									],
+									[
+										1.0,
+										0.92062
+									]
+								],
+								"enabled" : false,
+								"guid" : 22,
+								"max_scale" : 2.0,
+								"name" : "Scale"
+							},
+							{
+								"animation" : "sheet",
+								"end_texture_coords_range" : 55,
+								"fps" : 30,
+								"guid" : 23,
+								"name" : "TextureAnimator"
+							},
+							{
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.42471
+									],
+									[
+										0.06684,
+										1.37829
+									],
+									[
+										0.13559,
+										1.68602
+									],
+									[
+										0.26271,
+										1.88975
+									],
+									[
+										1.0,
+										2.33611
+									]
+								],
+								"guid" : 24,
+								"max_scale" : 2.79994,
+								"name" : "Scale"
+							},
+							{
+								"axis" : "y",
+								"control_point" : 
+								[
+									[
+										0.0,
+										90.0
+									],
+									[
+										1.0,
+										90.0
+									]
+								],
+								"guid" : 25,
+								"max" : 90.0,
+								"name" : "RotationOverTime",
+								"toggle" : false
+							},
+							{
+								"axis" : "x-scale",
+								"control_point" : 
+								[
+									[
+										0.0,
+										0.0
+									],
+									[
+										0.11676,
+										0.89721
+									],
+									[
+										0.24571,
+										1.21763
+									],
+									[
+										0.39076,
+										1.3068
+									],
+									[
+										1.0,
+										1.11451
+									]
+								],
+								"enabled" : false,
+								"guid" : 26,
+								"max_scale" : 1.79999,
+								"name" : "Scale"
+							}
+						],
+						"emission_mode" : "burst",
+						"emission_rate" : 1,
+						"force_vector" : 
+						[
+							0.0,
+							0.0,
+							-10.0
+						],
+						"friction" : 1.0,
+						"guid" : 21,
+						"height" : 
+						[
+							22.0,
+							5.0
+						],
+						"keep_local" : true,
+						"material_name" : "FbrdfUvAnimApha",
+						"max_particles" : 1,
+						"mesh" : "$GAME_DATA/Particles/resources/enviroment/lava/p_mesh_enviroment_lava_splatterplane02.fbx",
+						"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+						"mesh_size" : 
+						[
+							1.0,
+							1.0,
+							1.0
+						],
+						"mesh_type" : "camera_faceing",
+						"name" : "SplashPlane01 Random",
+						"normal_map" : "$GAME_DATA/Particles/resources/chemicalwaterfall/p_enviroment_magmalevel_lavasplatter_nor.tga",
+						"particle" : "mesh",
+						"rotation" : 
+						[
+							0.0,
+							5.0
+						],
+						"rotation_axis" : 
+						[
+							1.0,
+							0.0,
+							0.0
+						],
+						"rotation_speed" : 
+						[
+							0.0,
+							5.0
+						],
+						"spawn_chance" : 0.5,
+						"sub_emit" : "birth",
+						"tiles" : 
+						[
+							6,
+							9
+						],
+						"time_to_live" : 
+						[
+							0.82498,
+							0.2
+						],
+						"velocity" : 
+						[
+							6.0,
+							2.0
+						],
+						"water_mask" : "none",
+						"width" : 
+						[
+							22.0,
+							5.0
+						]
+					}
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 1.0,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.200000048
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_splatter_asg.tga",
+				"angle" : 5.0,
+				"box" : 
+				[
+					62.0,
+					62.0,
+					0.0
+				],
+				"category" : "3",
+				"depth" : 
+				[
+					15.0,
+					5.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					0.64841,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.19491,
+								1.65392
+							],
+							[
+								0.33803,
+								1.83492
+							],
+							[
+								0.47832,
+								1.88888
+							],
+							[
+								0.60828,
+								1.84124
+							],
+							[
+								0.77401,
+								1.59045
+							],
+							[
+								0.89828,
+								1.30789
+							],
+							[
+								1.0,
+								0.92062
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 55,
+						"fps" : 30,
+						"guid" : 32,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55263
+							],
+							[
+								0.19076,
+								1.2171
+							],
+							[
+								0.4923,
+								1.61842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 33,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"guid" : 34,
+						"max" : 90.0,
+						"name" : "RotationOverTime",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 10,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"friction" : 1.0,
+				"guid" : 30,
+				"height" : 
+				[
+					25.0,
+					8.0
+				],
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 1000,
+				"mesh" : "$GAME_DATA/Particles/resources/enviroment/lava/p_mesh_enviroment_lava_splatterplane03.fbx",
+				"mesh_diffuse" : "$GAME_DATA/Particles/resources/enviroment/lava/p_enviroment_lava_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"min_quality" : "medium",
+				"name" : "Lava RandomSplashes01",
+				"normal_map" : "$GAME_DATA/Particles/resources/chemicalwaterfall/p_enviroment_magmalevel_lavasplatter_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					4.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					4.0
+				],
+				"spawn_chance" : 0.25,
+				"tiles" : 
+				[
+					6,
+					9
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.1
+				],
+				"type" : "box",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					25.0,
+					8.0
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 0.69998
+	}
+}

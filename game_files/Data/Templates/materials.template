@@ -1,0 +1,274 @@
+{
+	"template_meta": {
+		"uuid" : "686337e8-1d3d-4046-aea3-4f89bf738530",
+		"name": "Materials",
+		"display": "materials",
+		"pattern": "$*/Materials/*materials.json",
+		"preferDualView" : true,
+		"root_meta": { "type":"map" }
+	},
+	"Material" : {
+		"defines_meta" : { "optional":true, "order":3, "hideInHierarchyView":true, "value_meta": { 
+			"optionsFilter" : "defines",
+			"options" : [
+				"PS_NO_DIF_TEX",
+				"PS_ASG_TEX",
+				"PS_AGS_TEX",
+				"PS_NOR_TEX",
+				"PS_NOR_D_TEX",
+				"PS_AO_TEX",
+
+				"PS_AGS_TEX_AO_ONLY",
+
+				"PS_FBDRF_DIF",
+				"PS_TRANSLUCENT_MAP_DIF",
+				"PS_TRANSLUCENT_MAP_MUL",
+				"PS_TRANSLUCENT_MAP_ADD",
+
+				"PS_MAT_CAP_DIF",
+				"PS_MAT_CAP_MASKED",
+				"PS_MAT_CAP_MASKED_GLOW",
+
+				"PS_LIGHT_CAP",
+				"PS_LIGHT_CAP_MASKED",
+
+				"PS_SPHERICAL_CAP",
+
+				"PARALLAX_PLANE",
+
+				"PS_LIGHT_MAP",
+				"PS_GRADIENT_MAP",
+				"PS_PAINT_GRADIENT_MAP",
+
+				"PS_DIF_UV1",
+				"PS_ASG_UV1",
+				"PS_AGS_UV1",
+				"PS_NOR_UV1",
+				"PS_NOR_D_UV1",
+				"PS_AO_UV0",
+				
+				"PS_MAGNIFICATION",
+				"PS_TRANSMISSION",
+				"PS_REFRACTION",
+				"PS_DEPTH_BLUR_DISTANCE",
+
+				"VS_UV0_ADAPTIVE_SCALE",
+				"VS_UV1_ADAPTIVE_SCALE",
+
+				"VS_UV0_ADAPTIVE_TRANSLATION",
+				"VS_UV1_ADAPTIVE_TRANSLATION",
+
+				"VS_UV0_SCROLL",
+				"VS_UV1_SCROLL",
+
+				"VS_UV0_STEP",
+				"VS_UV1_STEP",
+
+				"VS_UV0_SPRITE_SHEET",
+				"VS_UV1_SPRITE_SHEET",
+
+				"VS_UV0_PLANAR_WORLD_SPACE",
+				"VS_UV1_PLANAR_WORLD_SPACE",
+
+				"PS_CUSTOM_TILING",
+				"PS_TEXTURE_ARRAYS",
+
+				"PS_MATERIAL_FOILAGED",
+				"PS_MATERIAL_HAIR",
+				"PS_MATERIAL_SKIN",
+				"PS_MATERIAL_METAL",
+				"PS_METAL_REMAP_GLOSS_REFLECT",
+				"PS_OFFSET_PARAMS",
+				"PS_SET_PARAMS",
+
+				"PS_RESPONSIVE_GLOW",
+
+				"PS_LEGACY_GLASS",
+				"PS_LEGACY_GLASS_BLOCKS",
+
+				"PS_BEND_GBUFFER_NORMAL",
+
+				"PS_TRANSPARENT_TINTED",
+
+				"VS_FULL_TRANSFORM",
+
+				"VS_UV_ANIM",
+				"VS_SKEL_ANIM",
+
+				"VS_POSE_0_ANIM",
+				"VS_POSE_1_ANIM",
+				"VS_POSE_2_ANIM",
+
+				"VS_INSTANCED",
+
+				"VS_WIND_BASE",
+				"VS_WIND_SOFT",
+
+				"VS_PUSH",
+				"VS_PUSH_PER_VERTEX",
+
+				"VS_WAVE",
+				"VS_WAVE_NO_SCALE",
+
+				"ALPHA",
+				"PS_ALPHA_DISSOLVE_FROM_DIF_NOT_ASG",
+				"PS_ALPHA_CUTOFF",
+
+				"PS_FLIP_BACKFACE_NORMALS",
+
+				"VS_OCCLUSION_CHANNEL_R",
+				"VS_OCCLUSION_CHANNEL_G",
+				"VS_OCCLUSION_CHANNEL_B",
+				"VS_OCCLUSION_CHANNEL_A",
+				"VS_INVERT_OCCLUSION",
+
+				"VS_TRANSMISSION_CHANNEL_R",
+				"VS_TRANSMISSION_CHANNEL_G",
+				"VS_TRANSMISSION_CHANNEL_B",
+				"VS_TRANSMISSION_CHANNEL_A",
+
+				"TRANSFER_OBJECT_TANGENT",
+
+				"PS_GRUNGE",
+				"PS_GRUNGE_LAYER_1",
+				"PS_GRUNGE_LAYER_2",
+				"PS_GRUNGE_LAYER_3",
+				"PS_GRUNGE_LAYER_1_2D",
+				"PS_GRUNGE_AO",
+				"PS_GRUNGE_GLOSS",
+				"PS_GRUNGE_COLOR_ADD",
+				"PS_GRUNGE_REFLECT",
+				"VS_GRUNGE_CHANNEL_R",
+				"VS_GRUNGE_CHANNEL_G",
+				"VS_GRUNGE_CHANNEL_B",
+				"VS_GRUNGE_CHANNEL_A",
+
+				"PS_LASER_FRESNEL",
+				"PS_LASER_INTERSECT",
+				"PS_LASER_SCAN_LINES",
+				"PS_LASER_FADE",
+				
+				"PS_LASER_TEXTURE",
+				"PS_LASER_FOG",
+				"PS_LASER_MASK",
+				"PS_LASER_MASK_UV1",
+				"PS_LASER_REFRACTION_SCAN_LINES",
+				"PS_LASER_REFRACTION_TEXTURE",
+				"PS_LASER_REFRACTION_DISPLACEMENT",
+				"PS_LASER_DISTANCE_FADE",
+
+				"VS_LASER_DISPLACEMENT",
+				"VS_LASER_WAVE",
+				"VS_LASER_GLITCH",
+				"VS_LASER_SLICES",
+
+				"VS_LASER_FLICKER",
+				"VS_LASER_COLOR",
+				"VS_LASER_FADE",
+
+				"VS_LASER_MASK_CHANNEL_R",
+				"VS_LASER_MASK_CHANNEL_G",
+				"VS_LASER_MASK_CHANNEL_B",
+				"VS_LASER_MASK_CHANNEL_A",
+
+				"VS_OVERLAY_INFINITE",
+				"PS_OVERLAY_DEPTH_FADE",
+				"PS_OVERLAY_DEPTH_MASK",
+
+				"PS_FLOW_MAP_UV0",
+				"PS_FLOW_MAP_UV1",
+
+				"PS_SCROLL_MAP_UV0",
+				"PS_SCROLL_MAP_UV1",
+
+				"PS_DISSOLVE_UV0",
+				"PS_DISSOLVE_UV1",
+				"PS_DISSOLVE_3D",
+				
+				"PS_DITHER",
+
+				"PS_NO_COLOR_BLEND",
+
+				"PS_GLOBAL_PULSE",
+				"PS_GLOW_NEAR_FADE",
+
+				"TERRAIN_WATER",
+				"TERRAIN_WATER_UNDER_SURFACE",
+
+				"PS_SPHERICAL_BILLBOARD",
+				"VS_OVERLAY_DEPTH_OFFSET"
+			]
+		}},
+		"defines": [""],
+
+		"includes_meta" : {
+			"optional":true,
+			"deprecated":true,
+			"toolTip":"this is no longer supported and will have no effect on the material",
+			"value_meta": {
+				"options":[
+					"POSITION",
+					"UV0","UV1","UV2","UV3",
+					"TANGENTS",
+					"NORMAL",
+					"VERTEX_COLOR",
+					"BLEND_INDICES",
+					"BLEND_WEIGHTS"
+				]
+			}
+		},
+		"includes" : [],
+
+		"shadows_meta":{ "optional":true },
+		"shadows": true,
+		
+		"pass_meta" : {
+			"optional":true,
+			"options" : [
+				"ALPHA",
+				"BACKFACE",
+				"FLOATER",
+				"BACKGROUND",
+				"VISUALIZATION",
+				"CONNECT_OVERLAY_VISUALIZATION",
+				"ADDITIVE",
+
+				"TRANSPARENT",
+				"OVERLAY",
+				"EDITOR_TRANSFORM_TOOL",
+				"CONNECT_OVERLAY",
+
+				"WATER",
+				"WATER_ALPHA",
+				"OCEAN",
+				"GLASS",
+				"GLASS_ALPHA",
+				"GLASS_BACKFACE_CULL",
+
+				"GFORWARD",
+				"UNLIT",
+				"LASER",
+				"LASER_BACKFACE_CULL",
+				"LASER_ADDITIVE",
+				"LASER_ADDITIVE_INSIDE_GLASS",
+				
+				"MESH_DECAL",
+				"MESH_DECAL_TRANSPARENT",
+				
+				"TRANSLUCENT",
+				"TRANSLUCENT_SELF_FILLING",
+				
+				"LIGHT_CONE",
+				"HOLOGRAM",
+				"EDITOR_VOXEL_MESH", 
+				"EDITOR_GRID",
+				"OCCLUDER"
+			]
+		},
+		"pass": "UNLIT",
+
+		"textures_meta": { "optional":true, "hideInHierarchyView" : true, "icon":"$GAME_DATA/Gui/Editor/ed_icon_texturearray.png", "color":"#2a342d", "subTemplate":"$GAME_DATA/Templates/textures.template" },
+
+		"custom_meta": { "label" : "Shader Properties", "optional":true, "hideInHierarchyView" : true, "color":"#342a2d", "icon":"$GAME_DATA/Gui/Editor/ed_icon_rendablecustom.png", "subTemplate":"$GAME_DATA/Templates/shader_properties.template", "unavailable":{ "hidden" : true } }
+	}
+}

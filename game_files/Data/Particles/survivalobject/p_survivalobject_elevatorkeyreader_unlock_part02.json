@@ -1,0 +1,1967 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "2 - Turn",
+				"delay" : 0.15,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_glowcircle01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.07421,
+									0.0,
+									0.0,
+									0.30858
+								]
+							],
+							[
+								0.17463,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.6,
+								[
+									1.0,
+									0.21085,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.07028,
+									0.0,
+									0.0,
+									0.33202
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.60443
+							],
+							[
+								0.2123,
+								0.87581
+							],
+							[
+								0.37845,
+								1.0074
+							],
+							[
+								0.53229,
+								1.09785
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.67105
+							],
+							[
+								0.63076,
+								0.73684
+							],
+							[
+								0.83076,
+								0.83222
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 3,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 1.5,
+				"keep_local" : false,
+				"max_particles" : 3,
+				"name" : "Shockwave2     (low)",
+				"random_flip" : 
+				[
+					1.0,
+					1.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.5,
+				"velocity" : 0.01,
+				"water_mask" : "none",
+				"width" : 1.5,
+				"z_offset" : 35.0
+			},
+			{
+				"angle" : 15.0,
+				"billboard_type" : "axial_self",
+				"category" : "1 - Turn",
+				"cone_angle" : 90.0,
+				"cone_radius" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10119,
+								0.13183
+							],
+							[
+								0.17709,
+								0.34404
+							],
+							[
+								0.27296,
+								0.89709
+							],
+							[
+								0.37283,
+								1.18006
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.61023,
+								0.5684
+							],
+							[
+								0.7857,
+								0.66465
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"enabled" : false,
+						"fade" : 1.0,
+						"guid" : 6,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "GlowFlash1     (low)",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"power_glow" : true,
+				"random_flip" : 
+				[
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.150000006,
+				"type" : "cone",
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.25,
+					0.125
+				]
+			},
+			{
+				"category" : "1 - Turn",
+				"diffuse" : "$GAME_DATA/Particles/Textures/pu_flare.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.49843,
+								1.48571
+							],
+							[
+								0.65372,
+								1.8135
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					2.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "GlowFlash2     (low)",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"power_glow" : true,
+				"random_flip" : 
+				[
+					1.0,
+					1.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"time_to_live" : 0.200000003,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.125
+				],
+				"z_offset" : 500.0
+			},
+			{
+				"angle" : 5.0,
+				"billboard_type" : "axial_self",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76973
+							],
+							[
+								1.0,
+								3.19076
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 5.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6875
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 14,
+						"length" : 0.34999,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"base_scale" : 0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43297
+							],
+							[
+								0.17493,
+								0.80427
+							],
+							[
+								0.32896,
+								0.89638
+							],
+							[
+								0.77543,
+								0.80715
+							],
+							[
+								0.90337,
+								0.68338
+							],
+							[
+								1.0,
+								0.125
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/bearingdrill/p_emssionmesh_bearingdrill.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 11,
+				"height" : 
+				[
+					0.10999,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "medium",
+				"name" : "SparksGeneral 1 (Medium)",
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"spawn_chance" : 0.49,
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.045,
+					0.00749
+				]
+			},
+			{
+				"billboard_type" : "sprite",
+				"category" : "02 - swirl1",
+				"diffuse" : "$GAME_DATA/Particles/Textures/powertools/p_powertool_plasmsaw_swirl_03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.17644,
+					0.34531,
+					0.92185,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.73355
+							],
+							[
+								1.0,
+								0.47696
+							]
+						],
+						"fade" : 0.01999,
+						"guid" : 17,
+						"length" : 0.01999,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.19736
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.04788,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 19,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 155,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 16,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Swirl 01     (low)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.300000012,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"angle" : 5.0,
+				"billboard_type" : "axial_self",
+				"depth" : 0.0,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76973
+							],
+							[
+								1.0,
+								3.19076
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 5.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 22,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6875
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 23,
+						"length" : 0.34999,
+						"name" : "Cutoff"
+					},
+					{
+						"base_scale" : 0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43297
+							],
+							[
+								0.17493,
+								0.80427
+							],
+							[
+								0.32896,
+								0.89638
+							],
+							[
+								0.77543,
+								0.80715
+							],
+							[
+								0.90337,
+								0.68338
+							],
+							[
+								1.0,
+								0.125
+							]
+						],
+						"guid" : 24,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/bearingdrill/p_emssionmesh_bearingdrill.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 20,
+				"height" : 
+				[
+					0.10999,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "medium",
+				"name" : "SparksGeneral 1 (Medium)",
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"spawn_chance" : 0.5,
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.045,
+					0.00749
+				]
+			},
+			{
+				"angle" : 5.0,
+				"billboard_type" : "axial_self",
+				"depth" : 0.0,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76973
+							],
+							[
+								1.0,
+								3.19076
+							]
+						],
+						"guid" : 26,
+						"max_scale" : 5.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 27,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6875
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 28,
+						"length" : 0.34999,
+						"name" : "Cutoff"
+					},
+					{
+						"base_scale" : 0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43297
+							],
+							[
+								0.17493,
+								0.80427
+							],
+							[
+								0.32896,
+								0.89638
+							],
+							[
+								0.77543,
+								0.80715
+							],
+							[
+								0.90337,
+								0.68338
+							],
+							[
+								1.0,
+								0.125
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/bearingdrill/p_emssionmesh_bearingdrill.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 25,
+				"height" : 
+				[
+					0.10999,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "medium",
+				"name" : "SparksGeneral 1 (Medium)",
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"spawn_chance" : 0.5,
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.035,
+					0.00749
+				]
+			},
+			{
+				"angle" : 2.0,
+				"billboard_type" : "axial_self",
+				"category" : "02 - swirl1",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.15,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6875
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 31,
+						"length" : 0.34999,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"base_scale" : 0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43297
+							],
+							[
+								0.17493,
+								0.80427
+							],
+							[
+								0.32896,
+								0.89638
+							],
+							[
+								0.77543,
+								0.80715
+							],
+							[
+								0.90337,
+								0.68338
+							],
+							[
+								1.0,
+								0.125
+							]
+						],
+						"guid" : 32,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 33,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76973
+							],
+							[
+								0.27691,
+								4.24342
+							],
+							[
+								0.35692,
+								3.04275
+							],
+							[
+								0.46461,
+								2.17105
+							],
+							[
+								0.66768,
+								1.62828
+							],
+							[
+								1.0,
+								1.15129
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 5.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/bearingdrill/p_emssionmesh_bearingdrill_part1.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1251,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 30,
+				"height" : 
+				[
+					0.10999,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Sparks1     (high)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					0.0,
+					180.0,
+					0.0
+				],
+				"soft_particles_bias" : 5000,
+				"spawn_chance" : 0.5,
+				"sub_emit" : "birth",
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.035,
+					0.00749
+				]
+			},
+			{
+				"angle" : 2.0,
+				"billboard_type" : "axial_self",
+				"category" : "02 - swirl1",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"delay" : 0.075,
+				"depth" : 0.0,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.15,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6875
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 36,
+						"length" : 0.34999,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"base_scale" : 0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43297
+							],
+							[
+								0.17493,
+								0.80427
+							],
+							[
+								0.32896,
+								0.89638
+							],
+							[
+								0.77543,
+								0.80715
+							],
+							[
+								0.90337,
+								0.68338
+							],
+							[
+								1.0,
+								0.125
+							]
+						],
+						"guid" : 37,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 38,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76973
+							],
+							[
+								0.27691,
+								4.24342
+							],
+							[
+								0.35692,
+								3.04275
+							],
+							[
+								0.46461,
+								2.17105
+							],
+							[
+								0.66768,
+								1.62828
+							],
+							[
+								1.0,
+								1.15129
+							]
+						],
+						"guid" : 39,
+						"max_scale" : 5.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/bearingdrill/p_emssionmesh_bearingdrill_part1.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1251,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 35,
+				"height" : 
+				[
+					0.10999,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Sparks2    (high)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-180.0,
+					-0.00001,
+					270.0
+				],
+				"soft_particles_bias" : 5000,
+				"spawn_chance" : 0.5,
+				"sub_emit" : "birth",
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.035,
+					0.00749
+				]
+			},
+			{
+				"angle" : 2.0,
+				"billboard_type" : "axial_self",
+				"category" : "02 - swirl1",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"delay" : 0.15,
+				"depth" : 0.0,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.15,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6875
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 41,
+						"length" : 0.34999,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"base_scale" : 0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43297
+							],
+							[
+								0.17493,
+								0.80427
+							],
+							[
+								0.32896,
+								0.89638
+							],
+							[
+								0.77543,
+								0.80715
+							],
+							[
+								0.90337,
+								0.68338
+							],
+							[
+								1.0,
+								0.125
+							]
+						],
+						"guid" : 42,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 43,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76973
+							],
+							[
+								0.27691,
+								4.24342
+							],
+							[
+								0.35692,
+								3.04275
+							],
+							[
+								0.46461,
+								2.17105
+							],
+							[
+								0.66768,
+								1.62828
+							],
+							[
+								1.0,
+								1.15129
+							]
+						],
+						"guid" : 44,
+						"max_scale" : 5.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/bearingdrill/p_emssionmesh_bearingdrill_part1.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1251,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 40,
+				"height" : 
+				[
+					0.10999,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Sparks3    (high)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					0.0,
+					180.0,
+					180.0
+				],
+				"soft_particles_bias" : 5000,
+				"spawn_chance" : 0.5,
+				"sub_emit" : "birth",
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.035,
+					0.00749
+				]
+			},
+			{
+				"angle" : 2.0,
+				"billboard_type" : "axial_self",
+				"category" : "02 - swirl1",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"delay" : 0.22495,
+				"depth" : 0.0,
+				"diffuse" : "Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.6875
+							],
+							[
+								1.0,
+								0.81906
+							]
+						],
+						"fade" : 0.125,
+						"guid" : 46,
+						"length" : 0.34999,
+						"name" : "Cutoff",
+						"toggle" : false
+					},
+					{
+						"base_scale" : 0.125,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43297
+							],
+							[
+								0.17493,
+								0.80427
+							],
+							[
+								0.32896,
+								0.89638
+							],
+							[
+								0.77543,
+								0.80715
+							],
+							[
+								0.90337,
+								0.68338
+							],
+							[
+								1.0,
+								0.125
+							]
+						],
+						"guid" : 47,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 48,
+						"name" : "Color",
+						"toggle" : false
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								5.0
+							],
+							[
+								0.16301,
+								4.76973
+							],
+							[
+								0.27691,
+								4.24342
+							],
+							[
+								0.35692,
+								3.04275
+							],
+							[
+								0.46461,
+								2.17105
+							],
+							[
+								0.66768,
+								1.62828
+							],
+							[
+								1.0,
+								1.15129
+							]
+						],
+						"guid" : 49,
+						"max_scale" : 5.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "resources/emission_meshes/bearingdrill/p_emssionmesh_bearingdrill_part1.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1251,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 45,
+				"height" : 
+				[
+					0.10999,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Sparks4    (high)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.1
+				],
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-180.0,
+					0.0,
+					90.0
+				],
+				"soft_particles_bias" : 5000,
+				"spawn_chance" : 0.5,
+				"sub_emit" : "birth",
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.035,
+					0.00749
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 0.89999
+	}
+}

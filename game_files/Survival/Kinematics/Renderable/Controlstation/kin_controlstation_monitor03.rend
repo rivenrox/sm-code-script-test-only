@@ -1,0 +1,211 @@
+{
+	"decalReciever" : false,
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Kinematics/Mesh/Controlstation/kin_controlstation_monitor03.fbx",
+			"minViewSize" : 55,
+			"subMeshMap" : 
+			{
+				"m_glass" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 1.5,
+							"blurriness" : 0.0,
+							"depthBlurDistance" : 0,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.100000001,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : -2.0,
+							"transparencyFront" : 0.370000005
+						},
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							2.0,
+							1.0
+						]
+					},
+					"material" : "Glass",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Tiled/General/t_tiled_basicglass_dif.tga",
+						"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Topdepartment/env_topdepartment_glass_nor.tga"
+					]
+				},
+				"m_screen" : 
+				{
+					"material" : "DifAsg",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Kinematics/Textures/controlstation/t_controlstation_images_monitor_dif.tga",
+						"$SURVIVAL_DATA/Kinematics/Textures/controlstation/t_controlstation_monitor_asg.tga",
+						""
+					]
+				},
+				"m_techno" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 1.5,
+							"blurriness" : 0.0,
+							"depthBlurDistance" : 0,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.100000001,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : 2.0,
+							"transparencyFront" : 2.0
+						},
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.0,
+								0.0,
+								0.0,
+								0.0
+							],
+							"fade" : 
+							{
+								"fadeRange" : 1.0,
+								"fadeValue" : 1.0
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 1.0,
+								"fogMin" : 1.0,
+								"fogOpacity" : 1.0,
+								"fogScale" : 1.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 0.810000002,
+								"fresnelIntensity" : 0.129999995
+							},
+							"glowStrength" : 0.620000005,
+							"highlightColor" : 
+							[
+								1.0,
+								0.0,
+								0.000010014,
+								1.0
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.25,
+								"intersectIntensity" : 0.600000024
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 1.0,
+								"scanLineFrequency2" : 1.0,
+								"scanLineIntensity1" : 1.0,
+								"scanLineIntensity2" : 0.300000012,
+								"scanLineSpeed1" : 1.0,
+								"scanLineSpeed2" : 1.039999962
+							}
+						},
+						"laserDisplacement" : 
+						{
+							"color" : 
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							],
+							"fade" : 
+							{
+								"displacementFadeRange" : 1.0,
+								"displacementFadeValue" : 1.0
+							},
+							"flicker" : 
+							{
+								"flickerFrequencyOffset" : 1.0,
+								"flickerFrequencyValue" : 1.0
+							},
+							"glitch" : 
+							{
+								"speed" : 4.070000172
+							},
+							"slice" : 
+							{
+								"direction" : 
+								[
+									1.0,
+									0.0,
+									0.0
+								],
+								"sliceSize" : 2.730000019
+							},
+							"speed" : 31.88999939,
+							"strength" : 0.079999998,
+							"wave" : 
+							{
+								"noiseIntensity" : 1.0
+							}
+						},
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							2.0,
+							1.0
+						]
+					},
+					"material" : "Laser",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Tiled/General/t_tiled_basicglass_dif.tga",
+						"$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+						"$SURVIVAL_DATA/Terrain/Textures/Topdepartment/env_topdepartment_glass_nor.tga"
+					]
+				},
+				"m_uvmaterial_industrial" : 
+				{
+					"custom" : 
+					{
+						"color" : "Color01",
+						"textureTiling" : 
+						[
+							1.0,
+							1.0,
+							1.0,
+							50.0
+						]
+					},
+					"material" : "UvMaterial_Default",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_dif.tga",
+						"$SURVIVAL_DATA/Textures/Uvmaterial/t_uvmaterial_industrial_asg.tga",
+						"$SURVIVAL_DATA/Textures/Trim/t_trimsheet_mechanic01_nor.tga",
+						"$GAME_DATA/Textures/Tiled/Metal/t_tiled_metal_nor.tga"
+					]
+				}
+			}
+		}
+	]
+}

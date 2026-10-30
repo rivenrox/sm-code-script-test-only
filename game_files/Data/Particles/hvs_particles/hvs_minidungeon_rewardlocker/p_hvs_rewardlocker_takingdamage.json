@@ -1,0 +1,942 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - impact",
+				"color" : 
+				[
+					1.0,
+					0.8155,
+					0.63669,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.64595,
+								1.64812
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.57296,
+								0.72329
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 2,
+						"length" : 1.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					0.32499,
+					0.025
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "StarGlow [low]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.15,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.32499,
+					0.025
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "1 - impact",
+				"circle_angle" : 25.0,
+				"default_particle" : 
+				[
+					0.4,
+					0.4
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "Textures/Flash/flash_flash02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.90232,
+					0.4864,
+					0.81783,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.50138,
+								[
+									1.0,
+									0.28863,
+									0.0377,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.84232,
+									0.50779,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.31654
+							],
+							[
+								0.23348,
+								0.63805
+							],
+							[
+								0.80396,
+								1.06342
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.62405
+							],
+							[
+								0.32258,
+								0.66465
+							],
+							[
+								0.59907,
+								0.78043
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 6,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.39397
+							],
+							[
+								0.13364,
+								0.94735
+							],
+							[
+								0.24048,
+								1.20158
+							],
+							[
+								0.39631,
+								1.37442
+							],
+							[
+								0.68049,
+								1.66314
+							],
+							[
+								1.0,
+								1.73529
+							]
+						],
+						"guid" : 7,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.15974,
+								0.13233
+							],
+							[
+								0.28725,
+								0.26765
+							],
+							[
+								0.55606,
+								1.37142
+							],
+							[
+								0.6298,
+								1.64511
+							],
+							[
+								0.78648,
+								1.81052
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 4001,
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 0.69998,
+				"guid" : 3,
+				"height" : 
+				[
+					2.0,
+					0.25
+				],
+				"keep_local" : false,
+				"max_particles" : 15,
+				"name" : "Impacts 2 Add [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.05
+				],
+				"power_glow" : true,
+				"radius" : 0.00999,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 10241,
+				"sort_offset" : -0.5,
+				"time_to_live" : 0.2,
+				"type" : "circle",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.5,
+					0.1
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"angle" : 25.0,
+				"category" : "2 - ",
+				"depth" : 
+				[
+					1.25,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.6406,
+									0.83824,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									0.75779,
+									0.88941,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 11,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 9,
+				"height" : 
+				[
+					1.25,
+					0.5
+				],
+				"keep_local" : false,
+				"max_particles" : 3,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Glass Mesh1 [medium]",
+				"particle" : "debris",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_minidungeon_rewardlocker/p_renderable_hvs_minidungeon_rewardlocker_glasshards03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					500.0
+				],
+				"sphere_radius" : 0.1,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					0.5
+				]
+			},
+			{
+				"angle" : 25.0,
+				"category" : "2 - ",
+				"depth" : 
+				[
+					1.25,
+					0.5
+				],
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.94998,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 13,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.6406,
+									0.83824,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.67321,
+								[
+									0.75779,
+									0.88941,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 14,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 5000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 12,
+				"height" : 
+				[
+					1.25,
+					0.5
+				],
+				"keep_local" : false,
+				"max_particles" : 2,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "Glass Mesh1  (high)",
+				"particle" : "debris",
+				"renderable" : "$GAME_DATA/Particles/Renderable/hvs/hvs_minidungeon_rewardlocker/p_renderable_hvs_minidungeon_rewardlocker_glasshards02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					500.0
+				],
+				"sphere_radius" : 0.1,
+				"time_to_live" : 
+				[
+					2.0,
+					0.25
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					4.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					0.5
+				]
+			},
+			{
+				"angle" : 15.0,
+				"billboard_type" : "axial_self",
+				"category" : "1 - impact",
+				"cone_angle" : 90.0,
+				"cone_radius" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10119,
+								0.13183
+							],
+							[
+								0.17709,
+								0.34404
+							],
+							[
+								0.27296,
+								0.89709
+							],
+							[
+								0.37283,
+								1.18006
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.50138,
+								[
+									1.0,
+									0.28863,
+									0.0377,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.84232,
+									0.50779,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 17,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 15,
+				"height" : 
+				[
+					0.25,
+					0.06199
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "medium",
+				"name" : "Glow1 [medium]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"power_glow" : true,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 0.15,
+				"type" : "cone",
+				"velocity" : 1.5,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.2,
+					0.02999
+				],
+				"z_offset" : 100.0
+			},
+			{
+				"ASG_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_asg.tga",
+				"angle" : 25.0,
+				"category" : "3 - ",
+				"cone_angle" : 75.0,
+				"cone_radius" : 0.25,
+				"depth" : 0.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1111,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 18,
+				"height" : 0.75,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh" : "resources/survival_objects/survivalobjects_crate/Meshes/p_survivalobjects_crate01_screws01.fbx",
+				"mesh_diffuse" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "01 - spring (low)",
+				"normal_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					0.3
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.5,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					800.0
+				],
+				"time_to_live" : 2.0,
+				"type" : "cone",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"ASG_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_asg.tga",
+				"angle" : 25.0,
+				"category" : "3 - ",
+				"cone_angle" : 75.0,
+				"cone_radius" : 0.25,
+				"depth" : 0.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1111,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 19,
+				"height" : 0.75,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh" : "resources/survival_objects/survivalobjects_crate/Meshes/p_survivalobjects_crate01_screws02.fbx",
+				"mesh_diffuse" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "02 - screw1 (medium)",
+				"normal_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					0.3
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.5,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					800.0
+				],
+				"time_to_live" : 2.0,
+				"type" : "cone",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 0.75
+			},
+			{
+				"ASG_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_asg.tga",
+				"category" : "3 - ",
+				"cone_angle" : 75.0,
+				"cone_radius" : 0.25,
+				"depth" : 0.75,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1111,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-10.0
+				],
+				"guid" : 20,
+				"height" : 0.75,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh" : "resources/survival_objects/survivalobjects_crate/Meshes/p_survivalobjects_crate01_screws03.fbx",
+				"mesh_diffuse" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "03 - screw2 (high)",
+				"normal_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_nor.tga",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					-0.0,
+					0.3
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-0.5,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					1200.0
+				],
+				"time_to_live" : 2.0,
+				"type" : "cone",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 0.75
+			}
+		],
+		"min_quality" : "low"
+	}
+}

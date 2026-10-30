@@ -1,0 +1,149 @@
+{
+	"Weather - Audio" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/amb/2d/rain"
+				],
+				"delay" : 0.0,
+				"followListener" : true,
+				"type" : "audio"
+			}
+		]
+	},
+	"Weather - Drizzle" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_rain_drizzle",
+				"type" : "particle"
+			}
+		]
+	},
+	"Weather - Rain" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_rain_rain",
+				"type" : "particle"
+			}
+		]
+	},
+	"Weather - Rainbow" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_rain_drizzle",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "p_rain_rainbow",
+				"offset" : 
+				[
+					500.0,
+					0.0,
+					250.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Weather - Storm" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_rain_storm",
+				"type" : "particle"
+			}
+		]
+	},
+	"Weather - Storm_lightning" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "p_rain_lightning",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					250.0
+				],
+				"type" : "particle"
+			},
+			{
+				"additive" : true,
+				"color" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					1.0
+				],
+				"delay" : 0.125,
+				"duration" : 0.100000001,
+				"intensity" : 10.0,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					250.0
+				],
+				"radius" : 500.0,
+				"type" : "pointLight"
+			},
+			{
+				"delay" : 0.125,
+				"duration" : 1.0,
+				"intensity" : 5.320000172,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					250.0
+				],
+				"parameters" : 
+				[
+					"intensity"
+				],
+				"radius" : 500.0,
+				"type" : "pointLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 1.0
+					},
+					{
+						"time" : 1.0,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"intensity" : 5.0
+		}
+	}
+}

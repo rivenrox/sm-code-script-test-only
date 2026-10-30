@@ -1,0 +1,466 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					0.0,
+					0.2
+				],
+				"category" : "3",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Geometry/p_geometry_glowcircle_wobbly.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.55211,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.57533
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.3,
+						"guid" : 2,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.42762
+							],
+							[
+								1.0,
+								1.64382
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					2.5,
+					0.15
+				],
+				"keep_local" : true,
+				"max_particles" : 15,
+				"name" : "Shockwave Circle [medium)",
+				"rotation" : 
+				[
+					180.0,
+					25.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					-541.0,
+					1.0
+				],
+				"scene_blend" : "blend_add",
+				"shape_rotation" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"soft_particles_bias" : 10240,
+				"time_to_live" : 0.5,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.5,
+					0.15
+				],
+				"z_offset" : 500.0
+			},
+			{
+				"billboard_type" : "sprite",
+				"box" : 
+				[
+					0.0,
+					0.0,
+					0.25
+				],
+				"category" : "3",
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_03.tga",
+				"direction_type" : "constant",
+				"duration" : 0.2,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.8338,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.01678,
+									0.02762,
+									0.04295,
+									0.0
+								]
+							]
+						],
+						"guid" : 5,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.97039
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.73026
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 7,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 20,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 
+				[
+					3.75,
+					0.25
+				],
+				"keep_local" : false,
+				"legacy_rotation" : false,
+				"max_particles" : 200,
+				"name" : "Shockwave1  [low)",
+				"position" : 
+				[
+					0.00655,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					-720.0,
+					90.0
+				],
+				"scene_blend" : "blend_add",
+				"soft_particles_bias" : 10240,
+				"time_to_live" : 0.75,
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					3.75,
+					0.25
+				],
+				"z_offset" : 500.0
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/powertools/p_mesh_plasmasaw_cylinder01_asg.tga",
+				"box" : 
+				[
+					0.0,
+					0.0,
+					0.2
+				],
+				"category" : "3",
+				"depth" : 4.0,
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.15541
+							],
+							[
+								1.0,
+								1.25
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 40,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.19117,
+								0.16234
+							],
+							[
+								0.30392,
+								0.0
+							],
+							[
+								0.45914,
+								0.13917
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 10,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.50151,
+								1.25
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 4,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 1.899999976,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 4,
+				"mesh" : "$GAME_DATA/Particles/resources/powertools/p_powertools_swirl_cylinder01.fbx",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Mesh Swirl Edge",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/growlab/p_renderable_growlab_spinnerswirl.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 720.0,
+				"tiles" : 
+				[
+					10,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "box",
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 1.899999976
+			},
+			{
+				"category" : "2",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.27322,
+								[
+									0.0,
+									0.69529,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 10,
+				"guid" : 12,
+				"keep_local" : true,
+				"material_name" : "LightCone",
+				"max_particles" : 10,
+				"mesh" : "$GAME_DATA/Particles/resources/growlabs/p_mesh_growlab_spinnerleaver_glowing.fbx",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Glow",
+				"particle" : "mesh",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.316
+				],
+				"rotation_speed" : 500.0,
+				"time_to_live" : 0.5,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			}
+		],
+		"min_quality" : "low"
+	}
+}

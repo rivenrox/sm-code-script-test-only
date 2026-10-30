@@ -1,0 +1,65 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Objects/Mesh/consumable/obj_consumable_glowstick.fbx",
+			"subMeshMap" : 
+			{
+				"Flare" : 
+				{
+					"custom" : 
+					{
+						"metalProfile" : "DifAsgNor_Painted"
+					},
+					"material" : "DifAsgNor_Metal",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Character/Char_Glowstick/char_glowstick_nor.tga"
+					}
+				},
+				"Glass" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 0.01,
+							"blurriness" : 0.0,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.270000011,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : 0.200000003,
+							"transparencyFront" : 0.079999998
+						}
+					},
+					"material" : "Glass",
+					"textures" : 
+					{
+						"asg" : "$GAME_DATA/Objects/Textures/Blocks/blk_glass_asg.tga",
+						"diffuse" : "$GAME_DATA/Objects/Textures/Blocks/blk_glass_dif.tga",
+						"normalMap" : "$GAME_DATA/Textures/Materialtextures/normal_nor.tga"
+					}
+				},
+				"m_glow" : 
+				{
+					"material" : "DifAsg",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Effects/Textures/Glowstick/t_glowstick01_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Effects/Textures/Glowstick/t_glowstick_translucency.tga"
+					}
+				}
+			}
+		}
+	]
+}

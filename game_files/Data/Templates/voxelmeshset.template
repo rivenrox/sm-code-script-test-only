@@ -1,0 +1,46 @@
+{
+	"template_meta": {
+		"uuid" : "53f5ae6a-c890-4502-ac1d-1f4cb3871b1c",
+		"name":"Voxelmesh Set",
+		"display": "voxelmeshset",
+		"pattern": [ "$*/Voxel/Database/VoxelMeshSets/*.json", "*.voxelmeshset" ]
+	},
+
+	"voxelMeshList_meta" : { "valueAsLabel":"name" },
+	"voxelMeshList": [
+		{
+
+			"hidden_meta" : { "optional":true, "order":0, "toolTip":"Hides the voxel mesh from library in release." },
+			"hidden": true,
+
+			"name_meta" : { "order":1 },
+			"name": "voxel mesh name",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "ignoreUuidName": true, "order":2 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"renderable_meta": { "type" : "renderable", "order":3 },
+			"renderable": "",
+
+			"defaultOperation_meta": { 
+				"order":4,
+				"type":"string",
+				"options":["overwrite", "subtract", "fillEmpty"]
+			},
+
+			"defaultOperation": "fillEmpty",
+
+			"defaultLayer_meta": { "type":"int" },
+
+			"defaultScale": [ 1.0, 1.0, 1.0 ],
+
+			"defaultScale_meta": { "type":"vec3", "min":0.0 },
+
+			"defaultMaterial_meta": { "type":"int", "min":0, "max":2 },
+			
+			"defaultMaterial": 0
+
+		}
+	]
+
+}

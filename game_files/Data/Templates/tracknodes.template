@@ -1,0 +1,32 @@
+{
+	"template_meta" : {
+		"uuid" : "9e724133-1aa3-4342-9292-75978a335801",
+		"name" :"Track Nodes",
+		"root_meta" : { "type" : "array"  },
+		"pattern" : [".tracknodes"],
+        "constDataStoreAllNames" : true
+	},
+
+	"track_meta" : {
+		"valueAsLabel" : [  "label" ],
+		"valueSuffix" : " - Key",
+		"value_meta" : {
+			"color" : "#29402d",
+			"startCollapsed" : true,
+			"displayTransform" : {
+				"renderableFromEntity" : true,
+				"color" : [
+					0.6,
+					0.6,
+					0.6,
+					0.6
+				],
+				"cameraView" : false,
+				"position" : "position",
+				"rotation" : "rotation"
+			},
+			"subTemplate" : "$GAME_DATA/Templates/tracknode.template"
+		}
+	},
+	"track" : [ { } ]
+}

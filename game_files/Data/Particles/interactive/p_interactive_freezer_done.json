@@ -1,0 +1,1570 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"angle" : 15.0,
+				"category" : "1 - start burster",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_salt.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.625,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"guid" : 0,
+				"height" : 
+				[
+					0.025,
+					0.00498
+				],
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 50,
+				"name" : "SnowBurst1     [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.40766
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"time_to_live" : 1.5,
+				"type" : "cone",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.025,
+					0.00498
+				]
+			},
+			{
+				"category" : "1 - start burster",
+				"color" : 
+				[
+					0.8,
+					0.88235,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 90.0,
+				"cone_radius" : 0.00999,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 4,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 6,
+						"max" : 0.25,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.08923,
+								-0.14474
+							],
+							[
+								0.13842,
+								-0.30922
+							],
+							[
+								0.24921,
+								-1.0
+							],
+							[
+								0.53846,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 7,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.14767,
+								0.0592
+							],
+							[
+								0.21536,
+								0.23684
+							],
+							[
+								0.40922,
+								1.0
+							],
+							[
+								0.79075,
+								-1.0
+							],
+							[
+								1.0,
+								0.0197
+							]
+						],
+						"guid" : 8,
+						"max" : 1.0,
+						"name" : "Velocity",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 
+				[
+					4.0,
+					2.0
+				],
+				"guid" : 3,
+				"height" : 
+				[
+					0.03299,
+					0.00249
+				],
+				"keep_local" : true,
+				"max_particles" : 40,
+				"min_quality" : "medium",
+				"name" : "SnowBurst1 Small     [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.40799
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					12.92652,
+					13.94719,
+					-1.47373
+				],
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.5
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					5.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.03299,
+					0.00249
+				]
+			},
+			{
+				"category" : "1 - start burster",
+				"color" : 
+				[
+					0.8,
+					0.88235,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 90.0,
+				"cone_radius" : 0.00999,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 10,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 12,
+						"max" : 0.25,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -0.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10768,
+								0.09866
+							],
+							[
+								0.17226,
+								0.27136
+							],
+							[
+								0.27691,
+								0.75
+							],
+							[
+								0.61843,
+								-0.73028
+							],
+							[
+								1.0,
+								0.75
+							]
+						],
+						"guid" : 13,
+						"max" : 0.75,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -0.75,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.01477
+							],
+							[
+								0.14767,
+								-0.06911
+							],
+							[
+								0.28,
+								-0.24178
+							],
+							[
+								0.35692,
+								-0.75
+							],
+							[
+								0.56615,
+								0.44901
+							],
+							[
+								0.64306,
+								0.75
+							],
+							[
+								0.80307,
+								0.30592
+							],
+							[
+								1.0,
+								-0.20231
+							]
+						],
+						"guid" : 14,
+						"max" : 0.75,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 
+				[
+					3.0,
+					1.0
+				],
+				"guid" : 9,
+				"height" : 
+				[
+					0.05,
+					0.00498
+				],
+				"keep_local" : true,
+				"max_particles" : 40,
+				"min_quality" : "high",
+				"name" : "SnowBurst1 Big [high]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.40766
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-21.44068,
+					-24.49403,
+					-47.60534
+				],
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.5
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					5.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.00498
+				],
+				"wind" : 1.0
+			},
+			{
+				"angle" : 15.0,
+				"category" : "1 - start burster",
+				"color" : 
+				[
+					0.8,
+					0.88235,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 90.0,
+				"cone_radius" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 16,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 18,
+						"max" : 0.25,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10768,
+								-0.15132
+							],
+							[
+								0.15692,
+								-0.38816
+							],
+							[
+								0.2,
+								-1.0
+							],
+							[
+								0.6,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 19,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.15692,
+								0.18421
+							],
+							[
+								0.24615,
+								0.375
+							],
+							[
+								0.40922,
+								1.0
+							],
+							[
+								0.79075,
+								-1.0
+							],
+							[
+								1.0,
+								0.0197
+							]
+						],
+						"guid" : 20,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.25
+				],
+				"friction" : 
+				[
+					4.0,
+					2.0
+				],
+				"guid" : 15,
+				"height" : 
+				[
+					0.025,
+					0.00249
+				],
+				"keep_local" : true,
+				"max_particles" : 40,
+				"min_quality" : "high",
+				"name" : "SnowBurst2 Small  [high]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.40766
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-16.49408,
+					-12.55948,
+					-54.16393
+				],
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.5
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					4.0,
+					4.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.025,
+					0.00249
+				],
+				"wind" : -1.0
+			},
+			{
+				"angle" : 15.0,
+				"category" : "1 - start burster",
+				"color" : 
+				[
+					0.8,
+					0.88235,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 65.0,
+				"cone_radius" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_snowflake.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 4,
+						"fps" : 30,
+						"guid" : 22,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								0.25
+							]
+						],
+						"guid" : 24,
+						"max" : 0.25,
+						"name" : "Velocity"
+					},
+					{
+						"axis" : "z",
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10461,
+								-0.15132
+							],
+							[
+								0.12917,
+								-0.4079
+							],
+							[
+								0.2,
+								-1.0
+							],
+							[
+								0.6,
+								1.0
+							],
+							[
+								1.0,
+								-1.0
+							]
+						],
+						"guid" : 25,
+						"max" : 1.0,
+						"name" : "Velocity"
+					},
+					{
+						"base" : -1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.16922,
+								0.14471
+							],
+							[
+								0.24921,
+								0.36184
+							],
+							[
+								0.40922,
+								1.0
+							],
+							[
+								0.79075,
+								-1.0
+							],
+							[
+								1.0,
+								0.0197
+							]
+						],
+						"guid" : 26,
+						"max" : 1.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.10003
+				],
+				"friction" : 
+				[
+					4.0,
+					2.0
+				],
+				"guid" : 21,
+				"height" : 
+				[
+					0.05,
+					0.00498
+				],
+				"keep_local" : true,
+				"max_particles" : 40,
+				"min_quality" : "medium",
+				"name" : "SnowBurst1 Big  [medium]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.40766
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"shape_rotation" : 
+				[
+					-6.8671,
+					-17.98815,
+					-62.13617
+				],
+				"tiles" : 
+				[
+					2,
+					2
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					0.5
+				],
+				"type" : "cone",
+				"velocity" : 
+				[
+					5.0,
+					3.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05,
+					0.00498
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88748,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_wispofsmoke.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 15,
+						"guid" : 28,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.22382
+							],
+							[
+								0.10029,
+								0.66052
+							],
+							[
+								0.27202,
+								0.87704
+							],
+							[
+								1.0,
+								1.28805
+							]
+						],
+						"guid" : 29,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.19436,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.60154
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 30,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59447
+							],
+							[
+								1.0,
+								1.42752
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 3.0,
+				"guid" : 27,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Whisp of smoke +     [medium]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.39085
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					15.0
+				],
+				"scene_blend" : "alpha_blend",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 2.0,
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.125
+				]
+			},
+			{
+				"angle" : 5.0,
+				"billboard_type" : "axial_self",
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88748,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 25.0,
+				"cone_radius" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_smokepillar01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 15,
+						"guid" : 33,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.22382
+							],
+							[
+								0.10029,
+								0.66052
+							],
+							[
+								0.27202,
+								0.87704
+							],
+							[
+								1.0,
+								1.28805
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.19436,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.69858,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 35,
+						"name" : "Color"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.59447
+							],
+							[
+								1.0,
+								1.42752
+							]
+						],
+						"enabled" : false,
+						"guid" : 36,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 3.0,
+				"guid" : 32,
+				"height" : 
+				[
+					0.5,
+					0.05
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"min_quality" : "high",
+				"name" : "SmokePillar    [high]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.64802
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"time_to_live" : 0.5,
+				"type" : "cone",
+				"velocity" : 
+				[
+					1.1,
+					0.89999
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.125,
+					0.00999
+				]
+			},
+			{
+				"angle" : 5.0,
+				"category" : "2 - ",
+				"color" : 
+				[
+					0.8,
+					0.88748,
+					1.0,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.62352,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 15,
+						"guid" : 38,
+						"name" : "TextureAnimator",
+						"repeat" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.1447
+							],
+							[
+								1.0,
+								2.7631
+							]
+						],
+						"guid" : 39,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.19436,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.60154
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 40,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-0.5
+				],
+				"friction" : 3.0,
+				"guid" : 37,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "SmokeExplosion    [low]",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.57879
+				],
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 1.5,
+				"velocity" : 
+				[
+					1.0,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 41,
+				"hidden" : true,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "StaticMeshRef1",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.15865,
+					0.0,
+					0.22439
+				],
+				"renderable" : "$SURVIVAL_DATA/Objects/Renderable/interactive/obj_interactive_freezer.rend",
+				"time_to_live" : 5.0,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 15.0,
+				"category" : "1 - start burster",
+				"color" : 
+				[
+					0.8,
+					0.88625,
+					1.0,
+					1.0
+				],
+				"cone_angle" : 45.0,
+				"cone_radius" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Debri/p_debri_salt.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.625,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 43,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.83332,
+								0.9868
+							],
+							[
+								0.91461,
+								0.90763
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 44,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-5.0
+				],
+				"guid" : 42,
+				"height" : 
+				[
+					0.025,
+					0.00498
+				],
+				"keep_local" : true,
+				"max_particles" : 100,
+				"name" : "SnowBurst1     [low]",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.40766
+				],
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"time_to_live" : 1.5,
+				"type" : "cone",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.025,
+					0.00498
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

@@ -1,0 +1,191 @@
+{
+	"warehouse2floor04 - trigger" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"effects" : "Warehousedestruction_2FloorBuilding_04 - Secondfloor_explosion01",
+				"label" : "2FloorWarehouse_04 - Explosion01 -  2ndFloor",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					-0.0,
+					0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 1.5,
+				"effects" : "Warehousedestruction_2FloorBuilding_04 - Secondfloorsilopipes_Explosion02",
+				"label" : "2FloorWarehouse_04 - Explosion02 -  2ndFloor_silopipes",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					90.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 2.5,
+				"effects" : "Warehousedestruction_2FloorBuilding_04 - Firstfloor_explosion03",
+				"label" : "2FloorWarehouse_04 - Explosion03 -  1stFloor",
+				"offset" : 
+				[
+					215.839005,
+					1.834,
+					-83.109001
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					90.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 3.5,
+				"effects" : "Warehousedestruction_2FloorBuilding_04 - Firstfloorlargetank_explosion04",
+				"label" : "2FloorWarehouse_04 - Explosion04 -  1stFloor_largetank",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					90.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 4.0,
+				"effects" : "Warehousedestruction_2FloorBuilding_04 - Groundfloorsilopipes_Explosion05",
+				"label" : "2FloorWarehouse_04 - Explosion05 -  GroundFloor_silopipes",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					90.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion1"
+				},
+				"delay" : 2.0,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch01 - 2ndFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion2"
+				},
+				"delay" : 2.5,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch02 - 2ndFloor_silopipes",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion3"
+				},
+				"delay" : 3.0,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch03 - 1stFloor",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion4"
+				},
+				"delay" : 4.0,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch04 - 1stFloor_largetank",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "explosion5"
+				},
+				"delay" : 4.5,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - MeshSwitch05 - Groundfloor_silopipe",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_blowUpWarehouseFloor",
+				"callbackParams" : 
+				{
+					"explosion" : "destroyed"
+				},
+				"delay" : 11.0,
+				"isServerCallback" : true,
+				"label" : "LuaEvent - Destruction",
+				"type" : "luaEvent"
+			},
+			{
+				"duration" : 4.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeFalloffDuration" : 0.0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					75.0,
+					75.0,
+					75.0
+				],
+				"shakeRadius" : 250,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.5,
+				"type" : "cameraShake",
+				"offset" : 
+				[
+					111.789833,
+					159.955093,
+					0.0
+				]
+			}
+		]
+	}
+}

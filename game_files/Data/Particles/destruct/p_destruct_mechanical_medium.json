@@ -1,0 +1,1021 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "2 - ",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.07321,
+								[
+									1.0,
+									0.81932,
+									0.71091,
+									1.0
+								]
+							],
+							[
+								0.842,
+								[
+									1.0,
+									1.0,
+									0.96469,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.27629
+							],
+							[
+								0.27691,
+								1.625
+							],
+							[
+								0.54461,
+								1.85526
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.88814
+							]
+						],
+						"fade" : 0.1,
+						"guid" : 3,
+						"length" : 0.1,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 4,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-2.0
+				],
+				"friction" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.2
+				],
+				"keep_local" : false,
+				"max_particles" : 15,
+				"min_quality" : "medium",
+				"name" : "Dust Spark 1 (Medium)",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"sphere_radius" : 0.25,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.15
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					1.5,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.2
+				]
+			},
+			{
+				"ASG_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_asg.tga",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.41176,
+					0.4745,
+					0.49803,
+					0.5098
+				],
+				"depth" : 
+				[
+					0.46,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.82261,
+								0.94406
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 7,
+						"local" : false,
+						"max" : 2.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					0.46,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 3,
+				"mesh" : "resources/survival_objects/survivalobjects_crate/Meshes/p_survivalobjects_crate01_screws01.fbx",
+				"mesh_diffuse" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Metal parts 1 (Low)",
+				"normal_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw01.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					-1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					340.0,
+					120.0
+				],
+				"sphere_radius" : 0.34999,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.8,
+					0.2
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.46,
+					0.1
+				]
+			},
+			{
+				"ASG_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_asg.tga",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.41209,
+					0.47734,
+					0.5,
+					0.5098
+				],
+				"depth" : 
+				[
+					0.46,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.82261,
+								0.94406
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 10,
+						"local" : false,
+						"max" : 2.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					0.46,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 3,
+				"mesh" : "resources/survival_objects/survivalobjects_crate/Meshes/p_survivalobjects_crate01_screws02.fbx",
+				"mesh_diffuse" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Metal parts 2 (Low)",
+				"normal_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw02.rend",
+				"rotation" : 
+				[
+					360.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					-1.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					60.0
+				],
+				"sphere_radius" : 0.34999,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.8,
+					0.2
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					2.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.46,
+					0.1
+				]
+			},
+			{
+				"ASG_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_asg.tga",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.41209,
+					0.47734,
+					0.5,
+					0.5098
+				],
+				"depth" : 
+				[
+					0.46,
+					0.1
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.82261,
+								0.94406
+							],
+							[
+								0.90767,
+								0.82893
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 13,
+						"local" : false,
+						"max" : 2.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 1.0,
+				"guid" : 11,
+				"height" : 
+				[
+					0.46,
+					0.1
+				],
+				"keep_local" : false,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 3,
+				"mesh" : "resources/survival_objects/survivalobjects_crate/Meshes/p_survivalobjects_crate01_screws03.fbx",
+				"mesh_diffuse" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Metal parts 3(Medium)",
+				"normal_map" : "resources/survival_objects/survivalobjects_crate/p_survivalobjects_crate01_screws_nor.tga",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/survivalobjects_crate/p_survivalobjects_lootbox_screw03.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					60.0
+				],
+				"sphere_radius" : 0.34999,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.8,
+					0.2
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					2.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.46,
+					0.1
+				]
+			},
+			{
+				"category" : "2 - ",
+				"default_particle" : 
+				[
+					0.5,
+					0.5
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "Textures/Smoke/smoke_dustaftermarth03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.07321,
+								[
+									1.0,
+									0.81932,
+									0.71091,
+									1.0
+								]
+							],
+							[
+								0.842,
+								[
+									1.0,
+									1.0,
+									0.96469,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 15,
+						"name" : "Color"
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.2072
+							],
+							[
+								0.28,
+								1.54934
+							],
+							[
+								0.61843,
+								1.81903
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								0.75985
+							]
+						],
+						"fade" : 0.2,
+						"guid" : 17,
+						"length" : 0.2,
+						"name" : "Cutoff"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 16,
+						"fps" : 30,
+						"guid" : 18,
+						"mode" : "random_still_frame",
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"friction" : 1.0,
+				"guid" : 14,
+				"height" : 
+				[
+					1.75,
+					0.4
+				],
+				"keep_local" : false,
+				"max_particles" : 7,
+				"name" : "Dust Spark 2 static (Low)",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1000,
+				"sphere_radius" : 0.34999,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.15
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					0.25,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.75,
+					0.4
+				]
+			},
+			{
+				"ASG_map" : "resources/misc/metal/p_metal02_asg.tga",
+				"category" : "1 - ",
+				"color" : 
+				[
+					0.41209,
+					0.47734,
+					0.5,
+					0.5098
+				],
+				"color_fraction" : 1.0,
+				"depth" : 
+				[
+					0.75,
+					0.15997
+				],
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.82261,
+								0.94406
+							],
+							[
+								0.90767,
+								0.82893
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 21,
+						"local" : false,
+						"max" : 2.0,
+						"name" : "Velocity"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 1.0,
+				"guid" : 19,
+				"height" : 
+				[
+					0.75,
+					0.15997
+				],
+				"keep_local" : false,
+				"material_name" : "DifAsgNor",
+				"max_particles" : 3,
+				"mesh" : "resources/misc/metal/p_metalchunkcorner_02.fbx",
+				"mesh_diffuse" : "resources/misc/metal/p_metal01_dif.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Metal parts 4(Medium)",
+				"normal_map" : "resources/misc/metal/p_metal01_nor.tga",
+				"params" : 2,
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/misc/p_metalchunkcorner_02.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					60.0
+				],
+				"sphere_radius" : 0.34999,
+				"tiles" : 
+				[
+					4,
+					4
+				],
+				"time_to_live" : 
+				[
+					0.8,
+					0.2
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					2.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.15997
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "3 - ",
+				"color" : 
+				[
+					0.92185,
+					0.6718,
+					0.60496,
+					1.0
+				],
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.07321,
+								[
+									1.0,
+									0.81932,
+									0.71091,
+									1.0
+								]
+							],
+							[
+								0.842,
+								[
+									1.0,
+									1.0,
+									0.96469,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 23,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.69406
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 24,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								0.2423,
+								1.2
+							],
+							[
+								0.38076,
+								0.98666
+							],
+							[
+								1.0,
+								0.66131
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 2500,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"friction" : 0.25,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 22,
+				"height" : 
+				[
+					0.15,
+					0.025
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "Sparks 2 (High)",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 1.0,
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 1024,
+				"sphere_radius" : 0.25,
+				"time_to_live" : 
+				[
+					0.6,
+					0.25
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.05998,
+					0.00999
+				]
+			}
+		],
+		"min_quality" : "low"
+	}
+}

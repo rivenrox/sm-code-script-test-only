@@ -1,0 +1,808 @@
+{
+	"template_meta": { 
+		"uuid" : "c7f56d84-1e7c-43e7-b978-3bda5266fd97",
+		"name":"Layout File", 
+		"display": "layout", 
+		"pattern": ["$*/Layouts/*.json", ".gui"],
+		"constDataStoreAllNames" : true,
+		"preferDualView" : true,
+		"root_meta" : {
+			"hideUnavailableOptionals" : true
+		},
+		"presets" : {
+			"BackPanel" : { 
+				"Name" : "BackPanel",
+				"Skin" : "BackgroundInteractableUltraWide",
+				"Type" : "Widget",
+				"height" : 400,
+				"width" : 600,
+				"x" : 0,
+				"y" : 0,
+				"InheritsPick" : true,
+				"NeedMouse" : false,
+				"NeedKey" : false,
+				"Anchor" : "Center"
+			},
+			"EmptyPanel" : { 
+				"Name" : "Panel",
+				"Skin" : "PanelEmpty",
+				"Type" : "Widget",
+				"height" : 400,
+				"width" : 200,
+				"x" : 0,
+				"y" : 0,
+				"InheritsPick" : true,
+				"NeedMouse" : false,
+				"NeedKey" : false,
+				"Anchor" : "Center"
+			}
+		}
+	},
+
+	"Name_meta" : { "order" : 1, "optional" : true },
+	"Name" : "",
+	
+	"Type_meta" : { "order" : 2, "optionsCategory": "widgetType" },
+	"Type" : "Widget",
+	
+	"Skin_meta" : { "order" : 3, "optionsCategory": "widgetSkin", "unavailable" : { "Type" : ["SubLayout"] } },
+	"Skin" : "WhiteSkin",
+	
+	"Visible_meta" : { "optional" : true, "order" : 4, "unavailable" : { "Type" : ["SubLayout"] } },
+	"Visible" : true,
+
+	"Enabled_meta" : { "optional" : true, "order" : 4 },
+	"Enabled" : true,
+
+	"Colour_meta" : { "type" : "guiColor", "optional" : true },
+	"Colour" : "1.0 1.0 1.0 1.0",
+
+	"Alpha_meta" : { "type" : "float", "optional" : true, "min" : 0.0, "max" : 1.0 },
+	"Alpha" : 1.0,
+
+	"InheritsAlpha_meta" : { "optional" : true },
+	"InheritsAlpha" : true,
+
+	"Cursor_meta" : { "optional" : true, "optionsAllowsCustom": false,
+	"options": [
+		"Point",
+		"Draggable"
+		]
+	},
+	"Cursor" : "Point",
+
+	"Hotbar_meta" : { 
+		"optional" : true,
+		"order" : 51,
+		"available" : { "__root__" : true }
+	},
+	"Hotbar" : {
+		"DropContainerIds_meta" : { "order" : 2, "hidden" : true, "type": "array", "value_meta" : { "type" : "int" }, "optional" : true, "toolTip" : "If set, items will go to fitting drop container when shift clicking" },
+		"DropContainerIds" : [],
+
+		"ItemEndDragCallback_meta" : { "order" : 14, "optional" : true, "toolTip" : "Sends a callback when an item is dragged out of the container" },
+		"ItemEndDragCallback" : "cl_onItemEndDrag",
+
+		"AutomaticTransactions_meta" : { "order" : 15, "optional" : false, "toolTip" : "If enabled the container will automatically handle item moves and swaps when items are dragged around" },
+		"AutomaticTransactions" : true
+	},
+
+	"ContainerData_meta" : { "optional" : true, "available" : { "Type" : ["JsonContainerBox"] } },
+	"ContainerData" : {
+
+		"ContainerId_meta" : { "order" : 1, "hidden" : true, "optional" : false, "toolTip" : "The ID of the container to display content from" },
+		"ContainerId" : -1,
+
+		"DropContainerIds_meta" : { "order" : 2, "hidden" : true, "type": "array", "value_meta" : { "type" : "int" }, "optional" : true, "toolTip" : "If set, items will go to fitting drop container when shift clicking" },
+		"DropContainerIds" : [],
+
+		"ItemSize_meta" : { "order" : 4, "optional" : false },
+		"ItemSize" : { "width" : 74, "height" : 74 },
+
+		"ContainerWidth_meta" : { "order" : 5, "optional" : false },
+		"ContainerWidth" : 0,
+
+		"ContainerHeight_meta" : { "order" : 6, "optional" : false },
+		"ContainerHeight" : 0,
+
+		"ContainerOffsetX_meta" : { "order" : 7, "optional" : false },
+		"ContainerOffsetX" : 0,
+
+		"ContainerOffsetY_meta" : { "order" : 8, "optional" : false },
+		"ContainerOffsetY" : 0,
+
+		"AddScrollSlider_meta" : { "order" : 9, "optional" : false, "toolTip" : "If selected a scroll slider will be added connected to the container gui, not usable if hotbar" },
+		"AddScrollSlider" : false,
+
+		"SliderWidth_meta" : { "order" : 10, "optional" : false, "available" : { "AddScrollSlider" : true } },
+		"SliderWidth" : 0,
+
+		"SliderHeight_meta" : { "order" : 11, "optional" : false, "available" : { "AddScrollSlider" : true } },
+		"SliderHeight" : 0,
+
+		"SliderOffsetX_meta" : { "order" : 12, "optional" : false, "available" : { "AddScrollSlider" : true } },
+		"SliderOffsetX" : 0,
+
+		"SliderOffsetY_meta" : { "order" : 13, "optional" : false, "available" : { "AddScrollSlider" : true } },
+		"SliderOffsetY" : 0,
+
+		"ItemEndDragCallback_meta" : { "order" : 14, "optional" : true, "toolTip" : "Sends a callback when an item is dragged out of the container" },
+		"ItemEndDragCallback" : "cl_onItemEndDrag",
+
+		"AutomaticTransactions_meta" : { "order" : 15, "optional" : false, "toolTip" : "If enabled the container will automatically handle item moves and swaps when items are dragged around" },
+		"AutomaticTransactions" : true
+
+	},
+
+	"ToolTip_meta" : { "optional" : true, "hideInHierarchyView" : true, "unavailable" : { "Type" : ["SubLayout"] } },
+	"ToolTip" : {
+		"onToolTip_meta" : { "optional" : true },
+		"onToolTip" : "cl_onToolTip",
+
+		"Text" : ""
+	},
+
+	"BlueprintPreviewPath_meta" : { "optional" : true,
+	 "available" : { "Type" : ["PreviewBox"] },
+	 "optionsCategory" : "blueprint",
+	 "type" : "string",
+	 "toolTip" : "The path of a blueprint to be displayed as a 3D preview in the PreviewBox area. Not usable together with ItemPreview"
+	},
+	"BlueprintPreviewPath" : "",
+	
+	"BlueprintPreview_meta" : { "optional" : true,
+	 "available" : { "Type" : ["PreviewBox"] },
+	 "optionsCategory" : "blueprint",
+	 "subtemplate" : "$GAME_DATA/Templates/blueprint.template" ,
+	 "toolTip" : "The jsonData of a blueprint to be displayed as a 3D preview in the PreviewBox area. Not usable together with ItemPreview"
+	},
+	"BlueprintPreview" : {},
+
+	"ItemPreview_meta" : {
+		"optional" : true,
+		"available" : { "Type" : ["PreviewBox"] },
+		"optionsCategory" : "shape",
+		"type" : "uuid",
+		"toolTip" : "The uuid of an item to be displayed as a 3D preview in the PreviewBox area. Not usable together with BlueprintPreview"
+	},
+	"ItemPreview" : "00000000-0000-0000-0000-000000000000",
+
+	"x_meta" : { "order" : 5, "unavailable" : {  
+		"../../LayoutRule" : ["Grid"],
+		"VerticalAlign" : ["Stretch"]
+		}
+	},
+	"x" : 0,
+	"y_meta" : { "order" : 6, "unavailable" : 
+		{ 
+			"../../LayoutRule" : ["Grid"],
+			"HorizontalAlign" : ["Stretch"]
+		}
+	},
+	"y" : 0,
+	
+	"width_meta" : { "order" : 7, "min" : 0, "unavailable" : { 
+		"../../LayoutRule" : ["Grid"],
+		"VerticalAlign" : ["Stretch"],
+		"Type" : ["SubLayout"]
+		}
+	},
+	"width" : 100,
+	"height_meta" : { "order" : 8, "min" : 0, "unavailable" : 
+	{ 
+		"../../LayoutRule" : ["Grid"],
+		"HorizontalAlign" : ["Stretch"],
+		"Type" : ["SubLayout"],
+		"HeightFromText" : true
+		}
+	},
+	"height" : 100,
+
+	"Anchor_meta" : {
+		"optional" : true,
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"available" : { "__root__" : true },
+		"toolTip" : "Anchoring of the root widget in screen space",
+		"options" : [
+		"Top Left",    "Top Center", 	"Top Right", 
+		"Left Center", "Center", 		"Right Center",
+		"Bottom Left", "Bottom Center", "Bottom Right"
+	]
+	},
+	"Anchor" : "Center",
+
+	"LayoutRule_meta" : { 
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true, 
+		"options" : ["Absolute", "Horizontal", "HorizontalRight", "Vertical", "Grid", "Center"],
+		"toolTip" : "Decides how child widgets should align in this"
+	},
+	"LayoutRule" : "Absolute",
+
+	"RenderDepth_meta" : {
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true,
+		"toolTip" : "Decides the rendering depth of the child widget. Higher value equals lower priority"
+	},
+	"RenderDepth" : 0,
+
+	"Popup_meta" : {
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true,
+		"toolTip" : "Decides if the widget should have the Popup WidgetStyle (useful for widgets that move from player input)"
+	},
+	"Popup" : false,
+
+	"Layer_meta" : {
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true,
+		"options" : ["LuaHudShared", "LuaHudOverlapped", "LuaPopupShared", "LuaPopupOverlapped", "LuaDragAndDrop"],
+		"toolTip" : "Decides what layer the child widget should have if 'Popup' is true (Defaults to 'LuaDragAndDrop')"
+	},
+	"Layer" : "DragAndDrop",
+
+	"RotatingSkinAngle_meta" : {
+		"optional" : true,
+		"available" : { "Skin" : ["RotatingSkin"] },
+		"toolTip" : "Sets the rotation of a widget with the RotatingSkin skin"
+	},
+	"RotatingSkinAngle" : 0.0,
+
+	"RotatingSkinCenterX_meta" : {
+		"optional" : true,
+		"available" : { "Skin" : ["RotatingSkin"] },
+		"toolTip" : "Sets the rotation point of widget with the RotatingSkin skin"
+	},
+	"RotatingSkinCenterX" : 0,
+
+	"RotatingSkinCenterY_meta" : {
+		"optional" : true,
+		"available" : { "Skin" : ["RotatingSkin"] },
+		"toolTip" : "Sets the rotation point of widget with the RotatingSkin skin"
+	},
+	"RotatingSkinCenterY" : 0,
+
+	"GridItemSize_meta" : {
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true,
+		"order" : 98,
+		"available" : { "LayoutRule" : ["Grid"] }
+	},
+	"GridItemSize" : {
+		"width_meta" : { "min" : 0 },
+		"width" : 100,
+		"height_meta" : { "min" : 0 },
+		"height" : 100
+	},
+
+	"GridScrollOffset_meta" : {
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true,
+		"order" : 99,
+		"available" : { "LayoutRule" : ["Grid"] }
+	},
+	"GridScrollOffset" : {
+		"left_meta" : { "max" : 0 },
+		"left" : 0,
+		"top_meta" : { "max" : 0 },
+		"top" : 0
+	},
+		
+	"SubLayoutPath_meta" : { 
+		"available" :  {"Type" : ["SubLayout"] }, 
+		"optional" : true, 
+		"type" : "filepath"
+	},
+	"SubLayoutPath" : "",
+
+	"VerticalAlign_meta" : { 
+		"available" : { "../../LayoutRule" : ["Vertical"] },
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true,
+		"options" : [ "Left", "Centered", "Stretch", "Right" ],
+		"toolTip" : "Alignment inside parent widget"
+	},
+	"VerticalAlign" : "Left",
+
+	"HorizontalAlign_meta" : { 
+		"available" : { "../../LayoutRule" : ["Horizontal"] },
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"optional" : true,
+		"options" : [ "Top", "Centered", "Stretch", "Bottom" ],
+		"toolTip" : "Alignment inside parent widget"
+	},
+	"HorizontalAlign" : "Centered",
+
+	"TextAlign_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["Button", "TextBox", "EditBox"] } ,
+		"options" : ["Default", 
+		"Stretch", "Center",
+		"Left", "Top", "Right", "Bottom", 
+		"Top Left", "Top Right", "Bottom Left", "Bottom Right",
+		"Top HStretch", "HStretch", "Bottom HStretch",
+		"Left VStretch", "VStretch", "Right VStretch"]
+	},
+	"TextAlign" : "Default",
+
+	"PropagateButtonHighlight_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["Button"] }
+	},
+	"PropagateButtonHighlight" : false,
+
+	"FontName_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["Button", "TextBox", "EditBox", "HyperTextLine"] } ,
+		"optionsCategory": "font"
+	},
+	"FontName" : "SM_Header",
+
+	"CenterContent_meta" : {
+		"optional" : true,
+		"available" : { "Type": ["HyperTextLine"] },
+		"type" : "bool"
+	},
+	"CenterContent" : true,
+
+	"NeedToolTip_meta" : { "optional" : true },
+	"NeedToolTip" : false,
+
+	"NeedScroll_meta" : { "optional" : true },
+	"NeedScroll" : false,
+
+	"BottomAnchored_meta" : { 
+		"optional" : true,
+		"available" : { "Type" : ["ScrollViewPanel"] },
+		"toolTip" : "If true the scroll view keeps its offset anchored to the bottom of its content, so newly added content stays in view"
+	},
+	"BottomAnchored" : false,
+
+	"TextColour_meta" : { 
+		"available" : { "Type": ["Button", "TextBox", "EditBox"] } ,
+		"type" : "guiColor", 
+		"optional" : true 
+	},
+	"TextColour" : "1.0 1.0 1.0 1.0",
+
+	"TextShadow_meta" : { 
+		"available" : { "Type": ["Button", "TextBox", "EditBox"] } ,
+		"optional" : true 
+	},
+	"TextShadow" : true,
+
+	"TextShadowColour_meta" : { 
+		"available" : { "TextShadow" : true } ,
+		"type" : "guiColor", 
+		"optional" : true 
+	},
+	"TextShadowColour" : "1.0 1.0 1.0 0.3",
+
+	"HeightFromText_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] },
+		"toolTip" : "Match widget height from text height"
+	},
+	"HeightFromText" : false,
+
+	"MultiLine_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"MultiLine" : true,
+
+	"MaxTextLength_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"MaxTextLength" : 20,
+
+	"MaxTextWidth_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"MaxTextWidth" : 60,
+
+	"MaxTextWidthFontOverride_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"MaxTextWidthFontOverride" : "",
+
+	"Password_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"Password" : true,
+
+	"PasswordChar_meta" : { 
+		"optional" : true, 
+		"available" : { "Password": true }
+	},
+	"PasswordChar" : "*",
+
+	"InvertSelected_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"InvertSelected" : false,
+
+	"TabPrinting_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"TabPrinting" : false,
+
+	"WordWrap_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"WordWrap" : true,
+
+	"Static_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["EditBox"] }
+	},
+	"Static" : true,
+
+	"onClose_meta" : { 
+		"optional" : true,
+		"order" : 20,
+		"available" : { "__root__" : true }
+	},
+	"onClose" : "cl_onClose",
+
+	"onOpen_meta" : { 
+		"optional" : true,
+		"order" : 20,
+		"available" : { "__root__" : true }
+	},
+	"onOpen" : "cl_onOpen",
+
+	"onClick_meta" : { 
+		"optional" : true, 
+		"order" : 20,
+		"available" : { "Type": ["Button"] }
+	},
+	"onClick" : "cl_onClick",
+
+	"onPressed_meta" : { 
+		"optional" : true, 
+		"order" : 20,
+		"available" : { "Type": ["Button"] }
+	},
+	"onPressed" : "cl_onPressed",
+
+	
+	"onReleased_meta" : { 
+		"optional" : true, 
+		"order" : 20,
+		"available" : { "Type": ["Button"] }
+	},
+	"onReleased" : "cl_onReleased",
+
+	"onDrag_meta" : { 
+		"optional" : true, 
+		"order" : 20,
+		"available" : { "Type": ["Button"] }
+	},
+	"onDrag" : "cl_onDrag",
+
+	"onSliderChanged_meta" : { 
+		"optional" : true, 
+		"order" : 20,
+		"available" : { "Type": ["HorizontalSliderBox"] }
+	},
+	"onSliderChanged" : "cl_onSliderChanged",
+
+	"onSliderReleased_meta" : { 
+		"optional" : true, 
+		"order" : 20,
+		"available" : { "Type": ["HorizontalSliderBox"] }
+	},
+	"onSliderReleased" : "cl_onSliderReleased",
+	
+	"StateSelected_meta" : { 
+		"optional" : true, 
+		"available" : { "Type": ["Button"] } 
+	},
+	"StateSelected" : false,
+
+	"onTextEdit_meta" : { 
+		"optional" : true,
+		"order" : 20,
+		"unavailable" : { "Static" : true },
+		"available" : { "Type": ["EditBox"] }
+	},
+	"onTextEdit" : "cl_onTextEdit",
+
+	"onTextEnter_meta" : { 
+		"optional" : true,
+		"order" : 20,
+		"unavailable" : { "Static" : true },
+		"available" : { "Type": ["EditBox"] }
+	},
+	"onTextEnter" : "cl_onTextEnter",
+
+	"onMouseWheel_meta" : {
+		"optional" : true,
+		"order" : 30,
+		"unavailable" : { "Type": ["SubLayout"] }
+	},
+	"onMouseWheel" : "cl_onMouseWheel",
+
+	"InheritsPick_meta" : { 
+		"optional" :  true, 
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"toolTip" : "This mode makes all child widgets pickable even if this widget don't need mouse focus" 
+	},
+	"InheritsPick" : false,
+
+	"NeedMouse_meta" : { "unavailable" : { "Type" : ["SubLayout"] } },
+	"NeedMouse" : true,
+
+	"NeedKey_meta" : { "unavailable" : { "Type" : ["SubLayout"] } },
+	"NeedKey" : true,
+
+	"Effects_meta" : { 
+		"optional" : true, 
+		"order" : 90,
+		"valueAsLabel":"Name",
+		"hideInHierarchyView" : true,
+		"available": { "Skin" : [ "EffectBox" ] }
+	},
+	"Effects" : [
+		{
+			"EffectName_meta" : { "optionsCategory":"effect" },
+			"EffectName" : "Gui - UpgradeIcon",
+
+			"Name_meta" : { "optional": false },
+			"Name" : "default",
+
+			"PlayState_meta" : { 
+				"optional" : true, 
+				"optionsAllowsCustom": false,
+				"options" : [ "Stopped", "Auto playing", "Auto play off", "Auto play once"],
+				"toolTip" : "Stopped: The effect is stopped and autoplay turned off. Auto playing: Plays the effect as soon as it can. Auto play off: Turns off autoplay but lets effect play out."
+			},
+			"PlayState" : "Auto playing",
+
+			"ResetPlayOnce_meta" : { "optional": true, "toolTip" : "If true the effect can play once more if in auto play once state. Setting another play state automatically resets it." },
+			"ResetPlayOnce" : false,
+
+			"Offset_meta" : { "optional" : true },
+			"Offset" :  { "x":0, "y":0 }
+		}
+	],
+
+	"CropEffect_meta" : { "optional" : true, "available": { "Skin" : [ "EffectBox" ] } },
+	"CropEffect" : true,
+
+	"CroppingWidget_meta" : { "optional" : true, "available": { "Skin" : [ "EffectBox" ], "CropEffect" : true } },
+	"CroppingWidget" : "",
+
+	"InEffectLayer_meta" : { "optional" : true, "unavailable": { "CropEffect" : true }, "available": { "Skin" : [ "EffectBox" ], "CropEffect" : false } },
+	"InEffectLayer" : false,
+
+	"ImageTexture_meta" : { 
+		"optional" : true, 
+		"available" : { "Type" : ["ImageBox" ] },
+		"optionsCategory": "guiImageTexture"
+	},
+	"ImageTexture" : "",
+
+	"ImageResource_meta" : { 
+		"optional" : true, 
+		"available" : { "Type" : ["ImageBox" ] },
+		"toolTip" : "A.k.a. ItemResource. Specifies the name of a ResourceImageSet" 
+	},
+	"ImageResource" : "",
+
+	"ImageGroup_meta" : { 
+		"optional" : true, 
+		"available" : { "Type" : ["ImageBox" ] },
+		"toolTip" : "A.k.a. ItemGroup. Specifies a group in a ResourceImageSet" 
+	},
+	"ImageGroup" : "",
+
+	"ImageName_meta" : { 
+		"optional" : true, 
+		"available" : { "Type" : ["ImageBox" ] },
+		"toolTip" : "A.k.a. ItemName. Specifies an item name from a ResourceImageSet group" 
+	},
+	"ImageName" : "",
+
+	"CaptionDisableReplacing_meta" : { 	
+		"optional" : true, 
+		"available" : 
+		{ "Type": ["Button", "TextBox", "EditBox"] } },
+	"CaptionDisableReplacing" : false,
+
+	"Caption_meta" : { 	
+		"optional" : true, 
+		"available" : 
+		{ "Type": ["Button", "TextBox", "EditBox", "HyperTextLine"] } },
+	"Caption" : "",
+
+	"DisableOnFocusSound_meta" : { "optional" : true, "available" : { "Type" : ["Button"] } },
+	"DisableOnFocusSound" : false,
+
+	"DisableOnClickSound_meta" : { "optional" : true, "available" : { "Type" : ["Button"] } },
+	"DisableOnClickSound" : false,
+
+	"OnFocusEffect_meta" : {  "optional" : true, "optionsCategory": "effect", "available" : { "Type" : ["Button"] }, "toolTip" : "Defaults to regular gui focus effect if not set" },
+	"OnFocusEffect" : "Gui - Highlight",
+
+	"OnClickEffect_meta" : {  "optional" : true, "optionsCategory": "effect", "available" : { "Type" : ["Button"] }, "toolTip" : "Defaults to regular gui click effect if not set" },
+	"OnClickEffect" : "Gui - Click",
+
+	"Childs_meta" : { 
+		"unavailable" : { "Type" : ["SubLayout"] },
+		"valueAsLabel" : "Name",
+		"noIndexLabel" : true,
+		"optional" : false,
+		"hideInValueView" : true, 
+		"hideHeaderInHierarchyView" : true,
+		"order" : 99,
+		"presets" : {
+			"BackPanel" : {
+				"width" : 600,
+				"height" : 400,
+				"Name" : "BackPanel",
+				"Skin" : "BackgroundInteractableUltraWide",
+				"Type" : "Widget",
+				"InheritsPick" : true,
+				"NeedKey" : false,
+				"NeedMouse" : false
+			},
+			"Text Box" : {
+				"width" : 80,
+				"height" : 24,
+				"Name" : "TextBox",
+				"Skin" : "TextBox",
+				"Type" : "TextBox",
+				"Caption" : "Text...",
+				"FontName" : "SM_HeaderTiny",
+				"TextAlign" : "Top Left",
+				"NeedKey" : false,
+				"NeedMouse" : false
+			},
+			"Effect Box" : {
+				"width" : 100,
+				"height" : 100,
+				"Name" : "EffectBox",
+				"Skin" : "EffectBox",
+				"Type" : "EffectBox",
+				"NeedKey" : false,
+				"NeedMouse" : false,
+				"Effects" : [
+					{
+						"EffectName" : "Gui - UpgradeIcon",
+						"Name" : "default",
+						"Offset" :  { "x":0, "y":0}
+					}
+				]
+			},
+			"Preview Box" : {
+				"width" : 100,
+				"height" : 100,
+				"Name" : "PreviewBox",
+				"Skin" : "Canvas",
+				"Type" : "PreviewBox",
+				"NeedKey" : false,
+				"NeedMouse" : true,
+				"BlueprintPreviewPath" : "",
+				"ItemPreview" : "00000000-0000-0000-0000-000000000000"
+			},
+			"Hyper Text Line" : {
+				"width" : 100,
+				"height" : 100,
+				"Name" : "HyperTextLine",
+				"Skin" : "PanelEmpty",
+				"Type" : "HyperTextLine",
+				"NeedKey" : false,
+				"NeedMouse" : false,
+				"Caption" : "Text..."
+			},
+			"Wrapping Text Box" : {
+				"width" : 80,
+				"height" : 24,
+				"Name" : "TextBox",
+				"Skin" : "TextBox",
+				"Type" : "EditBox",
+				"Static" : true,
+				"WordWrap" : true,
+				"MultiLine" : true,
+				"Caption" : "Text...",
+				"FontName" : "SM_HeaderTiny",
+				"TextAlign" : "Top Left",
+				"NeedKey" : false,
+				"NeedMouse" : false
+			},
+			"EditBox" : {
+				"width" : 80,
+				"height" : 24,
+				"Name" : "EditBox",
+				"Skin" : "EditBox",
+				"Type" : "EditBox",
+				"Caption" : "Text...",
+				"FontName" : "SM_HeaderTiny",
+				"TextAlign" : "Center",
+				"NeedKey" : true,
+				"NeedMouse" : true,
+				"onTextEdit" : "cl_onTextEdit",
+				"onTextEnter" : "cl_onTextEnter"
+			},
+			"Image with path" : {
+				"width" : 80,
+				"height" : 80,
+				"Name" : "Image",
+				"Skin" : "ImageBox",
+				"Type" : "ImageBox",
+				"ImageTexture" : "gui_icon_bearing.png",
+				"NeedKey" : false,
+				"NeedMouse" : false
+			},
+			"SubLayout" : {
+				"Name" : "SubLayout",
+				"Type" : "SubLayout",
+				"SubLayoutPath" : ""
+			},
+			"Button" : {
+				"width" : 80,
+				"height" : 24,
+				"Name" : "Button",
+				"Skin" : "PrimaryButton",
+				"Caption" : "Caption...",
+				"FontName" : "SM_HeaderTiny",
+				"TextAlign" : "Center",
+				"onClick" : "cl_onClick",
+				"Type" : "Button",
+				"NeedMouse" : true,
+				"NeedKey" : false,
+				"StateSelected" : false
+			},
+			"Vertical Group" : {
+				"width" : 80,
+				"height" : 320,
+				"Name" : "Vertical Group",
+				"Skin" : "HighlightSelectionBox",
+				"Type" : "Widget",
+				"LayoutRule" : "Vertical",
+				"NeedMouse" : false,
+				"NeedKey" : false,
+				"InheritsPick" : true
+			},
+			"Horizontal Group" : {
+				"width" : 320,
+				"height" : 80,
+				"Name" : "Horizontal Group",
+				"Skin" : "HighlightSelectionBox",
+				"Type" : "Widget",
+				"LayoutRule" : "Horizontal",
+				"NeedMouse" : false,
+				"NeedKey" : false,
+				"InheritsPick" : true
+			},
+			"Grid" : {
+				"width" : 320,
+				"height" : 320,
+				"Name" : "Grid",
+				"Skin" : "HighlightSelectionBox",
+				"Type" : "Widget",
+				"LayoutRule" : "Grid",
+				"NeedMouse" : false,
+				"NeedKey" : false,
+				"InheritsPick" : true,
+				"GridItemSize" : { "width" : 80, "height" : 80 }
+			}
+		},
+		"value_meta" : { 
+			"hideUnavailableOptionals" : true,
+			"optional" : true, 
+			"subTemplate": "$GAME_DATA/Templates/layout.template"
+		} 
+	},
+	"Childs" : 
+	[ {  } ]
+}

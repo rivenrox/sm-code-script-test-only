@@ -1,0 +1,903 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_builderguide_boxgrid_starglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.48627,
+					1.0,
+					0.8549,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.09859,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 1,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.36307,
+								1.31578
+							],
+							[
+								0.50461,
+								1.56578
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 300,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.1
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "InitFLash",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					180.0,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 256,
+				"sort_offset" : 1.0,
+				"time_to_live" : 0.300000012,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_glowcircle01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.48627,
+					1.0,
+					0.8549,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							],
+							[
+								0.23939,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 4,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.36432,
+								1.07894
+							],
+							[
+								0.56532,
+								1.48684
+							],
+							[
+								0.76633,
+								1.78287
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 5,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.57033,
+								0.72697
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 6,
+						"length" : 0.0,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 3,
+				"keep_local" : true,
+				"max_particles" : 2,
+				"name" : "Shockwave",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shape_rotation" : 
+				[
+					180.0,
+					0.0,
+					0.0
+				],
+				"soft_particles_bias" : 256,
+				"time_to_live" : 0.349999994,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 180.0,
+				"category" : "1",
+				"color" : 
+				[
+					0.50779,
+					0.50779,
+					0.50779,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 30,
+						"guid" : 8,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.41446
+							],
+							[
+								0.4523,
+								1.1447
+							],
+							[
+								1.0,
+								1.65129
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.29576,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.5156
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 10,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"friction" : 1.0,
+				"guid" : 7,
+				"height" : 
+				[
+					2.0,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 3000,
+				"sphere_radius" : 0.00999,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.1
+				],
+				"type" : "hemisphere",
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.1
+				],
+				"z_offset" : 200.0
+			},
+			{
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"direction" : 
+				[
+					1.0,
+					0.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 11,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Part01",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.33842,
+					0.0,
+					0.03801
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/firework/p_renderable_fireworkbox_part_01.rend",
+				"rotation_axis" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					90.0,
+					25.0
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"direction" : 
+				[
+					-1.0,
+					0.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 13,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Part02",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					-0.338,
+					0.0,
+					0.03801
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/firework/p_renderable_fireworkbox_part_02.rend",
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					90.0,
+					25.0
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 15,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Part03",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.31758
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/firework/p_renderable_fireworkbox_part_03.rend",
+				"rotation_axis" : 
+				[
+					0.2,
+					0.3,
+					1.0
+				],
+				"rotation_speed" : 
+				[
+					120.0,
+					10.0
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 17,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Part04",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.0,
+					0.33798,
+					0.03801
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/firework/p_renderable_fireworkbox_part_04.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					90.0,
+					25.0
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 19,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Part05",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.0,
+					-0.338,
+					0.03801
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/firework/p_renderable_fireworkbox_part_05.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					90.0,
+					25.0
+				],
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"velocity" : 3.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "3",
+				"color_fraction" : 1.0,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.975,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 21,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Part06",
+				"params" : 2,
+				"particle" : "debris",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					-0.318
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/firework/p_renderable_fireworkbox_part_06.rend",
+				"time_to_live" : 
+				[
+					5.0,
+					1.0
+				],
+				"water_mask" : "none"
+			},
+			{
+				"angle" : 1.0,
+				"category" : "1",
+				"color" : 
+				[
+					0.50779,
+					0.50779,
+					0.50779,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 24,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.41446
+							],
+							[
+								0.4523,
+								1.1447
+							],
+							[
+								1.0,
+								1.65129
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.29576,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								0.61124,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"friction" : 1.0,
+				"guid" : 23,
+				"height" : 
+				[
+					2.0,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 2,
+				"name" : "Smoke2",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"soft_particles_bias" : 3000,
+				"sphere_radius" : 0.00999,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.1
+				],
+				"type" : "hemisphere",
+				"velocity" : 0.25,
+				"water_mask" : "none",
+				"width" : 
+				[
+					2.0,
+					0.1
+				],
+				"z_offset" : 200.0
+			}
+		],
+		"min_quality" : "low"
+	}
+}

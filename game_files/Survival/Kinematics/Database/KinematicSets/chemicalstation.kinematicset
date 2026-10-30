@@ -1,0 +1,41 @@
+{
+	"kinematicList" : 
+	[
+		{
+			"col" : "$SURVIVAL_DATA/Kinematics/Collision/chemicalstation/kin_chemicalstation_vatblender_col.fbx",
+			"color" : "20a800ff",
+			"kinematic" : true,
+			"mass" : 15000.0,
+			"material" : "Metal",
+			"name" : "kin_chemicalstation_vatblender",
+			"params" : 
+			[
+				{
+					"name" : "lockTag",
+					"type" : "string"
+				},
+				{
+					"name" : "eventListen",
+					"type" : "string"
+				},
+				{
+					"name" : "saved",
+					"type" : "bool",
+					"default" : true
+				},
+				{
+					"name" : "track",
+					"type" : "track"
+				}
+			],
+			"renderable" : "$SURVIVAL_DATA/Kinematics/Renderable/chemicalstation/kin_chemicalstation_vatblender.rend",
+			"script" : 
+			{
+				"class" : "Kinematic",
+				"data" : {},
+				"file" : "$SURVIVAL_DATA/Scripts/game/kinematics/Kinematic.lua"
+			},
+			"uuid" : "4b01bac5-5259-4e9d-8425-51561ca6ca06"
+		}
+	]
+}

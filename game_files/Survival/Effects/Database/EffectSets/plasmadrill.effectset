@@ -1,0 +1,933 @@
+{
+	"Plasmadrill - BeamDiameter" : 
+	{
+		"effectList" : 
+		[
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					0.03125,
+					0.63671875,
+					1.0,
+					1.0
+				],
+				"disableVolumetric" : false,
+				"intensity" : 5.0,
+				"label" : "GlowDistance",
+				"maxIntensity" : 5.0,
+				"nearFade" : true,
+				"nearFadeEnd" : 0.0,
+				"nearFadeRange" : 35.0,
+				"nearFadeReversed" : false,
+				"radius" : 3.0,
+				"type" : "pointLight"
+			},
+			{
+				"barrelDistortion" : -1.909999967,
+				"chromaticAberration" : 17.229999542,
+				"label" : "CameraDistortions",
+				"shakeRadius" : 2,
+				"shakeStrength" : 1.0,
+				"type" : "cameraShake"
+			},
+			{
+				"additive" : false,
+				"ambient" : false,
+				"color" : 
+				[
+					0.234375,
+					0.42578125,
+					1.0,
+					1.0
+				],
+				"disableVolumetric" : false,
+				"globalPulse" : true,
+				"intensity" : 4.0,
+				"label" : "GlowDistance",
+				"maxIntensity" : 2.900000095,
+				"nearFade" : true,
+				"nearFadeEnd" : 0.0,
+				"nearFadeRange" : 35.0,
+				"nearFadeReversed" : true,
+				"offset" : 
+				[
+					0.0,
+					-1.100000024,
+					0.0
+				],
+				"radius" : 5.0,
+				"type" : "pointLight"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"Scale"
+				],
+				"particles" : 
+				[
+					"p_plasmadrill_beam_endglow"
+				],
+				"type" : "particle"
+			}
+		],
+		"parameterList" : 
+		{
+			"Scale" : 
+			[
+				100.0,
+				100.0,
+				100.0
+			]
+		}
+	},
+	"Plasmadrill - BeamEnd" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_beam_end",
+				"type" : "particle"
+			}
+		]
+	},
+	"Plasmadrill - BeamStart" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_plasmadrill_beam_windup",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.600000024
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 1.0,
+				"name" : "p_plasmadrill_beam_start",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.600000024
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 1.0,
+				"direction" : 
+				[
+					1.0,
+					-1.0,
+					-1.0
+				],
+				"name" : "p_lensflare_flare03",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.600000024
+				],
+				"type" : "particle"
+			},
+			{
+				"color" : 
+				[
+					0.0,
+					0.34375,
+					1.0,
+					1.0
+				],
+				"disableVolumetric" : true,
+				"intensity" : 0.870000005,
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.524999976
+				],
+				"radius" : 0.600000024,
+				"type" : "pointLight"
+			},
+			{
+				"barrelDistortion" : -0.379999995,
+				"chromaticAberration" : 5.190000057,
+				"cinematicConeAngle" : 18.940000534,
+				"cinematicConeFade" : 0.300000012,
+				"label" : "CameraDistortions",
+				"shakeRadius" : 15,
+				"shakeStrength" : 1.0,
+				"type" : "cameraShake"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_on"
+				],
+				"parameters" : 
+				[
+					"on_contact",
+					"beam_distance"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				-90.0,
+				0.0,
+				0.0
+			],
+			"on_contact" : 0.0,
+			"beam_distance" : 0.0
+		}
+	},
+	"Plasmadrill - Beam_renderable01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"name" : "$GAME_DATA/Particles/Renderable/plasmadrill/p_renderable_plasmadrill_laserbeam_start.rend",
+				"offsetRotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"parameters" : 
+				[
+					"pose0",
+					"pose1"
+				],
+				"type" : "renderable"
+			},
+			{
+				"delay" : 0.0,
+				"name" : "$GAME_DATA/Particles/Renderable/plasmadrill/p_renderable_plasmadrill_laserbeam_start_fade.rend",
+				"offsetRotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"parameters" : 
+				[
+					"pose0",
+					"pose1"
+				],
+				"type" : "renderable"
+			},
+			{
+				"attached" : true,
+				"delay" : 1.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_beam",
+				"parameters" : 
+				[
+					"pose0",
+					"pose1"
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 1.0,
+				"name" : "$GAME_DATA/Particles/Renderable/plasmadrill/p_renderable_plasmadrill_laserbeam_fade04.rend",
+				"offsetRotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"parameters" : 
+				[
+					"pose0",
+					"pose1"
+				],
+				"type" : "renderable"
+			},
+			{
+				"delay" : 1.0,
+				"name" : "$GAME_DATA/Particles/Renderable/plasmadrill/p_renderable_plasmadrill_laserbeam04.rend",
+				"offsetRotation" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"parameters" : 
+				[
+					"pose0",
+					"pose1"
+				],
+				"rotation" : 
+				[
+					-75.987106323,
+					89.999954224,
+					75.987106323
+				],
+				"type" : "renderable"
+			}
+		],
+		"parameterList" : 
+		{
+			"pose0" : 0.0,
+			"pose1" : 0.0
+		}
+	},
+	"Plasmadrill - Crumble" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_voxelmaterial_plasmadrill_crumble",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 3.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 1.0
+					},
+					{
+						"time" : 3.0,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "33a9ffff",
+			"intensity" : 5.0,
+			"radius" : 10.0
+		}
+	},
+	"Plasmadrill - Crumble_top" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : false,
+				"delay" : 0.0,
+				"name" : "p_voxelmaterial_plasmadrill_crumble_top",
+				"type" : "particle"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 3.0,
+				"name" : "",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"radius" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 1.0
+					},
+					{
+						"time" : 3.0,
+						"value" : 0.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "33a9ffff",
+			"intensity" : 2.0,
+			"radius" : 10.0
+		}
+	},
+	"Plasmadrill - Eject" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"particles" : 
+				[
+					"p_plasmadrill_eject"
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_eject"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Plasmadrill - ImpactBedrock" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_bedrock_impact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_passive"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Plasmadrill - ImpactCarving01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_impact",
+				"offset" : 
+				[
+					0.0,
+					-0.100000001,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_active_rock"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Plasmadrill - ImpactCarving02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_beam_impact_carving03",
+				"offset" : 
+				[
+					0.0,
+					-1.25,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_beam_impact_carving04",
+				"offset" : 
+				[
+					0.0,
+					-1.25,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_active_rock"
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 0.2,
+				"speed" : 1.0,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 0.200000003,
+						"value" : 
+						[
+							0.0,
+							359.0,
+							0.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"offsetScale" : 
+			[
+				0.25,
+				0.25,
+				0.25
+			]
+		}
+	},
+	"Plasmadrill - ImpactDefault" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_impact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_passive"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Plasmadrill - ImpactHard01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_impact_hard01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_active_sparks"
+				],
+				"type" : "audio"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_active_rock"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"Plasmadrill - ImpactHard_Sparks" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_impact_hard_sparks",
+				"type" : "particle"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"offsetRotation" : 
+			{
+				"loop" : 0.2,
+				"speed" : 1.0,
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"time" : 0.200000003,
+						"value" : 
+						[
+							0.0,
+							359.0,
+							0.0
+						]
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"offsetRotation" : 
+			[
+				0.0,
+				0.0,
+				0.0
+			],
+			"offsetScale" : 
+			[
+				0.25,
+				0.25,
+				0.25
+			]
+		}
+	},
+	"Plasmadrill - ImpactVoxel" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_impact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_active_rock"
+				],
+				"delay" : 0.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"Plasmadrill - Projection" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"name" : "p_plasmadrill_projection",
+				"type" : "particle"
+			}
+		]
+	},
+	"Plasmadrill - Resourcegained_light" : 
+	{
+		"effectList" : 
+		[
+			{
+				"delay" : 0.0,
+				"duration" : 2.0,
+				"name" : "Light",
+				"parameters" : 
+				[
+					"color",
+					"radius",
+					"intensity"
+				],
+				"type" : "pointLight"
+			}
+		],
+		"parameterCurves" : 
+		{
+			"intensity" : 
+			{
+				"timeline" : 
+				[
+					{
+						"time" : 0.0,
+						"value" : 0.0
+					},
+					{
+						"time" : 0.25,
+						"value" : 5.0
+					},
+					{
+						"time" : 1.5,
+						"value" : 5.0
+					},
+					{
+						"time" : 2.0,
+						"value" : 1.0
+					}
+				]
+			}
+		},
+		"parameterList" : 
+		{
+			"color" : "003fff",
+			"intensity" : 5.0,
+			"radius" : 4.5
+		}
+	},
+	"Plasmadrill - Resources" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "p_plasmadrill_resourcesslot_available",
+				"offset" : 
+				[
+					0.0,
+					-1.5,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Plasmadrill - Shutoff" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"audio" : 
+				[
+					"event:/vehicle/plasmadrill_off"
+				],
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"type" : "audio"
+			}
+		],
+		"parameterList" : {}
+	},
+	"Plasmadrill - Vortex01" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_plasmadrill_beam_vortext01",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Plasmadrill - Vortex02" : 
+	{
+		"effectList" : 
+		[
+			{
+				"attached" : true,
+				"delay" : 0.0,
+				"direction" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"name" : "p_plasmadrill_beam_vortext02",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	}
+}

@@ -1,0 +1,56 @@
+{
+	"template_meta": {
+		"uuid" : "dafc453c-5d0d-48f3-b57a-a81699c1a9cc",
+		"name":"Clutter Set",
+		"display": "clutterset",
+		"pattern": ["$*/Terrain/Database/clutter.json", "*.clutterset"]
+	},
+
+	"clutterList_meta": { "valueAsLabel":"name" },
+	"clutterList": [
+		{
+			"name_meta": { "order": 0 },
+			"name": "",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true, "order":1, "ignoreUuidName": true },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+			
+			"material_meta": { "optionsCategory":"material", "label":"Shader Material", "order":2 },
+			"material": "DifAlphaSlopeSkewGroundNormalWind",
+
+			"texture_meta": {"type":"texture", "label":"Dif", "order":3 },
+			"texture": "$GAME_DATA/Terrain/Textures/Clutter/env_clutter_shortgrass_dif.tga",
+			
+			"asg_texture_meta": {"type":"texture", "optional":true, "label":"Asg", "order":4  },
+			"asg_texture": "$GAME_DATA/Textures/Default/default_asg.tga",
+
+			"nor_texture_meta": {"type":"texture", "optional":true, "label":"Nor", "order":5  },
+			"nor_texture": "$GAME_DATA/Textures/Default/default_nor.tga",
+			
+			"light_cap_texture_meta": {"type":"texture", "optional":true, "label":"Light Cap", "order":6  },
+			"light_cap_texture": "",
+			
+			"mat_cap_texture_meta": {"type":"texture", "optional":true, "label":"Mat Cap", "order":7  },
+			"mat_cap_texture": "",
+
+			"fbdrf_texture_meta": {"type":"texture", "optional":true, "label":"Fbdrf", "order":8  },
+			"fbdrf_texture": "",
+			
+			"impostor_texture_meta": { "type":"texture", "optional":true, "label":"Impostor", "order":9  },
+			"impostor_texture": "",
+
+			"mesh_meta": { "type":"mesh", "order":10 },
+			"mesh": "$GAME_DATA/Terrain/Mesh/Clutter/env_clutter_shortgrass.mesh",		
+			
+			"height_meta": {"type":"float", "min" : 0.0, "max" : 5.0 },
+			"height": 1.0,
+			"scaleVariance_meta": {"type":"float", "min" : 0.0, "max" : 1.0 },
+			"scaleVariance": 0.0,
+			
+			"stiffness_meta": { "min" : 0.0, "max" : 1.0 },
+			"stiffness": 0.66,
+
+			"decalReciever": false
+		}
+	]
+}

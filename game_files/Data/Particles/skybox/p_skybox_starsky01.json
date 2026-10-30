@@ -1,0 +1,532 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "1 - Stars",
+				"default_particle" : 
+				[
+					0.02999,
+					0.02999
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_skybox_star02_medium.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.615
+							],
+							[
+								0.26469,
+								0.47038
+							],
+							[
+								0.68181,
+								0.64802
+							],
+							[
+								1.0,
+								0.51972
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 1,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"repeat" : true,
+						"time" : 5.0,
+						"toggle" : false
+					},
+					{
+						"base_scale" : 1.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.5,
+								1.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"max_scale" : 1.5,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 50.0
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.3125,
+									0.3125,
+									0.3125,
+									1.0
+								]
+							],
+							[
+								0.43661,
+								[
+									1.0,
+									1.0,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.30078,
+									0.30078,
+									0.30078,
+									1.0
+								]
+							]
+						],
+						"guid" : 3,
+						"name" : "Color",
+						"repeat" : true,
+						"time" : 8.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10000,
+				"glow" : true,
+				"glow_masked" : true,
+				"glow_strength" : 0.4,
+				"guid" : 0,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"min_quality" : "high",
+				"name" : "PoleStar",
+				"position" : 
+				[
+					50.0,
+					-50.0,
+					150.0
+				],
+				"power_glow" : true,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 0,
+				"time_to_live" : 
+				[
+					730.0,
+					10.0
+				],
+				"translucency" : 0.0,
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"z_offset" : 25.0
+			},
+			{
+				"category" : "1 - Stars",
+				"default_particle" : 
+				[
+					0.01999,
+					0.01999
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_skybox_star01_small.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.615
+							],
+							[
+								0.26469,
+								0.47038
+							],
+							[
+								0.68181,
+								0.64802
+							],
+							[
+								1.0,
+								0.51972
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 5,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"repeat" : true,
+						"time" : 5.0
+					},
+					{
+						"axis" : "x-scale",
+						"base_scale" : 8.0,
+						"control_point" : 
+						[
+							[
+								0.0,
+								7.50005
+							],
+							[
+								0.25,
+								7.0
+							],
+							[
+								0.75,
+								8.0
+							],
+							[
+								1.0,
+								7.50005
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 7.0,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 0.4
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10000,
+				"glow" : true,
+				"glow_masked" : true,
+				"glow_strength" : 0.4,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 4,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"min_quality" : "high",
+				"name" : "PoleStar_X",
+				"position" : 
+				[
+					50.0,
+					-50.0,
+					150.0
+				],
+				"power_glow" : true,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 0,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					730.0,
+					10.0
+				],
+				"translucency" : 0.0,
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"z_offset" : 25.0
+			},
+			{
+				"category" : "1 - Stars",
+				"default_particle" : 
+				[
+					0.01999,
+					1.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_skybox_star01_small.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.615
+							],
+							[
+								0.26469,
+								0.47038
+							],
+							[
+								0.68181,
+								0.64802
+							],
+							[
+								1.0,
+								0.51972
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 8,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"repeat" : true,
+						"time" : 5.0
+					},
+					{
+						"axis" : "y-scale",
+						"base_scale" : 0.07,
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.11499
+							],
+							[
+								0.25,
+								0.15997
+							],
+							[
+								0.75,
+								0.07
+							],
+							[
+								1.0,
+								0.11499
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 0.15997,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 12.0
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10000,
+				"glow" : true,
+				"glow_masked" : true,
+				"glow_strength" : 0.4,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								1.0,
+								1.0,
+								1.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 7,
+				"keep_local" : false,
+				"max_particles" : 1,
+				"min_quality" : "high",
+				"name" : "PoleStar_Y",
+				"position" : 
+				[
+					50.0,
+					-50.0,
+					150.0
+				],
+				"power_glow" : true,
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 0,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					730.0,
+					10.0
+				],
+				"translucency" : 0.0,
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"z_offset" : 25.0
+			},
+			{
+				"category" : "1 - Stars",
+				"default_particle" : 
+				[
+					0.05,
+					0.05
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/skybox/p_skybox_star02_medium.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.615
+							],
+							[
+								0.26469,
+								0.47038
+							],
+							[
+								0.68181,
+								0.64802
+							],
+							[
+								1.0,
+								0.51972
+							]
+						],
+						"fade" : 1.0,
+						"guid" : 11,
+						"length" : 1.0,
+						"name" : "Cutoff",
+						"repeat" : true,
+						"time" : 5.0
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.30213,
+								1.2
+							],
+							[
+								0.72459,
+								0.8
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"repeat" : true,
+						"time" : 5.0,
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/skybox/p_emissionmesh_skybox_starsky_dome.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100000,
+				"gradient" : 
+				{
+					"control_point" : 
+					[
+						[
+							0.0,
+							[
+								1.0,
+								0.90978,
+								0.64705,
+								1.0
+							]
+						],
+						[
+							0.05914,
+							[
+								0.09375,
+								0.49022,
+								1.0,
+								1.0
+							]
+						],
+						[
+							0.56338,
+							[
+								0.7031,
+								0.86403,
+								1.0,
+								1.0
+							]
+						],
+						[
+							0.93238,
+							[
+								0.70196,
+								0.86273,
+								1.0,
+								1.0
+							]
+						],
+						[
+							1.0,
+							[
+								0.94529,
+								0.0,
+								1.0,
+								1.0
+							]
+						]
+					]
+				},
+				"guid" : 10,
+				"keep_local" : false,
+				"max_particles" : 500,
+				"min_quality" : "high",
+				"name" : "Star",
+				"scene_blend" : "blend_add",
+				"soft_particles_bias" : 10000,
+				"start_color" : "random",
+				"time_to_live" : 
+				[
+					730.0,
+					10.0
+				],
+				"translucency" : 0.0,
+				"type" : "mesh",
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"z_offset" : 25.0
+			}
+		],
+		"scale" : 50.0
+	}
+}

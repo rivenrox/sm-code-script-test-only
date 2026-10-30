@@ -1,0 +1,1288 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_wispofsmoke.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"editorColor" : 
+				[
+					0.4453,
+					1.0,
+					0.75299,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.58104,
+									0.48434,
+									0.0
+								]
+							],
+							[
+								0.3014,
+								[
+									1.0,
+									0.6933,
+									0.49017,
+									0.52732
+								]
+							],
+							[
+								1.0,
+								[
+									1.0,
+									0.83648,
+									0.4492,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.86842
+							],
+							[
+								0.20306,
+								1.32236
+							],
+							[
+								0.39076,
+								1.65787
+							],
+							[
+								0.63384,
+								1.875
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.625
+							],
+							[
+								0.18456,
+								0.66447
+							],
+							[
+								0.48614,
+								1.13153
+							],
+							[
+								0.6923,
+								1.35526
+							],
+							[
+								1.0,
+								1.46052
+							]
+						],
+						"guid" : 4,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 120,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 0,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "GasVent1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					180.0,
+					5.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : 0.00999,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.6,
+					0.125
+				],
+				"type" : "mesh",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_pressuresmoke_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"editorColor" : 
+				[
+					0.44312,
+					1.0,
+					0.75291,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 6,
+						"name" : "TextureAnimator",
+						"toggle" : false
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.63498,
+									0.49215,
+									0.0
+								]
+							],
+							[
+								0.58591,
+								[
+									1.0,
+									0.88235,
+									0.67966,
+									0.73825
+								]
+							],
+							[
+								1.0,
+								[
+									0.94871,
+									1.0,
+									0.7656,
+									0.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.58459,
+								1.65129
+							],
+							[
+								0.75076,
+								1.86842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 8,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.26769,
+								0.16775
+							],
+							[
+								0.53538,
+								0.65131
+							],
+							[
+								0.74769,
+								0.86513
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 1.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.4,
+					0.4,
+					0.4
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 40,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 5,
+				"height" : 
+				[
+					2.25,
+					0.2
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "GasVent2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : -0.5,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "mesh",
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.8,
+					0.1
+				]
+			},
+			{
+				"category" : "5",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_clouds01_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 54,
+						"fps" : 30,
+						"guid" : 11,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 16
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.75656
+							],
+							[
+								0.2307,
+								0.98684
+							],
+							[
+								0.4923,
+								1.61842
+							],
+							[
+								0.67075,
+								1.90129
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.49215,
+									0.91667,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.51828,
+								[
+									0.69717,
+									0.67966,
+									1.0,
+									0.39842
+								]
+							],
+							[
+								1.0,
+								[
+									0.87181,
+									0.7656,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 13,
+						"name" : "Color"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 15,
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 10,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "Smoke1",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					1.0,
+					0.333
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					3.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_wispofsmoke.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 15,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.59131,
+									1.0,
+									0.49215,
+									0.0
+								]
+							],
+							[
+								0.71548,
+								[
+									0.67966,
+									1.0,
+									0.8123,
+									0.45702
+								]
+							],
+							[
+								1.0,
+								[
+									0.7656,
+									1.0,
+									0.98351,
+									0.0
+								]
+							]
+						],
+						"guid" : 16,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.86842
+							],
+							[
+								0.20306,
+								1.32236
+							],
+							[
+								0.39076,
+								1.65787
+							],
+							[
+								0.63384,
+								1.875
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 17,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.625
+							],
+							[
+								0.18456,
+								0.66447
+							],
+							[
+								0.48614,
+								1.13153
+							],
+							[
+								0.6923,
+								1.35526
+							],
+							[
+								1.0,
+								1.46052
+							]
+						],
+						"guid" : 18,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 120,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 14,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "GasVent1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					180.0,
+					5.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : 0.00999,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.6,
+					0.125
+				],
+				"type" : "mesh",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_pressuresmoke_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 20,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.59131,
+									1.0,
+									0.49215,
+									0.0
+								]
+							],
+							[
+								0.49577,
+								[
+									0.67966,
+									1.0,
+									0.8123,
+									0.707
+								]
+							],
+							[
+								1.0,
+								[
+									0.7656,
+									1.0,
+									0.98351,
+									0.0
+								]
+							]
+						],
+						"guid" : 21,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.58459,
+								1.65129
+							],
+							[
+								0.75076,
+								1.86842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 22,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.26769,
+								0.16775
+							],
+							[
+								0.53538,
+								0.65131
+							],
+							[
+								0.74769,
+								0.86513
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.4,
+					0.4,
+					0.4
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 40,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 19,
+				"height" : 
+				[
+					2.0,
+					0.2
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "GasVent2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : -0.5,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "mesh",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_wispofsmoke.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"editorColor" : 
+				[
+					0.44312,
+					1.0,
+					0.75291,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 25,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 32
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.49215,
+									0.91667,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.71548,
+								[
+									0.69717,
+									0.67966,
+									1.0,
+									0.45702
+								]
+							],
+							[
+								1.0,
+								[
+									0.87181,
+									0.7656,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 26,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.86842
+							],
+							[
+								0.20306,
+								1.32236
+							],
+							[
+								0.39076,
+								1.65787
+							],
+							[
+								0.63384,
+								1.875
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.625
+							],
+							[
+								0.18456,
+								0.66447
+							],
+							[
+								0.48614,
+								1.13153
+							],
+							[
+								0.6923,
+								1.35526
+							],
+							[
+								1.0,
+								1.46052
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.5,
+					0.5,
+					0.5
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 40,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 24,
+				"height" : 
+				[
+					1.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "GasVent1",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 
+				[
+					180.0,
+					5.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : 0.00999,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.6,
+					0.125
+				],
+				"type" : "mesh",
+				"velocity" : 2.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.125
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "2",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/p_smoke_pressuresmoke_nor.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"editorColor" : 
+				[
+					0.44312,
+					1.0,
+					0.75291,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 30,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.49215,
+									0.91667,
+									1.0,
+									0.0
+								]
+							],
+							[
+								0.55492,
+								[
+									0.69717,
+									0.67966,
+									1.0,
+									0.73435
+								]
+							],
+							[
+								1.0,
+								[
+									0.87181,
+									0.7656,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 31,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.58459,
+								1.65129
+							],
+							[
+								0.75076,
+								1.86842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 32,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.26769,
+								0.16775
+							],
+							[
+								0.53538,
+								0.65131
+							],
+							[
+								0.74769,
+								0.86513
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 33,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.4,
+					0.4,
+					0.4
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 40,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 29,
+				"height" : 
+				[
+					2.0,
+					0.2
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "GasVent2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : -0.5,
+				"spawn_chance" : 0.5,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.5,
+					0.1
+				],
+				"type" : "mesh",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.0,
+					0.1
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "3",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_pistonpressuregas.tga",
+				"direction_type" : "shape",
+				"duration" : 3.0,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 35,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 10
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.84921,
+									0.49215,
+									0.0
+								]
+							],
+							[
+								0.53236,
+								[
+									0.69717,
+									0.67966,
+									1.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.7656,
+									1.0,
+									1.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 36,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.58459,
+								1.65129
+							],
+							[
+								0.75076,
+								1.86842
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 37,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.26769,
+								0.16775
+							],
+							[
+								0.53538,
+								0.65131
+							],
+							[
+								0.74769,
+								0.86513
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 38,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/hvs_gas_potato/p_emissionmesh_gaspotato02_medium.fbx",
+				"emission_mesh_scale" : 
+				[
+					0.4,
+					0.4,
+					0.4
+				],
+				"emission_mode" : "loop",
+				"emission_rate" : 60,
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 34,
+				"height" : 
+				[
+					2.0,
+					0.2
+				],
+				"keep_local" : true,
+				"max_particles" : 200,
+				"name" : "GasVent2",
+				"normal" : true,
+				"normal_range" : 0.5,
+				"random_flip" : 
+				[
+					0.5,
+					0.0
+				],
+				"rotation" : 180.0,
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : -0.5,
+				"tiles" : 
+				[
+					4,
+					11
+				],
+				"time_to_live" : 
+				[
+					0.4,
+					0.05
+				],
+				"type" : "mesh",
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.25,
+					0.1
+				]
+			}
+		],
+		"min_quality" : "low",
+		"scale_time" : 0.75
+	}
+}

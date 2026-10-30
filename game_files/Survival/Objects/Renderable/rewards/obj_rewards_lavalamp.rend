@@ -1,0 +1,100 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$SURVIVAL_DATA/Objects/Mesh/rewards/obj_rewards_lavalamp.fbx",
+			"subMeshMap" : 
+			{
+				"m_glass" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 0.879999995,
+							"blurriness" : 1.0,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.059999999,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : -0.02,
+							"transparencyFront" : 0.319999993
+						}
+					},
+					"material" : "Glass",
+					"textureList" : 
+					[
+						"$SURVIVAL_DATA/Objects/Textures/rewards/obj_rewards_lavalamp_dif.tga",
+						"$SURVIVAL_DATA/Objects/Textures/rewards/obj_rewards_lavalamp_asg.tga",
+						"$SURVIVAL_DATA/Objects/Textures/rewards/obj_rewards_lavalamp_nor.tga"
+					]
+				},
+				"m_lava" : 
+				{
+					"custom" : 
+					{
+						"glass" : 
+						{
+							"ROI" : 1.519999981,
+							"blurriness" : 0.0,
+							"depthBlurDistance" : 1,
+							"depthBlurMin" : 0,
+							"magnification" : 1.0,
+							"magnificationDirection" : 
+							[
+								1.0,
+								1.0
+							],
+							"refraction" : 0.100000001,
+							"responsiveGlow" : 1.0,
+							"transmission" : 0.5,
+							"transparencyBack" : -1.879999995,
+							"transparencyFront" : 0.5
+						},
+						"scrollUv" : 
+						{
+							"speed" : 
+							[
+								0.01,
+								-0.200000003
+							]
+						},
+						"wave" : 
+						{
+							"speed" : 0.5,
+							"strength" : 0.150000006
+						}
+					},
+					"material" : "Goopbubbles",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Objects/Textures/rewards/obj_rewards_lavalamp_blobs_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Textures/Tiled/Lava/t_tiled_lava02_nor.tga"
+					}
+				},
+				"m_lavalamp" : 
+				{
+					"custom" : 
+					{
+						"metalProfile" : "Defualt"
+					},
+					"material" : "DifAsgNor_Metal",
+					"textures" : 
+					{
+						"asg" : "$SURVIVAL_DATA/Objects/Textures/rewards/obj_rewards_lavalamp_asg.tga",
+						"diffuse" : "$SURVIVAL_DATA/Objects/Textures/rewards/obj_rewards_lavalamp_dif.tga",
+						"normalMap" : "$SURVIVAL_DATA/Objects/Textures/rewards/obj_rewards_lavalamp_nor.tga"
+					}
+				}
+			}
+		}
+	]
+}

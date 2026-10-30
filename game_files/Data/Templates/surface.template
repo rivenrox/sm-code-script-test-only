@@ -1,0 +1,116 @@
+{
+	"template_meta": {
+		"uuid" : "d8186ea2-3388-4645-8ac8-67564102c9c1",
+		"name":"Surface",
+		"display": "surface",
+		"pattern": ["*.surface"]
+	},
+
+	"uv_meta" : { "optional":true },
+	"uv" : {
+		"scale_meta" : { "type":"vec2", "minSize":2, "maxSize":2 },
+		"scale" : [0.25, 0.25],
+
+		"offset_meta" : { "type":"vec2", "minSize":2, "maxSize":2 },
+		"offset" : [0.0, 0.0]
+	},
+
+	"diffuseMap_meta" : { "type":"texture", "optionsCategory" : "texture", "optional":true },
+	"diffuseMap" : "",
+
+	"normalMap_meta" : { "type":"texture", "optionsCategory" : "texture", "optional":true },
+	"normalMap" : "",
+
+	"asgMap_meta" : { "type":"texture", "optionsCategory" : "texture", "optional":true },
+	"asgMap" : "",
+
+	"valuePack_meta" : { "optional":true },
+	"valuePack" : {
+
+		"valuePackMap_meta" : { "type":"texture", "optionsCategory" : "texture", "order" : 0 },
+		"valuePackMap" : "",
+
+		"diffuseMidPoint_meta" : { "label" : "Diffuse Mid Point", "type":"float", "min":0.0, "max":1.0, "order" : 1 },
+		"diffuseMidPoint" : 0.5,
+
+		"diffuse_meta" : { "value_meta" : { "type" : "color" }, "minSize":1, "maxSize":4, "order" : 2 },
+		"diffuse" : [
+			[1, 1, 1, 1]
+		],
+		
+		"materialMidPoint_meta" : { "label" : "Material Mid Point", "type":"float", "min":0.0, "max":1.0, "order" : 3 },
+		"materialMidPoint" : 0.5,
+
+		"material_meta" : { "value_meta" : { "type" : "color" }, "minSize":1, "maxSize":4, "order" : 4 },
+		"material" : [
+			{
+				"gloss_meta" : {"type":"float","min":0.0, "max":1.0 },
+				"gloss" : 0.5,
+		
+				"reflect_meta" : {"type":"float","min":0.0, "max":1.0 },
+				"reflect" : 0.5,
+		
+				"glow_meta" : { "type":"float", "min":0.0, "max":1.0 },
+				"glow" : 0,
+
+				"overlay_meta" : { "type" : "color" },
+				"overlay" : [1, 1, 1, 0]
+			}
+		],
+		
+	},
+
+	"parallaxOcclution_meta" : { "optional":true },
+	"parallaxOcclution" : {
+
+		"dualMap_meta" : { "type":"bool", "order":0, "optional":true },
+		"dualMap" : false, 
+
+		"heightMap_meta" : { "type":"texture", "order":1, "displayRgba": true, "optionsCategory" : "texture" },
+		"heightMap" : "",
+
+		"height_meta" : { "type":"float", "order":2, "min":0.0, "max":0.5 },
+		"height" : 0.125,
+
+		"vertexHeight_meta" : { "type":"float", "order":3, "min":0.0, "max" : 0.5, "optional":true, "available" : { "dualMap" : true } },
+		"vertexHeight" : 0.125
+	},
+
+	"blend_meta" : { 
+		"optional":true 
+	},
+	"blend" : {
+
+		"strength_meta" : { "type":"float", "min":1.0, "max":500.0  },
+		"strength" : 100.0,
+
+		"offset_meta" : { "type":"float", "min":0.0, "max":1.0 },
+		"offset" : 0.5
+	},
+
+	"clutter_meta" : { "optional":true },
+	"clutter" : {
+
+		"density_meta": { "min": 0.0, "max": 1.0 },
+		"density": 0.5,
+
+		"noiseScale_meta": { "type" : "float", "min": 0.01, "max": 5.0 },
+		"noiseScale": 1.0,
+
+		"clutterList_meta": { "hideInHierarchyView" : true },
+		"clutterList": [
+			{
+				"uuid_meta": { "type":"uuid", "optionsCategory": "voxelTerrainClutter", "order":1 },
+				"uuid": "00000000-0000-0000-0000-000000000000",
+
+				"color_meta": { "type": "color", "order":2 },
+				"color": [1.0, 1.0, 1.0, 1.0],
+
+				"priority_meta": { "min": 0.0, "max": 10.0, "order":3 },
+				"priority": 1.0,
+
+				"destructible": false
+			}
+		]
+	}
+}

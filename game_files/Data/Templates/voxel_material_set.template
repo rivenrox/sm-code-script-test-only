@@ -1,0 +1,199 @@
+{
+	"template_meta": { 
+		"uuid" : "21575fcd-7a43-49a1-afec-48d342568c9d",
+		"name":"Voxel Material Set", 
+		"pattern": ["*.voxelmaterialset"], 
+		"display": "voxel_materialset",
+		"preferDualView" : true
+	},
+
+	"voxelMaterials": 
+	{
+		"width_meta" : { "type": "uint", "powerOfTwo": true, "min":8, "max":4096, "order":0  },
+		"width" : 1024,
+		
+		"height_meta" : { "type": "uint", "powerOfTwo": true, "min":8, "max":4096, "order":1 },
+		"height" : 1024,
+
+		"materials_meta": { "minSize":8, "maxSize":8, "valueAsLabel":"name", "hideInValueView" : true, "hideHeaderInHierarchyView":true },
+		"materials":
+		[
+			{
+				"name_meta": { "type":"string", "order":0 },
+				"name": "Voxel Material Name", 
+
+				"indestructible_meta": { "type":"bool", "order":1 },
+				"indestructible": false,
+
+				"surfaces_meta": { "order":2 },
+				"surfaces" : {
+
+					"side_meta": { "type":"filepath", "extensions" : [".surface"], "order":0 },
+					"side": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface",
+
+					"noise_meta": { "optional" : true, "order":1 },
+					"noise" :
+					{
+						"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+						"disable" : false,
+						
+						"noise_meta": { "type":"filepath", "optional" : true, "extensions" : [".tex3d"], "order":0 },
+						"noise": "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_voxeldefault.tex3d",
+						
+						"activation_meta": { "order":1, "min":0.0, "max":1.0 }, 
+						"activation": 0.06,
+
+						"threshold_meta": { "order":2, "min":0.0, "max":1.0 }, 
+						"threshold": 0.32,
+					
+						"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":3 },
+						"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface",
+
+						"border_meta": { "optional" : true },
+						"border" :
+						{
+							"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+							"disable" : false,
+							
+							"activation_meta": { "order":1, "min":0.0, "max":1.0 }, 
+							"activation": 0.06,
+
+							"threshold_meta": { "order":2, "min":0.0, "max":1.0 }, 
+							"threshold": 0.1,	
+						
+							"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":2 },
+							"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface"
+						}
+
+					},
+					
+					"floor_meta": { "optional" : true, "order":2 },
+					"floor" :
+					{
+						"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+						"disable" : false,
+
+						"noise_meta": { "type":"filepath", "optional" : true, "extensions" : [".tex3d"], "order":0 },
+						"noise": "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_voxeldefault.tex3d",
+
+						"activation_meta": { "order":0, "min":0.0, "max":1.0 }, 
+						"activation": 0.02,
+ 
+						"threshold_meta": { "order":1, "min":0.0, "max":1.0 }, 
+						"threshold": 0.32,
+
+						"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":2 },
+						"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface",
+
+						"alternative_meta": { "optional" : true, "order":3 },
+						"alternative" :
+						{
+							"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+							"disable" : false,
+
+							"activation_meta": { "order":0, "min":0.0, "max":1.0 }, 
+							"activation": 0.02,
+	
+							"threshold_meta": { "order":1, "min":0.0, "max":1.0 }, 
+							"threshold": 0.32,
+
+							"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":2 },
+							"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface",
+						}
+					},
+
+					"cave_meta": { "optional" : true, "order":3 },
+					"cave" :
+					{
+						"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+						"disable" : false,
+
+						"activation_meta": { "order":0, "min":0.0, "max":1.0 }, 
+						"activation": 0.06,
+
+						"threshold_meta": { "order":1, "min":0.0, "max":1.0 }, 
+						"threshold": 0.32,
+
+						"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":2 },
+						"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface"
+					},
+
+					"edge_meta": { "optional" : true, "order":4 },
+					"edge" :
+					{
+						"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+						"disable" : false,
+
+						"activation_meta": { "order":0, "min":0.0, "max":1.0 }, 
+						"activation": 0.06,
+
+						"threshold_meta": { "order":1, "min":0.0, "max":1.0 }, 
+						"threshold": 0.32,
+
+						"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":2 },
+						"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface"
+					},
+
+					"ceiling_meta": { "optional" : true, "order":5 },
+					"ceiling" :
+					{
+						"noise_meta": { "type":"filepath", "optional" : true, "extensions" : [".tex3d"], "order":0 },
+						"noise": "$SURVIVAL_DATA/Textures/3dgrunge/t_3dgrunge_voxeldefault.tex3d",
+
+						"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+						"disable" : false,
+						
+						"activation_meta": { "order":0, "min":0.0, "max":1.0 }, 
+						"activation": 0.06,
+
+						"threshold_meta": { "order":1, "min":0.0, "max":1.0 }, 
+						"threshold": 0.32,
+
+						"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":2 },
+						"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface",
+
+						"alternative_meta": { "optional" : true, "order":3 },
+						"alternative" :
+						{
+							"disable_meta": { "icon":"$GAME_DATA/Gui/Editor/ed_icon_hidden.png", "tray" : true },
+							"disable" : false,
+
+							"activation_meta": { "order":0, "min":0.0, "max":1.0 }, 
+							"activation": 0.02,
+	
+							"threshold_meta": { "order":1, "min":0.0, "max":1.0 }, 
+							"threshold": 0.32,
+
+							"surface_meta": { "type":"filepath", "extensions" : [".surface"], "order":2 },
+							"surface": "$GAME_DATA/Render/Surfaces/voxel_stone_side01.surface",
+						}
+					}
+				},
+				
+				"material_meta": { "optional": false, "optionsCategory": "physicsMaterial" },
+				"material": "Default",
+
+				"destructionEffects_meta": {
+					"type": "array",
+					"value_meta": {
+						"type": "string",
+						"optionsCategory": "effect"
+					}
+				},
+				"destructionEffects": [ "Voxeldestruct - Rock2_Surface01", "Voxeldestruct - Rock2_Surface02", "Voxeldestruct - Rock2_Surface03", "Voxeldestruct - Rock2_Surface04" ],
+
+				"destructionEffect_1x1x1_meta": { "optional": false, "optionsCategory": "effect" },
+				"destructionEffect_1x1x1": "voxeldestruct - Rock2_1x1x1",
+
+				"destructionEffect_2x2x2_meta": { "optional": false, "optionsCategory": "effect" },
+				"destructionEffect_2x2x2": "voxeldestruct - Rock2_2x2x2",
+
+				"destructionEffect_4x4x4_meta": { "optional": false, "optionsCategory": "effect" },
+				"destructionEffect_4x4x4": "voxeldestruct - Rock2_4x4x4",
+
+				"constructionEffect_meta": { "optional": false, "optionsCategory": "effect" },
+				"constructionEffect": "voxelconstruct",
+			}
+		]
+	}
+}

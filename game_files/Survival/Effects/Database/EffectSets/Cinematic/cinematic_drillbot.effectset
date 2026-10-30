@@ -1,0 +1,858 @@
+{
+	"Cinematic - Drillbosend_exit" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 90,
+						"duration" : 6,
+						"easing" : "linear",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-5.752309322,
+							13.094481468,
+							6.644744873
+						],
+						"rotation" : 
+						[
+							18.333152771,
+							-0.817406476,
+							-2.465210915
+						]
+					},
+					{
+						"FOV" : 120,
+						"duration" : 2,
+						"easing" : "easeInQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.954107285,
+							10.783309937,
+							4.853342533
+						],
+						"rotation" : 
+						[
+							1.170486927,
+							-0.454326749,
+							-18.458192825
+						]
+					},
+					{
+						"FOV" : 10,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							1.197934151,
+							11.513630867,
+							4.87019825
+						],
+						"rotation" : 
+						[
+							1.170488238,
+							-0.454324931,
+							-18.458192825
+						]
+					},
+					{
+						"FOV" : 60,
+						"duration" : 6,
+						"easing" : "easeInCubic",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.664544463,
+							13.551753998,
+							7.377646446
+						],
+						"rotation" : 
+						[
+							-0.0,
+							-0.0,
+							180.0
+						]
+					},
+					{
+						"FOV" : 60,
+						"duration" : 3,
+						"easing" : "easeInCubic",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.66454494,
+							8.493207932,
+							7.377646446
+						],
+						"rotation" : 
+						[
+							-0.0,
+							-0.0,
+							180.0
+						]
+					}
+				],
+				"delay" : 15.0,
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "cl_e_cinematicFadeOut",
+				"callbackParams" : 
+				{
+					"duration" : 0.25
+				},
+				"delay" : 25.100000381,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendQuestEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_bosstrain.end_bossfight"
+				},
+				"delay" : 25.5,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 16.100000381,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					10.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.02,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 15.899999619,
+				"duration" : 2.0,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 1,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					50.0,
+					20.0,
+					50.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.2,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 17.299999237,
+				"duration" : 1.200000048,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					10.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.02,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 18.299999237,
+				"duration" : 2.5,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 1,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					50.0,
+					20.0,
+					50.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 20.5,
+				"duration" : 4.0,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					10.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.01,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 24.299999237,
+				"duration" : 0.600000024,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					50.0,
+					20.0,
+					50.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : true,
+				"shakeStrength" : 0.04,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 24.5,
+				"duration" : 2.0,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					50.0,
+					20.0,
+					50.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : true,
+				"shakeStrength" : 0.1,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 21.299999237,
+				"effects" : "Drillbot - Scrapwall_1",
+				"rotation" : 
+				[
+					90.0,
+					180.0,
+					0.0
+				],
+				"tracknodes" : 
+				{
+					"track" : 
+					{
+						"loop" : false,
+						"track" : 
+						[
+							{
+								"duration" : 4.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									-3000.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							},
+							{
+								"duration" : 0.0,
+								"durationFromSpeed" : false,
+								"easing" : "linear",
+								"inheritDuration" : false,
+								"position" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									0.0
+								],
+								"speed" : 1.0
+							}
+						]
+					}
+				},
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 23.0,
+				"effects" : "CinematicAudio - Drillbot_exit_end",
+				"type" : "secondaryEffect"
+			}
+		]
+	},
+	"Cinematic - Drillbosend_outside" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 130,
+						"duration" : 1,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-49.40196228,
+							-67.948501587,
+							22.651861191
+						],
+						"rotation" : 
+						[
+							21.867736816,
+							-21.535671234,
+							-42.446910858
+						]
+					},
+					{
+						"FOV" : 130.0,
+						"duration" : 6.0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-49.40196228,
+							-67.948501587,
+							22.651861191
+						],
+						"rotation" : 
+						[
+							21.867750168,
+							-21.535671234,
+							-42.446910858
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-45.076019287,
+									-63.865570068,
+									22.822969437
+								],
+								"rotation" : 
+								[
+									20.370576859,
+									-20.244235992,
+									-42.980873108
+								]
+							},
+							{
+								"position" : 
+								[
+									-38.130157471,
+									-57.309814453,
+									45.28049469
+								],
+								"rotation" : 
+								[
+									12.431064606,
+									-28.256814957,
+									-38.808174133
+								]
+							},
+							{
+								"position" : 
+								[
+									-15.996711731,
+									-36.419471741,
+									152.249908447
+								],
+								"rotation" : 
+								[
+									6.736893177,
+									-7.085009575,
+									-46.237480164
+								]
+							},
+							{
+								"position" : 
+								[
+									0.551521301,
+									-21.964424133,
+									30.680950165
+								],
+								"rotation" : 
+								[
+									-1.041524649,
+									22.307287216,
+									-53.090919495
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 57,
+						"duration" : 1,
+						"easing" : "linear",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							7.707458496,
+							-11.053367615,
+							8.399246216
+						],
+						"rotation" : 
+						[
+							-38.677963257,
+							33.161220551,
+							-34.344867706
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 9,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.058509827,
+							2.391738892,
+							0.26701355
+						],
+						"rotation" : 
+						[
+							-69.804649353,
+							35.450271606,
+							167.95690918
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 2,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.058509827,
+							2.391738892,
+							0.26701355
+						],
+						"rotation" : 
+						[
+							-69.804649353,
+							35.450271606,
+							167.95690918
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									0.025978088,
+									2.348838806,
+									0.45073235
+								],
+								"rotation" : 
+								[
+									-54.579608917,
+									31.725143433,
+									159.495239258
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 2,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.063179016,
+							2.398239136,
+							0.416320801
+						],
+						"rotation" : 
+						[
+							3.063894987,
+							-2.321944714,
+							142.877304077
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 2,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.131752014,
+							2.488670349,
+							0.498256683
+						],
+						"rotation" : 
+						[
+							-0.858221591,
+							0.651013911,
+							142.820144653
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 2,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.131752014,
+							2.488670349,
+							0.498256683
+						],
+						"rotation" : 
+						[
+							-0.858221591,
+							0.651013911,
+							142.820144653
+						]
+					},
+					{
+						"FOV" : 70,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.131752014,
+							2.488670349,
+							0.498256683
+						],
+						"rotation" : 
+						[
+							-0.858221591,
+							0.651013911,
+							142.820144653
+						]
+					}
+				],
+				"hasBlendOut" : false,
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "sv_e_sendQuestEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_bosstrain.finish_cinematic"
+				},
+				"delay" : 17.0,
+				"isServerCallback" : true,
+				"label" : "event finish cinematic",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendQuestEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_bosstrain.tile_swap"
+				},
+				"delay" : 8.0,
+				"isServerCallback" : true,
+				"label" : "event tile swap",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendQuestEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_bosstrain.start_outside_waypoint_track"
+				},
+				"delay" : 9.0,
+				"isServerCallback" : true,
+				"label" : "start waypoint track",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "cl_e_cinematicFadeIn",
+				"callbackParams" : 
+				{
+					"duration" : 0.200000003
+				},
+				"delay" : 1.399999976,
+				"label" : "FadeIntoScene",
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "cl_e_cinematicFadeOut",
+				"callbackParams" : 
+				{
+					"duration" : 0.200000003
+				},
+				"delay" : 6.400000095,
+				"label" : "FadeOutTree",
+				"type" : "luaEvent"
+			},
+			{
+				"attached" : true,
+				"type" : "secondaryEffect"
+			},
+			{
+				"isServerCallback" : false,
+				"type" : "luaEvent"
+			},
+			{
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "cl_e_cinematicFadeIn",
+				"callbackParams" : 
+				{
+					"duration" : 5.0
+				},
+				"delay" : 10.0,
+				"label" : "FadeInTree",
+				"type" : "luaEvent"
+			},
+			{
+				"delay" : 0.0,
+				"duration" : 2.5,
+				"shakeAmplitude" : 
+				[
+					2.0,
+					2.0,
+					2.0
+				],
+				"shakeFalloffDuration" : 2,
+				"shakeFalloffEasing" : "easeOutQuad",
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 150,
+				"shakeRotational" : true,
+				"shakeStrength" : 0.3,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 2.299999952,
+				"duration" : 5.0,
+				"shakeAmplitude" : 
+				[
+					1.5,
+					1.5,
+					1.5
+				],
+				"shakeFrequency" : 
+				[
+					40.0,
+					40.0,
+					40.0
+				],
+				"shakeRadius" : 150,
+				"shakeStrength" : 0.100000001,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 1.5,
+				"name" : "drillbot_outside_effect",
+				"offset" : 
+				[
+					-47.0,
+					-65.0,
+					21.0
+				],
+				"particles" : 
+				[
+					"p_cinematic_drillbot_bosstrain_end"
+				],
+				"rotation" : 
+				[
+					0.0,
+					0.0,
+					-33.0
+				],
+				"type" : "particle"
+			},
+			{
+				"delay" : 1.0,
+				"effects" : "CinematicAudio - Drillbot_outside",
+				"type" : "secondaryEffect"
+			}
+		]
+	},
+	"Cinematic - Drillbossstart" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 40,
+						"duration" : 2,
+						"easing" : "easeInBack",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						],
+						"rotation" : 
+						[
+							0.0,
+							0.0,
+							0.0
+						]
+					}
+				],
+				"type" : "cameraTrack"
+			}
+		]
+	},
+	"CinematicAudio - Drillbot_cinematic_intro" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/drillbot/cinematic_intro"
+				],
+				"delay" : 10.0,
+				"type" : "audio"
+			}
+		]
+	},
+	"CinematicAudio - Drillbot_door_open" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/doors/exitdoor/open"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"CinematicAudio - Drillbot_exit_end" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/drillbot/cinematic_camera_hole"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"CinematicAudio - Drillbot_outside" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/drillbot/cinematic_outside"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"CinematicAudio - Drillbot_start_wagon" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/props/installations/drillbot_train_elevator"
+				],
+				"type" : "audio"
+			}
+		]
+	},
+	"CinematicAudio - Drillbot_fire" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/drillbot/outside_fire"
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}

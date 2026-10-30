@@ -1,0 +1,1302 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "04 - smoke",
+				"delay" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_smoke02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 24,
+						"guid" : 1,
+						"name" : "TextureAnimator",
+						"repeat" : true,
+						"start_texture_coords_range" : 18
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.75388,
+									0.75388,
+									0.75388,
+									0.0
+								]
+							],
+							[
+								0.22811,
+								[
+									0.66794,
+									0.66794,
+									0.66794,
+									1.0
+								]
+							],
+							[
+								0.49577,
+								[
+									0.6549,
+									0.58038,
+									0.56076,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.65625,
+									0.58363,
+									0.56138,
+									0.0
+								]
+							]
+						],
+						"guid" : 2,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.2
+							]
+						],
+						"guid" : 3,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 4.0,
+				"guid" : 0,
+				"height" : 
+				[
+					1.5,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "smoke [low]",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"sort_offset" : -1.0,
+				"sphere_radius" : 0.25,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.75,
+					0.25
+				],
+				"translucency" : 0.68,
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					1.0,
+					0.5
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.25
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"category" : "03 - smoke explo",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_singleframe_clouds01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.55
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.4,
+						"guid" : 5,
+						"length" : 0.4,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.2
+							],
+							[
+								1.0,
+								0.63156
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 1.2,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.50422,
+								[
+									1.0,
+									0.45952,
+									0.37108,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0859,
+									0.05336,
+									0.02181,
+									1.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1250,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 4,
+				"height" : 
+				[
+					0.6,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 12,
+				"min_quality" : "high",
+				"name" : "Smoke Flash 2(High)",
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"sphere_radius" : 0.00999,
+				"time_to_live" : 
+				[
+					0.17497,
+					0.00999
+				],
+				"type" : "sphere",
+				"velocity" : 2.25,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.3,
+					0.07998
+				]
+			},
+			{
+				"category" : "03 - smoke explo",
+				"diffuse" : "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds02.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.11715,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.51547,
+								[
+									1.0,
+									0.1875,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0859,
+									0.05336,
+									0.02181,
+									1.0
+								]
+							]
+						],
+						"guid" : 9,
+						"name" : "Color"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 53,
+						"fps" : 30,
+						"guid" : 10,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 24
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.31999,
+								1.17762
+							],
+							[
+								0.52306,
+								1.42762
+							],
+							[
+								0.72921,
+								1.3421
+							],
+							[
+								1.0,
+								0.88814
+							]
+						],
+						"guid" : 11,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.43421
+							],
+							[
+								1.0,
+								1.3717
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					}
+				],
+				"emission_mesh" : "$GAME_DATA/Particles/resources/emission_meshes/misc/p_emission_hemisphere01.fbx",
+				"emission_mesh_scale" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 250,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					0.64999,
+					0.15
+				],
+				"keep_local" : false,
+				"max_particles" : 25,
+				"min_quality" : "high",
+				"name" : "SmokeFire(High)",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 1009,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 
+				[
+					0.34999,
+					0.05
+				],
+				"type" : "mesh",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.64999,
+					0.15
+				]
+			},
+			{
+				"billboard_origin" : "top_center",
+				"billboard_type" : "axial_self",
+				"category" : "01 - Splashes",
+				"color" : 
+				[
+					0.72939,
+					0.0196,
+					0.07056,
+					0.97645
+				],
+				"delay" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/glowstick/p_splash_drop_01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.0
+							],
+							[
+								0.76691,
+								0.87826
+							],
+							[
+								0.91101,
+								0.73355
+							],
+							[
+								1.0,
+								0.25657
+							]
+						],
+						"guid" : 14,
+						"max_scale" : 1.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								2.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 15,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-4.0
+				],
+				"friction" : 1.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 13,
+				"height" : 
+				[
+					0.075,
+					0.01999
+				],
+				"keep_local" : false,
+				"max_particles" : 10,
+				"min_quality" : "high",
+				"name" : "Dropps (High)",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2512,
+				"sphere_radius" : 0.2,
+				"surface" : true,
+				"time_to_live" : 0.550000012,
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					4.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.075,
+					0.01999
+				]
+			},
+			{
+				"billboard_type" : "axial_self",
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_fireball04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 30,
+						"guid" : 17,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 8
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.86321,
+									0.71875,
+									1.0
+								]
+							],
+							[
+								0.72676,
+								[
+									1.0,
+									0.19122,
+									0.17181,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 18,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.8
+							],
+							[
+								1.0,
+								1.67104
+							]
+						],
+						"guid" : 19,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.03288
+							],
+							[
+								0.38769,
+								0.45394
+							],
+							[
+								0.63998,
+								0.88814
+							],
+							[
+								1.0,
+								1.03945
+							]
+						],
+						"enabled" : false,
+						"guid" : 20,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 100,
+				"friction" : 4.0,
+				"glow" : true,
+				"glow_strength" : 0.69998,
+				"guid" : 16,
+				"height" : 
+				[
+					1.0,
+					0.25
+				],
+				"keep_local" : false,
+				"legacy_rotation" : false,
+				"max_particles" : 5,
+				"name" : "Fire1 [low]",
+				"rotation" : 180.0,
+				"scene_blend" : "addative",
+				"sphere_radius" : 0.00999,
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 0.600000024,
+				"type" : "sphere",
+				"velocity" : 
+				[
+					2.25,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.6,
+					0.1
+				]
+			},
+			{
+				"category" : "04 - smoke",
+				"color" : 
+				[
+					1.0,
+					1.0,
+					1.0,
+					0.97645
+				],
+				"delay" : 0.1,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_smokeshockwave_04.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 36,
+						"fps" : 30,
+						"guid" : 22,
+						"name" : "TextureAnimator"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.47367
+							],
+							[
+								0.20611,
+								0.89472
+							],
+							[
+								0.54768,
+								1.1842
+							],
+							[
+								1.0,
+								1.34868
+							]
+						],
+						"guid" : 23,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.75388,
+									0.75388,
+									0.75388,
+									0.0
+								]
+							],
+							[
+								0.22811,
+								[
+									0.66794,
+									0.66794,
+									0.66794,
+									1.0
+								]
+							],
+							[
+								0.49577,
+								[
+									0.6549,
+									0.58038,
+									0.56076,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.65625,
+									0.58363,
+									0.56138,
+									0.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1,
+				"guid" : 21,
+				"height" : 
+				[
+					1.75,
+					0.1
+				],
+				"keep_local" : false,
+				"max_particles" : 1,
+				"min_quality" : "medium",
+				"name" : "Smoke shockwave  (medium)",
+				"normal" : true,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "alpha_blend",
+				"shadows" : true,
+				"soft_particles_bias" : 2512,
+				"tiles" : 
+				[
+					4,
+					6
+				],
+				"time_to_live" : 0.349999994,
+				"translucency" : 0.62998,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.75,
+					0.1
+				]
+			},
+			{
+				"diffuse" : "$GAME_DATA/Particles/Textures/explosion/p_explosion_fireball01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 26,
+						"name" : "TextureAnimator",
+						"start_texture_coords_range" : 8
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.86321,
+									0.71875,
+									1.0
+								]
+							],
+							[
+								0.72676,
+								[
+									1.0,
+									0.19122,
+									0.17181,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									0.0
+								]
+							]
+						],
+						"guid" : 27,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.21051
+							],
+							[
+								0.14153,
+								0.30921
+							],
+							[
+								0.28306,
+								0.84868
+							],
+							[
+								0.42767,
+								1.10526
+							],
+							[
+								1.0,
+								1.19078
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					1.0
+				],
+				"friction" : 2.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 25,
+				"height" : 
+				[
+					1.5,
+					0.25
+				],
+				"keep_local" : true,
+				"legacy_rotation" : false,
+				"max_particles" : 3,
+				"name" : "Fire2 [low]",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_speed" : 
+				[
+					1.0,
+					1.0
+				],
+				"scene_blend" : "addative",
+				"sphere_radius" : 0.025,
+				"tiles" : 
+				[
+					8,
+					8
+				],
+				"time_to_live" : 0.75,
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					0.25,
+					0.25
+				],
+				"water_mask" : "none",
+				"width" : 1.5
+			},
+			{
+				"ASG_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splatter_asg.tga",
+				"category" : "99",
+				"color" : 
+				[
+					0.36469,
+					0.83135,
+					0.17249,
+					1.0
+				],
+				"delay" : 0.1,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 32,
+						"fps" : 32,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.30632,
+								0.57244
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 30,
+						"name" : "TextureAnimator",
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.51633
+							],
+							[
+								0.26361,
+								1.7798
+							],
+							[
+								0.49189,
+								2.78407
+							],
+							[
+								0.84535,
+								3.4105
+							],
+							[
+								1.0,
+								3.5
+							]
+						],
+						"guid" : 31,
+						"max_scale" : 3.5,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "z",
+						"control_point" : 
+						[
+							[
+								0.0,
+								90.0
+							],
+							[
+								1.0,
+								90.0
+							]
+						],
+						"enabled" : false,
+						"guid" : 32,
+						"max" : -90.0,
+						"min" : 90.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"glow" : true,
+				"glow_strength" : 0.75,
+				"guid" : 29,
+				"keep_local" : true,
+				"material_name" : "FbrdfUvAnimApha",
+				"max_particles" : 1,
+				"mesh" : "$GAME_DATA/Particles/resources/misc/planes/p_mesh_plane_facingz_4x8_pivotmiddle.fbx",
+				"mesh_diffuse" : "$SURVIVAL_DATA/Textures/Materialtextures/t_chilifruit_fbrdf.tga",
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"mesh_type" : "camera_faceing",
+				"name" : "SplatterShape  [low",
+				"normal_map" : "$GAME_DATA/Particles/resources/trashbot/p_trashbot_splatter_nor.tga",
+				"particle" : "mesh",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					4,
+					8
+				],
+				"time_to_live" : 0.25,
+				"velocity" : 0.0,
+				"water_mask" : "none"
+			},
+			{
+				"category" : "99",
+				"color" : 
+				[
+					0.3294,
+					0.83135,
+					0.04704,
+					1.0
+				],
+				"depth" : 0.349999994,
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								3.0
+							]
+						],
+						"guid" : 34,
+						"max_scale" : 3.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 35,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 36,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"guid" : 37,
+						"name" : "TextureAnimator"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 3500,
+				"friction" : 1.0,
+				"guid" : 33,
+				"height" : 0.349999994,
+				"keep_local" : true,
+				"material_name" : "GlassWave",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"name" : "Splatter sphere dissolve",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/chilifruit/p_rendeble_chili_splattersphere.rend",
+				"rotation" : 
+				[
+					0.0,
+					179.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"tiles" : 
+				[
+					6,
+					8
+				],
+				"time_to_live" : 0.349999994,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.349999994
+			},
+			{
+				"category" : "99",
+				"depth" : 0.200000003,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"effects" : 
+				[
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.01936
+							],
+							[
+								0.333,
+								1.0
+							],
+							[
+								0.666,
+								0.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 39,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.333,
+								0.0
+							],
+							[
+								0.666,
+								1.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 40,
+						"index" : 1,
+						"name" : "Pose",
+						"time" : 0.75,
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.68421
+							],
+							[
+								0.15384,
+								0.75985
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 41,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"animation" : "sheet",
+						"end_texture_coords_range" : 64,
+						"fps" : 30,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.62629,
+								0.82725
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 42,
+						"name" : "TextureAnimator",
+						"toggle" : false,
+						"use_graph" : true
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.26315,
+								2.23844
+							],
+							[
+								1.0,
+								5.0
+							]
+						],
+						"guid" : 43,
+						"max_scale" : 5.0,
+						"name" : "Scale",
+						"toggle" : false
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 38,
+				"height" : 0.200000003,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "BlobSplash LONGER LIFE?   [high]",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/chilifruit/p_rendeble_chili_splattershape.rend",
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"tiles" : 
+				[
+					5,
+					5
+				],
+				"time_to_live" : 0.300000012,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 0.200000003
+			}
+		],
+		"min_quality" : "low"
+	}
+}

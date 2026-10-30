@@ -1,0 +1,198 @@
+{
+	"template_meta": {
+		"uuid" : "6758b84c-8cc4-4ffa-8ea4-2a1c3932846a",
+		"name" : "Trashbot Pattern",
+		"pattern" : [".trashbotpattern"],
+		"constDataStoreAllNames" : true
+	},
+	
+	"patternSettings_meta" : { "optional" : false, "valueAsLabel": "name", "toolTip" : "The list of all the patterns part of the system" },
+	"patternSettings": [
+		{
+		"name_meta" : { "optional" : false, "type" : "string", "order" : 0, "toolTip" : "The name of the pattern" },
+		"name" : "name",
+
+		"duration_meta" : { "optional" : false, "order" : 1, "toolTip" : "The lifetime of the pattern" },
+		"duration" : 5,
+
+		"activationDelay_meta" : { "optional" : true, "order" : 2, "toolTip" : "The delay for projectiles spawns. The pattern will still rotate during this time" },
+		"activationDelay" : 0,
+
+		"maxLifetime_meta" : { "optional" : false, "min" : 0, "order" : 3, "toolTip" : "The max lifetime of the projectiles that spawn" },
+		"maxLifetime" : 5,
+
+		"rotationPerSecond_meta" : { "optional" : true, "order" : 4, "toolTip" : "The amount of rotations in degrees which the system will make per second" },
+		"rotationPerSecond" : 0,
+
+		"targetRotationPoints_meta" : { "optional" : true, "order" : 5, "toolTip" : "A list of time stamps based on pattern lifetime where the rotation speed can be changed gradually. Will take precedence over 'stepRotation'" },
+		"targetRotationPoints" : [
+			{
+				"targetRotationSpeed_meta" : { "optional" : false, "type" : "float", "toolTip" : "The new rotation speed in degrees per second" },
+				"targetRotationSpeed" : 1.0,
+
+				"durationPoint_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "max" : 1.0, "toolTip" : "A 0-1 value based on lifetime for when the rotation speed will change" },
+				"durationPoint" : 0.0
+			}
+		],
+
+		"stepRotation_meta" : { "optional" : true, "order" : 6, "toolTip" : "A list of time points where the pattern will switch to a certain rotation angle. This will deactivate regular constant rotation" },
+		"stepRotation" :{
+			"angle_meta" : { "optional" : false, "type" : "float", "toolTip" : "The angle to switch to" },
+			"angle" : 45.0,
+
+			"stepTime_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "toolTip" : "The time point to make the jump written in seconds" },
+			"stepTime" : 1.0
+		},
+
+		"invertRotationThreshold_meta" : { "optional" : true, "min" : 0, "order" : 7, "toolTip" : "If set this will make the pattern rotation swap direction when reaching the set amountof degrees" },
+		"invertRotationThreshold" : 0,
+
+		"invertRotationEasing_meta" : { "optional" : true, "type" : "bool", "order" : 8, "toolTip" : "Whether the movement between invert rotation thresholds should use easing or not" },
+		"invertRotationEasing" : false,
+
+		"easingType_meta": { "optional": true, "optionsCategory": "easing", "order" : 9, "toolTip" : "The easing which will be used, 'easeInOutQuad' will be used by default if 'invertRotationEasing' is set but no easing type is selected" },
+		"easingType": "easeInOutQuad",
+
+		"spawnInterval_meta" : { "optional" : false, "type" : "float", "min" : 0.01, "order" : 10, "toolTip" : "The frequency of which the pattern will spawn projectiles" },
+		"spawnInterval" : 1.0,
+
+		"targetSpawnIntervals_meta" : { "optional" : true, "order" : 11, "toolTip" : "A list of points where the spawn interval should be changed" },
+		"targetSpawnIntervals" : [
+			{
+				"targetInterval_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "toolTip" : "The new spawn interval" },
+				"targetInterval" : 1.0,
+
+				"durationPoint_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "max" : 1.0, "toolTip" : "A value of 0-1 which indicates when to change spawn interval based on pattern lifetime" },
+				"durationPoint" : 0.0
+			}
+		],
+
+		"spawnChance_meta" : { "optional" : true, "type" : "float", "min" : 0.0, "max" : 1.0, "order" : 12, "toolTip" : "If set will add random spawn change for each bullet projectile spawn" },
+		"spawnChance" : 1.0,
+
+		"skipInterval_meta" : { "optional" : true, "order" : 13, "toolTip" : "A combination of fire duration and skip duration. Is used to spawn projectiles during a certain time and then stop spawning for a time" },
+		"skipInterval" : {
+			"fireDuration_meta" : { "optional" : false, "type" : "float", "toolTip" : "The duration of which the pattern will spawn projectiles" },
+			"fireDuration" : 1.0,
+
+			"skipDuration_meta" : { "optional" : false, "type" : "float", "toolTip" : "The duration of which the pattern pauses spawning after reaching the 'fireDuration'" },
+			"skipDuration" : 1.0 
+		},
+
+		"split_meta" : { "optional" : true, "min" : 1, "order" : 14, "toolTip" : "The amount of projectiles to spawn with each spawn" },
+		"split" : 1,
+
+		"splitAngle_meta" : { "optional" : true, "type" : "float", "order" : 15, "toolTip" : "The angle between the split spawns, can be used to spawn identical patterns with a set angle between them" },
+		"splitAngle" : 0.0,
+
+		"splitSpeedModifier_meta" : { "optional" : true, "type" : "float", "order" : 16, "toolTip" : "An additional speed for the projectiles which will be added upon spawn. Is multiplied with each split" },
+		"splitSpeedModifier" : 0.0,
+
+		"startingAngle_meta" : { "optional" : false, "type" : "float", "order" : 17, "toolTip" : "The starting angle of the pattern in degrees" },
+		"startingAngle" : 0.0,
+
+		"projectileSpeed_meta" : { "optional" : false, "type" : "float", "min" : 0.1, "order" : 18, "toolTip" : "The initial speed of the spawned projectiles" },
+		"projectileSpeed" : 1.0,
+
+		"targetSpeedPoints_meta" : { "optional" : true, "order" : 19, "toolTip" : "A list of time stamps where the projectile spawn speed will be changed" },
+		"targetSpeedPoints" : [
+			{
+				"targetSpeed_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "toolTip" : "The new speed" },
+				"targetSpeed" : 1.0,
+
+				"durationPoint_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "max" : 1.0, "toolTip" : "A value of 0-1 which indicates when the projectile speed should be changed based on pattern lifetime" },
+				"durationPoint" : 0.0
+			}
+		],
+
+		"fireAngle_meta" : { "optional" : true, "type" : "float", "min" : 0.0, "max" : 90.0, "order" : 20, "toolTip" : "The angle of which the projectile will be directed up and down. Only makes changes for projectiles which doesn't use a height graph" },
+		"fireAngle" : 0.0,
+
+		"acceleration_meta" : { "optional" : false, "type" : "float", "order" : 21, "toolTip" : "The acceleration of the spawned projectiles" },
+		"acceleration" : 0.0,
+
+		"bubbleType_meta" : { "optional" : false, "type": "string", "optionsAllowsCustom" : false, "order" : 22, "toolTip" : "The type of projectiles that will be spawned by the pattern",
+			"options" : 
+				[
+					"bh_straight_ball_green",
+					"bh_straight_ball_purple",
+					"bh_straight_twister_green",
+					"bh_straight_twister_purple",
+					"bh_straight_star_green",
+					"bh_straight_star_purple",
+					"bh_curved01_ball_green",
+					"bh_curved01_ball_purple",
+					"bh_curved01_twister_green",
+					"bh_curved01_twister_purple",
+					"bh_curved01_star_green",
+					"bh_curved01_star_purple",
+					"bh_curved02_ball_green",
+					"bh_curved02_ball_purple",
+					"bh_curved02_twister_green",
+					"bh_curved02_twister_purple",
+					"bh_curved02_star_green",
+					"bh_curved02_star_purple",
+					"bh_curved02_ball_green_c",
+					"bh_curved02_ball_purple_c",
+					"bh_curved02_twister_green_c",
+					"bh_curved02_twister_purple_c",
+					"bh_arched_ball_green",
+					"bh_arched_ball_purple",
+					"bh_arched_twister_green",
+					"bh_arched_twister_purple",
+					"bh_danger_ball_color01",
+					"bh_danger_ball_color02",
+					"bh_big_ball_green",
+					"bh_big_ball_purple",
+					"bh_debug"
+				]
+			},
+		"bubbleType" : "Green Standard",
+
+		"spawnShapeType_meta" : { "optional" : false,  "order" : 23, "toolTip" : "The type of pre created shape which the pattern will spawn projectiles in. Single is no shape" },
+		"spawnShapeType" : {
+			"type_meta" : { "optional" : false, "type" : "string", "optionsAllowsCustom" : false, "options" : [ "Single", "Circle", "LineHorizontal", "LineVertical" ], "toolTip" : "The shape type" },
+			"type" : "Single",
+
+			"values_meta" : { "optional" : false, "unavailable" : { "type" : ["Single"] }, "toolTip" : "Values affecting the shape" },
+			"values" : {
+				"range_meta" : { "optional" : false,"type" : "float", "toolTip" : "Used as length for lines and as radius for circle" },
+				"range" : 1.0,
+
+				"amount_meta" : { "optional" : false, "min" : 1, "toolTip" : "The amount of projectiles which will build up the shape" },
+				"amount" : 1
+				}
+			}
+		}
+	],
+
+	"systemSettings_meta" : { "optional" : true, "toolTip" : "Settings that affect all paterns in the file" },
+	"systemSettings" : 
+	{
+		"rotationPerSecond_meta" : { "optional" : true, "order" : 0, "toolTip" : "Rotates every pattern" },
+		"rotationPerSecond" : 0,
+
+		"invertRotationThreshold_meta" : { "optional" : true, "min" : 0, "order" : 1, "toolTip" : "Reverses rotation after reaching the threshold if set" },
+		"invertRotationThreshold" : 0,
+
+		"repeatCount_meta" : { "optional" : true, "min" : 0, "order" : 2, "toolTip" : "The amount of times the entire system will repeat after the last pattern is done" },
+		"repeatCount" : 0,
+
+		"speedModifications_meta" : { "optional" : true, "order" : 3, "toolTip" : "Affects the movement speed of which the bubbles spawn in for all systems" },
+		"speedModifications" : [
+			{
+				"incremental_meta" : { "optional" : false, "type" : "bool", "order" : 0, "toolTip" : "If set the speed increase will be incremental instead of instant" },
+				"incremental" : false,
+
+				"increaseTime_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "order" : 1, "toolTip" : "The time during which the speed should increase" },
+				"increaseTime" : 1.0,
+
+				"bubbleSpeedMultiplier_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "order" : 2, "toolTip" : "What the speed multipier should be changed to" },
+				"bubbleSpeedMultiplier" : 1.0,
+
+				"duration_meta" : { "optional" : false, "type" : "float", "min" : 0.0, "order" : 3, "toolTip" : "The duration it will take before moving on to the next speed modification step" },
+				"duration" : 2.0
+			}
+		]
+	}
+}

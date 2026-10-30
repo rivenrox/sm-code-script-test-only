@@ -1,0 +1,81 @@
+{
+	"lodList" : 
+	[
+		{
+			"mesh" : "$GAME_DATA/Particles/resources/growlabs/doorscaner/p_growlabs_doorsensor_scanplane03.fbx",
+			"pose0" : "$GAME_DATA/Particles/resources/growlabs/doorscaner/p_growlabs_doorsensor_scanplane03_pose0.fbx",
+			"pose1" : "$GAME_DATA/Particles/resources/growlabs/doorscaner/p_growlabs_doorsensor_scanplane03_pose1.fbx",
+			"pose2" : "$GAME_DATA/Particles/resources/growlabs/doorscaner/p_growlabs_doorsensor_scanplane03_pose1.fbx",
+			"subMeshMap" : 
+			{
+				"scan" : 
+				{
+					"custom" : 
+					{
+						"laser" : 
+						{
+							"baseColor" : 
+							[
+								0.082581,
+								0.480469,
+								0.0,
+								0.574219
+							],
+							"fade" : 
+							{
+								"fadeRange" : 0.11,
+								"fadeValue" : 0.04
+							},
+							"fog" : 
+							{
+								"fogLoopSpeed" : 0.1,
+								"fogMin" : 0.35,
+								"fogOpacity" : 0.56,
+								"fogScale" : 30.0,
+								"fogScrollSpeed" : 1.0
+							},
+							"fresnel" : 
+							{
+								"fresnelExponent" : 4.56,
+								"fresnelIntensity" : 0.06
+							},
+							"glowStrength" : 0.0,
+							"highlightColor" : 
+							[
+								0.077777,
+								1.0,
+								0.0,
+								0.84375
+							],
+							"intersection" : 
+							{
+								"intersectHeight" : 0.1,
+								"intersectIntensity" : 1.83
+							},
+							"refraction" : 
+							{
+								"ROI" : 0.01,
+								"refraction" : 0.0
+							},
+							"scanLines" : 
+							{
+								"scanLineFrequency1" : 3.0,
+								"scanLineFrequency2" : 31.209999,
+								"scanLineIntensity1" : 0.32,
+								"scanLineIntensity2" : 0.2,
+								"scanLineSpeed1" : 1.25,
+								"scanLineSpeed2" : -0.125
+							}
+						}
+					},
+					"material" : "3PoseLaser",
+					"textures" : 
+					{
+						"laser" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_doorsensor02_laser.tga",
+						"laserMask" : "$SURVIVAL_DATA/Effects/Textures/effectproxies/effectproxy_doorsensor01_lasermask.tga"
+					}
+				}
+			}
+		}
+	]
+}

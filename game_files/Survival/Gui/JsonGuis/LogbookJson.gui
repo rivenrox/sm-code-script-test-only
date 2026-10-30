@@ -1,0 +1,2818 @@
+{
+	"Anchor" : "Center",
+	"Childs" : 
+	[
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "QuestsTab",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookTabQuests",
+							"StateSelected" : false,
+							"TextAlign" : "Center",
+							"Type" : "Button",
+							"height" : 34,
+							"onClick" : "cl_onTabClicked",
+							"width" : 66,
+							"x" : 0,
+							"y" : 0
+						},
+						{
+							"Caption" : "",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "DialogueTab",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookTabDialogs",
+							"StateSelected" : false,
+							"TextAlign" : "Center",
+							"Type" : "Button",
+							"height" : 34,
+							"onClick" : "cl_onTabClicked",
+							"width" : 66,
+							"x" : 0,
+							"y" : 0
+						},
+						{
+							"Caption" : "",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "ItemsTab",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookTabItems",
+							"StateSelected" : true,
+							"TextAlign" : "Center",
+							"Type" : "Button",
+							"height" : 34,
+							"onClick" : "cl_onTabClicked",
+							"width" : 66,
+							"x" : 0,
+							"y" : 0
+						},
+						{
+							"Caption" : "",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "BeaconsTab",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookTabBeacons",
+							"StateSelected" : false,
+							"TextAlign" : "Center",
+							"Type" : "Button",
+							"height" : 34,
+							"onClick" : "cl_onTabClicked",
+							"width" : 66,
+							"x" : 0,
+							"y" : 0
+						},
+						{
+							"Caption" : "",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "GarageTab",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookTabGarage",
+							"StateSelected" : false,
+							"TextAlign" : "Center",
+							"Type" : "Button",
+							"height" : 34,
+							"onClick" : "cl_onTabClicked",
+							"width" : 66,
+							"x" : 0,
+							"y" : 0
+						}
+					],
+					"LayoutRule" : "Horizontal",
+					"Name" : "TabsHorizontalGroup",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"height" : 34,
+					"width" : 268,
+					"x" : 52,
+					"y" : 120
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Caption" : " #{LOGBOOK_ACTIVE_QUESTS} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"HorizontalAlign" : "Centered",
+									"LayoutRule" : "Absolute",
+									"Name" : "DividerText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 0.752941 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.678431 0.576471 0.388235 1",
+									"Type" : "TextBox",
+									"height" : 23,
+									"width" : 100,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "ActiveQuestDivider",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"height" : 17,
+							"width" : 287,
+							"x" : 12,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "",
+									"Childs" : 
+									[
+										{
+											"Caption" : "Lorem ipsum dolor sit amet consectetur adipiscing",
+											"Childs" : [],
+											"FontName" : "SM_HeaderNarrow",
+											"MultiLine" : true,
+											"Name" : "QuestTitle",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "TextBox",
+											"Static" : true,
+											"TextAlign" : "Left",
+											"TextColour" : "1.0 1.0 1.0 1.0",
+											"TextShadow" : true,
+											"TextShadowColour" : "0 0 0 0.3",
+											"Type" : "EditBox",
+											"WordWrap" : true,
+											"height" : 32,
+											"width" : 180,
+											"x" : 60,
+											"y" : 10
+										},
+										{
+											"Childs" : [],
+											"ImageTexture" : "Logbook_New/gui_logbook_quest_icon_main.png",
+											"Name" : "QuestIcon",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 40,
+											"width" : 40,
+											"x" : 10,
+											"y" : 7
+										},
+										{
+											"Caption" : "",
+											"Childs" : [],
+											"FontName" : "SM_HeaderTiny",
+											"Name" : "QuestVisibilityButton",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "LogbookQuestVisibilityShow",
+											"TextAlign" : "Center",
+											"Type" : "Button",
+											"height" : 22,
+											"onClick" : "cl_onClick",
+											"width" : 32,
+											"x" : 254,
+											"y" : 14
+										},
+										{
+											"Childs" : [],
+											"ImageTexture" : "Logbook_New/gui_logbook_quest_complete_checkmark.png",
+											"Name" : "QuestCompletedCheck",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"Visible" : false,
+											"height" : 20,
+											"width" : 20,
+											"x" : 254,
+											"y" : 17
+										}
+									],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "QuestItemBase",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookQuestCompleteBG",
+									"TextAlign" : "Center",
+									"Type" : "Button",
+									"Visible" : true,
+									"height" : 54,
+									"onClick" : "cl_onClick",
+									"width" : 286,
+									"x" : 0,
+									"y" : 10
+								}
+							],
+							"LayoutRule" : "Vertical",
+							"Name" : "ActiveQuestPanel",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"height" : 60,
+							"width" : 290,
+							"x" : 26,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Caption" : " #{LOGBOOK_COMPLETED_QUESTS} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"HorizontalAlign" : "Centered",
+									"LayoutRule" : "Absolute",
+									"Name" : "DividerText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 0.752941 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.678431 0.576471 0.388235 1",
+									"Type" : "TextBox",
+									"height" : 23,
+									"width" : 120,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "CompletedQuestDivider",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"height" : 17,
+							"width" : 287,
+							"x" : 12,
+							"y" : 10
+						},
+						{
+							"Childs" : [],
+							"LayoutRule" : "Vertical",
+							"Name" : "CompletedQuestPanel",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"height" : 60,
+							"width" : 290,
+							"x" : 26,
+							"y" : 0
+						}
+					],
+					"LayoutRule" : "Vertical",
+					"Name" : "QuestContentPanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogScrollView",
+					"Type" : "ScrollViewPanel",
+					"Visible" : true,
+					"height" : 370,
+					"width" : 340,
+					"x" : 48,
+					"y" : 170
+				},
+				{
+					"BottomAnchored" : true,
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Caption" : "Text...",
+											"Childs" : [],
+											"FontName" : "SM_TextSmall",
+											"HeightFromText" : true,
+											"MultiLine" : true,
+											"Name" : "SpeechBubbleText",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "TextBox",
+											"Static" : true,
+											"TextAlign" : "Top Left",
+											"TextColour" : "1.0 1.0 1.0 1.0",
+											"TextShadow" : true,
+											"TextShadowColour" : "0 0 0 0.3",
+											"Type" : "EditBox",
+											"WordWrap" : true,
+											"height" : 12,
+											"width" : 260,
+											"x" : 10,
+											"y" : 10
+										}
+									],
+									"Name" : "SpeechBubble",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "LogbookDialogsBG",
+									"Type" : "Widget",
+									"height" : 47,
+									"width" : 282,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"ImageTexture" : "Logbook_New/gui_logbook_dialogs_phone.png",
+									"Name" : "SpeakerImage",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "ImageBox",
+									"Type" : "ImageBox",
+									"height" : 40,
+									"width" : 40,
+									"x" : 250,
+									"y" : -30
+								}
+							],
+							"LayoutRule" : "Vertical",
+							"Name" : "DialogFeedBubble",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"Visible" : true,
+							"height" : 60,
+							"width" : 320,
+							"x" : 4,
+							"y" : 6
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 195,
+									"x" : 30,
+									"y" : -3
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "DialogFeedDivider",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"Visible" : true,
+							"height" : 23,
+							"width" : 271,
+							"x" : -7,
+							"y" : -2
+						}
+					],
+					"LayoutRule" : "Vertical",
+					"Name" : "DialogContentPanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogScrollView",
+					"Type" : "ScrollViewPanel",
+					"Visible" : false,
+					"height" : 349,
+					"width" : 320,
+					"x" : 67,
+					"y" : 161
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"BottomAnchored" : true,
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : 
+											[
+												{
+													"Caption" : "Text...",
+													"Childs" : [],
+													"FontName" : "SM_TextSmall",
+													"HeightFromText" : true,
+													"MultiLine" : true,
+													"Name" : "SpeechBubbleText",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "TextBox",
+													"Static" : true,
+													"TextAlign" : "Top Left",
+													"TextColour" : "1.0 1.0 1.0 1.0",
+													"TextShadow" : true,
+													"TextShadowColour" : "0 0 0 0.3",
+													"Type" : "EditBox",
+													"WordWrap" : true,
+													"height" : 12,
+													"width" : 260,
+													"x" : 10,
+													"y" : 10
+												}
+											],
+											"Name" : "SpeechBubble",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "LogbookDialogsBG",
+											"Type" : "Widget",
+											"height" : 47,
+											"width" : 280,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Childs" : [],
+											"ImageTexture" : "Logbook_New/gui_logbook_dialogs_phone.png",
+											"Name" : "SpeakerImage",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 40,
+											"width" : 40,
+											"x" : 248,
+											"y" : -30
+										}
+									],
+									"LayoutRule" : "Vertical",
+									"Name" : "DialogFeedBubble",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"Visible" : true,
+									"height" : 60,
+									"width" : 320,
+									"x" : 4,
+									"y" : 6
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"HorizontalAlign" : "Centered",
+											"Name" : "DividerLine1",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "LogbookHeadlineDivider",
+											"Type" : "Widget",
+											"height" : 4,
+											"width" : 195,
+											"x" : 30,
+											"y" : -3
+										}
+									],
+									"LayoutRule" : "Horizontal",
+									"Name" : "DialogFeedDivider",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"VerticalAlign" : "Centered",
+									"Visible" : true,
+									"height" : 23,
+									"width" : 271,
+									"x" : -7,
+									"y" : -2
+								}
+							],
+							"LayoutRule" : "Vertical",
+							"Name" : "DialogContentPanel",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogScrollView",
+							"Type" : "ScrollViewPanel",
+							"Visible" : true,
+							"height" : 319,
+							"width" : 320,
+							"x" : 21,
+							"y" : 36
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Caption" : " #{LOGBOOK_DIALOG} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"HorizontalAlign" : "Centered",
+									"LayoutRule" : "Absolute",
+									"Name" : "DividerText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 0.752941 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.678431 0.576471 0.388235 1",
+									"Type" : "TextBox",
+									"height" : 23,
+									"width" : 60,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "DialogDivider",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"height" : 16,
+							"width" : 287,
+							"x" : 26,
+							"y" : 14
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"HorizontalAlign" : "Centered",
+											"Name" : "DialogArrowLeft",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "Handbook_Arrow_Left",
+											"Type" : "Button",
+											"height" : 22,
+											"width" : 22,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"HorizontalAlign" : "Centered",
+													"Name" : "Empty",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "PanelEmpty",
+													"Type" : "ImageBox",
+													"Visible" : true,
+													"height" : 10,
+													"width" : 10,
+													"x" : 0,
+													"y" : 0
+												}
+											],
+											"HorizontalAlign" : "Centered",
+											"LayoutRule" : "Horizontal",
+											"Name" : "Spacer",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"Visible" : true,
+											"height" : 22,
+											"width" : 8,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"HorizontalAlign" : "Centered",
+													"Name" : "DialogPageDotBase",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "Handbook_Pageindicator_Default",
+													"Type" : "Button",
+													"Visible" : true,
+													"height" : 12,
+													"width" : 12,
+													"x" : 0,
+													"y" : 0
+												}
+											],
+											"HorizontalAlign" : "Centered",
+											"LayoutRule" : "Horizontal",
+											"Name" : "DialogIndicators",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"Visible" : true,
+											"height" : 22,
+											"width" : 12,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"HorizontalAlign" : "Centered",
+													"Name" : "Empty",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "PanelEmpty",
+													"Type" : "ImageBox",
+													"Visible" : true,
+													"height" : 10,
+													"width" : 10,
+													"x" : 0,
+													"y" : 0
+												}
+											],
+											"HorizontalAlign" : "Centered",
+											"LayoutRule" : "Horizontal",
+											"Name" : "Spacer",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"Visible" : true,
+											"height" : 22,
+											"width" : 8,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Childs" : [],
+											"HorizontalAlign" : "Centered",
+											"Name" : "DialogArrowRight",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "Handbook_Arrow_Right",
+											"Type" : "Button",
+											"height" : 22,
+											"width" : 22,
+											"x" : 0,
+											"y" : 0
+										}
+									],
+									"LayoutRule" : "Horizontal",
+									"Name" : "DialogNavigation",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"VerticalAlign" : "Centered",
+									"Visible" : true,
+									"height" : 32,
+									"width" : 30,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"LayoutRule" : "Center",
+							"Name" : "DialogNavigationContainer",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"Visible" : true,
+							"height" : 32,
+							"width" : 285,
+							"x" : 20,
+							"y" : 355
+						}
+					],
+					"LayoutRule" : "Absolute",
+					"Name" : "DialogContainer",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : false,
+					"height" : 386,
+					"width" : 339,
+					"x" : 48,
+					"y" : 156
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Caption" : " #{LOGBOOK_ITEMS} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"HorizontalAlign" : "Centered",
+									"LayoutRule" : "Absolute",
+									"Name" : "DividerText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 0.752941 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.678431 0.576471 0.384314 1",
+									"Type" : "TextBox",
+									"height" : 23,
+									"width" : 80,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "LogItemsDivider",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"height" : 17,
+							"width" : 287,
+							"x" : 12,
+							"y" : 8
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "asdasd",
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"ImageTexture" : "gui_logbook_icon_photo.png",
+											"Name" : "LogItemImage",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 56,
+											"width" : 56,
+											"x" : 20,
+											"y" : 12
+										},
+										{
+											"Caption" : "Lorem ipsum dolor sit amet",
+											"Childs" : [],
+											"FontName" : "SM_HeaderTiny",
+											"MultiLine" : true,
+											"Name" : "LogItemTitle",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "TextBox",
+											"Static" : true,
+											"TextAlign" : "Bottom",
+											"TextColour" : "1 1 1 1",
+											"TextShadow" : true,
+											"TextShadowColour" : "0 0 0 0.3",
+											"Type" : "EditBox",
+											"Visible" : true,
+											"WordWrap" : true,
+											"height" : 28,
+											"width" : 80,
+											"x" : 8,
+											"y" : 60
+										},
+										{
+											"Childs" : [],
+											"ImageTexture" : "Logbook_New/gui_logbook_itemexclamation.png",
+											"Name" : "ReadExclamation",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"Visible" : true,
+											"height" : 18,
+											"width" : 12,
+											"x" : 74,
+											"y" : 10
+										},
+										{
+											"Childs" : [],
+											"CropEffect" : true,
+											"CroppingWidget" : "ItemContentPanel",
+											"Effects" : 
+											[
+												{
+													"EffectName" : "Gui - Logbookitemhighlight",
+													"Name" : "default",
+													"Offset" : 
+													{
+														"x" : 0,
+														"y" : 0
+													},
+													"PlayState" : "Auto playing"
+												}
+											],
+											"Name" : "LogItemEffectBox",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "EffectBox",
+											"Type" : "EffectBox",
+											"height" : 90,
+											"width" : 90,
+											"x" : 5,
+											"y" : 5
+										}
+									],
+									"FontName" : "SM_HeaderNarrow",
+									"Name" : "LogItemBase",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookItemsBG",
+									"TextAlign" : "Center",
+									"Type" : "Button",
+									"height" : 106,
+									"onClick" : "cl_onClick",
+									"width" : 106,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"GridItemSize" : 
+							{
+								"height" : 96,
+								"width" : 96
+							},
+							"LayoutRule" : "Grid",
+							"Name" : "ItemGrid",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"height" : 200,
+							"width" : 290,
+							"x" : 22,
+							"y" : 6
+						}
+					],
+					"LayoutRule" : "Vertical",
+					"Name" : "ItemContentPanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogScrollView",
+					"Type" : "ScrollViewPanel",
+					"Visible" : false,
+					"height" : 375,
+					"width" : 340,
+					"x" : 48,
+					"y" : 162
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Caption" : " #{LOGBOOK_BEACONS} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"HorizontalAlign" : "Centered",
+									"LayoutRule" : "Absolute",
+									"Name" : "DividerText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 0.752941 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.678431 0.576471 0.384314 1",
+									"Type" : "TextBox",
+									"height" : 23,
+									"width" : 80,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "DividerBase",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"height" : 17,
+							"width" : 287,
+							"x" : 12,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "...",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "BeaconToggleButton",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookQuestVisibilityShow",
+									"TextAlign" : "Center",
+									"Type" : "Button",
+									"height" : 22,
+									"onClick" : "cl_onClick",
+									"width" : 32,
+									"x" : 260,
+									"y" : 14
+								},
+								{
+									"Caption" : "Text...",
+									"Childs" : [],
+									"FontName" : "SM_HeaderNarrow",
+									"Name" : "BeaconDistanceText",
+									"NeedKey" : true,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Stretch",
+									"TextColour" : "1 1 1 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0 0 0 0.3",
+									"Type" : "TextBox",
+									"height" : 16,
+									"width" : 200,
+									"x" : 46,
+									"y" : 18
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"Colour" : "1 0 0.890626 1",
+											"ImageGroup" : "BeaconIconMap",
+											"ImageName" : "2",
+											"ImageResource" : "BeaconIconMap",
+											"Name" : "BeaconIconImage",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 22,
+											"width" : 22,
+											"x" : 4,
+											"y" : 4
+										}
+									],
+									"Name" : "BeaconIconBG",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "LogbookBeaconIconBG",
+									"Type" : "Widget",
+									"height" : 30,
+									"width" : 30,
+									"x" : 10,
+									"y" : 10
+								}
+							],
+							"Name" : "BeaconItemBase",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookItemsBG",
+							"Type" : "Button",
+							"height" : 50,
+							"width" : 294,
+							"x" : 22,
+							"y" : 4
+						}
+					],
+					"LayoutRule" : "Vertical",
+					"Name" : "BeaconContentPanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogScrollView",
+					"Type" : "ScrollViewPanel",
+					"Visible" : false,
+					"height" : 356,
+					"width" : 340,
+					"x" : 48,
+					"y" : 170
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 80,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Caption" : " #{LOGBOOK_GARAGE} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"HorizontalAlign" : "Centered",
+									"LayoutRule" : "Absolute",
+									"Name" : "DividerText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 0.752941 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.678431 0.576471 0.388235 1",
+									"Type" : "TextBox",
+									"height" : 23,
+									"width" : 80,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 80,
+									"x" : 0,
+									"y" : 1
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "GarageDivider",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"height" : 17,
+							"width" : 287,
+							"x" : 12,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"Name" : "GarageStar",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "LogbookQuestVisibilityShow",
+											"Type" : "Widget",
+											"Visible" : true,
+											"height" : 22,
+											"width" : 32,
+											"x" : 258,
+											"y" : 8
+										},
+										{
+											"Childs" : [],
+											"FontName" : "SM_HeaderNarrow",
+											"MultiLine" : true,
+											"Name" : "GarageShowcaseTitle",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "TextBox",
+											"Static" : true,
+											"TextAlign" : "Center",
+											"TextShadow" : true,
+											"TextShadowColour" : "0 0 0 0.3",
+											"Type" : "EditBox",
+											"WordWrap" : true,
+											"height" : 40,
+											"width" : 200,
+											"x" : 44,
+											"y" : 106
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"Name" : "ProgressBarBackground",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "DressbotProgressBackground",
+													"Type" : "ProgressBar",
+													"height" : 14,
+													"width" : 80,
+													"x" : 0,
+													"y" : 0
+												},
+												{
+													"Childs" : [],
+													"Name" : "ProgressBar",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "DressbotProgress",
+													"Type" : "Widget",
+													"height" : 10,
+													"width" : 76,
+													"x" : 2,
+													"y" : 2
+												}
+											],
+											"Name" : "GarageShowcaseProgressHolder",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"Visible" : true,
+											"height" : 20,
+											"width" : 100,
+											"x" : 104,
+											"y" : 144
+										},
+										{
+											"BlueprintPreview" : "",
+											"Childs" : [],
+											"Name" : "GaragePreview",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"NeedScroll" : true,
+											"Skin" : "Canvas",
+											"Type" : "PreviewBox",
+											"Visible" : true,
+											"height" : 120,
+											"width" : 286,
+											"x" : 1,
+											"y" : 1
+										}
+									],
+									"Name" : "GarageShowcase",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookGarageBG",
+									"Type" : "Widget",
+									"Visible" : true,
+									"height" : 166,
+									"width" : 288,
+									"x" : 0,
+									"y" : 10
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageGroup" : "",
+													"ImageName" : "",
+													"ImageResource" : "",
+													"Name" : "Image",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"Visible" : true,
+													"height" : 42,
+													"width" : 42,
+													"x" : 13,
+													"y" : 10
+												},
+												{
+													"Caption" : "5/5",
+													"Childs" : [],
+													"FontName" : "SM_NumberSmall",
+													"Name" : "Quantity",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "TextBox",
+													"TextAlign" : "Right",
+													"TextColour" : "1.0 1.0 1.0 1.0",
+													"TextShadow" : true,
+													"TextShadowColour" : "0 0 0 0.3",
+													"Type" : "TextBox",
+													"height" : 20,
+													"width" : 40,
+													"x" : 20,
+													"y" : 44
+												},
+												{
+													"Childs" : [],
+													"ImageName" : "interactive",
+													"ImageResource" : "ItemTypeSet",
+													"Name" : "Type",
+													"NeedKey" : false,
+													"NeedMouse" : false,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 9,
+													"width" : 9,
+													"x" : 11,
+													"y" : 49
+												}
+											],
+											"Colour" : "1 1 1 1",
+											"Name" : "GarageResourceBase",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "LogbookItemsBG",
+											"Type" : "Widget",
+											"Visible" : true,
+											"height" : 100,
+											"width" : 100,
+											"x" : 25,
+											"y" : -2
+										}
+									],
+									"GridItemSize" : 
+									{
+										"height" : 69,
+										"width" : 69
+									},
+									"LayoutRule" : "Grid",
+									"Name" : "GarageResourceHolder",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "ButtonEmptySkin",
+									"Type" : "Widget",
+									"Visible" : true,
+									"height" : 100,
+									"width" : 276,
+									"x" : 0,
+									"y" : 8
+								}
+							],
+							"LayoutRule" : "Vertical",
+							"Name" : "GarageItemsHolder",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"height" : 60,
+							"width" : 300,
+							"x" : 26,
+							"y" : -4
+						}
+					],
+					"LayoutRule" : "Vertical",
+					"Name" : "GarageContentPanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogScrollView",
+					"Type" : "ScrollViewPanel",
+					"Visible" : false,
+					"height" : 370,
+					"width" : 340,
+					"x" : 48,
+					"y" : 170
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine1",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								},
+								{
+									"Caption" : " #{LOGBOOK_GARAGE} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"HorizontalAlign" : "Centered",
+									"LayoutRule" : "Absolute",
+									"Name" : "DividerText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "1 1 0.752941 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.678431 0.576471 0.388235 1",
+									"Type" : "TextBox",
+									"height" : 23,
+									"width" : 80,
+									"x" : 0,
+									"y" : 0
+								},
+								{
+									"Childs" : [],
+									"HorizontalAlign" : "Centered",
+									"Name" : "DividerLine2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookHeadlineDivider",
+									"Type" : "Widget",
+									"height" : 4,
+									"width" : 100,
+									"x" : 0,
+									"y" : 1
+								}
+							],
+							"LayoutRule" : "Horizontal",
+							"Name" : "GarageDivider",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"VerticalAlign" : "Centered",
+							"height" : 17,
+							"width" : 290,
+							"x" : 12,
+							"y" : 0
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"Name" : "GarageImage",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookGarageFallback",
+									"Type" : "Widget",
+									"Visible" : true,
+									"height" : 166,
+									"width" : 290,
+									"x" : 0,
+									"y" : 10
+								}
+							],
+							"LayoutRule" : "Vertical",
+							"Name" : "GarageItemsHolder",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"height" : 60,
+							"width" : 300,
+							"x" : 24,
+							"y" : -4
+						},
+						{
+							"Caption" : "#{LOGBOOK_GARAGE_EMPTYSTATE_TEXT}",
+							"Childs" : [],
+							"FontName" : "SM_TextSmall",
+							"Name" : "TextIntro",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextShadow" : true,
+							"TextShadowColour" : "0 0 0 0.5",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 160,
+							"width" : 290,
+							"x" : 24,
+							"y" : 10
+						}
+					],
+					"LayoutRule" : "Vertical",
+					"Name" : "GarageContentPanelEmptyState",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogScrollView",
+					"Type" : "ScrollViewPanel",
+					"Visible" : false,
+					"height" : 370,
+					"width" : 340,
+					"x" : 48,
+					"y" : 170
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "Logbook_New/gui_logbook_time_icon_days.png",
+							"Name" : "Image",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 22,
+							"width" : 22,
+							"x" : 6,
+							"y" : 5
+						},
+						{
+							"Caption" : " #{LOGBOOK_DAYS} ",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "TextBox",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"TextAlign" : "Left",
+							"TextColour" : "1 1 1 1",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.411765 0.384314 0.447059 1",
+							"Type" : "TextBox",
+							"height" : 14,
+							"width" : 30,
+							"x" : 31,
+							"y" : 10
+						},
+						{
+							"Caption" : "23456",
+							"Childs" : [],
+							"FontName" : "SM_HeaderSmall",
+							"Name" : "DaysText",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"TextAlign" : "Right",
+							"TextColour" : "1 1 0.752941 1",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.411765 0.384314 0.447059 1",
+							"Type" : "TextBox",
+							"height" : 17,
+							"width" : 45,
+							"x" : 59,
+							"y" : 8
+						}
+					],
+					"Name" : "Days",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogbookTimeBG",
+					"Type" : "Widget",
+					"height" : 32,
+					"width" : 110,
+					"x" : 282,
+					"y" : 90
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "Logbook_New/gui_logbook_time_icon_time.png",
+							"Name" : "Image",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 22,
+							"width" : 22,
+							"x" : 5,
+							"y" : 5
+						},
+						{
+							"Caption" : " #{LOGBOOK_TIME} ",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "TimeLabel",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"TextAlign" : "Top Left",
+							"TextColour" : "1.0 1.0 1.0 1.0",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.411765 0.384314 0.447059 1",
+							"Type" : "TextBox",
+							"height" : 14,
+							"width" : 30,
+							"x" : 30,
+							"y" : 11
+						},
+						{
+							"Caption" : "00:00",
+							"Childs" : [],
+							"FontName" : "SM_HeaderSmall",
+							"Name" : "TimeText",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"TextAlign" : "Right",
+							"TextColour" : "1 1 0.752941 1",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.415686 0.384314 0.447059 1",
+							"Type" : "TextBox",
+							"height" : 19,
+							"width" : 40,
+							"x" : 64,
+							"y" : 7
+						}
+					],
+					"Name" : "Time",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "LogbookTimeBG",
+					"Type" : "Widget",
+					"height" : 32,
+					"width" : 110,
+					"x" : 42,
+					"y" : 88
+				}
+			],
+			"ImageTexture" : "Logbook_New/gui_logbook_main_panel.png",
+			"Name" : "MainPanel",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "ImageBox",
+			"Type" : "ImageBox",
+			"height" : 594,
+			"width" : 436,
+			"x" : 0,
+			"y" : 0
+		},
+		{
+			"Childs" : 
+			[
+				{
+					"Childs" : [],
+					"ImageTexture" : "Logbook_New/gui_logbook_side_panel.png",
+					"Name" : "SidePanelBG",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "ImageBox",
+					"Type" : "ImageBox",
+					"Visible" : true,
+					"height" : 533,
+					"width" : 276,
+					"x" : 0,
+					"y" : 0
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "Logbook_New/gui_logbook_quest_main_photo_example.png",
+													"Name" : "QuestDescriptionPhoto",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"Visible" : true,
+													"height" : 110,
+													"width" : 150,
+													"x" : 9,
+													"y" : 6
+												},
+												{
+													"Childs" : [],
+													"ImageTexture" : "Logbook_New/gui_logbook_quest_main_photo_frame.png",
+													"Name" : "QuestDescriptionPhotoFrame",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"Visible" : true,
+													"height" : 130,
+													"width" : 170,
+													"x" : -6,
+													"y" : 0
+												}
+											],
+											"Name" : "QuestDescriptionPhotoPanel",
+											"NeedKey" : true,
+											"NeedMouse" : true,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 130,
+											"width" : 175,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Caption" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+											"Childs" : [],
+											"FontName" : "SM_TextTiny",
+											"HeightFromText" : true,
+											"MultiLine" : false,
+											"Name" : "QuestDescriptionTextBox",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "TextBox",
+											"Static" : true,
+											"TextAlign" : "Left",
+											"TextColour" : "1.0 1.0 1.0 1.0",
+											"TextShadow" : true,
+											"TextShadowColour" : "0.145098 0.533333 0.733333 1",
+											"Type" : "EditBox",
+											"WordWrap" : true,
+											"height" : 149,
+											"width" : 166,
+											"x" : 4,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : 
+													[
+														{
+															"Childs" : [],
+															"ImageTexture" : "Quest/icon_checkmark_default.png",
+															"Name" : "QuestTaskCheckmark",
+															"NeedKey" : false,
+															"NeedMouse" : true,
+															"Skin" : "ImageBox",
+															"Type" : "ImageBox",
+															"height" : 14,
+															"width" : 14,
+															"x" : 5,
+															"y" : 11
+														},
+														{
+															"Caption" : "              Extinguish the fire in the ship word word word word word word",
+															"Childs" : 
+															[
+																{
+																	"Caption" : "10/10",
+																	"Childs" : [],
+																	"FontName" : "SM_TextTiny",
+																	"Name" : "TaskCountText",
+																	"NeedKey" : false,
+																	"NeedMouse" : true,
+																	"Skin" : "TextBox",
+																	"TextAlign" : "Top Left",
+																	"TextColour" : "1 1 0.752941 1",
+																	"TextShadow" : true,
+																	"TextShadowColour" : "0.101961 0.482353 0.690196 1",
+																	"Type" : "TextBox",
+																	"height" : 14,
+																	"width" : 30,
+																	"x" : 0,
+																	"y" : 0
+																}
+															],
+															"FontName" : "SM_TextTiny",
+															"HeightFromText" : true,
+															"MultiLine" : false,
+															"Name" : "TaskText",
+															"NeedKey" : false,
+															"NeedMouse" : true,
+															"Skin" : "TextBox",
+															"Static" : true,
+															"TextAlign" : "Top Left",
+															"TextColour" : "1.0 1.0 1.0 1.0",
+															"TextShadow" : true,
+															"TextShadowColour" : "0.101961 0.482353 0.690196 1",
+															"Type" : "EditBox",
+															"WordWrap" : true,
+															"height" : 58,
+															"width" : 180,
+															"x" : 26,
+															"y" : 12
+														}
+													],
+													"Name" : "QuestTaskBase",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "PanelEmpty",
+													"Type" : "Widget",
+													"height" : 26,
+													"width" : 180,
+													"x" : 0,
+													"y" : 0
+												}
+											],
+											"LayoutRule" : "Vertical",
+											"Name" : "QuestTaskPanel",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 100,
+											"width" : 180,
+											"x" : 0,
+											"y" : 0
+										}
+									],
+									"LayoutRule" : "Vertical",
+									"Name" : "QuestDescriptionScrollView",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogScrollView",
+									"Type" : "ScrollViewPanel",
+									"Visible" : false,
+									"height" : 276,
+									"width" : 200,
+									"x" : 10,
+									"y" : 14
+								},
+								{
+									"Caption" : " #{LOGBOOK_REWARDS} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderSmallNarrow",
+									"Name" : "RewardsText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Top Left",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.145098 0.533333 0.733333 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 16,
+									"width" : 80,
+									"x" : 12,
+									"y" : 308
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"Name" : "Image",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 52,
+											"width" : 52,
+											"x" : 18,
+											"y" : 4
+										}
+									],
+									"ImageTexture" : "Logbook_New/gui_logbook_quest_reward_bg.png",
+									"Name" : "QuestReward1",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "ImageBox",
+									"Type" : "ImageBox",
+									"Visible" : true,
+									"height" : 60,
+									"onClick" : "cl_onClick",
+									"width" : 86,
+									"x" : 14,
+									"y" : 326
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"Name" : "Image",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 52,
+											"width" : 52,
+											"x" : 18,
+											"y" : 4
+										}
+									],
+									"ImageTexture" : "Logbook_New/gui_logbook_quest_reward_bg.png",
+									"Name" : "QuestReward2",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "ImageBox",
+									"Type" : "ImageBox",
+									"Visible" : true,
+									"height" : 60,
+									"onClick" : "cl_onClick",
+									"width" : 86,
+									"x" : 110,
+									"y" : 326
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Caption" : "#{REQUIRED_PARTS}",
+											"Childs" : [],
+											"FontName" : "SM_HeaderSmallNarrow",
+											"Name" : "RequiredParts",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "TextBox",
+											"Type" : "TextBox",
+											"height" : 20,
+											"width" : 150,
+											"x" : 0,
+											"y" : 74
+										},
+										{
+											"Caption" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
+											"Childs" : [],
+											"FontName" : "SM_TextTiny",
+											"Name" : "BuilderGuideQuestDescription",
+											"NeedKey" : false,
+											"NeedMouse" : false,
+											"Skin" : "TextBox",
+											"Type" : "EditBox",
+											"WordWrap" : true,
+											"height" : 62,
+											"width" : 180,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : 
+													[
+														{
+															"Childs" : [],
+															"ImageGroup" : "",
+															"ImageName" : "",
+															"ImageResource" : "",
+															"Name" : "Image",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "ImageBox",
+															"Type" : "ImageBox",
+															"height" : 40,
+															"width" : 40,
+															"x" : 10,
+															"y" : 7
+														},
+														{
+															"Caption" : "23/8",
+															"Childs" : [],
+															"FontName" : "SM_NumberSmall",
+															"Name" : "Quantity",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "TextBox",
+															"TextAlign" : "Right",
+															"Type" : "TextBox",
+															"height" : 15,
+															"width" : 40,
+															"x" : 14,
+															"y" : 42
+														},
+														{
+															"Childs" : [],
+															"ImageName" : "interactive",
+															"ImageResource" : "ItemTypeSet",
+															"Name" : "Type",
+															"NeedKey" : false,
+															"NeedMouse" : false,
+															"Skin" : "ImageBox",
+															"Type" : "ImageBox",
+															"Visible" : true,
+															"height" : 8,
+															"width" : 8,
+															"x" : 6,
+															"y" : 45
+														}
+													],
+													"Colour" : "1.0 1.0 1.0 1.0",
+													"Name" : "BuilderGuideItem",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "LogbookSidepanelBackground",
+													"ToolTip" : 
+													{
+														"Text" : ""
+													},
+													"Type" : "Widget",
+													"height" : 60,
+													"width" : 60,
+													"x" : 8,
+													"y" : -1
+												}
+											],
+											"GridItemSize" : 
+											{
+												"height" : 60,
+												"width" : 60
+											},
+											"LayoutRule" : "Grid",
+											"Name" : "BuilderGuideScrollView",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "LogScrollView",
+											"Type" : "ScrollViewPanel",
+											"height" : 180,
+											"width" : 200,
+											"x" : -2,
+											"y" : 90
+										}
+									],
+									"Name" : "BuilderGuideHolder",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "PanelEmpty",
+									"Type" : "Widget",
+									"Visible" : true,
+									"height" : 280,
+									"width" : 200,
+									"x" : 14,
+									"y" : 10
+								}
+							],
+							"Name" : "QuestDescriptionPanel",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookQuestTextBG",
+							"Type" : "Widget",
+							"height" : 400,
+							"width" : 212,
+							"x" : 16,
+							"y" : 82
+						},
+						{
+							"Caption" : "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+							"Childs" : [],
+							"FontName" : "SM_HeaderNarrow",
+							"MultiLine" : true,
+							"Name" : "QuestSidePanelTitle",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextAlign" : "Left",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.466667 0.431373 0.498039 1",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 40,
+							"width" : 160,
+							"x" : 60,
+							"y" : 20
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "Logbook_New/gui_logbook_quest_icon_main.png",
+							"Name" : "QuestSidePanelIcon",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 44,
+							"width" : 44,
+							"x" : 12,
+							"y" : 20
+						}
+					],
+					"Name" : "QuestSidePanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : false,
+					"height" : 496,
+					"width" : 236,
+					"x" : 16,
+					"y" : 17
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "Logbook_New/gui_logbook_quest_main_photo_example.png",
+													"Name" : "QuestDescriptionPhoto",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"Visible" : true,
+													"height" : 110,
+													"width" : 150,
+													"x" : 15,
+													"y" : 6
+												},
+												{
+													"Childs" : [],
+													"ImageTexture" : "Logbook_New/gui_logbook_quest_main_photo_frame.png",
+													"Name" : "QuestDescriptionPhotoFrame",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"Visible" : true,
+													"height" : 130,
+													"width" : 170,
+													"x" : 0,
+													"y" : 0
+												}
+											],
+											"Name" : "FarmerDescriptionPhotoPanel",
+											"NeedKey" : true,
+											"NeedMouse" : true,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"height" : 130,
+											"width" : 175,
+											"x" : 0,
+											"y" : 0
+										},
+										{
+											"Caption" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+											"Childs" : [],
+											"FontName" : "SM_TextTiny",
+											"HeightFromText" : true,
+											"MultiLine" : false,
+											"Name" : "FarmerDescriptionTextBox",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "TextBox",
+											"Static" : true,
+											"TextAlign" : "Left",
+											"TextColour" : "1.0 1.0 1.0 1.0",
+											"TextShadow" : true,
+											"TextShadowColour" : "0.145098 0.533333 0.733333 1",
+											"Type" : "EditBox",
+											"WordWrap" : true,
+											"height" : 149,
+											"width" : 166,
+											"x" : 5,
+											"y" : 0
+										},
+										{
+											"Childs" : 
+											[
+												{
+													"Childs" : [],
+													"ImageTexture" : "Quest/icon_checkmark_active.png",
+													"Name" : "FarmerTaskCheckmark",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "ImageBox",
+													"Type" : "ImageBox",
+													"height" : 14,
+													"width" : 14,
+													"x" : 5,
+													"y" : 6
+												},
+												{
+													"Caption" : "Extinguish the fire in the ship",
+													"Childs" : [],
+													"FontName" : "SM_HeaderTiny",
+													"HeightFromText" : true,
+													"MultiLine" : false,
+													"Name" : "FarmerTaskText",
+													"NeedKey" : false,
+													"NeedMouse" : true,
+													"Skin" : "TextBox",
+													"Static" : true,
+													"TextAlign" : "Left",
+													"TextColour" : "1.0 1.0 1.0 1.0",
+													"TextShadow" : true,
+													"TextShadowColour" : "0.101961 0.482353 0.690196 1",
+													"Type" : "EditBox",
+													"WordWrap" : true,
+													"height" : 25,
+													"width" : 150,
+													"x" : 23,
+													"y" : -13
+												}
+											],
+											"LayoutRule" : "Vertical",
+											"Name" : "FarmerTaskPanel",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "PanelEmpty",
+											"Type" : "Widget",
+											"Visible" : true,
+											"height" : 26,
+											"width" : 160,
+											"x" : 0,
+											"y" : 0
+										}
+									],
+									"LayoutRule" : "Vertical",
+									"Name" : "FarmerDescriptionScrollView",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogScrollView",
+									"Type" : "ScrollViewPanel",
+									"Visible" : true,
+									"height" : 276,
+									"width" : 200,
+									"x" : 10,
+									"y" : 20
+								},
+								{
+									"Caption" : " #{LOGBOOK_RESOURCES} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderSmallNarrow",
+									"Name" : "ResourcesText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Top Left",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.145098 0.533333 0.733333 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 16,
+									"width" : 80,
+									"x" : 12,
+									"y" : 300
+								},
+								{
+									"Caption" : " #{LOGBOOK_REWARDS} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderSmallNarrow",
+									"Name" : "RewardsText",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"TextAlign" : "Top Left",
+									"TextShadow" : true,
+									"TextShadowColour" : "0.145098 0.533333 0.733333 1",
+									"Type" : "TextBox",
+									"Visible" : true,
+									"height" : 16,
+									"width" : 80,
+									"x" : 130,
+									"y" : 300
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"ImageTexture" : "gui_hideout_vegtable_tomato.png",
+											"Name" : "ResourceImage",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"Visible" : true,
+											"height" : 60,
+											"width" : 60,
+											"x" : 25,
+											"y" : 4
+										}
+									],
+									"Name" : "FarmerResource",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "LogbookQuestFarmerResourcesBG",
+									"Type" : "ImageBox",
+									"Visible" : true,
+									"height" : 68,
+									"onClick" : "cl_onClick",
+									"width" : 110,
+									"x" : 14,
+									"y" : 320
+								},
+								{
+									"Childs" : 
+									[
+										{
+											"Childs" : [],
+											"ImageGroup" : "",
+											"ImageName" : "",
+											"ImageResource" : "",
+											"Name" : "RewardImage",
+											"NeedKey" : false,
+											"NeedMouse" : true,
+											"Skin" : "ImageBox",
+											"Type" : "ImageBox",
+											"height" : 40,
+											"width" : 40,
+											"x" : 16,
+											"y" : 14
+										}
+									],
+									"ImageTexture" : "Hideout/gui_hideout_bgitem_blue.png",
+									"Name" : "FarmerReward",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "ImageBox",
+									"Type" : "ImageBox",
+									"Visible" : true,
+									"height" : 72,
+									"onClick" : "cl_onClick",
+									"width" : 72,
+									"x" : 130,
+									"y" : 320
+								},
+								{
+									"Childs" : [],
+									"ImageTexture" : "Logbook_New/gui_farmerquest_arrow.png",
+									"Name" : "Arrow",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "ImageBox",
+									"Type" : "ImageBox",
+									"height" : 20,
+									"width" : 34,
+									"x" : 112,
+									"y" : 343
+								}
+							],
+							"Name" : "FarmerDescriptionPanel",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookQuestTextBG",
+							"Type" : "Widget",
+							"height" : 400,
+							"width" : 212,
+							"x" : 16,
+							"y" : 82
+						},
+						{
+							"Caption" : "Lorem ipsum dolor sit amet consectetur adipiscing elit",
+							"Childs" : [],
+							"FontName" : "SM_HeaderNarrow",
+							"MultiLine" : true,
+							"Name" : "FarmerSidePanelTitle",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextAlign" : "Left",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.466667 0.431373 0.498039 1",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 40,
+							"width" : 160,
+							"x" : 60,
+							"y" : 20
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "Logbook_New/gui_logbook_quest_icon_hideout.png",
+							"Name" : "FarmerSidePanelIcon",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 44,
+							"width" : 44,
+							"x" : 12,
+							"y" : 20
+						}
+					],
+					"Name" : "FarmerSidePanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : false,
+					"height" : 496,
+					"width" : 236,
+					"x" : 16,
+					"y" : 17
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Childs" : [],
+							"ImageTexture" : "Logbook_New/gui_logbook_audio_wave_form.png",
+							"Name" : "AudioLogWaveForm",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 140,
+							"width" : 160,
+							"x" : 40,
+							"y" : 73
+						},
+						{
+							"Childs" : [],
+							"Name" : "AudioLogBG",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "LogbookAudioBG",
+							"Type" : "ImageBox",
+							"Visible" : true,
+							"height" : 140,
+							"width" : 206,
+							"x" : 18,
+							"y" : 74
+						},
+						{
+							"Caption" : "Lorem ipsum dolor sit",
+							"Childs" : [],
+							"FontName" : "SM_HeaderNarrow",
+							"MultiLine" : true,
+							"Name" : "AudioLogTitle",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextAlign" : "Left",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.126666 0.115356 0.136719 1",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 40,
+							"width" : 160,
+							"x" : 60,
+							"y" : 20
+						},
+						{
+							"Caption" : "Caption...",
+							"Childs" : [],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "AudioLogButton",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogbookButtonAudio",
+							"StateSelected" : false,
+							"TextAlign" : "Center",
+							"Type" : "Button",
+							"height" : 70,
+							"onClick" : "cl_onAudioClick",
+							"width" : 70,
+							"x" : 88,
+							"y" : 108
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "Logbook_New/gui_logbook_icon_audio.png",
+							"Name" : "AudioLogIcon",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 44,
+							"width" : 44,
+							"x" : 12,
+							"y" : 20
+						},
+						{
+							"Caption" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ut diam luctus, sollicitudin mi vel, euismod magna. Etiam dictum ac tortor sed sodales. Sed urna velit, pretium ut ligula ac, commodo euismod urna",
+							"Childs" : [],
+							"FontName" : "SM_TextTiny",
+							"Name" : "AudioDescription",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextAlign" : "Top Left",
+							"TextColour" : "1.0 1.0 1.0 1.0",
+							"TextShadow" : true,
+							"TextShadowColour" : "0.313726 0.321569 0.321569 1",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 240,
+							"width" : 196,
+							"x" : 18,
+							"y" : 253
+						},
+						{
+							"Caption" : "#{LOG_AUDIOLOG_SUMMARY}",
+							"Childs" : [],
+							"FontName" : "SM_HeaderSmall",
+							"Name" : "AudioSummary",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "TextBox",
+							"TextShadow" : true,
+							"TextShadowColour" : "0 0 0 0.3",
+							"Type" : "TextBox",
+							"height" : 20,
+							"width" : 150,
+							"x" : 18,
+							"y" : 223
+						},
+						{
+							"Alpha" : 0.200000003,
+							"Childs" : [],
+							"Colour" : "1 1 1 1",
+							"Name" : "Divider",
+							"NeedKey" : false,
+							"NeedMouse" : false,
+							"Skin" : "WhiteSkin",
+							"Type" : "Widget",
+							"Visible" : true,
+							"height" : 1,
+							"width" : 206,
+							"x" : 18,
+							"y" : 243
+						}
+					],
+					"Name" : "AudioLogSidePanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : false,
+					"height" : 496,
+					"width" : 236,
+					"x" : 16,
+					"y" : 17
+				},
+				{
+					"Childs" : 
+					[
+						{
+							"Caption" : "Lorem ipsum dolor sit amet",
+							"Childs" : [],
+							"FontName" : "SM_HeaderNarrow",
+							"MultiLine" : true,
+							"Name" : "PhotoLogTitle",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "TextBox",
+							"Static" : true,
+							"TextAlign" : "Left",
+							"Type" : "EditBox",
+							"WordWrap" : true,
+							"height" : 30,
+							"width" : 160,
+							"x" : 76,
+							"y" : 42
+						},
+						{
+							"Childs" : [],
+							"ImageTexture" : "Logbook_New/gui_logbook_icon_photo.png",
+							"Name" : "PhotoLogIcon",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "ImageBox",
+							"Type" : "ImageBox",
+							"height" : 44,
+							"width" : 44,
+							"x" : 28,
+							"y" : 40
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Childs" : [],
+									"ImageTexture" : "Logbook_New/gui_logbook_items_photo_example.png",
+									"Name" : "Photo",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "ImageBox",
+									"Type" : "ImageBox",
+									"height" : 256,
+									"width" : 256,
+									"x" : 0,
+									"y" : 0
+								}
+							],
+							"Name" : "FramedPhoto",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "PanelEmpty",
+							"Type" : "Widget",
+							"Visible" : true,
+							"height" : 256,
+							"width" : 256,
+							"x" : 31,
+							"y" : 80
+						},
+						{
+							"Caption" : "",
+							"Childs" : 
+							[
+								{
+									"Caption" : "",
+									"Childs" : [],
+									"FontName" : "SM_HeaderTiny",
+									"Name" : "WaypointVisibilityButton",
+									"NeedKey" : false,
+									"NeedMouse" : true,									
+									"Skin" : "LogbookQuestVisibilityShow",
+									"TextAlign" : "Center",
+									"Type" : "Button",
+									"Visible" : true,
+									"height" : 22,
+									"onClick" : "cl_onClick",
+									"width" : 32,
+									"x" : 20,
+									"y" : 14
+								},
+								{
+									"Caption" : " #{LOGBOOK_SET_WAYPOINT} ",
+									"Childs" : [],
+									"FontName" : "SM_HeaderNarrow",
+									"Name" : "WaypointButtonCaption",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "TextBox",
+									"TextAlign" : "Center",
+									"TextColour" : "0.266667 0.34902 0.0156863 1",
+									"TextShadow" : true,
+									"TextShadowColour" : "1 1 1 0.4",
+									"Type" : "TextBox",
+									"height" : 22,
+									"width" : 200,
+									"x" : 14,
+									"y" : 14
+								},
+								{
+									"Childs" : [],
+									"CropEffect" : false,
+									"Effects" : 
+									[
+										{
+											"EffectName" : "Gui - Logbookpressnavbutton",
+											"Name" : "press",
+											"Offset" : 
+											{
+												"x" : 0,
+												"y" : 0
+											},
+											"PlayState" : "Auto play off"
+										},
+										{
+											"EffectName" : "Gui - Logbooknavbuttonactive",
+											"Name" : "active",
+											"Offset" : 
+											{
+												"x" : 0,
+												"y" : 0
+											},
+											"PlayState" : "Auto play off"
+										}
+									],
+									"Name" : "WaypointEffectBox",
+									"NeedKey" : false,
+									"NeedMouse" : false,
+									"Skin" : "EffectBox",
+									"Type" : "EffectBox",
+									"height" : 50,
+									"width" : 206,
+									"x" : 2,
+									"y" : 1
+								}
+							],
+							"FontName" : "SM_HeaderTiny",
+							"Name" : "SetWaypointButton",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "GarageButtonDone",
+							"TextAlign" : "Center",
+							"Type" : "Button",
+							"height" : 54,
+							"onClick" : "cl_onClick",
+							"width" : 210,
+							"x" : 33,
+							"y" : 441
+						},
+						{
+							"Childs" : 
+							[
+								{
+									"Caption" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt molli.",
+									"Childs" : [],
+									"FontName" : "SM_TextTiny",
+									"HeightFromText" : true,
+									"MultiLine" : false,
+									"Name" : "LogItemDescription",
+									"NeedKey" : false,
+									"NeedMouse" : true,
+									"Skin" : "TextBox",
+									"Static" : true,
+									"TextAlign" : "Top Left",
+									"TextShadow" : true,
+									"TextShadowColour" : "0 0 0 0.2",
+									"Type" : "EditBox",
+									"WordWrap" : true,
+									"height" : 24,
+									"width" : 192,
+									"x" : 0,
+									"y" : 10
+								}
+							],
+							"LayoutRule" : "Vertical",
+							"Name" : "PhotoLogDescriptionScrollView",
+							"NeedKey" : false,
+							"NeedMouse" : true,
+							"Skin" : "LogScrollView",
+							"Type" : "ScrollViewPanel",
+							"height" : 102,
+							"width" : 216,
+							"x" : 35,
+							"y" : 321
+						}
+					],
+					"Name" : "PhotoLogSidePanel",
+					"NeedKey" : false,
+					"NeedMouse" : true,
+					"Skin" : "PanelEmpty",
+					"Type" : "Widget",
+					"Visible" : true,
+					"height" : 533,
+					"width" : 288,
+					"x" : 0,
+					"y" : 0
+				}
+			],
+			"Name" : "SidePanel",
+			"NeedKey" : false,
+			"NeedMouse" : true,
+			"Skin" : "PanelEmpty",
+			"Type" : "Widget",
+			"Visible" : true,
+			"height" : 533,
+			"width" : 288,
+			"x" : 433,
+			"y" : 60
+		}
+	],
+	"Name" : "BackPanel",
+	"NeedKey" : false,
+	"NeedMouse" : true,
+	"Skin" : "PanelEmpty",
+	"Type" : "Widget",
+	"Visible" : true,
+	"height" : 593,
+	"onClose" : "cl_onGuiClosed",
+	"width" : 730,
+	"x" : 10,
+	"y" : 0
+}

@@ -1,0 +1,251 @@
+{
+	"template_meta": {
+		"uuid" : "c86745b8-fcd9-4c83-8592-d85fe2707fe0",
+		"name":"Projectile Set",
+		"display":"projectileset",
+		"preferDualView" : true,
+		"pattern": ["$*/Projectiles/*.json", "*.projectileset"]
+	},
+
+	"projectiles_meta": { "valueAsLabel":"name" },
+	"projectiles": [
+		{
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "ignoreUuidName": true, "autoGenerate":true, "order":1 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"name_meta" : { "order":2 },
+			"name": "Projectile name",
+
+			"amount_meta": { "type": "range", "min": 0, "max": 1000, "optional":true },
+			"amount": 1,
+
+			"mass_meta": { "type": "float" },
+			"mass": 3.0,
+			
+			"radius_meta": { "label" : "Radius*", "type": "float", "min": 0.01, "suffix": " m", "toolTip" : "Radius will be divided by 4 when used." },
+			"radius": 0.25,
+
+			"endRadius_meta": { "label" : "End Radius*", "optional": true, "type": "float", "min": 0.01, "toolTip" : "End radius will be divided by 4 when used." },
+			"endRadius": 0.25,
+
+			"useRadiusAsHeightOffset_meta": { "optional" : true, "type": "bool" },
+			"useRadiusAsHeightOffset": false,
+
+			"radiusGrowthGraph_meta": { "label" : "Radius Growth Graph*", "optional": true, "type": "string", "toolTip" : "Path to a graph for controlling radius growt over projectile life time." },
+			"radiusGrowthGraph": "",
+			
+			"friction_meta": { "type": "float", "min": 0.0, "max": 100.0 },
+			"friction": 0.2,
+			
+			"spin_meta": { "type": "float", "min": 0.0, "max": 100.0,"deprecated" : true  },
+			"spin": 7.0,
+			
+			"spinRevolutionsPerSecond_meta" : { "label" : "Spin Revolutions Per Second*", "type":"vec3","toolTip":"Revolutions per second,rotation is applied in XYZ order" },
+			"spinRevolutionsPerSecond": [0,0,0],
+			"useLegacyDirection_meta" : { "type": "bool" },
+			"useLegacyDirection" : false,
+			"useLegacyOrientation_meta" : { "type": "bool" },
+			"useLegacyOrientation" : false,
+			
+
+			"mesh_meta": { "type": "filepath", "optionsCategory" : "renderable" },
+			"mesh": "",
+
+			"color_meta" : { "label" : "Color*", "type": "hexColor", "optional": true, "toolTip" : "Color tint applied to the projectile mesh." },
+			"color" : "ffffff",
+			
+			"effect_meta": { "label" : "Hit Effect*", "type": "string", "optionsCategory" : "effect", "optionsAllowsCustom" : true, "toolTip" : "Sets projectile effect when hit, reacts to the material set on the projectile itself" },
+			"effect": "",
+
+			"effectAtCenter_meta": { "type": "bool", "optional": true, "toolTip" : "If true, the hit effect will be spawned at the center of the projectile instead of at the collision point." },
+			"effectAtCenter": false,
+
+			"effectmaterial_meta" : { "label" : "Projectile Material*", "optionsCategory" : "toolMaterial", "toolTip" : "The material of the projectile, applies to the hit effect." },
+			"effectmaterial" : "None",
+			
+			"impactEffect_meta": { "label" : "Impact Effect*", "optional": true, "type": "string", "optionsCategory" : "effect", "optionsAllowsCustom" : true, "toolTip" : "Overwrites default impact effect (Projectile - Hit), reacts to the material the projectile has hit" },
+			"impactEffect": "",
+
+			"effectOnLifetimeEnd_meta": { "type": "bool", "optional" : true },
+			"effectOnLifetimeEnd": false,
+
+			"effectsByGrowth_meta": { "label" : "Hit Effect By Growth*", "optional": true, "hideInHierarchyView" : true, "toolTip" : "Override hit effects that can be used when hitting something depending on lifetime. minLifeTime goes between 0 and 1, passing the point in lifetime will enable the effect." },
+			"effectsByGrowth": 
+			[
+				{
+					"effect_meta": { "type": "string", "optionsCategory" : "effect", "optionsAllowsCustom": true },
+					"effect": "",
+
+					"minLifeTime_meta": { "type": "float", "min": 0.0, "max": 1.0 },
+					"minLifeTime": 0.0
+				}
+			],
+
+			"effectIgnoreHitRotation_meta": { "label" : "Effect Ignore Hit Rotation*", "type": "bool", "optional": true, "toolTip" : "Will override the effect on hit depending on projectile life time" },
+			"effectIgnoreHitRotation": false,
+
+			"attachedHitEffect_meta": { "label" : "Attached Hit Effect*", "optional": true, "type": "string", "optionsCategory" : "effect", "optionsAllowsCustom" : true, "toolTip" : "An effect that will be attached to the projectile and triggered when hit." },
+			"attachedHitEffect": "",
+
+			"liquidEffect_meta": { "optional": true, "type": "string", "optionsCategory" : "effect", "optionsAllowsCustom" : true },
+			"liquidEffect": "",
+
+			"destroyAttachedEffectOnHit_meta" : { "label" : "Destroy Attached Effect On Hit*", "type": "bool", "toolTip" : "If true, the attached effect will be destroyed when the projectile hits something." },
+			"destroyAttachedEffectOnHit" : true,
+
+			"attachedEffect_meta": { "label" : "Attached Effect*", "type": "string", "optionsCategory" : "effect", "optionsAllowsCustom" : true, "toolTip" : "An effect that will be attached to the projectile in flight." },
+			"attachedEffect": "",
+
+			"attachedAudioEffect_meta": { "label" : "Attached Audio Effect*", "type": "string", "optionsCategory" : "effect", "optionsAllowsCustom" : true, "optional" : true, "tooltip" : "An audio effect that will be attached to the projectile in flight. It will be started and stopped based on distance to the player." },
+			"attachedAudioEffect": "",
+
+			"enableGravity": true,
+
+			"heightGraph_meta": { "optional": true, "hideInHierarchyView" : true },
+			"heightGraph": {
+				"graph_meta" : { "optional" : false, "type" : "string" },
+				"graph" : "",
+				
+				"distanceScale_meta" : { "optional" : false, "type" : "float" },
+				"distanceScale" : 54,
+
+				"heightScale_meta" : { "optional" : false, "type" : "float" },
+				"heightScale" : 20.8
+			},
+
+			"ignoreCollisionTypes_meta": { "optional": true, "hideInHierarchyView" : true, "toolTip" : "A collision type that this projectile will ignore." },
+			"ignoreCollisionTypes" : {
+				"lift_meta": { "optional": true, "type": "bool" },
+				"lift" : false,
+
+				"joints_meta": { "optional": true, "type": "bool" },
+				"joints" : false,
+
+				"bodies_meta": { "optional": true, "type": "bool" },
+				"bodies" : false,
+
+				"assets_meta": { "optional": true, "type": "bool" },
+				"assets" : false,
+
+				"voxels_meta": { "optional": true, "type": "bool" },
+				"voxels" : false,
+
+				"surface_meta": { "optional": true, "type": "bool" },
+				"surfaces" : false,
+				
+				"characters_meta": { "optional": true, "type": "bool" },
+				"characters" : false,
+
+				"kinematics_meta": { "optional": true, "type": "bool" },
+				"kinematics" : false,
+
+				"areaTriggers_meta": { "optional": true, "type": "bool" },
+				"areaTriggers" : false,
+
+				"harvestables_meta": { "optional": true, "type": "bool" },
+				"harvestables" : false,
+
+				"melee_meta": { "optional": true, "type": "bool" },
+				"melee" : true
+			},
+
+			"spiralData_meta": { "optional": true, "hideInHierarchyView" : true },
+			"spiralData": {
+				"radialGrowth_meta": { "optional": false, "type": "float", "toolTip" : "Controls the rotational growth of the spiral, overrides acceleration unless based on speed." },
+				"radialGrowth" : 0.1,
+
+				"angularVelocity_meta": { "optional": false, "type": "float", "toolTip" : "Controls the rotational speed of the spiral, overrides acceleration." },
+				"angularVelocity": 1.0,
+
+				"growthBasedOnSpeed_meta": { "optional": false, "type": "bool", "toolTip" : "Uses projectile speed instead of time if true. This will increase growth of spiral proportional to projectile speed." },
+				"growthBasedOnSpeed": false
+			},
+
+			"bounce_meta": { "optional": true, "hideInHierarchyView" : true },
+			"bounce": 
+			{
+				"bounceEffect_meta": { "optional": false, "type": "string" },
+				"bounceEffect": "",
+
+				"hitOnBounce_meta": { "optional": false, "type": "bool" },
+				"hitOnBounce": false,
+
+				"maxAllowedBounces_meta": { "optional": false, "type": "int" },
+				"maxAllowedBounces": 1,
+
+				"maxDeathVelocity_meta": { "optional": false, "type": "float" },
+				"maxDeathVelocity": 30.0,
+
+				"minDeathVelocity_meta": { "optional": false, "type": "float" },
+				"minDeathVelocity": 4.5,
+
+				"restitution_meta": { "optional": false, "type": "float", "min": 0.1 },
+				"restitution": 0.5,
+
+				"useForcedNormal_meta": { "optional": true, "type": "bool" },
+				"useForcedNormal": false,
+
+				"forcedHitNormal_meta": { "optional": true, "type": "vec3", "available": { "useForcedNormal": true }, "toolTip" : "A forced reflection normal for the bounce. Will override the normal of the actual hit to force bounce direction." },
+				"forcedHitNormal": [ 0.0, 0.0, 0.0 ],
+
+				"forcedNormalDotThreshold_meta": { "optional": true, "type": "float", "min": -1.0, "max": 1.0, "available": { "useForcedNormal": true }, "toolTip" : "The limit of how different the directions of actual hit normal and forced normal can be for forced normal to be used. Defaults to 0.0 if not added" },
+				"forcedNormalDotThreshold": 0.45
+			},
+
+			"ignoreDirectionalRotation_meta" : { "type": "bool" },
+			"ignoreDirectionalRotation" : false,
+			
+			"ignoreInitialCollisions_meta" : { "type": "bool" },
+			"ignoreInitialCollisions" : false,
+			
+			"useLegacyAttachedEffect_meta" : { "type": "bool" },
+			"useLegacyAttachedEffect" : false,
+			
+			"hitOnTimeout_meta" : { "type": "bool" },
+			"hitOnTimeout" : false,
+
+			"audiomass_meta": { "type": "float", "min": 0.0, "max": 1000.0, "suffix": " kg" },
+			"audiomass": 250.0,
+
+			"ammo_meta": { "optional" : true, "hideInHierarchyView" : true },
+			"ammo": 
+			{
+				"uuid_meta" : { "type": "uuid", "filter": ["part"] }, 
+				"uuid": "bfcfac34-db0f-42d6-bd0c-74a7a5c95e82",
+				
+				"cost_meta": { "type": "uint", "min": 0, "max": 100  },
+				"cost": 1
+			},
+
+			"destruction_meta" : { "hideInHierarchyView" : true },
+			"destruction":
+			{
+				"destructionLevels":
+				[
+					{
+						"qualityLevel_meta": { "type": "uint", "min": 1, "max": 10, "suffix": " lvl"  },
+						"qualityLevel": 1,
+						
+						"chance_meta": { "type": "range", "min": 0.0, "max": 1.0, "suffix": " %", "dragPrecision":3, "deprecated" : true, "optional" : true, "toolTip" : "Use 'damage' instead" },
+						"chance": 1.0,
+						
+						"damage_meta": { "type": "range", "min": 0.0, "max": 100.0, "suffix": " %", "dragPrecision":3 },
+						"damage": 100.0
+					}
+				]
+			},
+			
+			"enableImpactEffect_meta": { "label" : "Enable Impact Effect*", "optional": true, "type":"bool", "toolTip" : "Enables impactEffect" },
+			"enableImpactEffect": true,
+
+			"useLifetimeAsEffectMultiplier_meta": { "optional": true,"type": "bool" },
+			"useLifetimeAsEffectMultiplier": false,
+
+			"maxSpeed_meta": { "optional": true, "type": "float", "min": 0.0 },
+			"maxSpeed": 1.0,
+
+			"liquidMask_meta": { "label" : "Liquid Mask*", "optional": true, "options" : ["above", "below"], "toolTip" : "A mask for liquid behavior. Above = projectile death on liquid hit. Below = projectile death on exiting liquids." },
+			"liquidMask" : "above"
+		}
+	]
+}

@@ -1,0 +1,37 @@
+{
+	"template_meta": { 
+		"uuid" : "0e1dd45a-15d9-49a3-9123-74014161a30e",
+		"name" : "Metal Profiles", 
+		"display" : "metal Profiles", 
+		"pattern" : "*.metalprofiles"
+	},
+
+	"profiles_meta": { "type":"map", "maxSize":32 }, 
+	"profiles" : {
+		"metal" : {
+			"anisotropicAngle_meta" : { "type":"float", "min":0.0, "max":180.0, "suffix" : "°", "order":0 },
+			"anisotropicAngle" : 0.0,
+
+			"anisotropy_meta" : { "type":"vec2", "min":0.0, "max":1.0, "order":0 },
+			"anisotropy" : [ 1.0 , 0.5 ],
+
+			"specularColor_meta" : { "type":"hexColor", "order":1 },
+			"specularColor" : "FFFFFFFF",
+
+			"specularColorBlend_meta" : { "type":"float", "min":0.0, "max":1.0, "order":1 },
+			"specularColorBlend" : 0.0,
+
+			"shininess_meta" : { "type":"float", "min":0.0, "max":4.0, "order":2 },
+			"shininess" : 0.5,
+
+			"diffuseCompensation_meta" : { "type":"float", "min":0.0, "max":1.0, "order":3 },
+			"diffuseCompensation" : 0.5,
+
+			"glossRange_meta" : { "label":"Gloss Range*", "type":"vec2", "min":0.0, "max":1.0, "order":4, "toolTip" : "Requires PS_METAL_REMAP_GLOSS_REFLECT" },
+			"glossRange" : [0.0,1.0],
+
+			"reflectRange_meta" : { "label":"Reflect Range*", "type":"vec2", "min":0.0, "max":1.0, "order":5, "toolTip" : "Requires PS_METAL_REMAP_GLOSS_REFLECT" },
+			"reflectRange" : [0.0,1.0]
+		} 
+	}
+}

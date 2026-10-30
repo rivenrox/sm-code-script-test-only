@@ -1,0 +1,231 @@
+{
+	"template_meta": { 
+		"uuid" : "0a8f5e34-a346-477a-a4ac-2637f93163a3",
+		"name":"Frame Render Settings", 
+		"display": "frame_render_settings", 
+		"pattern": [ "$*/Render/Settings/*.json", ".rendersettings"] 
+	},
+	
+	"settings":
+	{
+		"camera_light" :
+		{
+			"override_meta": { "order":0 },
+			"override": false,
+			
+			"range_meta": { "type":"float", "min": 1.0, "max" : 2000.0 },
+			"range": 200.0,
+			
+			"intensity_meta": { "type":"float", "min": 0.0, "max" : 10.0 },
+			"intensity": 0.15,
+
+			"color_meta" : { "order":2, "type":"color" },
+			"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+			"color_mul_meta": { "type":"float", "order":2, "min": 0.0, "max" : 10.0 },
+			"color_mul": 1.0,
+
+			"far":
+			{
+				"enable_meta": { "order":0 },
+				"enable": false,
+
+				"range_meta": { "type":"float", "min": 1.0, "max" : 2000.0 },
+				"range": 200.0,
+
+				"intensity_meta": { "type":"float", "min": 0.0, "max" : 10.0 },
+				"intensity": 0.15,
+
+				"color_meta" : { "order":2, "type":"color" },
+				"color" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"color_mul_meta": { "type":"float", "order":2, "min": 0.0, "max" : 10.0 },
+				"color_mul": 1.0
+			}
+		},
+		"fog" :
+		{
+			"override_meta": { "order":0 },
+			"override": false,
+
+			"selective_override_meta": { "order":1, "optional": true },
+			"selective_override": {
+				"falloff" : true,
+				"start" : true,
+				"start_color" : true,
+				"end" : true,
+				"end_color" : true,
+				"fade_distance" : true
+			},
+			
+			"falloff_meta" : { "type":"float", "order":1, "min": 0.001, "max": 10.0 },
+			"falloff" : 2.0,
+			
+			"start_meta": { "type":"float", "order":2, "min": 0.0, "max": 2000.0 },
+			"start" : 100.0,
+			"start_color_meta" : { "order":2, "type":"color" },
+			"start_color" : [ 0.0, 0.0, 0.0, 0.0 ],
+			"start_mul_meta": { "type":"float", "order":2, "min": 0.0, "max" : 10.0 },
+			"start_mul": 1.0,
+			
+			"end_meta": { "type":"float", "order":3, "min": 0.0, "max" : 2000.0 },
+			"end" : 2000.0,
+			"end_color_meta" : { "order":3, "type":"color" },
+			"end_color": [ 0.0, 0.0, 0.0, 1.0 ],
+			"end_mul_meta": { "type":"float", "order":3, "min": 0.0, "max" : 10.0 },
+			"end_mul": 1.0,
+			"fade_distance_meta": { "type":"float", "order":4, "min": 0.0, "max" : 2000.0 },
+			"fade_distance" : 0.0,
+
+			"vertical_fog":
+			{
+				"selective_override_meta": { "order":1, "optional": true },
+				"selective_override": {
+					"opacity" : true,
+					"falloff" : true,
+					"fade_distance" : true,
+					"start" : true,
+					"start_color" : true,
+					"end" : true,
+					"end_color" : true
+				},
+
+				"opacity_meta": { "type":"float", "order":0, "min": 0.0, "max": 1.0 },
+				"opacity": 0.0,
+				
+				"falloff_meta" : { "type":"float", "order":1, "min": 0.001, "max": 10.0 },
+				"falloff" : 2.0,
+
+				"fade_distance_meta" : { "type":"float", "order":2, "min": 0.001, "max": 2000.0 },
+				"fade_distance" : 50.0,
+				
+				"start_meta": { "type":"float", "order":3, "min": -1000.0, "max" : 1000.0 },
+				"start" : 0.0,
+				"start_color_meta" : { "order":3, "type":"color" },	
+				"start_color" : [ 1.0, 1.0, 1.0, 1.0 ],
+				"start_mul_meta": { "type":"float", "order":3, "min": 0.0, "max" : 10.0 },
+				"start_mul": 1.0,
+	
+				"end_meta": { "type":"float", "order":4, "min": -1000.0, "max" : 1000.0 },
+				"end" : 10.0,
+				"end_color_meta" : { "order":4, "type":"color" },
+				"end_color": [ 0.0, 0.0, 0.0, 0.0 ],
+				"end_mul_meta": { "type":"float", "order":4, "min": 0.0, "max" : 10.0 },
+				"end_mul": 1.0
+			}
+		},
+		"GI_meta": { "deprecated": true },
+		"GI" :{},
+		"LUT" :
+		{
+			"override_meta": { "order":0 },
+			"override": false,
+			"LUT_meta": { "optionsCategory":"LUT" },
+			"LUT": "Default"
+		},
+		"horizon_light" :
+		{
+			"enable_meta": { "order":0 },
+			"enable": false,
+			
+			"top_color_meta" : { "order":1, "type":"color" },	
+			"top_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+			"top_intensity_meta": { "type":"float", "order":2, "min": 0.0, "max" : 10.0 },
+			"top_intensity": 1.0,
+			
+			"middle_color_meta" : { "order":3, "type":"color" },	
+			"middle_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+			"middle_intensity_meta": { "type":"float", "order":4, "min": 0.0, "max" : 10.0 },
+			"middle_intensity": 1.0,
+			
+			"bottom_color_meta" : { "order":5, "type":"color" },	
+			"bottom_color" : [ 0.0, 0.0, 0.0, 1.0 ],
+			"bottom_intensity_meta": { "type":"float", "order":6, "min": 0.0, "max" : 10.0 },
+			"bottom_intensity": 1.0,
+			
+			"direction_meta" : { "order":7, "type":"vec3" },	
+			"direction" : [ 0.0, 0.0, -1.0 ],
+
+			"start_meta": { "type":"float", "order":8, "min": 0.0, "max" : 2000.0 },
+			"start": 1000.0,
+			"end_meta": { "type":"float", "order":9, "min": 0.0, "max" : 2000.0 },
+			"end": 2000.0,
+			"falloff_meta" : { "type":"float", "order":10, "min": 0.001, "max": 10.0 },
+			"falloff" : 2.0
+		},
+		"reflection_color" :
+		{
+			"override_meta": { "order":0 },
+			"override": false,
+			"reflection_off_meta" : { "order":0 },
+			"reflection_off" :
+			{
+				"min_meta": { "min": 0.0, "max" : 2.0 },
+				"min": 1.15,
+				"max_meta": { "min": 0.0, "max" : 2.0 },
+				"max": 1.25,
+				"mul_meta": { "min": 0.0, "max" : 2.0 },
+				"mul": 1.38
+			},
+			"reflection_low_meta" : { "order":1 },
+			"reflection_low" :
+			{
+				"min_meta": { "min": 0.0, "max" : 2.0 },
+				"min": 1.12,
+				"max_meta": { "min": 0.0, "max" : 2.0 },
+				"max": 1.52,
+				"mul_meta": { "min": 0.0, "max" : 2.0 },
+				"mul": 1.13
+			},
+			"reflection_medium_meta" : { "order":2 },
+			"reflection_medium" :
+			{
+				"min_meta": { "min": 0.0, "max" : 2.0 },
+				"min": 1.12,
+				"max_meta": { "min": 0.0, "max" : 2.0 },
+				"max": 1.52,
+				"mul_meta": { "min": 0.0, "max" : 2.0 },
+				"mul": 1.13
+			},
+			"reflection_high_meta" : { "order":3 },
+			"reflection_high" :
+			{
+				"min_meta": { "min": 0.0, "max" : 2.0 },
+				"min": 1.02,
+				"max_meta": { "min": 0.0, "max" : 2.0 },
+				"max": 1.17,
+				"mul_meta": { "min": 0.0, "max" : 2.0 },
+				"mul": 1.191
+			}
+		},
+		"volumetric_fog" : 
+		{
+			"override_meta": { "order":0 },
+			"override": false,
+
+			"min_meta": { "order":1, "min": 0.0, "max" : 1.0, "type": "float" },
+			"min": 0.4,
+			
+			"max_meta": { "order":2, "min": 0.0, "max" : 1.0, "type": "float" },
+			"max": 1.0,
+
+			"loop_speed_meta": { "order":3, "min": 0.0, "max" : 4.0, "type": "float" },
+			"loop_speed": 0.05,
+
+			"scale_meta" : { "order":4, "type":"vec3" },	
+			"scale" : [ 0.15, 0.15, 0.15 ],
+
+			"scroll_speed_meta" : { "order":5, "type":"vec3" },	
+			"scroll_speed" : [ 0.1, 0.1, 0.1 ],
+
+			"intensity_meta": { "order":6, "min": 0.0, "max" : 5, "type": "float" },
+			"intensity": 1.0
+		},
+		"voxel_lod_boost" :
+		{
+			"override_meta": { "order":0 },
+			"override": false,
+
+			"boost_meta": { "order":1, "min": 1.0, "max" : 3.0, "type": "float" },
+			"boost": 1.0
+		}
+	}
+}

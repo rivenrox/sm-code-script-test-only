@@ -1,0 +1,262 @@
+{
+    "system": {
+        "emitters": [
+            {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.7030999999999999
+                ],
+                "color_fraction": 1.0,
+                "default_particle": [
+                    0.250,
+                    0.250
+                ],
+                "depth": [
+                    3.0,
+                    6.0,
+                    4.50,
+                    1.50
+                ],
+                "diffuse": "$GAME_DATA/Particles/Textures/Smoke/smoke_animated01_nor.tga",
+                "direction_type": "constant",
+                "duration": 0.349990,
+                "effects": [
+                    {
+                        "animation": "sheet",
+                        "end_texture_coords_range": 32,
+                        "fps": 30,
+                        "guid": 1,
+                        "name": "TextureAnimator"
+                    },
+                    {
+                        "control_point": [
+                            [
+                                0.0,
+                                [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            ],
+                            [
+                                0.050,
+                                [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            ],
+                            [
+                                1.0,
+                                [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            ]
+                        ],
+                        "guid": 2,
+                        "name": "Color"
+                    }
+                ],
+                "emission_rate": 60,
+                "guid": 0,
+                "height": [
+                    3.50,
+                    5.50,
+                    4.50,
+                    1.0
+                ],
+                "max_particles": 1,
+                "name": "Smoke Background",
+                "normal": true,
+                "normal_range": 0.750,
+                "params": 2,
+                "rotation": [
+                    -180.0,
+                    180.0,
+                    0.0,
+                    180.0
+                ],
+                "rotation_axis": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "rotation_speed": [
+                    -0.200010,
+                    0.20,
+                    0.0,
+                    0.20
+                ],
+                "scene_blend": "alpha_blend",
+                "soft_particles_bias": 5024,
+                "tiles": [
+                    4,
+                    8
+                ],
+                "time_to_live": [
+                    0.40,
+                    0.60,
+                    0.50,
+                    0.10
+                ],
+                "velocity": 0.0,
+                "width": [
+                    3.50,
+                    5.50,
+                    4.50,
+                    1.0
+                ],
+                "z_offset": 300.0
+            },
+            {
+                "angle": 180.0,
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.535130
+                ],
+                "color_fraction": 1.0,
+                "default_particle": [
+                    0.250,
+                    0.250
+                ],
+                "depth": [
+                    3.0,
+                    6.0,
+                    4.50,
+                    1.50
+                ],
+                "diffuse": "$GAME_DATA/Particles/Textures/Smoke/smoke_clouds04_nor.tga",
+                "direction_type": "constant",
+                "duration": 0.10,
+                "effects": [
+                    {
+                        "animation": "sheet",
+                        "end_texture_coords_range": 90,
+                        "fps": 30,
+                        "guid": 4,
+                        "name": "TextureAnimator",
+                        "start_texture_coords_range": 16
+                    },
+                    {
+                        "control_point": [
+                            [
+                                0.0,
+                                [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            ],
+                            [
+                                0.177450,
+                                [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    1.0
+                                ]
+                            ],
+                            [
+                                1.0,
+                                [
+                                    1.0,
+                                    1.0,
+                                    1.0,
+                                    0.0
+                                ]
+                            ]
+                        ],
+                        "guid": 5,
+                        "name": "Color"
+                    },
+                    {
+                        "control_point": [
+                            [
+                                0.0,
+                                0.171360
+                            ],
+                            [
+                                0.176550,
+                                0.6207600000000001
+                            ],
+                            [
+                                0.314880,
+                                0.7792000000000001
+                            ],
+                            [
+                                0.50,
+                                0.8753200000000001
+                            ],
+                            [
+                                1.0,
+                                1.0
+                            ]
+                        ],
+                        "guid": 6,
+                        "max_scale": 1.0,
+                        "name": "Scale"
+                    }
+                ],
+                "emission_rate": 60,
+                "friction": 1.0,
+                "guid": 3,
+                "height": [
+                    2.50,
+                    6.50,
+                    4.50,
+                    2.0
+                ],
+                "max_particles": 3,
+                "name": "Smoke Primary",
+                "normal": true,
+                "normal_range": 0.750,
+                "params": 2,
+                "rotation": [
+                    -180.0,
+                    180.0,
+                    0.0,
+                    180.0
+                ],
+                "rotation_axis": [
+                    1.0,
+                    0.0,
+                    0.0
+                ],
+                "scene_blend": "alpha_blend",
+                "soft_particles_bias": 5023,
+                "sort_offset": 1.0,
+                "sphere_radius": 0.20,
+                "tiles": [
+                    10,
+                    10
+                ],
+                "time_to_live": [
+                    0.449990,
+                    1.049990,
+                    0.750,
+                    0.30
+                ],
+                "type": "sphere",
+                "velocity": 0.50,
+                "width": [
+                    2.50,
+                    6.50,
+                    4.50,
+                    2.0
+                ],
+                "z_offset": 300.0
+            }
+        ],
+        "min_quality": "low"
+    }
+}

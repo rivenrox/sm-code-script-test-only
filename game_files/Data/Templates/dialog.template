@@ -1,0 +1,65 @@
+{
+	"template_meta": { 
+        "uuid" : "6e8ef989-a33b-4e5b-b228-f088f03abaa0",
+		"name":"Dialog File", 
+		"display": "dialog", 
+		"pattern": ["$*/Dialog/*.json", "*.dialog"]
+	},
+
+    "list" :
+    [
+        {
+            
+            "uuid_meta" : { "type" : "uuid" },
+            "uuid" : "00000000-0000-0000-0000-000000000000",
+
+            "title_meta" : { "type" : "string" },
+            "title": "Title",
+
+            "speaker_meta" : { "type" : "string", "optional" : true, "tooltip" : "This is the default speaker for this dialog." },
+            "speaker" : "#{DIALOG_NAME_HUBERT}",
+
+            "hideInLogbook_meta": { "type" : "bool", "optional" : true, "tooltip" : "Hides this entire dialog from the logbook's dialogue feed." },
+            "hideInLogbook" : false,
+
+            "entries": 
+            [
+                {
+                    "name_meta" : { "type" : "string" },
+                    "name" : "FirstEncounter", 
+
+                    "speaker_meta" : { "type" : "string", "optional" : true, "tooltip" : "This is the speaker for this dialog entry, overriding the default for the dialog." },
+                    "speaker" : "#{DIALOG_NAME_HUBERT}",
+                    
+                    "hideInLogbook_meta": { "type" : "bool", "optional" : true, "tooltip" : "Hides this individual entry from the logbook's dialogue feed." },
+                    "hideInLogbook" : false,
+                    
+                    "audio_meta": { "optional" : true, "type" : "string", "optionsCategory": "effect", "optionsAllowsCustom": false },
+                    "audio" : "Dialog - Npc",
+
+                    "lines" : [
+                        {
+                            "sound_meta": { "type" : "string", "optional" : true, "available" : { "../../audio" : [ "*" ] }, "optionsCategory" : "audioKeys" },
+                            "sound" : "farmer_q1_03_17", 
+
+                            "duration_meta" : { "type" : "float", "unavailable": { "sound" : ["*"] } },
+                            "duration" : 4.0,
+
+                            "text_meta" : { "type" : "string" },
+                            "text": "Hey!",
+
+                            "breakLine_meta" : { "type" : "bool", "optional" : true },
+                            "breakLine" : false,
+
+                            "callback_meta" : { "type" : "string", "optional" : true },
+                            "callback" : "cl_e_onDialogFinished",
+
+                            "animation_meta" : { "type" : "string", "optional" : true },
+                            "animation" : ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

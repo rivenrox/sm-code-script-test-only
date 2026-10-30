@@ -1,0 +1,293 @@
+{
+	"nodeList" : 
+	[
+		// The first tag in "tags" is considered the primary tag and should be unique
+		{
+			"billboardColor" : 
+			[
+				1.0,
+				1.0,
+				1.0,
+				1.0
+			],
+			"color" : 
+			[
+				0.7,
+				0.7,
+				0.7,
+				0.6
+			],
+			"initScale" : 1.0,
+			"initYUp" : false,
+			"name" : "Effect",
+			"optionalParams" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				},
+				{
+					"name" : "eventName",
+					"type" : "string"
+				}
+			],
+			"params" : 
+			[
+				{
+					"default" : 
+					{
+						"name" : "Fire - small01"
+					},
+					"name" : "effect",
+					"type" : "effect"
+				}
+			],
+			"tags" : 
+			[
+				"EFFECT"
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				0.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"color" : 
+			[
+				0.2,
+				0.7,
+				0.9,
+				0.6
+			],
+			"name" : "Water",
+			"tags" : 
+			[
+				"WATER"
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				0.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"color" : 
+			[
+				0.0,
+				0.9,
+				0.9,
+				0.2
+			],
+			"name" : "Ambience",
+			"tags" : 
+			[
+				"AMBIENCE_OVERRIDE"
+			],
+			"optionalParams" : 
+			[
+				{
+					"name" : "ts_flag",
+					"type" : "string"
+				},
+				{
+					"name" : "exit_effect",
+					"type" : "string"
+				}
+				
+			],
+			"params" : 
+			[
+				{
+					"default" : 
+					{
+						"name" : "Topdepartment - Ambience",
+						"autoPlay" : false
+					},
+					"name" : "effect",
+					"type" : "effect"
+				}
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				0.0,
+				0.0,
+				1.0,
+				1.0
+			],
+			"color" : 
+			[
+				0.9,
+				0.0,
+				0.9,
+				0.2
+			],
+			"name" : "GlobalAudioParameter",
+			"tags" : 
+			[
+				"GLOBAL_AUDIO_PARAMETER"
+			],
+			"params" : 
+			[
+				{
+					"name" : "parameterName",
+					"type" : "string",
+					"default" : "music"
+				},
+				{
+					"name" : "value",
+					"type" : "float"
+				}
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				1.0,
+				0.0,
+				0.5,
+				1.0
+			],
+			"color" : 
+			[
+				0.871,
+				0.09,
+				0.573,
+				0.6
+			],
+			"name" : "Chemicals",
+			"tags" : 
+			[
+				"CHEMICALS"
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				0.05,
+				0.05,
+				0.05,
+				1.0
+			],
+			"color" : 
+			[
+				0.05,
+				0.05,
+				0.05,
+				0.6
+			],
+			"name" : "Oil",
+			"tags" : 
+			[
+				"OIL"
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				1.0,
+				0.15,
+				0.0,
+				1.0
+			],
+			"color" : 
+			[
+				0.85,
+				0.12,
+				0.03,
+				0.6
+			],
+			"name" : "Lava",
+			"tags" : 
+			[
+				"LAVA"
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				0.05,
+				0.05,
+				0.05,
+				1.0
+			],
+			"color" : 
+			[
+				0.1,
+				0.1,
+				0.1,
+				0.6
+			],
+			"visualization_behind" : true,
+			"name" : "Occluder",
+			"tags" : 
+			[
+				"OCCLUDER"
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				0.0,
+				0.8,
+				0.0,
+				1.0
+			],
+			"color" : 
+			[
+				0.0,
+				1.0,
+				0.0,
+				0.6
+			],
+			"name" : "Waypoint",
+			"optionalParams" : 
+			[
+				{
+					"name" : "name",
+					"type" : "string"
+				}
+			],
+			"params" : 
+			[
+				{
+					"name" : "connections",
+					"type" : "connections"
+				}
+			],
+			"renderable" : "$GAME_DATA/Nodes/Renderable/node_cylinder.rend",
+			"scaleFlags" : "ScaleXZ",
+			"tags" : 
+			[
+				"WAYPOINT"
+			]
+		},
+		{
+			"billboardColor" : 
+			[
+				0.5,
+				0.0,
+				1.0,
+				1.0
+			],
+			"initScale" : 20.0,
+			"moveByGrid" : true,
+			"initYUp" : false,
+			"name" : "Reflection",
+			"renderable" : "$GAME_DATA/Nodes/Renderable/node_reflection.rend",
+			"scale" : 0.25,
+			"tags" : 
+			[
+				"REFLECTION"
+			],
+			"useUnitBounds" : true,
+			"visualization" : false
+		}
+	]
+}

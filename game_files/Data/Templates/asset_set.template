@@ -1,0 +1,76 @@
+{
+	"template_meta": {
+		"uuid" : "eb2f0a62-4d02-4e1f-8946-080202a94234",
+		"name":"Asset Set",
+		"display": "assetset",
+		"pattern": ["$*/Database/AssetSets/*.json", "*.assetset"]
+	},
+
+	"assetListRenderable_meta" : { "valueAsLabel":"name" },
+	"assetListRenderable": [
+		{
+			"hidden_meta" : { "optional":true, "deprecated" : true, "order":0, "toolTip":"use showInEditor." },
+			"hidden": true,
+
+			"showInEditor_meta" : { "optional":true, "order":0 },
+			"showInEditor": true,
+
+			"name_meta" : { "order":1 },
+			"name": "asset name",
+
+			"uuid_meta" : { "type":"uuid", "actions":["Generate New UUID"], "autoGenerate":true, "ignoreUuidName": true, "order":2 },
+			"uuid": "00000000-0000-0000-0000-000000000000",
+
+			"renderable_meta": { "type" : "renderable", "optional" : true, "order":3, "ignoreWrongTypeError": true, "optionsCategory" : "renderable", "subTemplate" :"$GAME_DATA/Templates/renderable.template" },
+			"renderable": "",
+
+			"col_meta" : { "optional":true, "type":"filepath", "label":"Collision Mesh", "icon":"$GAME_DATA/Gui/Editor/ed_icon_collisionmesh.png", "order":5, "optionsCategory" : "mesh" },
+			"col": "",
+
+			"lodColliders_meta" : { "optional" : true, "type" : "array", "label" : "LOD Colliders", "icon":"$GAME_DATA/Gui/Editor/ed_icon_collisionmesh.png", "order" : 4 },
+			"lodColliders": [
+				{
+					"path_meta" : { "type" : "filepath", "label" : "Collision Mesh", "icon" : "$GAME_DATA/Gui/Editor/ed_icon_collisionmesh.png", "optionsCategory" : "mesh" },
+					"path": "",
+
+					"minScale_meta": { "type" : "float", "min" : 0.0, "max" : 1000.0 },
+					"minScale": 1.0
+				}
+			],
+
+			"physics_meta" : { "icon":"$GAME_DATA/Gui/Editor/ed_icon_physics.png", "background":false, "optional":true },
+			"physics":
+			{
+				"mass_meta": { "type":"double", "min":1.0, "max":100000.0, "suffix":" kg", "dragPrecision":1 },
+				"mass": 1000.0,
+
+				"material_meta": { "optionsCategory":"physicsMaterial" },
+				"material": "Default",
+				
+				"impactEffect_meta": { "label" : "Override Impact Effect", "optionsCategory" : "effect", "optional" : true },
+				"impactEffect" : ""
+			},
+
+			"slope_meta" : { "optional":true, "options":[ "skew", "rotate" ] },
+			"slope": "skew",
+
+			"defaultColors_meta" : {
+				"label":"Color IDs",
+				"type": "map",
+				"optional":true,
+				"value_meta":{ "type":"hexColor" },
+				"presets" : {
+					"Multi Color" : ["ffffffff", "ffffffff"],
+					"Concrete" : ["ff00ffff", "ff11ffff"]
+				},
+				"color":"#282d35",
+				"icon":"$GAME_DATA/Gui/Editor/ed_icon_colorid.png"
+			},
+			"defaultColors":
+			{
+				"color": "ffffffff"
+			}
+		}
+	]
+
+}

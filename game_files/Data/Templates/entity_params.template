@@ -1,0 +1,75 @@
+{
+    "type_meta": {
+    "order": 0,
+    "options" : [
+        "string",
+        "float",
+        "connection",
+        "effect",
+        "track",
+        "patrol",
+        "waypointTrack",
+        "jsonTemplate",
+        "bool"
+    ] },
+    "type": "string",
+
+    "name_meta" : { "type" : "string", "optional": true, "available" : { "type" : ["Effect"] } },
+    "name" : "",
+
+    "descName_meta" : { "type" : "string", "optional": true, "available" : { "type" : ["Effect"] } },
+    "descName" : "",
+
+    "string_meta" : { "type" : "string", "optional": true, "available" : { "type" : ["String"] } },
+    "string" : "",
+
+    "float_meta" : { "type" : "float", "optional": true, "available" : { "type" : ["Float"] } },
+    "float" : 0.0,
+    
+    "bool_meta" : { "type" : "bool", "optional": true, "available" : { "type" : ["Bool"] } },
+    "bool" : false,
+
+    "params_meta" : { "optional" : true, "available" : { "type" : ["Effect"] } },
+    "params" : {
+        "type_meta" : { 
+        "type" : "string", 
+        "optional": true, 
+        "options" : [
+        "float",
+        "vec2",
+        "vec3",
+        "vec4",
+        "uvec4",
+        "bool",
+        "color",
+        "longString",
+        "shortString"
+        ] },
+        "type" : "float",
+        "name_meta" : { "type" : "string", "optional": true },
+        "name" : "",
+        "value_meta" : { "optional": true },
+        "value" : 0
+    },
+
+    "jsonRoot_meta" : { "optional" : true, "available" : { "type" : ["Track", "Patrol", "WaypointTrack", "JsonTemplate"] } },
+    "jsonRoot" : {},
+
+    "templateUuid_meta" : { "type" : "uuid", "optional" : true, "available" : { "type" : ["Track", "Patrol", "WaypointTrack", "JsonTemplate"] } },
+    "templateUuid" : "00000000-0000-0000-0000-000000000000",
+
+    "cell_meta" : { "type" : "vec2", "optional" : true, "available" : { "type" : ["Connection"] } },
+    "cell" : [0, 0],
+
+    "actions_meta" : { "type" : "array", "optional" : true, "available" : { "type" : ["Connection"] }, "value_meta" : { "type" : "uint" } },
+    "actions" : [],
+
+    "conditions_meta" : { "type" : "array", "optional" : true, "available" : { "type" : ["Connection"] } },
+    "conditions" : [],
+
+    "id_meta" : { "type" : "uint", "optional" : true, "available" : { "type" : ["Connection"] } },
+    "id" : 0,
+
+    "otherIds_meta" : { "optional" : true, "available" : { "type" : ["Connection"] } },
+    "otherIds" : []
+}

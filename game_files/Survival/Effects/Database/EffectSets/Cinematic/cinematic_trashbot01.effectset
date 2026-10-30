@@ -1,0 +1,747 @@
+{
+	"cinematic - trashbot_despawn" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 80.0,
+						"duration" : 2.0,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-11.502150536,
+							0.227035999
+						],
+						"rotation" : 
+						[
+							23.199462891,
+							0.000004,
+							-0.000001
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 1.3,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-8.186691284,
+							1.96153295
+						],
+						"rotation" : 
+						[
+							17.62578392,
+							0.000002,
+							0.0
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 0.5,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-6.463317871,
+							2.005325079
+						],
+						"rotation" : 
+						[
+							15.394662857,
+							0.000002,
+							-0.0
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 0.7,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-0.000008,
+							-7.492095947,
+							0.857833982
+						],
+						"rotation" : 
+						[
+							-0.01939,
+							0.000001,
+							-0.0
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 1.6,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-0.000008,
+							-7.492095947,
+							0.857819021
+						],
+						"rotation" : 
+						[
+							3.976283073,
+							0.000002,
+							-0.0
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 2.0,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.000008,
+							-7.489044189,
+							0.831557989
+						],
+						"rotation" : 
+						[
+							10.858110428,
+							0.000003,
+							0.000001
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 2.0,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.000015,
+							-7.888535023,
+							0.977890015
+						],
+						"rotation" : 
+						[
+							5.767346859,
+							-0.000002,
+							0.000001
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 3.7,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.000015,
+							-7.550186157,
+							0.977890015
+						],
+						"rotation" : 
+						[
+							12.874847412,
+							-0.000002,
+							0.000001
+						]
+					},
+					{
+						"FOV" : 90.0,
+						"duration" : 0.0,
+						"easing" : "easeInQuad",
+						"jumpCut" : false,
+						"overrideFOV" : false,
+						"position" : 
+						[
+							0.0,
+							-7.881713867,
+							0.908554018
+						],
+						"rotation" : 
+						[
+							0.340140998,
+							-0.0,
+							-0.0
+						]
+					}
+				],
+				"hasBlendIn" : false,
+				"hasBlendOut" : true,
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "sv_e_spawnEnemies",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_clear_warehouse.spawn_lorenzo"
+				},
+				"delay" : 4.5,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"duration" : 4.0,
+				"shakeAmplitude" : 
+				[
+					1.0,
+					0.5,
+					1.5
+				],
+				"shakeFalloffDuration" : 3,
+				"shakeFalloffEasing" : "easeInOutCirc",
+				"shakeFrequency" : 
+				[
+					25.0,
+					5.0,
+					25.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.075,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 3.400000095,
+				"duration" : 1.5,
+				"shakeAmplitude" : 
+				[
+					0.5,
+					0.200000003,
+					1.5
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					20.0,
+					5.0,
+					25.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.08,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 4.400000095,
+				"duration" : 1.600000024,
+				"shakeAmplitude" : 
+				[
+					0.100000001,
+					0.100000001,
+					0.100000001
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "linear",
+				"shakeFrequency" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.01,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 5.900000095,
+				"duration" : 4.800000191,
+				"shakeAmplitude" : 
+				[
+					0.400000006,
+					0.100000001,
+					0.699999988
+				],
+				"shakeFalloffDuration" : 3,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					25.0,
+					10.0,
+					25.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.02,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 4.0,
+				"effects" : "Trashbot - Goopile",
+				"offset" : 
+				[
+					-0.072059996,
+					-3.246963978,
+					-0.595200002
+				],
+				"rotation" : 
+				[
+					-0.0,
+					-0.0,
+					0.0
+				],
+				"type" : "secondaryEffect"
+			},
+			{
+				"delay" : 10.0,
+				"offset" : 
+				[
+					0.033011999,
+					56.250091553,
+					23.499771118
+				],
+				"particles" : 
+				[
+					"p_cinematiceffects_trashbot_exit_powerladder_destruct"
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"cinematic - trashbot_lorenzo_voice" : 
+	{
+		"effectList" : 
+		[
+			{
+				"audio" : 
+				[
+					"event:/vo/npc"
+				],
+				"audioKey" : "lorenzo_q07_04_02",
+				"type" : "audio"
+			}
+		]
+	},
+	"cinematic - trashbot_spawn" : 
+	{
+		"effectList" : 
+		[
+			{
+				"cameraTrack" : 
+				[
+					{
+						"FOV" : 70.0,
+						"duration" : 2.0,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.034453999,
+							-59.524215698,
+							26.116897583
+						],
+						"rotation" : 
+						[
+							2.13448,
+							-0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 8.0,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.034453999,
+							-59.524215698,
+							26.116897583
+						],
+						"rotation" : 
+						[
+							2.13448,
+							-0.0,
+							0.0
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									-0.249969006,
+									-47.837890625,
+									26.957519531
+								],
+								"rotation" : 
+								[
+									-3.705602884,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									-0.249962002,
+									-43.712768555,
+									25.323287964
+								],
+								"rotation" : 
+								[
+									-52.685241699,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									-0.249984995,
+									-47.158737183,
+									7.990341187
+								],
+								"rotation" : 
+								[
+									-42.01556778,
+									0.0,
+									0.0
+								]
+							},
+							{
+								"position" : 
+								[
+									0.000038,
+									-29.471694946,
+									2.819762945
+								],
+								"rotation" : 
+								[
+									-4.905745983,
+									-0.000001,
+									0.0
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0.8,
+						"easing" : "easeInQuint",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.0,
+							-14.140949249,
+							2.346772909
+						],
+						"rotation" : 
+						[
+							9.152522087,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 70.0,
+						"duration" : 0.03,
+						"easing" : "easeOutQuad",
+						"jumpCut" : true,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.000038,
+							-14.140914917,
+							2.346786022
+						],
+						"rotation" : 
+						[
+							17.055681229,
+							-0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 50.0,
+						"duration" : 1.7,
+						"easing" : "easeOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.910094976,
+							-1.456527948,
+							11.163833618
+						],
+						"rotation" : 
+						[
+							0.825634003,
+							0.000001,
+							0.0
+						]
+					},
+					{
+						"FOV" : 50.0,
+						"duration" : 0.27,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.910109997,
+							0.365112007,
+							11.285507202
+						],
+						"rotation" : 
+						[
+							1.308773041,
+							0.0,
+							0.0
+						],
+						"tangents" : 
+						[
+							{
+								"position" : 
+								[
+									0.0,
+									-8.193107605,
+									10.707778931
+								],
+								"rotation" : 
+								[
+									0.0,
+									0.0,
+									-0.0
+								]
+							}
+						]
+					},
+					{
+						"FOV" : 60.0,
+						"duration" : 0.37,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.000015,
+							-8.431625366,
+							3.735625982
+						],
+						"rotation" : 
+						[
+							7.768684864,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 65.0,
+						"duration" : 0.23,
+						"easing" : "easeInOutQuad",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							0.000031,
+							-8.66897583,
+							3.735610962
+						],
+						"rotation" : 
+						[
+							7.768682003,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"FOV" : 90.0,
+						"duration" : 1.6,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-0.695617974,
+							-13.733825684,
+							1.777328014
+						],
+						"rotation" : 
+						[
+							13.91458416,
+							0.0,
+							-2.705189943
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 0.3,
+						"easing" : "easeOutCubic",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-0.632004023,
+							-13.728393555,
+							1.750030994
+						],
+						"rotation" : 
+						[
+							13.91458416,
+							0.0,
+							-2.705189943
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 1.6,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-2.639159918,
+							-36.287628174,
+							5.949309826
+						],
+						"rotation" : 
+						[
+							-1.22082305,
+							0.921465993,
+							-11.035104752
+						]
+					},
+					{
+						"FOV" : 80.0,
+						"duration" : 0,
+						"easing" : "linear",
+						"jumpCut" : false,
+						"overrideFOV" : true,
+						"position" : 
+						[
+							-2.803291082,
+							-37.367507935,
+							5.992095947
+						],
+						"rotation" : 
+						[
+							-2.419907093,
+							1.013427019,
+							-11.025700569
+						]
+					}
+				],
+				"hasBlendIn" : true,
+				"hasBlendOut" : true,
+				"type" : "cameraTrack"
+			},
+			{
+				"callback" : "sv_e_spawnEnemies",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_clear_warehouse.spawn_trashbot"
+				},
+				"delay" : 0.029999999,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendUnitEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_clear_warehouse.attack"
+				},
+				"delay" : 17.0,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"delay" : 13.300000191,
+				"duration" : 2.0,
+				"shakeAmplitude" : 
+				[
+					10.0,
+					2.0,
+					8.0
+				],
+				"shakeFalloffDuration" : 0,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					10.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : false,
+				"shakeStrength" : 0.2,
+				"type" : "cameraShake"
+			},
+			{
+				"delay" : 15.0,
+				"duration" : 2.799999952,
+				"shakeAmplitude" : 
+				[
+					9.0,
+					2.0,
+					6.0
+				],
+				"shakeFalloffDuration" : 1,
+				"shakeFalloffEasing" : "easeInQuad",
+				"shakeFrequency" : 
+				[
+					30.0,
+					8.0,
+					30.0
+				],
+				"shakeRadius" : 80,
+				"shakeRotational" : true,
+				"shakeStrength" : 0.04,
+				"type" : "cameraShake"
+			},
+			{
+				"callback" : "sv_e_teleportPlayers",
+				"callbackParams" : 
+				{
+					"teleportDestinations" : 
+					[
+						"trashbotspawn01.teleport01",
+						"trashbotspawn01.teleport02",
+						"trashbotspawn01.teleport03",
+						"trashbotspawn01.teleport04",
+						"trashbotspawn01.teleport05",
+						"trashbotspawn01.teleport06"
+					],
+					"teleportHost" : true
+				},
+				"delay" : 15.0,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"callback" : "sv_e_sendQuestEvent",
+				"callbackParams" : 
+				{
+					"eventName" : "event.quest_clear_warehouse.bossfight_music"
+				},
+				"delay" : 16.0,
+				"isServerCallback" : true,
+				"type" : "luaEvent"
+			},
+			{
+				"audio" : 
+				[
+					"event:/char/npc/bots/enemies/trashbot/cinematic_intro_1"
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}

@@ -1,0 +1,163 @@
+{
+	"Dif" : {},
+	"DifAsg" : 
+	{
+		"defines" : 
+		[
+			"PS_ASG_TEX"
+		]
+	},
+	"DifAsgNor" : 
+	{
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX"
+		]
+	},
+	"DifAsgNorAlpha" : 
+	{
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_FLIP_BACKFACE_NORMALS"
+		],
+		"pass" : "ALPHA"
+	},
+	"DifAsgNorAlpha_Block" : 
+	{
+		"defines" : 
+		[
+			"VS_SLANT_BLOCK",
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_CUSTOM_TILING",
+			"PS_TEXTURE_ARRAYS",
+			"INDEX_IN_UV0",
+			"PS_FLIP_BACKFACE_NORMALS"
+		],
+		"pass" : "ALPHA"
+	},
+	"DifAsgNorBackface" : 
+	{
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_FLIP_BACKFACE_NORMALS"
+		],
+		"pass" : "BACKFACE"
+	},
+	"DifAsgNorTiling" : 
+	{
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_CUSTOM_TILING"
+		]
+	},
+	// Slant materials corresponding to block materials
+	"DifAsgNor_Block" : 
+	{
+		"defines" : 
+		[
+			"VS_SLANT_BLOCK",
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_CUSTOM_TILING",
+			"PS_TEXTURE_ARRAYS",
+			"INDEX_IN_UV0"
+		]
+	},
+	"DifNor" : 
+	{
+		"defines" : 
+		[
+			"PS_NOR_TEX"
+		]
+	},
+	"DifNorTiling" : 
+	{
+		"defines" : 
+		[
+			"PS_NOR_TEX",
+			"PS_CUSTOM_TILING"
+		]
+	},
+	"Glass" : 
+	{
+		"custom" : 
+		{
+			"glass" : 
+			{
+				"ROI" : 1.52,
+				"blurriness" : 0.0,
+				"depthBlurDistance" : 1,
+				"depthBlurMin" : 0,
+				"magnification" : 0.0,
+				"magnificationDirection" : 
+				[
+					1.0,
+					1.0
+				],
+				"refraction" : 0.1,
+				"responsiveGlow" : 1.0,
+				"transmission" : 1.0,
+				"transparencyBack" : 0.2,
+				"transparencyFront" : 0.75
+			}
+		},
+		"defines" : 
+		[
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_TRANSPARENT_TINTED",
+			"PS_FLIP_BACKFACE_NORMALS",
+			"PS_REFRACTION",
+			"PS_LEGACY_GLASS",
+			"PS_LEGACY_GLASS_BLOCKS"
+		],
+		"pass" : "GLASS"
+	},
+	"Glass_Block" : 
+	{
+		"custom" : 
+		{
+			"glass" : 
+			{
+				"ROI" : 1.52,
+				"blurriness" : 0.0,
+				"depthBlurDistance" : 1,
+				"depthBlurMin" : 0,
+				"magnification" : 0.0,
+				"magnificationDirection" : 
+				[
+					1.0,
+					1.0
+				],
+				"refraction" : 0.1,
+				"responsiveGlow" : 1.0,
+				"transmission" : 1.0,
+				"transparencyBack" : 0.2,
+				"transparencyFront" : 0.75
+			}
+		},
+		"defines" : 
+		[
+			"VS_SLANT_BLOCK",
+			"PS_ASG_TEX",
+			"PS_NOR_TEX",
+			"PS_CUSTOM_TILING",
+			"PS_TEXTURE_ARRAYS",
+			"INDEX_IN_UV0",
+			"PS_TRANSPARENT_TINTED",
+			"PS_FLIP_BACKFACE_NORMALS",
+			"PS_REFRACTION",
+			"PS_LEGACY_GLASS",
+			"PS_LEGACY_GLASS_BLOCKS"
+		],
+		"pass" : "GLASS"
+	}
+}

@@ -1,0 +1,389 @@
+{
+	"entities" : 
+	{
+		"assets" : 
+		[
+			{
+				"colorMap" : 
+				{
+					"Color01" : "#EE5B28FF",
+					"Color02" : "#EBEBEBFF",
+					"Color03" : "#9197ADFF"
+				},
+				"guid" : "e987c0a9-dec8-4682-b372-9f4a5bfc65d8",
+				"transform" : 
+				{
+					"position" : 
+					[
+						73.306129455566406,
+						195.20672607421875,
+						1.7043123245239258
+					],
+					"rotation" : 
+					[
+						89.999855041503906,
+						30.535610198974609,
+						7.550791633548215e-05
+					],
+					"scale" : 
+					[
+						0.075000002980232239,
+						0.075000002980232239,
+						0.075000002980232239
+					]
+				},
+				"uuid" : "933d6b64-ddda-40cf-b152-0714dbb1ff26"
+			}
+		],
+		"blueprints" : 
+		[
+			{
+				"guid" : "b3e21b42-d930-4b72-9931-7ed316dc8f0c",
+				"params" : 
+				[
+					{
+						"descName" : "spawnerIndex",
+						"type" : "float",
+						"value" : 2
+					},
+					{
+						"descName" : "roomName",
+						"type" : "string",
+						"value" : "controlstation2"
+					}
+				],
+				"resource" : 
+				{
+					"bodies" : 
+					[
+						{
+							"childs" : 
+							[
+								{
+									"color" : "D3261A",
+									"shapeId" : "f6874702-a226-4f32-8753-d642e2124ebc"
+								}
+							],
+							"restricted" : true,
+							"type" : 0
+						}
+					]
+				},
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						75.294921875,
+						203.62353515625,
+						0.47002124786376953
+					],
+					"rotation" : 
+					[
+						-89.998603820800781,
+						-26.036914825439453,
+						-179.99919128417969
+					]
+				}
+			},
+			{
+				"guid" : "2c3a26d1-139a-4ad5-9e5d-019a19c32fea",
+				"params" : 
+				[
+					{
+						"descName" : "spawnerIndex",
+						"type" : "float",
+						"value" : 1
+					},
+					{
+						"descName" : "roomName",
+						"type" : "string",
+						"value" : "controlstation2"
+					}
+				],
+				"resource" : 
+				{
+					"bodies" : 
+					[
+						{
+							"childs" : 
+							[
+								{
+									"color" : "D3261A",
+									"shapeId" : "f6874702-a226-4f32-8753-d642e2124ebc"
+								}
+							],
+							"restricted" : true,
+							"type" : 0
+						}
+					]
+				},
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						82.276298522949219,
+						198.25347900390625,
+						0.49150180816650391
+					],
+					"rotation" : 
+					[
+						-90.001747131347656,
+						62.019710540771484,
+						-179.99905395507812
+					]
+				}
+			},
+			{
+				"guid" : "cef6f79b-603c-46ea-9732-dba9ae649d16",
+				"params" : 
+				[
+					{
+						"descName" : "spawnerIndex",
+						"type" : "float",
+						"value" : 3
+					},
+					{
+						"descName" : "roomName",
+						"type" : "string",
+						"value" : "controlstation2"
+					}
+				],
+				"resource" : 
+				{
+					"bodies" : 
+					[
+						{
+							"childs" : 
+							[
+								{
+									"color" : "D3261A",
+									"shapeId" : "f6874702-a226-4f32-8753-d642e2124ebc"
+								}
+							],
+							"restricted" : true,
+							"type" : 0
+						}
+					]
+				},
+				"sortingIndex" : 0,
+				"transform" : 
+				{
+					"position" : 
+					[
+						77.252182006835938,
+						190.31484985351562,
+						0.44295215606689453
+					],
+					"rotation" : 
+					[
+						90.000297546386719,
+						24.936277389526367,
+						-0.0011134357191622257
+					]
+				}
+			}
+		],
+		"grids" : 
+		[
+			{
+				"guid" : "df657561-2276-4d46-acad-efd6680b0499",
+				"transform" : 
+				{
+					"position" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"rotation" : 
+					[
+						-0.0,
+						0.0,
+						-0.0
+					]
+				}
+			}
+		],
+		"harvestables" : [],
+		"kinematics" : 
+		[
+			{
+				"color" : "#C11009FF",
+				"guid" : "5675d52c-347d-4cb4-8e91-c4d194326b49",
+				"params" : 
+				[
+					{
+						"descName" : "eventTrigger",
+						"type" : "string",
+						"value" : "controlstation2button.activate"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "parent.controlstation2button"
+					},
+					{
+						"descName" : "saved",
+						"type" : "bool",
+						"value" : true
+					},
+					{
+						"descName" : "connectedNodeName",
+						"type" : "string",
+						"value" : "controlstation2"
+					},
+					{
+						"descName" : "track",
+						"jsonRoot" : 
+						{
+							"track" : 
+							{
+								"loop" : false
+							}
+						},
+						"templateUuid" : "0e4272ed-d5e9-4f7d-a4fd-af65c44a86b9",
+						"type" : "jsonTemplate"
+					}
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						75.740577697753906,
+						196.6077880859375,
+						4.024327278137207
+					],
+					"rotation" : 
+					[
+						90.002281188964844,
+						-60.064098358154297,
+						0.053754106163978577
+					],
+					"scale" : 
+					[
+						0.25,
+						0.25,
+						0.25
+					]
+				},
+				"uuid" : "2c33391e-fbc5-4cd2-8880-5a3ebcc8302e"
+			}
+		],
+		"nodes" : 
+		[
+			{
+				"guid" : "4692f508-a227-44c3-ac5a-d4489de5632f",
+				"params" : 
+				[
+					{
+						"descName" : "preset",
+						"type" : "string",
+						"value" : "ce_controlstation2"
+					},
+					{
+						"descName" : "name",
+						"type" : "string",
+						"value" : "controlstation2"
+					},
+					{
+						"descName" : "kinematicFinishTag",
+						"type" : "string",
+						"value" : "controlstation2.kinematic_finish"
+					},
+					{
+						"descName" : "kinematicEventTrigger",
+						"type" : "string",
+						"value" : "controlstation2.kinematic_activation"
+					}
+				],
+				"tags" : 
+				[
+					"GROWLAB_COMBAT_ROOM"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						128.0,
+						128.0,
+						96.0
+					],
+					"rotation" : 
+					[
+						0.0,
+						0.0,
+						0.0
+					],
+					"scale" : 
+					[
+						256.0,
+						256.0,
+						200.0
+					]
+				}
+			},
+			{
+				"guid" : "7d91db28-e3fd-4612-bfce-f2246f837f21",
+				"params" : 
+				[
+					{
+						"descName" : "effect",
+						"name" : "AreaLight",
+						"params" : 
+						[
+							{
+								"name" : "range",
+								"type" : "float",
+								"value" : 37.409999847412109
+							},
+							{
+								"name" : "coneFade",
+								"type" : "float",
+								"value" : 0.82999998331069946
+							},
+							{
+								"name" : "coneAngle",
+								"type" : "float",
+								"value" : 65.580001831054688
+							}
+						],
+						"type" : "effect"
+					}
+				],
+				"tags" : 
+				[
+					"EFFECT"
+				],
+				"transform" : 
+				{
+					"position" : 
+					[
+						75.720184326171875,
+						195.49192810058594,
+						27.269197463989258
+					],
+					"rotation" : 
+					[
+						-89.999992370605469,
+						-0.0,
+						-0.0
+					],
+					"scale" : 
+					[
+						1.0,
+						1.0,
+						1.0
+					]
+				}
+			}
+		]
+	},
+	"info" : 
+	{
+		"type" : "Prefab",
+		"userId" : 0,
+		"uuid" : "5c2a47df-2c9e-4c7e-84c3-b8bfc210f30c"
+	}
+}

@@ -1,0 +1,1758 @@
+{
+	"system" : 
+	{
+		"emitters" : 
+		[
+			{
+				"category" : "3 - Mesh Explosion ",
+				"depth" : 2.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.99342
+							],
+							[
+								1.0,
+								1.08552
+							]
+						],
+						"guid" : 1,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.30768,
+								0.53289
+							],
+							[
+								0.53846,
+								0.61184
+							],
+							[
+								0.7723,
+								0.87171
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 2,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.50656
+							],
+							[
+								1.0,
+								0.50985
+							]
+						],
+						"guid" : 3,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"axis" : "x",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								22.0
+							]
+						],
+						"guid" : 4,
+						"max" : 22.0,
+						"name" : "RotationOverTime"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-11.0
+				],
+				"guid" : 0,
+				"height" : 2.0,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Top   (medium)",
+				"particle" : "mesh",
+				"position" : 
+				[
+					-0.04231,
+					-0.04485,
+					0.5235
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/builderquset_totebotbreakfree/p_renderable_builderquest_totebotbreakfree_part01.rend",
+				"rotation_speed" : 360.0,
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 0.800000012,
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"angle" : 15.0,
+				"billboard_type" : "axial_self",
+				"category" : "1 - Flash Impact",
+				"cone_angle" : 90.0,
+				"cone_radius" : 0.2,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/glow_glow03.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03906,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.10119,
+								0.13183
+							],
+							[
+								0.17709,
+								0.34404
+							],
+							[
+								0.27296,
+								0.89709
+							],
+							[
+								0.37283,
+								1.18006
+							],
+							[
+								1.0,
+								1.73512
+							]
+						],
+						"guid" : 6,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.69752,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 7,
+						"name" : "Color"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 500,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 5,
+				"height" : 
+				[
+					3.0,
+					0.125
+				],
+				"keep_local" : true,
+				"max_particles" : 5,
+				"name" : "Glow1   (low)",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"power_glow" : true,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"time_to_live" : 
+				[
+					0.2,
+					0.00999
+				],
+				"type" : "cone",
+				"velocity" : 10.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.75,
+					0.125
+				]
+			},
+			{
+				"category" : "1 - Flash Impact",
+				"color" : 
+				[
+					1.0,
+					0.60127,
+					0.2148,
+					1.0
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Glow/p_glow_sparkglow01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.64595,
+								1.64812
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 9,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 50,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 8,
+				"height" : 
+				[
+					4.0,
+					0.25
+				],
+				"keep_local" : true,
+				"max_particles" : 3,
+				"name" : "StarGlow   (low)",
+				"normal" : true,
+				"normal_range" : 0.75,
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"power_glow" : true,
+				"rotation" : 
+				[
+					0.0,
+					180.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 20.0,
+				"time_to_live" : 0.200000003,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 
+				[
+					4.0,
+					0.25
+				]
+			},
+			{
+				"category" : "1 - Flash Impact",
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/Shockwave/p_shockwave_blockshockwave.tga",
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									1.0,
+									0.28125,
+									0.0,
+									0.98039
+								]
+							],
+							[
+								0.69858,
+								[
+									1.0,
+									0.66838,
+									0.19921,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.05076,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 11,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								0.13265,
+								0.17497
+							],
+							[
+								0.22958,
+								0.63926
+							],
+							[
+								1.0,
+								1.20744
+							]
+						],
+						"guid" : 12,
+						"max_scale" : 1.25,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.68421
+							],
+							[
+								1.0,
+								0.84539
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 13,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 10,
+				"height" : 6.0,
+				"keep_local" : false,
+				"max_particles" : 3,
+				"name" : "Shockwave 2   (low)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"power_glow" : true,
+				"rotation" : 180.0,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"soft_particles_bias" : 5000,
+				"sort_offset" : 1.0,
+				"time_to_live" : 0.300000012,
+				"unlit" : true,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"category" : "1 - Flash Impact",
+				"depth" : 
+				[
+					0.3,
+					0.2
+				],
+				"diffuse" : "$GAME_DATA/Particles/Textures/2d/p_geometry_logbookicon_outsideglow.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 15,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.20723
+							],
+							[
+								1.0,
+								1.5
+							]
+						],
+						"guid" : 16,
+						"max_scale" : 1.5,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								0.71583,
+								0.62554
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.5,
+						"guid" : 17,
+						"length" : 0.5,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 400,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 14,
+				"height" : 6.0,
+				"keep_local" : false,
+				"max_particles" : 2,
+				"name" : "Smoke shockwave 2  (Low)",
+				"position" : 
+				[
+					0.0,
+					0.0,
+					0.125
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 3024,
+				"time_to_live" : 0.300000012,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 6.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "5 - sparks",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					0.38822,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.76599,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 19,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.55912
+							],
+							[
+								0.93172,
+								0.36713
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 20,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.67523
+							],
+							[
+								0.30314,
+								4.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 21,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.70977
+							],
+							[
+								1.0,
+								0.81576
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 22,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 18,
+				"height" : 
+				[
+					0.3,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 50,
+				"min_quality" : "medium",
+				"name" : "Sparks 1   (medium)",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"sphere_radius" : 1.0,
+				"time_to_live" : 
+				[
+					0.6,
+					0.4
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					10.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.2,
+					0.00999
+				],
+				"z_offset" : 10.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "1 - Flash Impact",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Flash/flash_flash01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.92966,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.13671,
+									0.08651,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.17745,
+								[
+									1.0,
+									0.53904,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.47323,
+								[
+									1.0,
+									0.5611,
+									0.16796,
+									1.0
+								]
+							],
+							[
+								0.78873,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 24,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.66881
+							],
+							[
+								1.0,
+								1.31438
+							]
+						],
+						"guid" : 25,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.5981
+							],
+							[
+								0.62335,
+								0.78723
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 26,
+						"length" : 0.4,
+						"name" : "Cutoff"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.49171
+							],
+							[
+								0.21705,
+								0.58156
+							],
+							[
+								0.36177,
+								0.76121
+							],
+							[
+								0.6345,
+								1.27655
+							],
+							[
+								0.75695,
+								1.4515
+							],
+							[
+								1.0,
+								1.64066
+							]
+						],
+						"guid" : 27,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "x-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.0
+							],
+							[
+								1.0,
+								2.0
+							]
+						],
+						"guid" : 28,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 10000,
+				"friction" : 3.0,
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 23,
+				"height" : 
+				[
+					4.0,
+					0.333
+				],
+				"keep_local" : false,
+				"max_particles" : 45,
+				"min_quality" : "medium",
+				"name" : "Flash    (low)",
+				"power_glow" : true,
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"sort_offset" : -1.0,
+				"sphere_radius" : 0.02999,
+				"surface" : true,
+				"time_to_live" : 
+				[
+					0.3,
+					0.05
+				],
+				"type" : "sphere",
+				"velocity" : 
+				[
+					2.0,
+					1.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					1.5,
+					0.1
+				]
+			},
+			{
+				"category" : "3 - Mesh Explosion ",
+				"depth" : 2.0,
+				"direction_type" : "shape",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.99342
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"guid" : 30,
+						"max_scale" : 2.0,
+						"name" : "Scale",
+						"toggle" : false
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 31,
+						"index" : 2,
+						"name" : "Pose",
+						"toggle" : false
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.50326
+							],
+							[
+								1.0,
+								0.51643
+							]
+						],
+						"guid" : 32,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-1.0
+				],
+				"guid" : 29,
+				"height" : 2.0,
+				"keep_local" : true,
+				"material_name" : "UVAnimDifAsgNorAlphaFlip",
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "medium",
+				"name" : "Bottom   (medium)",
+				"particle" : "mesh",
+				"renderable" : "$GAME_DATA/Particles/Renderable/builderquset_totebotbreakfree/p_renderable_builderquest_totebotbreakfree_part02.rend",
+				"tiles" : 
+				[
+					6,
+					6
+				],
+				"time_to_live" : 0.400000006,
+				"velocity" : 0.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"angle" : 15.0,
+				"category" : "3 - Mesh Explosion ",
+				"debris_gravity_magnitude" : 15.0,
+				"depth" : 2.0,
+				"direction" : 
+				[
+					0.0,
+					1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.99342
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"enabled" : false,
+						"guid" : 34,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 35,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.50656
+							],
+							[
+								1.0,
+								0.50985
+							]
+						],
+						"guid" : 36,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 33,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "part03      (high)",
+				"particle" : "debris",
+				"position" : 
+				[
+					0.00602,
+					1.093,
+					-0.0209
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/builderquset_totebotbreakfree/p_renderable_builderquest_totebotbreakfree_part03.rend",
+				"rotation_axis" : 
+				[
+					-1.0,
+					0.1,
+					-0.10002
+				],
+				"rotation_speed" : 
+				[
+					180.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"angle" : 15.0,
+				"category" : "3 - Mesh Explosion ",
+				"debris_gravity_magnitude" : 15.0,
+				"depth" : 2.0,
+				"direction" : 
+				[
+					1.0,
+					-2.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.99342
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"enabled" : false,
+						"guid" : 38,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 39,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.50656
+							],
+							[
+								1.0,
+								0.50985
+							]
+						],
+						"guid" : 40,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 37,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "part04      (high)",
+				"particle" : "debris",
+				"position" : 
+				[
+					0.76612,
+					-0.6608,
+					-0.27016
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/builderquset_totebotbreakfree/p_renderable_builderquest_totebotbreakfree_part04.rend",
+				"rotation_axis" : 
+				[
+					1.0,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"angle" : 15.0,
+				"category" : "3 - Mesh Explosion ",
+				"debris_gravity_magnitude" : 15.0,
+				"depth" : 2.0,
+				"direction" : 
+				[
+					-1.0,
+					-1.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.99342
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"enabled" : false,
+						"guid" : 42,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 43,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.50656
+							],
+							[
+								1.0,
+								0.50985
+							]
+						],
+						"guid" : 44,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 41,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "part05      (high)",
+				"particle" : "debris",
+				"position" : 
+				[
+					-0.73708,
+					-0.66085,
+					0.04698
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/builderquset_totebotbreakfree/p_renderable_builderquest_totebotbreakfree_part05.rend",
+				"rotation_axis" : 
+				[
+					-0.30001,
+					1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"angle" : 15.0,
+				"category" : "3 - Mesh Explosion ",
+				"debris_gravity_magnitude" : 15.0,
+				"depth" : 2.0,
+				"direction" : 
+				[
+					-1.0,
+					0.0,
+					1.0
+				],
+				"direction_type" : "constant",
+				"duration" : 0.00999,
+				"editorColor" : 
+				[
+					0.0,
+					1.0,
+					0.03528,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.99342
+							],
+							[
+								1.0,
+								1.625
+							]
+						],
+						"enabled" : false,
+						"guid" : 46,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"enabled" : false,
+						"graph" : 
+						[
+							[
+								0.0,
+								0.5
+							],
+							[
+								1.0,
+								1.0
+							]
+						],
+						"guid" : 47,
+						"index" : 2,
+						"name" : "Pose"
+					},
+					{
+						"graph" : 
+						[
+							[
+								0.0,
+								0.50656
+							],
+							[
+								1.0,
+								0.50985
+							]
+						],
+						"guid" : 48,
+						"index" : 2,
+						"name" : "Pose"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 200,
+				"guid" : 45,
+				"height" : 2.0,
+				"keep_local" : true,
+				"max_particles" : 1,
+				"mesh_size" : 
+				[
+					1.0,
+					1.0,
+					1.0
+				],
+				"min_quality" : "high",
+				"name" : "part06      (high)",
+				"particle" : "debris",
+				"position" : 
+				[
+					-0.88661,
+					0.3458,
+					-0.00664
+				],
+				"renderable" : "$GAME_DATA/Particles/Renderable/builderquset_totebotbreakfree/p_renderable_builderquest_totebotbreakfree_part06.rend",
+				"rotation_axis" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"rotation_speed" : 
+				[
+					360.0,
+					100.0
+				],
+				"time_to_live" : 
+				[
+					3.0,
+					1.0
+				],
+				"velocity" : 5.0,
+				"water_mask" : "none",
+				"width" : 2.0
+			},
+			{
+				"billboard_origin" : "bottom_center",
+				"billboard_type" : "axial_self",
+				"category" : "5 - sparks",
+				"color" : 
+				[
+					0.96862,
+					0.98821,
+					1.0,
+					1.0
+				],
+				"depth" : 0.0,
+				"diffuse" : "$GAME_DATA/Particles/Textures/Fire/fire_ashflakes01.tga",
+				"direction_type" : "shape",
+				"duration" : 0.1,
+				"editorColor" : 
+				[
+					0.0,
+					0.38822,
+					1.0,
+					1.0
+				],
+				"effects" : 
+				[
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								[
+									0.0,
+									0.0,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.14361,
+								[
+									1.0,
+									0.21093,
+									0.0,
+									1.0
+								]
+							],
+							[
+								0.82814,
+								[
+									1.0,
+									0.76599,
+									0.26952,
+									1.0
+								]
+							],
+							[
+								1.0,
+								[
+									0.03125,
+									0.01446,
+									0.0,
+									1.0
+								]
+							]
+						],
+						"guid" : 50,
+						"name" : "Color"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								1.55912
+							],
+							[
+								0.93172,
+								0.36713
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 51,
+						"max_scale" : 2.0,
+						"name" : "Scale"
+					},
+					{
+						"axis" : "y-scale",
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.67523
+							],
+							[
+								0.30314,
+								4.0
+							],
+							[
+								1.0,
+								0.0
+							]
+						],
+						"guid" : 52,
+						"max_scale" : 4.0,
+						"name" : "Scale"
+					},
+					{
+						"control_point" : 
+						[
+							[
+								0.0,
+								0.70977
+							],
+							[
+								1.0,
+								0.81576
+							]
+						],
+						"fade" : 0.25,
+						"guid" : 53,
+						"length" : 0.25,
+						"name" : "Cutoff"
+					}
+				],
+				"emission_mode" : "burst",
+				"emission_rate" : 1000,
+				"force_vector" : 
+				[
+					0.0,
+					0.0,
+					-8.0
+				],
+				"friction" : 
+				[
+					1.0,
+					1.0
+				],
+				"glow" : true,
+				"glow_strength" : 1.0,
+				"guid" : 49,
+				"height" : 
+				[
+					0.3,
+					0.02999
+				],
+				"keep_local" : false,
+				"max_particles" : 50,
+				"min_quality" : "medium",
+				"name" : "Sparks 1      (high)",
+				"rotation" : 
+				[
+					180.0,
+					180.0
+				],
+				"rotation_axis" : 
+				[
+					1.0,
+					0.0,
+					0.0
+				],
+				"scene_blend" : "addative",
+				"shadows" : true,
+				"soft_particles_bias" : 2024,
+				"sphere_radius" : 1.0,
+				"time_to_live" : 
+				[
+					0.6,
+					0.4
+				],
+				"type" : "hemisphere",
+				"velocity" : 
+				[
+					10.0,
+					2.0
+				],
+				"water_mask" : "none",
+				"width" : 
+				[
+					0.2,
+					0.00999
+				],
+				"z_offset" : 10.0
+			}
+		],
+		"min_quality" : "low",
+		"scale" : 0.5
+	}
+}

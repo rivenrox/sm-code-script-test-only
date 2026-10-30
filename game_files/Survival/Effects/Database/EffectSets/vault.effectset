@@ -1,0 +1,80 @@
+{
+	"Vault - EntranceEffect" : 
+	{
+		"effectList" : 
+		[
+			{
+				"direction" : 
+				[
+					0.0,
+					-1.0,
+					0.0
+				],
+				"name" : "$SURVIVAL_DATA/Effects/Renderable/vault/eff_vault_entrance.rend",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"offsetScale" : 
+				[
+					0.25,
+					0.25,
+					0.25
+				],
+				"type" : "renderable"
+			},
+			{
+				"name" : "p_vault_entrance",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		]
+	},
+	"Vault - EntranceEffect_interact" : 
+	{
+		"effectList" : 
+		[
+			{
+				"name" : "p_vault_entrance_interact",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			}
+		],
+		"maxInstances" : 1
+	},
+	"Vault - Quota_reached" : 
+	{
+		"effectList" : 
+		[
+			{
+				"name" : "p_vault_quota_reached",
+				"offset" : 
+				[
+					0.0,
+					0.0,
+					0.0
+				],
+				"type" : "particle"
+			},
+			{
+				"audio" : 
+				[
+					"event:/ui/quest/vault"
+				],
+				"type" : "audio"
+			}
+		]
+	}
+}
